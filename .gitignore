@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+.out/
+.DS_Store
+.env
+.env.local
+*.log
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+apps/backend/data/*.sqlite
+apps/backend/data/*.sqlite-*

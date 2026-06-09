@@ -1,0 +1,108 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "Home" [ref=e14] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e16]
+          - search [ref=e33]:
+            - generic [ref=e35]:
+              - img [ref=e38]
+              - textbox "Ask" [ref=e41]:
+                - /placeholder: Find anything
+              - separator [ref=e42]
+              - link "Ask" [ref=e46] [cursor=pointer]:
+                - /url: /answers/
+                - generic [ref=e47]:
+                  - img [ref=e49]
+                  - generic [ref=e51]: Ask
+          - generic [ref=e52]:
+            - link "Sign Up" [ref=e58] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e60]: Sign Up
+            - link "Log In" [ref=e64] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e66]: Log In
+            - button "Expand user menu" [ref=e71] [cursor=pointer]:
+              - img [ref=e74]
+              - generic [ref=e76]:
+                - generic: Expand user menu
+      - main [ref=e77]
+      - dialog [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e83]:
+            - generic:
+              - link [active] [ref=e86] [cursor=pointer]:
+                - /url: /
+                - img [ref=e89]
+              - generic [ref=e91]:
+                - generic [ref=e93]: We couldn't find that community
+                - generic [ref=e94]:
+                  - paragraph [ref=e95]: Related Communities
+                  - article "r/ArtificialInteligence" [ref=e96]:
+                    - generic [ref=e97]:
+                      - link "r/ArtificialInteligence" [ref=e98] [cursor=pointer]:
+                        - /url: /r/ArtificialInteligence
+                        - generic [ref=e99]:
+                          - generic: r/ArtificialInteligence
+                      - generic [ref=e105]:
+                        - heading "r/ArtificialInteligence" [level=2] [ref=e106]:
+                          - generic [ref=e107]: r/ArtificialInteligence
+                        - generic [ref=e108]:
+                          - generic [ref=e109]:
+                            - generic [ref=e110]:
+                              - generic [ref=e111]: 589K
+                              - text: weekly visitors
+                            - generic [ref=e112]: ·
+                            - generic [ref=e113]:
+                              - generic [ref=e114]: 10K
+                              - text: weekly contributions
+                          - paragraph [ref=e115]: The high-signal hub for artificial intelligence!
+                  - separator [ref=e116]
+                  - article "r/artificial" [ref=e117]:
+                    - generic [ref=e118]:
+                      - link "r/artificial" [ref=e119] [cursor=pointer]:
+                        - /url: /r/artificial
+                        - generic [ref=e120]:
+                          - generic: r/artificial
+                      - generic [ref=e126]:
+                        - heading "r/artificial" [level=2] [ref=e127]:
+                          - generic [ref=e128]: r/artificial
+                        - generic [ref=e129]:
+                          - generic [ref=e130]:
+                            - generic [ref=e131]:
+                              - generic [ref=e132]: 355K
+                              - text: weekly visitors
+                            - generic [ref=e133]: ·
+                            - generic [ref=e134]:
+                              - generic [ref=e135]: 5.7K
+                              - text: weekly contributions
+                          - paragraph [ref=e136]: Reddit’s home for Artificial Intelligence (AI)
+                  - separator [ref=e137]
+                  - article "r/ArtificialNtelligence" [ref=e138]:
+                    - generic [ref=e139]:
+                      - link "r/ArtificialNtelligence" [ref=e140] [cursor=pointer]:
+                        - /url: /r/ArtificialNtelligence
+                        - generic [ref=e141]:
+                          - generic: r/ArtificialNtelligence
+                      - generic [ref=e147]:
+                        - heading "r/ArtificialNtelligence" [level=2] [ref=e148]:
+                          - generic [ref=e149]: r/ArtificialNtelligence
+                        - generic [ref=e150]:
+                          - generic [ref=e151]:
+                            - generic [ref=e152]:
+                              - generic [ref=e153]: 13K
+                              - text: weekly visitors
+                            - generic [ref=e154]: ·
+                            - generic [ref=e155]:
+                              - generic [ref=e156]: "768"
+                              - text: weekly contributions
+                          - paragraph [ref=e157]: Welcome to Artificial Ntelligence - This community is devoted to the field of Artificial Intelligence.
+                  - separator [ref=e158]
+          - link "Search Reddit" [ref=e161] [cursor=pointer]:
+            - /url: /search/?q=ArtificialIntelligence&type=communities
+            - generic [ref=e163]: Search Reddit

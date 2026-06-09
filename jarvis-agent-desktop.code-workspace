@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "apps/backend/.venv/bin/python",
+    "typescript.tsdk": "apps/desktop/node_modules/typescript/lib"
+  }
+}

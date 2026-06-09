@@ -1,0 +1,353 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "Home" [ref=e14] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e16]
+          - generic [ref=e29]:
+            - img [ref=e31]
+            - textbox "Find anything" [ref=e34]: automated news sentiment trading bot reddit
+          - generic [ref=e35]:
+            - link "Sign Up" [ref=e41] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e43]: Sign Up
+            - link "Log In" [ref=e47] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e49]: Log In
+            - button "Expand user menu" [ref=e54] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e59]:
+                - generic: Expand user menu
+      - generic "automated news sentiment trading bot reddit - Reddit Search!"
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e68]:
+            - button "All" [ref=e69] [cursor=pointer]:
+              - generic [ref=e73]: All
+            - link "Posts" [ref=e74] [cursor=pointer]:
+              - /url: /search/?q=automated+news+sentiment+trading+bot+reddit&type=posts
+              - generic [ref=e79]: Posts
+            - link "Communities" [ref=e80] [cursor=pointer]:
+              - /url: /search/?q=automated+news+sentiment+trading+bot+reddit&type=communities
+              - generic [ref=e85]: Communities
+            - link "Comments" [ref=e86] [cursor=pointer]:
+              - /url: /search/?q=automated+news+sentiment+trading+bot+reddit&type=comments
+              - generic [ref=e91]: Comments
+            - link "Media" [ref=e92] [cursor=pointer]:
+              - /url: /search/?q=automated+news+sentiment+trading+bot+reddit&type=media
+              - generic [ref=e97]: Media
+            - link "Profiles" [ref=e98] [cursor=pointer]:
+              - /url: /search/?q=automated+news+sentiment+trading+bot+reddit&type=people
+              - generic [ref=e103]: Profiles
+          - generic [ref=e107]:
+            - main [ref=e108]:
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e112]:
+                    - img [ref=e113]
+                    - generic [ref=e115]: What people are saying
+                  - separator [ref=e116]
+                - generic [ref=e117]:
+                  - generic [ref=e118]: Posts
+                  - link "See more" [ref=e121] [cursor=pointer]:
+                    - /url: /search/?q=automated+news+sentiment+trading+bot+reddit&type=posts
+                    - generic [ref=e122]: See more
+                    - img [ref=e124]
+                - generic [ref=e127]:
+                  - generic:
+                    - heading "I built an automated forex trading bot with zero coding experience using Claude AI" [level=2]:
+                      - link "I built an automated forex trading bot with zero coding experience using Claude AI" [ref=e128] [cursor=pointer]:
+                        - /url: /r/passive_income/comments/1tucm1p/i_built_an_automated_forex_trading_bot_with_zero/
+                        - generic [ref=e129]:
+                          - generic: I built an automated forex trading bot with zero coding experience using Claude AI
+                  - generic [ref=e130]:
+                    - generic [ref=e133]:
+                      - link "r/passive_income" [ref=e136] [cursor=pointer]:
+                        - /url: /r/passive_income/
+                        - generic [ref=e140]: r/passive_income
+                      - generic [ref=e141]: ·
+                    - link "I built an automated forex trading bot with zero coding experience using Claude AI" [ref=e142] [cursor=pointer]:
+                      - /url: /r/passive_income/comments/1tucm1p/i_built_an_automated_forex_trading_bot_with_zero/
+                    - generic [ref=e143]:
+                      - generic [ref=e144]: votes
+                      - text: ·
+                      - generic [ref=e145]: comments
+                - separator [ref=e146]
+                - generic [ref=e148]:
+                  - generic:
+                    - heading "Do any of you check news sentiment before entering a trade?" [level=2]:
+                      - link "Do any of you check news sentiment before entering a trade?" [ref=e149] [cursor=pointer]:
+                        - /url: /r/Trading/comments/1tqocbo/do_any_of_you_check_news_sentiment_before/
+                        - generic [ref=e150]:
+                          - generic: Do any of you check news sentiment before entering a trade?
+                  - generic [ref=e151]:
+                    - generic [ref=e154]:
+                      - link "r/Trading" [ref=e157] [cursor=pointer]:
+                        - /url: /r/Trading/
+                        - generic [ref=e161]: r/Trading
+                      - generic [ref=e162]: ·
+                    - link "Do any of you check news sentiment before entering a trade?" [ref=e163] [cursor=pointer]:
+                      - /url: /r/Trading/comments/1tqocbo/do_any_of_you_check_news_sentiment_before/
+                    - generic [ref=e164]:
+                      - generic [ref=e165]: votes
+                      - text: ·
+                      - generic [ref=e166]: comments
+                - separator [ref=e167]
+                - generic [ref=e169]:
+                  - generic:
+                    - heading "I built a news-driven trading agent that just watches headlines and places trades automatically." [level=2]:
+                      - link "I built a news-driven trading agent that just watches headlines and places trades automatically." [ref=e170] [cursor=pointer]:
+                        - /url: /r/algotrading/comments/1sxp115/i_built_a_newsdriven_trading_agent_that_just/
+                        - generic [ref=e171]:
+                          - generic: I built a news-driven trading agent that just watches headlines and places trades automatically.
+                  - generic [ref=e172]:
+                    - generic [ref=e175]:
+                      - link "r/algotrading" [ref=e178] [cursor=pointer]:
+                        - /url: /r/algotrading/
+                        - generic [ref=e182]: r/algotrading
+                      - generic [ref=e183]: ·
+                    - link "I built a news-driven trading agent that just watches headlines and places trades automatically." [ref=e184] [cursor=pointer]:
+                      - /url: /r/algotrading/comments/1sxp115/i_built_a_newsdriven_trading_agent_that_just/
+                    - link "A script reads financial news in real time, scores each headline as positive or negative, and sends a trade to my broker." [ref=e186] [cursor=pointer]:
+                      - /url: /r/algotrading/comments/1sxp115/i_built_a_newsdriven_trading_agent_that_just/
+                    - generic [ref=e187]:
+                      - generic [ref=e188]: votes
+                      - text: ·
+                      - generic [ref=e189]: comments
+                - separator [ref=e190]
+                - generic [ref=e192]:
+                  - generic:
+                    - heading "Just over 8 months officially public with my automated algorithmic trading system." [level=2]:
+                      - link "Just over 8 months officially public with my automated algorithmic trading system." [ref=e193] [cursor=pointer]:
+                        - /url: /r/AIIncomeLab/comments/1ttc1sr/just_over_8_months_officially_public_with_my/
+                        - generic [ref=e194]:
+                          - generic: Just over 8 months officially public with my automated algorithmic trading system.
+                  - generic [ref=e195]:
+                    - generic [ref=e198]:
+                      - link "r/AIIncomeLab" [ref=e201] [cursor=pointer]:
+                        - /url: /r/AIIncomeLab/
+                        - generic [ref=e205]: r/AIIncomeLab
+                      - generic [ref=e206]: ·
+                    - link "Just over 8 months officially public with my automated algorithmic trading system." [ref=e207] [cursor=pointer]:
+                      - /url: /r/AIIncomeLab/comments/1ttc1sr/just_over_8_months_officially_public_with_my/
+                    - generic [ref=e208]:
+                      - generic [ref=e209]: votes
+                      - text: ·
+                      - generic [ref=e210]: comments
+                - separator [ref=e211]
+                - generic [ref=e213]:
+                  - generic:
+                    - heading "Anyone using AI trading tools/bots? Which ones actually work?" [level=2]:
+                      - link "Anyone using AI trading tools/bots? Which ones actually work?" [ref=e214] [cursor=pointer]:
+                        - /url: /r/Trading/comments/1sufbk9/anyone_using_ai_trading_toolsbots_which_ones/
+                        - generic [ref=e215]:
+                          - generic: Anyone using AI trading tools/bots? Which ones actually work?
+                  - generic [ref=e216]:
+                    - generic [ref=e219]:
+                      - link "r/Trading" [ref=e222] [cursor=pointer]:
+                        - /url: /r/Trading/
+                        - generic [ref=e226]: r/Trading
+                      - generic [ref=e227]: ·
+                    - link "Anyone using AI trading tools/bots? Which ones actually work?" [ref=e228] [cursor=pointer]:
+                      - /url: /r/Trading/comments/1sufbk9/anyone_using_ai_trading_toolsbots_which_ones/
+                    - link "It gives you a much clearer look at underlying sentiment than standard pattern recognition bots." [ref=e230] [cursor=pointer]:
+                      - /url: /r/Trading/comments/1sufbk9/anyone_using_ai_trading_toolsbots_which_ones/
+                    - generic [ref=e231]:
+                      - generic [ref=e232]: votes
+                      - text: ·
+                      - generic [ref=e233]: comments
+                - separator [ref=e234]
+                - generic [ref=e236]:
+                  - generic:
+                    - heading "What do you guys use for real-time news when trading? (Without paying for Bloomberg)" [level=2]:
+                      - link "What do you guys use for real-time news when trading? (Without paying for Bloomberg)" [ref=e237] [cursor=pointer]:
+                        - /url: /r/Daytrading/comments/1tsvmcz/what_do_you_guys_use_for_realtime_news_when/
+                        - generic [ref=e238]:
+                          - generic: What do you guys use for real-time news when trading? (Without paying for Bloomberg)
+                  - generic [ref=e239]:
+                    - generic [ref=e242]:
+                      - link "r/Daytrading" [ref=e245] [cursor=pointer]:
+                        - /url: /r/Daytrading/
+                        - generic [ref=e249]: r/Daytrading
+                      - generic [ref=e250]: ·
+                    - link "What do you guys use for real-time news when trading? (Without paying for Bloomberg)" [ref=e251] [cursor=pointer]:
+                      - /url: /r/Daytrading/comments/1tsvmcz/what_do_you_guys_use_for_realtime_news_when/
+                    - generic [ref=e252]:
+                      - generic [ref=e253]: votes
+                      - text: ·
+                      - generic [ref=e254]: comments
+                - separator [ref=e255]
+                - generic [ref=e257]:
+                  - generic:
+                    - heading "Making a bot for full automated trading." [level=2]:
+                      - link "Making a bot for full automated trading." [ref=e258] [cursor=pointer]:
+                        - /url: /r/IndiaAlgoTrading/comments/1qyo7n7/making_a_bot_for_full_automated_trading/
+                        - generic [ref=e259]:
+                          - generic: Making a bot for full automated trading.
+                  - generic [ref=e260]:
+                    - generic [ref=e263]:
+                      - link "r/IndiaAlgoTrading" [ref=e266] [cursor=pointer]:
+                        - /url: /r/IndiaAlgoTrading/
+                        - generic [ref=e270]: r/IndiaAlgoTrading
+                      - generic [ref=e271]: ·
+                    - link "Making a bot for full automated trading." [ref=e272] [cursor=pointer]:
+                      - /url: /r/IndiaAlgoTrading/comments/1qyo7n7/making_a_bot_for_full_automated_trading/
+                    - link "If your strategy is good then it really worth. I also do it via AlgoFruit and it’s seemless I don’t need to even look for it." [ref=e274] [cursor=pointer]:
+                      - /url: /r/IndiaAlgoTrading/comments/1qyo7n7/making_a_bot_for_full_automated_trading/
+                    - generic [ref=e275]:
+                      - generic [ref=e276]: votes
+                      - text: ·
+                      - generic [ref=e277]: comments
+                - separator [ref=e278]
+                - generic [ref=e280]: People also search for
+                - generic [ref=e282]:
+                  - link "AI chatbots for market sentiment analysis" [ref=e285] [cursor=pointer]:
+                    - /url: /search/?q=AI+chatbots+for+market+sentiment+analysis&cId=1821295b-d192-4b2b-8926-80bbd7e5e4ea&iId=44e261fb-a71a-459a-b89a-386a553cc6d8
+                    - generic [ref=e286]:
+                      - img [ref=e288]
+                      - generic [ref=e290]: AI chatbots for market sentiment analysis
+                  - link "AI trading bots for automated trading" [ref=e293] [cursor=pointer]:
+                    - /url: /search/?q=AI+trading+bots+for+automated+trading&cId=a51840eb-5f9b-4892-a2ad-a5e177e21c76&iId=c98650da-e089-4e60-ac3d-764a92b407d2
+                    - generic [ref=e294]:
+                      - img [ref=e296]
+                      - generic [ref=e298]: AI trading bots for automated trading
+                  - link "AI trading signal bot recommendations" [ref=e301] [cursor=pointer]:
+                    - /url: /search/?q=AI+trading+signal+bot+recommendations&cId=7e1608cb-5f7c-490b-a215-65bffe0cc975&iId=756eef98-8bb8-4afa-82aa-1d163669dcbe
+                    - generic [ref=e302]:
+                      - img [ref=e304]
+                      - generic [ref=e306]: AI trading signal bot recommendations
+                  - link "Best trading bots for stocks" [ref=e309] [cursor=pointer]:
+                    - /url: /search/?q=Best+trading+bots+for+stocks&cId=446ec3aa-7d2d-43a7-9f19-e76340b4340f&iId=2de058f4-b448-40e2-801e-029869379246
+                    - generic [ref=e310]:
+                      - img [ref=e312]
+                      - generic [ref=e314]: Best trading bots for stocks
+                  - link "Automated trading bots for copy trading" [ref=e317] [cursor=pointer]:
+                    - /url: /search/?q=Automated+trading+bots+for+copy+trading&cId=d5001b23-cc73-4fab-aa59-fcb7ba760498&iId=aacb48fd-94ce-4b04-b3a9-25ec2a5b3435
+                    - generic [ref=e318]:
+                      - img [ref=e320]
+                      - generic [ref=e322]: Automated trading bots for copy trading
+                  - link "Best AI trading bots for 2025" [ref=e325] [cursor=pointer]:
+                    - /url: /search/?q=Best+AI+trading+bots+for+2025&cId=222c914a-f00e-4529-9623-bfdd7bd36c68&iId=f8da0bb4-49da-47e2-9cba-f5176f62dc02
+                    - generic [ref=e326]:
+                      - img [ref=e328]
+                      - generic [ref=e330]: Best AI trading bots for 2025
+                - separator [ref=e331]
+            - generic [ref=e335]:
+              - generic [ref=e339]:
+                - heading "Communities" [level=2] [ref=e340]
+                - generic [ref=e342]:
+                  - link "algotrading" [ref=e343] [cursor=pointer]:
+                    - /url: /r/algotrading/
+                    - generic [ref=e344]:
+                      - generic: algotrading
+                  - generic [ref=e351]:
+                    - heading "r/algotrading" [level=3] [ref=e352]:
+                      - generic [ref=e353]: r/algotrading
+                    - generic [ref=e354]:
+                      - paragraph [ref=e355]: A place for redditors to discuss quantitative trading, statistical methods, econometrics, programming, implementation, automated strategies, and bounce ideas off each other for constructive criticism. Feel free to submit papers/links of things you find interesting.
+                      - generic [ref=e356]:
+                        - generic [ref=e357]: weekly visitors
+                        - generic [ref=e358]: ·
+                        - generic [ref=e359]: weekly contributions
+                - generic [ref=e361]:
+                  - link "StockTradingIdeas" [ref=e362] [cursor=pointer]:
+                    - /url: /r/StockTradingIdeas/
+                    - generic [ref=e363]:
+                      - generic: StockTradingIdeas
+                  - generic [ref=e370]:
+                    - heading "r/StockTradingIdeas" [level=3] [ref=e371]:
+                      - generic [ref=e372]: r/StockTradingIdeas
+                    - generic [ref=e373]:
+                      - paragraph [ref=e374]: Algo Trading Platform with AI (artifical intelligence) that delivers clear buy and short signals on any security listed across major stock exchanges (NYSE, NASDAQ, OTC and Global Exchanges) including Forex. 90% of investors who trade in the stock market lose money. Use our easy to follow trading strategies, to improve overall portfolio perfomance. Learn more at UltraAlgo.com
+                      - generic [ref=e375]:
+                        - generic [ref=e376]: weekly visitors
+                        - generic [ref=e377]: ·
+                        - generic [ref=e378]: weekly contributions
+                - generic [ref=e380]:
+                  - link "CryptoTradingBot" [ref=e381] [cursor=pointer]:
+                    - /url: /r/CryptoTradingBot/
+                    - generic [ref=e382]:
+                      - generic: CryptoTradingBot
+                  - generic [ref=e389]:
+                    - heading "r/CryptoTradingBot" [level=3] [ref=e390]:
+                      - generic [ref=e391]: r/CryptoTradingBot
+                    - generic [ref=e392]:
+                      - paragraph [ref=e393]: From beginner-friendly bots to advanced algorithmic strategies, we cover everything related crypto trading bots. Get platform recommendations, share bot performance results, and optimize your trading setups with insights from the community! This is the hub for traders using bots to conquer the crypto markets! Discuss algorithmic trading, signal-based bots, arbitrage strategies, and the best platforms to automate your trades. Share experiences, tips, and insights with like-minded traders.
+                      - generic [ref=e394]:
+                        - generic [ref=e395]: weekly visitors
+                        - generic [ref=e396]: ·
+                        - generic [ref=e397]: weekly contributions
+                - generic [ref=e399]:
+                  - link "algorithmictrading" [ref=e400] [cursor=pointer]:
+                    - /url: /r/algorithmictrading/
+                    - generic [ref=e401]:
+                      - generic: algorithmictrading
+                  - generic [ref=e408]:
+                    - heading "r/algorithmictrading" [level=3] [ref=e409]:
+                      - generic [ref=e410]: r/algorithmictrading
+                    - generic [ref=e411]:
+                      - paragraph [ref=e412]: A technical subreddit where developers can discuss the nuts and bolts of algorithmic trading systems, exchange ideas, techniques, brainstorm, offer feedback, etc. Post your backtest results/equity curves, links to academic papers, and other relevant, high quality technical content. PLEASE REVIEW COMMUNITY RULES BEFORE POSTING. They are strictly enforced, violators banned. To post, your account age>90d and karma>30.
+                      - generic [ref=e413]:
+                        - generic [ref=e414]: weekly visitors
+                        - generic [ref=e415]: ·
+                        - generic [ref=e416]: weekly contributions
+                - generic [ref=e418]:
+                  - link "ai_trading" [ref=e419] [cursor=pointer]:
+                    - /url: /r/ai_trading/
+                    - generic [ref=e420]:
+                      - generic: ai_trading
+                  - generic [ref=e427]:
+                    - heading "r/ai_trading" [level=3] [ref=e428]:
+                      - generic [ref=e429]: r/ai_trading
+                    - generic [ref=e430]:
+                      - paragraph [ref=e431]: "Trading and investing community. We post useful videos, educational content, and discuss algotrading & AI-investment tools here. Powered by professional traders, investors, and AI-algorithms, developed by Tickeron. Learn more about our technologies here: http://tickeron.com"
+                      - generic [ref=e432]:
+                        - generic [ref=e433]: weekly visitors
+                        - generic [ref=e434]: ·
+                        - generic [ref=e435]: weekly contributions
+                - link "See more communities" [ref=e437] [cursor=pointer]:
+                  - /url: /search/?q=automated+news+sentiment+trading+bot+reddit&type=communities
+              - list [ref=e439]:
+                - listitem [ref=e440]:
+                  - link "Reddit Rules" [ref=e442] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e443]:
+                  - link "Privacy Policy" [ref=e445] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e446]:
+                  - link "User Agreement" [ref=e448] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e449]:
+                  - link "Your Privacy Choices" [ref=e451] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e452]:
+                  - link "Accessibility" [ref=e454] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e455]:
+                  - link "Reddit, Inc. © 2026. All rights reserved." [ref=e456] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e458]:
+          - button "Collapse Navigation" [ref=e461] [cursor=pointer]:
+            - img [ref=e464]
+            - generic [ref=e466]:
+              - generic: Collapse Navigation
+          - navigation "Primary" [ref=e470]:
+            - separator [ref=e472]
+            - group [ref=e475]:
+              - generic "RECENT" [ref=e476] [cursor=pointer]:
+                - generic [ref=e477]:
+                  - generic [ref=e480]: RECENT
+                  - img [ref=e483]
+              - link "r/marketing" [ref=e487] [cursor=pointer]:
+                - /url: /r/marketing/
+                - generic [ref=e488]:
+                  - img [ref=e493]
+                  - generic [ref=e496]: r/marketing
+            - navigation "Reddit resources"
+            - link "Reddit, Inc. © 2026. All rights reserved." [ref=e498] [cursor=pointer]:
+              - /url: https://redditinc.com

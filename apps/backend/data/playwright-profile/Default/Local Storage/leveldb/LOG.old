@@ -1,0 +1,6 @@
+2026/05/31-18:52:09.922 43429e Reusing MANIFEST /Users/derekin/Desktop/jarvis-agent-desktop/apps/backend/data/playwright-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/31-18:52:09.925 43429e Recovering log #4
+2026/05/31-18:52:09.925 43429e Reusing old log /Users/derekin/Desktop/jarvis-agent-desktop/apps/backend/data/playwright-profile/Default/Local Storage/leveldb/000004.log 
+2026/05/31-18:53:09.929 4342a1 Level-0 table #7: started
+2026/05/31-18:53:09.932 4342a1 Level-0 table #7: 61744 bytes OK
+2026/05/31-18:53:09.934 4342a1 Delete type=0 #4

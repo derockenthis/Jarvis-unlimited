@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend: Dev Server",
+      "type": "shell",
+      "command": "npm run backend:dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Desktop: Dev App",
+      "type": "shell",
+      "command": "npm run desktop:dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Validate",
+      "type": "shell",
+      "command": "npm run validate",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

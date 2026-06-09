@@ -1,0 +1,577 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "Doodle for Google Winner 2025-2026" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQPQgK
+          - img "Doodle for Google Winner 2025-2026" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: legality of automated news sentiment trading bots SEC regulations legality of automated news sentiment trading bots SEC regulations
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]
+      - generic [ref=e42]:
+        - button "Google apps" [ref=e44] [cursor=pointer]:
+          - img [ref=e45]
+        - link "Sign in" [ref=e49] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dlegality%2Bof%2Bautomated%2Bnews%2Bsentiment%2Btrading%2Bbots%2BSEC%2Bregulations%26sei%3DMCUiaua5CJrXp84PiMD6-As&ec=futura_srp_og_si_72236_p
+  - generic [ref=e51]:
+    - navigation [ref=e57]:
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "AI Mode" [ref=e64] [cursor=pointer]:
+            - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOmIS-BCE_hYlCLy7J2X9kJnZa9e_WHH--UjYmfu8L50Qneic_vPLcGjg2-KtNOLNnAiiTLTxSzNWyIPj6cgmhnkKorvGOxW1Uitl8Qmk7LJQp0T5dOBMlVkH5hcmCubBIA2H63eBEeIWh9tyf-lSl7QlK3Kg&aep=1&ntc=1&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ2J8OegQIEBAD
+            - generic [ref=e67]: AI Mode
+        - listitem [ref=e68]:
+          - link "All" [disabled] [ref=e69]:
+            - generic [ref=e71]: All
+        - listitem [ref=e72]:
+          - link "News" [ref=e73] [cursor=pointer]:
+            - /url: /search?sca_esv=88a6b616b8dc7187&q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOmIS-BCE_hYlCLy7J2X9kJnZa9e_WHH--UjYmfu8L50Qneic_vPLcGjg2-KtNOLNnAiiTLTxSzNWyIPj6cgmhnkKorvGOxW1Uitl8Qmk7LJQp0T5dOBMlVkH5hcmCubBIA2H63eBEeIWh9tyf-lSl7QlK3Kg&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ0pQJegQIEhAB
+            - generic [ref=e75]: News
+        - listitem [ref=e76]:
+          - link "Forums" [ref=e77] [cursor=pointer]:
+            - /url: /search?sca_esv=88a6b616b8dc7187&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOmIS-BCE_hYlCLy7J2X9kJnZa9e_WHH--UjYmfu8L50Qneic_vPLcGjg2-KtNOLNnAiiTLTxSzNWyIPj6cgmhnkKorvGOxW1Uitl8Qmk7LJQp0T5dOBMlVkH5hcmCubBIA2H63eBEeIWh9tyf-lSl7QlK3Kg&q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQs6gLegQIFRAB
+            - generic [ref=e79]: Forums
+        - listitem [ref=e80]:
+          - link "Videos" [ref=e81] [cursor=pointer]:
+            - /url: /search?sca_esv=88a6b616b8dc7187&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOmIS-BCE_hYlCLy7J2X9kJnZa9e_WHH--UjYmfu8L50Qneic_vPLcGjg2-KtNOLNnAiiTLTxSzNWyIPj6cgmhnkKorvGOxW1Uitl8Qmk7LJQp0T5dOBMlVkH5hcmCubBIA2H63eBEeIWh9tyf-lSl7QlK3Kg&q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQtKgLegQIExAB
+            - generic [ref=e83]: Videos
+        - listitem [ref=e84]:
+          - link "Shopping" [ref=e85] [cursor=pointer]:
+            - /url: /search?sca_esv=88a6b616b8dc7187&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOmIS-BCE_hYlCLy7J2X9kJnZa9e_WHH--UjYmfu8L50Qneic_vPLcGjg2-KtNOLNnAiiTLTxSzNWyIPj6cgmhnkKorvGOxW1Uitl8Qmk7LJQp0T5dOBMlVkH5hcmCubBIA2H63eBEeIWh9tyf-lSl7QlK3Kg&q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&ved=1t:220175&ictx=111
+            - generic [ref=e87]: Shopping
+        - listitem [ref=e88]:
+          - link "Images" [ref=e89] [cursor=pointer]:
+            - /url: /search?sca_esv=88a6b616b8dc7187&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIQ_jIVVZSZbDa1_5a5BDWIOmIS-BCE_hYlCLy7J2X9kJnZa9e_WHH--UjYmfu8L50Qneic_vPLcGjg2-KtNOLNnAiiTLTxSzNWyIPj6cgmhnkKorvGOxW1Uitl8Qmk7LJQp0T5dOBMlVkH5hcmCubBIA2H63eBEeIWh9tyf-lSl7QlK3Kg&q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQtKgLegQIFBAB
+            - generic [ref=e91]: Images
+        - listitem [ref=e92]:
+          - button "More filters" [ref=e93] [cursor=pointer]:
+            - generic "More filters" [ref=e94]:
+              - generic [ref=e95]:
+                - generic [ref=e96]: More
+                - img [ref=e98]
+    - heading "Search Results" [level=1] [ref=e100]
+    - generic [ref=e105]:
+      - generic [ref=e124]:
+        - generic [ref=e126]:
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - img [ref=e130]
+              - heading "AI Overview" [level=2] [ref=e132]
+            - button "About this result" [ref=e136]:
+              - img [ref=e138]
+          - generic [ref=e159]:
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - text: Automated news sentiment trading bots are
+                - strong [ref=e164]: legal
+                - text: in the United States, provided they are programmed and operated in strict compliance with existing federal securities laws and agency oversight. The Securities and Exchange Commission (SEC) regulates these tools under established anti-fraud, anti-manipulation, and operational rules.
+                - generic [ref=e166]:
+                  - link "StoneX (+2) - View related links" [ref=e167] [cursor=pointer]:
+                    - /url: https://www.stonex.com/en/business/financial-glossary/algorithmic-trading/
+                  - button "StoneX (+2) - View related links" [disabled] [ref=e168]:
+                    - generic [ref=e170]:
+                      - generic [ref=e171]: StoneX
+                      - generic [ref=e172]: "+2"
+              - heading "Core Legal and Regulatory Requirements" [level=3] [ref=e173]
+              - generic [ref=e175]:
+                - text: "While the technology itself is permitted, the SEC enforces strict guidelines regarding how these algorithms interact with the market:"
+                - button "View related links" [disabled] [ref=e178]:
+                  - img [ref=e181]
+              - list [ref=e184]:
+                - listitem [ref=e185]:
+                  - generic [ref=e186]:
+                    - strong [ref=e187]: "Market Manipulation:"
+                    - text: Using an AI or algorithm to artificially distort prices, execute "wash trades," "spoof," or "layer" orders to deceive the market is strictly illegal. The SEC prosecutes these activities regardless of whether a human or a bot executes the trade.
+                  - generic [ref=e189]:
+                    - link [ref=e190] [cursor=pointer]:
+                      - /url: https://www.acfcs.org/acfcs-contributor-report-2025-oversight-in-securities-regulators-and-ai-enabled-algorithmic-financial-crime
+                    - button [disabled] [ref=e191]:
+                      - generic [ref=e193]:
+                        - generic [ref=e194]: Association of Certified Financial Crime Specialists
+                        - generic [ref=e195]: "+3"
+                - listitem [ref=e196]:
+                  - generic [ref=e197]:
+                    - strong [ref=e198]: "Anti-Fraud Provisions (Rule 10b-5):"
+                    - text: Deceptive practices, including the intentional spreading of false information to feed into a sentiment bot's algorithms or acting on Material Non-Public Information (MNPI), violate the Securities Exchange Act.
+                  - generic [ref=e200]:
+                    - link [ref=e201] [cursor=pointer]:
+                      - /url: https://www.sec.gov/newsroom/speeches-statements/enforcement-tm-statement-potentially-unlawful-online-platforms-trading-digital-assets
+                    - button [disabled] [ref=e202]:
+                      - generic [ref=e204]:
+                        - generic [ref=e205]: SEC.gov
+                        - generic [ref=e206]: "+1"
+                - listitem [ref=e207]:
+                  - generic [ref=e208]:
+                    - strong [ref=e209]: "\"AI Washing\" and Transparency:"
+                    - text: The SEC actively penalizes firms or individuals that make false, misleading, or over-exaggerated claims about their AI-driven capabilities or performance.
+                  - generic [ref=e211]:
+                    - link [ref=e212] [cursor=pointer]:
+                      - /url: https://www.congress.gov/crs_external_products/IF/HTML/IF13103.html
+                    - button [disabled] [ref=e213]:
+                      - generic [ref=e215]:
+                        - generic [ref=e216]: Congress.gov
+                        - generic [ref=e217]: "+2"
+                - listitem [ref=e218]:
+                  - generic [ref=e219]:
+                    - strong [ref=e220]: "Registration Requirements:"
+                    - text: If you are developing and selling automated trading bots or operating as an automated adviser handling other people's money, you may be required to register with the SEC as an
+                    - strong [ref=e221]: Investment Adviser
+                    - text: or
+                    - strong [ref=e222]: Broker-Dealer
+                    - text: .
+                  - generic [ref=e224]:
+                    - link [ref=e225] [cursor=pointer]:
+                      - /url: https://www.sec.gov/newsroom/speeches-statements/enforcement-tm-statement-potentially-unlawful-online-platforms-trading-digital-assets
+                    - button [disabled] [ref=e226]:
+                      - generic [ref=e228]:
+                        - generic [ref=e229]: SEC.gov
+                        - generic [ref=e230]: "+2"
+                - listitem [ref=e231]:
+                  - generic [ref=e232]:
+                    - strong [ref=e233]: "Supervision & Compliance:"
+                    - text: The SEC and FINRA require "human-in-the-loop" oversight. Broker-dealers and registered investment advisers are expected to have written procedures to monitor, explain, and justify AI-driven trades to prevent conflicts of interest.
+                  - generic [ref=e235]:
+                    - link [ref=e236] [cursor=pointer]:
+                      - /url: https://www.sec.gov/newsroom/press-releases/2023-140
+                    - button [disabled] [ref=e237]:
+                      - generic [ref=e239]:
+                        - generic [ref=e240]: SEC.gov
+                        - generic [ref=e241]: "+1"
+              - heading [level=3] [ref=e243]: Current Regulatory Focus
+              - generic [ref=e245]:
+                - text: The SEC has shown increasing concern regarding the systemic risks, conflicts of interest, and market volatility associated with AI models in the financial sector. The agency has specifically proposed rules designed to mitigate conflicts of interest where trading technologies or predictive algorithms place a firm's financial interests ahead of the investor's.
+                - generic [ref=e247]:
+                  - link [ref=e248] [cursor=pointer]:
+                    - /url: https://www.sec.gov/newsroom/press-releases/2023-140
+                  - button [disabled] [ref=e249]:
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: SEC.gov
+                      - generic [ref=e253]: "+2"
+              - generic [ref=e255]:
+                - text: For comprehensive regulatory guidelines, you can review the
+                - link [ref=e257] [cursor=pointer]:
+                  - /url: https://www.sec.gov/files/algo_trading_report_2020.pdf
+                  - text: SEC Staff Report on Algorithmic Trading
+                - text: or check official policies on
+                - link [ref=e259] [cursor=pointer]:
+                  - /url: https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/key-challenges
+                  - text: FINRA.org
+                - text: .
+                - button [disabled] [ref=e262]:
+                  - img [ref=e265]
+              - generic [ref=e268]: "If you are planning to build or deploy a trading bot, tell me:"
+              - list [ref=e270]:
+                - listitem [ref=e271]:
+                  - generic [ref=e272]:
+                    - text: Are you trading
+                    - strong [ref=e273]: for your own personal account
+                    - text: or
+                    - strong [ref=e274]: managing funds for others
+                    - text: "?"
+                - listitem [ref=e275]:
+                  - generic [ref=e276]:
+                    - text: What
+                    - strong [ref=e277]: types of assets
+                    - text: (e.g., equities, crypto, options) will the bot target?
+                - listitem [ref=e278]:
+                  - generic [ref=e279]:
+                    - text: Do you need help navigating the
+                    - strong [ref=e280]: SEC's Investment Adviser registration
+                    - text: process?
+            - generic [ref=e285]:
+              - generic [ref=e287]:
+                - button "14 sites" [ref=e288] [cursor=pointer]:
+                  - generic [ref=e297]: 14 sites
+                - button "About this result" [ref=e302] [cursor=pointer]:
+                  - img [ref=e304]
+              - list [ref=e307]:
+                - listitem [ref=e308]:
+                  - generic [ref=e309]:
+                    - link "Statement on Potentially Unlawful Online Platforms for Trading .... Opens in new tab." [ref=e310] [cursor=pointer]:
+                      - /url: https://www.sec.gov/newsroom/speeches-statements/enforcement-tm-statement-potentially-unlawful-online-platforms-trading-digital-assets
+                    - generic [ref=e311]:
+                      - generic [ref=e313]:
+                        - generic [ref=e314]: Statement on Potentially Unlawful Online Platforms for Trading ...
+                        - generic [ref=e315]: Mar 7, 2018 — Registration as a broker-dealer subjects the ATS to a host of regulatory requirements, such as the requirement to have reasonable ...
+                      - generic [ref=e316]:
+                        - generic [ref=e321]: SEC.gov
+                        - button "About this result" [ref=e325] [cursor=pointer]:
+                          - img [ref=e327]
+                - listitem [ref=e331]:
+                  - generic [ref=e332]:
+                    - 'link "Regulating AI Deception in Financial Markets: How the SEC .... Opens in new tab." [ref=e333] [cursor=pointer]':
+                      - /url: https://nysba.org/regulating-ai-deception-in-financial-markets-how-the-sec-can-combat-ai-washing-through-aggressive-enforcement/?srsltid=AfmBOop9hur6yCK8a_SoFRybwuxRRloWLRJ7vGnQzg2GgV-T6W0mFyW8
+                    - generic [ref=e334]:
+                      - generic [ref=e336]:
+                        - generic [ref=e337]: "Regulating AI Deception in Financial Markets: How the SEC ..."
+                        - generic [ref=e338]: Jan 8, 2026 — Section 10b-5 of the Exchange Act prohibits deceptive practices in connection with the purchase or sale of securities, including f...
+                      - generic [ref=e340]:
+                        - generic [ref=e345]: New York State Bar Association - NYSBA
+                        - button [ref=e349] [cursor=pointer]:
+                          - img [ref=e351]
+                - listitem [ref=e355]:
+                  - generic [ref=e356]:
+                    - link [ref=e357] [cursor=pointer]:
+                      - /url: https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/ai-apps-in-the-industry
+                    - generic [ref=e358]:
+                      - generic [ref=e360]:
+                        - generic [ref=e361]: AI Applications in the Securities Industry | FINRA.org
+                        - generic [ref=e362]: ... industry participants shared with FINRA staff, it is neither an exhaustive list of possible applications nor intended to be an...
+                      - generic [ref=e363]:
+                        - generic [ref=e368]: FINRA
+                        - button [ref=e372] [cursor=pointer]:
+                          - img [ref=e374]
+        - button "Show more AI Overview" [ref=e380]:
+          - generic [ref=e382] [cursor=pointer]:
+            - generic [ref=e383]: Show more
+            - img [ref=e385]
+      - main [ref=e388]:
+        - generic [ref=e392]:
+          - generic [ref=e395]:
+            - heading "Web results" [level=2] [ref=e396]
+            - generic [ref=e397]:
+              - generic [ref=e400]:
+                - link "Oversight in the Securities Space, are Regulators Ready ... Association of Certified Financial Crime Specialists · https://www.acfcs.org › acfcs-contributor-report-2025-ove..." [ref=e402] [cursor=pointer]:
+                  - /url: https://www.acfcs.org/acfcs-contributor-report-2025-oversight-in-securities-regulators-and-ai-enabled-algorithmic-financial-crime
+                  - heading "Oversight in the Securities Space, are Regulators Ready ..." [level=3] [ref=e403]
+                  - generic [ref=e408]:
+                    - generic [ref=e410]: Association of Certified Financial Crime Specialists
+                    - generic [ref=e411]: ·
+                    - generic [ref=e413]: https://www.acfcs.org › acfcs-contributor-report-2025-ove...
+                - button "About this result" [ref=e414] [cursor=pointer]:
+                  - img [ref=e417]
+              - generic [ref=e420]:
+                - generic [ref=e421]: Nov 25, 2025 —
+                - generic [ref=e422]:
+                  - text: The
+                  - emphasis [ref=e423]: SEC's regulations
+                  - text: aim to deter human misconduct. Human misconduct includes fraud, insider
+                  - emphasis [ref=e424]: trading
+                  - text: ", and market manipulation. The Exchange Act ..."
+                - link "Read more" [ref=e425] [cursor=pointer]:
+                  - /url: https://www.acfcs.org/acfcs-contributor-report-2025-oversight-in-securities-regulators-and-ai-enabled-algorithmic-financial-crime#:~:text=The%20SEC's%20regulations%20aim%20to,guard%20against%20intentional%20human%20misconduct.
+          - generic [ref=e430]:
+            - heading "People also ask" [level=2] [ref=e432]
+            - generic [ref=e433]:
+              - button "Are automated trading bots legal?" [ref=e439] [cursor=pointer]:
+                - generic [ref=e441]: Are automated trading bots legal?
+                - img [ref=e444]
+              - button "Is it legal to do algorithmic trading?" [ref=e453] [cursor=pointer]:
+                - generic [ref=e455]: Is it legal to do algorithmic trading?
+                - img [ref=e458]
+              - button "Is it illegal to use AI to predict stocks?" [ref=e467] [cursor=pointer]:
+                - generic [ref=e469]: Is it illegal to use AI to predict stocks?
+                - img [ref=e472]
+              - button "Does the SEC regulate AI?" [ref=e481] [cursor=pointer]:
+                - generic [ref=e483]: Does the SEC regulate AI?
+                - img [ref=e486]
+          - generic [ref=e491]:
+            - heading "Web results" [level=2] [ref=e492]
+            - generic [ref=e493]:
+              - generic [ref=e496]:
+                - link "Regulating AI Deception in Financial Markets New York State Bar Association - NYSBA · https://nysba.org › Latest News" [ref=e498] [cursor=pointer]:
+                  - /url: https://nysba.org/regulating-ai-deception-in-financial-markets-how-the-sec-can-combat-ai-washing-through-aggressive-enforcement/?srsltid=AfmBOop6h2nitdLipOhJ4c8mShmT5Roqui-IzNO-Zo-wxqvv3VCS2ad2
+                  - heading "Regulating AI Deception in Financial Markets" [level=3] [ref=e499]
+                  - generic [ref=e504]:
+                    - generic [ref=e506]: New York State Bar Association - NYSBA
+                    - generic [ref=e507]: ·
+                    - generic [ref=e509]: https://nysba.org › Latest News
+                - button "About this result" [ref=e510] [cursor=pointer]:
+                  - img [ref=e513]
+              - generic [ref=e516]:
+                - generic [ref=e517]: Jan 8, 2026 —
+                - generic [ref=e518]:
+                  - text: Under Section 206 of the
+                  - emphasis [ref=e519]: Investment
+                  - text: Advisers Act, the
+                  - emphasis [ref=e520]: SEC
+                  - text: must rigorously enforce fiduciary
+                  - emphasis [ref=e521]: standards
+                  - text: for AI-powered advisory platforms, ...
+                - link "Read more" [ref=e522] [cursor=pointer]:
+                  - /url: https://nysba.org/regulating-ai-deception-in-financial-markets-how-the-sec-can-combat-ai-washing-through-aggressive-enforcement/?srsltid=AfmBOop6h2nitdLipOhJ4c8mShmT5Roqui-IzNO-Zo-wxqvv3VCS2ad2#:~:text=The%20transformative%20potential%20of%20AI,frameworks%20may%20fail%20to%20address.
+          - generic [ref=e526]:
+            - generic [ref=e529]:
+              - link "Is AI Trading Legal? The 2026 Verdict (SEC & FINRA Rules) Advanced Auto Trades · https://advancedautotrades.com › is-trading-with-ai-legal" [ref=e531] [cursor=pointer]:
+                - /url: https://advancedautotrades.com/is-trading-with-ai-legal/
+                - heading "Is AI Trading Legal? The 2026 Verdict (SEC & FINRA Rules)" [level=3] [ref=e532]
+                - generic [ref=e537]:
+                  - generic [ref=e539]: Advanced Auto Trades
+                  - generic [ref=e540]: ·
+                  - generic [ref=e542]: https://advancedautotrades.com › is-trading-with-ai-legal
+              - button "About this result" [ref=e543] [cursor=pointer]:
+                - img [ref=e546]
+            - generic [ref=e550]:
+              - emphasis [ref=e551]: AI trading is 100% legal in the US
+              - text: . Learn the SEC rules for 2026, how to avoid illegal 'black box' bots, and the safest way to automate your trades today.
+          - generic [ref=e555]:
+            - generic [ref=e558]:
+              - link "How Artificial Intelligence Will Shape Securities Regulation The University of Chicago Law Review · https://lawreview.uchicago.edu › online-archive › how-art..." [ref=e560] [cursor=pointer]:
+                - /url: https://lawreview.uchicago.edu/online-archive/how-artificial-intelligence-will-shape-securities-regulation
+                - heading "How Artificial Intelligence Will Shape Securities Regulation" [level=3] [ref=e561]
+                - generic [ref=e566]:
+                  - generic [ref=e568]: The University of Chicago Law Review
+                  - generic [ref=e569]: ·
+                  - generic [ref=e571]: https://lawreview.uchicago.edu › online-archive › how-art...
+              - button "About this result" [ref=e572] [cursor=pointer]:
+                - img [ref=e575]
+            - generic [ref=e578]:
+              - generic [ref=e579]: by GV Rauterberg —
+              - generic [ref=e580]:
+                - text: This essay argues that the increasing prevalence and sophistication of artificial intelligence (AI) will push securities
+                - emphasis [ref=e581]: regulation
+                - text: toward a more systems- ...
+              - link "Read more" [ref=e582] [cursor=pointer]:
+                - /url: https://lawreview.uchicago.edu/online-archive/how-artificial-intelligence-will-shape-securities-regulation#:~:text=This%20Essay%20argues%20that%20the,toward%20a%20more%20systems%2Doriented%20approach.
+          - generic [ref=e586]:
+            - generic [ref=e589]:
+              - link "How to Stay Compliant When Using Crypto Trading Bots Altrady · https://www.altrady.com › regulation-security-crypto-trading" [ref=e591] [cursor=pointer]:
+                - /url: https://www.altrady.com/crypto-trading/regulation-security-crypto-trading/how-to-stay-compliant-crypto-trading-bots
+                - heading "How to Stay Compliant When Using Crypto Trading Bots" [level=3] [ref=e592]
+                - generic [ref=e597]:
+                  - generic [ref=e599]: Altrady
+                  - generic [ref=e600]: ·
+                  - generic [ref=e602]: https://www.altrady.com › regulation-security-crypto-trading
+              - button "About this result" [ref=e603] [cursor=pointer]:
+                - img [ref=e606]
+            - generic [ref=e609]:
+              - generic [ref=e610]:
+                - text: Failure to comply can result in fines, shutdowns, or even criminal charges. Always check with a U.S.-based
+                - emphasis [ref=e611]: legal
+                - text: advisor before launching a
+                - emphasis [ref=e612]: bot
+                - text: in this market.
+              - link "Read more" [ref=e613] [cursor=pointer]:
+                - /url: https://www.altrady.com/crypto-trading/regulation-security-crypto-trading/how-to-stay-compliant-crypto-trading-bots#:~:text=Failure%20to%20comply%20can%20result,a%20bot%20in%20this%20market.
+          - generic [ref=e617]:
+            - generic [ref=e620]:
+              - link "Statement on Potentially Unlawful Online Platforms for ... SEC.gov · https://www.sec.gov › newsroom › speeches-statements" [ref=e622] [cursor=pointer]:
+                - /url: https://www.sec.gov/newsroom/speeches-statements/enforcement-tm-statement-potentially-unlawful-online-platforms-trading-digital-assets
+                - heading "Statement on Potentially Unlawful Online Platforms for ..." [level=3] [ref=e623]
+                - generic [ref=e628]:
+                  - generic [ref=e630]: SEC.gov
+                  - generic [ref=e631]: ·
+                  - generic [ref=e633]: https://www.sec.gov › newsroom › speeches-statements
+              - button "About this result" [ref=e634] [cursor=pointer]:
+                - img [ref=e637]
+            - generic [ref=e640]:
+              - generic [ref=e641]: Mar 7, 2018 —
+              - generic [ref=e642]:
+                - text: An ATS must comply with the federal securities
+                - emphasis [ref=e643]: laws
+                - text: and its SRO's
+                - emphasis [ref=e644]: rules
+                - text: ", and file a Form ATS with the"
+                - emphasis [ref=e645]: SEC
+                - text: . Some online
+                - emphasis [ref=e646]: trading
+                - text: platforms may ...
+              - link "Read more" [ref=e647] [cursor=pointer]:
+                - /url: https://www.sec.gov/newsroom/speeches-statements/enforcement-tm-statement-potentially-unlawful-online-platforms-trading-digital-assets#:~:text=An%20ATS%20must%20comply%20with,Some%20online%20trading%20platforms%20may
+          - generic [ref=e651]:
+            - generic [ref=e654]:
+              - link "How does AI or algorithmic trading fraud fall under ... Sanford Heisler Sharp McKnight, LLP · https://sanfordheisler.com › ... › Whistleblower and Qui Tam" [ref=e656] [cursor=pointer]:
+                - /url: https://sanfordheisler.com/faq/how-does-ai-or-algorithmic-trading-fraud-fall-under-whistleblower-laws/
+                - heading "How does AI or algorithmic trading fraud fall under ..." [level=3] [ref=e657]
+                - generic [ref=e662]:
+                  - generic [ref=e664]: Sanford Heisler Sharp McKnight, LLP
+                  - generic [ref=e665]: ·
+                  - generic [ref=e667]: https://sanfordheisler.com › ... › Whistleblower and Qui Tam
+              - button "About this result" [ref=e668] [cursor=pointer]:
+                - img [ref=e671]
+            - generic [ref=e675]:
+              - text: AI and algorithmic
+              - emphasis [ref=e676]: trading
+              - text: fraud fall under existing whistleblower
+              - emphasis [ref=e677]: laws
+              - text: when the underlying conduct violates securities, commodities, or anti-fraud
+              - emphasis [ref=e678]: rules
+              - text: .
+          - generic [ref=e682]:
+            - generic [ref=e685]:
+              - link "AI Applications in the Securities Industry FINRA · https://www.finra.org › key-topics › fintech › report › ai-a..." [ref=e687] [cursor=pointer]:
+                - /url: https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/ai-apps-in-the-industry
+                - heading "AI Applications in the Securities Industry" [level=3] [ref=e688]
+                - generic [ref=e690]:
+                  - img [ref=e694]
+                  - generic [ref=e696]:
+                    - generic [ref=e698]: FINRA
+                    - generic [ref=e699]: ·
+                    - generic [ref=e701]: https://www.finra.org › key-topics › fintech › report › ai-a...
+              - button "About this result" [ref=e702] [cursor=pointer]:
+                - img [ref=e705]
+            - generic [ref=e708]:
+              - generic [ref=e709]:
+                - text: Furthermore, use of AI applications does not relieve firms of their obligations to comply with all applicable securities
+                - emphasis [ref=e710]: laws
+                - text: ","
+                - emphasis [ref=e711]: rules
+                - text: ", and"
+                - emphasis [ref=e712]: regulations
+                - text: .
+              - link "Read more" [ref=e713] [cursor=pointer]:
+                - /url: https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/ai-apps-in-the-industry#:~:text=Furthermore%2C%20use%20of%20AI%20applications,securities%20laws%2C%20rules%2C%20and%20regulations.
+            - list [ref=e715]:
+              - listitem [ref=e716]:
+                - link "Communications With..." [ref=e717] [cursor=pointer]:
+                  - /url: https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/ai-apps-in-the-industry#:~:text=Communications%20with%20Customers,-Customer%20Experience
+                  - generic [ref=e719]: Communications With...
+              - listitem [ref=e720]:
+                - link "Operational Functions" [ref=e721] [cursor=pointer]:
+                  - /url: https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/ai-apps-in-the-industry#:~:text=Operational%20Functions,-Compliance%20and%20Risk%20Management
+                  - generic [ref=e723]: Operational Functions
+              - listitem [ref=e724]:
+                - link "Compliance And Risk..." [ref=e725] [cursor=pointer]:
+                  - /url: https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/ai-apps-in-the-industry#:~:text=Compliance%20and%20Risk%20Management,-In%20conversations%20with%20FINRA%20staff
+                  - generic [ref=e727]: Compliance And Risk...
+          - generic [ref=e731]:
+            - generic [ref=e734]:
+              - link "Can AI Trading Bots Be Profitable? BulkQuant Launches ... The National Law Review · https://natlawreview.com › press-releases › can-ai-trading-..." [ref=e736] [cursor=pointer]:
+                - /url: https://natlawreview.com/press-releases/can-ai-trading-bots-be-profitable-bulkquant-launches-automated-quant-trading
+                - heading "Can AI Trading Bots Be Profitable? BulkQuant Launches ..." [level=3] [ref=e737]
+                - generic [ref=e742]:
+                  - generic [ref=e744]: The National Law Review
+                  - generic [ref=e745]: ·
+                  - generic [ref=e747]: https://natlawreview.com › press-releases › can-ai-trading-...
+              - button "About this result" [ref=e748] [cursor=pointer]:
+                - img [ref=e751]
+            - generic [ref=e754]:
+              - generic [ref=e755]: 2 days ago —
+              - generic [ref=e756]:
+                - text: BulkQuant introduces a beginner-friendly
+                - emphasis [ref=e757]: automated
+                - text: quant trading application designed to simplify AI
+                - emphasis [ref=e758]: trading bot
+                - text: access, quant strategy ...
+          - generic [ref=e762]:
+            - generic [ref=e765]:
+              - link "Regulatory Considerations Regarding Accelerated Use of AI ... IMF eLibrary · https://www.elibrary.imf.org › journals › article-A001-en" [ref=e767] [cursor=pointer]:
+                - /url: https://www.elibrary.imf.org/view/journals/005/2025/016/article-A001-en.xml
+                - heading "Regulatory Considerations Regarding Accelerated Use of AI ..." [level=3] [ref=e768]
+                - generic [ref=e773]:
+                  - generic [ref=e775]: IMF eLibrary
+                  - generic [ref=e776]: ·
+                  - generic [ref=e778]: https://www.elibrary.imf.org › journals › article-A001-en
+              - button "About this result" [ref=e779] [cursor=pointer]:
+                - img [ref=e782]
+            - generic [ref=e786]:
+              - text: This paper examines the uptake of AI in securities markets and recent approaches to its
+              - emphasis [ref=e787]: regulation
+              - text: and supervision, complementing work by IMF and standard ...
+            - list [ref=e789]:
+              - listitem [ref=e790]:
+                - link "Ii. Ai Adoption In Capital..." [ref=e791] [cursor=pointer]:
+                  - /url: https://www.elibrary.imf.org/view/journals/005/2025/016/article-A001-en.xml#:~:text=II.%20AI%20Adoption%20in%20Capital%20Markets,-The%20use%20of%20machine%20learning
+                  - generic [ref=e793]: Ii. Ai Adoption In Capital...
+              - listitem [ref=e794]:
+                - link "Iv. Regulatory Responses" [ref=e795] [cursor=pointer]:
+                  - /url: https://www.elibrary.imf.org/view/journals/005/2025/016/article-A001-en.xml#:~:text=.-,IV.%20Regulatory%20Responses
+                  - generic [ref=e797]: Iv. Regulatory Responses
+              - listitem [ref=e798]:
+                - link "Supervision Of Ai Use In..." [ref=e799] [cursor=pointer]:
+                  - /url: https://www.elibrary.imf.org/view/journals/005/2025/016/article-A001-en.xml#:~:text=Supervision%20of%20AI%20Use%20in%20Capital%20Markets,-This%20section%20provides%20seven%20high
+                  - generic [ref=e801]: Supervision Of Ai Use In...
+        - generic [ref=e803]:
+          - generic [ref=e808]:
+            - heading "People also search for" [level=2] [ref=e810]
+            - generic [ref=e812]:
+              - generic [ref=e813]:
+                - link "SEC artificial intelligence enforcement" [ref=e817] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=SEC+artificial+intelligence+enforcement&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAgsEAE
+                  - generic [ref=e818]:
+                    - generic [ref=e823]: SEC artificial intelligence enforcement
+                    - img [ref=e827]
+                - link "SEC AI regulation" [ref=e832] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=SEC+AI+regulation&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAhFEAE
+                  - generic [ref=e833]:
+                    - generic [ref=e838]: SEC AI regulation
+                    - img [ref=e842]
+                - link "SEC AI washing" [ref=e847] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=SEC+AI+washing&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAhAEAE
+                  - generic [ref=e848]:
+                    - generic [ref=e853]: SEC AI washing
+                    - img [ref=e857]
+                - link "Sec AI CompTIA" [ref=e862] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=Sec+AI+CompTIA&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAg7EAE
+                  - generic [ref=e863]:
+                    - generic [ref=e868]: Sec AI CompTIA
+                    - img [ref=e872]
+              - generic [ref=e874]:
+                - link "Is AI trading profitable" [ref=e878] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=Is+AI+trading+profitable&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAg6EAE
+                  - generic [ref=e879]:
+                    - generic [ref=e884]: Is AI trading profitable
+                    - img [ref=e888]
+                - link "AI trading bot" [ref=e893] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=AI+trading+bot&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAg3EAE
+                  - generic [ref=e894]:
+                    - generic [ref=e899]: AI trading bot
+                    - img [ref=e903]
+                - link "Best AI trading bot" [ref=e908] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=Best+AI+trading+bot&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAgyEAE
+                  - generic [ref=e909]:
+                    - generic [ref=e914]: Best AI trading bot
+                    - img [ref=e918]
+                - link "Is AI trading legit" [ref=e923] [cursor=pointer]:
+                  - /url: /search?sca_esv=88a6b616b8dc7187&q=Is+AI+trading+legit&sa=X&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ1QJ6BAgtEAE
+                  - generic [ref=e924]:
+                    - generic [ref=e929]: Is AI trading legit
+                    - img [ref=e933]
+          - navigation [ref=e935]:
+            - heading "Page Navigation" [level=1] [ref=e936]
+            - text: "1"
+            - link "Page 2" [ref=e939] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=10&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAE
+              - text: "2"
+            - link "Page 3" [ref=e941] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=20&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAG
+              - text: "3"
+            - link "Page 4" [ref=e943] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=30&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAI
+              - text: "4"
+            - link "Page 5" [ref=e945] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=40&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAK
+              - text: "5"
+            - link "Page 6" [ref=e947] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=50&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAM
+              - text: "6"
+            - link "Page 7" [ref=e949] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=60&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAO
+              - text: "7"
+            - link "Page 8" [ref=e951] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=70&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAQ
+              - text: "8"
+            - link "Page 9" [ref=e953] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=80&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAS
+              - text: "9"
+            - link "Page 10" [ref=e955] [cursor=pointer]:
+              - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=90&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8tMDegQIThAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e957]:
+              - link "Next" [ref=e958] [cursor=pointer]:
+                - /url: /search?q=legality+of+automated+news+sentiment+trading+bots+SEC+regulations&sca_esv=88a6b616b8dc7187&ei=MSUiatGzDYO_p84Pjv2NmAQ&start=10&sa=N&sstk=AU9db-BGORbeqZRDaQxoaWl79sIxAH5WbcElbZuSZdXMsU_wy9moEQ3TuGMTFZwgHoFKcmFMoJhRFKrUHYwJx9AhEaSGLn75m8T0qA&ved=2ahUKEwiRkImg-O6UAxWD38kDHY5-A0MQ8NMDegQIThAW
+                - generic [ref=e960]: Next
+        - navigation
+    - contentinfo [ref=e961]:
+      - heading "Footer Links" [level=1] [ref=e962]

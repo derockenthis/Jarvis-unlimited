@@ -1,0 +1,627 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: Artificial Intelligence
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - link "Home" [ref=e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e17]
+          - search [ref=e34]:
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - generic "Remove r/ArtificialInteligence filter and expand search to all of Reddit" [ref=e42] [cursor=pointer]:
+                - button [pressed] [ref=e43]:
+                  - generic [ref=e47]: r/ArtificialInteligence
+                  - img [ref=e49]
+              - textbox "Remove r/ArtificialInteligence filter and expand search to all of Reddit" [ref=e52]:
+                - /placeholder: Search in ⁨r/ArtificialInteligence⁩
+          - generic [ref=e53]:
+            - link "Sign Up" [ref=e59] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e61]: Sign Up
+            - link "Log In" [ref=e65] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e67]: Log In
+            - button "Expand user menu" [ref=e72] [cursor=pointer]:
+              - img [ref=e75]
+              - generic [ref=e77]:
+                - generic: Expand user menu
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - region "Community actions" [ref=e83]:
+            - generic [ref=e84]:
+              - heading "r/ArtificialInteligence" [level=1] [ref=e90]
+              - generic [ref=e91]:
+                - button "Create Post" [ref=e95] [cursor=pointer]:
+                  - generic [ref=e96]:
+                    - img [ref=e98]
+                    - generic [ref=e100]: Create Post
+                - button "Join" [ref=e105] [cursor=pointer]
+          - generic [ref=e106]:
+            - generic:
+              - generic:
+                - link "Skip to Navigation" [ref=e107] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "Skip to Right Sidebar" [ref=e108] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e109]:
+            - main [ref=e110]:
+              - generic [ref=e113]:
+                - generic "Sort by" [ref=e117]:
+                  - 'button "Sort by: Best" [ref=e119] [cursor=pointer]':
+                    - generic [ref=e121]: Best
+                - generic "View" [ref=e127]:
+                  - 'button "View: Card" [ref=e129] [cursor=pointer]'
+              - generic [ref=e135]:
+                - button "collapse/expand community highlights" [ref=e136] [cursor=pointer]:
+                  - heading "Community highlights" [level=3] [ref=e137]:
+                    - img [ref=e138]
+                    - generic [ref=e140]: Community highlights
+                  - button "collapse/expand community highlights" [ref=e142]:
+                    - img [ref=e145]
+                - list [ref=e149]:
+                  - generic:
+                    - listitem [ref=e150]:
+                      - link "We heard you - r/ArtificialInteligence is getting sharper Announcement" [ref=e151] [cursor=pointer]:
+                        - /url: /r/ArtificialInteligence/comments/1rp89re/we_heard_you_rartificialinteligence_is_getting/
+                        - generic [ref=e155]:
+                          - heading "We heard you - r/ArtificialInteligence is getting sharper" [level=2] [ref=e159]
+                          - generic [ref=e163]:
+                            - img [ref=e164]
+                            - generic [ref=e166]: Announcement
+                    - listitem [ref=e167]:
+                      - link "Monthly \"Is there a tool for...\" Post AutoModerator" [ref=e168] [cursor=pointer]:
+                        - /url: /r/ArtificialInteligence/comments/1t0uhqh/monthly_is_there_a_tool_for_post/
+                        - generic [ref=e172]:
+                          - heading "Monthly \"Is there a tool for...\" Post" [level=2] [ref=e176]
+                          - img "AutoModerator" [ref=e183]
+              - generic [ref=e185]:
+                - generic "Artificial Intelligence"
+                - separator [ref=e186]
+                - generic [ref=e187]:
+                  - heading "Feed" [level=1] [ref=e189]
+                  - generic:
+                    - article "This is where we‘re heading or already are" [ref=e190]:
+                      - generic [ref=e191] [cursor=pointer]:
+                        - link "This is where we‘re heading or already are" [ref=e192]:
+                          - /url: https://www.reddit.com/r/ArtificialInteligence/comments/1tszajl/this_is_where_were_heading_or_already_are/
+                          - generic [ref=e193]:
+                            - generic: This is where we‘re heading or already are
+                        - generic [ref=e194]:
+                          - generic [ref=e195]:
+                            - 'link "Author: u/No_Fuel_4676" [ref=e200]':
+                              - /url: /user/No_Fuel_4676/
+                              - generic [ref=e201]:
+                                - img [ref=e206]
+                                - generic [ref=e208]: u/No_Fuel_4676
+                            - generic [ref=e209]: •
+                            - time [ref=e211]: 10 hr. ago
+                          - button "Open user actions" [ref=e216]:
+                            - img [ref=e219]
+                        - generic [ref=e222]:
+                          - heading "This is where we‘re heading or already are" [level=2] [ref=e223]:
+                            - link "This is where we‘re heading or already are" [ref=e224]:
+                              - /url: /r/ArtificialInteligence/comments/1tszajl/this_is_where_were_heading_or_already_are/
+                          - 'link "Flair: 📊 Analysis / Opinion" [ref=e227]':
+                            - /url: /r/ArtificialInteligence/?f=flair_name%3A%22%F0%9F%93%8A%20Analysis%20%2F%20Opinion%22
+                            - 'generic "Flair: 📊 Analysis / Opinion" [ref=e229]': 📊 Analysis / Opinion
+                        - img "r/ArtificialInteligence - This is where we‘re heading or already are" [ref=e235]
+                        - generic "Actions available for this post" [ref=e237]:
+                          - generic [ref=e240]:
+                            - button "Upvote" [ref=e241]:
+                              - img [ref=e243]
+                              - generic [ref=e245]:
+                                - generic: Upvote
+                            - generic [ref=e247]: 1K
+                            - button "Downvote" [ref=e248]:
+                              - img [ref=e250]
+                              - generic [ref=e252]:
+                                - generic: Downvote
+                          - link "66 Go to comments" [ref=e253]:
+                            - /url: /r/ArtificialInteligence/comments/1tszajl/this_is_where_were_heading_or_already_are/
+                            - generic [ref=e254]:
+                              - img [ref=e256]
+                              - generic [ref=e259]: "66"
+                            - generic [ref=e260]:
+                              - generic: Go to comments
+                          - button "Give award" [ref=e262]:
+                            - img [ref=e265]
+                          - button "Share" [ref=e270]:
+                            - generic [ref=e271]:
+                              - img [ref=e273]
+                              - generic [ref=e275]: Share
+                    - separator [ref=e276]
+                    - generic [ref=e277]:
+                      - 'generic "Advertisement: The self-driving network. The perfect teammate for fast-moving environments." [ref=e278]':
+                        - 'link "Advertisement: The self-driving network. The perfect teammate for fast-moving environments." [ref=e279] [cursor=pointer]':
+                          - /url: https://alb.reddit.com/cr?za=WVk7fWIP0cXzB_g_IapOXlapADb2O97zhpAqr7hs9J51jdCczZrCxESMw15oSsAUXPMY9mF_dJMm4dBrkDH0DV-1mEx5IUqELPuNdmKd9_AEmNtcHBJjXp7Ut2P1vLmhEJQamplvJScfMd6iUVejpTT7nN1_ZYWT-pC_mBK6BaHmR7o5PLRy4YBHACCz7cD4SFy9r2vwLHybWXbZY4EUd8xZdqixjSi0m4pmusktXaP0SR24dsVyi3Gu4DKb91Ez-GGioyEt1v8s9Zv7Kd4QqJM6v8TA6EHvhZeF36w3nL9tOYAdKH-9SzQiAdNQrfdreq_mLP3Eej5zBbjq7wQSMTcFHwTxWXaqUv35WpKlzOxVyprmxVdX5Gkoh5LHeZfIt6UlbHH49cFgGi8fnGd9wE8xLTonfPbTAPeLAg-Kr_fabjiy6q1OT--2ymeUKmWcNNunC6fR59N-xrBUcMoma6jJyeeZCLw3XhLXY-ELbkP9a0mkTPCfBoDPfkDOuUworn8JD_gRarxcgx2mhliZsa_eelXSZVli17oyf61SvoUYiLSPrqH13Yf44E5CuuNSIos83VhlzcFFnie_oYEm_DEbQ7SJzsGSOHEt69inlK-Z2fVXI68UHTMGlzZtSFcRS6ImCmHSDO3gAgxc_GLhgbeaJ2ceEUE8lO73__44&zp=qy-v0O924RdOGm0htqMTXDMKHdVbipayoHAoT_0l1Xis2b1zDSlZl724xNNXFh9kXG6uJf_3FSpcbKhe33SPXWVld2pf4MCUTtMzh0UAbdkzp-VFN-JYfWYPwOGRq3gng8bRvu2MBcXVlPFRwDPftYCRxbumAjD_wDmbok2tFSmRV9BYk7lPhykPLawn55io3wwQHtLBXWgwWjhgQLXE4znhjo-AICN32DfW83rYbN5R8KoXTalZVcdyjUZQGL0XhdrsrdKTrOC3CdsHdlc6URDjKXbNb_kPHsrf3OuxN1jN83T0-9dSplGEoX59B9p4ltU0-gCGglGkPYE3DAO7dZminnwkePW-KbuvyV_aD3G5tIt8wfVblTwPY8b6Z2OAE7dOyjmSriOBHKeqwG094ngA41-CPz9nXAmH7TnrU0pjyk4qrH1eHvwt
+                      - generic [ref=e280]:
+                        - generic [ref=e281]:
+                          - link "u/HPE_Global avatar u/HPE_Global" [ref=e284] [cursor=pointer]:
+                            - /url: /user/HPE_Global/
+                            - img "u/HPE_Global avatar" [ref=e287]
+                            - generic [ref=e288]: u/HPE_Global
+                          - generic [ref=e289]: •
+                          - link "Promoted" [ref=e291] [cursor=pointer]:
+                            - /url: /user/HPE_Global/
+                            - generic [ref=e292]: Promoted
+                          - link [ref=e294] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=WVk7fWIP0cXzB_g_IapOXlapADb2O97zhpAqr7hs9J51jdCczZrCxESMw15oSsAUXPMY9mF_dJMm4dBrkDH0DV-1mEx5IUqELPuNdmKd9_AEmNtcHBJjXp7Ut2P1vLmhEJQamplvJScfMd6iUVejpTT7nN1_ZYWT-pC_mBK6BaHmR7o5PLRy4YBHACCz7cD4SFy9r2vwLHybWXbZY4EUd8xZdqixjSi0m4pmusktXaP0SR24dsVyi3Gu4DKb91Ez-GGioyEt1v8s9Zv7Kd4QqJM6v8TA6EHvhZeF36w3nL9tOYAdKH-9SzQiAdNQrfdreq_mLP3Eej5zBbjq7wQSMTcFHwTxWXaqUv35WpKlzOxVyprmxVdX5Gkoh5LHeZfIt6UlbHH49cFgGi8fnGd9wE8xLTonfPbTAPeLAg-Kr_fabjiy6q1OT--2ymeUKmWcNNunC6fR59N-xrBUcMoma6jJyeeZCLw3XhLXY-ELbkP9a0mkTPCfBoDPfkDOuUworn8JD_gRarxcgx2mhliZsa_eelXSZVli17oyf61SvoUYiLSPrqH13Yf44E5CuuNSIos83VhlzcFFnie_oYEm_DEbQ7SJzsGSOHEt69inlK-Z2fVXI68UHTMGlzZtSFcRS6ImCmHSDO3gAgxc_GLhgbeaJ2ceEUE8lO73__44&zp=qy-v0O924RdOGm0htqMTXDMKHdVbipayoHAoT_0l1Xis2b1zDSlZl724xNNXFh9kXG6uJf_3FSpcbKhe33SPXWVld2pf4MCUTtMzh0UAbdkzp-VFN-JYfWYPwOGRq3gng8bRvu2MBcXVlPFRwDPftYCRxbumAjD_wDmbok2tFSmRV9BYk7lPhykPLawn55io3wwQHtLBXWgwWjhgQLXE4znhjo-AICN32DfW83rYbN5R8KoXTalZVcdyjUZQGL0XhdrsrdKTrOC3CdsHdlc6URDjKXbNb_kPHsrf3OuxN1jN83T0-9dSplGEoX59B9p4ltU0-gCGglGkPYE3DAO7dZminnwkePW-KbuvyV_aD3G5tIt8wfVblTwPY8b6Z2OAE7dOyjmSriOBHKeqwG094ngA41-CPz9nXAmH7TnrU0pjyk4qrH1eHvwt
+                        - button "Open user actions" [ref=e299] [cursor=pointer]:
+                          - img [ref=e302]
+                      - heading "The self-driving network. The perfect teammate for fast-moving environments." [level=2] [ref=e306]:
+                        - link "The self-driving network. The perfect teammate for fast-moving environments." [ref=e309] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=WVk7fWIP0cXzB_g_IapOXlapADb2O97zhpAqr7hs9J51jdCczZrCxESMw15oSsAUXPMY9mF_dJMm4dBrkDH0DV-1mEx5IUqELPuNdmKd9_AEmNtcHBJjXp7Ut2P1vLmhEJQamplvJScfMd6iUVejpTT7nN1_ZYWT-pC_mBK6BaHmR7o5PLRy4YBHACCz7cD4SFy9r2vwLHybWXbZY4EUd8xZdqixjSi0m4pmusktXaP0SR24dsVyi3Gu4DKb91Ez-GGioyEt1v8s9Zv7Kd4QqJM6v8TA6EHvhZeF36w3nL9tOYAdKH-9SzQiAdNQrfdreq_mLP3Eej5zBbjq7wQSMTcFHwTxWXaqUv35WpKlzOxVyprmxVdX5Gkoh5LHeZfIt6UlbHH49cFgGi8fnGd9wE8xLTonfPbTAPeLAg-Kr_fabjiy6q1OT--2ymeUKmWcNNunC6fR59N-xrBUcMoma6jJyeeZCLw3XhLXY-ELbkP9a0mkTPCfBoDPfkDOuUworn8JD_gRarxcgx2mhliZsa_eelXSZVli17oyf61SvoUYiLSPrqH13Yf44E5CuuNSIos83VhlzcFFnie_oYEm_DEbQ7SJzsGSOHEt69inlK-Z2fVXI68UHTMGlzZtSFcRS6ImCmHSDO3gAgxc_GLhgbeaJ2ceEUE8lO73__44&zp=qy-v0O924RdOGm0htqMTXDMKHdVbipayoHAoT_0l1Xis2b1zDSlZl724xNNXFh9kXG6uJf_3FSpcbKhe33SPXWVld2pf4MCUTtMzh0UAbdkzp-VFN-JYfWYPwOGRq3gng8bRvu2MBcXVlPFRwDPftYCRxbumAjD_wDmbok2tFSmRV9BYk7lPhykPLawn55io3wwQHtLBXWgwWjhgQLXE4znhjo-AICN32DfW83rYbN5R8KoXTalZVcdyjUZQGL0XhdrsrdKTrOC3CdsHdlc6URDjKXbNb_kPHsrf3OuxN1jN83T0-9dSplGEoX59B9p4ltU0-gCGglGkPYE3DAO7dZminnwkePW-KbuvyV_aD3G5tIt8wfVblTwPY8b6Z2OAE7dOyjmSriOBHKeqwG094ngA41-CPz9nXAmH7TnrU0pjyk4qrH1eHvwt
+                          - generic: The self-driving network. The perfect teammate for fast-moving environments.
+                      - generic [ref=e310]:
+                        - button "Play" [ref=e317] [cursor=pointer]:
+                          - img [ref=e318]
+                        - separator [ref=e320]
+                        - generic [ref=e321]:
+                          - link [ref=e323] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=WVk7fWIP0cXzB_g_IapOXlapADb2O97zhpAqr7hs9J51jdCczZrCxESMw15oSsAUXPMY9mF_dJMm4dBrkDH0DV-1mEx5IUqELPuNdmKd9_AEmNtcHBJjXp7Ut2P1vLmhEJQamplvJScfMd6iUVejpTT7nN1_ZYWT-pC_mBK6BaHmR7o5PLRy4YBHACCz7cD4SFy9r2vwLHybWXbZY4EUd8xZdqixjSi0m4pmusktXaP0SR24dsVyi3Gu4DKb91Ez-GGioyEt1v8s9Zv7Kd4QqJM6v8TA6EHvhZeF36w3nL9tOYAdKH-9SzQiAdNQrfdreq_mLP3Eej5zBbjq7wQSMTcFHwTxWXaqUv35WpKlzOxVyprmxVdX5Gkoh5LHeZfIt6UlbHH49cFgGi8fnGd9wE8xLTonfPbTAPeLAg-Kr_fabjiy6q1OT--2ymeUKmWcNNunC6fR59N-xrBUcMoma6jJyeeZCLw3XhLXY-ELbkP9a0mkTPCfBoDPfkDOuUworn8JD_gRarxcgx2mhliZsa_eelXSZVli17oyf61SvoUYiLSPrqH13Yf44E5CuuNSIos83VhlzcFFnie_oYEm_DEbQ7SJzsGSOHEt69inlK-Z2fVXI68UHTMGlzZtSFcRS6ImCmHSDO3gAgxc_GLhgbeaJ2ceEUE8lO73__44&zp=qy-v0O924RdOGm0htqMTXDMKHdVbipayoHAoT_0l1Xis2b1zDSlZl724xNNXFh9kXG6uJf_3FSpcbKhe33SPXWVld2pf4MCUTtMzh0UAbdkzp-VFN-JYfWYPwOGRq3gng8bRvu2MBcXVlPFRwDPftYCRxbumAjD_wDmbok2tFSmRV9BYk7lPhykPLawn55io3wwQHtLBXWgwWjhgQLXE4znhjo-AICN32DfW83rYbN5R8KoXTalZVcdyjUZQGL0XhdrsrdKTrOC3CdsHdlc6URDjKXbNb_kPHsrf3OuxN1jN83T0-9dSplGEoX59B9p4ltU0-gCGglGkPYE3DAO7dZminnwkePW-KbuvyV_aD3G5tIt8wfVblTwPY8b6Z2OAE7dOyjmSriOBHKeqwG094ngA41-CPz9nXAmH7TnrU0pjyk4qrH1eHvwt
+                          - generic [ref=e324]:
+                            - link "hpe.com" [ref=e327] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=WVk7fWIP0cXzB_g_IapOXlapADb2O97zhpAqr7hs9J51jdCczZrCxESMw15oSsAUXPMY9mF_dJMm4dBrkDH0DV-1mEx5IUqELPuNdmKd9_AEmNtcHBJjXp7Ut2P1vLmhEJQamplvJScfMd6iUVejpTT7nN1_ZYWT-pC_mBK6BaHmR7o5PLRy4YBHACCz7cD4SFy9r2vwLHybWXbZY4EUd8xZdqixjSi0m4pmusktXaP0SR24dsVyi3Gu4DKb91Ez-GGioyEt1v8s9Zv7Kd4QqJM6v8TA6EHvhZeF36w3nL9tOYAdKH-9SzQiAdNQrfdreq_mLP3Eej5zBbjq7wQSMTcFHwTxWXaqUv35WpKlzOxVyprmxVdX5Gkoh5LHeZfIt6UlbHH49cFgGi8fnGd9wE8xLTonfPbTAPeLAg-Kr_fabjiy6q1OT--2ymeUKmWcNNunC6fR59N-xrBUcMoma6jJyeeZCLw3XhLXY-ELbkP9a0mkTPCfBoDPfkDOuUworn8JD_gRarxcgx2mhliZsa_eelXSZVli17oyf61SvoUYiLSPrqH13Yf44E5CuuNSIos83VhlzcFFnie_oYEm_DEbQ7SJzsGSOHEt69inlK-Z2fVXI68UHTMGlzZtSFcRS6ImCmHSDO3gAgxc_GLhgbeaJ2ceEUE8lO73__44&zp=qy-v0O924RdOGm0htqMTXDMKHdVbipayoHAoT_0l1Xis2b1zDSlZl724xNNXFh9kXG6uJf_3FSpcbKhe33SPXWVld2pf4MCUTtMzh0UAbdkzp-VFN-JYfWYPwOGRq3gng8bRvu2MBcXVlPFRwDPftYCRxbumAjD_wDmbok2tFSmRV9BYk7lPhykPLawn55io3wwQHtLBXWgwWjhgQLXE4znhjo-AICN32DfW83rYbN5R8KoXTalZVcdyjUZQGL0XhdrsrdKTrOC3CdsHdlc6URDjKXbNb_kPHsrf3OuxN1jN83T0-9dSplGEoX59B9p4ltU0-gCGglGkPYE3DAO7dZminnwkePW-KbuvyV_aD3G5tIt8wfVblTwPY8b6Z2OAE7dOyjmSriOBHKeqwG094ngA41-CPz9nXAmH7TnrU0pjyk4qrH1eHvwt
+                              - generic: hpe.com
+                            - link "Learn More" [ref=e329] [cursor=pointer]:
+                              - /url: https://alb.reddit.com/cr?za=WVk7fWIP0cXzB_g_IapOXlapADb2O97zhpAqr7hs9J51jdCczZrCxESMw15oSsAUXPMY9mF_dJMm4dBrkDH0DV-1mEx5IUqELPuNdmKd9_AEmNtcHBJjXp7Ut2P1vLmhEJQamplvJScfMd6iUVejpTT7nN1_ZYWT-pC_mBK6BaHmR7o5PLRy4YBHACCz7cD4SFy9r2vwLHybWXbZY4EUd8xZdqixjSi0m4pmusktXaP0SR24dsVyi3Gu4DKb91Ez-GGioyEt1v8s9Zv7Kd4QqJM6v8TA6EHvhZeF36w3nL9tOYAdKH-9SzQiAdNQrfdreq_mLP3Eej5zBbjq7wQSMTcFHwTxWXaqUv35WpKlzOxVyprmxVdX5Gkoh5LHeZfIt6UlbHH49cFgGi8fnGd9wE8xLTonfPbTAPeLAg-Kr_fabjiy6q1OT--2ymeUKmWcNNunC6fR59N-xrBUcMoma6jJyeeZCLw3XhLXY-ELbkP9a0mkTPCfBoDPfkDOuUworn8JD_gRarxcgx2mhliZsa_eelXSZVli17oyf61SvoUYiLSPrqH13Yf44E5CuuNSIos83VhlzcFFnie_oYEm_DEbQ7SJzsGSOHEt69inlK-Z2fVXI68UHTMGlzZtSFcRS6ImCmHSDO3gAgxc_GLhgbeaJ2ceEUE8lO73__44&zp=qy-v0O924RdOGm0htqMTXDMKHdVbipayoHAoT_0l1Xis2b1zDSlZl724xNNXFh9kXG6uJf_3FSpcbKhe33SPXWVld2pf4MCUTtMzh0UAbdkzp-VFN-JYfWYPwOGRq3gng8bRvu2MBcXVlPFRwDPftYCRxbumAjD_wDmbok2tFSmRV9BYk7lPhykPLawn55io3wwQHtLBXWgwWjhgQLXE4znhjo-AICN32DfW83rYbN5R8KoXTalZVcdyjUZQGL0XhdrsrdKTrOC3CdsHdlc6URDjKXbNb_kPHsrf3OuxN1jN83T0-9dSplGEoX59B9p4ltU0-gCGglGkPYE3DAO7dZminnwkePW-KbuvyV_aD3G5tIt8wfVblTwPY8b6Z2OAE7dOyjmSriOBHKeqwG094ngA41-CPz9nXAmH7TnrU0pjyk4qrH1eHvwt
+                              - generic [ref=e331]:
+                                - generic: Learn More
+                      - generic "Actions available for this post" [ref=e333]:
+                        - generic [ref=e336]:
+                          - button "Upvote" [ref=e337] [cursor=pointer]:
+                            - img [ref=e339]
+                            - generic [ref=e341]:
+                              - generic: Upvote
+                          - generic [ref=e343]: "1"
+                          - button "Downvote" [ref=e344] [cursor=pointer]:
+                            - img [ref=e346]
+                            - generic [ref=e348]:
+                              - generic: Downvote
+                        - link "0 Go to comments" [ref=e349] [cursor=pointer]:
+                          - /url: /user/HPE_Global/comments/1trh93m/the_selfdriving_network_the_perfect_teammate_for/?p=1&impressionid=6215785551245671942
+                          - generic [ref=e350]:
+                            - img [ref=e352]
+                            - generic [ref=e355]: "0"
+                          - generic [ref=e356]:
+                            - generic: Go to comments
+                        - button "Share" [ref=e360] [cursor=pointer]:
+                          - generic [ref=e361]:
+                            - img [ref=e363]
+                            - generic [ref=e365]: Share
+                        - link [ref=e367] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=WVk7fWIP0cXzB_g_IapOXlapADb2O97zhpAqr7hs9J51jdCczZrCxESMw15oSsAUXPMY9mF_dJMm4dBrkDH0DV-1mEx5IUqELPuNdmKd9_AEmNtcHBJjXp7Ut2P1vLmhEJQamplvJScfMd6iUVejpTT7nN1_ZYWT-pC_mBK6BaHmR7o5PLRy4YBHACCz7cD4SFy9r2vwLHybWXbZY4EUd8xZdqixjSi0m4pmusktXaP0SR24dsVyi3Gu4DKb91Ez-GGioyEt1v8s9Zv7Kd4QqJM6v8TA6EHvhZeF36w3nL9tOYAdKH-9SzQiAdNQrfdreq_mLP3Eej5zBbjq7wQSMTcFHwTxWXaqUv35WpKlzOxVyprmxVdX5Gkoh5LHeZfIt6UlbHH49cFgGi8fnGd9wE8xLTonfPbTAPeLAg-Kr_fabjiy6q1OT--2ymeUKmWcNNunC6fR59N-xrBUcMoma6jJyeeZCLw3XhLXY-ELbkP9a0mkTPCfBoDPfkDOuUworn8JD_gRarxcgx2mhliZsa_eelXSZVli17oyf61SvoUYiLSPrqH13Yf44E5CuuNSIos83VhlzcFFnie_oYEm_DEbQ7SJzsGSOHEt69inlK-Z2fVXI68UHTMGlzZtSFcRS6ImCmHSDO3gAgxc_GLhgbeaJ2ceEUE8lO73__44&zp=qy-v0O924RdOGm0htqMTXDMKHdVbipayoHAoT_0l1Xis2b1zDSlZl724xNNXFh9kXG6uJf_3FSpcbKhe33SPXWVld2pf4MCUTtMzh0UAbdkzp-VFN-JYfWYPwOGRq3gng8bRvu2MBcXVlPFRwDPftYCRxbumAjD_wDmbok2tFSmRV9BYk7lPhykPLawn55io3wwQHtLBXWgwWjhgQLXE4znhjo-AICN32DfW83rYbN5R8KoXTalZVcdyjUZQGL0XhdrsrdKTrOC3CdsHdlc6URDjKXbNb_kPHsrf3OuxN1jN83T0-9dSplGEoX59B9p4ltU0-gCGglGkPYE3DAO7dZminnwkePW-KbuvyV_aD3G5tIt8wfVblTwPY8b6Z2OAE7dOyjmSriOBHKeqwG094ngA41-CPz9nXAmH7TnrU0pjyk4qrH1eHvwt
+                    - separator [ref=e368]
+                    - article "The Pope just dropped a massive 150-page manifesto on AI, and he's not holding back" [ref=e369]:
+                      - generic [ref=e370] [cursor=pointer]:
+                        - link "The Pope just dropped a massive 150-page manifesto on AI, and he's not holding back" [ref=e371]:
+                          - /url: https://www.reddit.com/r/ArtificialInteligence/comments/1tovqgo/the_pope_just_dropped_a_massive_150page_manifesto/
+                          - generic [ref=e372]:
+                            - generic: The Pope just dropped a massive 150-page manifesto on AI, and he's not holding back
+                        - generic [ref=e373]:
+                          - generic [ref=e374]:
+                            - 'link "Author: u/andrewaltair" [ref=e379]':
+                              - /url: /user/andrewaltair/
+                              - generic [ref=e380]:
+                                - img "u/andrewaltair avatar" [ref=e383]
+                                - generic [ref=e384]: u/andrewaltair
+                            - generic [ref=e385]: •
+                            - time [ref=e387]: 5 days ago
+                          - button "Open user actions" [ref=e392]:
+                            - img [ref=e395]
+                        - generic [ref=e398]:
+                          - heading "The Pope just dropped a massive 150-page manifesto on AI, and he's not holding back" [level=2] [ref=e399]:
+                            - link "The Pope just dropped a massive 150-page manifesto on AI, and he's not holding back" [ref=e400]:
+                              - /url: /r/ArtificialInteligence/comments/1tovqgo/the_pope_just_dropped_a_massive_150page_manifesto/
+                          - 'link "Flair: 📰 News" [ref=e403]':
+                            - /url: /r/ArtificialInteligence/?f=flair_name%3A%22%F0%9F%93%B0%20News%22
+                            - 'generic "Flair: 📰 News" [ref=e405]': 📰 News
+                          - generic [ref=e406]:
+                            - generic:
+                              - link:
+                                - /url: /r/ArtificialInteligence/comments/1tovqgo/the_pope_just_dropped_a_massive_150page_manifesto/
+                                - generic:
+                                  - generic:
+                                    - paragraph: So, Pope Leo XIV just released his first official encyclical called "Magnifica Humanitas," and the entire thing is dedicated to AI. He's basically calling for the total "disarmament" of artificial intelligence and saying we need to rip it away from big tech monopolies before it completely dominates society. It's pretty fascinating to see the leader of 1.4 billion Catholics take such a direct shot at Silicon Valley.
+                                    - paragraph: The document is massive, about 42,300 words, and it covers a lot of ground. He completely condemns using AI in military tech, arguing that an algorithm can never morally justify a war. But he also gets into things you don't usually hear from religious figures, like the environmental toll of data centers burning through water and electricity, and what he calls "digital slavery" (referring to the exploited workers forced to do brutal content moderation and data labeling). His main philosophical point is that these AI models just mimic the human mind but are completely devoid of any real spiritual perspective. This is a huge shift from 2020, when the Vatican signed that pretty soft AI ethics declaration with Microsoft and IBM. This new text is way more aggressive.
+                                    - paragraph: Ultimately, this is the Vatican's first official doctrine of the generative AI era, and it's pretty clear it will set the tone for how they approach global tech regulation and digital ethics from here on out. What's wild is that Chris Olah, the co-founder of Anthropic, was actually at the Vatican for the official release event.
+                                    - paragraph:
+                                      - text: "Source:"
+                                      - link "https://futurism.com/artificial-intelligence/pope-holy-war-artificial-intelligence":
+                                        - /url: https://futurism.com/artificial-intelligence/pope-holy-war-artificial-intelligence
+                        - generic "Actions available for this post" [ref=e408]:
+                          - generic [ref=e411]:
+                            - button "Upvote" [ref=e412]:
+                              - img [ref=e414]
+                              - generic [ref=e416]:
+                                - generic: Upvote
+                            - generic [ref=e418]: 3.6K
+                            - button "Downvote" [ref=e419]:
+                              - img [ref=e421]
+                              - generic [ref=e423]:
+                                - generic: Downvote
+                          - link "443 Go to comments" [ref=e424]:
+                            - /url: /r/ArtificialInteligence/comments/1tovqgo/the_pope_just_dropped_a_massive_150page_manifesto/
+                            - generic [ref=e425]:
+                              - img [ref=e427]
+                              - generic [ref=e430]: "443"
+                            - generic [ref=e431]:
+                              - generic: Go to comments
+                          - button "Give award, 1 award given" [ref=e433]:
+                            - generic [ref=e438]: "1"
+                          - button "Share" [ref=e442]:
+                            - generic [ref=e443]:
+                              - img [ref=e445]
+                              - generic [ref=e447]: Share
+                    - separator [ref=e448]
+                    - article "What exactly are we competing with China for?" [ref=e449]:
+                      - generic [ref=e450] [cursor=pointer]:
+                        - link "What exactly are we competing with China for?" [ref=e451]:
+                          - /url: https://www.reddit.com/r/ArtificialInteligence/comments/1tsxi68/what_exactly_are_we_competing_with_china_for/
+                          - generic [ref=e452]:
+                            - generic: What exactly are we competing with China for?
+                        - generic [ref=e453]:
+                          - generic [ref=e454]:
+                            - 'link "Author: u/Pickle_boy" [ref=e459]':
+                              - /url: /user/Pickle_boy/
+                              - generic [ref=e460]:
+                                - img "u/Pickle_boy avatar" [ref=e463]
+                                - generic [ref=e464]: u/Pickle_boy
+                            - generic [ref=e465]: •
+                            - time [ref=e467]: 11 hr. ago
+                          - button "Open user actions" [ref=e472]:
+                            - img [ref=e475]
+                        - generic [ref=e478]:
+                          - heading "What exactly are we competing with China for?" [level=2] [ref=e479]:
+                            - link "What exactly are we competing with China for?" [ref=e480]:
+                              - /url: /r/ArtificialInteligence/comments/1tsxi68/what_exactly_are_we_competing_with_china_for/
+                          - 'link "Flair: 📊 Analysis / Opinion" [ref=e483]':
+                            - /url: /r/ArtificialInteligence/?f=flair_name%3A%22%F0%9F%93%8A%20Analysis%20%2F%20Opinion%22
+                            - 'generic "Flair: 📊 Analysis / Opinion" [ref=e485]': 📊 Analysis / Opinion
+                          - generic [ref=e486]:
+                            - generic:
+                              - link:
+                                - /url: /r/ArtificialInteligence/comments/1tsxi68/what_exactly_are_we_competing_with_china_for/
+                                - generic:
+                                  - generic:
+                                    - paragraph: I’m asking this in good faith. I’m an American and I’m trying to get to the root of what it means to “compete with China” with respect to AI.
+                                    - paragraph: As far as I’m concerned, AI is software that runs on a computer. I can’t hold it in my hand or eat it. If China has better AI models on their computers than the US, what EXACTLY does this imply for the world. Why and how are they going to dominate us? Are they going to build a weapon that kills us all? Are they going to seize control of every economic market? They’re already doing that without AI. I’m asking these in good faith.
+                                    - paragraph: I’ll read posts on this subreddit that, with respect to the AI race, only speak of it in a “meta” manner. By that I mean, I’ll see references to how China has better engineers, better models, they are “innovating” better, but it’s all references to the technology itself. Never what this tech will ultimately be used for. It makes me feel that we have collectively become enamored with tech for techs sake without any broader consciousness towards what it’s all for. What problems are we trying to solve?
+                                    - paragraph: I’m an engineer(not software), I use ChatGPT to help automate simple coding processes, it definitely has practical use to me(unlike crypto/nfts), but I feel “too stupid” to grasp what all the data centers are for, why these aggressive companies are forcing me to embrace this.
+                        - generic "Actions available for this post" [ref=e488]:
+                          - generic [ref=e491]:
+                            - button "Upvote" [ref=e492]:
+                              - img [ref=e494]
+                              - generic [ref=e496]:
+                                - generic: Upvote
+                            - generic [ref=e498]: "26"
+                            - button "Downvote" [ref=e499]:
+                              - img [ref=e501]
+                              - generic [ref=e503]:
+                                - generic: Downvote
+                          - link "77 Go to comments" [ref=e504]:
+                            - /url: /r/ArtificialInteligence/comments/1tsxi68/what_exactly_are_we_competing_with_china_for/
+                            - generic [ref=e505]:
+                              - img [ref=e507]
+                              - generic [ref=e510]: "77"
+                            - generic [ref=e511]:
+                              - generic: Go to comments
+                          - button "Give award" [ref=e513]:
+                            - img [ref=e516]
+                          - button "Share" [ref=e521]:
+                            - generic [ref=e522]:
+                              - img [ref=e524]
+                              - generic [ref=e526]: Share
+                    - separator [ref=e527]
+                  - img [ref=e533]
+            - generic [ref=e546]:
+              - generic [ref=e549]:
+                - generic:
+                  - complementary "Community information" [ref=e550]:
+                    - generic [ref=e551]:
+                      - generic [ref=e553]:
+                        - heading "Community Info Section" [level=1] [ref=e554]
+                        - generic [ref=e555]:
+                          - generic [ref=e556]: Artificial Intelligence
+                          - generic [ref=e557]: The high-signal hub for artificial intelligence!
+                          - generic [ref=e558]:
+                            - generic [ref=e560]:
+                              - img [ref=e561]
+                              - text: Created Feb 25, 2016
+                            - generic [ref=e564]:
+                              - img [ref=e565]
+                              - text: Public
+                        - generic [ref=e567]:
+                          - generic [ref=e568]:
+                            - strong [ref=e570]:
+                              - generic: 588K
+                            - generic [ref=e571]: Weekly visitors
+                          - generic [ref=e572]:
+                            - strong [ref=e574]:
+                              - generic: 10K
+                            - generic [ref=e575]: Weekly contributions
+                      - separator [ref=e576]
+                      - generic [ref=e577]:
+                        - heading "r/ArtificialInteligence Rules" [level=2] [ref=e579]:
+                          - generic [ref=e580]: r/ArtificialInteligence Rules
+                        - generic [ref=e581]:
+                          - group [ref=e583]:
+                            - generic "1 Be Civil" [ref=e584] [cursor=pointer]:
+                              - generic [ref=e586]:
+                                - generic [ref=e587]:
+                                  - generic [ref=e589]: "1"
+                                  - heading "Be Civil" [level=2] [ref=e593]
+                                - img [ref=e596]
+                          - group [ref=e599]:
+                            - generic "2 High-Signal Content Only" [ref=e600] [cursor=pointer]:
+                              - generic [ref=e602]:
+                                - generic [ref=e603]:
+                                  - generic [ref=e605]: "2"
+                                  - heading "High-Signal Content Only" [level=2] [ref=e609]
+                                - img [ref=e612]
+                          - group [ref=e615]:
+                            - generic "3 No Spam · Builders Welcome with Substance" [ref=e616] [cursor=pointer]:
+                              - generic [ref=e618]:
+                                - generic [ref=e619]:
+                                  - generic [ref=e621]: "3"
+                                  - heading "No Spam · Builders Welcome with Substance" [level=2] [ref=e625]
+                                - img [ref=e628]
+                          - group [ref=e631]:
+                            - generic "4 No Repetitive Doom or Hype" [ref=e632] [cursor=pointer]:
+                              - generic [ref=e634]:
+                                - generic [ref=e635]:
+                                  - generic [ref=e637]: "4"
+                                  - heading "No Repetitive Doom or Hype" [level=2] [ref=e641]
+                                - img [ref=e644]
+                          - group [ref=e647]:
+                            - generic "5 No Tool Requests" [ref=e648] [cursor=pointer]:
+                              - generic [ref=e650]:
+                                - generic [ref=e651]:
+                                  - generic [ref=e653]: "5"
+                                  - heading "No Tool Requests" [level=2] [ref=e657]
+                                - img [ref=e660]
+                          - group [ref=e663]:
+                            - generic "6 News Posts Need Context" [ref=e664] [cursor=pointer]:
+                              - generic [ref=e666]:
+                                - generic [ref=e667]:
+                                  - generic [ref=e669]: "6"
+                                  - heading "News Posts Need Context" [level=2] [ref=e673]
+                                - img [ref=e676]
+                          - group [ref=e679]:
+                            - generic "7 Use Correct Flair" [ref=e680] [cursor=pointer]:
+                              - generic [ref=e682]:
+                                - generic [ref=e683]:
+                                  - generic [ref=e685]: "7"
+                                  - heading "Use Correct Flair" [level=2] [ref=e689]
+                                - img [ref=e692]
+                          - group [ref=e695]:
+                            - generic "8 Title Standards" [ref=e696] [cursor=pointer]:
+                              - generic [ref=e698]:
+                                - generic [ref=e699]:
+                                  - generic [ref=e701]: "8"
+                                  - heading "Title Standards" [level=2] [ref=e705]
+                                - img [ref=e708]
+                      - separator [ref=e710]
+                      - generic [ref=e711]:
+                        - heading "RESOURCES" [level=2] [ref=e713]:
+                          - generic [ref=e714]: RESOURCES
+                        - generic [ref=e715]:
+                          - link "✅ Get Verified ✅ Get Verified" [ref=e716] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/ArtificialInteligence/wiki/verification
+                            - generic [ref=e719]: ✅ Get Verified
+                            - generic [ref=e720]:
+                              - generic: ✅ Get Verified
+                          - link "Wiki Wiki" [ref=e721] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/ArtificialInteligence/wiki/index/
+                            - generic [ref=e724]: Wiki
+                            - generic [ref=e725]:
+                              - generic: Wiki
+                          - link "🛠️ Tools 🛠️ Tools" [ref=e726] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/ArtificialInteligence/wiki/tools/
+                            - generic [ref=e729]: 🛠️ Tools
+                            - generic [ref=e730]:
+                              - generic: 🛠️ Tools
+                          - link "Join our X account Join our X account" [ref=e731] [cursor=pointer]:
+                            - /url: https://x.com/WerAICommunity
+                            - generic [ref=e734]: Join our X account
+                            - generic [ref=e735]:
+                              - generic: Join our X account
+                      - separator [ref=e736]
+                      - generic [ref=e737]:
+                        - heading "RELATED SUBREDDITS" [level=2] [ref=e739]:
+                          - generic [ref=e740]: RELATED SUBREDDITS
+                        - generic [ref=e747]:
+                          - link "r/singularity" [ref=e750] [cursor=pointer]:
+                            - /url: /r/singularity
+                          - generic [ref=e751]: 3,907,519 members
+                        - generic [ref=e758]:
+                          - link "r/MachineLearning" [ref=e761] [cursor=pointer]:
+                            - /url: /r/MachineLearning
+                          - generic [ref=e762]: 3,049,887 members
+                        - generic [ref=e769]:
+                          - link "r/OpenAI" [ref=e772] [cursor=pointer]:
+                            - /url: /r/OpenAI
+                          - generic [ref=e773]: 2,768,487 members
+                        - generic [ref=e780]:
+                          - link "r/ClaudeAI" [ref=e783] [cursor=pointer]:
+                            - /url: /r/ClaudeAI
+                          - generic [ref=e784]: 892,022 members
+                        - generic [ref=e791]:
+                          - link "r/LangChain" [ref=e794] [cursor=pointer]:
+                            - /url: /r/LangChain
+                          - generic [ref=e795]: 99,792 members
+                        - generic [ref=e802]:
+                          - link "r/ChatGPT" [ref=e805] [cursor=pointer]:
+                            - /url: /r/ChatGPT
+                          - generic [ref=e806]: 11,508,995 members
+                  - article [ref=e809]:
+                    - generic [ref=e810]:
+                      - generic [ref=e811]: Promoted
+                      - button "Open user actions" [ref=e817] [cursor=pointer]:
+                        - img [ref=e820]
+                    - link "sidebar promoted post thumbnail" [ref=e823] [cursor=pointer]:
+                      - /url: https://alb.reddit.com/cr?za=qNy9gdR-au_mFlk6tQdqLScIUglZdcDqYu9GZ8Xgf5G3OQN3RyKVhgbt00TRX952ARMgwEaDUWictLkIJ-dtsCQt_n7ZG_jVADB3ociyCiCWIsCBshZ8z3nVFjckV8YljWGxKkrlD5l3rFC9-NccDxiV1yyTVwVKhET6Rr0UzngAopW0WI3_kTxulLWucZUGJFXwjFbA3P-mKTPC3PLazDaFpkhqB93ICb5AVtNQgfyIc_BK7mla-CJEp7yetz_lr0ZTuWcJ8Mn6-DbuD8NhefZ0940-_pn2mTbWNVhyX5_X3h6bllEXNoPpXwDRJ51s2SL9XYqnP3wkEFHuU8KbXKfvBHQ7IseQ5eZiDpSESgXTa0ya0BI-o_rNWfh2EPgPAEn1nsOfElWZIOu9C4qKn0BbhrNIjnWrN4tdn0sLx6or-nc8uXwBlLY-RF6dz5yQaPaGX6Y-NrPlmL9UH4rCAovUabWrbotGxQCglbfWQyJ3b5gQN3Y2Op7ik3NjnJgJkfnqnm3hoi6jjwSzLps7Ze_1BbLoWmiLRzJFSoZKzscwN9VUupMjidmOWnwJGC1w8ICvFVSldlSzpX9VtGbBkm4J1YYGUEklLeriH35Qyw1zEiuCdOaA3l0Nf5gYO7LBNd6LxecPZ_2pMjMMDYhTs_UlybQu-VF27L8iEVrl&zp=YWRABX7fX_VlG1bRnKeTHdfKQR07OM94DxJs6kTxk5yD1TykC-R3OWodkqnbSEGpZDgFKhwbg5tEGRwhWxWAWFlaqnn_TmMf0aZA8zycCxN6sJQjCXomx7G5gcBDwdWyg20Xoyalduvd9NcU9HGcMu3lRT69ZlAFq3ZKoHp2VCGE2nXmrriD3UB4XzeHxytlnYRJMp4lxjlXiDeIULzbockQdbDmb6BHLPKeaRYUKdCPboiZZ5DGw5wNRwEBn_oWQRnslXfWqUhjIDHtLs03nK4dmqy7cI4p9jWkp_7fNPsyE3ST5mA_EtNHH4_wrfkWfI16G3b3gI4iGjchuXncP2ufdvTBlfONlIdzoiyX2cMtsyeZ1SpD0uSSRDyMYuoTZjJb1E6buRpuDdLJIbdQwlH60XL65WbCGjInN4d5O-dAzb9_oDPHD6Mt
+                      - img "sidebar promoted post thumbnail" [ref=e825]
+                  - separator [ref=e826]
+                  - generic [ref=e828]:
+                    - separator [ref=e829]
+                    - generic [ref=e830]:
+                      - heading "Installed Apps" [level=2] [ref=e832]:
+                        - generic [ref=e833]: Installed Apps
+                      - link "Modmail Quick User Summary" [ref=e834] [cursor=pointer]:
+                        - /url: https://developers.reddit.com/apps/modmail-userinfo
+                        - generic [ref=e837]: Modmail Quick User Summary
+                        - img [ref=e840]
+                      - link "Remove Macro" [ref=e842] [cursor=pointer]:
+                        - /url: https://developers.reddit.com/apps/purge-user
+                        - generic [ref=e845]: Remove Macro
+                        - img [ref=e848]
+                      - link "raymonmod" [ref=e850] [cursor=pointer]:
+                        - /url: https://developers.reddit.com/apps/raymonmod
+                        - generic [ref=e853]: raymonmod
+                        - img [ref=e856]
+                  - separator [ref=e858]
+                  - article [ref=e861]:
+                    - generic [ref=e862]:
+                      - generic [ref=e863]: Promoted
+                      - button "Open user actions" [ref=e869] [cursor=pointer]:
+                        - img [ref=e872]
+                    - link "sidebar promoted post thumbnail" [ref=e875] [cursor=pointer]:
+                      - /url: https://alb.reddit.com/cr?za=clclcgpU2hnwdJvJr-zq5hVfxYIj1imXxROAz5SH0LokPpfBbEM4XubRkX8wF06L42_CWPwL1uQ2Ey4Gjm_194YVKFgpMjoSHugDptPDzUPNdYaooT1SqG4ftmTIdxS8NIEsRkdYCPFkkuG8lPt-YWQfQDyEK5kjTVqzT15aC8fBVXXRRDh7LIVGGVdqTKm2G2wh7fmxXvZFD_rRA5uIqij5ePqcxK3WJyNMbkJ5sV0QkeyInzMQC4LCfbeJaVeeccBRYZTxs_KZfnOYBYtCrFWXWQN2vXptGRCPsunCwwajTe-PWkzteJ8DIlCDtXs5ILSGUea4GIxl90BS3pzDXlIHwomhd3p8TqQVXcyZ5V_lb18MWvBVUG-erO-R5UoqyOa57oD1NxI7ovF8-ZqM5dZwd_7WvVnMLAT-CbXRqU8sGmzohvV-tcqcCYcNDhAOOjNLmhB5A7uFcUDtfv75-Lv02iYtpD_Hp_TLUgzpTOBPya66sc8nD9WHDEdGKCXP11ZMDALLMewNIb5teqG10pNJ1ZaKvVODNepE9cCKUlZgVEO_zip86r3kJxeefjFmRPAQaxXF4KJY51buVVTwtWVIzRAwQvMBr8RGIKZFiT-3GXfp95ZO9l50sa0jSyN0--3Htg70mbO9lFVa0WjZa044VCEJ7FASeKd8rX3P&zp=pdg8PpCvyTkAq4qUnGNg8FVhyky2fnp5bP87bWkyNdFJ1omI1_-NaTe9pVxyi0Vc0hOeEHiZ7v09U4EhzSMzOmyYRGC-MhQVAp7JSIWEJh9PY614EURZZId_XGfKc8JsQDYYSxEPOe74bPiSkKhtXBZuYcMYBeCTv7c1fLPct40raTSfi2YArZT2M5Upat2JwFi06DqCS8jhLZ-SE44cRA6xOJv6YLEzBwCSUw1nvEZF8rLHz5UN3Pkfq61eHVTb6FOKmirG_DEd2Nq6Uzyjl2P4u8q2OTYrsMB9C0izjcyZzNCGrJX1aARHUuRIsUhyAbX1oQw11IFxITdu1-TRW0U9Qav4YudWFjoQrae7NqiZKZ4NPg9HRTwB0mOiCjWy0vsLKDJ7Lox309olVf2jmzehT9zmTyoANlCL-mX2aTFsUN1-4zSX4qph
+                      - img "sidebar promoted post thumbnail" [ref=e877]
+              - list [ref=e879]:
+                - listitem [ref=e880]:
+                  - link "Reddit Rules" [ref=e882] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e883]:
+                  - link "Privacy Policy" [ref=e885] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e886]:
+                  - link "User Agreement" [ref=e888] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e889]:
+                  - link "Your Privacy Choices" [ref=e891] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e892]:
+                  - link "Accessibility" [ref=e894] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e895]:
+                  - link "Reddit, Inc. © 2026. All rights reserved." [ref=e896] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e898]:
+          - button "Collapse Navigation" [ref=e901] [cursor=pointer]:
+            - img [ref=e904]
+            - generic [ref=e906]:
+              - generic: Collapse Navigation
+          - navigation "Primary" [ref=e911]:
+            - generic [ref=e913]:
+              - link "Home" [ref=e915] [cursor=pointer]:
+                - /url: https://www.reddit.com/?feed=home
+                - generic [ref=e916]:
+                  - img [ref=e918]
+                  - generic [ref=e921]: Home
+              - link "Popular" [ref=e923] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/popular/
+                - generic [ref=e924]:
+                  - img [ref=e926]
+                  - generic [ref=e929]: Popular
+              - link "News" [ref=e930] [cursor=pointer]:
+                - /url: https://www.reddit.com/news/
+                - generic [ref=e931]:
+                  - img [ref=e933]
+                  - generic [ref=e937]: News
+              - link "Explore" [ref=e939] [cursor=pointer]:
+                - /url: https://www.reddit.com/explore/
+                - generic [ref=e940]:
+                  - img [ref=e942]
+                  - generic [ref=e945]: Explore
+            - separator [ref=e946]
+            - navigation "Reddit resources" [ref=e947]:
+              - group [ref=e949]:
+                - generic "RESOURCES" [ref=e950] [cursor=pointer]:
+                  - generic [ref=e952]:
+                    - generic [ref=e955]: RESOURCES
+                    - img [ref=e958]
+                - generic [ref=e961]:
+                  - link "About Reddit" [ref=e963] [cursor=pointer]:
+                    - /url: https://www.redditinc.com
+                    - generic [ref=e964]:
+                      - img [ref=e966]
+                      - generic [ref=e970]: About Reddit
+                  - link "Advertise" [ref=e972] [cursor=pointer]:
+                    - /url: https://ads.reddit.com/register?utm_source=web3x_consumer&utm_name=left_nav_cta
+                    - generic [ref=e973]:
+                      - img [ref=e975]
+                      - generic [ref=e979]: Advertise
+                  - link "Developer Platform" [ref=e981] [cursor=pointer]:
+                    - /url: https://developers.reddit.com/?utm_source=reddit&utm_medium=left_nav_resources
+                    - generic [ref=e982]:
+                      - img [ref=e984]
+                      - generic [ref=e988]: Developer Platform
+                  - link "Reddit Pro BETA" [ref=e990] [cursor=pointer]:
+                    - /url: /reddit-pro?utm_source=reddit&utm_medium=left_nav_resources
+                    - generic [ref=e991]:
+                      - img [ref=e993]
+                      - generic [ref=e997]:
+                        - generic [ref=e998]: Reddit Pro
+                        - generic [ref=e999]: BETA
+                  - link "Help" [ref=e1001] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc?utm_source=reddit&utm_medium=footer&utm_campaign=evergreen
+                    - generic [ref=e1002]:
+                      - img [ref=e1004]
+                      - generic [ref=e1008]: Help
+                  - link "Blog" [ref=e1010] [cursor=pointer]:
+                    - /url: https://redditblog.com/
+                    - generic [ref=e1011]:
+                      - img [ref=e1013]
+                      - generic [ref=e1017]: Blog
+                  - link "Careers" [ref=e1019] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/careers
+                    - generic [ref=e1020]:
+                      - img [ref=e1022]
+                      - generic [ref=e1026]: Careers
+                  - link "Press" [ref=e1028] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/press
+                    - generic [ref=e1029]:
+                      - img [ref=e1031]
+                      - generic [ref=e1035]: Press
+                  - separator [ref=e1036]
+                  - link "Best of Reddit" [ref=e1038] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                    - generic [ref=e1039]:
+                      - img [ref=e1041]
+                      - generic [ref=e1046]: Best of Reddit
+                  - separator [ref=e1047]
+                  - link "Reddit Rules" [ref=e1049] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                    - generic [ref=e1050]:
+                      - img [ref=e1052]
+                      - generic [ref=e1056]: Reddit Rules
+                  - link "Privacy Policy" [ref=e1058] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                    - generic [ref=e1059]:
+                      - img [ref=e1061]
+                      - generic [ref=e1065]: Privacy Policy
+                  - link "User Agreement" [ref=e1067] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                    - generic [ref=e1068]:
+                      - img [ref=e1070]
+                      - generic [ref=e1074]: User Agreement
+                  - link "Your Privacy Choices" [ref=e1076] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                    - generic [ref=e1077]:
+                      - img [ref=e1079]
+                      - generic [ref=e1083]: Your Privacy Choices
+                  - link "Accessibility" [ref=e1085] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                    - generic [ref=e1086]:
+                      - img [ref=e1088]
+                      - generic [ref=e1093]: Accessibility
+            - link "Reddit, Inc. © 2026. All rights reserved." [ref=e1095] [cursor=pointer]:
+              - /url: https://redditinc.com

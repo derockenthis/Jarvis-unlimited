@@ -1,0 +1,388 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: https://adk.dev/2.0/#welcome-to-adk-20
+  - complementary [ref=e4]:
+    - generic [ref=e6]:
+      - link "ADK Python 2.0 GA" [ref=e7] [cursor=pointer]:
+        - /url: https://adk.dev/2.0/
+      - text: is LIVE with graph workflows and collaborative agents, and check out
+      - link "ADK Kotlin" [ref=e8] [cursor=pointer]:
+        - /url: https://adk.dev/get-started/kotlin/
+      - text: "!"
+  - banner [ref=e9]:
+    - navigation "Header" [ref=e10]:
+      - link "Agent Development Kit (ADK)" [ref=e11] [cursor=pointer]:
+        - /url: https://adk.dev/
+        - img "logo" [ref=e12]
+      - generic [ref=e14]:
+        - link "Agent Development Kit (ADK)" [ref=e17] [cursor=pointer]:
+          - /url: https://adk.dev/
+        - generic:
+          - generic: Welcome to ADK 2.0
+      - generic [ref=e19]:
+        - link "Python Python" [ref=e20] [cursor=pointer]:
+          - /url: https://github.com/google/adk-python
+          - img "Python" [ref=e21]
+          - generic [ref=e22]: Python
+        - link "TypeScript JS" [ref=e23] [cursor=pointer]:
+          - /url: https://github.com/google/adk-js
+          - img "TypeScript" [ref=e24]
+          - generic [ref=e25]: JS
+        - link "Go Go" [ref=e26] [cursor=pointer]:
+          - /url: https://github.com/google/adk-go
+          - img "Go" [ref=e27]
+          - generic [ref=e28]: Go
+        - link "Java Java" [ref=e29] [cursor=pointer]:
+          - /url: https://github.com/google/adk-java
+          - img "Java" [ref=e30]
+          - generic [ref=e31]: Java
+        - link "Kotlin Kotlin" [ref=e32] [cursor=pointer]:
+          - /url: https://github.com/google/adk-kotlin
+          - img "Kotlin" [ref=e33]
+          - generic [ref=e34]: Kotlin
+      - generic [ref=e35]:
+        - radio "Switch to dark mode"
+        - generic "Switch to dark mode" [ref=e36] [cursor=pointer]:
+          - img [ref=e37]
+        - radio "Switch to light mode"
+      - dialog [ref=e39]:
+        - search [ref=e40]:
+          - generic [ref=e41]:
+            - textbox "Search" [ref=e42]
+            - generic:
+              - img
+            - navigation "Search":
+              - button "Clear":
+                - img
+          - generic [ref=e44]: Initializing search
+  - generic [ref=e45]:
+    - navigation "Tabs" [ref=e46]:
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Home" [ref=e50] [cursor=pointer]:
+            - /url: https://adk.dev/
+        - listitem [ref=e51]:
+          - link "Build Agents" [ref=e52] [cursor=pointer]:
+            - /url: https://adk.dev/get-started/
+        - listitem [ref=e53]:
+          - link "Run Agents" [ref=e54] [cursor=pointer]:
+            - /url: https://adk.dev/runtime/
+        - listitem [ref=e55]:
+          - link "Components" [ref=e56] [cursor=pointer]:
+            - /url: https://adk.dev/get-started/about/
+        - listitem [ref=e57]:
+          - link "Integrations" [ref=e58] [cursor=pointer]:
+            - /url: https://adk.dev/integrations/
+        - listitem [ref=e59]:
+          - link "Reference" [ref=e60] [cursor=pointer]:
+            - /url: https://adk.dev/api-reference/
+        - listitem [ref=e61]:
+          - link "Community" [ref=e62] [cursor=pointer]:
+            - /url: https://adk.dev/community/
+        - listitem [ref=e63]:
+          - link "ADK 2.0" [ref=e64] [cursor=pointer]:
+            - /url: https://adk.dev/2.0/
+    - main [ref=e65]:
+      - generic [ref=e66]:
+        - navigation "Table of contents" [ref=e70]:
+          - generic [ref=e71]: Table of contents
+          - list [ref=e72]:
+            - listitem [ref=e73]:
+              - link "ADK Python 1.x compatibility" [ref=e74] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#adk-python-1x-compatibility
+                - generic [ref=e75]: ADK Python 1.x compatibility
+              - navigation "ADK Python 1.x compatibility" [ref=e76]:
+                - list [ref=e77]:
+                  - listitem [ref=e78]:
+                    - link "Event Schema & Custom Session Databases" [ref=e79] [cursor=pointer]:
+                      - /url: https://adk.dev/2.0/#event-schema-custom-session-databases
+                      - generic [ref=e80]: Event Schema & Custom Session Databases
+                  - listitem [ref=e81]:
+                    - 'link "Agent Execution: BaseAgent to BaseNode" [ref=e82] [cursor=pointer]':
+                      - /url: https://adk.dev/2.0/#agent-execution-baseagent-to-basenode
+                      - generic [ref=e83]: "Agent Execution: BaseAgent to BaseNode"
+                  - listitem [ref=e84]:
+                    - 'link "Context & Callbacks: In-Place Mutation" [ref=e85] [cursor=pointer]':
+                      - /url: https://adk.dev/2.0/#context-callbacks-in-place-mutation
+                      - generic [ref=e86]: "Context & Callbacks: In-Place Mutation"
+                  - listitem [ref=e87]:
+                    - link "Error Handling & Automatic Retries" [ref=e88] [cursor=pointer]:
+                      - /url: https://adk.dev/2.0/#error-handling-automatic-retries
+                      - generic [ref=e89]: Error Handling & Automatic Retries
+                  - listitem [ref=e90]:
+                    - link "Installing ADK Python 1.x" [ref=e91] [cursor=pointer]:
+                      - /url: https://adk.dev/2.0/#install
+                      - generic [ref=e92]: Installing ADK Python 1.x
+            - listitem [ref=e93]:
+              - link "Next steps" [ref=e94] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#next-steps
+                - generic [ref=e95]: Next steps
+        - generic [ref=e96]:
+          - navigation "Navigation" [ref=e97]:
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Home" [ref=e100] [cursor=pointer]:
+                  - /url: https://adk.dev/
+                  - generic [ref=e101]: Home
+              - listitem [ref=e102]:
+                - link "ADK 2.0" [ref=e103] [cursor=pointer]:
+                  - /url: https://adk.dev/2.0/
+                  - generic [ref=e104]: ADK 2.0
+          - article [ref=e105]:
+            - link "Edit this page on GitHub" [ref=e106] [cursor=pointer]:
+              - /url: https://github.com/google/adk-docs/edit/main/docs/2.0/index.md
+              - img [ref=e107]
+            - link "View Markdown source" [ref=e109] [cursor=pointer]:
+              - /url: https://github.com/google/adk-docs/raw/main/docs/2.0/index.md
+              - img [ref=e110]
+            - button "Copy page as Markdown" [ref=e112] [cursor=pointer]:
+              - img [ref=e113]
+            - heading "Welcome to ADK 2.0 ¶" [level=1] [ref=e115]:
+              - text: Welcome to ADK 2.0
+              - link "¶" [ref=e116] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#welcome-to-adk-20
+            - paragraph [ref=e117]: "ADK 2.0 introduces powerful tools for building sophisticated AI agents, and helps you structure agents to execute challenging tasks with more control, predictability, and reliability. ADK 2.0 is available for Python and includes the following key features:"
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - paragraph [ref=e120]:
+                  - link "Graph-based workflows" [ref=e121] [cursor=pointer]:
+                    - /url: https://adk.dev/graphs/
+                    - strong [ref=e122]: Graph-based workflows
+                  - text: ": Build deterministic agent workflows with more control over how tasks are routed and executed."
+              - listitem [ref=e123]:
+                - paragraph [ref=e124]:
+                  - link "Dynamic workflows" [ref=e125] [cursor=pointer]:
+                    - /url: https://adk.dev/graphs/dynamic/
+                    - strong [ref=e126]: Dynamic workflows
+                  - text: ": Use code-based logic for building more complex workflows including iterative loops and complex decision-based branching."
+              - listitem [ref=e127]:
+                - paragraph [ref=e128]:
+                  - link "Collaborative workflows" [ref=e129] [cursor=pointer]:
+                    - /url: https://adk.dev/workflows/collaboration/
+                    - strong [ref=e130]: Collaborative workflows
+                  - text: ": Build complex agent architectures with coordinator agents and multiple subagents working together."
+            - paragraph [ref=e131]: Check out the linked topics above for more information, and try out the new way to build agents with ADK 2.0!
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: ADK Python v2.0.0 GA release
+              - paragraph [ref=e134]: ADK Python 2.0 is released for general availability as of May 19, 2026.
+            - heading "ADK Python 1.x compatibility ¶" [level=2] [ref=e135]:
+              - text: ADK Python 1.x compatibility
+              - link "¶" [ref=e136] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#adk-python-1x-compatibility
+            - paragraph [ref=e137]: ADK 2.0 is designed to be compatible with agents developed with ADK 1.x releases. However, there are a few breaking changes you should be aware of before upgrading an ADK 1.x project to ADK 2.0.
+            - generic [ref=e138]:
+              - paragraph [ref=e139]: "Breaking changes: ADK Python 1.x to 2.0 incompatibilities"
+              - paragraph [ref=e140]: There are several known incompatibilities and breaking changes introduced with ADK Python v2.0.0. Before upgrading, review these changes and take mitigation steps, if necessary.
+            - paragraph [ref=e141]:
+              - text: The ADK 2.0 release introduces the Workflow Runtime, transitioning ADK from a hierarchical agent executor to a graph-based execution engine. In this new architecture, your Agents, Tools, and Functions are evaluated as individual
+              - emphasis [ref=e142]: nodes
+              - text: within a workflow graph. If you are upgrading from ADK 1.x, review the following breaking changes and migration steps to ensure a smooth transition for your production applications.
+            - heading "Event Schema & Custom Session Databases ¶" [level=3] [ref=e143]:
+              - text: Event Schema & Custom Session Databases
+              - link "¶" [ref=e144] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#event-schema-custom-session-databases
+            - paragraph [ref=e145]:
+              - text: ADK 2.0 introduces new fields
+              - code [ref=e146]: node_info
+              - text: and
+              - code [ref=e147]: output
+              - text: to the core
+              - strong [ref=e148]:
+                - emphasis [ref=e149]: Event
+              - text: schema to track graph state and workflow outputs.
+            - list [ref=e150]:
+              - listitem [ref=e151]:
+                - strong [ref=e152]: "Custom Session storage:"
+                - text: If you have implemented a custom
+                - code [ref=e153]: BaseSessionService
+                - text: ", such as storing sessions in your own SQL or NoSQL databases using rigid columns, your underlying database schema must be updated to accommodate these new fields. Inserting a 2.0"
+                - strong [ref=e154]:
+                  - emphasis [ref=e155]: Event
+                - text: into a rigid 1.x database table causes insertion or ORM deserialization failures.
+                - emphasis [ref=e156]: However, if your custom session service stores events as serialized JSON blobs rather than mapping them to explicit columns, you do not need to update your schema.
+              - listitem [ref=e157]:
+                - strong [ref=e158]: "Strict JSON validation:"
+                - text: If your deployment includes downstream API gateways, mobile clients, or web frontends that perform strict JSON schema validation, including setting
+                - code [ref=e159]: "additionalProperties: false"
+                - text: ", then validation will reject 2.0 events until their expected schemas are updated."
+            - paragraph [ref=e160]:
+              - strong [ref=e161]: "Migration action:"
+              - text: Update your database schemas and downstream client validators to expect and store the
+              - code [ref=e162]: node_info
+              - text: and
+              - code [ref=e163]: output
+              - text: fields on all Event payloads. Ensure all reader applications are updated to handle the 2.0 format before writing 2.0 sessions to a shared database.
+            - 'heading "Agent Execution: BaseAgent to BaseNode ¶" [level=3] [ref=e164]':
+              - text: "Agent Execution: BaseAgent to BaseNode"
+              - link "¶" [ref=e165] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#agent-execution-baseagent-to-basenode
+            - paragraph [ref=e166]:
+              - text: In ADK 1.x, Agents were standalone executors. In ADK 2.0, the
+              - strong [ref=e167]:
+                - emphasis [ref=e168]: BaseAgent
+              - text: class now subclasses
+              - strong [ref=e169]:
+                - emphasis [ref=e170]: BaseNode
+              - text: . Agents are now evaluated as individual
+              - emphasis [ref=e171]: nodes
+              - text: within the new Workflow Graph engine.
+            - list [ref=e172]:
+              - listitem [ref=e173]:
+                - strong [ref=e174]: "Execution driver custom overrides:"
+                - text: The ABC contract has changed. Custom overrides of 1.x abstract methods, such as
+                - code [ref=e175]: _run_async_impl()
+                - text: or
+                - code [ref=e176]: generate_content()
+                - text: ", are no longer the correct way to drive execution. The Workflow Graph engine completely bypasses these legacy overrides. If you inject custom telemetry or state management by overriding these methods, those calls are silently ignored."
+            - paragraph [ref=e177]:
+              - strong [ref=e178]: "Migration action:"
+              - text: Move custom execution logic out of
+              - code [ref=e179]: run()
+              - text: overrides. Instead, utilize the standardized
+              - code [ref=e180]: BeforeAgentCallback
+              - text: and
+              - code [ref=e181]: AfterAgentCallback
+              - text: interfaces to safely inject custom logic into the execution lifecycle.
+            - 'heading "Context & Callbacks: In-Place Mutation ¶" [level=3] [ref=e182]':
+              - text: "Context & Callbacks: In-Place Mutation"
+              - link "¶" [ref=e183] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#context-callbacks-in-place-mutation
+            - paragraph [ref=e184]: Bypassing the framework to manually append events is no longer safe.
+            - list [ref=e185]:
+              - listitem [ref=e186]:
+                - strong [ref=e187]: "Direct appending of events:"
+                - text: In ADK 1.x, some developers forcefully appended events to the session via
+                - code [ref=e188]: context.session.events.append(custom_event)
+                - text: . In ADK 2.0, the Workflow runner needs strict control over event emission to manage state, graph routing, and streaming. Manually appending to the session list circumvents the graph engine and breaks determinism.
+            - paragraph [ref=e189]:
+              - strong [ref=e190]: "Migration action:"
+              - text: Do not append events directly to the session, and do not use
+              - code [ref=e191]: enqueue_event
+              - text: directly. You must now explicitly yield the event from within your node or agent so that the framework can manage its persistence, routing, and streaming natively.
+            - heading "Error Handling & Automatic Retries ¶" [level=3] [ref=e192]:
+              - text: Error Handling & Automatic Retries
+              - link "¶" [ref=e193] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#error-handling-automatic-retries
+            - paragraph [ref=e194]: The ADK 2.0 framework now automatically catches exceptions to enable automatic retries, telemetry, and Human-in-the-Loop (HITL) pauses.
+            - list [ref=e195]:
+              - listitem [ref=e196]:
+                - strong [ref=e197]:
+                  - code [ref=e198]: Try...except
+                  - text: and
+                  - code [ref=e199]: BaseException
+                  - text: ":"
+                - text: In ADK 1.x, the framework did not have native automatic retries, so developers often wrote manual
+                - code [ref=e200]: try...except
+                - text: loops inside their tools to prevent crashes. In ADK 2.0, if you migrate a tool and leave a broad
+                - code [ref=e201]: "except Exception:"
+                - text: block inside it, this code masks the failure from the framework, permanently disabling the new 2.0 automatic retry mechanisms for that step. Furthermore, catching
+                - code [ref=e202]: BaseException
+                - text: inadvertently traps
+                - code [ref=e203]: NodeInterruptedError
+                - text: ", which breaks the framework's ability to pause the workflow for Human-in-the-Loop (HITL) input."
+            - paragraph [ref=e204]:
+              - strong [ref=e205]: "Migration Action:"
+              - text: Allow standard exceptions to propagate out of your tools so the framework can evaluate them against your configured
+              - strong [ref=e206]:
+                - emphasis [ref=e207]: RetryConfig
+              - text: ", such as"
+              - code [ref=e208]: RetryConfig(max_attempts=3)
+              - text: . Never catch
+              - strong [ref=e209]:
+                - emphasis [ref=e210]: BaseException
+              - text: unless you are explicitly re-raising the exception.
+            - paragraph [ref=e211]:
+              - text: If you encounter additional ADK 1.0 to ADK 2.0 incompatibilities, report them through the
+              - link "issue tracker" [ref=e212] [cursor=pointer]:
+                - /url: https://github.com/google/adk-python/issues/new?template=bug_report.md&labels=v2
+              - text: .
+            - heading "Installing ADK Python 1.x ¶" [level=3] [ref=e213]:
+              - text: Installing ADK Python 1.x
+              - link "¶" [ref=e214] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#install
+            - paragraph [ref=e215]:
+              - text: If you want to update ADK, but are not yet ready to update to ADK 2.0, make sure to specify an ADK version during installation or use the compatible release
+              - code [ref=e216]: ~=
+              - text: "operator as shown below. ADK 1.0 has the following system requirements:"
+            - list [ref=e217]:
+              - listitem [ref=e218]:
+                - strong [ref=e219]: Python 3.10
+                - text: or later
+              - listitem [ref=e220]:
+                - code [ref=e221]: pip
+                - text: for installing packages
+            - paragraph [ref=e222]: "To install the latest version of ADK 1.x, follow these steps:"
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - paragraph [ref=e225]: Enable a Python virtual environment. See below for instructions.
+              - listitem [ref=e226]:
+                - paragraph [ref=e227]:
+                  - text: Install the package using pip using compatible release
+                  - code [ref=e228]: ~=
+                  - text: "operator for ADK 1.x:"
+                - generic [ref=e230]:
+                  - navigation [ref=e231]:
+                    - button "Copy to clipboard" [ref=e232] [cursor=pointer]
+                  - code [ref=e233]:
+                    - generic [ref=e234]: pip install "google-adk~=1.0"
+            - group [ref=e235]:
+              - 'generic "Recommended: Create and activate a Python virtual environment" [ref=e236] [cursor=pointer]'
+            - heading "Next steps ¶" [level=2] [ref=e237]:
+              - text: Next steps
+              - link "¶" [ref=e238] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#next-steps
+            - paragraph [ref=e239]: "Read the developer guides for building agents with ADK 2.0 features:"
+            - list [ref=e240]:
+              - listitem [ref=e241]:
+                - link "Graph-based workflows" [ref=e242] [cursor=pointer]:
+                  - /url: https://adk.dev/graphs/
+                  - strong [ref=e243]: Graph-based workflows
+              - listitem [ref=e244]:
+                - link "Collaborative agents" [ref=e245] [cursor=pointer]:
+                  - /url: https://adk.dev/workflows/collaboration/
+                  - strong [ref=e246]: Collaborative agents
+              - listitem [ref=e247]:
+                - link "Dynamic workflows" [ref=e248] [cursor=pointer]:
+                  - /url: https://adk.dev/graphs/dynamic/
+                  - strong [ref=e249]: Dynamic workflows
+            - paragraph [ref=e250]: "Check out these ADK 2.0 code samples for testing and inspiration:"
+            - list [ref=e251]:
+              - listitem [ref=e252]:
+                - link "Workflow samples" [ref=e253] [cursor=pointer]:
+                  - /url: https://github.com/google/adk-python/tree/v2/contributing/workflow_samples
+                  - strong [ref=e254]: Workflow samples
+              - listitem [ref=e255]:
+                - link "Collaborative task samples" [ref=e256] [cursor=pointer]:
+                  - /url: https://github.com/google/adk-python/tree/v2/contributing/task_samples
+                  - strong [ref=e257]: Collaborative task samples
+            - paragraph [ref=e258]:
+              - text: Thanks for checking out ADK 2.0! We look forward to your
+              - link "feedback" [ref=e259] [cursor=pointer]:
+                - /url: https://github.com/google/adk-python/issues/new?template=feature_request.md&labels=v2
+              - text: "!"
+      - button "Back to top":
+        - img
+        - text: Back to top
+    - contentinfo [ref=e260]:
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - text: Copyright Google 2026 |
+          - link "License" [ref=e265] [cursor=pointer]:
+            - /url: //github.com/google/adk-docs/blob/main/LICENSE
+          - text: "|"
+          - link "Privacy" [ref=e266] [cursor=pointer]:
+            - /url: //policies.google.com/privacy
+          - text: "|"
+          - link "Manage cookies" [ref=e267] [cursor=pointer]:
+            - /url: https://adk.dev/2.0/#__consent
+        - text: Made with
+        - link "Material for MkDocs" [ref=e268] [cursor=pointer]:
+          - /url: https://squidfunk.github.io/mkdocs-material/
+  - progressbar
+  - complementary [ref=e270]:
+    - generic [ref=e271]:
+      - heading "Cookie consent" [level=4] [ref=e272]
+      - paragraph [ref=e273]: We use cookies to recognize repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find the information they need. With your consent, you're helping us to make our documentation better.
+      - generic [ref=e274]:
+        - button "Accept" [ref=e275] [cursor=pointer]
+        - text: Manage settings

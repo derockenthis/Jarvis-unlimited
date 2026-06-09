@@ -1,0 +1,556 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: Google ADK 2.0 documentation graph based workflows features Google ADK 2.0 documentation graph based workflows features
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DGoogle%2BADK%2B2.0%2Bdocumentation%2Bgraph%2Bbased%2Bworkflows%2Bfeatures%26sei%3Dy-wcap6ZIsylkPIPoJ2w8Qk&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&aep=1&ntc=1&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ2J8OegQIEBAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Videos" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=9a0266635dee84b9&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=Google+ADK+2.0+documentation+graph+based+workflows+features&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQtKgLegQIEhAB
+              - generic [ref=e90]: Videos
+          - listitem [ref=e91]:
+            - link "Images" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=9a0266635dee84b9&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=Google+ADK+2.0+documentation+graph+based+workflows+features&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQtKgLegQIExAB
+              - generic [ref=e94]: Images
+          - listitem [ref=e95]:
+            - link "Forums" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=9a0266635dee84b9&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=Google+ADK+2.0+documentation+graph+based+workflows+features&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQs6gLegQIFBAB
+              - generic [ref=e98]: Forums
+          - listitem [ref=e99]:
+            - link "Shopping" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=9a0266635dee84b9&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=Google+ADK+2.0+documentation+graph+based+workflows+features&ved=1t:220175&ictx=111
+              - generic [ref=e102]: Shopping
+          - listitem [ref=e103]:
+            - link "Short videos" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=9a0266635dee84b9&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=Google+ADK+2.0+documentation+graph+based+workflows+features&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQs6gLegQIFhAB
+              - generic [ref=e106]: Short videos
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Thinking Searching Thinking a little longer" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Thinking
+            - generic [ref=e156]: Searching
+            - generic [ref=e166]: Thinking a little longer
+        - progressbar [ref=e168]
+      - main [ref=e210]:
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - heading "Web results" [level=2] [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e222]:
+                - link "Welcome to ADK 2.0 - Agent Development Kit (ADK) adk.dev https://adk.dev › 2.0" [ref=e224] [cursor=pointer]:
+                  - /url: https://adk.dev/2.0/
+                  - heading "Welcome to ADK 2.0 - Agent Development Kit (ADK)" [level=3] [ref=e225]
+                  - generic [ref=e230]:
+                    - generic [ref=e232]: adk.dev
+                    - generic [ref=e234]: https://adk.dev › 2.0
+                - button "About this result" [ref=e235] [cursor=pointer]:
+                  - img [ref=e238]
+              - generic [ref=e241]:
+                - generic [ref=e242]:
+                  - emphasis [ref=e243]: Graph-based workflows
+                  - text: ": Build deterministic agent workflows with more control over how tasks are routed and executed. Dynamic workflows: Use code-based logic for ..."
+                - link "Read more" [ref=e244] [cursor=pointer]:
+                  - /url: https://adk.dev/2.0/#:~:text=Graph%2Dbased%20workflows%3A%20Build%20deterministic%20agent,loops%20and%20complex%20decision%2Dbased%20branching.
+          - generic [ref=e248]:
+            - generic [ref=e251]:
+              - link "Graph-based agent workflows - Agent Development Kit (ADK) adk.dev https://adk.dev › graphs" [ref=e253] [cursor=pointer]:
+                - /url: https://adk.dev/graphs/
+                - heading "Graph-based agent workflows - Agent Development Kit (ADK)" [level=3] [ref=e254]
+                - generic [ref=e259]:
+                  - generic [ref=e261]: adk.dev
+                  - generic [ref=e263]: https://adk.dev › graphs
+              - button "About this result" [ref=e264] [cursor=pointer]:
+                - img [ref=e267]
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - emphasis [ref=e272]: Graph-based agent workflows in ADK
+                - text: let you build agents with more precise control, creating deterministic processes that combine code logic and AI reasoning ...
+              - link "Read more" [ref=e273] [cursor=pointer]:
+                - /url: https://adk.dev/graphs/#:~:text=Graph%2Dbased%20agent%20workflows%20in%20ADK,logic%20and%20AI%20reasoning%20capabilities.
+          - generic [ref=e277]:
+            - generic [ref=e280]:
+              - link "New Google ADK 2.0 Introduces Graph Based Workflows Medium · Kartik Marwah 4 likes · 2 months ago" [ref=e282] [cursor=pointer]:
+                - /url: https://medium.com/the-ai-language/new-google-adk-2-0-introduces-graph-based-workflows-162798506722
+                - heading "New Google ADK 2.0 Introduces Graph Based Workflows" [level=3] [ref=e283]
+                - generic [ref=e288]:
+                  - generic [ref=e290]: Medium · Kartik Marwah
+                  - generic [ref=e292]: 4 likes · 2 months ago
+              - button "About this result" [ref=e293] [cursor=pointer]:
+                - img [ref=e296]
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - text: The biggest feature by far is the new
+                - emphasis [ref=e301]: Graph-Powered Workflows
+                - text: . LLMs are probabilistic, but enterprise processes need to be strictly ...
+              - link "Read more" [ref=e302] [cursor=pointer]:
+                - /url: https://medium.com/the-ai-language/new-google-adk-2-0-introduces-graph-based-workflows-162798506722#:~:text=The%20biggest%20feature%20by%20far,need%20to%20be%20strictly%20deterministic.
+            - link "Google ADK 2.0 documentation graph based workflows features from medium.com" [ref=e305] [cursor=pointer]:
+              - /url: https://medium.com/the-ai-language/new-google-adk-2-0-introduces-graph-based-workflows-162798506722
+              - img "Google ADK 2.0 documentation graph based workflows features from medium.com" [ref=e307]
+            - generic [ref=e309]:
+              - text: "Missing: documentation ‎| Show results with:"
+              - link "documentation" [ref=e310] [cursor=pointer]:
+                - /url: /search?sca_esv=9a0266635dee84b9&q=Google+ADK+2.0+%22documentation%22+graph+based+workflows+features&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ5t4CegQIJRAB
+          - generic [ref=e314]:
+            - generic [ref=e316]:
+              - heading "Videos" [level=2] [ref=e317]
+              - button "About this result" [ref=e318] [cursor=pointer]:
+                - img [ref=e321]
+            - generic [ref=e324]:
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - generic [ref=e331]:
+                    - link "ADK Community Call (Mar 2026) - ADK 2.0 alpha, Workflows ... YouTube Google Cloud Events Mar 24, 2026" [ref=e333] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ
+                      - heading "ADK Community Call (Mar 2026) - ADK 2.0 alpha, Workflows ... YouTube Google Cloud Events Mar 24, 2026" [level=3] [ref=e334]:
+                        - generic [ref=e337]: ADK Community Call (Mar 2026) - ADK 2.0 alpha, Workflows ...
+                        - generic [ref=e339]:
+                          - generic [ref=e340]:
+                            - text: YouTube
+                            - generic [ref=e341]: · Google Cloud Events
+                          - generic [ref=e342]: Mar 24, 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Google Cloud Events
+                        - button "About this result" [ref=e343] [cursor=pointer]:
+                          - img [ref=e346]
+                  - button "ADK Community Call (Mar 2026) - ADK 2.0 alpha, Workflows ... by Google Cloud Events on YouTube. Play on Google. 1:00:26" [ref=e348] [cursor=pointer]:
+                    - generic [ref=e349]:
+                      - img [ref=e352]
+                      - generic [ref=e355]:
+                        - generic [ref=e356]: 1:00:26
+                        - img [ref=e359]
+                - generic [ref=e364]:
+                  - button "8 key moments in this video" [expanded] [ref=e365] [cursor=pointer]:
+                    - generic [ref=e368]:
+                      - generic [ref=e371]: 8 key moments in this video
+                      - img [ref=e373]
+                  - generic [ref=e377]:
+                    - list [ref=e379]:
+                      - generic [ref=e380]:
+                        - link "Intro and Agenda. 1 of 8, 0 seconds." [ref=e381] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=0
+                          - generic [ref=e384]:
+                            - generic [ref=e385]:
+                              - text: From
+                              - generic [ref=e386]: 00:00
+                            - generic [ref=e387]: Intro and Agenda
+                        - link "ADK 2.0 Alpha Overview. 2 of 8, 2 minutes, 41 seconds." [ref=e388] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=161
+                          - generic [ref=e391]:
+                            - generic [ref=e392]:
+                              - text: From
+                              - generic [ref=e393]: 02:41
+                            - generic [ref=e394]: ADK 2.0 Alpha Overview
+                        - 'link "Deep Dive: Workflows (Graphs, Routing, Parallel Execution, HITL). 3 of 8, 3 minutes, 43 seconds." [ref=e395] [cursor=pointer]':
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=223
+                          - generic [ref=e398]:
+                            - generic [ref=e399]:
+                              - text: From
+                              - generic [ref=e400]: 03:43
+                            - generic [ref=e401]: "Deep Dive: Workflows (Graphs, Routing, Parallel Execution, HITL)"
+                        - 'link "Deep Dive: Agent Modes (Task, Singleton, Chat). 4 of 8, 17 minutes, 5 seconds." [ref=e402] [cursor=pointer]':
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=1025
+                          - generic [ref=e405]:
+                            - generic [ref=e406]:
+                              - text: From
+                              - generic [ref=e407]: 17:05
+                            - generic [ref=e408]: "Deep Dive: Agent Modes (Task, Singleton, Chat)"
+                        - 'link "Demo: Building Workflows in ADK 2.0. 5 of 8, 24 minutes, 33 seconds." [ref=e409] [cursor=pointer]':
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=1473
+                          - generic [ref=e412]:
+                            - generic [ref=e413]:
+                              - text: From
+                              - generic [ref=e414]: 24:33
+                            - generic [ref=e415]: "Demo: Building Workflows in ADK 2.0"
+                        - 'link "Community Spotlight: Restate Durable Agents. 6 of 8, 32 minutes, 35 seconds." [ref=e416] [cursor=pointer]':
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=1955
+                          - generic [ref=e419]:
+                            - generic [ref=e420]:
+                              - text: From
+                              - generic [ref=e421]: 32:35
+                            - generic [ref=e422]: "Community Spotlight: Restate Durable Agents"
+                        - link "Advent of Agents & Community Updates. 7 of 8, 43 minutes, 2 seconds." [ref=e423] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=2582
+                          - generic [ref=e426]:
+                            - generic [ref=e427]:
+                              - text: From
+                              - generic [ref=e428]: 43:02
+                            - generic [ref=e429]: Advent of Agents & Community Updates
+                        - 'link "Q&A: Subgraphs, HITL, Persistence, Parallelism, A2A 1.0. 8 of 8, 46 minutes, 13 seconds." [ref=e430] [cursor=pointer]':
+                          - /url: https://www.youtube.com/watch?v=bPngDY7EuOQ&t=2773
+                          - generic [ref=e433]:
+                            - generic [ref=e434]:
+                              - text: From
+                              - generic [ref=e435]: 46:13
+                            - generic [ref=e436]: "Q&A: Subgraphs, HITL, Persistence, Parallelism, A2A 1.0"
+                    - button [ref=e437] [cursor=pointer]:
+                      - img [ref=e440]
+              - generic [ref=e447]:
+                - generic [ref=e448]:
+                  - generic [ref=e449]:
+                    - link "ADK 2.0 is Here and It's a Total Game-Changer YouTube AI with Surya 1 month ago" [ref=e451] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=xyhzznb0vtg
+                      - heading "ADK 2.0 is Here and It's a Total Game-Changer YouTube AI with Surya 1 month ago" [level=3] [ref=e452]:
+                        - generic [ref=e455]: ADK 2.0 is Here and It's a Total Game-Changer
+                        - generic [ref=e457]:
+                          - generic [ref=e458]:
+                            - text: YouTube
+                            - generic [ref=e459]: · AI with Surya
+                          - generic [ref=e460]: 1 month ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · AI with Surya
+                        - button "About this result" [ref=e461] [cursor=pointer]:
+                          - img [ref=e464]
+                  - button "ADK 2.0 is Here and It's a Total Game-Changer by AI with Surya on YouTube. Play on Google. 13:53" [ref=e466] [cursor=pointer]:
+                    - generic [ref=e467]:
+                      - img [ref=e470]
+                      - generic [ref=e473]:
+                        - generic [ref=e474]: 13:53
+                        - img [ref=e477]
+                - button "ADK 2.0 introduces graph-based workflows, collaborative agent modes, and dynamic workflows with human-in-the-loop for building agents." [ref=e480] [cursor=pointer]:
+                  - generic [ref=e484]: ADK 2.0 introduces graph-based workflows, collaborative agent modes, and dynamic workflows with human-in-the-loop for building agents.
+              - generic [ref=e489]:
+                - generic [ref=e490]:
+                  - generic [ref=e491]:
+                    - link "New Google ADK 2 Introduces Agent Teams | Complete ... YouTube theailanguage 1 month ago" [ref=e493] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=Tq6X7IxjgP8
+                      - heading "New Google ADK 2 Introduces Agent Teams | Complete ... YouTube theailanguage 1 month ago" [level=3] [ref=e494]:
+                        - generic [ref=e497]: New Google ADK 2 Introduces Agent Teams | Complete ...
+                        - generic [ref=e499]:
+                          - generic [ref=e500]:
+                            - text: YouTube
+                            - generic [ref=e501]: · theailanguage
+                          - generic [ref=e502]: 1 month ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · theailanguage
+                        - button "About this result" [ref=e503] [cursor=pointer]:
+                          - img [ref=e506]
+                  - button "New Google ADK 2 Introduces Agent Teams | Complete ... by theailanguage on YouTube. Play on Google. 8:53" [ref=e508] [cursor=pointer]:
+                    - generic [ref=e509]:
+                      - img [ref=e512]
+                      - generic [ref=e515]:
+                        - generic [ref=e516]: 8:53
+                        - img [ref=e519]
+                - button "8 key moments in this video" [ref=e525] [cursor=pointer]:
+                  - generic [ref=e534]:
+                    - generic [ref=e537]: 8 key moments in this video
+                    - img [ref=e539]
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e547]:
+                    - 'link "Google ADK Crash Course: Build AI Agents Step-by-Step ... YouTube Mayank Aggarwal Feb 7, 2026" [ref=e549] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=OZKrZXH79nk
+                      - 'heading "Google ADK Crash Course: Build AI Agents Step-by-Step ... YouTube Mayank Aggarwal Feb 7, 2026" [level=3] [ref=e550]':
+                        - generic [ref=e553]: "Google ADK Crash Course: Build AI Agents Step-by-Step ..."
+                        - generic [ref=e555]:
+                          - generic [ref=e556]:
+                            - text: YouTube
+                            - generic [ref=e557]: · Mayank Aggarwal
+                          - generic [ref=e558]: Feb 7, 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Mayank Aggarwal
+                        - button "About this result" [ref=e559] [cursor=pointer]:
+                          - img [ref=e562]
+                  - 'button "Google ADK Crash Course: Build AI Agents Step-by-Step ... by Mayank Aggarwal on YouTube. Play on Google. 6:16:21" [ref=e564] [cursor=pointer]':
+                    - generic [ref=e565]:
+                      - img [ref=e568]
+                      - generic [ref=e571]:
+                        - generic [ref=e572]: 6:16:21
+                        - img [ref=e575]
+                - button "Master Google Agent Development Kit (ADK) for building and managing AI agents. Learn installation, agents, structured output, model configuration, tools, session runner, state, multi-agent systems, and more." [ref=e578] [cursor=pointer]:
+                  - generic [ref=e582]: Master Google Agent Development Kit (ADK) for building and managing AI agents. Learn installation, agents, structured output, model configuration, tools, session runner, state, multi-agent systems, and more.
+            - link "View all videos" [ref=e585] [cursor=pointer]:
+              - /url: /search?sca_esv=9a0266635dee84b9&udm=7&q=Google+ADK+2.0+documentation+graph+based+workflows+features&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8ccDKAJ6BAgcEAQ
+              - separator [ref=e586]
+              - generic [ref=e587]:
+                - generic [ref=e588]: View all
+                - img [ref=e590]
+          - generic [ref=e594]:
+            - heading "Web results" [level=2] [ref=e595]
+            - generic [ref=e596]:
+              - generic [ref=e599]:
+                - 'link "Google ADK 2.0 Alpha: A Workflow Runtime That Treats ... LinkedIn · Jin Tan Ruan - M.S Artificial Intelligence And Machine Learning 30+ reactions · 2 months ago" [ref=e601] [cursor=pointer]':
+                  - /url: https://www.linkedin.com/pulse/google-adk-20-alpha-workflow-runtime-treats-agents-jin-tan-ruan-z7w9e
+                  - 'heading "Google ADK 2.0 Alpha: A Workflow Runtime That Treats ..." [level=3] [ref=e602]'
+                  - generic [ref=e607]:
+                    - generic [ref=e609]: LinkedIn · Jin Tan Ruan - M.S Artificial Intelligence And Machine Learning
+                    - generic [ref=e611]: 30+ reactions · 2 months ago
+                - button "About this result" [ref=e612] [cursor=pointer]:
+                  - img [ref=e615]
+              - generic [ref=e618]:
+                - generic [ref=e619]:
+                  - emphasis [ref=e620]: Graph workflows are the headline feature of 2.0 Alpha
+                  - text: . You define a Workflow with an edges array that encodes the execution graph. Each node can ...
+                - link "Read more" [ref=e621] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/pulse/google-adk-20-alpha-workflow-runtime-treats-agents-jin-tan-ruan-z7w9e#:~:text=Graph%20workflows%20are%20the%20headline,execution%20graph.%20Each%20node%20can
+          - generic [ref=e625]:
+            - generic [ref=e628]:
+              - 'link "ADK Patterns Part 2: Collaborative Reasoning with Agentic ... Medium · Terrence Ryan 5 likes · 3 months ago" [ref=e630] [cursor=pointer]':
+                - /url: https://medium.com/google-cloud/adk-patterns-part-2-collaborative-reasoning-with-agentic-tools-a93993d843dd
+                - 'heading "ADK Patterns Part 2: Collaborative Reasoning with Agentic ..." [level=3] [ref=e631]'
+                - generic [ref=e636]:
+                  - generic [ref=e638]: Medium · Terrence Ryan
+                  - generic [ref=e640]: 5 likes · 3 months ago
+              - button "About this result" [ref=e641] [cursor=pointer]:
+                - img [ref=e644]
+            - generic [ref=e647]:
+              - generic [ref=e648]:
+                - text: See all from Google Cloud - Community. Recommended from Medium. New Google ADK 2.0 Introduces
+                - emphasis [ref=e649]: Graph Based Workflows
+                - text: . The AI Language. In. The AI ...
+              - link "Read more" [ref=e650] [cursor=pointer]:
+                - /url: https://medium.com/google-cloud/adk-patterns-part-2-collaborative-reasoning-with-agentic-tools-a93993d843dd#:~:text=See%20all%20from%20Google%20Cloud,The%20AI%20Language
+          - generic [ref=e654]:
+            - generic [ref=e657]:
+              - 'link "Workflows: multi-agent, multi-node applications - Google ADK adk.dev https://adk.dev › workflows" [ref=e659] [cursor=pointer]':
+                - /url: https://adk.dev/workflows/
+                - 'heading "Workflows: multi-agent, multi-node applications - Google ADK" [level=3] [ref=e660]'
+                - generic [ref=e665]:
+                  - generic [ref=e667]: adk.dev
+                  - generic [ref=e669]: https://adk.dev › workflows
+              - button "About this result" [ref=e670] [cursor=pointer]:
+                - img [ref=e673]
+            - generic [ref=e676]:
+              - generic [ref=e677]:
+                - text: "Predictability: Create more controlled task execution flow using templated logic or"
+                - emphasis [ref=e678]: graph
+                - text: "-"
+                - emphasis [ref=e679]: based
+                - text: "execution mechanisms. · Reliability: Ensure tasks run in the ..."
+              - link "Read more" [ref=e680] [cursor=pointer]:
+                - /url: https://adk.dev/workflows/#:~:text=Predictability%3A%20Create%20more%20controlled%20task,logic%20or%20graph%2Dbased%20execution%20mechanisms.&text=Reliability%3A%20Ensure%20tasks%20run%20in,required%20order%20or%20pattern%20consistently.
+          - generic [ref=e684]:
+            - generic [ref=e687]:
+              - link "I Built a Multi-Step AI Agent in One Day with Google ADK DEV Community https://dev.to › simranshaikh20_50 › i-built-a-multi-ste..." [ref=e689] [cursor=pointer]:
+                - /url: https://dev.to/simranshaikh20_50/i-built-a-multi-step-ai-agent-in-one-day-with-google-adk-heres-what-nobody-tells-you-3m2n
+                - heading "I Built a Multi-Step AI Agent in One Day with Google ADK" [level=3] [ref=e690]
+                - generic [ref=e695]:
+                  - generic [ref=e697]: DEV Community
+                  - generic [ref=e699]: https://dev.to › simranshaikh20_50 › i-built-a-multi-ste...
+              - button "About this result" [ref=e700] [cursor=pointer]:
+                - img [ref=e703]
+            - generic [ref=e706]:
+              - generic [ref=e707]: Apr 23, 2026 —
+              - generic [ref=e708]:
+                - text: The ADK 2.0 alpha (released March 2026) brought in
+                - emphasis [ref=e709]: graph-based workflows
+                - text: ", collaborative multi-agent support, and native Vertex AI integration."
+              - link "Read more" [ref=e710] [cursor=pointer]:
+                - /url: https://dev.to/simranshaikh20_50/i-built-a-multi-step-ai-agent-in-one-day-with-google-adk-heres-what-nobody-tells-you-3m2n#:~:text=The%20ADK%202.0%20alpha%20(released,and%20native%20Vertex%20AI%20integration.
+          - generic [ref=e714]:
+            - generic [ref=e717]:
+              - 'link "Google ADK 2.0 Alpha 1: Building Deterministic AI Agents with ... atal upadhyay https://atalupadhyay.wordpress.com › 2026/03/28 › go..." [ref=e719] [cursor=pointer]':
+                - /url: https://atalupadhyay.wordpress.com/2026/03/28/google-adk-2-0-alpha-1-building-deterministic-ai-agents-with-graph-based-workflows/
+                - 'heading "Google ADK 2.0 Alpha 1: Building Deterministic AI Agents with ..." [level=3] [ref=e720]'
+                - generic [ref=e725]:
+                  - generic [ref=e727]: atal upadhyay
+                  - generic [ref=e729]: https://atalupadhyay.wordpress.com › 2026/03/28 › go...
+              - button "About this result" [ref=e730] [cursor=pointer]:
+                - img [ref=e733]
+            - generic [ref=e736]:
+              - generic [ref=e737]: Mar 28, 2026 —
+              - generic [ref=e738]:
+                - emphasis [ref=e739]: Google ADK 2.0
+                - text: "Alpha 1: Building Deterministic AI Agents with"
+                - emphasis [ref=e740]: Graph
+                - text: "-"
+                - emphasis [ref=e741]: Based Workflows
+                - text: ...
+                - emphasis [ref=e742]: Google
+                - text: Cloud Vertex AI
+                - emphasis [ref=e743]: Documentation
+                - text: ": For ..."
+              - link "Read more" [ref=e744] [cursor=pointer]:
+                - /url: https://atalupadhyay.wordpress.com/2026/03/28/google-adk-2-0-alpha-1-building-deterministic-ai-agents-with-graph-based-workflows/#:~:text=Google%20ADK%202.0%20Alpha%201%3A,AI%20Agents%20with%20Graph%2DBased%20Workflows&text=Google%20Cloud%20Vertex%20AI%20Documentation%3A,For%20underlying%20model%20specs.
+          - generic [ref=e748]:
+            - generic [ref=e751]:
+              - 'link "Feature Request: Allow Workflow as Sub-Agents in ADK ... GitHub https://github.com › google › adk-python › discussions" [ref=e753] [cursor=pointer]':
+                - /url: https://github.com/google/adk-python/discussions/5581
+                - 'heading "Feature Request: Allow Workflow as Sub-Agents in ADK ..." [level=3] [ref=e754]'
+                - generic [ref=e759]:
+                  - generic [ref=e761]: GitHub
+                  - generic [ref=e763]: https://github.com › google › adk-python › discussions
+              - button "About this result" [ref=e764] [cursor=pointer]:
+                - img [ref=e767]
+            - generic [ref=e770]:
+              - generic [ref=e771]:
+                - emphasis [ref=e772]: LangGraph
+                - text: allows
+                - emphasis [ref=e773]: graphs
+                - text: as callables.
+                - emphasis [ref=e774]: ADK
+                - text: "needs equivalent:"
+                - emphasis [ref=e775]: Workflow
+                - text: "as delegatable sub-agent. Considerations. Event compaction: Sub-"
+                - emphasis [ref=e776]: workflow
+                - text: events can be ...
+              - link "Read more" [ref=e777] [cursor=pointer]:
+                - /url: https://github.com/google/adk-python/discussions/5581#:~:text=LangGraph%20allows%20graphs%20as%20callables.,be%20compacted%3B%20only%20I%2FO%20top%2Dlevel
+        - generic [ref=e779]:
+          - generic [ref=e784]:
+            - heading "People also search for" [level=2] [ref=e786]
+            - generic [ref=e788]:
+              - generic [ref=e789]:
+                - link "Google adk 2.0 documentation graph based workflows features github" [ref=e793] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=Google+adk+2.0+documentation+graph+based+workflows+features+github&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAgsEAE
+                  - generic [ref=e794]:
+                    - generic [ref=e799]: Google adk 2.0 documentation graph based workflows features github
+                    - img [ref=e803]
+                - link "Google adk 2.0 documentation graph based workflows features example" [ref=e808] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=Google+adk+2.0+documentation+graph+based+workflows+features+example&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAgyEAE
+                  - generic [ref=e809]:
+                    - generic [ref=e814]: Google adk 2.0 documentation graph based workflows features example
+                    - img [ref=e818]
+                - link "ADK 2.0 release date" [ref=e823] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=ADK+2.0+release+date&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAg4EAE
+                  - generic [ref=e824]:
+                    - generic [ref=e829]: ADK 2.0 release date
+                    - img [ref=e833]
+                - link "Google ADK browser use" [ref=e838] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=Google+ADK+browser+use&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAgrEAE
+                  - generic [ref=e839]:
+                    - generic [ref=e844]: Google ADK browser use
+                    - img [ref=e848]
+              - generic [ref=e850]:
+                - link "Google ADK LlmAgent" [ref=e854] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=Google+ADK+LlmAgent&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAg1EAE
+                  - generic [ref=e855]:
+                    - generic [ref=e860]: Google ADK LlmAgent
+                    - img [ref=e864]
+                - link "Import google adk agents could not be resolved" [ref=e869] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=Import+google+adk+agents+could+not+be+resolved&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAg5EAE
+                  - generic [ref=e870]:
+                    - generic [ref=e875]: Import google adk agents could not be resolved
+                    - img [ref=e879]
+                - link "Google ADK TypeScript" [ref=e884] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=Google+ADK+TypeScript&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAgxEAE
+                  - generic [ref=e885]:
+                    - generic [ref=e890]: Google ADK TypeScript
+                    - img [ref=e894]
+                - link "Google ADK HITL" [ref=e899] [cursor=pointer]:
+                  - /url: /search?sca_esv=9a0266635dee84b9&q=Google+ADK+HITL&sa=X&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ1QJ6BAgtEAE
+                  - generic [ref=e900]:
+                    - generic [ref=e905]: Google ADK HITL
+                    - img [ref=e909]
+          - navigation [ref=e911]:
+            - heading "Page Navigation" [level=1] [ref=e912]
+            - text: "1"
+            - link "Page 2" [ref=e915] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=10&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAE
+              - text: "2"
+            - link "Page 3" [ref=e917] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=20&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAG
+              - text: "3"
+            - link "Page 4" [ref=e919] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=30&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAI
+              - text: "4"
+            - link "Page 5" [ref=e921] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=40&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAK
+              - text: "5"
+            - link "Page 6" [ref=e923] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=50&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAM
+              - text: "6"
+            - link "Page 7" [ref=e925] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=60&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAO
+              - text: "7"
+            - link "Page 8" [ref=e927] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=70&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAQ
+              - text: "8"
+            - link "Page 9" [ref=e929] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=80&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8tMDegQIKBAS
+              - text: "9"
+            - heading "Next" [level=2] [ref=e931]:
+              - link "Next" [ref=e932] [cursor=pointer]:
+                - /url: /search?q=Google+ADK+2.0+documentation+graph+based+workflows+features&sca_esv=9a0266635dee84b9&ei=y-wcauGoMeHJkPIP88y1OA&start=10&sa=N&sstk=AU9db-BDuZP6cHv5ayJUv40sxqqJL82iGHrbaqxS4jxiDMQbKRSOsw2ABeETmAgbqqVWJdL1Ufnfnnr9JJn758M32rG6EiPGhJjuyQ&ved=2ahUKEwihuuPh_eSUAxXhJEQIHXNmDQcQ8NMDegQIKBAU
+                - generic [ref=e934]: Next
+        - navigation
+    - contentinfo [ref=e935]:
+      - heading "Footer Links" [level=1] [ref=e936]
+      - generic [ref=e940]:
+        - generic [ref=e944]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e946] [cursor=pointer]:
+            - generic [ref=e947]: 92780, Tustin, CA
+            - generic [ref=e949]:
+              - text: "-"
+              - generic [ref=e950]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e952] [cursor=pointer]: Update location
+        - generic [ref=e955]:
+          - link "Help" [ref=e956] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e957] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e958] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e959] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1
