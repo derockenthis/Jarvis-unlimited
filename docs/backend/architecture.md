@@ -1,62 +1,170 @@
 # Backend Architecture
 
-## Overview
+## Purpose
 
-The backend is a FastAPI service that exposes local APIs for health, chat streaming, MCP registry actions, workspace access, and future memory/preview endpoints. Google ADK owns the agent runtime, model calls, tool invocation, and session state.
+The backend is the local FastAPI boundary for Jarvis Agent Desktop. It exposes HTTP APIs to the Electron renderer, builds the Google ADK agent runtime, gates filesystem and browser-facing tools, manages MCP tool availability, and stores ADK session plus NBAM memory data locally.
+
+The backend is intentionally split into thin route modules, service modules, runtime orchestration, tool wrappers, and safety policies. Route handlers should validate and hand off; most behavior belongs in services or runtime classes.
+
+## Top-Level Layout
+
+| Path | Responsibility |
+| --- | --- |
+| `app/main.py` | Creates the FastAPI app, configures CORS for the local renderer, and registers routers. |
+| `app/config.py` | Loads environment and `.env` settings for models, storage paths, screenshots, and filesystem access. |
+| `app/dependencies.py` | Provides cached service, runtime, policy, and settings dependencies. |
+| `app/schemas.py` | Defines the HTTP and stream contracts shared by routes, services, and the renderer. |
+| `app/routes/` | FastAPI route modules for health, chat, speech, MCP, and workspace APIs. |
+| `app/services/` | Endpoint-facing business services: chat, MCP, memory, speech, desktop vision, terminal sessions, and workspace roots. |
+| `app/runtime/adk_runner.py` | Compatibility import surface for the canonical live chat runner. |
+| `app/agent/agent.py` | Canonical ADK agent factory plus default ADK loader hook for local smoke tests and eval wiring. |
+| `app/agent/prompt.py` | Owns the root instruction text and skills-folder context assembly. |
+| `app/agent/provider_config.py` | Encapsulates request-scoped provider validation, model resolution, and provider environment setup. |
+| `app/agent/event_translation.py` | Translates ADK events into the frontend stream contract and cleans assistant text. |
+| `app/agent/runner.py` | Canonical live chat runtime adapter that builds per-request runners and streams translated events. |
+| `app/agent/tools/` | ADK-facing tool composition layer grouped by workspace, terminal, memory, and vision domains. |
+| `app/tools/` | Policy-bound file, search, edit, terminal, vision, memory, and ADK wrapper tools. |
+| `app/security/` | Path and command policies used before local resources are touched. |
+| `app/mcp/` | Built-in MCP presets and ADK `McpToolset` bridge. |
+| `app/memory/` | NBAM storage primitives, schemas, validator, manifest, scout, and dreamer scaffold. |
 
 ## Request Flow
 
-1. `main.py` creates the FastAPI app and registers route modules.
-2. `routes/` modules stay thin and delegate behavior to services.
-3. `services/` modules provide endpoint-facing orchestration.
-4. `dependencies.py` wires cached settings, path policy, chat runtime, and services.
-5. `runtime/adk_runner.py` drives the live Google ADK Runner.
+1. The renderer calls a local endpoint on `http://127.0.0.1:8765`.
+2. `app/main.py` routes the request to one of the modules in `app/routes/`.
+3. The route obtains cached dependencies from `app/dependencies.py`.
+4. Service classes perform endpoint-specific orchestration or delegate to `ChatRuntime`.
+5. Chat requests build an ADK `Runner` through `app/agent/runner.py`, attach only the tools allowed for that request, and translate ADK events into the renderer SSE contract.
+
+## Route Layer
+
+| Route | Module | Behavior |
+| --- | --- | --- |
+| `GET /health` | `routes/health.py` | Returns app health, OpenRouter configuration status, and ripgrep availability. |
+| `POST /api/chat` | `routes/chat.py` | Streams `ChatEvent` objects as server-sent events. |
+| `GET /api/models/ollama` | `routes/chat.py` | Probes an Ollama server's `/api/tags` endpoint and returns model names. |
+| `POST /api/speech/transcribe` | `routes/transcription.py` | Accepts recorded audio and returns transcribed text. |
+| `GET /api/mcp/tools` | `routes/mcp.py` | Lists configured MCP tools and their current status. |
+| `POST /api/mcp/tools/{tool_id}/start` | `routes/mcp.py` | Marks an MCP config running for future ADK chat runs. |
+| `POST /api/mcp/tools/{tool_id}/stop` | `routes/mcp.py` | Marks an MCP config stopped for future ADK chat runs. |
+| `GET /api/workspaces` | `routes/workspaces.py` | Returns full filesystem or configured workspace roots. |
+
+Routes should stay thin. If a route grows state, subprocess handling, storage behavior, or tool logic, that code should move into `app/services/`, `app/runtime/`, or `app/tools/`.
+
+## Dependency Graph
+
+`app/dependencies.py` owns process-local singletons with `lru_cache`:
+
+1. `Settings` from `get_settings()`.
+2. `PathPolicy`, built from `Settings.allowed_root_paths` and `Settings.full_filesystem_access`.
+3. `McpService`, `SessionTerminalService`, `DesktopVisionService`, and `MemoryService`.
+4. `ChatRuntime`, which receives all long-lived services plus settings and path policy.
+5. `ChatService`, a thin wrapper over `ChatRuntime`.
+6. `SpeechToTextService`, which uses a local MLX Whisper model plus `ffmpeg`.
+
+This keeps route handlers simple and lets tests override dependencies without importing ADK eagerly.
 
 ## Chat Runtime
 
-`ChatRuntime` builds the ADK runtime lazily so health checks and non-chat endpoints can run even before a model call is needed. It uses:
+`ChatRuntime` in `app/runtime/adk_runner.py` is now a compatibility shim over `AgentStreamRunner` in `app/agent/runner.py`, which is the backend's real orchestration class.
 
-1. `build_root_agent(...)` from `agent/root_agent.py` for the Jarvis root agent and OpenRouter-backed LiteLLM model.
-2. `SqliteSessionService` for ADK session state.
-3. `build_agent_tools(policy)` from `tools/agent_tools.py` to register policy-bound filesystem/search/edit tools.
-4. Session-bound terminal tools from `tools/terminal_tools.py` backed by `SessionTerminalService`.
-5. Screen-sharing-gated desktop screenshot and image-analysis tools from `tools/vision_tools.py` backed by `DesktopVisionService`.
-6. Memory status and node-read tools from `tools/memory_tools.py` backed by `MemoryService`.
-7. Resolved MCP tools from running MCP configs via `mcp/adk_toolset.py`.
-8. `runner.run_async(...)` to loop through ADK events.
-9. Event translation into the frontend stream contract: `thought`, `tool_call`, `tool_result`, `assistant_message`, `done`, and `error`.
+It does the following for each chat request:
 
-## Tooling
+1. Lazily creates a `SqliteSessionService` at `Settings.sqlite_path`.
+2. Resolves running MCP tools through `McpService`.
+3. Builds local filesystem/search/edit tools through `build_agent_tools(PathPolicy)`.
+4. Resolves a request-scoped Playwright MCP subset through `select_mcp_tools(...)`, including the compact browser composite when browser intent is detected.
+5. Adds desktop screenshot and image analysis tools only when `screen_share_enabled` is true.
+6. Builds the root ADK agent from `app/agent/agent.py` using a request-scoped `ProviderRuntimeConfig` plus skills-folder context from `ChatRequest`.
+7. Ensures an ADK session exists, then calls `Runner.run_async(...)`.
+8. Translates ADK function calls, function responses, thought parts, and text parts into renderer events through `app/agent/event_translation.py`.
+9. Appends user and assistant observations to NBAM through `MemoryService`.
+10. After a completed turn, checks how many new ADK session event rows were added in SQLite since the last successful promotion for that session.
+11. When the configured memory promotion interval is reached, runs a deterministic promotion pass over unconsolidated observations for that session.
 
-Custom tools are split into testable core functions and ADK-facing wrappers:
+The runtime also detects stale ADK session failures caused by missing tool results or removed tools. On those known recoverable errors it deletes and recreates the ADK session once, then retries the current request.
 
-| Layer | Purpose |
-| --- | --- |
-| `tools/file_explorer.py` | Directory listing and bounded folder tree traversal. |
-| `tools/search_tools.py` | Bounded file reads and ripgrep search with clear diagnostics. |
-| `tools/edit_tools.py` | Guarded file creation, line replacement, and insertion with unified diffs. |
-| `tools/agent_tools.py` | ADK-compatible wrappers that close over `PathPolicy` and return dictionaries. |
-| `tools/terminal_tools.py` | Session-bound ADK wrappers for persistent terminal spawn/run/read/close actions. |
-| `tools/vision_tools.py` | ADK wrappers for desktop screenshot capture and local image analysis. |
-| `tools/memory_tools.py` | ADK wrappers for memory status inspection and durable node reads. |
-| `security/path_policy.py` | Full-access or workspace-scoped path resolution. |
-| `security/command_policy.py` | Guardrail for allowed terminal commands and shell syntax rejection. |
-| `services/session_terminal_service.py` | Persistent per-session terminal state, cwd management, command execution, and output capture. |
-| `services/desktop_vision_service.py` | macOS screenshot capture and OpenRouter-backed vision analysis for local images. |
-| `services/memory_service.py` | Basic NBAM runtime wiring for observation logging and node store inspection. |
+## Stream Contract
+
+The backend streams JSON objects shaped by `ChatEvent`:
+
+| Event type | Source | Frontend meaning |
+| --- | --- | --- |
+| `thought` | ADK `Part.thought` text or runtime recovery notice | Temporary reasoning/activity row. |
+| `tool_call` | ADK function call | Tool activity row with `tool_name`, `status`, and optional JSON args. |
+| `tool_result` | ADK function response | Tool completion row with status and detail, error, diff, or data summary. |
+| `assistant_message` | Normal ADK text part | Appended into the active assistant message. |
+| `error` | Runtime or service failure | Rendered as an error message. |
+| `done` | End of backend stream | Clears transient frontend activity and closes the assistant turn. |
+
+`app/agent/event_translation.py` strips provider channel markers from final assistant text before the renderer sees it.
+
+## Model Providers
+
+The default environment path still centers on OpenRouter:
+
+1. `Settings.openrouter_model` becomes a LiteLLM `openrouter/...` model string.
+2. `Settings.openrouter_api_key` and `Settings.openrouter_base_url` populate OpenRouter/OpenAI-compatible environment variables.
+3. Vision and speech services separately use OpenRouter-specific settings.
+
+The current request schema and renderer now carry provider settings:
+
+1. `provider`: `openrouter`, `openai`, `ollama`, or another model prefix.
+2. `model`: provider-specific model name.
+3. `api_key`: user-entered key from the sidebar.
+4. `base_url`: optional provider base URL, also used for Ollama discovery.
+
+`ProviderRuntimeConfig` maps these into LiteLLM model strings:
+
+1. OpenRouter: `openrouter/{model}` unless already prefixed.
+2. OpenAI: `openai/{model}` unless already prefixed.
+3. Ollama: `ollama_chat/{model}` unless already prefixed.
+
+`ChatRuntime.stream_chat(...)` validates provider configuration before building the runner. OpenRouter uses either the request API key or `OPENROUTER_API_KEY`, OpenAI requires a request API key from the sidebar, and Ollama does not require an API key. Ollama requests currently run without ADK tool declarations because local models can answer normally through LiteLLM while producing malformed partial JSON when forced through function-calling mode.
+
+## Tools And Safety
+
+All custom ADK tools are built from testable functions that receive a `PathPolicy`, then exposed to the agent through `app/agent/tools/` and the lower-level wrappers in `app/tools/agent_tools.py`.
+
+| Tool area | Files | Safety boundary |
+| --- | --- | --- |
+| File listing/tree | `tools/file_explorer.py` | Resolves paths through `PathPolicy`, skips noisy folders such as `.git`, `node_modules`, `__pycache__`, and `.venv`. |
+| File reads/search | `tools/search_tools.py` | Limits file size, rejects binary content, uses `rg` with no shell, timeout, and max result cap. |
+| File edits | `tools/edit_tools.py` | Resolves paths first and returns unified diffs for creates, replacements, and insertions. |
+| Terminal sessions | `tools/terminal_tools.py`, `services/session_terminal_service.py` | Requires a spawned session, validates commands with `CommandPolicy`, rejects shell control syntax, caps output, and enforces cwd path policy. |
+| Vision | `tools/vision_tools.py`, `services/desktop_vision_service.py` | Registered only for screen-sharing requests; screenshots are saved under the configured screenshot directory. |
+| Memory | `tools/memory_tools.py`, `services/memory_service.py` | Allows status inspection and node reads, not arbitrary durable graph mutation. |
+
+`PathPolicy` supports either full filesystem access or scoped access to granted roots. In scoped mode it rejects path traversal and symlink escapes by resolving the target before checking ancestor paths.
+
+`CommandPolicy` only allows a small command set and read-only git subcommands. It rejects shell control characters, executable paths, redirection, pipes, substitutions, and unapproved executables.
 
 ## MCP
 
-`mcp/presets.py` defines the Playwright preset as an auto-running shared-context Chrome MCP server with vision capability. `services/mcp_service.py` manages in-memory start/stop/status state and respects manual stops even when a preset is auto-startable. Running MCP configs are resolved into concrete ADK browser tools through `mcp/adk_toolset.py` when the chat runtime builds the agent. `StdioConnectionParams` uses a 60-second timeout so first browser launches and navigations do not fail at ADK's default five-second client timeout. The preset avoids fixed `--user-data-dir` profiles so the agent can reuse its open Playwright browser context without taking a durable profile lock. The next layer should persist MCP configs and add deeper subprocess health reporting.
+The first built-in MCP preset is Playwright. It is defined in `app/mcp/presets.py` and starts as enabled, auto-started, and running. `McpService` keeps the in-memory registry, remembers manually stopped tools so auto-start does not immediately re-enable them, caches ADK toolsets by command fingerprint, and closes stale toolsets when configs stop running.
+
+Running configs are bridged into ADK with `build_mcp_toolset(...)`, which uses `StdioConnectionParams` and a 60-second timeout to tolerate slow first browser launches.
+
+MCP state is not yet durable. Restarting the backend rebuilds the preset state from code.
 
 ## Memory
 
-The NBAM modules under `memory/` are separate from ADK sessions. `MemoryService` now initializes the node store, appends raw user and assistant observations during chat, and exposes status and node-read tools to the agent. The dreamer model setting is `google/gemini-3.1-flash-lite` for future LLM-backed consolidation. Durable node writes, scout retrieval, and dreamer-driven consolidation are still future work and must go through patch operations plus deterministic validation before becoming active knowledge.
+NBAM storage is separate from ADK sessions.
 
-## Session Recovery
+1. ADK sessions live in SQLite through `SqliteSessionService` and track chat/runtime state.
+2. NBAM observations live in the `observations` SQLite table managed by `ObservationLog`.
+3. Durable memory nodes are markdown files under `Settings.memory_root / nodes` managed by `NodeStore`.
+4. `MemoryService` initializes storage, appends observations, tracks the last promoted event-count cursor per session, promotes validated `create_node` patches from unconsolidated observations, reports status, and reads nodes.
 
-ADK sessions can become invalid if a previous run left provider history with an unmatched tool-call id. `ChatRuntime` detects missing-tool-response and tool-not-found session errors, resets the ADK session once through `SqliteSessionService.delete_session(...)`, recreates it, and retries the current request. This keeps old failed MCP attempts from poisoning later chat turns.
+The memory package includes schema, manifest, scout, dreamer, and validator modules. Live chat now uses an ADK-backed dreamer proposer with a deterministic fallback stub plus validation to promote observations into durable node files. The promotion trigger is based on new rows in the ADK `events` table since the last promotion, not on coarse compaction-cycle buckets. When a promoted node has no parent, the backend automatically creates a stable tree-root node such as `general-root` or `project-scope-root` before writing the child node. The richer scout and multi-op patch pipeline remain future work.
 
 ## Validation
 
-Backend validation currently includes health, MCP preset exposure, chat stream formatting through dependency override, path policy behavior, tool behavior, and NBAM schema/validator tests.
+Backend tests cover health, API stream formatting by dependency override, MCP preset behavior, path policy behavior, custom tools, and NBAM primitives. Use:
+
+```bash
+cd apps/backend
+uv run pytest
+```
+
+In this local setup, `uv` may be installed under `~/Library/Python/3.14/bin/uv`; ensure that directory is on `PATH` when running root scripts.

@@ -1,9 +1,18 @@
 from fastapi.testclient import TestClient
 
+from app.agent.runner import AgentStreamRunner
 from app.dependencies import get_chat_service
+from app.dependencies import get_settings_service
 from app.dependencies import get_speech_to_text_service
 from app.main import app
+from app.config import Settings
 from app.schemas import ChatEvent, ChatEventPayload, ChatRequest
+from app.security.path_policy import PathPolicy
+from app.services.desktop_vision_service import DesktopVisionService
+from app.services.memory_service import MemoryService
+from app.services.mcp_service import McpService
+from app.services.session_terminal_service import SessionTerminalService
+from app.services.settings_service import SettingsService
 
 
 def test_health_endpoint() -> None:
@@ -61,6 +70,26 @@ def test_chat_stream_returns_agent_activity_events() -> None:
     assert '"type": "done"' in body
 
 
+def test_chat_runtime_allows_ollama_without_openrouter_key(tmp_path) -> None:
+    settings = Settings(
+        OPENROUTER_API_KEY="",
+        JARVIS_SQLITE_PATH=tmp_path / "jarvis.sqlite",
+        JARVIS_MEMORY_ROOT=tmp_path / "memory",
+    )
+    runtime = AgentStreamRunner(
+        settings,
+        PathPolicy([tmp_path], full_access=True),
+        McpService(),
+        SessionTerminalService(),
+        DesktopVisionService(settings),
+        MemoryService(settings),
+    )
+    request = ChatRequest(message="hello", provider="ollama", model="gemma4:12b")
+
+    assert runtime._missing_provider_configuration(request) is None
+    assert runtime._provider_supports_adk_tools(request.provider) is True
+
+
 def test_mcp_start_and_stop_updates_status() -> None:
     client = TestClient(app)
 
@@ -71,6 +100,44 @@ def test_mcp_start_and_stop_updates_status() -> None:
     assert start_response.json()["status"] == "running"
     assert stop_response.status_code == 200
     assert stop_response.json()["status"] == "stopped"
+
+
+def test_model_settings_round_trip(tmp_path) -> None:
+    service = SettingsService(
+        Settings(
+            JARVIS_SQLITE_PATH=tmp_path / "jarvis.sqlite",
+            JARVIS_MEMORY_ROOT=tmp_path / "memory",
+        )
+    )
+    app.dependency_overrides[get_settings_service] = lambda: service
+    try:
+        client = TestClient(app)
+
+        save_response = client.put(
+            "/api/settings/model",
+            json={
+                "provider": "ollama",
+                "model": "gemma4:12b",
+                "api_key": "",
+                "base_url": "http://localhost:11434",
+            },
+        )
+        get_response = client.get("/api/settings/model")
+    finally:
+        app.dependency_overrides.pop(get_settings_service, None)
+
+    assert save_response.status_code == 200
+    assert save_response.json()["current_provider"] == "ollama"
+    assert get_response.status_code == 200
+    assert get_response.json()["current_provider"] == "ollama"
+    assert get_response.json()["providers"] == [
+        {
+            "provider": "ollama",
+            "model": "gemma4:12b",
+            "api_key": "",
+            "base_url": "http://localhost:11434",
+        }
+    ]
 
 
 class _StubSpeechToTextService:

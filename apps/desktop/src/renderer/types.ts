@@ -19,6 +19,8 @@ export type McpActionResponse = {
 
 export type ChatEventType = 'thought' | 'tool_call' | 'tool_result' | 'assistant_message' | 'done' | 'error';
 
+export type WorkspaceView = 'chat' | 'provider' | 'mcp' | 'skills';
+
 export type ChatEvent = {
   type: ChatEventType;
   content: string;
@@ -36,11 +38,17 @@ export type ScreenShareState = {
 
 export type ChatActivity = {
   id: string;
-  type: 'thought' | 'tool_call' | 'tool_result';
+  type: 'tool_call' | 'tool_result';
   content: string;
   toolName?: string;
   status?: string;
   detail?: string;
+};
+
+export type ChatThought = {
+  id: string;
+  content: string;
+  createdAt: string;
 };
 
 export type ChatMessage = {
@@ -49,6 +57,7 @@ export type ChatMessage = {
   content: string;
   createdAt: string;
   activities?: ChatActivity[];
+  thoughts?: ChatThought[];
   isStreaming?: boolean;
 };
 
@@ -57,4 +66,16 @@ export type PreviewItem = {
   title: string;
   kind: 'component' | 'browser' | 'file' | 'empty';
   detail: string;
+};
+
+export type ProviderModelSettings = {
+  provider: string;
+  model: string;
+  api_key: string;
+  base_url: string;
+};
+
+export type ModelSettingsResponse = {
+  current_provider: string;
+  providers: ProviderModelSettings[];
 };

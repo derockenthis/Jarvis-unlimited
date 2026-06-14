@@ -10,9 +10,9 @@
     "desktop:dev": "npm run dev --workspace @jarvis/desktop",
     "desktop:build": "npm run build --workspace @jarvis/desktop",
     "desktop:typecheck": "npm run typecheck --workspace @jarvis/desktop",
-    "backend:dev": "cd apps/backend && uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8765",
-    "backend:test": "cd apps/backend && uv run pytest",
-    "backend:lint": "cd apps/backend && uv run ruff check .",
+    "backend:dev": "cd apps/backend && /Users/derekin/Library/Python/3.14/bin/uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8765",
+    "backend:test": "cd apps/backend && /Users/derekin/Library/Python/3.14/bin/uv run pytest",
+    "backend:lint": "cd apps/backend && /Users/derekin/Library/Python/3.14/bin/uv run ruff check .",
     "validate": "npm run desktop:typecheck && npm run backend:test"
   },
   "engines": {

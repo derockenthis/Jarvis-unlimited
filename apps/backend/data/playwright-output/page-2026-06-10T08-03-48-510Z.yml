@@ -1,0 +1,596 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: google adk agent development kit python documentation building agents google adk agent development kit python documentation building agents
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dgoogle%2Badk%2Bagent%2Bdevelopment%2Bkit%2Bpython%2Bdocumentation%2Bbuilding%2Bagents&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8Go4RDwe7bFpL3uSo4ZTks2Cp7VEXwzMp8r86uY9brF6pEqqt_JIHSveInFEAhL_4cMIuykFpMpHzhSP_nSW6cFIFrQ8_2hj5vhEI0sFv9sK_ROWQUm-vatkV44u9dgmr5QQbclwyrLVciZvXcL3A8aSbGfNulVnW3mKmVgPFCcpjZHVgQ&aep=1&ntc=1&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ2J8OegQIEBAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Forums" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=16a54cb5159ee727&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8Go4RDwe7bFpL3uSo4ZTks2Cp7VEXwzMp8r86uY9brF6pEqqt_JIHSveInFEAhL_4cMIuykFpMpHzhSP_nSW6cFIFrQ8_2hj5vhEI0sFv9sK_ROWQUm-vatkV44u9dgmr5QQbclwyrLVciZvXcL3A8aSbGfNulVnW3mKmVgPFCcpjZHVgQ&q=google+adk+agent+development+kit+python+documentation+building+agents&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQs6gLegQIFxAB
+              - generic [ref=e90]: Forums
+          - listitem [ref=e91]:
+            - link "Shopping" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=16a54cb5159ee727&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8Go4RDwe7bFpL3uSo4ZTks2Cp7VEXwzMp8r86uY9brF6pEqqt_JIHSveInFEAhL_4cMIuykFpMpHzhSP_nSW6cFIFrQ8_2hj5vhEI0sFv9sK_ROWQUm-vatkV44u9dgmr5QQbclwyrLVciZvXcL3A8aSbGfNulVnW3mKmVgPFCcpjZHVgQ&q=google+adk+agent+development+kit+python+documentation+building+agents&ved=1t:220175&ictx=111
+              - generic [ref=e94]: Shopping
+          - listitem [ref=e95]:
+            - link "Images" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=16a54cb5159ee727&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8Go4RDwe7bFpL3uSo4ZTks2Cp7VEXwzMp8r86uY9brF6pEqqt_JIHSveInFEAhL_4cMIuykFpMpHzhSP_nSW6cFIFrQ8_2hj5vhEI0sFv9sK_ROWQUm-vatkV44u9dgmr5QQbclwyrLVciZvXcL3A8aSbGfNulVnW3mKmVgPFCcpjZHVgQ&q=google+adk+agent+development+kit+python+documentation+building+agents&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQtKgLegQIFRAB
+              - generic [ref=e98]: Images
+          - listitem [ref=e99]:
+            - link "Short videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=16a54cb5159ee727&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8Go4RDwe7bFpL3uSo4ZTks2Cp7VEXwzMp8r86uY9brF6pEqqt_JIHSveInFEAhL_4cMIuykFpMpHzhSP_nSW6cFIFrQ8_2hj5vhEI0sFv9sK_ROWQUm-vatkV44u9dgmr5QQbclwyrLVciZvXcL3A8aSbGfNulVnW3mKmVgPFCcpjZHVgQ&q=google+adk+agent+development+kit+python+documentation+building+agents&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQs6gLegQIFBAB
+              - generic [ref=e102]: Short videos
+          - listitem [ref=e103]:
+            - link "Videos" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=16a54cb5159ee727&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8Go4RDwe7bFpL3uSo4ZTks2Cp7VEXwzMp8r86uY9brF6pEqqt_JIHSveInFEAhL_4cMIuykFpMpHzhSP_nSW6cFIFrQ8_2hj5vhEI0sFv9sK_ROWQUm-vatkV44u9dgmr5QQbclwyrLVciZvXcL3A8aSbGfNulVnW3mKmVgPFCcpjZHVgQ&q=google+adk+agent+development+kit+python+documentation+building+agents&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQtKgLegQIExAB
+              - generic [ref=e106]: Videos
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e124]:
+      - generic [ref=e141]:
+        - heading "Thinking" [level=2] [ref=e145]:
+          - generic [ref=e146]: Thinking
+        - progressbar [ref=e147]
+      - main [ref=e149]:
+        - generic [ref=e153]:
+          - generic [ref=e156]:
+            - heading "Web results" [level=2] [ref=e157]
+            - generic [ref=e158]:
+              - generic [ref=e161]:
+                - link "Python - Agent Development Kit (ADK) adk.dev https://adk.dev › get-started › python" [ref=e163] [cursor=pointer]:
+                  - /url: https://adk.dev/get-started/python/
+                  - heading "Python - Agent Development Kit (ADK)" [level=3] [ref=e164]
+                  - generic [ref=e169]:
+                    - generic [ref=e171]: adk.dev
+                    - generic [ref=e173]: https://adk.dev › get-started › python
+                - button "About this result" [ref=e174] [cursor=pointer]:
+                  - img [ref=e177]
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - text: This guide shows you how to get up and running with
+                  - emphasis [ref=e182]: Agent Development Kit (ADK) for Python
+                  - text: ". Before you start, make sure you have the following installed: Python ..."
+                - link "Read more" [ref=e183] [cursor=pointer]:
+                  - /url: https://adk.dev/get-started/python/#:~:text=This%20guide%20shows%20you%20how,Python%203.10%20or%20later
+          - generic [ref=e187]:
+            - generic [ref=e190]:
+              - link "Agent Development Kit (ADK) - Agent Development Kit (ADK) adk.dev https://adk.dev" [ref=e192] [cursor=pointer]:
+                - /url: https://adk.dev/
+                - heading "Agent Development Kit (ADK) - Agent Development Kit (ADK)" [level=3] [ref=e193]
+                - generic [ref=e198]:
+                  - generic [ref=e200]: adk.dev
+                  - generic [ref=e202]: https://adk.dev
+              - button "About this result" [ref=e203] [cursor=pointer]:
+                - img [ref=e206]
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - emphasis [ref=e211]: ADK is the open-source agent development framework
+                - text: that lets you build, debug, and deploy reliable AI agents at enterprise scale. Available in Python, ...
+              - link "Read more" [ref=e212] [cursor=pointer]:
+                - /url: https://adk.dev/#:~:text=ADK%20is%20the%20open%2Dsource%20agent,TypeScript%2C%20Go%2C%20Java%2C%20and%20Kotlin.
+          - generic [ref=e216]:
+            - generic [ref=e219]:
+              - link "Agent Development Kit | Gemini Enterprise Agent Platform Google Cloud Documentation https://docs.cloud.google.com › build › adk" [ref=e221] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk
+                - heading "Agent Development Kit | Gemini Enterprise Agent Platform" [level=3] [ref=e222]
+                - generic [ref=e227]:
+                  - generic [ref=e229]: Google Cloud Documentation
+                  - generic [ref=e231]: https://docs.cloud.google.com › build › adk
+              - button "About this result" [ref=e232] [cursor=pointer]:
+                - img [ref=e235]
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - emphasis [ref=e240]: Agent Development Kit (ADK
+                - text: ) is an open-source agent development framework that lets you build, debug, and deploy reliable AI agents at enterprise scale.
+              - link "Read more" [ref=e241] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk#:~:text=Agent%20Development%20Kit%20(ADK)%20is,AI%20agents%20at%20enterprise%20scale.
+          - generic [ref=e245]:
+            - generic [ref=e248]:
+              - link "Agent Development Kit (ADK) 2.0 GitHub https://github.com › google › adk-python" [ref=e250] [cursor=pointer]:
+                - /url: https://github.com/google/adk-python
+                - heading "Agent Development Kit (ADK) 2.0" [level=3] [ref=e251]
+                - generic [ref=e256]:
+                  - generic [ref=e258]: GitHub
+                  - generic [ref=e260]: https://github.com › google › adk-python
+              - button "About this result" [ref=e261] [cursor=pointer]:
+                - img [ref=e264]
+            - generic [ref=e268]:
+              - emphasis [ref=e269]: An open-source, code-first Python toolkit
+              - text: for building, evaluating, and deploying sophisticated AI agents with flexibility and control. - google/adk-python.
+          - generic [ref=e273]:
+            - generic [ref=e276]:
+              - 'link "Building AI Agents with ADK: The Foundation - Codelabs Google Codelabs https://codelabs.developers.google.com › devsite › buil..." [ref=e278] [cursor=pointer]':
+                - /url: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-foundation
+                - 'heading "Building AI Agents with ADK: The Foundation - Codelabs" [level=3] [ref=e279]'
+                - generic [ref=e284]:
+                  - generic [ref=e286]: Google Codelabs
+                  - generic [ref=e288]: https://codelabs.developers.google.com › devsite › buil...
+              - button "About this result" [ref=e289] [cursor=pointer]:
+                - img [ref=e292]
+            - generic [ref=e295]:
+              - generic [ref=e296]: Apr 22, 2026 —
+              - generic [ref=e297]:
+                - text: This hands-on codelab is your first step into
+                - emphasis [ref=e298]: building
+                - text: AI
+                - emphasis [ref=e299]: agents
+                - text: with
+                - emphasis [ref=e300]: Google's Agent Development Kit
+                - text: (
+                - emphasis [ref=e301]: ADK
+                - text: ). You will learn how to set up ...
+            - list [ref=e303]:
+              - listitem [ref=e304]:
+                - link "What you'll need" [ref=e305] [cursor=pointer]:
+                  - /url: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-foundation#what-youll-need
+                  - generic [ref=e307]: What you'll need
+              - listitem [ref=e308]:
+                - link "Create a Google Cloud project" [ref=e309] [cursor=pointer]:
+                  - /url: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-foundation#create-a-google-cloud-project
+                  - generic [ref=e311]: Create a Google Cloud project
+              - listitem [ref=e312]:
+                - link "Configure Cloud Shell" [ref=e313] [cursor=pointer]:
+                  - /url: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-foundation#configure-cloud-shell
+                  - generic [ref=e315]: Configure Cloud Shell
+              - listitem [ref=e316]:
+                - link "agent.py" [ref=e317] [cursor=pointer]:
+                  - /url: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-foundation#agent.py
+                  - generic [ref=e319]: agent.py
+          - generic [ref=e323]:
+            - generic [ref=e326]:
+              - link "Developer's Guide to Building ADK Agents with Skills blog.google https://developers.googleblog.com › developers-guide-t..." [ref=e328] [cursor=pointer]:
+                - /url: https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/
+                - heading "Developer's Guide to Building ADK Agents with Skills" [level=3] [ref=e329]
+                - generic [ref=e334]:
+                  - generic [ref=e336]: blog.google
+                  - generic [ref=e338]: https://developers.googleblog.com › developers-guide-t...
+              - button "About this result" [ref=e339] [cursor=pointer]:
+                - img [ref=e342]
+            - generic [ref=e345]:
+              - generic [ref=e346]: Apr 1, 2026 —
+              - generic [ref=e347]:
+                - text: Discover how the
+                - emphasis [ref=e348]: ADK
+                - text: SkillToolset uses progressive disclosure to
+                - emphasis [ref=e349]: build
+                - text: self-extending AI
+                - emphasis [ref=e350]: agents
+                - text: that load expertise on demand.
+          - generic [ref=e354]:
+            - generic [ref=e357]:
+              - link "Building AI Agents with Google ADK (Agent Development ... Medium · Arjun Prabhulal 860+ likes · 1 year ago" [ref=e359] [cursor=pointer]:
+                - /url: https://medium.com/google-cloud/building-ai-agents-with-googles-agent-development-kit-adk-as-mcp-client-a-deep-dive-full-54d683713afe
+                - heading "Building AI Agents with Google ADK (Agent Development ..." [level=3] [ref=e360]
+                - generic [ref=e365]:
+                  - generic [ref=e367]: Medium · Arjun Prabhulal
+                  - generic [ref=e369]: 860+ likes · 1 year ago
+              - button "About this result" [ref=e370] [cursor=pointer]:
+                - img [ref=e373]
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - emphasis [ref=e378]: Agent Development Kit (ADK
+                - text: ) is an open-source, code-first Python toolkit for building, evaluating, and deploying intelligent AI agents. ADK ...
+              - link "Read more" [ref=e379] [cursor=pointer]:
+                - /url: https://medium.com/google-cloud/building-ai-agents-with-googles-agent-development-kit-adk-as-mcp-client-a-deep-dive-full-54d683713afe#:~:text=Agent%20Development%20Kit%20(ADK)%20is,ADK
+            - link "google adk agent development kit python documentation building agents from medium.com" [ref=e382] [cursor=pointer]:
+              - /url: https://medium.com/google-cloud/building-ai-agents-with-googles-agent-development-kit-adk-as-mcp-client-a-deep-dive-full-54d683713afe
+              - img "google adk agent development kit python documentation building agents from medium.com" [ref=e384]
+          - generic [ref=e389]:
+            - heading "Discussions and forums" [level=2] [ref=e391]
+            - generic [ref=e392]:
+              - generic [ref=e395]:
+                - generic [ref=e397] [cursor=pointer]:
+                  - generic [ref=e400]:
+                    - link "Just did a deep dive into Google's Agent Development Kit (ADK). Here are some thoughts, nitpicks, and things I loved (unbiased) Reddit · r/LocalLLaMA · 50+ comments · 1 year ago" [ref=e401]:
+                      - /url: https://www.reddit.com/r/LocalLLaMA/comments/1jvsvzj/just_did_a_deep_dive_into_googles_agent/
+                      - generic [ref=e402]:
+                        - heading "Just did a deep dive into Google's Agent Development Kit (ADK). Here are some thoughts, nitpicks, and things I loved (unbiased)" [level=3] [ref=e403]:
+                          - link "Just did a deep dive into Google's Agent Development Kit (ADK). Here are some thoughts, nitpicks, and things I loved (unbiased)" [ref=e404]
+                        - generic [ref=e411]:
+                          - generic [ref=e412]: Reddit ·
+                          - generic [ref=e414]:
+                            - generic [ref=e415]:
+                              - generic [ref=e416]: r/LocalLLaMA
+                              - generic [ref=e417]:
+                                - generic [ref=e418]: ·
+                                - generic [ref=e419]: 50+ comments
+                            - generic [ref=e420]:
+                              - generic [ref=e421]: ·
+                              - generic [ref=e422]: 1 year ago
+                    - generic [ref=e428]:
+                      - generic [ref=e432]: ·
+                      - button "About this result" [ref=e437]:
+                        - img [ref=e440]
+                  - button "Just did a deep dive into Google's Agent Development Kit (ADK). Here are some thoughts, nitpicks, and things I loved (unbiased) Reddit · r/LocalLLaMA · 50+ comments · 1 year ago" [expanded] [ref=e442]:
+                    - img [ref=e445]
+                - list [ref=e454]:
+                  - listitem [ref=e455]:
+                    - generic [ref=e459]:
+                      - link "Googles ADK seems like a copy of Langchain + LangGraph, but with better functionality and great documentation. The method of building agents is ... More discussions on Just did a deep dive into Google's Agent Development Kit (ADK). Here are some thoughts, nitpicks, and things I loved (unbiased)":
+                        - /url: https://www.reddit.com/r/LocalLLaMA/comments/1jvsvzj/just_did_a_deep_dive_into_googles_agent/
+                      - generic [ref=e461]:
+                        - text: Googles ADK seems like a copy of Langchain + LangGraph, but with better functionality and great documentation. The method of building agents is ...
+                        - link [ref=e462] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/LocalLLaMA/comments/1jvsvzj/just_did_a_deep_dive_into_googles_agent/
+                          - generic [ref=e463]: More
+                          - img [ref=e465]
+              - generic [ref=e471] [cursor=pointer]:
+                - generic [ref=e474]:
+                  - link "Is Google Agent Development Kit (ADK) really worth the hype ? Reddit · r/AI_Agents · 30+ comments · 1 year ago" [ref=e475]:
+                    - /url: https://www.reddit.com/r/AI_Agents/comments/1k4erny/is_google_agent_development_kit_adk_really_worth/
+                    - generic [ref=e476]:
+                      - heading "Is Google Agent Development Kit (ADK) really worth the hype ?" [level=3] [ref=e477]:
+                        - link "Is Google Agent Development Kit (ADK) really worth the hype ?" [ref=e478]
+                      - generic [ref=e485]:
+                        - generic [ref=e486]: Reddit ·
+                        - generic [ref=e488]:
+                          - generic [ref=e489]:
+                            - generic [ref=e490]: r/AI_Agents
+                            - generic [ref=e491]:
+                              - generic [ref=e492]: ·
+                              - generic [ref=e493]: 30+ comments
+                          - generic [ref=e494]:
+                            - generic [ref=e495]: ·
+                            - generic [ref=e496]: 1 year ago
+                  - generic [ref=e502]:
+                    - generic [ref=e506]: ·
+                    - button "About this result" [ref=e511]:
+                      - img [ref=e514]
+                - button "Is Google Agent Development Kit (ADK) really worth the hype ? Reddit · r/AI_Agents · 30+ comments · 1 year ago" [ref=e516]:
+                  - img [ref=e519]
+              - generic [ref=e525] [cursor=pointer]:
+                - generic [ref=e528]:
+                  - 'link "Some general questions · google adk-python · Discussion #2492 GitHub · 10 months ago" [ref=e529]':
+                    - /url: https://github.com/google/adk-python/discussions/2492
+                    - generic [ref=e530]:
+                      - 'heading "Some general questions · google adk-python · Discussion #2492" [level=3] [ref=e531]':
+                        - 'link "Some general questions · google adk-python · Discussion #2492" [ref=e532]'
+                      - generic [ref=e539]:
+                        - generic [ref=e540]: GitHub ·
+                        - generic [ref=e544]: 10 months ago
+                  - generic [ref=e550]:
+                    - generic [ref=e554]: ·
+                    - button "About this result" [ref=e559]:
+                      - img [ref=e562]
+                - 'button "Some general questions · google adk-python · Discussion #2492 GitHub · 10 months ago" [ref=e564]':
+                  - img [ref=e567]
+              - link "See more discussions" [ref=e570] [cursor=pointer]:
+                - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&udm=18&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8poLegQIVhAE
+                - separator [ref=e571]
+                - generic [ref=e572]:
+                  - generic [ref=e573]: See more
+                  - img [ref=e575]
+          - generic [ref=e580]:
+            - generic [ref=e582]:
+              - heading "What people are saying" [level=2] [ref=e583]:
+                - generic [ref=e585]: What people are saying
+              - generic [ref=e595]: Trending posts and discussions
+            - generic [ref=e597]:
+              - list [ref=e599]:
+                - generic [ref=e600]:
+                  - listitem [ref=e601]:
+                    - generic [ref=e605]:
+                      - button "Build Your First Google ADK Agent | Agent Platform Studio. Play on Google. 20:28" [ref=e610] [cursor=pointer]:
+                        - generic [ref=e613]:
+                          - generic [ref=e614]:
+                            - img [ref=e615]
+                            - generic [ref=e617]: 20:28
+                          - img [ref=e620]
+                      - link "Build Your First Google ADK Agent | Agent Platform Studio 580+ views · 2 weeks ago TechTrapture · YouTube Google Cloud & AI architect" [ref=e622] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=-hUhI57CF14
+                        - generic [ref=e623]:
+                          - heading "Build Your First Google ADK Agent | Agent Platform Studio" [level=3] [ref=e625]
+                          - generic [ref=e627]: 580+ views · 2 weeks ago
+                          - generic [ref=e639]:
+                            - generic [ref=e640]: TechTrapture · YouTube
+                            - generic [ref=e642]: Google Cloud & AI architect
+                      - button "About this result" [ref=e646] [cursor=pointer]:
+                        - img [ref=e649]
+                  - listitem [ref=e651]:
+                    - generic [ref=e655]:
+                      - link "Building End to End AI Agents with ADK Dev Skills | by Pier Paolo Ippolito | Google Cloud - Community | Apr, 2026 Apr 13, 2026 Pier Paolo Ippolito · Medium Editor & writer" [ref=e656] [cursor=pointer]:
+                        - /url: https://medium.com/google-cloud/building-end-to-end-ai-agents-with-adk-dev-skills-26e1176ba661
+                        - generic [ref=e660]:
+                          - heading "Building End to End AI Agents with ADK Dev Skills | by Pier Paolo Ippolito | Google Cloud - Community | Apr, 2026" [level=3] [ref=e662]
+                          - generic [ref=e663]: Apr 13, 2026
+                          - generic [ref=e672]:
+                            - generic [ref=e673]: Pier Paolo Ippolito · Medium
+                            - generic [ref=e675]: Editor & writer
+                      - button "About this result" [ref=e679] [cursor=pointer]:
+                        - img [ref=e682]
+                  - listitem [ref=e684]:
+                    - generic [ref=e688]:
+                      - link "Google ADK for the Battle-Tested Agent Developer | by Rick Hightower | Spillwave Solutions Mar 31, 2026 Rick Hightower Medium" [ref=e689] [cursor=pointer]:
+                        - /url: https://medium.com/spillwave-solutions/google-adk-for-the-battle-tested-agent-developer-fbc8dda86389
+                        - generic [ref=e693]:
+                          - heading "Google ADK for the Battle-Tested Agent Developer | by Rick Hightower | Spillwave Solutions" [level=3] [ref=e695]
+                          - generic [ref=e696]: Mar 31, 2026
+                          - generic [ref=e705]:
+                            - generic [ref=e706]: Rick Hightower
+                            - generic [ref=e707]: Medium
+                      - button "About this result" [ref=e711] [cursor=pointer]:
+                        - img [ref=e714]
+                  - listitem [ref=e716]:
+                    - generic [ref=e721]:
+                      - button "Intro to multi-agent systems with ADK. Play on Google. 11:53" [ref=e726] [cursor=pointer]:
+                        - generic [ref=e732]:
+                          - generic [ref=e733]:
+                            - img [ref=e734]
+                            - generic [ref=e736]: 11:53
+                          - img [ref=e739]
+                      - link "Intro to multi-agent systems with ADK 3.3K+ views · 1 day ago Google Cloud Tech · YouTube Computer application" [ref=e741] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=0Z0GUDakR_A
+                        - generic [ref=e742]:
+                          - heading "Intro to multi-agent systems with ADK" [level=3] [ref=e744]
+                          - generic [ref=e746]: 3.3K+ views · 1 day ago
+                          - generic [ref=e758]:
+                            - generic [ref=e759]: Google Cloud Tech · YouTube
+                            - generic [ref=e761]: Computer application
+                      - button "About this result" [ref=e765] [cursor=pointer]:
+                        - img [ref=e768]
+                  - listitem [ref=e770]:
+                    - generic [ref=e775]:
+                      - link "Build AI Agents Inside Your Android App with Agent Development Kit (ADK) | by Anand Gaur | May, 2026 Google just made it possible to put real, thinking AI agents directly inside your Android app using Kotlin. Here's everything you need to... . 2 weeks ago Anand Gaur Medium" [ref=e776] [cursor=pointer]:
+                        - /url: https://medium.com/@anandgaur2207/build-ai-agents-inside-your-android-app-with-agent-development-kit-adk-2c9ccb25b909
+                        - generic [ref=e777]:
+                          - heading "Build AI Agents Inside Your Android App with Agent Development Kit (ADK) | by Anand Gaur | May, 2026" [level=3] [ref=e779]
+                          - generic [ref=e780]:
+                            - generic [ref=e781]: Google just made it possible to put real, thinking AI agents directly inside your Android app using Kotlin. Here's everything you need to...
+                            - generic [ref=e782]: .
+                          - generic [ref=e783]: 2 weeks ago
+                          - generic [ref=e792]:
+                            - generic [ref=e793]: Anand Gaur
+                            - generic [ref=e794]: Medium
+                      - button "About this result" [ref=e798] [cursor=pointer]:
+                        - img [ref=e801]
+                  - listitem [ref=e803]:
+                    - generic [ref=e808]:
+                      - 'link "Google''s Agent Development Kit runs on Python — but does it run on Azure Container Apps? This dev deploys a multi-agent comic book generator using ADK + Gemini to ACA, complete with a live visual builder walkthrough and working endpoint. { author: xbil Apr 5, 2026 thepracticaldev · Facebook Developer community" [ref=e809] [cursor=pointer]':
+                        - /url: https://www.facebook.com/thepracticaldev/posts/googles-agent-development-kit-runs-on-python-but-does-it-run-on-azure-container-/1543604674474587/
+                        - generic [ref=e813]:
+                          - 'heading "Google''s Agent Development Kit runs on Python — but does it run on Azure Container Apps? This dev deploys a multi-agent comic book generator using ADK + Gemini to ACA, complete with a live visual builder walkthrough and working endpoint. { author: xbil" [level=3] [ref=e815]'
+                          - generic [ref=e816]: Apr 5, 2026
+                          - generic [ref=e828]:
+                            - generic [ref=e829]: thepracticaldev · Facebook
+                            - generic [ref=e831]: Developer community
+                      - button "About this result" [ref=e835] [cursor=pointer]:
+                        - img [ref=e838]
+                  - listitem [ref=e840]:
+                    - generic [ref=e845]:
+                      - button "Google ADK in 20 Minutes! Build Agentic App Projects Like a Pro. Play on Google. 27:38" [ref=e850] [cursor=pointer]:
+                        - generic [ref=e856]:
+                          - generic [ref=e857]:
+                            - img [ref=e858]
+                            - generic [ref=e860]: 27:38
+                          - img [ref=e863]
+                      - link "Google ADK in 20 Minutes! Build Agentic App Projects Like a Pro 15.5K+ views · 1 month ago Keerti Purswani · YouTube AI educator" [ref=e865] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=bKcVMEIFwHk
+                        - generic [ref=e866]:
+                          - heading "Google ADK in 20 Minutes! Build Agentic App Projects Like a Pro" [level=3] [ref=e868]
+                          - generic [ref=e870]: 15.5K+ views · 1 month ago
+                          - generic [ref=e882]:
+                            - generic [ref=e883]: Keerti Purswani · YouTube
+                            - generic [ref=e885]: AI educator
+                      - button "About this result" [ref=e889] [cursor=pointer]:
+                        - img [ref=e892]
+                  - listitem [ref=e894]:
+                    - generic [ref=e899]:
+                      - 'link "Google ADK in 2026: The Complete Beginner’s Guide to Building AI Agents | Part-1 | by Simranjeet Singh Mar 16, 2026 Simranjeet Singh Medium" [ref=e900] [cursor=pointer]':
+                        - /url: https://medium.com/@simranjeetsingh1497/google-adk-in-2026-the-complete-beginners-guide-to-building-ai-agents-part-1-2aca04ddf6ff
+                        - generic [ref=e904]:
+                          - 'heading "Google ADK in 2026: The Complete Beginner’s Guide to Building AI Agents | Part-1 | by Simranjeet Singh" [level=3] [ref=e906]'
+                          - generic [ref=e907]: Mar 16, 2026
+                          - generic [ref=e916]:
+                            - generic [ref=e917]: Simranjeet Singh
+                            - generic [ref=e918]: Medium
+                      - button "About this result" [ref=e922] [cursor=pointer]:
+                        - img [ref=e925]
+                  - listitem [ref=e927]:
+                    - generic [ref=e932]:
+                      - button "Google's New Agent CLI Tool builds AI Agents in Mins!!! - Full Breakdown. Play on Google. 12:41" [ref=e937] [cursor=pointer]:
+                        - generic [ref=e943]:
+                          - generic [ref=e944]:
+                            - img [ref=e945]
+                            - generic [ref=e947]: 12:41
+                          - img [ref=e950]
+                      - link "Google's New Agent CLI Tool builds AI Agents in Mins!!! - Full Breakdown 9.2K+ views · 1 month ago AI with Surya YouTube" [ref=e952] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=0h7Gnjm6VQk
+                        - generic [ref=e953]:
+                          - heading "Google's New Agent CLI Tool builds AI Agents in Mins!!! - Full Breakdown" [level=3] [ref=e955]
+                          - generic [ref=e957]: 9.2K+ views · 1 month ago
+                          - generic [ref=e969]:
+                            - generic [ref=e970]: AI with Surya
+                            - generic [ref=e971]: YouTube
+                      - button "About this result" [ref=e975] [cursor=pointer]:
+                        - img [ref=e978]
+              - button [ref=e980] [cursor=pointer]:
+                - img [ref=e983]
+          - generic [ref=e991]:
+            - generic [ref=e994]:
+              - 'link "Step-by-Step AI Agent Tutorial: Build, Test, and Deploy with ADK YouTube · Google Cloud 12.9K+ views · 7 months ago" [ref=e996] [cursor=pointer]':
+                - /url: https://www.youtube.com/watch?v=p0iMDGBMtrc
+                - 'heading "Step-by-Step AI Agent Tutorial: Build, Test, and Deploy with ADK" [level=3] [ref=e997]'
+                - generic [ref=e1002]:
+                  - generic [ref=e1004]: YouTube · Google Cloud
+                  - generic [ref=e1006]: 12.9K+ views · 7 months ago
+              - button "About this result" [ref=e1007] [cursor=pointer]:
+                - img [ref=e1010]
+            - generic [ref=e1012]:
+              - 'button "Step-by-Step AI Agent Tutorial: Build, Test, and Deploy with ADK by Google Cloud on YouTube. Play on Google. 22:21" [ref=e1013] [cursor=pointer]':
+                - generic [ref=e1015]:
+                  - img [ref=e1021]
+                  - generic [ref=e1024]:
+                    - generic [ref=e1026]: 22:21
+                    - img [ref=e1029]
+              - generic [ref=e1032]: "Start building your own AI agents with the Startup technical guide: AI agents, learn to build from prototype to deployment."
+            - button "8 key moments in this video" [ref=e1037] [cursor=pointer]:
+              - generic [ref=e1046]:
+                - generic [ref=e1049]: 8 key moments in this video
+                - img [ref=e1051]
+            - generic [ref=e1054]:
+              - text: "Missing: documentation ‎| Show results with:"
+              - link "documentation" [ref=e1055] [cursor=pointer]:
+                - /url: /search?sca_esv=16a54cb5159ee727&q=google+adk+agent+development+kit+python+%22documentation%22+building+agents&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ5t4CegQIMRA2
+          - generic [ref=e1060]:
+            - heading "People also ask" [level=2] [ref=e1062]
+            - generic [ref=e1063]:
+              - button "What is Google agent Development Kit ADK?" [ref=e1069] [cursor=pointer]:
+                - generic [ref=e1071]: What is Google agent Development Kit ADK?
+                - img [ref=e1074]
+              - button "What are the 4 pillars of AI agents?" [ref=e1083] [cursor=pointer]:
+                - generic [ref=e1085]: What are the 4 pillars of AI agents?
+                - img [ref=e1088]
+              - button "What are the different types of agents in Google ADK?" [ref=e1097] [cursor=pointer]:
+                - generic [ref=e1099]: What are the different types of agents in Google ADK?
+                - img [ref=e1102]
+              - button "What is the difference between Google SDK and ADK?" [ref=e1111] [cursor=pointer]:
+                - generic [ref=e1113]: What is the difference between Google SDK and ADK?
+                - img [ref=e1116]
+        - generic [ref=e1120]:
+          - generic [ref=e1125]:
+            - heading "People also search for" [level=2] [ref=e1127]
+            - generic [ref=e1129]:
+              - generic [ref=e1130]:
+                - link "Google adk agent development kit python documentation building agents github" [ref=e1134] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Google+adk+agent+development+kit+python+documentation+building+agents+github&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhSEAE
+                  - generic [ref=e1135]:
+                    - generic [ref=e1140]: Google adk agent development kit python documentation building agents github
+                    - img [ref=e1144]
+                - link "Google adk agent development kit python documentation building agents example" [ref=e1149] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Google+adk+agent+development+kit+python+documentation+building+agents+example&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhmEAE
+                  - generic [ref=e1150]:
+                    - generic [ref=e1155]: Google adk agent development kit python documentation building agents example
+                    - img [ref=e1159]
+                - link "Google agent development kit documentation" [ref=e1164] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Google+agent+development+kit+documentation&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhkEAE
+                  - generic [ref=e1165]:
+                    - generic [ref=e1170]: Google agent development kit documentation
+                    - img [ref=e1174]
+                - link "Agent Development Kit Google" [ref=e1179] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Agent+Development+Kit+Google&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhgEAE
+                  - generic [ref=e1180]:
+                    - generic [ref=e1185]: Agent Development Kit Google
+                    - img [ref=e1189]
+              - generic [ref=e1191]:
+                - link "Google Agent Development Kit vs LangChain" [ref=e1195] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Google+Agent+Development+Kit+vs+LangChain&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhcEAE
+                  - generic [ref=e1196]:
+                    - generic [ref=e1201]: Google Agent Development Kit vs LangChain
+                    - img [ref=e1205]
+                - link "Google ADK agent examples" [ref=e1210] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Google+ADK+agent+examples&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhaEAE
+                  - generic [ref=e1211]:
+                    - generic [ref=e1216]: Google ADK agent examples
+                    - img [ref=e1220]
+                - link "Agent development kit for android" [ref=e1225] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Agent+development+kit+for+android&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhZEAE
+                  - generic [ref=e1226]:
+                    - generic [ref=e1231]: Agent development kit for android
+                    - img [ref=e1235]
+                - link "Is Google Agent Development Kit free" [ref=e1240] [cursor=pointer]:
+                  - /url: /search?sca_esv=16a54cb5159ee727&q=Is+Google+Agent+Development+Kit+free&sa=X&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ1QJ6BAhXEAE
+                  - generic [ref=e1241]:
+                    - generic [ref=e1246]: Is Google Agent Development Kit free
+                    - img [ref=e1250]
+          - navigation [ref=e1252]:
+            - heading "Page Navigation" [level=1] [ref=e1253]
+            - text: "1"
+            - link "Page 2" [ref=e1256] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=10&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAE
+              - text: "2"
+            - link "Page 3" [ref=e1258] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=20&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAG
+              - text: "3"
+            - link "Page 4" [ref=e1260] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=30&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAI
+              - text: "4"
+            - link "Page 5" [ref=e1262] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=40&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAK
+              - text: "5"
+            - link "Page 6" [ref=e1264] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=50&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAM
+              - text: "6"
+            - link "Page 7" [ref=e1266] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=60&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAO
+              - text: "7"
+            - link "Page 8" [ref=e1268] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=70&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAQ
+              - text: "8"
+            - link "Page 9" [ref=e1270] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=80&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAS
+              - text: "9"
+            - link "Page 10" [ref=e1272] [cursor=pointer]:
+              - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=90&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8tMDegQIURAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1274]:
+              - link "Next" [ref=e1275] [cursor=pointer]:
+                - /url: /search?q=google+adk+agent+development+kit+python+documentation+building+agents&sca_esv=16a54cb5159ee727&ei=Yxopau32Nbu_kPIP45vUmQs&start=10&sa=N&sstk=AU9db-A-wlU036mLphlhBDGF890FbBm6Dgx9o7Rl6UmJpkDt900KMgimVkVLI5iftWiVb9Pa0RH7loA62NooRJfTCLEtk9X3aQns3Q&ved=2ahUKEwittLr3mvyUAxW7H0QIHeMNNbMQ8NMDegQIURAW
+                - generic [ref=e1277]: Next
+        - navigation
+    - contentinfo [ref=e1278]:
+      - heading "Footer Links" [level=1] [ref=e1279]
+      - generic [ref=e1283]:
+        - generic [ref=e1287]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e1289] [cursor=pointer]:
+            - generic [ref=e1290]: 92780, Tustin, CA
+            - generic [ref=e1292]:
+              - text: "-"
+              - generic [ref=e1293]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1295] [cursor=pointer]: Update location
+        - generic [ref=e1298]:
+          - link "Help" [ref=e1299] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1300] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1301] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1302] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

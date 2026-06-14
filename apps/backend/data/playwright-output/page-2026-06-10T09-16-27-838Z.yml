@@ -1,0 +1,356 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: Google ADK 2.0 documentation official site Google ADK 2.0 documentation official site
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DGoogle%2BADK%2B2.0%2Bdocumentation%2Bofficial%2Bsite&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTXyCfNeKGeJOJfUwi1MTUzwST1daiRLNBoQ0B6uczm6CPpE9MgkRBvAPuob4mewNkDl0qqgU7tf4HSl2xbj6ojbSP-1ycpHvS_WIIYmbofpTFC-6QoWgYrvYjVZfNIiEjpjWKmu-bg7GDsedQmi9kb_IY5cY0FSVC5-2G8wJTr2Xbc8mCIw&aep=1&ntc=1&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ2J8OegQIEBAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Videos" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTXyCfNeKGeJOJfUwi1MTUzwST1daiRLNBoQ0B6uczm6CPpE9MgkRBvAPuob4mewNkDl0qqgU7tf4HSl2xbj6ojbSP-1ycpHvS_WIIYmbofpTFC-6QoWgYrvYjVZfNIiEjpjWKmu-bg7GDsedQmi9kb_IY5cY0FSVC5-2G8wJTr2Xbc8mCIw&q=Google+ADK+2.0+documentation+official+site&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQtKgLegQIFxAB
+              - generic [ref=e90]: Videos
+          - listitem [ref=e91]:
+            - link "Forums" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTXyCfNeKGeJOJfUwi1MTUzwST1daiRLNBoQ0B6uczm6CPpE9MgkRBvAPuob4mewNkDl0qqgU7tf4HSl2xbj6ojbSP-1ycpHvS_WIIYmbofpTFC-6QoWgYrvYjVZfNIiEjpjWKmu-bg7GDsedQmi9kb_IY5cY0FSVC5-2G8wJTr2Xbc8mCIw&q=Google+ADK+2.0+documentation+official+site&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQs6gLegQIFRAB
+              - generic [ref=e94]: Forums
+          - listitem [ref=e95]:
+            - link "Images" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTXyCfNeKGeJOJfUwi1MTUzwST1daiRLNBoQ0B6uczm6CPpE9MgkRBvAPuob4mewNkDl0qqgU7tf4HSl2xbj6ojbSP-1ycpHvS_WIIYmbofpTFC-6QoWgYrvYjVZfNIiEjpjWKmu-bg7GDsedQmi9kb_IY5cY0FSVC5-2G8wJTr2Xbc8mCIw&q=Google+ADK+2.0+documentation+official+site&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQtKgLegQIFhAB
+              - generic [ref=e98]: Images
+          - listitem [ref=e99]:
+            - link "Shopping" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTXyCfNeKGeJOJfUwi1MTUzwST1daiRLNBoQ0B6uczm6CPpE9MgkRBvAPuob4mewNkDl0qqgU7tf4HSl2xbj6ojbSP-1ycpHvS_WIIYmbofpTFC-6QoWgYrvYjVZfNIiEjpjWKmu-bg7GDsedQmi9kb_IY5cY0FSVC5-2G8wJTr2Xbc8mCIw&q=Google+ADK+2.0+documentation+official+site&ved=1t:220175&ictx=111
+              - generic [ref=e102]: Shopping
+          - listitem [ref=e103]:
+            - link "Short videos" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTXyCfNeKGeJOJfUwi1MTUzwST1daiRLNBoQ0B6uczm6CPpE9MgkRBvAPuob4mewNkDl0qqgU7tf4HSl2xbj6ojbSP-1ycpHvS_WIIYmbofpTFC-6QoWgYrvYjVZfNIiEjpjWKmu-bg7GDsedQmi9kb_IY5cY0FSVC5-2G8wJTr2Xbc8mCIw&q=Google+ADK+2.0+documentation+official+site&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQs6gLegQIExAB
+              - generic [ref=e106]: Short videos
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - main [ref=e125]:
+      - generic [ref=e129]:
+        - generic [ref=e132]:
+          - heading "Web results" [level=2] [ref=e133]
+          - generic [ref=e134]:
+            - generic [ref=e137]:
+              - link "Welcome to ADK 2.0 - Agent Development Kit (ADK) adk.dev https://adk.dev › 2.0" [ref=e139] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/
+                - heading "Welcome to ADK 2.0 - Agent Development Kit (ADK)" [level=3] [ref=e140]
+                - generic [ref=e145]:
+                  - generic [ref=e147]: adk.dev
+                  - generic [ref=e149]: https://adk.dev › 2.0
+              - button "About this result" [ref=e150] [cursor=pointer]:
+                - img [ref=e153]
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - emphasis [ref=e158]: ADK 2.0
+                - text: introduces powerful tools for building sophisticated AI agents, and helps you structure agents to execute challenging tasks with more control, ...
+              - link "Read more" [ref=e159] [cursor=pointer]:
+                - /url: https://adk.dev/2.0/#:~:text=ADK%202.0%20introduces%20powerful%20tools,more%20control%2C%20predictability%2C%20and%20reliability.
+        - generic [ref=e170]:
+          - heading "Thinking" [level=2] [ref=e174]:
+            - generic [ref=e175]: Thinking
+          - progressbar [ref=e176]
+        - generic [ref=e180]:
+          - heading "Web results" [level=2] [ref=e181]
+          - generic [ref=e182]:
+            - generic [ref=e185]:
+              - link "Google ADK adk.dev https://adk.dev" [ref=e187] [cursor=pointer]:
+                - /url: https://adk.dev/
+                - heading "Google ADK" [level=3] [ref=e188]
+                - generic [ref=e193]:
+                  - generic [ref=e195]: adk.dev
+                  - generic [ref=e197]: https://adk.dev
+              - button "About this result" [ref=e198] [cursor=pointer]:
+                - img [ref=e201]
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - emphasis [ref=e206]: ADK
+                - text: is the open-source agent development framework that lets you build, debug, and deploy reliable AI agents at enterprise scale. Available in Python, ...
+              - link "Read more" [ref=e207] [cursor=pointer]:
+                - /url: https://adk.dev/#:~:text=ADK%20is%20the%20open%2Dsource%20agent,TypeScript%2C%20Go%2C%20Java%2C%20and%20Kotlin.
+        - generic [ref=e211]:
+          - generic [ref=e214]:
+            - link "Agent Development Kit | Gemini Enterprise Agent Platform Google Cloud Documentation https://docs.cloud.google.com › build › adk" [ref=e216] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk
+              - heading "Agent Development Kit | Gemini Enterprise Agent Platform" [level=3] [ref=e217]
+              - generic [ref=e222]:
+                - generic [ref=e224]: Google Cloud Documentation
+                - generic [ref=e226]: https://docs.cloud.google.com › build › adk
+            - button "About this result" [ref=e227] [cursor=pointer]:
+              - img [ref=e230]
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - emphasis [ref=e235]: Agent Development Kit (ADK
+              - text: ) is an open-source agent development framework that lets you build, debug, and deploy reliable AI agents at enterprise scale.
+            - link "Read more" [ref=e236] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk#:~:text=Agent%20Development%20Kit%20(ADK)%20is,AI%20agents%20at%20enterprise%20scale.
+        - generic [ref=e240]:
+          - generic [ref=e243]:
+            - link "Agent Development Kit 2.0.0 documentation - Google ADK adk.dev https://adk.dev › api-reference › python" [ref=e245] [cursor=pointer]:
+              - /url: https://adk.dev/api-reference/python/
+              - heading "Agent Development Kit 2.0.0 documentation - Google ADK" [level=3] [ref=e246]
+              - generic [ref=e251]:
+                - generic [ref=e253]: adk.dev
+                - generic [ref=e255]: https://adk.dev › api-reference › python
+            - button "About this result" [ref=e256] [cursor=pointer]:
+              - img [ref=e259]
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - emphasis [ref=e264]: Agent Development Kit 2.0.0 documentation
+              - text: . Agent Development Kit 2.0.0 ... google.adk.version module · google.adk.workflow module · BaseNode · BaseNode ...
+            - link "Read more" [ref=e265] [cursor=pointer]:
+              - /url: https://adk.dev/api-reference/python/#:~:text=Agent%20Development%20Kit%202.0.0%20documentation&text=google.adk.version%20module,BaseNode.description
+        - generic [ref=e269]:
+          - generic [ref=e272]:
+            - link "Agent Development Kit (ADK) 2.0 GitHub https://github.com › google › adk-python" [ref=e274] [cursor=pointer]:
+              - /url: https://github.com/google/adk-python
+              - heading "Agent Development Kit (ADK) 2.0" [level=3] [ref=e275]
+              - generic [ref=e280]:
+                - generic [ref=e282]: GitHub
+                - generic [ref=e284]: https://github.com › google › adk-python
+            - button "About this result" [ref=e285] [cursor=pointer]:
+              - img [ref=e288]
+          - generic [ref=e292]:
+            - emphasis [ref=e293]: An open-source, code-first Python toolkit
+            - text: for building, evaluating, and deploying sophisticated AI agents with flexibility and control. - google/adk-python.
+        - generic [ref=e297]:
+          - generic [ref=e300]:
+            - link "Making it easy to build multi-agent applications blog.google https://developers.googleblog.com › agent-developmen..." [ref=e302] [cursor=pointer]:
+              - /url: https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/
+              - heading "Making it easy to build multi-agent applications" [level=3] [ref=e303]
+              - generic [ref=e308]:
+                - generic [ref=e310]: blog.google
+                - generic [ref=e312]: https://developers.googleblog.com › agent-developmen...
+            - button "About this result" [ref=e313] [cursor=pointer]:
+              - img [ref=e316]
+          - generic [ref=e319]:
+            - generic [ref=e320]: Apr 9, 2025 —
+            - generic [ref=e321]:
+              - text: Discover
+              - emphasis [ref=e322]: Google ADK
+              - text: ", an open-source framework for streamlined development offering precise control, rich tools, and easy deployment."
+        - generic [ref=e326]:
+          - generic [ref=e329]:
+            - link "A Developer's Guide to Multi-Agent Systems with ADK Google Cloud https://cloud.google.com › blog › developers-practitioners" [ref=e331] [cursor=pointer]:
+              - /url: https://cloud.google.com/blog/topics/developers-practitioners/building-collaborative-ai-a-developers-guide-to-multi-agent-systems-with-adk
+              - heading "A Developer's Guide to Multi-Agent Systems with ADK" [level=3] [ref=e332]
+              - generic [ref=e337]:
+                - generic [ref=e339]: Google Cloud
+                - generic [ref=e341]: https://cloud.google.com › blog › developers-practitioners
+            - button "About this result" [ref=e342] [cursor=pointer]:
+              - img [ref=e345]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Nov 5, 2025 —
+            - generic [ref=e350]:
+              - text: You can start coding the following tutorial here! Resources.
+              - emphasis [ref=e351]: "ADK Doc: https://google.github.io/adk-docs"
+              - text: /.
+            - link "Read more" [ref=e352] [cursor=pointer]:
+              - /url: https://cloud.google.com/blog/topics/developers-practitioners/building-collaborative-ai-a-developers-guide-to-multi-agent-systems-with-adk#:~:text=You%20can%20start%20coding%20the,ADK%20Doc%3A%20https%3A%2F%2Fgoogle.github.io%2Fadk%2Ddocs%2F
+        - generic [ref=e356]:
+          - generic [ref=e359]:
+            - link "Build an agent with ADK and Agents CLI in Agent Platform Google Cloud Documentation https://docs.cloud.google.com › agents › quickstart-adk" [ref=e361] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/agents/quickstart-adk
+              - heading "Build an agent with ADK and Agents CLI in Agent Platform" [level=3] [ref=e362]
+              - generic [ref=e367]:
+                - generic [ref=e369]: Google Cloud Documentation
+                - generic [ref=e371]: https://docs.cloud.google.com › agents › quickstart-adk
+            - button "About this result" [ref=e372] [cursor=pointer]:
+              - img [ref=e375]
+          - generic [ref=e378]:
+            - generic [ref=e379]: 5 days ago —
+            - generic [ref=e380]:
+              - text: This document demonstrates how to build, evaluate, and deploy a prototype AI agent using the Agent Development Kit (
+              - emphasis [ref=e381]: ADK
+              - text: ) with the Agents CLI ...
+            - link "Read more" [ref=e382] [cursor=pointer]:
+              - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/agents/quickstart-adk#:~:text=This%20document%20demonstrates%20how%20to,Agents%20CLI%20in%20Agent%20Platform.
+          - list [ref=e384]:
+            - listitem [ref=e385]:
+              - link "Scaffold project" [ref=e386] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/agents/quickstart-adk#scaffold_project
+                - generic [ref=e388]: Scaffold project
+            - listitem [ref=e389]:
+              - link "Build agent" [ref=e390] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/agents/quickstart-adk#build_agent
+                - generic [ref=e392]: Build agent
+            - listitem [ref=e393]:
+              - link "Evaluate agent" [ref=e394] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/agents/quickstart-adk#evaluate_agent
+                - generic [ref=e396]: Evaluate agent
+            - listitem [ref=e397]:
+              - link "Deploy agent" [ref=e398] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/agents/quickstart-adk#deploy_agent
+                - generic [ref=e400]: Deploy agent
+        - generic [ref=e404]:
+          - generic [ref=e407]:
+            - link "Submodules - Agent Development Kit 2.0.0 documentation adk.dev https://adk.dev › api-reference › python › google-adk" [ref=e409] [cursor=pointer]:
+              - /url: https://adk.dev/api-reference/python/google-adk.html
+              - heading "Submodules - Agent Development Kit 2.0.0 documentation" [level=3] [ref=e410]
+              - generic [ref=e415]:
+                - generic [ref=e417]: adk.dev
+                - generic [ref=e419]: https://adk.dev › api-reference › python › google-adk
+            - button "About this result" [ref=e420] [cursor=pointer]:
+              - img [ref=e423]
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - text: View this page. Submodules¶.
+              - emphasis [ref=e428]: google.adk.a2a module
+              - text: ¶. google.adk.agents module¶. google.adk.agents.Agent¶. alias of LlmAgent. pydantic model google.adk.agents.
+            - link "Read more" [ref=e429] [cursor=pointer]:
+              - /url: https://adk.dev/api-reference/python/google-adk.html#:~:text=Submodules,pydantic%20model%20google.adk.agents.
+        - generic [ref=e433]:
+          - generic [ref=e436]:
+            - 'link "Guide to Google Agent Development Kit (ADK) : Aalpha aalpha.net https://www.aalpha.net › blog › google-agent-develop..." [ref=e438] [cursor=pointer]':
+              - /url: https://www.aalpha.net/blog/google-agent-development-kit-adk-for-multi-agent-applications/
+              - 'heading "Guide to Google Agent Development Kit (ADK) : Aalpha" [level=3] [ref=e439]'
+              - generic [ref=e444]:
+                - generic [ref=e446]: aalpha.net
+                - generic [ref=e448]: https://www.aalpha.net › blog › google-agent-develop...
+            - button "About this result" [ref=e449] [cursor=pointer]:
+              - img [ref=e452]
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - emphasis [ref=e457]: ADK allows agents to be defined declaratively and programmatically
+              - text: ", making it easy to configure and extend their behavior. 2. Orchestrator. The orchestrator is ..."
+            - link "Read more" [ref=e458] [cursor=pointer]:
+              - /url: https://www.aalpha.net/blog/google-agent-development-kit-adk-for-multi-agent-applications/#:~:text=ADK%20allows%20agents%20to%20be,brain%20of%20an%20ADK%2Dpowered%20system.
+      - generic [ref=e460]:
+        - generic [ref=e465]:
+          - heading "People also search for" [level=2] [ref=e467]
+          - generic [ref=e469]:
+            - generic [ref=e470]:
+              - link "Google adk 2.0 documentation official site python" [ref=e474] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+adk+2.0+documentation+official+site+python&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAgfEAE
+                - generic [ref=e475]:
+                  - generic [ref=e480]: Google adk 2.0 documentation official site python
+                  - img [ref=e484]
+              - link "Google adk 2.0 documentation official site github" [ref=e489] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+adk+2.0+documentation+official+site+github&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAg4EAE
+                - generic [ref=e490]:
+                  - generic [ref=e495]: Google adk 2.0 documentation official site github
+                  - img [ref=e499]
+              - link "Google adk 2.0 documentation official site example" [ref=e504] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+adk+2.0+documentation+official+site+example&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAgxEAE
+                - generic [ref=e505]:
+                  - generic [ref=e510]: Google adk 2.0 documentation official site example
+                  - img [ref=e514]
+              - link "Google ADK documentation" [ref=e519] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+ADK+documentation&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAgwEAE
+                - generic [ref=e520]:
+                  - generic [ref=e525]: Google ADK documentation
+                  - img [ref=e529]
+            - generic [ref=e531]:
+              - link "Google ADK CLI" [ref=e535] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+ADK+CLI&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAgsEAE
+                - generic [ref=e536]:
+                  - generic [ref=e541]: Google ADK CLI
+                  - img [ref=e545]
+              - link "Google-adk latest version" [ref=e550] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google-adk+latest+version&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAgkEAE
+                - generic [ref=e551]:
+                  - generic [ref=e556]: Google-adk latest version
+                  - img [ref=e560]
+              - link "Google github io adk docs" [ref=e565] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+github+io+adk+docs&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAgjEAE
+                - generic [ref=e566]:
+                  - generic [ref=e571]: Google github io adk docs
+                  - img [ref=e575]
+              - link "Google ADK tutorial" [ref=e580] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+ADK+tutorial&sa=X&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ1QJ6BAgiEAE
+                - generic [ref=e581]:
+                  - generic [ref=e586]: Google ADK tutorial
+                  - img [ref=e590]
+        - navigation [ref=e592]:
+          - heading "Page Navigation" [level=1] [ref=e593]
+          - text: "1"
+          - link "Page 2" [ref=e596] [cursor=pointer]:
+            - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&ei=ayspavmhFMDdkPIP5ory4Q0&start=10&sa=N&sstk=AU9db-BE-VgodtYUjHb8_9SaLGwydJtK0yZM8oOAmy_YMXkqY4cku3phOTG4pO4UOFZAeCllSyAeqPfzuPvfzEsRv0tjvf59qQjQKQ&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=e598] [cursor=pointer]:
+            - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&ei=ayspavmhFMDdkPIP5ory4Q0&start=20&sa=N&sstk=AU9db-BE-VgodtYUjHb8_9SaLGwydJtK0yZM8oOAmy_YMXkqY4cku3phOTG4pO4UOFZAeCllSyAeqPfzuPvfzEsRv0tjvf59qQjQKQ&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=e600] [cursor=pointer]:
+            - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&ei=ayspavmhFMDdkPIP5ory4Q0&start=30&sa=N&sstk=AU9db-BE-VgodtYUjHb8_9SaLGwydJtK0yZM8oOAmy_YMXkqY4cku3phOTG4pO4UOFZAeCllSyAeqPfzuPvfzEsRv0tjvf59qQjQKQ&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=e602] [cursor=pointer]:
+            - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&ei=ayspavmhFMDdkPIP5ory4Q0&start=40&sa=N&sstk=AU9db-BE-VgodtYUjHb8_9SaLGwydJtK0yZM8oOAmy_YMXkqY4cku3phOTG4pO4UOFZAeCllSyAeqPfzuPvfzEsRv0tjvf59qQjQKQ&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=e604] [cursor=pointer]:
+            - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&ei=ayspavmhFMDdkPIP5ory4Q0&start=50&sa=N&sstk=AU9db-BE-VgodtYUjHb8_9SaLGwydJtK0yZM8oOAmy_YMXkqY4cku3phOTG4pO4UOFZAeCllSyAeqPfzuPvfzEsRv0tjvf59qQjQKQ&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=e606] [cursor=pointer]:
+            - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&ei=ayspavmhFMDdkPIP5ory4Q0&start=60&sa=N&sstk=AU9db-BE-VgodtYUjHb8_9SaLGwydJtK0yZM8oOAmy_YMXkqY4cku3phOTG4pO4UOFZAeCllSyAeqPfzuPvfzEsRv0tjvf59qQjQKQ&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ8tMDegQINRAO
+            - text: "7"
+          - heading "Next" [level=2] [ref=e608]:
+            - link "Next" [ref=e609] [cursor=pointer]:
+              - /url: /search?q=Google+ADK+2.0+documentation+official+site&sca_esv=d11ba7484cdf09fb&ei=ayspavmhFMDdkPIP5ory4Q0&start=10&sa=N&sstk=AU9db-BE-VgodtYUjHb8_9SaLGwydJtK0yZM8oOAmy_YMXkqY4cku3phOTG4pO4UOFZAeCllSyAeqPfzuPvfzEsRv0tjvf59qQjQKQ&ved=2ahUKEwi5g5qWq_yUAxXALkQIHWaFPNwQ8NMDegQINRAQ
+              - generic [ref=e611]: Next
+      - navigation
+    - contentinfo [ref=e612]:
+      - heading "Footer Links" [level=1] [ref=e613]
+      - generic [ref=e617]:
+        - generic [ref=e621]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e623] [cursor=pointer]:
+            - generic [ref=e624]: 92780, Tustin, CA
+            - generic [ref=e626]:
+              - text: "-"
+              - generic [ref=e627]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e629] [cursor=pointer]: Update location
+        - generic [ref=e632]:
+          - link "Help" [ref=e633] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e634] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e635] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e636] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

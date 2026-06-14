@@ -1,13 +1,19 @@
+import sys
+from types import ModuleType
+from types import SimpleNamespace
 from pathlib import Path
 import json
 import subprocess
 
+import pytest
+
+from app.agent.runner import AgentStreamRunner
 from app.config import Settings
 from app.mcp.adk_toolset import build_running_mcp_toolsets, resolve_running_mcp_tools
-from app.schemas import McpActionRequest, McpToolConfig
+from app.schemas import ChatEvent, ChatRequest, McpActionRequest, McpToolConfig
 from app.security.command_policy import CommandPolicy
 from app.security.path_policy import PathPolicy
-from app.runtime.adk_runner import ChatRuntime
+from app.services.conversation_context_service import ConversationContextService
 from app.services.desktop_vision_service import DesktopVisionService
 from app.services.memory_service import MemoryService
 from app.services.mcp_service import McpService
@@ -252,55 +258,443 @@ async def test_memory_service_logs_observations_and_reports_status(tmp_path: Pat
     assert status["status"] == "success"
     assert status["data"]["node_count"] == 0
     assert status["data"]["observation_count"] == 2
-    assert status["data"]["dreamer_model"] == "google/gemini-3.1-flash-lite"
+    assert status["data"]["dreamer_model"] == "google/gemini-3-flash-preview"
 
 
-def test_speech_to_text_service_posts_multipart_audio(monkeypatch) -> None:
+async def test_stream_chat_emits_visible_memory_promotion_thought_events(
+    monkeypatch, tmp_path: Path
+) -> None:
     settings = Settings(
-        OPENROUTER_API_KEY="test-key",
-        OPENROUTER_TRANSCRIPTION_MODEL="nvidia/parakeet-tdt-0.6b-v3",
+        JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
     )
+    runtime = AgentStreamRunner(
+        settings,
+        PathPolicy([tmp_path], full_access=True),
+        McpService(),
+        SessionTerminalService(),
+        DesktopVisionService(settings),
+        MemoryService(settings),
+        ConversationContextService(settings.sqlite_path),
+    )
+
+    class _MemoryService:
+        async def append_observation(self, session_id: str, observation: str) -> None:
+            return None
+
+        def session_event_count(self, session_id: str) -> int:
+            return 5
+
+        def event_delta_since_last_promotion(self, session_id: str, event_count: int) -> int:
+            return 5
+
+        def should_run_promotion_for_event_count(
+            self, session_id: str, event_count: int
+        ) -> bool:
+            return True
+
+        async def promote_session_observations(
+            self, session_id: str, event_count: int
+        ) -> dict[str, object]:
+            return {
+                "status": "success",
+                "data": {
+                    "promoted_node_ids": ["node-1"],
+                    "consolidated": 2,
+                    "rejected": [],
+                },
+            }
+
+    class _FakeRunner:
+        async def run_async(self, user_id: str, session_id: str, new_message: object):
+            class _FakeEvent:
+                def __init__(self) -> None:
+                    self.content = _FakeContent(role="assistant", parts=[_FakePart("Assistant reply.")])
+
+                def get_function_calls(self) -> list[object]:
+                    return []
+
+                def get_function_responses(self) -> list[object]:
+                    return []
+
+            yield _FakeEvent()
+
+    async def _fake_build_runner(self, request: ChatRequest) -> object:
+        return _FakeRunner()
+
+    async def _fake_ensure_session(self, user_id: str, session_id: str) -> None:
+        return None
+
+    class _FakePart:
+        def __init__(self, text: str) -> None:
+            self.text = text
+
+        @staticmethod
+        def from_text(text: str) -> "_FakePart":
+            return _FakePart(text)
+
+    class _FakeContent:
+        def __init__(self, role: str, parts: list[_FakePart]) -> None:
+            self.role = role
+            self.parts = parts
+
+    fake_types = ModuleType("google.genai.types")
+    fake_types.Content = _FakeContent
+    fake_types.Part = _FakePart
+
+    google_module = ModuleType("google")
+    genai_module = ModuleType("google.genai")
+    genai_module.types = fake_types
+    google_module.genai = genai_module
+    monkeypatch.setitem(sys.modules, "google", google_module)
+    monkeypatch.setitem(sys.modules, "google.genai", genai_module)
+    monkeypatch.setitem(sys.modules, "google.genai.types", fake_types)
+
+    runtime.memory_service = _MemoryService()
+    monkeypatch.setattr(AgentStreamRunner, "_build_runner", _fake_build_runner)
+    monkeypatch.setattr(AgentStreamRunner, "_ensure_session", _fake_ensure_session)
+    monkeypatch.setattr(
+        "app.agent.runner.translate_event",
+        lambda event: [ChatEvent(type="assistant_message", content="Assistant reply.")],
+    )
+
+    events = []
+    async for event in runtime.stream_chat(ChatRequest(message="hello")):
+        events.append(event)
+
+    assert [event.type for event in events] == [
+        "thought",
+        "assistant_message",
+        "thought",
+        "thought",
+        "done",
+    ]
+    assert events[0].content == "Composing the response."
+    assert "Dream agent starting memory promotion" in events[2].content
+    assert "Dream agent finished memory promotion" in events[3].content
+
+
+async def test_stream_chat_emits_fallback_runtime_thoughts_for_tool_progress(
+    monkeypatch, tmp_path: Path
+) -> None:
+    settings = Settings(
+        JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
+    )
+    runtime = AgentStreamRunner(
+        settings,
+        PathPolicy([tmp_path], full_access=True),
+        McpService(),
+        SessionTerminalService(),
+        DesktopVisionService(settings),
+        MemoryService(settings),
+        ConversationContextService(settings.sqlite_path),
+    )
+
+    class _MemoryService:
+        async def append_observation(self, session_id: str, observation: str) -> None:
+            return None
+
+        def session_event_count(self, session_id: str) -> int:
+            return 0
+
+        def event_delta_since_last_promotion(self, session_id: str, event_count: int) -> int:
+            return 0
+
+        def should_run_promotion_for_event_count(
+            self, session_id: str, event_count: int
+        ) -> bool:
+            return False
+
+    class _FakeEvent:
+        def __init__(self, kind: str) -> None:
+            self.kind = kind
+            self.content = None
+
+        def get_function_calls(self) -> list[object]:
+            if self.kind != "tool_call":
+                return []
+
+            class _Call:
+                name = "list_directory_tool"
+
+            return [_Call()]
+
+        def get_function_responses(self) -> list[object]:
+            if self.kind != "tool_result":
+                return []
+
+            class _Response:
+                name = "list_directory_tool"
+
+            return [_Response()]
+
+    class _FakeRunner:
+        async def run_async(self, user_id: str, session_id: str, new_message: object):
+            yield _FakeEvent("tool_call")
+            yield _FakeEvent("tool_result")
+            yield _FakeEvent("assistant_message")
+
+    async def _fake_build_runner(self, request: ChatRequest) -> object:
+        return _FakeRunner()
+
+    async def _fake_ensure_session(self, user_id: str, session_id: str) -> None:
+        return None
+
+    class _FakePart:
+        def __init__(self, text: str) -> None:
+            self.text = text
+
+        @staticmethod
+        def from_text(text: str) -> "_FakePart":
+            return _FakePart(text)
+
+    class _FakeContent:
+        def __init__(self, role: str, parts: list[_FakePart]) -> None:
+            self.role = role
+            self.parts = parts
+
+    fake_types = ModuleType("google.genai.types")
+    fake_types.Content = _FakeContent
+    fake_types.Part = _FakePart
+
+    google_module = ModuleType("google")
+    genai_module = ModuleType("google.genai")
+    genai_module.types = fake_types
+    google_module.genai = genai_module
+    monkeypatch.setitem(sys.modules, "google", google_module)
+    monkeypatch.setitem(sys.modules, "google.genai", genai_module)
+    monkeypatch.setitem(sys.modules, "google.genai.types", fake_types)
+
+    runtime.memory_service = _MemoryService()
+    monkeypatch.setattr(AgentStreamRunner, "_build_runner", _fake_build_runner)
+    monkeypatch.setattr(AgentStreamRunner, "_ensure_session", _fake_ensure_session)
+
+    def _fake_translate_event(event: _FakeEvent) -> list[ChatEvent]:
+      if event.kind == "tool_call":
+          return [ChatEvent(type="tool_call", content="Calling list_directory_tool")]
+      if event.kind == "tool_result":
+          return [ChatEvent(type="tool_result", content="list_directory_tool finished")]
+      return [ChatEvent(type="assistant_message", content="Assistant reply.")]
+
+    monkeypatch.setattr("app.agent.runner.translate_event", _fake_translate_event)
+
+    events = []
+    async for event in runtime.stream_chat(ChatRequest(message="hello")):
+        events.append(event)
+
+    assert [event.type for event in events] == [
+        "thought",
+        "tool_call",
+        "thought",
+        "tool_result",
+        "thought",
+        "assistant_message",
+        "done",
+    ]
+    assert events[0].content == "Planning next action with list_directory_tool."
+    assert events[2].content == "Reviewing result from list_directory_tool."
+    assert events[4].content == "Composing the response."
+
+
+@pytest.mark.asyncio
+async def test_completed_turn_count_includes_non_user_session_events(tmp_path: Path) -> None:
+    settings = Settings(
+        JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
+    )
+    runtime = AgentStreamRunner(
+        settings,
+        PathPolicy([tmp_path], full_access=True),
+        McpService(),
+        SessionTerminalService(),
+        DesktopVisionService(settings),
+        MemoryService(settings),
+        ConversationContextService(settings.sqlite_path),
+    )
+
+    class _Event:
+        def __init__(self, author: str, invocation_id: str) -> None:
+            self.author = author
+            self.invocation_id = invocation_id
+
+    class _Session:
+        def __init__(self) -> None:
+            self.events = [
+                _Event("user", "turn-1"),
+                _Event("assistant", "turn-1"),
+                _Event("assistant", "turn-2"),
+                _Event("tool", "turn-3"),
+                _Event("assistant", "turn-3"),
+            ]
+
+    class _SessionService:
+        async def get_session(self, app_name: str, user_id: str, session_id: str):
+            return _Session()
+
+    runtime._session_service = _SessionService()
+
+    assert await runtime._completed_turn_count("local-user", "session-1") == 3
+
+
+async def test_build_runner_uses_workspace_and_browser_tools_only(
+    monkeypatch, tmp_path: Path
+) -> None:
+    settings = Settings(
+        JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
+    )
+    runtime = AgentStreamRunner(
+        settings,
+        PathPolicy([tmp_path], full_access=True),
+        McpService(),
+        SessionTerminalService(),
+        DesktopVisionService(settings),
+        MemoryService(settings),
+        ConversationContextService(settings.sqlite_path),
+    )
+
+    workspace_tools = ["workspace:list_directory", "workspace:replace_file_section"]
+    vision_tools = ["vision:capture_desktop_screenshot"]
+    mcp_selection = SimpleNamespace(
+        tools=["browser_navigate", "browser_snapshot"],
+        total_resolved=2,
+        playwright_resolved=2,
+        playwright_selected=2,
+        playwright_bundle="read",
+        browser_intent=True,
+        composite_tool_enabled=False,
+    )
+    captured: dict[str, object] = {}
+
+    monkeypatch.setattr("app.agent.runner.build_workspace_tools", lambda policy: workspace_tools)
+    monkeypatch.setattr(
+        "app.agent.runner.build_vision_tools",
+        lambda desktop_vision_service, policy: vision_tools,
+    )
+
+    async def _fake_select_mcp_tools(*args, **kwargs):
+        return mcp_selection
+
+    monkeypatch.setattr("app.agent.runner.select_mcp_tools", _fake_select_mcp_tools)
+    monkeypatch.setattr(AgentStreamRunner, "_ensure_session_service", lambda self: object())
+    monkeypatch.setattr(
+        runtime.conversation_context_service,
+        "render_session_context",
+        lambda session_id: "",
+    )
+
+    def _fake_build_agent(
+        settings, tools, skills_root, conversation_context, provider_config
+    ) -> object:
+        captured["tools"] = tools
+        return object()
+
+    monkeypatch.setattr("app.agent.runner.build_agent", _fake_build_agent)
+
+    google_module = ModuleType("google")
+    adk_module = ModuleType("google.adk")
+    apps_module = ModuleType("google.adk.apps")
+    app_module = ModuleType("google.adk.apps.app")
+    runners_module = ModuleType("google.adk.runners")
+    agents_module = ModuleType("google.adk.agents")
+    context_cache_module = ModuleType("google.adk.agents.context_cache_config")
+
+    class _FakeApp:
+        def __init__(self, **kwargs) -> None:
+            self.kwargs = kwargs
+
+    class _FakeEventsCompactionConfig:
+        def __init__(self, **kwargs) -> None:
+            self.kwargs = kwargs
+
+    class _FakeRunner:
+        def __init__(self, app: object, session_service: object) -> None:
+            self.app = app
+            self.session_service = session_service
+
+    class _FakeContextCacheConfig:
+        def __init__(self, **kwargs) -> None:
+            self.kwargs = kwargs
+
+    app_module.App = _FakeApp
+    app_module.EventsCompactionConfig = _FakeEventsCompactionConfig
+    runners_module.Runner = _FakeRunner
+    context_cache_module.ContextCacheConfig = _FakeContextCacheConfig
+
+    google_module.adk = adk_module
+    adk_module.apps = apps_module
+    adk_module.runners = runners_module
+    adk_module.agents = agents_module
+    apps_module.app = app_module
+    agents_module.context_cache_config = context_cache_module
+
+    monkeypatch.setitem(sys.modules, "google", google_module)
+    monkeypatch.setitem(sys.modules, "google.adk", adk_module)
+    monkeypatch.setitem(sys.modules, "google.adk.apps", apps_module)
+    monkeypatch.setitem(sys.modules, "google.adk.apps.app", app_module)
+    monkeypatch.setitem(sys.modules, "google.adk.runners", runners_module)
+    monkeypatch.setitem(sys.modules, "google.adk.agents", agents_module)
+    monkeypatch.setitem(
+        sys.modules,
+        "google.adk.agents.context_cache_config",
+        context_cache_module,
+    )
+
+    await runtime._build_runner(ChatRequest(message="inspect example.com", screen_share_enabled=True))
+
+    assert captured["tools"] == [
+        "workspace:list_directory",
+        "workspace:replace_file_section",
+        "vision:capture_desktop_screenshot",
+        "browser_navigate",
+        "browser_snapshot",
+    ]
+
+
+def test_speech_to_text_service_uses_local_mlx_whisper(monkeypatch) -> None:
+    settings = Settings(SPEECH_TO_TEXT_MODEL="mlx-community/whisper-small")
     service = SpeechToTextService(settings)
     seen: dict[str, object] = {}
 
-    class _FakeResponse:
-        def __enter__(self):
-            return self
+    class _FakeWhisper:
+        @staticmethod
+        def transcribe(audio_path: str, path_or_hf_repo: str):
+            seen["audio_path"] = audio_path
+            seen["path_or_hf_repo"] = path_or_hf_repo
+            seen["audio_bytes"] = Path(audio_path).read_bytes()
+            return {
+                "text": "microphone transcript",
+                "model": "mlx-community/whisper-small",
+            }
 
-        def __exit__(self, exc_type, exc, tb):
-            return False
-
-        def read(self):
-            return json.dumps(
-                {
-                    "text": "microphone transcript",
-                    "model": "nvidia/parakeet-tdt-0.6b-v3",
-                }
-            ).encode("utf-8")
-
-    def _fake_urlopen(request, timeout):
-        seen["url"] = request.full_url
-        seen["headers"] = dict(request.headers)
-        seen["body"] = request.data
-        seen["timeout"] = timeout
-        return _FakeResponse()
-
-    monkeypatch.setattr("app.services.transcription_service.urllib.request.urlopen", _fake_urlopen)
+    monkeypatch.setattr("app.services.transcription_service.shutil.which", lambda _: "/opt/homebrew/bin/ffmpeg")
+    monkeypatch.setattr("app.services.transcription_service.importlib.import_module", lambda name: _FakeWhisper())
 
     result = service.transcribe_audio(b"audio-bytes", "speech.webm", "audio/webm")
 
     assert result["status"] == "success"
     assert result["data"]["text"] == "microphone transcript"
-    assert seen["url"] == "https://openrouter.ai/api/v1/audio/transcriptions"
-    headers = {key.lower(): value for key, value in seen["headers"].items()}
-    assert "application/json" in str(headers.get("content-type"))
-    payload = json.loads(seen["body"].decode("utf-8"))
-    assert payload["model"] == "nvidia/parakeet-tdt-0.6b-v3"
-    assert payload["input_audio"]["format"] == "webm"
-    assert seen["timeout"] == 60
+    assert result["data"]["model"] == "mlx-community/whisper-small"
+    assert seen["path_or_hf_repo"] == "mlx-community/whisper-small"
+    assert seen["audio_bytes"] == b"audio-bytes"
+    assert str(seen["audio_path"]).endswith(".webm")
+    assert not Path(str(seen["audio_path"])).exists()
+
+
+def test_speech_to_text_service_reports_missing_local_dependencies(monkeypatch) -> None:
+    settings = Settings(SPEECH_TO_TEXT_MODEL="mlx-community/whisper-small")
+    service = SpeechToTextService(settings)
+
+    monkeypatch.setattr("app.services.transcription_service.shutil.which", lambda _: None)
+
+    result = service.transcribe_audio(b"audio-bytes", "speech.webm", "audio/webm")
+
+    assert result["status"] == "error"
+    assert "ffmpeg" in result["error"]
 
 def test_chat_runtime_translates_mcp_iserror_responses() -> None:
-    runtime = object.__new__(ChatRuntime)
+    runtime = object.__new__(AgentStreamRunner)
 
     class _Response:
         def __init__(self) -> None:

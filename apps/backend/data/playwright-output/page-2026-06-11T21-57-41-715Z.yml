@@ -1,0 +1,433 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "World Cup 2026 Begins!" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQPQgK
+          - img "World Cup 2026 Begins!" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: proven techniques for AI UI design generation design systems tokens layout principles proven techniques for AI UI design generation design systems tokens layout principles
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dproven%2Btechniques%2Bfor%2BAI%2BUI%2Bdesign%2Bgeneration%2Bdesign%2Bsystems%2Btokens%2Blayout%2Bprinciples&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclQ1_FGoCYCiD5kV0oQ7ow8lZ24I7Jo6WacaCvTZaSW1V1TjRC4B4bVyQJMvVr0cYvmYRTPqzealMkKU5LEJsiRi7C6i82r5n5_65n7lw_E1_bjmjyy27JPWWfQs96XdwAPaM0BcYqyPZwigHbgIZ0SziUX52Q&aep=1&ntc=1&sa=X&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ2J8OegQIERAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Images" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=8df170850631bd36&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclQ1_FGoCYCiD5kV0oQ7ow8lZ24I7Jo6WacaCvTZaSW1V1TjRC4B4bVyQJMvVr0cYvmYRTPqzealMkKU5LEJsiRi7C6i82r5n5_65n7lw_E1_bjmjyy27JPWWfQs96XdwAPaM0BcYqyPZwigHbgIZ0SziUX52Q&q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sa=X&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQtKgLegQIFxAB
+              - generic [ref=e84]: Images
+          - listitem [ref=e85]:
+            - link "Short videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=8df170850631bd36&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclQ1_FGoCYCiD5kV0oQ7ow8lZ24I7Jo6WacaCvTZaSW1V1TjRC4B4bVyQJMvVr0cYvmYRTPqzealMkKU5LEJsiRi7C6i82r5n5_65n7lw_E1_bjmjyy27JPWWfQs96XdwAPaM0BcYqyPZwigHbgIZ0SziUX52Q&q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sa=X&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQs6gLegQIFRAB
+              - generic [ref=e88]: Short videos
+          - listitem [ref=e89]:
+            - link "Shopping" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=8df170850631bd36&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclQ1_FGoCYCiD5kV0oQ7ow8lZ24I7Jo6WacaCvTZaSW1V1TjRC4B4bVyQJMvVr0cYvmYRTPqzealMkKU5LEJsiRi7C6i82r5n5_65n7lw_E1_bjmjyy27JPWWfQs96XdwAPaM0BcYqyPZwigHbgIZ0SziUX52Q&q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&ved=1t:220175&ictx=111
+              - generic [ref=e92]: Shopping
+          - listitem [ref=e93]:
+            - link "Forums" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=8df170850631bd36&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclQ1_FGoCYCiD5kV0oQ7ow8lZ24I7Jo6WacaCvTZaSW1V1TjRC4B4bVyQJMvVr0cYvmYRTPqzealMkKU5LEJsiRi7C6i82r5n5_65n7lw_E1_bjmjyy27JPWWfQs96XdwAPaM0BcYqyPZwigHbgIZ0SziUX52Q&q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sa=X&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQs6gLegQIFBAB
+              - generic [ref=e96]: Forums
+          - listitem [ref=e97]:
+            - link "Videos" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=8df170850631bd36&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclQ1_FGoCYCiD5kV0oQ7ow8lZ24I7Jo6WacaCvTZaSW1V1TjRC4B4bVyQJMvVr0cYvmYRTPqzealMkKU5LEJsiRi7C6i82r5n5_65n7lw_E1_bjmjyy27JPWWfQs96XdwAPaM0BcYqyPZwigHbgIZ0SziUX52Q&q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sa=X&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQtKgLegQIExAB
+              - generic [ref=e100]: Videos
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e118]:
+      - generic [ref=e135]:
+        - heading "Thinking" [level=2] [ref=e139]:
+          - generic [ref=e140]: Thinking
+        - progressbar "Generating" [ref=e141]
+      - main [ref=e143]:
+        - generic [ref=e147]:
+          - generic [ref=e151]:
+            - generic [ref=e153]:
+              - heading "Videos" [level=2] [ref=e154]
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - 'link "Design.md: How to make your design system work with AI YouTube The Design Project 1 week ago" [ref=e171] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=5VgnHOiOUyc
+                    - 'heading "Design.md: How to make your design system work with AI YouTube The Design Project 1 week ago" [level=3] [ref=e172]':
+                      - generic [ref=e175]: "Design.md: How to make your design system work with AI"
+                      - generic [ref=e177]:
+                        - generic [ref=e178]:
+                          - text: YouTube
+                          - generic [ref=e179]: · The Design Project
+                        - generic [ref=e180]: 1 week ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · The Design Project
+                      - button "About this result" [ref=e181] [cursor=pointer]:
+                        - img [ref=e184]
+                - 'button "Design.md: How to make your design system work with AI by The Design Project on YouTube. Play on Google. 16:06" [ref=e186] [cursor=pointer]':
+                  - generic [ref=e187]:
+                    - img [ref=e193]
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: 16:06
+                      - img [ref=e200]
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - generic [ref=e208]:
+                    - link "Design Tokens for Dummies | A Complete Guide YouTube UI Collective Feb 17, 2025" [ref=e210] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=CJyJN0ZdEGA
+                      - heading "Design Tokens for Dummies | A Complete Guide YouTube UI Collective Feb 17, 2025" [level=3] [ref=e211]:
+                        - generic [ref=e214]: Design Tokens for Dummies | A Complete Guide
+                        - generic [ref=e216]:
+                          - generic [ref=e217]:
+                            - text: YouTube
+                            - generic [ref=e218]: · UI Collective
+                          - generic [ref=e219]: Feb 17, 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · UI Collective
+                        - button "About this result" [ref=e220] [cursor=pointer]:
+                          - img [ref=e223]
+                  - button "Design Tokens for Dummies | A Complete Guide by UI Collective on YouTube. Play on Google. 50:19" [ref=e225] [cursor=pointer]:
+                    - generic [ref=e226]:
+                      - img [ref=e229]
+                      - generic [ref=e232]:
+                        - generic [ref=e233]: 50:19
+                        - img [ref=e236]
+                - button "7 key moments in this video" [ref=e242] [cursor=pointer]:
+                  - generic [ref=e251]:
+                    - generic [ref=e254]: 7 key moments in this video
+                    - img [ref=e256]
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]:
+                    - link "Build Design Tokens & Figma Variables with AI YouTube UI Collective Jan 5, 2026" [ref=e266] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=rYzstFEY0t8
+                      - heading "Build Design Tokens & Figma Variables with AI YouTube UI Collective Jan 5, 2026" [level=3] [ref=e267]:
+                        - generic [ref=e270]: Build Design Tokens & Figma Variables with AI
+                        - generic [ref=e272]:
+                          - generic [ref=e273]:
+                            - text: YouTube
+                            - generic [ref=e274]: · UI Collective
+                          - generic [ref=e275]: Jan 5, 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · UI Collective
+                        - button "About this result" [ref=e276] [cursor=pointer]:
+                          - img [ref=e279]
+                  - button "Build Design Tokens & Figma Variables with AI by UI Collective on YouTube. Play on Google. 52:19" [ref=e281] [cursor=pointer]:
+                    - generic [ref=e282]:
+                      - img [ref=e285]
+                      - generic [ref=e288]:
+                        - generic [ref=e289]: 52:19
+                        - img [ref=e292]
+                - button "Learn to vibe code your Figma variables for light/dark mode and desktop/mobile using Cursor and T Token Studio." [ref=e295] [cursor=pointer]:
+                  - generic [ref=e299]: Learn to vibe code your Figma variables for light/dark mode and desktop/mobile using Cursor and T Token Studio.
+            - link "View all videos" [ref=e302] [cursor=pointer]:
+              - /url: /search?sca_esv=8df170850631bd36&udm=7&q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sa=X&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8ccDKAJ6BAgbEAQ
+              - separator [ref=e303]
+              - generic [ref=e304]:
+                - generic [ref=e305]: View all
+                - img [ref=e307]
+          - generic [ref=e311]:
+            - heading "Web results" [level=2] [ref=e312]
+            - generic [ref=e313]:
+              - generic [ref=e316]:
+                - 'link "AI Design Systems: Tools and Workflows [Guide] Eleken https://www.eleken.co › blog-posts › ai-design-system" [ref=e318] [cursor=pointer]':
+                  - /url: https://www.eleken.co/blog-posts/ai-design-system
+                  - 'heading "AI Design Systems: Tools and Workflows [Guide]" [level=3] [ref=e319]'
+                  - generic [ref=e325]:
+                    - generic [ref=e327]: Eleken
+                    - generic [ref=e329]: https://www.eleken.co › blog-posts › ai-design-system
+                - button "About this result" [ref=e330] [cursor=pointer]:
+                  - img [ref=e333]
+              - generic [ref=e336]:
+                - generic [ref=e337]: 3 days ago —
+                - generic [ref=e338]:
+                  - emphasis [ref=e339]: AI design systems
+                  - text: combine traditional design system principles with AI-powered workflows to help teams build, document, and maintain products.
+                - link "Read more" [ref=e340] [cursor=pointer]:
+                  - /url: https://www.eleken.co/blog-posts/ai-design-system#:~:text=AI%20design%20systems%20combine%20traditional,build%2C%20document%2C%20and%20maintain%20products.
+          - generic [ref=e344]:
+            - generic [ref=e347]:
+              - 'link "AI in Design Systems: Consistency Made Simple UXPin https://www.uxpin.com › studio › blog › ai-design-syste..." [ref=e349] [cursor=pointer]':
+                - /url: https://www.uxpin.com/studio/blog/ai-design-systems-consistency-simple/
+                - 'heading "AI in Design Systems: Consistency Made Simple" [level=3] [ref=e350]'
+                - generic [ref=e356]:
+                  - generic [ref=e358]: UXPin
+                  - generic [ref=e360]: https://www.uxpin.com › studio › blog › ai-design-syste...
+              - button "About this result" [ref=e361] [cursor=pointer]:
+                - img [ref=e364]
+            - generic [ref=e367]:
+              - generic [ref=e368]: Dec 20, 2025 —
+              - generic [ref=e369]:
+                - emphasis [ref=e370]: Design tokens
+                - text: are essentially reusable variables that define core visual elements like colors, typography, spacing, and shadows. By ...
+              - link "Read more" [ref=e371] [cursor=pointer]:
+                - /url: https://www.uxpin.com/studio/blog/ai-design-systems-consistency-simple/#:~:text=Design%20tokens%20are%20essentially%20reusable,typography%2C%20spacing%2C%20and%20shadows.%20By
+          - generic [ref=e375]:
+            - generic [ref=e378]:
+              - link "Vitaly Friedman's Post LinkedIn · Vitaly Friedman 1.8K+ reactions · 1 month ago" [ref=e380] [cursor=pointer]:
+                - /url: https://www.linkedin.com/posts/vitalyfriedman_how-to-make-your-design-system-ai-ready-activity-7453353661184811009-0nNE
+                - heading "Vitaly Friedman's Post" [level=3] [ref=e381]
+                - generic [ref=e387]:
+                  - generic [ref=e389]: LinkedIn · Vitaly Friedman
+                  - generic [ref=e391]: 1.8K+ reactions · 1 month ago
+              - button "About this result" [ref=e392] [cursor=pointer]:
+                - img [ref=e395]
+            - generic [ref=e398]:
+              - generic [ref=e399]:
+                - text: The shift from "
+                - emphasis [ref=e400]: AI
+                - text: reads it once and guesses" to "
+                - emphasis [ref=e401]: AI
+                - text: reads
+                - emphasis [ref=e402]: tokens
+                - text: and enforces" is exactly where
+                - emphasis [ref=e403]: design systems
+                - text: need to go. Excited to dig ...
+              - link "Read more" [ref=e404] [cursor=pointer]:
+                - /url: https://www.linkedin.com/posts/vitalyfriedman_how-to-make-your-design-system-ai-ready-activity-7453353661184811009-0nNE#:~:text=The%20shift%20from%20%22AI%20reads,to%20dig%20into%20this%20resource.
+            - generic [ref=e406]: "Missing: proven ‎techniques ‎layout"
+          - generic [ref=e410]:
+            - generic [ref=e413]:
+              - link "AI and Design System. How to optimize your Figma design… UX Planet https://uxplanet.org › ai-and-design-system-3dab36a5cc..." [ref=e415] [cursor=pointer]:
+                - /url: https://uxplanet.org/ai-and-design-system-3dab36a5cc50
+                - heading "AI and Design System. How to optimize your Figma design…" [level=3] [ref=e416]
+                - generic [ref=e422]:
+                  - generic [ref=e424]: UX Planet
+                  - generic [ref=e426]: https://uxplanet.org › ai-and-design-system-3dab36a5cc...
+              - button "About this result" [ref=e427] [cursor=pointer]:
+                - img [ref=e430]
+            - generic [ref=e433]:
+              - generic [ref=e434]: Apr 28, 2026 —
+              - generic [ref=e435]:
+                - emphasis [ref=e436]: AI is not the best tool for building a robust design system
+                - text: from scratch · You can prompt Claude Design to introduce changes in the design system ...
+              - link "Read more" [ref=e437] [cursor=pointer]:
+                - /url: https://uxplanet.org/ai-and-design-system-3dab36a5cc50#:~:text=AI%20is%20not%20the%20best,robust%20design%20system%20from%20scratch&text=You%20can%20prompt%20Claude%20Design,of%20tokens%20for%20this%20task.
+          - generic [ref=e441]:
+            - generic [ref=e444]:
+              - link "Creating a design system - what do you wish you knew? Reddit · r/UXDesign 60+ comments · 3 months ago" [ref=e446] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/UXDesign/comments/1r9ybsw/creating_a_design_system_what_do_you_wish_you_knew/
+                - heading "Creating a design system - what do you wish you knew?" [level=3] [ref=e447]
+                - generic [ref=e453]:
+                  - generic [ref=e455]: Reddit · r/UXDesign
+                  - generic [ref=e457]: 60+ comments · 3 months ago
+              - button "About this result" [ref=e458] [cursor=pointer]:
+                - img [ref=e461]
+            - generic [ref=e464]: I am at the ground floor, creating a design system for a fairly large company that has been battling legacy code/interfaces for some time. After pushing ...
+            - generic [ref=e469]:
+              - link "69 answers" [ref=e470] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/UXDesign/comments/1r9ybsw/creating_a_design_system_what_do_you_wish_you_knew/o6fuxer/
+              - generic [ref=e471]: ·
+              - generic [ref=e472]: "Top answer:"
+              - generic [ref=e473]: Find a naming convention (camelCase, kebab-case, etc) and stick with it for everything. ...
+            - generic [ref=e475]: "Missing: proven ‎techniques"
+          - generic [ref=e479]:
+            - generic [ref=e482]:
+              - link "The Design Generation Playbook Design Systems Collective https://www.designsystemscollective.com › the-design-g..." [ref=e484] [cursor=pointer]:
+                - /url: https://www.designsystemscollective.com/the-design-generation-playbook-d52520612968
+                - heading "The Design Generation Playbook" [level=3] [ref=e485]
+                - generic [ref=e491]:
+                  - generic [ref=e493]: Design Systems Collective
+                  - generic [ref=e495]: https://www.designsystemscollective.com › the-design-g...
+              - button "About this result" [ref=e496] [cursor=pointer]:
+                - img [ref=e499]
+            - generic [ref=e502]:
+              - generic [ref=e503]: Apr 8, 2026 —
+              - generic [ref=e504]:
+                - text: A designer's guide to
+                - emphasis [ref=e505]: AI
+                - text: generation systems for consistent results at enterprise scale — from atomic input to production quality output.
+              - link "Read more" [ref=e506] [cursor=pointer]:
+                - /url: https://www.designsystemscollective.com/the-design-generation-playbook-d52520612968#:~:text=A%20designer's%20guide%20to%20AI,input%20to%20production%20quality%20output.
+          - generic [ref=e510]:
+            - generic [ref=e513]:
+              - link "Building a Design System Faster with AI Magic Patterns https://www.magicpatterns.com › blog › build-design-sys..." [ref=e515] [cursor=pointer]:
+                - /url: https://www.magicpatterns.com/blog/build-design-system
+                - heading "Building a Design System Faster with AI" [level=3] [ref=e516]
+                - generic [ref=e522]:
+                  - generic [ref=e524]: Magic Patterns
+                  - generic [ref=e526]: https://www.magicpatterns.com › blog › build-design-sys...
+              - button "About this result" [ref=e527] [cursor=pointer]:
+                - img [ref=e530]
+            - generic [ref=e533]:
+              - generic [ref=e534]: May 3, 2026 —
+              - generic [ref=e535]:
+                - emphasis [ref=e536]: Learn how to build a design system from scratch using AI
+                - text: to accelerate every stage - tokens, components, and handoff.
+            - generic [ref=e538]:
+              - text: "Missing: techniques ‎| Show results with:"
+              - link "techniques" [ref=e539] [cursor=pointer]:
+                - /url: /search?sca_esv=8df170850631bd36&q=proven+%22techniques%22+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sa=X&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ5t4CegQIOhAB
+          - generic [ref=e543]:
+            - generic [ref=e546]:
+              - link "How to align AI-generated designs with your design system LogRocket Blog https://blog.logrocket.com › ux-design › align-ai-desig..." [ref=e548] [cursor=pointer]:
+                - /url: https://blog.logrocket.com/ux-design/align-ai-designs-with-design-system/
+                - heading "How to align AI-generated designs with your design system" [level=3] [ref=e549]
+                - generic [ref=e555]:
+                  - generic [ref=e557]: LogRocket Blog
+                  - generic [ref=e559]: https://blog.logrocket.com › ux-design › align-ai-desig...
+              - button "About this result" [ref=e560] [cursor=pointer]:
+                - img [ref=e563]
+            - generic [ref=e566]:
+              - generic [ref=e567]: Mar 20, 2026 —
+              - generic [ref=e568]:
+                - emphasis [ref=e569]: Generating AI layouts inside Figma
+                - text: ", then manually checking styles against token variables; Ensuring no raw hex codes or arbitrary spacing ..."
+              - link "Read more" [ref=e570] [cursor=pointer]:
+                - /url: https://blog.logrocket.com/ux-design/align-ai-designs-with-design-system/#:~:text=Generating%20AI%20layouts%20inside%20Figma%2C,arbitrary%20spacing%20values%20are%20introduced
+            - list [ref=e572]:
+              - listitem [ref=e573]:
+                - link "Why Ai Struggles With Brand..." [ref=e574] [cursor=pointer]:
+                  - /url: https://blog.logrocket.com/ux-design/align-ai-designs-with-design-system/#:~:text=Why%20AI%20struggles%20with%20brand%20consistency,-AI%20image%20generators%20and%20design
+                  - generic [ref=e576]: Why Ai Struggles With Brand...
+              - listitem [ref=e577]:
+                - link "Reviewing Ai Outputs..." [ref=e578] [cursor=pointer]:
+                  - /url: https://blog.logrocket.com/ux-design/align-ai-designs-with-design-system/#:~:text=Reviewing%20AI%20outputs%20systematically,-Prompt%20engineering%20is%20the%20starting
+                  - generic [ref=e580]: Reviewing Ai Outputs...
+              - listitem [ref=e581]:
+                - link "Qa Guardrails For Brand-Safe..." [ref=e582] [cursor=pointer]:
+                  - /url: https://blog.logrocket.com/ux-design/align-ai-designs-with-design-system/#:~:text=QA%20guardrails%20for%20brand%2Dsafe%20AI%20designs,-Even%20with%20system%2Daware
+                  - generic [ref=e584]: Qa Guardrails For Brand-Safe...
+          - generic [ref=e588]:
+            - generic [ref=e591]:
+              - link "Mastering Design Tokens Medium · Bettina D'ávila 270+ likes · 1 year ago" [ref=e593] [cursor=pointer]:
+                - /url: https://medium.com/nyc-design/mastering-design-tokens-d492cdd92720
+                - heading "Mastering Design Tokens" [level=3] [ref=e594]
+                - generic [ref=e600]:
+                  - generic [ref=e602]: Medium · Bettina D'ávila
+                  - generic [ref=e604]: 270+ likes · 1 year ago
+              - button "About this result" [ref=e605] [cursor=pointer]:
+                - img [ref=e608]
+            - generic [ref=e611]:
+              - generic [ref=e612]:
+                - emphasis [ref=e613]: Always begin by tokenizing colors
+                - text: "! Next, focus on typography, spacing, and layout. Finally, if necessary, tokenize your design system ..."
+              - link "Read more" [ref=e614] [cursor=pointer]:
+                - /url: https://medium.com/nyc-design/mastering-design-tokens-d492cdd92720#:~:text=%F0%9F%91%89%20Always%20begin%20by%20tokenizing,event%20cards%20and%20list%20items).
+            - link "proven techniques for AI UI design generation design systems tokens layout principles from medium.com" [ref=e617] [cursor=pointer]:
+              - /url: https://medium.com/nyc-design/mastering-design-tokens-d492cdd92720
+              - img "proven techniques for AI UI design generation design systems tokens layout principles from medium.com" [ref=e619]
+            - list [ref=e621]:
+              - listitem [ref=e622]:
+                - 'link "Step 1: Identify Core Visual..." [ref=e623] [cursor=pointer]':
+                  - /url: https://medium.com/nyc-design/mastering-design-tokens-d492cdd92720#:~:text=Step%201%3A%20Identify%20Core%20Visual%20Attributes
+                  - generic [ref=e625]: "Step 1: Identify Core Visual..."
+              - listitem [ref=e626]:
+                - 'link "Step 2: Organize Your Tokens" [ref=e627] [cursor=pointer]':
+                  - /url: https://medium.com/nyc-design/mastering-design-tokens-d492cdd92720#:~:text=Step%202%3A%20Organize%20Your%20Tokens
+                  - generic [ref=e629]: "Step 2: Organize Your Tokens"
+              - listitem [ref=e630]:
+                - link "Get Bettina D'ávila's..." [ref=e631] [cursor=pointer]:
+                  - /url: https://medium.com/nyc-design/mastering-design-tokens-d492cdd92720#:~:text=Get%20Bettina%20D%27%C3%A1vila%27s%20stories%20in%20your%20inbox
+                  - generic [ref=e633]: Get Bettina D'ávila's...
+        - navigation [ref=e636]:
+          - heading "Page Navigation" [level=1] [ref=e637]
+          - text: "1"
+          - link "Page 2" [ref=e640] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=10&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAE
+            - text: "2"
+          - link "Page 3" [ref=e642] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=20&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAG
+            - text: "3"
+          - link "Page 4" [ref=e644] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=30&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAI
+            - text: "4"
+          - link "Page 5" [ref=e646] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=40&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAK
+            - text: "5"
+          - link "Page 6" [ref=e648] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=50&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAM
+            - text: "6"
+          - link "Page 7" [ref=e650] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=60&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAO
+            - text: "7"
+          - link "Page 8" [ref=e652] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=70&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAQ
+            - text: "8"
+          - link "Page 9" [ref=e654] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=80&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAS
+            - text: "9"
+          - link "Page 10" [ref=e656] [cursor=pointer]:
+            - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=90&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8tMDegQIPhAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e658]:
+            - link "Next" [ref=e659] [cursor=pointer]:
+              - /url: /search?q=proven+techniques+for+AI+UI+design+generation+design+systems+tokens+layout+principles&sca_esv=8df170850631bd36&ei=VC8ravieIPyuur8P9eeOgA0&start=10&sa=N&sstk=AU9db-Cb7Ae4VK7hA-4OTxKxTFhJS4O4qJcq6JQWnD855kUbqnLreYojOI7KXG6MJje7u1uwNBu5sKkWvApVEkDP83kP8LtUD8YTwg&ved=2ahUKEwj4mM6Xl4CVAxV8l-4BHfWzA9AQ8NMDegQIPhAW
+              - generic [ref=e661]: Next
+        - navigation
+    - contentinfo [ref=e662]:
+      - heading "Footer Links" [level=1] [ref=e663]
+      - generic [ref=e667]:
+        - generic [ref=e671]:
+          - button "92612, Irvine, CA - From your IP address" [ref=e673] [cursor=pointer]:
+            - generic [ref=e674]: 92612, Irvine, CA
+            - generic [ref=e676]:
+              - text: "-"
+              - generic [ref=e677]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e679] [cursor=pointer]: Update location
+        - generic [ref=e682]:
+          - link "Help" [ref=e683] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e684] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e685] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e686] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

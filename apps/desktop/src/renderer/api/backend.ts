@@ -1,10 +1,14 @@
-import type { ChatEvent, McpActionResponse, McpTool } from '../types';
+import type { ChatEvent, McpActionResponse, McpTool, ModelSettingsResponse } from '../types';
 
 export async function streamChat(
   backendUrl: string,
   message: string,
   screenShareEnabled: boolean,
   skillsRootPath: string | null,
+  provider: string | null,
+  model: string | null,
+  apiKey: string | null,
+  baseUrl: string | null,
   onEvent: (event: ChatEvent) => void,
 ) {
   const response = await fetch(`${backendUrl}/api/chat`, {
@@ -18,6 +22,10 @@ export async function streamChat(
       user_id: 'local-user',
       screen_share_enabled: screenShareEnabled,
       skills_root: skillsRootPath,
+      provider,
+      model,
+      api_key: apiKey,
+      base_url: baseUrl,
     }),
   });
 
@@ -72,6 +80,38 @@ export async function transcribeAudio(backendUrl: string, audioBlob: Blob): Prom
 
   const payload = await response.json() as { text: string };
   return payload.text;
+}
+
+export async function fetchOllamaModels(backendUrl: string, baseUrl: string = "http://localhost:11434"): Promise<string[]> {
+  const response = await fetch(`${backendUrl}/api/models/ollama?base_url=${encodeURIComponent(baseUrl)}`);
+  if (!response.ok) {
+    return [];
+  }
+  const payload = await response.json() as { models: string[] };
+  return payload.models || [];
+}
+
+export async function fetchModelSettings(backendUrl: string): Promise<ModelSettingsResponse> {
+  const response = await fetch(`${backendUrl}/api/settings/model`);
+  if (!response.ok) {
+    throw new Error(`Model settings request failed with status ${response.status}`);
+  }
+  return response.json() as Promise<ModelSettingsResponse>;
+}
+
+export async function saveModelSettings(
+  backendUrl: string,
+  payload: { provider: string; model: string; api_key: string; base_url: string },
+): Promise<ModelSettingsResponse> {
+  const response = await fetch(`${backendUrl}/api/settings/model`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!response.ok) {
+    throw new Error(`Save model settings failed with status ${response.status}`);
+  }
+  return response.json() as Promise<ModelSettingsResponse>;
 }
 
 export async function fetchMcpTools(backendUrl: string): Promise<McpTool[]> {

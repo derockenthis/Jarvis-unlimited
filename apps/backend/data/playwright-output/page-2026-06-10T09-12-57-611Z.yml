@@ -1,0 +1,2112 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fgoogleapis%2Fpython-genai
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=googleapis%2Fpython-genai
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "googleapis" [ref=e70] [cursor=pointer]:
+            - /url: /googleapis
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "python-genai" [ref=e73] [cursor=pointer]:
+              - /url: /googleapis/python-genai
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fgoogleapis%2Fpython-genai
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 905" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fgoogleapis%2Fpython-genai
+                - img [ref=e82]
+                - text: Fork
+                - generic "905" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fgoogleapis%2Fpython-genai
+                - img [ref=e88]
+                - text: Star
+                - generic "3786 users starred this repository" [ref=e90]: 3.8k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /googleapis/python-genai
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 213" [ref=e99] [cursor=pointer]:
+              - /url: /googleapis/python-genai/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "213" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 128" [ref=e106] [cursor=pointer]:
+              - /url: /googleapis/python-genai/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "128" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /googleapis/python-genai/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /googleapis/python-genai/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /googleapis/python-genai/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /googleapis/python-genai/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "googleapis/python-genai" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "main branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: main
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "224 Branches" [ref=e163] [cursor=pointer]:
+                  - /url: /googleapis/python-genai/branches
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: "224"
+                      - text: Branches
+                - link "99 Tags" [ref=e168] [cursor=pointer]:
+                  - /url: /googleapis/python-genai/tags
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "99"
+                      - text: Tags
+            - generic [ref=e173]:
+              - generic [ref=e177]:
+                - img [ref=e179]
+                - combobox "Go to file" [ref=e181]
+              - button "Code" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - generic:
+                    - img
+                  - generic [ref=e184]: Code
+                  - generic:
+                    - img
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Folders and files" [level=2] [ref=e187]
+              - table "Folders and files" [ref=e188]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e189]:
+                  - 'row "Latest commit yyyu-google copybara-github commits by yyyu-google and commits by copybara-github chore: add headers Open commit details success Commit 176f247 · Jun 9, 20268 hours ago History 1,256 Commits" [ref=e190]':
+                    - 'cell "Latest commit yyyu-google copybara-github commits by yyyu-google and commits by copybara-github chore: add headers Open commit details success Commit 176f247 · Jun 9, 20268 hours ago History 1,256 Commits" [ref=e191]':
+                      - generic [ref=e192]:
+                        - heading "Latest commit" [level=2] [ref=e193]
+                        - generic [ref=e194]:
+                          - generic [ref=e195]:
+                            - generic [ref=e197]:
+                              - img "yyyu-google" [ref=e198]
+                              - img "copybara-github" [ref=e199]
+                            - link "commits by yyyu-google" [ref=e201] [cursor=pointer]:
+                              - /url: /googleapis/python-genai/commits?author=yyyu-google
+                              - text: yyyu-google
+                            - generic [ref=e202]: and
+                            - link "commits by copybara-github" [ref=e204] [cursor=pointer]:
+                              - /url: /googleapis/python-genai/commits?author=copybara-github
+                              - text: copybara-github
+                          - generic [ref=e205]:
+                            - 'link "chore: add headers" [ref=e208] [cursor=pointer]':
+                              - /url: /googleapis/python-genai/commit/176f24787550640f24c02e63736deb763d40d685
+                            - button "Open commit details" [ref=e209] [cursor=pointer]:
+                              - img [ref=e210]
+                            - button "success" [ref=e212] [cursor=pointer]:
+                              - img [ref=e213]
+                        - generic [ref=e215]:
+                          - generic [ref=e217]:
+                            - link "Commit 176f247" [ref=e218] [cursor=pointer]:
+                              - /url: /googleapis/python-genai/commit/176f24787550640f24c02e63736deb763d40d685
+                              - text: 176f247
+                            - text: ·
+                            - generic "Jun 9, 2026, 5:38 PM PDT" [ref=e219]: Jun 9, 20268 hours ago
+                          - generic [ref=e220]:
+                            - heading "History" [level=2] [ref=e221]
+                            - link "1,256 Commits" [ref=e222] [cursor=pointer]:
+                              - /url: /googleapis/python-genai/commits/main/
+                              - generic [ref=e223]:
+                                - generic:
+                                  - img
+                                - generic [ref=e224]: 1,256 Commits
+                  - 'row ".github, (Directory) feat: Drop support for Python 3.9 - EOL Oct 31, 20258 months ago" [ref=e225]':
+                    - cell ".github, (Directory)" [ref=e226]:
+                      - generic [ref=e227]:
+                        - img [ref=e228]
+                        - link ".github, (Directory)" [ref=e233] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/tree/main/.github
+                          - text: .github
+                    - 'cell "feat: Drop support for Python 3.9 - EOL" [ref=e234]':
+                      - 'link "feat: Drop support for Python 3.9 - EOL" [ref=e237] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/b54208200eb3aefd13cd8199415682b146fce6df
+                    - cell "Oct 31, 20258 months ago" [ref=e238]:
+                      - generic [ref=e239]: Oct 31, 20258 months ago
+                  - 'row "docs, (Directory) docs: Regenerate docs for 2.8.0 Jun 3, 2026last week" [ref=e240]':
+                    - cell "docs, (Directory)" [ref=e241]:
+                      - generic [ref=e242]:
+                        - img [ref=e243]
+                        - link "docs, (Directory)" [ref=e248] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/tree/main/docs
+                          - text: docs
+                    - 'cell "docs: Regenerate docs for 2.8.0" [ref=e249]':
+                      - 'link "docs: Regenerate docs for 2.8.0" [ref=e252] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/93e7ab1e8851dd68e59368d49bc2e3695dfd5148
+                    - cell "Jun 3, 2026last week" [ref=e253]:
+                      - generic [ref=e254]: Jun 3, 2026last week
+                  - 'row "google/genai, (Directory) chore: add headers Jun 9, 20268 hours ago" [ref=e255]':
+                    - cell "google/genai, (Directory)" [ref=e256]:
+                      - generic [ref=e257]:
+                        - img [ref=e258]
+                        - link "google/genai, (Directory)" [ref=e263] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/tree/main/google/genai
+                          - text: google/genai
+                    - 'cell "chore: add headers" [ref=e264]':
+                      - 'link "chore: add headers" [ref=e267] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/176f24787550640f24c02e63736deb763d40d685
+                    - cell "Jun 9, 20268 hours ago" [ref=e268]:
+                      - generic [ref=e269]: Jun 9, 20268 hours ago
+                  - 'row ".gitignore, (File) chore: Add .gitignore Apr 24, 2025last year" [ref=e270]':
+                    - cell ".gitignore, (File)" [ref=e271]:
+                      - generic [ref=e272]:
+                        - img [ref=e273]
+                        - link ".gitignore, (File)" [ref=e278] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/.gitignore
+                          - text: .gitignore
+                    - 'cell "chore: Add .gitignore" [ref=e279]':
+                      - 'link "chore: Add .gitignore" [ref=e282] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/96aea06e9c01a64fe547c1a414ba0ee949ae72ea
+                        - text: "chore: Add"
+                        - code [ref=e283]: .gitignore
+                    - cell "Apr 24, 2025last year" [ref=e284]:
+                      - generic [ref=e285]: Apr 24, 2025last year
+                  - 'row "CHANGELOG.md, (File) chore(main): release 2.8.0 (#2517) Jun 3, 2026last week" [ref=e286]':
+                    - cell "CHANGELOG.md, (File)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "CHANGELOG.md, (File)" [ref=e294] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/CHANGELOG.md
+                          - text: CHANGELOG.md
+                    - 'cell "chore(main): release 2.8.0 (#2517)" [ref=e295]':
+                      - generic [ref=e297]:
+                        - 'link "chore(main): release 2.8.0 (" [ref=e298] [cursor=pointer]':
+                          - /url: /googleapis/python-genai/commit/76d8859e8f39e6b8a80b3b4938e57bf4f1fa435d
+                        - link "#2517" [ref=e299] [cursor=pointer]:
+                          - /url: https://github.com/googleapis/python-genai/pull/2517
+                        - link ")" [ref=e300] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/commit/76d8859e8f39e6b8a80b3b4938e57bf4f1fa435d
+                    - cell "Jun 3, 2026last week" [ref=e301]:
+                      - generic [ref=e302]: Jun 3, 2026last week
+                  - 'row "CONTRIBUTING.md, (File) docs: Fix typo in CONTRIBUTING.md Dec 18, 20242 years ago" [ref=e303]':
+                    - cell "CONTRIBUTING.md, (File)" [ref=e304]:
+                      - generic [ref=e305]:
+                        - img [ref=e306]
+                        - link "CONTRIBUTING.md, (File)" [ref=e311] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - 'cell "docs: Fix typo in CONTRIBUTING.md" [ref=e312]':
+                      - 'link "docs: Fix typo in CONTRIBUTING.md" [ref=e315] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/3e42644784304d45d0b0bfdc8279958109650576
+                    - cell "Dec 18, 20242 years ago" [ref=e316]:
+                      - generic [ref=e317]: Dec 18, 20242 years ago
+                  - row "LICENSE, (File) Project import generated by Copybara. Dec 10, 20242 years ago" [ref=e318]:
+                    - cell "LICENSE, (File)" [ref=e319]:
+                      - generic [ref=e320]:
+                        - img [ref=e321]
+                        - link "LICENSE, (File)" [ref=e326] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Project import generated by Copybara." [ref=e327]:
+                      - link "Project import generated by Copybara." [ref=e330] [cursor=pointer]:
+                        - /url: /googleapis/python-genai/commit/40eb42039074596bb39f77496fe58ed863f9c0a8
+                    - cell "Dec 10, 20242 years ago" [ref=e331]:
+                      - generic [ref=e332]: Dec 10, 20242 years ago
+                  - 'row "MANIFEST.in, (File) chore: Add LICENSE/README to package distribution Feb 24, 2025last year" [ref=e333]':
+                    - cell "MANIFEST.in, (File)" [ref=e334]:
+                      - generic [ref=e335]:
+                        - img [ref=e336]
+                        - link "MANIFEST.in, (File)" [ref=e341] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/MANIFEST.in
+                          - text: MANIFEST.in
+                    - 'cell "chore: Add LICENSE/README to package distribution" [ref=e342]':
+                      - 'link "chore: Add LICENSE/README to package distribution" [ref=e345] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/f53080df32b9ccdb44eeb7ab649e30a39b77a9cc
+                    - cell "Feb 24, 2025last year" [ref=e346]:
+                      - generic [ref=e347]: Feb 24, 2025last year
+                  - 'row "README.md, (File) docs: Update README.md for model/SDK Changes and direct to Gemini API… Jun 1, 2026last week" [ref=e348]':
+                    - cell "README.md, (File)" [ref=e349]:
+                      - generic [ref=e350]:
+                        - img [ref=e351]
+                        - link "README.md, (File)" [ref=e356] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/README.md
+                          - text: README.md
+                    - 'cell "docs: Update README.md for model/SDK Changes and direct to Gemini API…" [ref=e357]':
+                      - 'link "docs: Update README.md for model/SDK Changes and direct to Gemini API…" [ref=e360] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/47c1a13e8475b3a2553e699f9ff0823d8757fa92
+                    - cell "Jun 1, 2026last week" [ref=e361]:
+                      - generic [ref=e362]: Jun 1, 2026last week
+                  - 'row "pyproject.toml, (File) chore(main): release 2.8.0 (#2517) Jun 3, 2026last week" [ref=e363]':
+                    - cell "pyproject.toml, (File)" [ref=e364]:
+                      - generic [ref=e365]:
+                        - img [ref=e366]
+                        - link "pyproject.toml, (File)" [ref=e371] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "chore(main): release 2.8.0 (#2517)" [ref=e372]':
+                      - generic [ref=e374]:
+                        - 'link "chore(main): release 2.8.0 (" [ref=e375] [cursor=pointer]':
+                          - /url: /googleapis/python-genai/commit/76d8859e8f39e6b8a80b3b4938e57bf4f1fa435d
+                        - link "#2517" [ref=e376] [cursor=pointer]:
+                          - /url: https://github.com/googleapis/python-genai/pull/2517
+                        - link ")" [ref=e377] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/commit/76d8859e8f39e6b8a80b3b4938e57bf4f1fa435d
+                    - cell "Jun 3, 2026last week" [ref=e378]:
+                      - generic [ref=e379]: Jun 3, 2026last week
+                  - 'row "releases.txt, (File) chore: Add releases.txt to Python GenAI SDK Apr 20, 20262 months ago" [ref=e380]':
+                    - cell "releases.txt, (File)" [ref=e381]:
+                      - generic [ref=e382]:
+                        - img [ref=e383]
+                        - link "releases.txt, (File)" [ref=e388] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/releases.txt
+                          - text: releases.txt
+                    - 'cell "chore: Add releases.txt to Python GenAI SDK" [ref=e389]':
+                      - 'link "chore: Add releases.txt to Python GenAI SDK" [ref=e392] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/9d69215ee7d4560fb703c43f557daff6a51e06f7
+                    - cell "Apr 20, 20262 months ago" [ref=e393]:
+                      - generic [ref=e394]: Apr 20, 20262 months ago
+                  - 'row "requirements.txt, (File) feat: Autoenable mTLS in environment with bound token (Agent Engine w… Mar 20, 20263 months ago" [ref=e395]':
+                    - cell "requirements.txt, (File)" [ref=e396]:
+                      - generic [ref=e397]:
+                        - img [ref=e398]
+                        - link "requirements.txt, (File)" [ref=e403] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/requirements.txt
+                          - text: requirements.txt
+                    - 'cell "feat: Autoenable mTLS in environment with bound token (Agent Engine w…" [ref=e404]':
+                      - 'link "feat: Autoenable mTLS in environment with bound token (Agent Engine w…" [ref=e407] [cursor=pointer]':
+                        - /url: /googleapis/python-genai/commit/a95d08a45cc1e1e0dd3842c7b2e4fd528ed70b5b
+                    - cell "Mar 20, 20263 months ago" [ref=e408]:
+                      - generic [ref=e409]: Mar 20, 20263 months ago
+                  - row "setup.cfg, (File) No public description Dec 10, 20256 months ago" [ref=e410]:
+                    - cell "setup.cfg, (File)" [ref=e411]:
+                      - generic [ref=e412]:
+                        - img [ref=e413]
+                        - link "setup.cfg, (File)" [ref=e418] [cursor=pointer]:
+                          - /url: /googleapis/python-genai/blob/main/setup.cfg
+                          - text: setup.cfg
+                    - cell "No public description" [ref=e419]:
+                      - link "No public description" [ref=e422] [cursor=pointer]:
+                        - /url: /googleapis/python-genai/commit/836a33c93f26f56349758ca22e59b8e46962dad4
+                    - cell "Dec 10, 20256 months ago" [ref=e423]:
+                      - generic [ref=e424]: Dec 10, 20256 months ago
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - heading "Repository files navigation" [level=2] [ref=e428]
+                - navigation "Repository files" [ref=e429]:
+                  - list [ref=e430]:
+                    - listitem [ref=e431]:
+                      - link "README" [ref=e432] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e434]
+                        - generic [ref=e436]: README
+                    - listitem [ref=e437]:
+                      - link "Code of conduct" [ref=e438] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e440]
+                        - generic [ref=e442]: Code of conduct
+                    - listitem [ref=e443]:
+                      - link "Contributing" [ref=e444] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e446]
+                        - generic [ref=e448]: Contributing
+                    - listitem [ref=e449]:
+                      - link "Apache-2.0 license" [ref=e450] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e452]
+                        - generic [ref=e454]: Apache-2.0 license
+                    - listitem [ref=e455]:
+                      - link "Security" [ref=e456] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e458]
+                        - generic [ref=e460]: Security
+                - button "Outline" [ref=e461] [cursor=pointer]:
+                  - img [ref=e462]
+              - article [ref=e465]:
+                - generic [ref=e466]:
+                  - heading "Google Gen AI SDK" [level=1] [ref=e467]
+                  - 'link "Permalink: Google Gen AI SDK" [ref=e468] [cursor=pointer]':
+                    - /url: "#google-gen-ai-sdk"
+                    - img [ref=e469]
+                - paragraph [ref=e471]:
+                  - link "PyPI version" [ref=e472] [cursor=pointer]:
+                    - /url: https://pypi.org/project/google-genai/
+                    - img "PyPI version" [ref=e473]
+                  - link "Python support" [ref=e474] [cursor=pointer]:
+                    - /url: https://camo.githubusercontent.com/c644fad3cc8757b8800850cd970e26661dab558d3724a1a9a54cb885df35783d/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f676f6f676c652d67656e6169
+                    - img "Python support" [ref=e475]
+                  - link "PyPI - Downloads" [ref=e476] [cursor=pointer]:
+                    - /url: https://pypistats.org/packages/google-genai
+                    - img "PyPI - Downloads" [ref=e477]
+                - separator [ref=e478]
+                - paragraph [ref=e479]:
+                  - strong [ref=e480]: "Documentation:"
+                  - link "https://googleapis.github.io/python-genai/" [ref=e481] [cursor=pointer]:
+                    - /url: https://googleapis.github.io/python-genai/
+                - separator [ref=e482]
+                - paragraph [ref=e483]:
+                  - text: Google Gen AI Python SDK provides an interface for developers to integrate Google's generative models into their Python applications. It supports the
+                  - link "Gemini Developer API" [ref=e484] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs
+                  - text: and
+                  - link "Gemini Enterprise Agent Platform" [ref=e485] [cursor=pointer]:
+                    - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform
+                  - text: APIs.
+                - generic [ref=e486]:
+                  - heading "Agent Skills" [level=2] [ref=e487]
+                  - 'link "Permalink: Agent Skills" [ref=e488] [cursor=pointer]':
+                    - /url: "#agent-skills"
+                    - img [ref=e489]
+                - paragraph [ref=e491]: Large Language Models (LLMs) and generative AI coding assistants are often trained on static datasets. As a result, they may be unaware of recent updates and suggest outdated or legacy libraries.
+                - paragraph [ref=e492]:
+                  - text: To ensure your AI coding helper (such as Antigravity, Claude Code, Cursor, or other IDE extensions) generates up-to-date code using the correct SDK syntax and best practices, we recommend equipping your assistant with
+                  - strong [ref=e493]: Gemini API Skills
+                  - text: . Loading these skills injects the correct patterns and guidelines directly into your AI assistant's context.
+                - paragraph [ref=e494]: "Depending on your target platform, use the corresponding Agent Skill repository:"
+                - list [ref=e495]:
+                  - listitem [ref=e496]:
+                    - strong [ref=e497]: Gemini Developer API
+                    - text: ": Use the"
+                    - link "google-gemini/gemini-skills" [ref=e498] [cursor=pointer]:
+                      - /url: https://github.com/google-gemini/gemini-skills
+                    - text: repository.
+                  - listitem [ref=e499]:
+                    - strong [ref=e500]: Gemini Enterprise Agent Platform (formerly Vertex AI)
+                    - text: ": Use the"
+                    - link "google/skills" [ref=e501] [cursor=pointer]:
+                      - /url: https://github.com/google/skills/tree/main/skills/cloud/gemini-api
+                    - text: repository.
+                - generic [ref=e502]:
+                  - heading "Installation" [level=2] [ref=e503]
+                  - 'link "Permalink: Installation" [ref=e504] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e505]
+                - generic [ref=e507]:
+                  - generic [ref=e508]: pip install google-genai
+                  - button "Copy code to clipboard" [ref=e510] [cursor=pointer]:
+                    - img [ref=e511]
+                - paragraph [ref=e514]:
+                  - text: With
+                  - code [ref=e515]: uv
+                  - text: ":"
+                - generic [ref=e516]:
+                  - generic [ref=e517]: uv pip install google-genai
+                  - button "Copy code to clipboard" [ref=e519] [cursor=pointer]:
+                    - img [ref=e520]
+                - generic [ref=e523]:
+                  - heading "Imports" [level=2] [ref=e524]
+                  - 'link "Permalink: Imports" [ref=e525] [cursor=pointer]':
+                    - /url: "#imports"
+                    - img [ref=e526]
+                - generic [ref=e528]:
+                  - generic [ref=e529]: from google import genai from google.genai import types
+                  - button "Copy code to clipboard" [ref=e531] [cursor=pointer]:
+                    - img [ref=e532]
+                - generic [ref=e535]:
+                  - heading "Create a client" [level=2] [ref=e536]
+                  - 'link "Permalink: Create a client" [ref=e537] [cursor=pointer]':
+                    - /url: "#create-a-client"
+                    - img [ref=e538]
+                - paragraph [ref=e540]:
+                  - text: Please run one of the following code blocks to create a client for different services (
+                  - link "Gemini Developer API" [ref=e541] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs
+                  - text: or
+                  - link "Agent Platform" [ref=e542] [cursor=pointer]:
+                    - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform
+                  - text: ).
+                - generic [ref=e543]:
+                  - generic [ref=e544]: "from google import genai # Only run this block for Gemini Developer API client = genai.Client(api_key='GEMINI_API_KEY')"
+                  - button "Copy code to clipboard" [ref=e546] [cursor=pointer]:
+                    - img [ref=e547]
+                - generic [ref=e550]:
+                  - generic [ref=e551]: "from google import genai # Only run this block for Agent Platform client = genai.Client( enterprise=True, project='your-project-id', location='global' )"
+                  - button "Copy code to clipboard" [ref=e553] [cursor=pointer]:
+                    - img [ref=e554]
+                - generic [ref=e557]:
+                  - heading "Using types" [level=2] [ref=e558]
+                  - 'link "Permalink: Using types" [ref=e559] [cursor=pointer]':
+                    - /url: "#using-types"
+                    - img [ref=e560]
+                - paragraph [ref=e562]:
+                  - text: All API methods support Pydantic types and dictionaries, which you can access from
+                  - code [ref=e563]: google.genai.types
+                  - text: ". You can import the types module with the following:"
+                - generic [ref=e564]:
+                  - generic [ref=e565]: from google.genai import types
+                  - button "Copy code to clipboard" [ref=e567] [cursor=pointer]:
+                    - img [ref=e568]
+                - paragraph [ref=e571]:
+                  - text: Below is an example
+                  - code [ref=e572]: generate_content()
+                  - text: "call using types from the types module:"
+                - generic [ref=e573]:
+                  - generic [ref=e574]: response = client.models.generate_content( model='gemini-2.5-flash', contents=types.Part.from_text(text='Why is the sky blue?'), config=types.GenerateContentConfig( temperature=0, top_p=0.95, top_k=20, ), )
+                  - button "Copy code to clipboard" [ref=e576] [cursor=pointer]:
+                    - img [ref=e577]
+                - paragraph [ref=e580]: "Alternatively, you can accomplish the same request using dictionaries instead of types:"
+                - generic [ref=e581]:
+                  - generic [ref=e582]: "response = client.models.generate_content( model='gemini-2.5-flash', contents={'text': 'Why is the sky blue?'}, config={ 'temperature': 0, 'top_p': 0.95, 'top_k': 20, }, )"
+                  - button "Copy code to clipboard" [ref=e584] [cursor=pointer]:
+                    - img [ref=e585]
+                - paragraph [ref=e588]:
+                  - strong [ref=e589]: "(Optional) Using environment variables:"
+                - paragraph [ref=e590]: You can create a client by configuring the necessary environment variables. Configuration setup instructions depends on whether you're using the Gemini Developer API or the Gemini API in Vertex AI.
+                - paragraph [ref=e591]:
+                  - strong [ref=e592]: "Gemini Developer API:"
+                  - text: Set the
+                  - code [ref=e593]: GEMINI_API_KEY
+                  - text: or
+                  - code [ref=e594]: GOOGLE_API_KEY
+                  - text: . It will automatically be picked up by the client. It's recommended that you set only one of those variables, but if both are set,
+                  - code [ref=e595]: GOOGLE_API_KEY
+                  - text: takes precedence.
+                - generic [ref=e596]:
+                  - generic [ref=e597]:
+                    - text: export GEMINI_API_KEY=
+                    - generic [ref=e598]: "'your-api-key'"
+                  - button "Copy code to clipboard" [ref=e600] [cursor=pointer]:
+                    - img [ref=e601]
+                - paragraph [ref=e604]:
+                  - strong [ref=e605]: "Gemini API on Agent Platform:"
+                  - text: Set
+                  - code [ref=e606]: GOOGLE_GENAI_USE_ENTERPRISE
+                  - text: ","
+                  - code [ref=e607]: GOOGLE_CLOUD_PROJECT
+                  - text: and
+                  - code [ref=e608]: GOOGLE_CLOUD_LOCATION
+                  - text: ", as shown below:"
+                - generic [ref=e609]:
+                  - generic [ref=e610]:
+                    - text: export GOOGLE_GENAI_USE_ENTERPRISE=true export GOOGLE_CLOUD_PROJECT=
+                    - generic [ref=e611]: "'your-project-id'"
+                    - text: export GOOGLE_CLOUD_LOCATION=
+                    - generic [ref=e612]: "'global'"
+                  - button "Copy code to clipboard" [ref=e614] [cursor=pointer]:
+                    - img [ref=e615]
+                - generic [ref=e618]:
+                  - generic [ref=e619]: from google import genai client = genai.Client()
+                  - button "Copy code to clipboard" [ref=e621] [cursor=pointer]:
+                    - img [ref=e622]
+                - generic [ref=e625]:
+                  - heading "Close a client" [level=2] [ref=e626]
+                  - 'link "Permalink: Close a client" [ref=e627] [cursor=pointer]':
+                    - /url: "#close-a-client"
+                    - img [ref=e628]
+                - paragraph [ref=e630]: Explicitly close the sync client to ensure that resources, such as the underlying HTTP connections, are properly cleaned up and closed.
+                - generic [ref=e631]:
+                  - generic [ref=e632]: "from google.genai import Client client = Client() response_1 = client.models.generate_content( model=MODEL_ID, contents='Hello', ) response_2 = client.models.generate_content( model=MODEL_ID, contents='Ask a question', ) # Close the sync client to release resources. client.close()"
+                  - button "Copy code to clipboard" [ref=e634] [cursor=pointer]:
+                    - img [ref=e635]
+                - paragraph [ref=e638]: "To explicitly close the async client:"
+                - generic [ref=e639]:
+                  - generic [ref=e640]: "from google.genai import Client aclient = Client( enterprise=True, project='my-project-id', location='global' ).aio response_1 = await aclient.models.generate_content( model=MODEL_ID, contents='Hello', ) response_2 = await aclient.models.generate_content( model=MODEL_ID, contents='Ask a question', ) # Close the async client to release resources. await aclient.aclose()"
+                  - button "Copy code to clipboard" [ref=e642] [cursor=pointer]:
+                    - img [ref=e643]
+                - generic [ref=e646]:
+                  - heading "Client context managers" [level=2] [ref=e647]
+                  - 'link "Permalink: Client context managers" [ref=e648] [cursor=pointer]':
+                    - /url: "#client-context-managers"
+                    - img [ref=e649]
+                - paragraph [ref=e651]:
+                  - text: By using the sync client context manager, it will close the underlying sync client when exiting the with block and avoid httpx "client has been closed" error like
+                  - link "issues#1763" [ref=e652] [cursor=pointer]:
+                    - /url: https://github.com/googleapis/python-genai/issues/1763
+                  - text: .
+                - generic [ref=e653]:
+                  - generic [ref=e654]: "from google.genai import Client with Client() as client: response_1 = client.models.generate_content( model=MODEL_ID, contents='Hello', ) response_2 = client.models.generate_content( model=MODEL_ID, contents='Ask a question', )"
+                  - button "Copy code to clipboard" [ref=e656] [cursor=pointer]:
+                    - img [ref=e657]
+                - paragraph [ref=e660]: By using the async client context manager, it will close the underlying async client when exiting the with block.
+                - generic [ref=e661]:
+                  - generic [ref=e662]: "from google.genai import Client async with Client().aio as aclient: response_1 = await aclient.models.generate_content( model=MODEL_ID, contents='Hello', ) response_2 = await aclient.models.generate_content( model=MODEL_ID, contents='Ask a question', )"
+                  - button "Copy code to clipboard" [ref=e664] [cursor=pointer]:
+                    - img [ref=e665]
+                - generic [ref=e668]:
+                  - heading "API Selection" [level=3] [ref=e669]
+                  - 'link "Permalink: API Selection" [ref=e670] [cursor=pointer]':
+                    - /url: "#api-selection"
+                    - img [ref=e671]
+                - paragraph [ref=e673]:
+                  - text: By default, the SDK uses the beta API endpoints provided by Google to support preview features in the APIs. The stable API endpoints can be selected by setting the API version to
+                  - code [ref=e674]: v1
+                  - text: .
+                - paragraph [ref=e675]:
+                  - text: To set the API version use
+                  - code [ref=e676]: http_options
+                  - text: . For example, to set the API version to
+                  - code [ref=e677]: v1
+                  - text: "for Vertex AI:"
+                - generic [ref=e678]:
+                  - generic [ref=e679]: from google import genai from google.genai import types client = genai.Client( enterprise=True, project='your-project-id', location='global', http_options=types.HttpOptions(api_version='v1') )
+                  - button "Copy code to clipboard" [ref=e681] [cursor=pointer]:
+                    - img [ref=e682]
+                - paragraph [ref=e685]:
+                  - text: To set the API version to
+                  - code [ref=e686]: v1alpha
+                  - text: "for the Gemini Developer API:"
+                - generic [ref=e687]:
+                  - generic [ref=e688]: from google import genai from google.genai import types client = genai.Client( api_key='GEMINI_API_KEY', http_options=types.HttpOptions(api_version='v1alpha') )
+                  - button "Copy code to clipboard" [ref=e690] [cursor=pointer]:
+                    - img [ref=e691]
+                - generic [ref=e694]:
+                  - 'heading "Faster async client option: Aiohttp" [level=3] [ref=e695]'
+                  - 'link "Permalink: Faster async client option: Aiohttp" [ref=e696] [cursor=pointer]':
+                    - /url: "#faster-async-client-option-aiohttp"
+                    - img [ref=e697]
+                - paragraph [ref=e699]:
+                  - text: By default we use httpx for both sync and async client implementations. In order to have faster performance, you may install
+                  - code [ref=e700]: google-genai[aiohttp]
+                  - text: . In Gen AI SDK we configure
+                  - code [ref=e701]: trust_env=True
+                  - text: to match with the default behavior of httpx. Additional args of
+                  - code [ref=e702]: aiohttp.ClientSession.request()
+                  - text: (
+                  - link "see _RequestOptions args" [ref=e703] [cursor=pointer]:
+                    - /url: https://github.com/aio-libs/aiohttp/blob/v3.12.13/aiohttp/client.py#L170
+                    - text: see
+                    - code [ref=e704]: _RequestOptions
+                    - text: args
+                  - text: ") can be passed through the following way:"
+                - generic [ref=e705]:
+                  - generic [ref=e706]: "http_options = types.HttpOptions( async_client_args={'cookies': ..., 'ssl': ...}, ) client=Client(..., http_options=http_options)"
+                  - button "Copy code to clipboard" [ref=e708] [cursor=pointer]:
+                    - img [ref=e709]
+                - generic [ref=e712]:
+                  - heading "Proxy" [level=3] [ref=e713]
+                  - 'link "Permalink: Proxy" [ref=e714] [cursor=pointer]':
+                    - /url: "#proxy"
+                    - img [ref=e715]
+                - paragraph [ref=e717]:
+                  - text: Both httpx and aiohttp libraries use
+                  - code [ref=e718]: urllib.request.getproxies
+                  - text: from environment variables. Before client initialization, you may set proxy (and optional
+                  - code [ref=e719]: SSL_CERT_FILE
+                  - text: ") by setting the environment variables:"
+                - generic [ref=e720]:
+                  - generic [ref=e721]:
+                    - text: export HTTPS_PROXY=
+                    - generic [ref=e722]: "'http://username:password@proxy_uri:port'"
+                    - text: export SSL_CERT_FILE=
+                    - generic [ref=e723]: "'client.pem'"
+                  - button "Copy code to clipboard" [ref=e725] [cursor=pointer]:
+                    - img [ref=e726]
+                - paragraph [ref=e729]:
+                  - text: If you need
+                  - code [ref=e730]: socks5
+                  - text: proxy, httpx
+                  - link "supports" [ref=e731] [cursor=pointer]:
+                    - /url: https://www.python-httpx.org/advanced/proxies/#socks
+                  - code [ref=e732]: socks5
+                  - text: proxy if you pass it via args to
+                  - code [ref=e733]: httpx.Client()
+                  - text: . You may install
+                  - code [ref=e734]: httpx[socks]
+                  - text: "to use it. Then, you can pass it through the following way:"
+                - generic [ref=e735]:
+                  - generic [ref=e736]: "http_options = types.HttpOptions( client_args={'proxy': 'socks5://user:pass@host:port'}, async_client_args={'proxy': 'socks5://user:pass@host:port'}, ) client=Client(..., http_options=http_options)"
+                  - button "Copy code to clipboard" [ref=e738] [cursor=pointer]:
+                    - img [ref=e739]
+                - generic [ref=e742]:
+                  - heading "Custom base url" [level=3] [ref=e743]
+                  - 'link "Permalink: Custom base url" [ref=e744] [cursor=pointer]':
+                    - /url: "#custom-base-url"
+                    - img [ref=e745]
+                - paragraph [ref=e747]: "In some cases you might need a custom base url (for example, API gateway proxy server) and bypass some authentication checks for project, location, or API key. You may pass the custom base url like this:"
+                - generic [ref=e748]:
+                  - generic [ref=e749]: client = Client( enterprise=True, http_options=types.HttpOptionsDict( base_url='https://test-api-gateway-proxy.com', base_url_resource_scope=types.ResourceScope.COLLECTION, ), ) response = client.models.generate_content( model='gemini-3-pro-preview', contents='Why is the sky blue?' )
+                  - button "Copy code to clipboard" [ref=e751] [cursor=pointer]:
+                    - img [ref=e752]
+                - paragraph [ref=e755]:
+                  - text: If
+                  - code [ref=e756]: base_url_resource_scope=types.ResourceScope.COLLECTION
+                  - text: ", the resource name will not include api version, project, or location."
+                - paragraph [ref=e757]:
+                  - text: "Expected request url will be:"
+                  - link "https://test-api-gateway-proxy.com/publishers/google/models/gemini-3-pro-preview" [ref=e758] [cursor=pointer]:
+                    - /url: https://test-api-gateway-proxy.com/publishers/google/models/gemini-3-pro-preview
+                - generic [ref=e759]:
+                  - heading "Types" [level=2] [ref=e760]
+                  - 'link "Permalink: Types" [ref=e761] [cursor=pointer]':
+                    - /url: "#types"
+                    - img [ref=e762]
+                - paragraph [ref=e764]:
+                  - text: Parameter types can be specified as either dictionaries(
+                  - code [ref=e765]: TypedDict
+                  - text: ) or
+                  - link "Pydantic Models" [ref=e766] [cursor=pointer]:
+                    - /url: https://docs.pydantic.dev/latest/concepts/models/
+                  - text: . Pydantic model types are available in the
+                  - code [ref=e767]: types
+                  - text: module.
+                - generic [ref=e768]:
+                  - heading "Models" [level=2] [ref=e769]
+                  - 'link "Permalink: Models" [ref=e770] [cursor=pointer]':
+                    - /url: "#models"
+                    - img [ref=e771]
+                - paragraph [ref=e773]:
+                  - text: The
+                  - code [ref=e774]: client.models
+                  - text: module exposes model inferencing and model getters. See the 'Create a client' section above to initialize a client.
+                - generic [ref=e775]:
+                  - heading "Generate Content" [level=3] [ref=e776]
+                  - 'link "Permalink: Generate Content" [ref=e777] [cursor=pointer]':
+                    - /url: "#generate-content"
+                    - img [ref=e778]
+                - generic [ref=e780]:
+                  - heading "with text content input (text output)" [level=4] [ref=e781]
+                  - 'link "Permalink: with text content input (text output)" [ref=e782] [cursor=pointer]':
+                    - /url: "#with-text-content-input-text-output"
+                    - img [ref=e783]
+                - generic [ref=e785]:
+                  - generic [ref=e786]: response = client.models.generate_content( model='gemini-3.5-flash', contents='Why is the sky blue?' ) print(response.text)
+                  - button "Copy code to clipboard" [ref=e788] [cursor=pointer]:
+                    - img [ref=e789]
+                - generic [ref=e792]:
+                  - heading "with text content input (image output)" [level=4] [ref=e793]
+                  - 'link "Permalink: with text content input (image output)" [ref=e794] [cursor=pointer]':
+                    - /url: "#with-text-content-input-image-output"
+                    - img [ref=e795]
+                - generic [ref=e797]:
+                  - generic [ref=e798]: "from google.genai import types response = client.models.generate_content( model='gemini-3.1-flash-image', contents='A cartoon infographic for flying sneakers', config=types.GenerateContentConfig( response_modalities=[\"IMAGE\"], image_config=types.ImageConfig( aspect_ratio=\"9:16\", ), ), ) for part in response.parts: if part.inline_data: generated_image = part.as_image() generated_image.show()"
+                  - button "Copy code to clipboard" [ref=e800] [cursor=pointer]:
+                    - img [ref=e801]
+                - generic [ref=e804]:
+                  - heading "with uploaded file (Gemini Developer API only)" [level=4] [ref=e805]
+                  - 'link "Permalink: with uploaded file (Gemini Developer API only)" [ref=e806] [cursor=pointer]':
+                    - /url: "#with-uploaded-file-gemini-developer-api-only"
+                    - img [ref=e807]
+                - paragraph [ref=e809]: Download the file in console.
+                - generic [ref=e810]:
+                  - generic [ref=e811]: "!wget -q https://storage.googleapis.com/generativeai-downloads/data/a11.txt"
+                  - button "Copy code to clipboard" [ref=e813] [cursor=pointer]:
+                    - img [ref=e814]
+                - paragraph [ref=e817]: python code.
+                - generic [ref=e818]:
+                  - generic [ref=e819]: file = client.files.upload(file='a11.txt') response = client.models.generate_content( model='gemini-3.5-flash', contents=['Could you summarize this file?', file] ) print(response.text)
+                  - button "Copy code to clipboard" [ref=e821] [cursor=pointer]:
+                    - img [ref=e822]
+                - generic [ref=e825]:
+                  - heading "How to structure contents argument for generate_content" [level=4] [ref=e826]:
+                    - text: How to structure
+                    - code [ref=e827]: contents
+                    - text: argument for
+                    - code [ref=e828]: generate_content
+                  - 'link "Permalink: How to structure contents argument for generate_content" [ref=e829] [cursor=pointer]':
+                    - /url: "#how-to-structure-contents-argument-for-generate_content"
+                    - img [ref=e830]
+                - paragraph [ref=e832]:
+                  - text: The SDK always converts the inputs to the
+                  - code [ref=e833]: contents
+                  - text: argument into
+                  - code [ref=e834]: list[types.Content]
+                  - text: . The following shows some common ways to provide your inputs.
+                - generic [ref=e835]:
+                  - heading "Provide a list[types.Content]" [level=5] [ref=e836]:
+                    - text: Provide a
+                    - code [ref=e837]: list[types.Content]
+                  - 'link "Permalink: Provide a list[types.Content]" [ref=e838] [cursor=pointer]':
+                    - /url: "#provide-a-listtypescontent"
+                    - img [ref=e839]
+                - paragraph [ref=e841]: This is the canonical way to provide contents, SDK will not do any conversion.
+                - generic [ref=e842]:
+                  - heading "Provide a types.Content instance" [level=5] [ref=e843]:
+                    - text: Provide a
+                    - code [ref=e844]: types.Content
+                    - text: instance
+                  - 'link "Permalink: Provide a types.Content instance" [ref=e845] [cursor=pointer]':
+                    - /url: "#provide-a-typescontent-instance"
+                    - img [ref=e846]
+                - generic [ref=e848]:
+                  - generic [ref=e849]: from google.genai import types contents = types.Content( role='user', parts=[types.Part.from_text(text='Why is the sky blue?')] )
+                  - button "Copy code to clipboard" [ref=e851] [cursor=pointer]:
+                    - img [ref=e852]
+                - paragraph [ref=e855]: SDK converts this to
+                - generic [ref=e856]:
+                  - generic [ref=e857]: "[ types.Content( role='user', parts=[types.Part.from_text(text='Why is the sky blue?')] ) ]"
+                  - button "Copy code to clipboard" [ref=e859] [cursor=pointer]:
+                    - img [ref=e860]
+                - generic [ref=e863]:
+                  - heading "Provide a string" [level=5] [ref=e864]
+                  - 'link "Permalink: Provide a string" [ref=e865] [cursor=pointer]':
+                    - /url: "#provide-a-string"
+                    - img [ref=e866]
+                - generic [ref=e868]:
+                  - generic [ref=e869]: contents='Why is the sky blue?'
+                  - button "Copy code to clipboard" [ref=e871] [cursor=pointer]:
+                    - img [ref=e872]
+                - paragraph [ref=e875]: "The SDK will assume this is a text part, and it converts this into the following:"
+                - generic [ref=e876]:
+                  - generic [ref=e877]: "[ types.UserContent( parts=[ types.Part.from_text(text='Why is the sky blue?') ] ) ]"
+                  - button "Copy code to clipboard" [ref=e879] [cursor=pointer]:
+                    - img [ref=e880]
+                - paragraph [ref=e883]:
+                  - text: Where a
+                  - code [ref=e884]: types.UserContent
+                  - text: is a subclass of
+                  - code [ref=e885]: types.Content
+                  - text: ", it sets the"
+                  - code [ref=e886]: role
+                  - text: field to be
+                  - code [ref=e887]: user
+                  - text: .
+                - generic [ref=e888]:
+                  - heading "Provide a list of strings" [level=5] [ref=e889]
+                  - 'link "Permalink: Provide a list of strings" [ref=e890] [cursor=pointer]':
+                    - /url: "#provide-a-list-of-strings"
+                    - img [ref=e891]
+                - generic [ref=e893]:
+                  - generic [ref=e894]: contents=['Why is the sky blue?', 'Why is the cloud white?']
+                  - button "Copy code to clipboard" [ref=e896] [cursor=pointer]:
+                    - img [ref=e897]
+                - paragraph [ref=e900]: "The SDK assumes these are 2 text parts, it converts this into a single content, like the following:"
+                - generic [ref=e901]:
+                  - generic [ref=e902]: "[ types.UserContent( parts=[ types.Part.from_text(text='Why is the sky blue?'), types.Part.from_text(text='Why is the cloud white?'), ] ) ]"
+                  - button "Copy code to clipboard" [ref=e904] [cursor=pointer]:
+                    - img [ref=e905]
+                - paragraph [ref=e908]:
+                  - text: Where a
+                  - code [ref=e909]: types.UserContent
+                  - text: is a subclass of
+                  - code [ref=e910]: types.Content
+                  - text: ", the"
+                  - code [ref=e911]: role
+                  - text: field in
+                  - code [ref=e912]: types.UserContent
+                  - text: is fixed to be
+                  - code [ref=e913]: user
+                  - text: .
+                - generic [ref=e914]:
+                  - heading "Provide a function call part" [level=5] [ref=e915]
+                  - 'link "Permalink: Provide a function call part" [ref=e916] [cursor=pointer]':
+                    - /url: "#provide-a-function-call-part"
+                    - img [ref=e917]
+                - generic [ref=e919]:
+                  - generic [ref=e920]: "from google.genai import types contents = types.Part.from_function_call( name='get_weather_by_location', args={'location': 'Boston'} )"
+                  - button "Copy code to clipboard" [ref=e922] [cursor=pointer]:
+                    - img [ref=e923]
+                - paragraph [ref=e926]:
+                  - text: The SDK converts a function call part to a content with a
+                  - code [ref=e927]: model
+                  - text: "role:"
+                - generic [ref=e928]:
+                  - generic [ref=e929]: "[ types.ModelContent( parts=[ types.Part.from_function_call( name='get_weather_by_location', args={'location': 'Boston'} ) ] ) ]"
+                  - button "Copy code to clipboard" [ref=e931] [cursor=pointer]:
+                    - img [ref=e932]
+                - paragraph [ref=e935]:
+                  - text: Where a
+                  - code [ref=e936]: types.ModelContent
+                  - text: is a subclass of
+                  - code [ref=e937]: types.Content
+                  - text: ", the"
+                  - code [ref=e938]: role
+                  - text: field in
+                  - code [ref=e939]: types.ModelContent
+                  - text: is fixed to be
+                  - code [ref=e940]: model
+                  - text: .
+                - generic [ref=e941]:
+                  - heading "Provide a list of function call parts" [level=5] [ref=e942]
+                  - 'link "Permalink: Provide a list of function call parts" [ref=e943] [cursor=pointer]':
+                    - /url: "#provide-a-list-of-function-call-parts"
+                    - img [ref=e944]
+                - generic [ref=e946]:
+                  - generic [ref=e947]: "from google.genai import types contents = [ types.Part.from_function_call( name='get_weather_by_location', args={'location': 'Boston'} ), types.Part.from_function_call( name='get_weather_by_location', args={'location': 'New York'} ), ]"
+                  - button "Copy code to clipboard" [ref=e949] [cursor=pointer]:
+                    - img [ref=e950]
+                - paragraph [ref=e953]:
+                  - text: The SDK converts a list of function call parts to a content with a
+                  - code [ref=e954]: model
+                  - text: "role:"
+                - generic [ref=e955]:
+                  - generic [ref=e956]: "[ types.ModelContent( parts=[ types.Part.from_function_call( name='get_weather_by_location', args={'location': 'Boston'} ), types.Part.from_function_call( name='get_weather_by_location', args={'location': 'New York'} ) ] ) ]"
+                  - button "Copy code to clipboard" [ref=e958] [cursor=pointer]:
+                    - img [ref=e959]
+                - paragraph [ref=e962]:
+                  - text: Where a
+                  - code [ref=e963]: types.ModelContent
+                  - text: is a subclass of
+                  - code [ref=e964]: types.Content
+                  - text: ", the"
+                  - code [ref=e965]: role
+                  - text: field in
+                  - code [ref=e966]: types.ModelContent
+                  - text: is fixed to be
+                  - code [ref=e967]: model
+                  - text: .
+                - generic [ref=e968]:
+                  - heading "Provide a non function call part" [level=5] [ref=e969]
+                  - 'link "Permalink: Provide a non function call part" [ref=e970] [cursor=pointer]':
+                    - /url: "#provide-a-non-function-call-part"
+                    - img [ref=e971]
+                - generic [ref=e973]:
+                  - generic [ref=e974]: "from google.genai import types contents = types.Part.from_uri( file_uri: 'gs://generativeai-downloads/images/scones.jpg', mime_type: 'image/jpeg', )"
+                  - button "Copy code to clipboard" [ref=e976] [cursor=pointer]:
+                    - img [ref=e977]
+                - paragraph [ref=e980]:
+                  - text: The SDK converts all non function call parts into a content with a
+                  - code [ref=e981]: user
+                  - text: role.
+                - generic [ref=e982]:
+                  - generic [ref=e983]: "[ types.UserContent(parts=[ types.Part.from_uri( file_uri: 'gs://generativeai-downloads/images/scones.jpg', mime_type: 'image/jpeg', ) ]) ]"
+                  - button "Copy code to clipboard" [ref=e985] [cursor=pointer]:
+                    - img [ref=e986]
+                - generic [ref=e989]:
+                  - heading "Provide a list of non function call parts" [level=5] [ref=e990]
+                  - 'link "Permalink: Provide a list of non function call parts" [ref=e991] [cursor=pointer]':
+                    - /url: "#provide-a-list-of-non-function-call-parts"
+                    - img [ref=e992]
+                - generic [ref=e994]:
+                  - generic [ref=e995]: "from google.genai import types contents = [ types.Part.from_text('What is this image about?'), types.Part.from_uri( file_uri: 'gs://generativeai-downloads/images/scones.jpg', mime_type: 'image/jpeg', ) ]"
+                  - button "Copy code to clipboard" [ref=e997] [cursor=pointer]:
+                    - img [ref=e998]
+                - paragraph [ref=e1001]:
+                  - text: The SDK will convert the list of parts into a content with a
+                  - code [ref=e1002]: user
+                  - text: role
+                - generic [ref=e1003]:
+                  - generic [ref=e1004]: "[ types.UserContent( parts=[ types.Part.from_text('What is this image about?'), types.Part.from_uri( file_uri: 'gs://generativeai-downloads/images/scones.jpg', mime_type: 'image/jpeg', ) ] ) ]"
+                  - button "Copy code to clipboard" [ref=e1006] [cursor=pointer]:
+                    - img [ref=e1007]
+                - generic [ref=e1010]:
+                  - heading "Mix types in contents" [level=5] [ref=e1011]
+                  - 'link "Permalink: Mix types in contents" [ref=e1012] [cursor=pointer]':
+                    - /url: "#mix-types-in-contents"
+                    - img [ref=e1013]
+                - paragraph [ref=e1015]:
+                  - text: You can also provide a list of
+                  - code [ref=e1016]: types.ContentUnion
+                  - text: . The SDK leaves items of
+                  - code [ref=e1017]: types.Content
+                  - text: as is, it groups consecutive non function call parts into a single
+                  - code [ref=e1018]: types.UserContent
+                  - text: ", and it groups consecutive function call parts into a single"
+                  - code [ref=e1019]: types.ModelContent
+                  - text: .
+                - paragraph [ref=e1020]:
+                  - text: If you put a list within a list, the inner list can only contain
+                  - code [ref=e1021]: types.PartUnion
+                  - text: items. The SDK will convert the inner list into a single
+                  - code [ref=e1022]: types.UserContent
+                  - text: .
+                - generic [ref=e1023]:
+                  - heading "System Instructions and Other Configs" [level=3] [ref=e1024]
+                  - 'link "Permalink: System Instructions and Other Configs" [ref=e1025] [cursor=pointer]':
+                    - /url: "#system-instructions-and-other-configs"
+                    - img [ref=e1026]
+                - paragraph [ref=e1028]:
+                  - text: The output of the model can be influenced by several optional settings available in generate_content's config parameter. For example, increasing
+                  - code [ref=e1029]: max_output_tokens
+                  - text: is essential for longer model responses. To make a model more deterministic, lowering the
+                  - code [ref=e1030]: temperature
+                  - text: parameter reduces randomness, with values near 0 minimizing variability. Capabilities and parameter defaults for each model is shown in the
+                  - link "Vertex AI docs" [ref=e1031] [cursor=pointer]:
+                    - /url: https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash
+                  - text: and
+                  - link "Gemini API docs" [ref=e1032] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/models
+                  - text: respectively. Note that all API methods support Pydantic types and dictionaries, which you can access from
+                  - code [ref=e1033]: google.genai.types
+                  - text: . In this example, we use GenerateContentConfig to specify the desired behavior from the model.
+                - generic [ref=e1034]:
+                  - generic [ref=e1035]: from google.genai import types response = client.models.generate_content( model='gemini-3.5-flash', contents='high', config=types.GenerateContentConfig( system_instruction='I say high, you say low', max_output_tokens=3, temperature=0.3, ), ) print(response.text)
+                  - button "Copy code to clipboard" [ref=e1037] [cursor=pointer]:
+                    - img [ref=e1038]
+                - generic [ref=e1041]:
+                  - heading "List Base Models" [level=3] [ref=e1042]
+                  - 'link "Permalink: List Base Models" [ref=e1043] [cursor=pointer]':
+                    - /url: "#list-base-models"
+                    - img [ref=e1044]
+                - paragraph [ref=e1046]:
+                  - text: To retrieve tuned models, see
+                  - link "list tuned models" [ref=e1047] [cursor=pointer]:
+                    - /url: "#list-tuned-models"
+                  - text: .
+                - generic [ref=e1048]:
+                  - generic [ref=e1049]: "for model in client.models.list(): print(model)"
+                  - button "Copy code to clipboard" [ref=e1051] [cursor=pointer]:
+                    - img [ref=e1052]
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]: "pager = client.models.list(config={'page_size': 10}) print(pager.page_size) print(pager[0]) pager.next_page() print(pager[0])"
+                  - button "Copy code to clipboard" [ref=e1058] [cursor=pointer]:
+                    - img [ref=e1059]
+                - generic [ref=e1062]:
+                  - heading "List Base Models (Asynchronous)" [level=4] [ref=e1063]
+                  - 'link "Permalink: List Base Models (Asynchronous)" [ref=e1064] [cursor=pointer]':
+                    - /url: "#list-base-models-asynchronous"
+                    - img [ref=e1065]
+                - generic [ref=e1067]:
+                  - generic [ref=e1068]: "async for job in await client.aio.models.list(): print(job)"
+                  - button "Copy code to clipboard" [ref=e1070] [cursor=pointer]:
+                    - img [ref=e1071]
+                - generic [ref=e1074]:
+                  - generic [ref=e1075]: "async_pager = await client.aio.models.list(config={'page_size': 10}) print(async_pager.page_size) print(async_pager[0]) await async_pager.next_page() print(async_pager[0])"
+                  - button "Copy code to clipboard" [ref=e1077] [cursor=pointer]:
+                    - img [ref=e1078]
+                - generic [ref=e1081]:
+                  - heading "Safety Settings" [level=3] [ref=e1082]
+                  - 'link "Permalink: Safety Settings" [ref=e1083] [cursor=pointer]':
+                    - /url: "#safety-settings"
+                    - img [ref=e1084]
+                - generic [ref=e1086]:
+                  - generic [ref=e1087]: from google.genai import types response = client.models.generate_content( model='gemini-3.5-flash', contents='Say something bad.', config=types.GenerateContentConfig( safety_settings=[ types.SafetySetting( category='HARM_CATEGORY_HATE_SPEECH', threshold='BLOCK_ONLY_HIGH', ) ] ), ) print(response.text)
+                  - button "Copy code to clipboard" [ref=e1089] [cursor=pointer]:
+                    - img [ref=e1090]
+                - generic [ref=e1093]:
+                  - heading "Function Calling" [level=3] [ref=e1094]
+                  - 'link "Permalink: Function Calling" [ref=e1095] [cursor=pointer]':
+                    - /url: "#function-calling"
+                    - img [ref=e1096]
+                - generic [ref=e1098]:
+                  - heading "Automatic Python function Support" [level=4] [ref=e1099]
+                  - 'link "Permalink: Automatic Python function Support" [ref=e1100] [cursor=pointer]':
+                    - /url: "#automatic-python-function-support"
+                    - img [ref=e1101]
+                - paragraph [ref=e1103]: You can pass a Python function directly and it will be automatically called and responded by default.
+                - generic [ref=e1104]:
+                  - generic [ref=e1105]:
+                    - text: "from google.genai import types def get_current_weather(location: str) -> str: \"\"\"Returns the current weather."
+                    - text: "Args: location: The city and state, e.g. San Francisco, CA \"\"\" return 'sunny' response = client.models.generate_content( model='gemini-3.5-flash', contents='What is the weather like in Boston?', config=types.GenerateContentConfig(tools=[get_current_weather]), ) print(response.text)"
+                  - button "Copy code to clipboard" [ref=e1107] [cursor=pointer]:
+                    - img [ref=e1108]
+                - generic [ref=e1111]:
+                  - heading "Disabling automatic function calling" [level=4] [ref=e1112]
+                  - 'link "Permalink: Disabling automatic function calling" [ref=e1113] [cursor=pointer]':
+                    - /url: "#disabling-automatic-function-calling"
+                    - img [ref=e1114]
+                - paragraph [ref=e1116]: "If you pass in a python function as a tool directly, and do not want automatic function calling, you can disable automatic function calling as follows:"
+                - generic [ref=e1117]:
+                  - generic [ref=e1118]: from google.genai import types response = client.models.generate_content( model='gemini-3.5-flash', contents='What is the weather like in Boston?', config=types.GenerateContentConfig( tools=[get_current_weather], automatic_function_calling=types.AutomaticFunctionCallingConfig( disable=True ), ), )
+                  - button "Copy code to clipboard" [ref=e1120] [cursor=pointer]:
+                    - img [ref=e1121]
+                - paragraph [ref=e1124]: "With automatic function calling disabled, you will get a list of function call parts in the response:"
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: "function_calls: Optional[List[types.FunctionCall]] = response.function_calls"
+                  - button "Copy code to clipboard" [ref=e1128] [cursor=pointer]:
+                    - img [ref=e1129]
+                - generic [ref=e1132]:
+                  - heading "Manually declare and invoke a function for function calling" [level=4] [ref=e1133]
+                  - 'link "Permalink: Manually declare and invoke a function for function calling" [ref=e1134] [cursor=pointer]':
+                    - /url: "#manually-declare-and-invoke-a-function-for-function-calling"
+                    - img [ref=e1135]
+                - paragraph [ref=e1137]: If you don't want to use the automatic function support, you can manually declare the function and invoke it.
+                - paragraph [ref=e1138]: The following example shows how to declare a function and pass it as a tool. Then you will receive a function call part in the response.
+                - generic [ref=e1139]:
+                  - generic [ref=e1140]: "from google.genai import types function = types.FunctionDeclaration( name='get_current_weather', description='Get the current weather in a given location', parameters_json_schema={ 'type': 'object', 'properties': { 'location': { 'type': 'string', 'description': 'The city and state, e.g. San Francisco, CA', } }, 'required': ['location'], }, ) tool = types.Tool(function_declarations=[function]) response = client.models.generate_content( model='gemini-3.5-flash', contents='What is the weather like in Boston?', config=types.GenerateContentConfig(tools=[tool]), ) print(response.function_calls[0])"
+                  - button "Copy code to clipboard" [ref=e1142] [cursor=pointer]:
+                    - img [ref=e1143]
+                - paragraph [ref=e1146]: After you receive the function call part from the model, you can invoke the function and get the function response. And then you can pass the function response to the model. The following example shows how to do it for a simple function invocation.
+                - generic [ref=e1147]:
+                  - generic [ref=e1148]: "from google.genai import types user_prompt_content = types.Content( role='user', parts=[types.Part.from_text(text='What is the weather like in Boston?')], ) function_call_part = response.function_calls[0] function_call_content = response.candidates[0].content try: function_result = get_current_weather( **function_call_part.function_call.args ) function_response = {'result': function_result} except ( Exception ) as e: # instead of raising the exception, you can let the model handle it function_response = {'error': str(e)} function_response_part = types.Part.from_function_response( name=function_call_part.name, response=function_response, ) function_response_content = types.Content( role='tool', parts=[function_response_part] ) response = client.models.generate_content( model='gemini-3.5-flash', contents=[ user_prompt_content, function_call_content, function_response_content, ], config=types.GenerateContentConfig( tools=[tool], ), ) print(response.text)"
+                  - button "Copy code to clipboard" [ref=e1150] [cursor=pointer]:
+                    - img [ref=e1151]
+                - generic [ref=e1154]:
+                  - heading "Function calling with ANY tools config mode" [level=4] [ref=e1155]:
+                    - text: Function calling with
+                    - code [ref=e1156]: ANY
+                    - text: tools config mode
+                  - 'link "Permalink: Function calling with ANY tools config mode" [ref=e1157] [cursor=pointer]':
+                    - /url: "#function-calling-with-any-tools-config-mode"
+                    - img [ref=e1158]
+                - paragraph [ref=e1160]:
+                  - text: If you configure function calling mode to be
+                  - code [ref=e1161]: ANY
+                  - text: ", then the model will always return function call parts. If you also pass a python function as a tool, by default the SDK will perform automatic function calling until the remote calls exceed the maximum remote call for automatic function calling (default to 10 times)."
+                - paragraph [ref=e1162]:
+                  - text: If you'd like to disable automatic function calling in
+                  - code [ref=e1163]: ANY
+                  - text: "mode:"
+                - generic [ref=e1164]:
+                  - generic [ref=e1165]:
+                    - text: "from google.genai import types def get_current_weather(location: str) -> str: \"\"\"Returns the current weather."
+                    - text: "Args: location: The city and state, e.g. San Francisco, CA \"\"\" return \"sunny\" response = client.models.generate_content( model=\"gemini-3.5-flash\", contents=\"What is the weather like in Boston?\", config=types.GenerateContentConfig( tools=[get_current_weather], automatic_function_calling=types.AutomaticFunctionCallingConfig( disable=True ), tool_config=types.ToolConfig( function_calling_config=types.FunctionCallingConfig(mode='ANY') ), ), )"
+                  - button "Copy code to clipboard" [ref=e1167] [cursor=pointer]:
+                    - img [ref=e1168]
+                - paragraph [ref=e1171]:
+                  - text: If you'd like to set
+                  - code [ref=e1172]: x
+                  - text: number of automatic function call turns, you can configure the maximum remote calls to be
+                  - code [ref=e1173]: x + 1
+                  - text: . Assuming you prefer
+                  - code [ref=e1174]: "1"
+                  - text: turn for automatic function calling.
+                - generic [ref=e1175]:
+                  - generic [ref=e1176]:
+                    - text: "from google.genai import types def get_current_weather(location: str) -> str: \"\"\"Returns the current weather."
+                    - text: "Args: location: The city and state, e.g. San Francisco, CA \"\"\" return \"sunny\" response = client.models.generate_content( model=\"gemini-3.5-flash\", contents=\"What is the weather like in Boston?\", config=types.GenerateContentConfig( tools=[get_current_weather], automatic_function_calling=types.AutomaticFunctionCallingConfig( maximum_remote_calls=2 ), tool_config=types.ToolConfig( function_calling_config=types.FunctionCallingConfig(mode='ANY') ), ), )"
+                  - button "Copy code to clipboard" [ref=e1178] [cursor=pointer]:
+                    - img [ref=e1179]
+                - generic [ref=e1182]:
+                  - heading "Model Context Protocol (MCP) support (experimental)" [level=4] [ref=e1183]
+                  - 'link "Permalink: Model Context Protocol (MCP) support (experimental)" [ref=e1184] [cursor=pointer]':
+                    - /url: "#model-context-protocol-mcp-support-experimental"
+                    - img [ref=e1185]
+                - paragraph [ref=e1187]:
+                  - text: Built-in
+                  - link "MCP" [ref=e1188] [cursor=pointer]:
+                    - /url: https://modelcontextprotocol.io/introduction
+                  - text: support is an experimental feature. You can pass a local MCP server as a tool directly.
+                - generic [ref=e1189]:
+                  - generic [ref=e1190]:
+                    - text: "import os import asyncio from datetime import datetime from mcp import ClientSession, StdioServerParameters from mcp.client.stdio import stdio_client from google import genai client = genai.Client() # Create server parameters for stdio connection server_params = StdioServerParameters( command=\"npx\", # Executable args=[\"-y\", \"@philschmid/weather-mcp\"], # MCP Server env=None, # Optional environment variables ) async def run(): async with stdio_client(server_params) as (read, write): async with ClientSession(read, write) as session: # Prompt to get the weather for the current day in London. prompt ="
+                    - generic [ref=e1191]:
+                      - text: f"What is the weather in London in
+                      - generic [ref=e1192]: "{datetime.now().strftime('%Y-%m-%d')}"
+                      - text: "?\""
+                    - text: "# Initialize the connection between client and server await session.initialize() # Send request to the model with MCP function declarations response = await client.aio.models.generate_content( model=\"gemini-3.5-flash\", contents=prompt, config=genai.types.GenerateContentConfig( tools=[session], # uses the session, will automatically call the tool using automatic function calling ), ) print(response.text) # Start the asyncio event loop and run the main function asyncio.run(run())"
+                  - button "Copy code to clipboard" [ref=e1194] [cursor=pointer]:
+                    - img [ref=e1195]
+                - generic [ref=e1198]:
+                  - heading "JSON Response Schema" [level=3] [ref=e1199]
+                  - 'link "Permalink: JSON Response Schema" [ref=e1200] [cursor=pointer]':
+                    - /url: "#json-response-schema"
+                    - img [ref=e1201]
+                - paragraph [ref=e1203]: However you define your schema, don't duplicate it in your input prompt, including by giving examples of expected JSON output. If you do, the generated output might be lower in quality.
+                - generic [ref=e1204]:
+                  - heading "JSON Schema support" [level=4] [ref=e1205]
+                  - 'link "Permalink: JSON Schema support" [ref=e1206] [cursor=pointer]':
+                    - /url: "#json-schema-support"
+                    - img [ref=e1207]
+                - paragraph [ref=e1209]: Schemas can be provided as standard JSON schema.
+                - generic [ref=e1210]:
+                  - generic [ref=e1211]: "user_profile = { 'properties': { 'age': { 'anyOf': [ {'maximum': 20, 'minimum': 0, 'type': 'integer'}, {'type': 'null'}, ], 'title': 'Age', }, 'username': { 'description': \"User's unique name\", 'title': 'Username', 'type': 'string', }, }, 'required': ['username', 'age'], 'title': 'User Schema', 'type': 'object', } response = client.models.generate_content( model='gemini-3.5-flash', contents='Give me a random user profile.', config={ 'response_mime_type': 'application/json', 'response_json_schema': user_profile }, ) print(response.text)"
+                  - button "Copy code to clipboard" [ref=e1213] [cursor=pointer]:
+                    - img [ref=e1214]
+                - generic [ref=e1217]:
+                  - heading "Pydantic Model Schema support" [level=4] [ref=e1218]
+                  - 'link "Permalink: Pydantic Model Schema support" [ref=e1219] [cursor=pointer]':
+                    - /url: "#pydantic-model-schema-support"
+                    - img [ref=e1220]
+                - paragraph [ref=e1222]: Schemas can be provided as Pydantic Models.
+                - generic [ref=e1223]:
+                  - generic [ref=e1224]: "from pydantic import BaseModel from google.genai import types class CountryInfo(BaseModel): name: str population: int capital: str continent: str gdp: int official_language: str total_area_sq_mi: int response = client.models.generate_content( model='gemini-3.5-flash', contents='Give me information for the United States.', config=types.GenerateContentConfig( response_mime_type='application/json', response_json_schema=CountryInfo.model_json_schema(), ), ) print(response.text)"
+                  - button "Copy code to clipboard" [ref=e1226] [cursor=pointer]:
+                    - img [ref=e1227]
+                - generic [ref=e1230]:
+                  - generic [ref=e1231]: "from google.genai import types response = client.models.generate_content( model='gemini-3.5-flash', contents='Give me information for the United States.', config=types.GenerateContentConfig( response_mime_type='application/json', response_json_schema={ 'required': [ 'name', 'population', 'capital', 'continent', 'gdp', 'official_language', 'total_area_sq_mi', ], 'properties': { 'name': {'type': 'STRING'}, 'population': {'type': 'INTEGER'}, 'capital': {'type': 'STRING'}, 'continent': {'type': 'STRING'}, 'gdp': {'type': 'INTEGER'}, 'official_language': {'type': 'STRING'}, 'total_area_sq_mi': {'type': 'INTEGER'}, }, 'type': 'OBJECT', }, ), ) print(response.text)"
+                  - button "Copy code to clipboard" [ref=e1233] [cursor=pointer]:
+                    - img [ref=e1234]
+                - generic [ref=e1237]:
+                  - heading "Generate Content (Synchronous Streaming)" [level=3] [ref=e1238]
+                  - 'link "Permalink: Generate Content (Synchronous Streaming)" [ref=e1239] [cursor=pointer]':
+                    - /url: "#generate-content-synchronous-streaming"
+                    - img [ref=e1240]
+                - paragraph [ref=e1242]: Generate content in a streaming format so that the model outputs streams back to you, rather than being returned as one chunk.
+                - generic [ref=e1243]:
+                  - heading "Streaming for text content" [level=4] [ref=e1244]
+                  - 'link "Permalink: Streaming for text content" [ref=e1245] [cursor=pointer]':
+                    - /url: "#streaming-for-text-content"
+                    - img [ref=e1246]
+                - generic [ref=e1248]:
+                  - generic [ref=e1249]: "for chunk in client.models.generate_content_stream( model='gemini-3.5-flash', contents='Tell me a story in 300 words.' ): print(chunk.text, end='')"
+                  - button "Copy code to clipboard" [ref=e1251] [cursor=pointer]:
+                    - img [ref=e1252]
+                - generic [ref=e1255]:
+                  - heading "Streaming for image content" [level=4] [ref=e1256]
+                  - 'link "Permalink: Streaming for image content" [ref=e1257] [cursor=pointer]':
+                    - /url: "#streaming-for-image-content"
+                    - img [ref=e1258]
+                - paragraph [ref=e1260]:
+                  - text: If your image is stored in
+                  - link "Google Cloud Storage" [ref=e1261] [cursor=pointer]:
+                    - /url: https://cloud.google.com/storage
+                  - text: ", you can use the"
+                  - code [ref=e1262]: from_uri
+                  - text: class method to create a
+                  - code [ref=e1263]: Part
+                  - text: object.
+                - generic [ref=e1264]:
+                  - generic [ref=e1265]: "from google.genai import types for chunk in client.models.generate_content_stream( model='gemini-3.5-flash', contents=[ 'What is this image about?', types.Part.from_uri( file_uri='gs://generativeai-downloads/images/scones.jpg', mime_type='image/jpeg', ), ], ): print(chunk.text, end='')"
+                  - button "Copy code to clipboard" [ref=e1267] [cursor=pointer]:
+                    - img [ref=e1268]
+                - paragraph [ref=e1271]:
+                  - text: If your image is stored in your local file system, you can read it in as bytes data and use the
+                  - code [ref=e1272]: from_bytes
+                  - text: class method to create a
+                  - code [ref=e1273]: Part
+                  - text: object.
+                - generic [ref=e1274]:
+                  - generic [ref=e1275]: "from google.genai import types YOUR_IMAGE_PATH = 'your_image_path' YOUR_IMAGE_MIME_TYPE = 'your_image_mime_type' with open(YOUR_IMAGE_PATH, 'rb') as f: image_bytes = f.read() for chunk in client.models.generate_content_stream( model='gemini-3.5-flash', contents=[ 'What is this image about?', types.Part.from_bytes(data=image_bytes, mime_type=YOUR_IMAGE_MIME_TYPE), ], ): print(chunk.text, end='')"
+                  - button "Copy code to clipboard" [ref=e1277] [cursor=pointer]:
+                    - img [ref=e1278]
+                - generic [ref=e1281]:
+                  - heading "Generate Content (Asynchronous Non Streaming)" [level=3] [ref=e1282]
+                  - 'link "Permalink: Generate Content (Asynchronous Non Streaming)" [ref=e1283] [cursor=pointer]':
+                    - /url: "#generate-content-asynchronous-non-streaming"
+                    - img [ref=e1284]
+                - paragraph [ref=e1286]:
+                  - code [ref=e1287]: client.aio
+                  - text: exposes all the analogous
+                  - link "async methods" [ref=e1288] [cursor=pointer]:
+                    - /url: https://docs.python.org/3/library/asyncio.html
+                    - code [ref=e1289]: async
+                    - text: methods
+                  - text: that are available on
+                  - code [ref=e1290]: client
+                  - text: . Note that it applies to all the modules.
+                - paragraph [ref=e1291]:
+                  - text: For example,
+                  - code [ref=e1292]: client.aio.models.generate_content
+                  - text: is the
+                  - code [ref=e1293]: async
+                  - text: version of
+                  - code [ref=e1294]: client.models.generate_content
+                - generic [ref=e1295]:
+                  - generic [ref=e1296]: response = await client.aio.models.generate_content( model='gemini-3.5-flash', contents='Tell me a story in 300 words.' ) print(response.text)
+                  - button "Copy code to clipboard" [ref=e1298] [cursor=pointer]:
+                    - img [ref=e1299]
+                - generic [ref=e1302]:
+                  - heading "Generate Content (Asynchronous Streaming)" [level=3] [ref=e1303]
+                  - 'link "Permalink: Generate Content (Asynchronous Streaming)" [ref=e1304] [cursor=pointer]':
+                    - /url: "#generate-content-asynchronous-streaming"
+                    - img [ref=e1305]
+                - generic [ref=e1307]:
+                  - generic [ref=e1308]: "async for chunk in await client.aio.models.generate_content_stream( model='gemini-3.5-flash', contents='Tell me a story in 300 words.' ): print(chunk.text, end='')"
+                  - button "Copy code to clipboard" [ref=e1310] [cursor=pointer]:
+                    - img [ref=e1311]
+                - generic [ref=e1314]:
+                  - heading "Count Tokens and Compute Tokens" [level=3] [ref=e1315]
+                  - 'link "Permalink: Count Tokens and Compute Tokens" [ref=e1316] [cursor=pointer]':
+                    - /url: "#count-tokens-and-compute-tokens"
+                    - img [ref=e1317]
+                - generic [ref=e1319]:
+                  - generic [ref=e1320]: response = client.models.count_tokens( model='gemini-3.5-flash', contents='why is the sky blue?', ) print(response)
+                  - button "Copy code to clipboard" [ref=e1322] [cursor=pointer]:
+                    - img [ref=e1323]
+                - generic [ref=e1326]:
+                  - heading "Compute Tokens" [level=4] [ref=e1327]
+                  - 'link "Permalink: Compute Tokens" [ref=e1328] [cursor=pointer]':
+                    - /url: "#compute-tokens"
+                    - img [ref=e1329]
+                - paragraph [ref=e1331]: Compute tokens is only supported in Vertex AI.
+                - generic [ref=e1332]:
+                  - generic [ref=e1333]: response = client.models.compute_tokens( model='gemini-3.5-flash', contents='why is the sky blue?', ) print(response)
+                  - button "Copy code to clipboard" [ref=e1335] [cursor=pointer]:
+                    - img [ref=e1336]
+                - generic [ref=e1339]:
+                  - heading "Async" [level=5] [ref=e1340]
+                  - 'link "Permalink: Async" [ref=e1341] [cursor=pointer]':
+                    - /url: "#async"
+                    - img [ref=e1342]
+                - generic [ref=e1344]:
+                  - generic [ref=e1345]: response = await client.aio.models.count_tokens( model='gemini-3.5-flash', contents='why is the sky blue?', ) print(response)
+                  - button "Copy code to clipboard" [ref=e1347] [cursor=pointer]:
+                    - img [ref=e1348]
+                - generic [ref=e1351]:
+                  - heading "Local Count Tokens" [level=4] [ref=e1352]
+                  - 'link "Permalink: Local Count Tokens" [ref=e1353] [cursor=pointer]':
+                    - /url: "#local-count-tokens"
+                    - img [ref=e1354]
+                - generic [ref=e1356]:
+                  - generic [ref=e1357]: from google.genai import local_tokenizer tokenizer = local_tokenizer.LocalTokenizer(model_name='gemini-3.5-flash') result = tokenizer.count_tokens("What is your name?")
+                  - button "Copy code to clipboard" [ref=e1359] [cursor=pointer]:
+                    - img [ref=e1360]
+                - generic [ref=e1363]:
+                  - heading "Local Compute Tokens" [level=4] [ref=e1364]
+                  - 'link "Permalink: Local Compute Tokens" [ref=e1365] [cursor=pointer]':
+                    - /url: "#local-compute-tokens"
+                    - img [ref=e1366]
+                - generic [ref=e1368]:
+                  - generic [ref=e1369]: from google.genai import local_tokenizer tokenizer = local_tokenizer.LocalTokenizer(model_name='gemini-3.5-flash') result = tokenizer.compute_tokens("What is your name?")
+                  - button "Copy code to clipboard" [ref=e1371] [cursor=pointer]:
+                    - img [ref=e1372]
+                - generic [ref=e1375]:
+                  - heading "Embed Content" [level=3] [ref=e1376]
+                  - 'link "Permalink: Embed Content" [ref=e1377] [cursor=pointer]':
+                    - /url: "#embed-content"
+                    - img [ref=e1378]
+                - generic [ref=e1380]:
+                  - generic [ref=e1381]: response = client.models.embed_content( model='gemini-embedding-001', contents='why is the sky blue?', ) print(response)
+                  - button "Copy code to clipboard" [ref=e1383] [cursor=pointer]:
+                    - img [ref=e1384]
+                - generic [ref=e1387]:
+                  - generic [ref=e1388]: from google.genai import types response = client.models.embed_content( model='gemini-embedding-001', contents=['why is the sky blue?', 'What is your age?'], config=types.EmbedContentConfig(output_dimensionality=10), ) print(response)
+                  - button "Copy code to clipboard" [ref=e1390] [cursor=pointer]:
+                    - img [ref=e1391]
+                - generic [ref=e1394]:
+                  - heading "Imagen" [level=3] [ref=e1395]
+                  - 'link "Permalink: Imagen" [ref=e1396] [cursor=pointer]':
+                    - /url: "#imagen"
+                    - img [ref=e1397]
+                - generic [ref=e1399]:
+                  - heading "Generate Images" [level=4] [ref=e1400]
+                  - 'link "Permalink: Generate Images" [ref=e1401] [cursor=pointer]':
+                    - /url: "#generate-images"
+                    - img [ref=e1402]
+                - generic [ref=e1404]:
+                  - generic [ref=e1405]: from google.genai import types response1 = client.models.generate_images( model='imagen-4.0-generate-001', prompt='An umbrella in the foreground, and a rainy night sky in the background', config=types.GenerateImagesConfig( number_of_images=1, include_rai_reason=True, output_mime_type='image/jpeg', ), ) response1.generated_images[0].image.show()
+                  - button "Copy code to clipboard" [ref=e1407] [cursor=pointer]:
+                    - img [ref=e1408]
+                - generic [ref=e1411]:
+                  - heading "Upscale Image" [level=4] [ref=e1412]
+                  - 'link "Permalink: Upscale Image" [ref=e1413] [cursor=pointer]':
+                    - /url: "#upscale-image"
+                    - img [ref=e1414]
+                - paragraph [ref=e1416]: Upscale image is only supported in Vertex AI.
+                - generic [ref=e1417]:
+                  - generic [ref=e1418]: from google.genai import types response2 = client.models.upscale_image( model='imagen-4.0-upscale-preview', image=response1.generated_images[0].image, upscale_factor='x2', config=types.UpscaleImageConfig( include_rai_reason=True, output_mime_type='image/jpeg', ), ) response2.generated_images[0].image.show()
+                  - button "Copy code to clipboard" [ref=e1420] [cursor=pointer]:
+                    - img [ref=e1421]
+                - generic [ref=e1424]:
+                  - heading "Edit Image" [level=4] [ref=e1425]
+                  - 'link "Permalink: Edit Image" [ref=e1426] [cursor=pointer]':
+                    - /url: "#edit-image"
+                    - img [ref=e1427]
+                - paragraph [ref=e1429]: Edit image uses a separate model from generate and upscale.
+                - paragraph [ref=e1430]: Edit image is only supported in Vertex AI.
+                - generic [ref=e1431]:
+                  - generic [ref=e1432]: "# Edit the generated image from above from google.genai import types from google.genai.types import RawReferenceImage, MaskReferenceImage raw_ref_image = RawReferenceImage( reference_id=1, reference_image=response1.generated_images[0].image, ) # Model computes a mask of the background mask_ref_image = MaskReferenceImage( reference_id=2, config=types.MaskReferenceConfig( mask_mode='MASK_MODE_BACKGROUND', mask_dilation=0, ), ) response3 = client.models.edit_image( model='imagen-3.0-capability-001', prompt='Sunlight and clear sky', reference_images=[raw_ref_image, mask_ref_image], config=types.EditImageConfig( edit_mode='EDIT_MODE_INPAINT_INSERTION', number_of_images=1, include_rai_reason=True, output_mime_type='image/jpeg', ), ) response3.generated_images[0].image.show()"
+                  - button "Copy code to clipboard" [ref=e1434] [cursor=pointer]:
+                    - img [ref=e1435]
+                - generic [ref=e1438]:
+                  - heading "Veo" [level=3] [ref=e1439]
+                  - 'link "Permalink: Veo" [ref=e1440] [cursor=pointer]':
+                    - /url: "#veo"
+                    - img [ref=e1441]
+                - generic [ref=e1443]:
+                  - heading "Generate Videos (Text to Video)" [level=4] [ref=e1444]
+                  - 'link "Permalink: Generate Videos (Text to Video)" [ref=e1445] [cursor=pointer]':
+                    - /url: "#generate-videos-text-to-video"
+                    - img [ref=e1446]
+                - generic [ref=e1448]:
+                  - generic [ref=e1449]: "from google.genai import types # Create operation operation = client.models.generate_videos( model='veo-3.1-generate-preview', prompt='A neon hologram of a cat driving at top speed', config=types.GenerateVideosConfig( number_of_videos=1, duration_seconds=5, enhance_prompt=True, ), ) # Poll operation while not operation.done: time.sleep(20) operation = client.operations.get(operation) video = operation.response.generated_videos[0].video video.show()"
+                  - button "Copy code to clipboard" [ref=e1451] [cursor=pointer]:
+                    - img [ref=e1452]
+                - generic [ref=e1455]:
+                  - heading "Generate Videos (Image to Video)" [level=4] [ref=e1456]
+                  - 'link "Permalink: Generate Videos (Image to Video)" [ref=e1457] [cursor=pointer]':
+                    - /url: "#generate-videos-image-to-video"
+                    - img [ref=e1458]
+                - generic [ref=e1460]:
+                  - generic [ref=e1461]: "from google.genai import types # Read local image (uses mimetypes.guess_type to infer mime type) image = types.Image.from_file(location=\"local/path/file.png\") # Create operation operation = client.models.generate_videos( model='veo-3.1-generate-preview', # Prompt is optional if image is provided prompt='Night sky', image=image, config=types.GenerateVideosConfig( number_of_videos=1, duration_seconds=5, enhance_prompt=True, # Can also pass an Image into last_frame for frame interpolation ), ) # Poll operation while not operation.done: time.sleep(20) operation = client.operations.get(operation) video = operation.response.generated_videos[0].video video.show()"
+                  - button "Copy code to clipboard" [ref=e1463] [cursor=pointer]:
+                    - img [ref=e1464]
+                - generic [ref=e1467]:
+                  - heading "Generate Videos (Video to Video)" [level=4] [ref=e1468]
+                  - 'link "Permalink: Generate Videos (Video to Video)" [ref=e1469] [cursor=pointer]':
+                    - /url: "#generate-videos-video-to-video"
+                    - img [ref=e1470]
+                - paragraph [ref=e1472]: Currently, only Gemini Developer API supports video extension on Veo 3.1 for previously generated videos. Vertex supports video extension on Veo 2.0.
+                - generic [ref=e1473]:
+                  - generic [ref=e1474]: "from google.genai import types # Read local video (uses mimetypes.guess_type to infer mime type) video = types.Video.from_file(\"local/path/video.mp4\") # Create operation operation = client.models.generate_videos( model='veo-3.1-generate-preview', # Prompt is optional if Video is provided prompt='Night sky', # Input video must be in GCS for Vertex or a URI for Gemini video=types.Video( uri=\"gs://bucket-name/inputs/videos/cat_driving.mp4\", ), config=types.GenerateVideosConfig( number_of_videos=1, duration_seconds=5, enhance_prompt=True, ), ) # Poll operation while not operation.done: time.sleep(20) operation = client.operations.get(operation) video = operation.response.generated_videos[0].video video.show()"
+                  - button "Copy code to clipboard" [ref=e1476] [cursor=pointer]:
+                    - img [ref=e1477]
+                - generic [ref=e1480]:
+                  - heading "Chats" [level=2] [ref=e1481]
+                  - 'link "Permalink: Chats" [ref=e1482] [cursor=pointer]':
+                    - /url: "#chats"
+                    - img [ref=e1483]
+                - paragraph [ref=e1485]:
+                  - text: Create a chat session to start a multi-turn conversations with the model. Then, use
+                  - code [ref=e1486]: chat.send_message
+                  - text: function multiple times within the same chat session so that it can reflect on its previous responses (i.e., engage in an ongoing conversation). See the 'Create a client' section above to initialize a client.
+                - generic [ref=e1487]:
+                  - heading "Send Message (Synchronous Non-Streaming)" [level=3] [ref=e1488]
+                  - 'link "Permalink: Send Message (Synchronous Non-Streaming)" [ref=e1489] [cursor=pointer]':
+                    - /url: "#send-message-synchronous-non-streaming"
+                    - img [ref=e1490]
+                - generic [ref=e1492]:
+                  - generic [ref=e1493]: chat = client.chats.create(model='gemini-3.5-flash') response = chat.send_message('tell me a story') print(response.text) response = chat.send_message('summarize the story you told me in 1 sentence') print(response.text)
+                  - button "Copy code to clipboard" [ref=e1495] [cursor=pointer]:
+                    - img [ref=e1496]
+                - generic [ref=e1499]:
+                  - heading "Send Message (Synchronous Streaming)" [level=3] [ref=e1500]
+                  - 'link "Permalink: Send Message (Synchronous Streaming)" [ref=e1501] [cursor=pointer]':
+                    - /url: "#send-message-synchronous-streaming"
+                    - img [ref=e1502]
+                - generic [ref=e1504]:
+                  - generic [ref=e1505]: "chat = client.chats.create(model='gemini-3.5-flash') for chunk in chat.send_message_stream('tell me a story'): print(chunk.text)"
+                  - button "Copy code to clipboard" [ref=e1507] [cursor=pointer]:
+                    - img [ref=e1508]
+                - generic [ref=e1511]:
+                  - heading "Send Message (Asynchronous Non-Streaming)" [level=3] [ref=e1512]
+                  - 'link "Permalink: Send Message (Asynchronous Non-Streaming)" [ref=e1513] [cursor=pointer]':
+                    - /url: "#send-message-asynchronous-non-streaming"
+                    - img [ref=e1514]
+                - generic [ref=e1516]:
+                  - generic [ref=e1517]: chat = client.aio.chats.create(model='gemini-3.5-flash') response = await chat.send_message('tell me a story') print(response.text)
+                  - button "Copy code to clipboard" [ref=e1519] [cursor=pointer]:
+                    - img [ref=e1520]
+                - generic [ref=e1523]:
+                  - heading "Send Message (Asynchronous Streaming)" [level=3] [ref=e1524]
+                  - 'link "Permalink: Send Message (Asynchronous Streaming)" [ref=e1525] [cursor=pointer]':
+                    - /url: "#send-message-asynchronous-streaming"
+                    - img [ref=e1526]
+                - generic [ref=e1528]:
+                  - generic [ref=e1529]: "chat = client.aio.chats.create(model='gemini-3.5-flash') async for chunk in await chat.send_message_stream('tell me a story'): print(chunk.text)"
+                  - button "Copy code to clipboard" [ref=e1531] [cursor=pointer]:
+                    - img [ref=e1532]
+                - generic [ref=e1535]:
+                  - heading "Files" [level=2] [ref=e1536]
+                  - 'link "Permalink: Files" [ref=e1537] [cursor=pointer]':
+                    - /url: "#files"
+                    - img [ref=e1538]
+                - paragraph [ref=e1540]: Files are only supported in Gemini Developer API. See the 'Create a client' section above to initialize a client.
+                - generic [ref=e1541]:
+                  - generic [ref=e1542]: "!gcloud storage cp gs://cloud-samples-data/generative-ai/pdf/2312.11805v3.pdf . !gcloud storage cp gs://cloud-samples-data/generative-ai/pdf/2403.05530.pdf ."
+                  - button "Copy code to clipboard" [ref=e1544] [cursor=pointer]:
+                    - img [ref=e1545]
+                - generic [ref=e1548]:
+                  - heading "Upload" [level=3] [ref=e1549]
+                  - 'link "Permalink: Upload" [ref=e1550] [cursor=pointer]':
+                    - /url: "#upload"
+                    - img [ref=e1551]
+                - generic [ref=e1553]:
+                  - generic [ref=e1554]: file1 = client.files.upload(file='2312.11805v3.pdf') file2 = client.files.upload(file='2403.05530.pdf') print(file1) print(file2)
+                  - button "Copy code to clipboard" [ref=e1556] [cursor=pointer]:
+                    - img [ref=e1557]
+                - generic [ref=e1560]:
+                  - heading "Get" [level=3] [ref=e1561]
+                  - 'link "Permalink: Get" [ref=e1562] [cursor=pointer]':
+                    - /url: "#get"
+                    - img [ref=e1563]
+                - generic [ref=e1565]:
+                  - generic [ref=e1566]: file1 = client.files.upload(file='2312.11805v3.pdf') file_info = client.files.get(name=file1.name)
+                  - button "Copy code to clipboard" [ref=e1568] [cursor=pointer]:
+                    - img [ref=e1569]
+                - generic [ref=e1572]:
+                  - heading "Delete" [level=3] [ref=e1573]
+                  - 'link "Permalink: Delete" [ref=e1574] [cursor=pointer]':
+                    - /url: "#delete"
+                    - img [ref=e1575]
+                - generic [ref=e1577]:
+                  - generic [ref=e1578]: file3 = client.files.upload(file='2312.11805v3.pdf') client.files.delete(name=file3.name)
+                  - button "Copy code to clipboard" [ref=e1580] [cursor=pointer]:
+                    - img [ref=e1581]
+                - generic [ref=e1584]:
+                  - heading "Caches" [level=2] [ref=e1585]
+                  - 'link "Permalink: Caches" [ref=e1586] [cursor=pointer]':
+                    - /url: "#caches"
+                    - img [ref=e1587]
+                - paragraph [ref=e1589]:
+                  - code [ref=e1590]: client.caches
+                  - text: contains the control plane APIs for cached content. See the 'Create a client' section above to initialize a client.
+                - generic [ref=e1591]:
+                  - heading "Create" [level=3] [ref=e1592]
+                  - 'link "Permalink: Create" [ref=e1593] [cursor=pointer]':
+                    - /url: "#create"
+                    - img [ref=e1594]
+                - generic [ref=e1596]:
+                  - generic [ref=e1597]: "from google.genai import types if client.vertexai: file_uris = [ 'gs://cloud-samples-data/generative-ai/pdf/2312.11805v3.pdf', 'gs://cloud-samples-data/generative-ai/pdf/2403.05530.pdf', ] else: file_uris = [file1.uri, file2.uri] cached_content = client.caches.create( model='gemini-3.5-flash', config=types.CreateCachedContentConfig( contents=[ types.Content( role='user', parts=[ types.Part.from_uri( file_uri=file_uris[0], mime_type='application/pdf' ), types.Part.from_uri( file_uri=file_uris[1], mime_type='application/pdf', ), ], ) ], system_instruction='What is the sum of the two pdfs?', display_name='test cache', ttl='3600s', ), )"
+                  - button "Copy code to clipboard" [ref=e1599] [cursor=pointer]:
+                    - img [ref=e1600]
+                - generic [ref=e1603]:
+                  - heading "Get" [level=3] [ref=e1604]
+                  - 'link "Permalink: Get" [ref=e1605] [cursor=pointer]':
+                    - /url: "#get-1"
+                    - img [ref=e1606]
+                - generic [ref=e1608]:
+                  - generic [ref=e1609]: cached_content = client.caches.get(name=cached_content.name)
+                  - button "Copy code to clipboard" [ref=e1611] [cursor=pointer]:
+                    - img [ref=e1612]
+                - generic [ref=e1615]:
+                  - heading "Generate Content with Caches" [level=3] [ref=e1616]
+                  - 'link "Permalink: Generate Content with Caches" [ref=e1617] [cursor=pointer]':
+                    - /url: "#generate-content-with-caches"
+                    - img [ref=e1618]
+                - generic [ref=e1620]:
+                  - generic [ref=e1621]: from google.genai import types response = client.models.generate_content( model='gemini-3.5-flash', contents='Summarize the pdfs', config=types.GenerateContentConfig( cached_content=cached_content.name, ), ) print(response.text)
+                  - button "Copy code to clipboard" [ref=e1623] [cursor=pointer]:
+                    - img [ref=e1624]
+                - generic [ref=e1627]:
+                  - heading "Interactions (Preview)" [level=2] [ref=e1628]
+                  - 'link "Permalink: Interactions (Preview)" [ref=e1629] [cursor=pointer]':
+                    - /url: "#interactions-preview"
+                    - img [ref=e1630]
+                - blockquote [ref=e1632]:
+                  - paragraph [ref=e1633]:
+                    - strong [ref=e1634]: "Warning:"
+                    - text: The Interactions API is in
+                    - strong [ref=e1635]: Beta
+                    - text: . This is a preview of an experimental feature. Features and schemas are subject to
+                    - strong [ref=e1636]: breaking changes
+                    - text: .
+                - paragraph [ref=e1637]: The Interactions API is a unified interface for interacting with Gemini models and agents. It simplifies state management, tool orchestration, and long-running tasks.
+                - paragraph [ref=e1638]:
+                  - text: See the
+                  - link "documentation site" [ref=e1639] [cursor=pointer]:
+                    - /url: https://ai.google.dev/gemini-api/docs/interactions
+                  - text: for more details.
+                - generic [ref=e1640]:
+                  - heading "Basic Interaction" [level=3] [ref=e1641]
+                  - 'link "Permalink: Basic Interaction" [ref=e1642] [cursor=pointer]':
+                    - /url: "#basic-interaction"
+                    - img [ref=e1643]
+                - generic [ref=e1645]:
+                  - generic [ref=e1646]: interaction = client.interactions.create( model='gemini-3.5-flash', input='Tell me a short joke about programming.' ) print(interaction.outputs[-1].text)
+                  - button "Copy code to clipboard" [ref=e1648] [cursor=pointer]:
+                    - img [ref=e1649]
+                - generic [ref=e1652]:
+                  - heading "Stateful Conversation" [level=3] [ref=e1653]
+                  - 'link "Permalink: Stateful Conversation" [ref=e1654] [cursor=pointer]':
+                    - /url: "#stateful-conversation"
+                    - img [ref=e1655]
+                - paragraph [ref=e1657]:
+                  - text: The Interactions API supports server-side state management. You can continue a conversation by referencing the
+                  - code [ref=e1658]: previous_interaction_id
+                  - text: .
+                - generic [ref=e1659]:
+                  - generic [ref=e1660]:
+                    - text: "# 1. First turn interaction1 = client.interactions.create( model='gemini-3.5-flash', input='Hi, my name is Amir.' ) print("
+                    - generic [ref=e1661]:
+                      - text: "f\"Model:"
+                      - generic [ref=e1662]: "{interaction1.outputs[-1].text}"
+                      - text: "\""
+                    - text: ") # 2. Second turn (passing previous_interaction_id) interaction2 = client.interactions.create( model='gemini-3.5-flash', input='What is my name?', previous_interaction_id=interaction1.id ) print("
+                    - generic [ref=e1663]:
+                      - text: "f\"Model:"
+                      - generic [ref=e1664]: "{interaction2.outputs[-1].text}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy code to clipboard" [ref=e1666] [cursor=pointer]:
+                    - img [ref=e1667]
+                - generic [ref=e1670]:
+                  - heading "Agents (Deep Research)" [level=3] [ref=e1671]
+                  - 'link "Permalink: Agents (Deep Research)" [ref=e1672] [cursor=pointer]':
+                    - /url: "#agents-deep-research"
+                    - img [ref=e1673]
+                - paragraph [ref=e1675]:
+                  - text: You can use specialized agents like
+                  - code [ref=e1676]: deep-research-pro-preview-12-2025
+                  - text: for complex tasks.
+                - generic [ref=e1677]:
+                  - generic [ref=e1678]:
+                    - text: "import time # 1. Start the Deep Research Agent initial_interaction = client.interactions.create( input='Research the history of the Google TPUs with a focus on 2025 and 2026.', agent='deep-research-pro-preview-12-2025', background=True ) print("
+                    - generic [ref=e1679]:
+                      - text: "f\"Research started. Interaction ID:"
+                      - generic [ref=e1680]: "{initial_interaction.id}"
+                      - text: "\""
+                    - text: ") # 2. Poll for results while True: interaction = client.interactions.get(id=initial_interaction.id) print("
+                    - generic [ref=e1681]:
+                      - text: "f\"Status:"
+                      - generic [ref=e1682]: "{interaction.status}"
+                      - text: "\""
+                    - text: ") if interaction.status == \"completed\": print("
+                    - generic [ref=e1683]: "\"\\nFinal Report:\\n\""
+                    - text: ", interaction.outputs[-1].text) break elif interaction.status in [\"failed\", \"cancelled\"]: print("
+                    - generic [ref=e1684]:
+                      - text: "f\"Failed with status:"
+                      - generic [ref=e1685]: "{interaction.status}"
+                      - text: "\""
+                    - text: ) break time.sleep(10)
+                  - button "Copy code to clipboard" [ref=e1687] [cursor=pointer]:
+                    - img [ref=e1688]
+                - generic [ref=e1691]:
+                  - heading "Multimodal Input" [level=3] [ref=e1692]
+                  - 'link "Permalink: Multimodal Input" [ref=e1693] [cursor=pointer]':
+                    - /url: "#multimodal-input"
+                    - img [ref=e1694]
+                - paragraph [ref=e1696]: You can provide multimodal data (text, images, audio, etc.) in the input list.
+                - generic [ref=e1697]:
+                  - generic [ref=e1698]: "import base64 # Assuming you have an image loaded as bytes # base64_image = ... interaction = client.interactions.create( model='gemini-3.5-flash', input=[ {'type': 'text', 'text': 'Describe the image.'}, {'type': 'image', 'data': base64_image, 'mime_type': 'image/png'} ] ) print(interaction.outputs[-1].text)"
+                  - button "Copy code to clipboard" [ref=e1700] [cursor=pointer]:
+                    - img [ref=e1701]
+                - generic [ref=e1704]:
+                  - heading "Function Calling" [level=3] [ref=e1705]
+                  - 'link "Permalink: Function Calling" [ref=e1706] [cursor=pointer]':
+                    - /url: "#function-calling-1"
+                    - img [ref=e1707]
+                - paragraph [ref=e1709]: You can define custom functions for the model to use. The Interactions API handles the tool selection, and you provide the execution result back to the model.
+                - generic [ref=e1710]:
+                  - generic [ref=e1711]:
+                    - text: "# 1. Define the tool def get_weather(location: str): \"\"\"Gets the weather for a given location.\"\"\" return"
+                    - generic [ref=e1712]:
+                      - text: f"The weather in
+                      - generic [ref=e1713]: "{location}"
+                      - text: is sunny."
+                    - text: "weather_tool = { 'type': 'function', 'name': 'get_weather', 'description': 'Gets the weather for a given location.', 'parameters': { 'type': 'object', 'properties': { 'location': {'type': 'string', 'description': 'The city and state, e.g. San Francisco, CA'} }, 'required': ['location'] } } # 2. Send the request with tools interaction = client.interactions.create( model='gemini-3.5-flash', input='What is the weather in Mountain View, CA?', tools=[weather_tool] ) # 3. Handle the tool call for output in interaction.outputs: if output.type == 'function_call': print("
+                    - generic [ref=e1714]:
+                      - text: "f\"Tool Call:"
+                      - generic [ref=e1715]: "{output.name}"
+                      - text: (
+                      - generic [ref=e1716]: "{output.arguments}"
+                      - text: )"
+                    - text: ") # Execute your actual function here result = get_weather(**output.arguments) # Send result back to the model interaction = client.interactions.create( model='gemini-3.5-flash', previous_interaction_id=interaction.id, input=[{ 'type': 'function_result', 'name': output.name, 'call_id': output.id, 'result': result }] ) print("
+                    - generic [ref=e1717]:
+                      - text: "f\"Response:"
+                      - generic [ref=e1718]: "{interaction.outputs[-1].text}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy code to clipboard" [ref=e1720] [cursor=pointer]:
+                    - img [ref=e1721]
+                - generic [ref=e1724]:
+                  - heading "Built-in Tools" [level=3] [ref=e1725]
+                  - 'link "Permalink: Built-in Tools" [ref=e1726] [cursor=pointer]':
+                    - /url: "#built-in-tools"
+                    - img [ref=e1727]
+                - paragraph [ref=e1729]:
+                  - text: You can also use Google's built-in tools, such as
+                  - strong [ref=e1730]: Google Search
+                  - text: or
+                  - strong [ref=e1731]: Code Execution
+                  - text: .
+                - generic [ref=e1732]:
+                  - heading "Grounding with Google Search" [level=4] [ref=e1733]
+                  - 'link "Permalink: Grounding with Google Search" [ref=e1734] [cursor=pointer]':
+                    - /url: "#grounding-with-google-search"
+                    - img [ref=e1735]
+                - generic [ref=e1737]:
+                  - generic [ref=e1738]: "interaction = client.interactions.create( model='gemini-3.5-flash', input='Who won the last Super Bowl?', tools=[{'type': 'google_search'}] ) # Find the text output (not the GoogleSearchResultContent) text_output = next((o for o in interaction.outputs if o.type == 'text'), None) if text_output: print(text_output.text)"
+                  - button "Copy code to clipboard" [ref=e1740] [cursor=pointer]:
+                    - img [ref=e1741]
+                - generic [ref=e1744]:
+                  - heading "Code Execution" [level=4] [ref=e1745]
+                  - 'link "Permalink: Code Execution" [ref=e1746] [cursor=pointer]':
+                    - /url: "#code-execution"
+                    - img [ref=e1747]
+                - generic [ref=e1749]:
+                  - generic [ref=e1750]: "interaction = client.interactions.create( model='gemini-3.5-flash', input='Calculate the 50th Fibonacci number.', tools=[{'type': 'code_execution'}] ) print(interaction.outputs[-1].text)"
+                  - button "Copy code to clipboard" [ref=e1752] [cursor=pointer]:
+                    - img [ref=e1753]
+                - generic [ref=e1756]:
+                  - heading "Multimodal Output" [level=3] [ref=e1757]
+                  - 'link "Permalink: Multimodal Output" [ref=e1758] [cursor=pointer]':
+                    - /url: "#multimodal-output"
+                    - img [ref=e1759]
+                - paragraph [ref=e1761]:
+                  - text: The Interactions API can generate multimodal outputs, such as images. You must specify the
+                  - code [ref=e1762]: response_modalities
+                  - text: .
+                - generic [ref=e1763]:
+                  - generic [ref=e1764]:
+                    - text: "import base64 interaction = client.interactions.create( model='gemini-3-pro-image-preview', input='Generate an image of a futuristic city.', response_modalities=['IMAGE'] ) for output in interaction.outputs: if output.type == 'image': print("
+                    - generic [ref=e1765]:
+                      - text: "f\"Generated image with mime_type:"
+                      - generic [ref=e1766]: "{output.mime_type}"
+                      - text: "\""
+                    - text: ") # Save the image with open(\"generated_city.png\", \"wb\") as f: f.write(base64.b64decode(output.data))"
+                  - button "Copy code to clipboard" [ref=e1768] [cursor=pointer]:
+                    - img [ref=e1769]
+                - generic [ref=e1772]:
+                  - heading "Tunings" [level=2] [ref=e1773]
+                  - 'link "Permalink: Tunings" [ref=e1774] [cursor=pointer]':
+                    - /url: "#tunings"
+                    - img [ref=e1775]
+                - paragraph [ref=e1777]:
+                  - code [ref=e1778]: client.tunings
+                  - text: contains tuning job APIs and supports supervised fine tuning through
+                  - code [ref=e1779]: tune
+                  - text: . Only supported in Vertex AI. See the 'Create a client' section above to initialize a client.
+                - generic [ref=e1780]:
+                  - heading "Tune" [level=3] [ref=e1781]
+                  - 'link "Permalink: Tune" [ref=e1782] [cursor=pointer]':
+                    - /url: "#tune"
+                    - img [ref=e1783]
+                - list [ref=e1785]:
+                  - listitem [ref=e1786]:
+                    - text: Vertex AI supports tuning from GCS source or from a
+                    - link "Vertex AI Multimodal Dataset" [ref=e1787] [cursor=pointer]:
+                      - /url: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/multimodal/datasets
+                - generic [ref=e1788]:
+                  - generic [ref=e1789]: "from google.genai import types model = 'gemini-3.5-flash' training_dataset = types.TuningDataset( # or gcs_uri=my_vertex_multimodal_dataset gcs_uri='gs://your-gcs-bucket/your-tuning-data.jsonl', )"
+                  - button "Copy code to clipboard" [ref=e1791] [cursor=pointer]:
+                    - img [ref=e1792]
+                - generic [ref=e1795]:
+                  - generic [ref=e1796]: from google.genai import types tuning_job = client.tunings.tune( base_model=model, training_dataset=training_dataset, config=types.CreateTuningJobConfig( epoch_count=1, tuned_model_display_name='test_dataset_examples model' ), ) print(tuning_job)
+                  - button "Copy code to clipboard" [ref=e1798] [cursor=pointer]:
+                    - img [ref=e1799]
+                - generic [ref=e1802]:
+                  - heading "Get Tuning Job" [level=3] [ref=e1803]
+                  - 'link "Permalink: Get Tuning Job" [ref=e1804] [cursor=pointer]':
+                    - /url: "#get-tuning-job"
+                    - img [ref=e1805]
+                - generic [ref=e1807]:
+                  - generic [ref=e1808]: tuning_job = client.tunings.get(name=tuning_job.name) print(tuning_job)
+                  - button "Copy code to clipboard" [ref=e1810] [cursor=pointer]:
+                    - img [ref=e1811]
+                - generic [ref=e1814]:
+                  - generic [ref=e1815]:
+                    - text: import time completed_states = set( [ 'JOB_STATE_SUCCEEDED', 'JOB_STATE_FAILED', 'JOB_STATE_CANCELLED', ] ) while tuning_job.state
+                    - generic [ref=e1816]: not in
+                    - text: "completed_states: print(tuning_job.state) tuning_job = client.tunings.get(name=tuning_job.name) time.sleep(10)"
+                  - button "Copy code to clipboard" [ref=e1818] [cursor=pointer]:
+                    - img [ref=e1819]
+                - generic [ref=e1822]:
+                  - heading "Use Tuned Model" [level=4] [ref=e1823]
+                  - 'link "Permalink: Use Tuned Model" [ref=e1824] [cursor=pointer]':
+                    - /url: "#use-tuned-model"
+                    - img [ref=e1825]
+                - generic [ref=e1827]:
+                  - generic [ref=e1828]: response = client.models.generate_content( model=tuning_job.tuned_model.endpoint, contents='why is the sky blue?', ) print(response.text)
+                  - button "Copy code to clipboard" [ref=e1830] [cursor=pointer]:
+                    - img [ref=e1831]
+                - generic [ref=e1834]:
+                  - heading "Get Tuned Model" [level=3] [ref=e1835]
+                  - 'link "Permalink: Get Tuned Model" [ref=e1836] [cursor=pointer]':
+                    - /url: "#get-tuned-model"
+                    - img [ref=e1837]
+                - generic [ref=e1839]:
+                  - generic [ref=e1840]: tuned_model = client.models.get(model=tuning_job.tuned_model.model) print(tuned_model)
+                  - button "Copy code to clipboard" [ref=e1842] [cursor=pointer]:
+                    - img [ref=e1843]
+                - generic [ref=e1846]:
+                  - heading "List Tuned Models" [level=3] [ref=e1847]
+                  - 'link "Permalink: List Tuned Models" [ref=e1848] [cursor=pointer]':
+                    - /url: "#list-tuned-models"
+                    - img [ref=e1849]
+                - paragraph [ref=e1851]:
+                  - text: To retrieve base models, see
+                  - link "list base models" [ref=e1852] [cursor=pointer]:
+                    - /url: "#list-base-models"
+                  - text: .
+                - generic [ref=e1853]:
+                  - generic [ref=e1854]: "for model in client.models.list(config={'page_size': 10, 'query_base': False}): print(model)"
+                  - button "Copy code to clipboard" [ref=e1856] [cursor=pointer]:
+                    - img [ref=e1857]
+                - generic [ref=e1860]:
+                  - generic [ref=e1861]: "pager = client.models.list(config={'page_size': 10, 'query_base': False}) print(pager.page_size) print(pager[0]) pager.next_page() print(pager[0])"
+                  - button "Copy code to clipboard" [ref=e1863] [cursor=pointer]:
+                    - img [ref=e1864]
+                - generic [ref=e1867]:
+                  - heading "Async" [level=4] [ref=e1868]
+                  - 'link "Permalink: Async" [ref=e1869] [cursor=pointer]':
+                    - /url: "#async-1"
+                    - img [ref=e1870]
+                - generic [ref=e1872]:
+                  - generic [ref=e1873]: "async for job in await client.aio.models.list(config={'page_size': 10, 'query_base': False}): print(job)"
+                  - button "Copy code to clipboard" [ref=e1875] [cursor=pointer]:
+                    - img [ref=e1876]
+                - generic [ref=e1879]:
+                  - generic [ref=e1880]: "async_pager = await client.aio.models.list(config={'page_size': 10, 'query_base': False}) print(async_pager.page_size) print(async_pager[0]) await async_pager.next_page() print(async_pager[0])"
+                  - button "Copy code to clipboard" [ref=e1882] [cursor=pointer]:
+                    - img [ref=e1883]
+                - generic [ref=e1886]:
+                  - heading "Update Tuned Model" [level=3] [ref=e1887]
+                  - 'link "Permalink: Update Tuned Model" [ref=e1888] [cursor=pointer]':
+                    - /url: "#update-tuned-model"
+                    - img [ref=e1889]
+                - generic [ref=e1891]:
+                  - generic [ref=e1892]: from google.genai import types model = pager[0] model = client.models.update( model=model.name, config=types.UpdateModelConfig( display_name='my tuned model', description='my tuned model description' ), ) print(model)
+                  - button "Copy code to clipboard" [ref=e1894] [cursor=pointer]:
+                    - img [ref=e1895]
+                - generic [ref=e1898]:
+                  - heading "List Tuning Jobs" [level=3] [ref=e1899]
+                  - 'link "Permalink: List Tuning Jobs" [ref=e1900] [cursor=pointer]':
+                    - /url: "#list-tuning-jobs"
+                    - img [ref=e1901]
+                - generic [ref=e1903]:
+                  - generic [ref=e1904]: "for job in client.tunings.list(config={'page_size': 10}): print(job)"
+                  - button "Copy code to clipboard" [ref=e1906] [cursor=pointer]:
+                    - img [ref=e1907]
+                - generic [ref=e1910]:
+                  - generic [ref=e1911]: "pager = client.tunings.list(config={'page_size': 10}) print(pager.page_size) print(pager[0]) pager.next_page() print(pager[0])"
+                  - button "Copy code to clipboard" [ref=e1913] [cursor=pointer]:
+                    - img [ref=e1914]
+                - generic [ref=e1917]:
+                  - heading "Async" [level=4] [ref=e1918]
+                  - 'link "Permalink: Async" [ref=e1919] [cursor=pointer]':
+                    - /url: "#async-2"
+                    - img [ref=e1920]
+                - generic [ref=e1922]:
+                  - generic [ref=e1923]: "async for job in await client.aio.tunings.list(config={'page_size': 10}): print(job)"
+                  - button "Copy code to clipboard" [ref=e1925] [cursor=pointer]:
+                    - img [ref=e1926]
+                - generic [ref=e1929]:
+                  - generic [ref=e1930]: "async_pager = await client.aio.tunings.list(config={'page_size': 10}) print(async_pager.page_size) print(async_pager[0]) await async_pager.next_page() print(async_pager[0])"
+                  - button "Copy code to clipboard" [ref=e1932] [cursor=pointer]:
+                    - img [ref=e1933]
+                - generic [ref=e1936]:
+                  - heading "Batch Prediction" [level=2] [ref=e1937]
+                  - 'link "Permalink: Batch Prediction" [ref=e1938] [cursor=pointer]':
+                    - /url: "#batch-prediction"
+                    - img [ref=e1939]
+                - paragraph [ref=e1941]: Only supported in Vertex AI. See the 'Create a client' section above to initialize a client.
+                - generic [ref=e1942]:
+                  - heading "Create" [level=3] [ref=e1943]
+                  - 'link "Permalink: Create" [ref=e1944] [cursor=pointer]':
+                    - /url: "#create-1"
+                    - img [ref=e1945]
+                - paragraph [ref=e1947]: "Vertex AI:"
+                - generic [ref=e1948]:
+                  - generic [ref=e1949]: "# Specify model and source file only, destination and job display name will be auto-populated job = client.batches.create( model='gemini-3.5-flash', src='bq://my-project.my-dataset.my-table', # or \"gs://path/to/input/data\" ) print(job)"
+                  - button "Copy code to clipboard" [ref=e1951] [cursor=pointer]:
+                    - img [ref=e1952]
+                - paragraph [ref=e1955]: "Gemini Developer API:"
+                - generic [ref=e1956]:
+                  - generic [ref=e1957]: "# Create a batch job with inlined requests batch_job = client.batches.create( model=\"gemini-3.5-flash\", src=[{ \"contents\": [{ \"parts\": [{ \"text\": \"Hello!\", }], \"role\": \"user\", }], \"config\": {\"response_modalities\": [\"text\"]}, }], ) job"
+                  - button "Copy code to clipboard" [ref=e1959] [cursor=pointer]:
+                    - img [ref=e1960]
+                - paragraph [ref=e1963]:
+                  - text: In order to create a batch job with file name. Need to upload a json file. For example
+                  - code [ref=e1964]: myrequests.json
+                  - text: ":"
+                - generic [ref=e1965]:
+                  - generic [ref=e1966]:
+                    - text: "{\"key\":"
+                    - generic [ref=e1967]: "\"request_1\""
+                    - text: ", \"request\": {\"contents\": [{\"parts\": [{\"text\":"
+                    - generic [ref=e1968]: "\"Explain how AI works in a few words\""
+                    - text: "}]}], \"generation_config\": {\"response_modalities\": ["
+                    - generic [ref=e1969]: "\"TEXT\""
+                    - text: "]}}} {\"key\":"
+                    - generic [ref=e1970]: "\"request_2\""
+                    - text: ", \"request\": {\"contents\": [{\"parts\": [{\"text\":"
+                    - generic [ref=e1971]: "\"Explain how Crypto works in a few words\""
+                    - text: "}]}]}}"
+                  - button "Copy code to clipboard" [ref=e1973] [cursor=pointer]:
+                    - img [ref=e1974]
+                - paragraph [ref=e1977]: Then upload the file.
+                - generic [ref=e1978]:
+                  - generic [ref=e1979]: "# Upload the file file = client.files.upload( file='myrequests.json', config=types.UploadFileConfig(display_name='test-json') ) # Create a batch job with file name batch_job = client.batches.create( model=\"gemini-3.5-flash\", src=\"files/test-json\", )"
+                  - button "Copy code to clipboard" [ref=e1981] [cursor=pointer]:
+                    - img [ref=e1982]
+                - generic [ref=e1985]:
+                  - generic [ref=e1986]: "# Get a job by name job = client.batches.get(name=job.name) job.state"
+                  - button "Copy code to clipboard" [ref=e1988] [cursor=pointer]:
+                    - img [ref=e1989]
+                - generic [ref=e1992]:
+                  - generic [ref=e1993]:
+                    - text: completed_states = set( [ 'JOB_STATE_SUCCEEDED', 'JOB_STATE_FAILED', 'JOB_STATE_CANCELLED', 'JOB_STATE_PAUSED', ] ) while job.state
+                    - generic [ref=e1994]: not in
+                    - text: "completed_states: print(job.state) job = client.batches.get(name=job.name) time.sleep(30) job"
+                  - button "Copy code to clipboard" [ref=e1996] [cursor=pointer]:
+                    - img [ref=e1997]
+                - generic [ref=e2000]:
+                  - heading "List" [level=3] [ref=e2001]
+                  - 'link "Permalink: List" [ref=e2002] [cursor=pointer]':
+                    - /url: "#list"
+                    - img [ref=e2003]
+                - generic [ref=e2005]:
+                  - generic [ref=e2006]: "for job in client.batches.list(config=types.ListBatchJobsConfig(page_size=10)): print(job)"
+                  - button "Copy code to clipboard" [ref=e2008] [cursor=pointer]:
+                    - img [ref=e2009]
+                - generic [ref=e2012]:
+                  - generic [ref=e2013]: pager = client.batches.list(config=types.ListBatchJobsConfig(page_size=10)) print(pager.page_size) print(pager[0]) pager.next_page() print(pager[0])
+                  - button "Copy code to clipboard" [ref=e2015] [cursor=pointer]:
+                    - img [ref=e2016]
+                - generic [ref=e2019]:
+                  - heading "Async" [level=4] [ref=e2020]
+                  - 'link "Permalink: Async" [ref=e2021] [cursor=pointer]':
+                    - /url: "#async-3"
+                    - img [ref=e2022]
+                - generic [ref=e2024]:
+                  - generic [ref=e2025]: "async for job in await client.aio.batches.list( config=types.ListBatchJobsConfig(page_size=10) ): print(job)"
+                  - button "Copy code to clipboard" [ref=e2027] [cursor=pointer]:
+                    - img [ref=e2028]
+                - generic [ref=e2031]:
+                  - generic [ref=e2032]: async_pager = await client.aio.batches.list( config=types.ListBatchJobsConfig(page_size=10) ) print(async_pager.page_size) print(async_pager[0]) await async_pager.next_page() print(async_pager[0])
+                  - button "Copy code to clipboard" [ref=e2034] [cursor=pointer]:
+                    - img [ref=e2035]
+                - generic [ref=e2038]:
+                  - heading "Delete" [level=3] [ref=e2039]
+                  - 'link "Permalink: Delete" [ref=e2040] [cursor=pointer]':
+                    - /url: "#delete-1"
+                    - img [ref=e2041]
+                - generic [ref=e2043]:
+                  - generic [ref=e2044]: "# Delete the job resource delete_job = client.batches.delete(name=job.name) delete_job"
+                  - button "Copy code to clipboard" [ref=e2046] [cursor=pointer]:
+                    - img [ref=e2047]
+                - generic [ref=e2050]:
+                  - heading "Error Handling" [level=2] [ref=e2051]
+                  - 'link "Permalink: Error Handling" [ref=e2052] [cursor=pointer]':
+                    - /url: "#error-handling"
+                    - img [ref=e2053]
+                - paragraph [ref=e2055]:
+                  - text: To handle errors raised by the model service, the SDK provides this
+                  - link "APIError" [ref=e2056] [cursor=pointer]:
+                    - /url: https://github.com/googleapis/python-genai/blob/main/google/genai/errors.py
+                    - code [ref=e2057]: APIError
+                  - text: class.
+                - generic [ref=e2058]:
+                  - generic [ref=e2059]: "from google.genai import errors try: client.models.generate_content( model=\"invalid-model-name\", contents=\"What is your name?\", ) except errors.APIError as e: print(e.code) # 404 print(e.message)"
+                  - button "Copy code to clipboard" [ref=e2061] [cursor=pointer]:
+                    - img [ref=e2062]
+                - generic [ref=e2065]:
+                  - heading "Extra Request Body" [level=2] [ref=e2066]
+                  - 'link "Permalink: Extra Request Body" [ref=e2067] [cursor=pointer]':
+                    - /url: "#extra-request-body"
+                    - img [ref=e2068]
+                - paragraph [ref=e2070]:
+                  - text: The
+                  - code [ref=e2071]: extra_body
+                  - text: field in
+                  - code [ref=e2072]: HttpOptions
+                  - text: accepts a dictionary of additional JSON properties to include in the request body. This can be used to access new or experimental backend features that are not yet formally supported in the SDK. The structure of the dictionary must match the backend API's request structure.
+                - list [ref=e2073]:
+                  - listitem [ref=e2074]:
+                    - text: "Vertex AI backend API docs:"
+                    - link "https://cloud.google.com/vertex-ai/docs/reference/rest" [ref=e2075] [cursor=pointer]:
+                      - /url: https://cloud.google.com/vertex-ai/docs/reference/rest
+                  - listitem [ref=e2076]:
+                    - text: "Gemini API backend API docs:"
+                    - link "https://ai.google.dev/api/rest" [ref=e2077] [cursor=pointer]:
+                      - /url: https://ai.google.dev/api/rest
+                - generic [ref=e2078]:
+                  - generic [ref=e2079]: "response = client.models.generate_content( model=\"gemini-2.5-pro\", contents=\"What is the weather in Boston? and how about Sunnyvale?\", config=types.GenerateContentConfig( tools=[get_current_weather], http_options=types.HttpOptions(extra_body={'tool_config': {'function_calling_config': {'mode': 'COMPOSITIONAL'}}}), ), )"
+                  - button "Copy code to clipboard" [ref=e2081] [cursor=pointer]:
+                    - img [ref=e2082]
+        - generic [ref=e2088]:
+          - generic [ref=e2091]:
+            - heading "About" [level=2] [ref=e2092]
+            - paragraph [ref=e2093]: Google Gen AI Python SDK provides an interface for developers to integrate Google's generative models into their Python applications.
+            - generic [ref=e2094]:
+              - img [ref=e2095]
+              - link "googleapis.github.io/python-genai/" [ref=e2098] [cursor=pointer]:
+                - /url: https://googleapis.github.io/python-genai/
+            - heading "Resources" [level=3] [ref=e2099]
+            - link "Readme" [ref=e2101] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e2102]
+              - text: Readme
+            - heading "License" [level=3] [ref=e2104]
+            - link "Apache-2.0 license" [ref=e2106] [cursor=pointer]:
+              - /url: "#Apache-2.0-1-ov-file"
+              - img [ref=e2107]
+              - text: Apache-2.0 license
+            - heading "Code of conduct" [level=3] [ref=e2109]
+            - link "Code of conduct" [ref=e2111] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+              - img [ref=e2112]
+              - text: Code of conduct
+            - heading "Contributing" [level=3] [ref=e2114]
+            - link "Contributing" [ref=e2116] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e2117]
+              - text: Contributing
+            - heading "Security policy" [level=3] [ref=e2119]
+            - link "Security policy" [ref=e2121] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e2122]
+              - text: Security policy
+            - link "Activity" [ref=e2125] [cursor=pointer]:
+              - /url: /googleapis/python-genai/activity
+              - img [ref=e2126]
+              - text: Activity
+            - link "Custom properties" [ref=e2129] [cursor=pointer]:
+              - /url: /googleapis/python-genai/custom-properties
+              - img [ref=e2130]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e2132]
+            - link "3.8k stars" [ref=e2134] [cursor=pointer]:
+              - /url: /googleapis/python-genai/stargazers
+              - img [ref=e2135]
+              - strong [ref=e2137]: 3.8k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e2138]
+            - link "233 watching" [ref=e2140] [cursor=pointer]:
+              - /url: /googleapis/python-genai/watchers
+              - img [ref=e2141]
+              - strong [ref=e2143]: "233"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e2144]
+            - link "905 forks" [ref=e2146] [cursor=pointer]:
+              - /url: /googleapis/python-genai/forks
+              - img [ref=e2147]
+              - strong [ref=e2149]: "905"
+              - text: forks
+            - link "Report repository" [ref=e2151] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fgoogleapis%2Fpython-genai&report=googleapis+%28user%29
+          - generic [ref=e2153]:
+            - heading "Releases 99" [level=2] [ref=e2154]:
+              - link "Releases 99" [ref=e2155] [cursor=pointer]:
+                - /url: /googleapis/python-genai/releases
+                - text: Releases
+                - generic "99" [ref=e2156]
+            - link "v2.8.0 Latest Jun 3, 2026last week" [ref=e2157] [cursor=pointer]:
+              - /url: /googleapis/python-genai/releases/tag/v2.8.0
+              - img [ref=e2158]
+              - generic [ref=e2160]:
+                - generic [ref=e2161]:
+                  - generic [ref=e2162]: v2.8.0
+                  - 'generic "Label: Latest" [ref=e2163]': Latest
+                - generic [ref=e2164]: Jun 3, 2026last week
+            - link "+ 98 releases" [ref=e2166] [cursor=pointer]:
+              - /url: /googleapis/python-genai/releases
+          - generic [ref=e2168]:
+            - heading "Packages" [level=2] [ref=e2169]:
+              - link "Packages" [ref=e2170] [cursor=pointer]:
+                - /url: /orgs/googleapis/packages?repo_name=python-genai
+            - generic [ref=e2171]: No packages published
+          - generic [ref=e2173]:
+            - heading "Contributors 47" [level=2] [ref=e2174]:
+              - link "Contributors 47" [ref=e2175] [cursor=pointer]:
+                - /url: /googleapis/python-genai/graphs/contributors
+                - text: Contributors
+                - generic "47" [ref=e2176]
+            - list [ref=e2177]:
+              - listitem [ref=e2178]:
+                - link "@yinghsienwu" [ref=e2179] [cursor=pointer]:
+                  - /url: https://github.com/yinghsienwu
+                  - img "@yinghsienwu" [ref=e2180]
+              - listitem [ref=e2181]:
+                - link "@MarkDaoust" [ref=e2182] [cursor=pointer]:
+                  - /url: https://github.com/MarkDaoust
+                  - img "@MarkDaoust" [ref=e2183]
+              - listitem [ref=e2184]:
+                - link "@release-please[bot]" [ref=e2185] [cursor=pointer]:
+                  - /url: https://github.com/apps/release-please
+                  - img "@release-please[bot]" [ref=e2186]
+              - listitem [ref=e2187]:
+                - link "@Annhiluc" [ref=e2188] [cursor=pointer]:
+                  - /url: https://github.com/Annhiluc
+                  - img "@Annhiluc" [ref=e2189]
+              - listitem [ref=e2190]:
+                - link "@matthew29tang" [ref=e2191] [cursor=pointer]:
+                  - /url: https://github.com/matthew29tang
+                  - img "@matthew29tang" [ref=e2192]
+              - listitem [ref=e2193]:
+                - link "@google-genai-bot" [ref=e2194] [cursor=pointer]:
+                  - /url: https://github.com/google-genai-bot
+                  - img "@google-genai-bot" [ref=e2195]
+              - listitem [ref=e2196]:
+                - link "@sararob" [ref=e2197] [cursor=pointer]:
+                  - /url: https://github.com/sararob
+                  - img "@sararob" [ref=e2198]
+              - listitem [ref=e2199]:
+                - link "@yyyu-google" [ref=e2200] [cursor=pointer]:
+                  - /url: https://github.com/yyyu-google
+                  - img "@yyyu-google" [ref=e2201]
+              - listitem [ref=e2202]:
+                - link "@hkt74" [ref=e2203] [cursor=pointer]:
+                  - /url: https://github.com/hkt74
+                  - img "@hkt74" [ref=e2204]
+              - listitem [ref=e2205]:
+                - link "@speedstorm1" [ref=e2206] [cursor=pointer]:
+                  - /url: https://github.com/speedstorm1
+                  - img "@speedstorm1" [ref=e2207]
+              - listitem [ref=e2208]:
+                - link "@wanlin31" [ref=e2209] [cursor=pointer]:
+                  - /url: https://github.com/wanlin31
+                  - img "@wanlin31" [ref=e2210]
+              - listitem [ref=e2211]:
+                - link "@sasha-gitg" [ref=e2212] [cursor=pointer]:
+                  - /url: https://github.com/sasha-gitg
+                  - img "@sasha-gitg" [ref=e2213]
+              - listitem [ref=e2214]:
+                - link "@qiaodev" [ref=e2215] [cursor=pointer]:
+                  - /url: https://github.com/qiaodev
+                  - img "@qiaodev" [ref=e2216]
+              - listitem [ref=e2217]:
+                - link "@jaycee-li" [ref=e2218] [cursor=pointer]:
+                  - /url: https://github.com/jaycee-li
+                  - img "@jaycee-li" [ref=e2219]
+            - link "+ 33 contributors" [ref=e2221] [cursor=pointer]:
+              - /url: /googleapis/python-genai/graphs/contributors
+          - generic [ref=e2223]:
+            - heading "Languages" [level=2] [ref=e2224]
+            - list [ref=e2228]:
+              - listitem [ref=e2229]:
+                - link "Python 100.0%" [ref=e2230] [cursor=pointer]:
+                  - /url: /googleapis/python-genai/search?l=python
+                  - img [ref=e2231]
+                  - generic [ref=e2233]: Python
+                  - generic [ref=e2234]: 100.0%
+  - contentinfo [ref=e2236]:
+    - heading "Footer" [level=2] [ref=e2237]
+    - generic [ref=e2238]:
+      - generic [ref=e2239]:
+        - link "GitHub Homepage" [ref=e2240] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e2241]
+        - generic [ref=e2243]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e2244]:
+        - heading "Footer navigation" [level=3] [ref=e2245]
+        - list "Footer navigation" [ref=e2246]:
+          - listitem [ref=e2247]:
+            - link "Terms" [ref=e2248] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e2249]:
+            - link "Privacy" [ref=e2250] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e2251]:
+            - link "Security" [ref=e2252] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e2253]:
+            - link "Status" [ref=e2254] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e2255]:
+            - link "Community" [ref=e2256] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e2257]:
+            - link "Docs" [ref=e2258] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e2259]:
+            - link "Contact" [ref=e2260] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e2261]:
+            - button "Manage cookies" [ref=e2263] [cursor=pointer]
+          - listitem [ref=e2264]:
+            - button "Do not share my personal information" [ref=e2266] [cursor=pointer]

@@ -1,8 +1,9 @@
 import { create } from 'zustand';
-import type { ChatActivity, ChatEvent, ChatMessage, McpTool, PreviewItem } from '../types';
+import type { ChatActivity, ChatEvent, ChatMessage, McpTool, PreviewItem, WorkspaceView } from '../types';
 
 type AppState = {
   sidebarCollapsed: boolean;
+  activeWorkspaceView: WorkspaceView;
   backendUrl: string;
   mcpTools: McpTool[];
   messages: ChatMessage[];
@@ -12,11 +13,25 @@ type AppState = {
   isScreenViewing: boolean;
   activeAssistantId: string | null;
   skillsRootPath: string | null;
+
+  provider: string;
+  model: string;
+  apiKey: string;
+  baseUrl: string;
+
   toggleSidebar: () => void;
+  setActiveWorkspaceView: (view: WorkspaceView) => void;
   setBackendUrl: (backendUrl: string) => void;
   setMcpTools: (tools: McpTool[]) => void;
   setMcpToolStatus: (toolId: string, status: McpTool['status']) => void;
   setSkillsRootPath: (skillsRootPath: string | null) => void;
+
+  setProvider: (provider: string) => void;
+  setModel: (model: string) => void;
+  setApiKey: (apiKey: string) => void;
+  setBaseUrl: (baseUrl: string) => void;
+  setProviderSettings: (settings: { provider: string; model: string; apiKey: string; baseUrl: string }) => void;
+
   addUserMessage: (content: string) => void;
   addChatEvent: (event: ChatEvent) => void;
   setStreaming: (isStreaming: boolean) => void;
@@ -59,6 +74,7 @@ function appendToAssistantById(
 
 export const useAppStore = create<AppState>((set) => ({
   sidebarCollapsed: false,
+  activeWorkspaceView: 'chat',
   backendUrl: import.meta.env.VITE_BACKEND_URL ?? 'http://127.0.0.1:8765',
   mcpTools: [
     {
@@ -97,7 +113,14 @@ export const useAppStore = create<AppState>((set) => ({
   isScreenViewing: false,
   activeAssistantId: null,
   skillsRootPath: getStoredSkillsRootPath(),
+
+  provider: 'openrouter',
+  model: 'openai/gpt-4o-mini',
+  apiKey: '',
+  baseUrl: '',
+
   toggleSidebar: () => set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed })),
+  setActiveWorkspaceView: (activeWorkspaceView) => set({ activeWorkspaceView }),
   setBackendUrl: (backendUrl) => set({ backendUrl }),
   setMcpTools: (tools) => set({ mcpTools: tools }),
   setMcpToolStatus: (toolId, status) => set((state) => ({
@@ -107,9 +130,17 @@ export const useAppStore = create<AppState>((set) => ({
     setStoredSkillsRootPath(skillsRootPath);
     set({ skillsRootPath });
   },
+
+  setProvider: (provider) => set({ provider }),
+  setModel: (model) => set({ model }),
+  setApiKey: (apiKey) => set({ apiKey }),
+  setBaseUrl: (baseUrl) => set({ baseUrl }),
+  setProviderSettings: ({ provider, model, apiKey, baseUrl }) => set({ provider, model, apiKey, baseUrl }),
+
   addUserMessage: (content) => set((state) => {
     const assistantId = crypto.randomUUID();
     return {
+      activeWorkspaceView: 'chat',
       activeAssistantId: assistantId,
       messages: [
         ...state.messages,
@@ -125,6 +156,7 @@ export const useAppStore = create<AppState>((set) => ({
           content: '',
           createdAt: now(),
           activities: [],
+          thoughts: [],
           isStreaming: true,
         },
       ],
@@ -165,6 +197,19 @@ export const useAppStore = create<AppState>((set) => ({
         messages: appendToAssistantById(state.messages, state.activeAssistantId, (message) => ({
           ...message,
           content: `${message.content}${event.content}`,
+        })),
+      };
+    }
+
+    if (event.type === 'thought') {
+      return {
+        messages: appendToAssistantById(state.messages, state.activeAssistantId, (message) => ({
+          ...message,
+          thoughts: [...(message.thoughts ?? []), {
+            id: crypto.randomUUID(),
+            content: event.content,
+            createdAt: now(),
+          }],
         })),
       };
     }

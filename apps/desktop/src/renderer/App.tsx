@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { ChatPane } from './components/ChatPane';
 import { LiveWindow } from './components/LiveWindow';
 import { Sidebar } from './components/Sidebar';
+import { WorkspacePanel } from './components/WorkspacePanel';
 import { useAppStore } from './stores/useAppStore';
 
 export function App() {
@@ -21,7 +21,7 @@ export function App() {
   return (
     <main className="app-shell">
       <Sidebar />
-      <ChatPane />
+      <WorkspacePanel />
       <LiveWindow />
     </main>
   );

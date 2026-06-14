@@ -1,0 +1,629 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4QPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: what is Google ADK 2.0 software development kit what is Google ADK 2.0 software development kit
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dwhat%2Bis%2BGoogle%2BADK%2B2.0%2Bsoftware%2Bdevelopment%2Bkit&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&aep=1&ntc=1&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q2J8OegQIERAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Videos" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=what+is+Google+ADK+2.0+software+development+kit&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4QtKgLegQIFhAB
+              - generic [ref=e90]: Videos
+          - listitem [ref=e91]:
+            - link "Images" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=what+is+Google+ADK+2.0+software+development+kit&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4QtKgLegQIFxAB
+              - generic [ref=e94]: Images
+          - listitem [ref=e95]:
+            - link "Forums" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=what+is+Google+ADK+2.0+software+development+kit&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Qs6gLegQIFBAB
+              - generic [ref=e98]: Forums
+          - listitem [ref=e99]:
+            - link "Shopping" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=what+is+Google+ADK+2.0+software+development+kit&ved=1t:220175&ictx=111
+              - generic [ref=e102]: Shopping
+          - listitem [ref=e103]:
+            - link "Short videos" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpnQTYs94Mq8g6LHC3WhbQO7M01KHLtT-pJxbMt2v0OUM7YfMtqIT3imvupDboGqIiL6vsakLi58iKXpXQP9ihV7qwJz5zkXZC_JCkL3nAo4Xv9SQYZW19aHd62yXZFFyInIGcPSacukWEMfiCumZrBRxWQ2Q&q=what+is+Google+ADK+2.0+software+development+kit&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Qs6gLegQIFRAB
+              - generic [ref=e106]: Short videos
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e124]:
+      - generic [ref=e141]:
+        - heading "Searching Thinking a little longer" [level=2] [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e148]: Searching
+            - generic [ref=e158]: Thinking a little longer
+        - progressbar [ref=e160]
+      - main [ref=e202]:
+        - generic [ref=e206]:
+          - generic [ref=e209]:
+            - heading "Web results" [level=2] [ref=e210]
+            - generic [ref=e211]:
+              - generic [ref=e214]:
+                - link "Welcome to ADK 2.0 - Agent Development Kit (ADK) adk.dev https://adk.dev › 2.0" [ref=e216] [cursor=pointer]:
+                  - /url: https://adk.dev/2.0/
+                  - heading "Welcome to ADK 2.0 - Agent Development Kit (ADK)" [level=3] [ref=e217]
+                  - generic [ref=e222]:
+                    - generic [ref=e224]: adk.dev
+                    - generic [ref=e226]: https://adk.dev › 2.0
+                - button "About this result" [ref=e227] [cursor=pointer]:
+                  - img [ref=e230]
+              - generic [ref=e233]:
+                - generic [ref=e234]:
+                  - emphasis [ref=e235]: ADK 2.0 introduces powerful tools for building sophisticated AI agents
+                  - text: ", and helps you structure agents to execute challenging tasks with more control, ..."
+                - link "Read more" [ref=e236] [cursor=pointer]:
+                  - /url: https://adk.dev/2.0/#:~:text=ADK%202.0%20introduces%20powerful%20tools,more%20control%2C%20predictability%2C%20and%20reliability.
+          - generic [ref=e240]:
+            - generic [ref=e243]:
+              - link "Agent Development Kit | Gemini Enterprise Agent Platform Google Cloud Documentation https://docs.cloud.google.com › build › adk" [ref=e245] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk
+                - heading "Agent Development Kit | Gemini Enterprise Agent Platform" [level=3] [ref=e246]
+                - generic [ref=e251]:
+                  - generic [ref=e253]: Google Cloud Documentation
+                  - generic [ref=e255]: https://docs.cloud.google.com › build › adk
+              - button "About this result" [ref=e256] [cursor=pointer]:
+                - img [ref=e259]
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - emphasis [ref=e264]: Agent Development Kit (ADK
+                - text: ) is an open-source agent development framework that lets you build, debug, and deploy reliable AI agents at enterprise scale.
+              - link "Read more" [ref=e265] [cursor=pointer]:
+                - /url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk#:~:text=Agent%20Development%20Kit%20(ADK)%20is,AI%20agents%20at%20enterprise%20scale.
+          - generic [ref=e269]:
+            - generic [ref=e272]:
+              - 'link "ADK 2.0: From Chatbots to Collaborative, Deterministic AI ... Medium · Ali Arsanjani 7 likes · 1 month ago" [ref=e274] [cursor=pointer]':
+                - /url: https://dr-arsanjani.medium.com/adk-2-0-from-chatbots-to-collaborative-deterministic-ai-workflows-c8656f3beab4
+                - 'heading "ADK 2.0: From Chatbots to Collaborative, Deterministic AI ..." [level=3] [ref=e275]'
+                - generic [ref=e280]:
+                  - generic [ref=e282]: Medium · Ali Arsanjani
+                  - generic [ref=e284]: 7 likes · 1 month ago
+              - button "About this result" [ref=e285] [cursor=pointer]:
+                - img [ref=e288]
+            - generic [ref=e291]:
+              - generic [ref=e292]:
+                - emphasis [ref=e293]: ADK 2.0
+                - text: is moving AI from a “black box” into a structured, debuggable framework that looks and feels like modern software development.
+              - link "Read more" [ref=e294] [cursor=pointer]:
+                - /url: https://dr-arsanjani.medium.com/adk-2-0-from-chatbots-to-collaborative-deterministic-ai-workflows-c8656f3beab4#:~:text=ADK%202.0%20is%20moving%20AI,feels%20like%20modern%20software%20development.
+          - generic [ref=e298]:
+            - generic [ref=e300]:
+              - heading "Videos" [level=2] [ref=e301]
+              - button "About this result" [ref=e302] [cursor=pointer]:
+                - img [ref=e305]
+            - generic [ref=e308]:
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]:
+                    - link "ADK 2.0 is Here and It's a Total Game-Changer YouTube AI with Surya 1 month ago" [ref=e317] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=xyhzznb0vtg
+                      - heading "ADK 2.0 is Here and It's a Total Game-Changer YouTube AI with Surya 1 month ago" [level=3] [ref=e318]:
+                        - generic [ref=e321]: ADK 2.0 is Here and It's a Total Game-Changer
+                        - generic [ref=e323]:
+                          - generic [ref=e324]:
+                            - text: YouTube
+                            - generic [ref=e325]: · AI with Surya
+                          - generic [ref=e326]: 1 month ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · AI with Surya
+                        - button "About this result" [ref=e327] [cursor=pointer]:
+                          - img [ref=e330]
+                  - button "ADK 2.0 is Here and It's a Total Game-Changer by AI with Surya on YouTube. Play on Google. 13:53" [ref=e332] [cursor=pointer]:
+                    - generic [ref=e333]:
+                      - img [ref=e336]
+                      - generic [ref=e339]:
+                        - generic [ref=e341]: 13:53
+                        - img [ref=e344]
+                - button "ADK 2.0 introduces graph-based workflows, collaborative agent modes, and dynamic workflows with human-in-the-loop for building agents." [ref=e347] [cursor=pointer]:
+                  - generic [ref=e351]: ADK 2.0 introduces graph-based workflows, collaborative agent modes, and dynamic workflows with human-in-the-loop for building agents.
+              - generic [ref=e358]:
+                - generic [ref=e359]:
+                  - link "Intro to multi-agent systems with ADK YouTube Google Cloud Tech 1 day ago" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=0Z0GUDakR_A
+                    - heading "Intro to multi-agent systems with ADK YouTube Google Cloud Tech 1 day ago" [level=3] [ref=e362]:
+                      - generic [ref=e365]: Intro to multi-agent systems with ADK
+                      - generic [ref=e367]:
+                        - generic [ref=e368]:
+                          - text: YouTube
+                          - generic [ref=e369]: · Google Cloud Tech
+                        - generic [ref=e370]: 1 day ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Google Cloud Tech
+                      - button "About this result" [ref=e371] [cursor=pointer]:
+                        - img [ref=e374]
+                - button "Intro to multi-agent systems with ADK by Google Cloud Tech on YouTube. Play on Google. 11:53" [ref=e376] [cursor=pointer]:
+                  - generic [ref=e377]:
+                    - img [ref=e383]
+                    - generic [ref=e386]:
+                      - generic [ref=e388]: 11:53
+                      - img [ref=e391]
+              - generic [ref=e397]:
+                - generic [ref=e398]:
+                  - generic [ref=e399]:
+                    - link "New Google ADK 2 Introduces Agent Teams | Complete ... YouTube theailanguage Apr 8, 2026" [ref=e401] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=Tq6X7IxjgP8
+                      - heading "New Google ADK 2 Introduces Agent Teams | Complete ... YouTube theailanguage Apr 8, 2026" [level=3] [ref=e402]:
+                        - generic [ref=e405]: New Google ADK 2 Introduces Agent Teams | Complete ...
+                        - generic [ref=e407]:
+                          - generic [ref=e408]:
+                            - text: YouTube
+                            - generic [ref=e409]: · theailanguage
+                          - generic [ref=e410]: Apr 8, 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · theailanguage
+                        - button "About this result" [ref=e411] [cursor=pointer]:
+                          - img [ref=e414]
+                  - button "New Google ADK 2 Introduces Agent Teams | Complete ... by theailanguage on YouTube. Play on Google. 8:53" [ref=e416] [cursor=pointer]:
+                    - generic [ref=e417]:
+                      - img [ref=e420]
+                      - generic [ref=e423]:
+                        - generic [ref=e425]: 8:53
+                        - img [ref=e428]
+                - button "8 key moments in this video" [ref=e434] [cursor=pointer]:
+                  - generic [ref=e443]:
+                    - generic [ref=e446]: 8 key moments in this video
+                    - img [ref=e448]
+            - link "View all videos" [ref=e452] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=7&q=what+is+Google+ADK+2.0+software+development+kit&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8ccDKAJ6BAhPEAQ
+              - separator [ref=e453]
+              - generic [ref=e454]:
+                - generic [ref=e455]: View all
+                - img [ref=e457]
+          - generic [ref=e461]:
+            - heading "Web results" [level=2] [ref=e462]
+            - generic [ref=e463]:
+              - generic [ref=e466]:
+                - link "Agent Development Kit (ADK) 2.0 GitHub https://github.com › google › adk-python" [ref=e468] [cursor=pointer]:
+                  - /url: https://github.com/google/adk-python
+                  - heading "Agent Development Kit (ADK) 2.0" [level=3] [ref=e469]
+                  - generic [ref=e474]:
+                    - generic [ref=e476]: GitHub
+                    - generic [ref=e478]: https://github.com › google › adk-python
+                - button "About this result" [ref=e479] [cursor=pointer]:
+                  - img [ref=e482]
+              - generic [ref=e486]:
+                - emphasis [ref=e487]: An open-source, code-first Python toolkit
+                - text: for building, evaluating, and deploying sophisticated AI agents with flexibility and control. - google/adk-python.
+          - generic [ref=e492]:
+            - heading "Discussions and forums" [level=2] [ref=e494]
+            - generic [ref=e495]:
+              - generic [ref=e498]:
+                - generic [ref=e500] [cursor=pointer]:
+                  - generic [ref=e503]:
+                    - link "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ... Reddit · r/Anthropic · 3 comments · 1 year ago" [ref=e504]:
+                      - /url: https://www.reddit.com/r/Anthropic/comments/1jvsux0/just_did_a_deep_dive_into_googles_agent/
+                      - generic [ref=e505]:
+                        - heading "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ..." [level=3] [ref=e506]:
+                          - link "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ..." [ref=e507]
+                        - generic [ref=e514]:
+                          - generic [ref=e515]: Reddit ·
+                          - generic [ref=e517]:
+                            - generic [ref=e518]:
+                              - generic [ref=e519]: r/Anthropic
+                              - generic [ref=e520]:
+                                - generic [ref=e521]: ·
+                                - generic [ref=e522]: 3 comments
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: ·
+                              - generic [ref=e525]: 1 year ago
+                    - generic [ref=e531]:
+                      - generic [ref=e535]: ·
+                      - button "About this result" [ref=e540]:
+                        - img [ref=e543]
+                  - button "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ... Reddit · r/Anthropic · 3 comments · 1 year ago" [expanded] [ref=e545]:
+                    - img [ref=e548]
+                - list [ref=e557]:
+                  - listitem [ref=e558]:
+                    - generic [ref=e562]:
+                      - link "Frameworks like ADK are most valuable when they empower beginners and intermediate developers to build confidently. But right now, the developer ... More discussions on Just did a deep dive into Google's Agent Development Kit (ADK). Here are ...":
+                        - /url: https://www.reddit.com/r/Anthropic/comments/1jvsux0/just_did_a_deep_dive_into_googles_agent/
+                      - generic [ref=e564]:
+                        - text: Frameworks like ADK are most valuable when they empower beginners and intermediate developers to build confidently. But right now, the developer ...
+                        - link [ref=e565] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Anthropic/comments/1jvsux0/just_did_a_deep_dive_into_googles_agent/
+                          - generic [ref=e566]: More
+                          - img [ref=e568]
+              - generic [ref=e574] [cursor=pointer]:
+                - generic [ref=e577]:
+                  - link "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ... Reddit · r/LangChain · 10+ comments · 1 year ago" [ref=e578]:
+                    - /url: https://www.reddit.com/r/LangChain/comments/1jvsvs7/just_did_a_deep_dive_into_googles_agent/
+                    - generic [ref=e579]:
+                      - heading "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ..." [level=3] [ref=e580]:
+                        - link "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ..." [ref=e581]
+                      - generic [ref=e588]:
+                        - generic [ref=e589]: Reddit ·
+                        - generic [ref=e591]:
+                          - generic [ref=e592]:
+                            - generic [ref=e593]: r/LangChain
+                            - generic [ref=e594]:
+                              - generic [ref=e595]: ·
+                              - generic [ref=e596]: 10+ comments
+                          - generic [ref=e597]:
+                            - generic [ref=e598]: ·
+                            - generic [ref=e599]: 1 year ago
+                  - generic [ref=e605]:
+                    - generic [ref=e609]: ·
+                    - button "About this result" [ref=e614]:
+                      - img [ref=e617]
+                - button "Just did a deep dive into Google's Agent Development Kit (ADK). Here are ... Reddit · r/LangChain · 10+ comments · 1 year ago" [ref=e619]:
+                  - img [ref=e622]
+              - link "See more discussions" [ref=e625] [cursor=pointer]:
+                - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&udm=18&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8poLegQIShAD
+                - separator [ref=e626]
+                - generic [ref=e627]:
+                  - generic [ref=e628]: See more
+                  - img [ref=e630]
+          - generic [ref=e634]:
+            - heading "Web results" [level=2] [ref=e635]
+            - generic [ref=e636]:
+              - generic [ref=e639]:
+                - link "Agent Development Kit (ADK) - Agent Development Kit (ADK) adk.dev https://adk.dev" [ref=e641] [cursor=pointer]:
+                  - /url: https://adk.dev/
+                  - heading "Agent Development Kit (ADK) - Agent Development Kit (ADK)" [level=3] [ref=e642]
+                  - generic [ref=e647]:
+                    - generic [ref=e649]: adk.dev
+                    - generic [ref=e651]: https://adk.dev
+                - button "About this result" [ref=e652] [cursor=pointer]:
+                  - img [ref=e655]
+              - generic [ref=e658]:
+                - generic [ref=e659]:
+                  - emphasis [ref=e660]: ADK is the open-source agent development framework
+                  - text: that lets you build, debug, and deploy reliable AI agents at enterprise scale. Available in Python, ...
+                - link "Read more" [ref=e661] [cursor=pointer]:
+                  - /url: https://adk.dev/#:~:text=ADK%20is%20the%20open%2Dsource%20agent,TypeScript%2C%20Go%2C%20Java%2C%20and%20Kotlin.
+          - generic [ref=e665]:
+            - generic [ref=e668]:
+              - link "A High-Level Overview of Google ADK, Genkit, and OpenAI ... Reddit · r/AI_Agents 7 comments · 2 months ago" [ref=e670] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/AI_Agents/comments/1s9hwyh/beyond_raw_apis_a_highlevel_overview_of_google/
+                - heading "A High-Level Overview of Google ADK, Genkit, and OpenAI ..." [level=3] [ref=e671]
+                - generic [ref=e676]:
+                  - generic [ref=e678]: Reddit · r/AI_Agents
+                  - generic [ref=e680]: 7 comments · 2 months ago
+              - button "About this result" [ref=e681] [cursor=pointer]:
+                - img [ref=e684]
+            - generic [ref=e687]:
+              - generic [ref=e688]:
+                - emphasis [ref=e689]: Google
+                - text: Agent
+                - emphasis [ref=e690]: Development Kit
+                - text: (
+                - emphasis [ref=e691]: ADK
+                - text: "): Why this model-agnostic framework is a game-changer for building flexible, deployment-ready agents in Python ..."
+              - link "Read more" [ref=e692] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/AI_Agents/comments/1s9hwyh/beyond_raw_apis_a_highlevel_overview_of_google/#:~:text=Google%20Agent%20Development%20Kit%20(ADK)%3A,Python%2C%20TypeScript%2C%20Go%2C%20or%20Java.
+          - generic [ref=e696]:
+            - generic [ref=e699]:
+              - link "What is Google ADK (Agent Development Kit) GeeksforGeeks https://www.geeksforgeeks.org › artificial-intelligence" [ref=e701] [cursor=pointer]:
+                - /url: https://www.geeksforgeeks.org/artificial-intelligence/what-is-google-adk-agent-development-kit/
+                - heading "What is Google ADK (Agent Development Kit)" [level=3] [ref=e702]
+                - generic [ref=e707]:
+                  - generic [ref=e709]: GeeksforGeeks
+                  - generic [ref=e711]: https://www.geeksforgeeks.org › artificial-intelligence
+              - button "About this result" [ref=e712] [cursor=pointer]:
+                - img [ref=e715]
+            - generic [ref=e718]:
+              - generic [ref=e719]: Oct 28, 2025 —
+              - generic [ref=e720]:
+                - emphasis [ref=e721]: Google's Agent Development Kit (ADK
+                - text: ) is an open-source framework that helps developers build, test, evaluate and deploy autonomous AI agents ...
+              - link "Read more" [ref=e722] [cursor=pointer]:
+                - /url: https://www.geeksforgeeks.org/artificial-intelligence/what-is-google-adk-agent-development-kit/#:~:text=Google's%20Agent%20Development%20Kit%20(ADK),AI%20agents%20and%20multi%2Dagent%20systems.
+          - generic [ref=e726]:
+            - generic [ref=e728]:
+              - heading "What people are saying" [level=2] [ref=e729]:
+                - generic [ref=e731]: What people are saying
+              - generic [ref=e741]: Trending posts and discussions
+            - generic [ref=e743]:
+              - list [ref=e745]:
+                - generic [ref=e746]:
+                  - listitem [ref=e747]:
+                    - generic [ref=e751]:
+                      - button "ADK 2.0 is Here and It's a Total Game-Changer. Play on Google. 13:53" [ref=e756] [cursor=pointer]:
+                        - generic [ref=e759]:
+                          - generic [ref=e760]:
+                            - img [ref=e761]
+                            - generic [ref=e763]: 13:53
+                          - img [ref=e766]
+                      - link "ADK 2.0 is Here and It's a Total Game-Changer 9.4K+ views · 1 month ago AI with Surya YouTube" [ref=e768] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=xyhzznb0vtg
+                        - generic [ref=e769]:
+                          - heading "ADK 2.0 is Here and It's a Total Game-Changer" [level=3] [ref=e771]
+                          - generic [ref=e773]: 9.4K+ views · 1 month ago
+                          - generic [ref=e785]:
+                            - generic [ref=e786]: AI with Surya
+                            - generic [ref=e787]: YouTube
+                      - button "About this result" [ref=e791] [cursor=pointer]:
+                        - img [ref=e794]
+                  - listitem [ref=e796]:
+                    - generic [ref=e800]:
+                      - link "Google ADK for the Battle-Tested Agent Developer | by Rick Hightower | Spillwave Solutions Mar 31, 2026 Rick Hightower Medium" [ref=e801] [cursor=pointer]:
+                        - /url: https://medium.com/spillwave-solutions/google-adk-for-the-battle-tested-agent-developer-fbc8dda86389
+                        - generic [ref=e805]:
+                          - heading "Google ADK for the Battle-Tested Agent Developer | by Rick Hightower | Spillwave Solutions" [level=3] [ref=e807]
+                          - generic [ref=e808]: Mar 31, 2026
+                          - generic [ref=e817]:
+                            - generic [ref=e818]: Rick Hightower
+                            - generic [ref=e819]: Medium
+                      - button "About this result" [ref=e823] [cursor=pointer]:
+                        - img [ref=e826]
+                  - listitem [ref=e828]:
+                    - generic [ref=e832]:
+                      - link "Building End to End AI Agents with ADK Dev Skills | by Pier Paolo Ippolito | Google Cloud - Community | Apr, 2026 Apr 13, 2026 Pier Paolo Ippolito · Medium Editor & writer" [ref=e833] [cursor=pointer]:
+                        - /url: https://medium.com/google-cloud/building-end-to-end-ai-agents-with-adk-dev-skills-26e1176ba661
+                        - generic [ref=e837]:
+                          - heading "Building End to End AI Agents with ADK Dev Skills | by Pier Paolo Ippolito | Google Cloud - Community | Apr, 2026" [level=3] [ref=e839]
+                          - generic [ref=e840]: Apr 13, 2026
+                          - generic [ref=e849]:
+                            - generic [ref=e850]: Pier Paolo Ippolito · Medium
+                            - generic [ref=e852]: Editor & writer
+                      - button "About this result" [ref=e856] [cursor=pointer]:
+                        - img [ref=e859]
+                  - listitem [ref=e861]:
+                    - generic [ref=e866]:
+                      - 'link "Google ADK 2.0 Alpha: A Workflow Runtime That Treats Agents Like Software Mar 28, 2026 Jin Tan Ruan LinkedIn" [ref=e867] [cursor=pointer]':
+                        - /url: https://www.linkedin.com/pulse/google-adk-20-alpha-workflow-runtime-treats-agents-jin-tan-ruan-z7w9e
+                        - generic [ref=e871]:
+                          - 'heading "Google ADK 2.0 Alpha: A Workflow Runtime That Treats Agents Like Software" [level=3] [ref=e873]'
+                          - generic [ref=e874]: Mar 28, 2026
+                          - generic [ref=e886]:
+                            - generic [ref=e887]: Jin Tan Ruan
+                            - generic [ref=e888]: LinkedIn
+                      - button "About this result" [ref=e892] [cursor=pointer]:
+                        - img [ref=e895]
+                  - listitem [ref=e897]:
+                    - generic [ref=e902]:
+                      - 'link "ADK 2.0: From Chatbots to Collaborative, Deterministic AI Workflows 1 month ago Ali Arsanjani · Medium Director, Google Applied AI Eng" [ref=e903] [cursor=pointer]':
+                        - /url: https://dr-arsanjani.medium.com/adk-2-0-from-chatbots-to-collaborative-deterministic-ai-workflows-c8656f3beab4
+                        - generic [ref=e907]:
+                          - 'heading "ADK 2.0: From Chatbots to Collaborative, Deterministic AI Workflows" [level=3] [ref=e909]'
+                          - generic [ref=e910]: 1 month ago
+                          - generic [ref=e919]:
+                            - generic [ref=e920]: Ali Arsanjani · Medium
+                            - generic [ref=e922]: Director, Google Applied AI Eng
+                      - button "About this result" [ref=e926] [cursor=pointer]:
+                        - img [ref=e929]
+                  - listitem [ref=e931]:
+                    - generic [ref=e936]:
+                      - link "Build AI Agents Inside Your Android App with Agent Development Kit (ADK) | by Anand Gaur | May, 2026 Google just made it possible to put real, thinking AI agents directly inside your Android app using Kotlin. Here's everything you need to... . 2 weeks ago Anand Gaur Medium" [ref=e937] [cursor=pointer]:
+                        - /url: https://medium.com/@anandgaur2207/build-ai-agents-inside-your-android-app-with-agent-development-kit-adk-2c9ccb25b909
+                        - generic [ref=e938]:
+                          - heading "Build AI Agents Inside Your Android App with Agent Development Kit (ADK) | by Anand Gaur | May, 2026" [level=3] [ref=e940]
+                          - generic [ref=e941]:
+                            - generic [ref=e942]: Google just made it possible to put real, thinking AI agents directly inside your Android app using Kotlin. Here's everything you need to...
+                            - generic [ref=e943]: .
+                          - generic [ref=e944]: 2 weeks ago
+                          - generic [ref=e953]:
+                            - generic [ref=e954]: Anand Gaur
+                            - generic [ref=e955]: Medium
+                      - button "About this result" [ref=e959] [cursor=pointer]:
+                        - img [ref=e962]
+                  - listitem [ref=e964]:
+                    - generic [ref=e969]:
+                      - button "Google's ADK + MCP = The Future of AI Agents. Play on Google. 14:57" [ref=e974] [cursor=pointer]:
+                        - generic [ref=e977]:
+                          - generic [ref=e978]:
+                            - img [ref=e979]
+                            - generic [ref=e981]: 14:57
+                          - img [ref=e984]
+                      - link "Google's ADK + MCP = The Future of AI Agents 5K+ views · Apr 10, 2026 Google for Developers · YouTube Google's software dev tools & platforms" [ref=e986] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=wIhkYnTpPs4
+                        - generic [ref=e987]:
+                          - heading "Google's ADK + MCP = The Future of AI Agents" [level=3] [ref=e989]
+                          - generic [ref=e991]: 5K+ views · Apr 10, 2026
+                          - generic [ref=e1003]:
+                            - generic [ref=e1004]: Google for Developers · YouTube
+                            - generic [ref=e1006]: Google's software dev tools & platforms
+                      - button "About this result" [ref=e1010] [cursor=pointer]:
+                        - img [ref=e1013]
+                  - listitem [ref=e1015]:
+                    - generic [ref=e1020]:
+                      - button "Google ADK in 20 Minutes! Build Agentic App Projects Like a Pro. Play on Google. 27:38" [ref=e1025] [cursor=pointer]:
+                        - generic [ref=e1031]:
+                          - generic [ref=e1032]:
+                            - img [ref=e1033]
+                            - generic [ref=e1035]: 27:38
+                          - img [ref=e1038]
+                      - link "Google ADK in 20 Minutes! Build Agentic App Projects Like a Pro 15.5K+ views · 1 month ago Keerti Purswani · YouTube AI educator" [ref=e1040] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=bKcVMEIFwHk
+                        - generic [ref=e1041]:
+                          - heading "Google ADK in 20 Minutes! Build Agentic App Projects Like a Pro" [level=3] [ref=e1043]
+                          - generic [ref=e1045]: 15.5K+ views · 1 month ago
+                          - generic [ref=e1057]:
+                            - generic [ref=e1058]: Keerti Purswani · YouTube
+                            - generic [ref=e1060]: AI educator
+                      - button "About this result" [ref=e1064] [cursor=pointer]:
+                        - img [ref=e1067]
+                  - listitem [ref=e1069]:
+                    - generic [ref=e1074]:
+                      - link "My first Experience with Google’s Agent Development Kit (ADK-Go) Apr 7, 2026 Alain Airom · Medium IT engineer" [ref=e1075] [cursor=pointer]:
+                        - /url: https://alain-airom.medium.com/my-first-experience-with-googles-agent-development-kit-adk-24afa1b7de85
+                        - generic [ref=e1079]:
+                          - heading "My first Experience with Google’s Agent Development Kit (ADK-Go)" [level=3] [ref=e1081]
+                          - generic [ref=e1082]: Apr 7, 2026
+                          - generic [ref=e1091]:
+                            - generic [ref=e1092]: Alain Airom · Medium
+                            - generic [ref=e1094]: IT engineer
+                      - button "About this result" [ref=e1098] [cursor=pointer]:
+                        - img [ref=e1101]
+                  - listitem [ref=e1103]:
+                    - generic [ref=e1108]:
+                      - 'button "Get Started with Agent Development Kit (ADK) | #GENAI104 With Explanation. Play on Google. 10:09" [ref=e1113] [cursor=pointer]':
+                        - generic [ref=e1116]:
+                          - generic [ref=e1117]:
+                            - img [ref=e1118]
+                            - generic [ref=e1120]: 10:09
+                          - img [ref=e1123]
+                      - 'link "Get Started with Agent Development Kit (ADK) | #GENAI104 With Explanation 1K+ views · Mar 18, 2026 DR abhishek. YouTube" [ref=e1125] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=ADKXKfrsyk8
+                        - generic [ref=e1126]:
+                          - 'heading "Get Started with Agent Development Kit (ADK) | #GENAI104 With Explanation" [level=3] [ref=e1128]'
+                          - generic [ref=e1130]: 1K+ views · Mar 18, 2026
+                          - generic [ref=e1142]:
+                            - generic [ref=e1143]: DR abhishek.
+                            - generic [ref=e1144]: YouTube
+                      - button "About this result" [ref=e1148] [cursor=pointer]:
+                        - img [ref=e1151]
+              - button [ref=e1153] [cursor=pointer]:
+                - img [ref=e1156]
+        - generic [ref=e1159]:
+          - generic [ref=e1164]:
+            - heading "People also search for" [level=2] [ref=e1166]
+            - generic [ref=e1168]:
+              - generic [ref=e1169]:
+                - link "What is google adk 2.0 software development kit used for" [ref=e1173] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=What+is+google+adk+2.0+software+development+kit+used+for&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAgyEAE
+                  - generic [ref=e1174]:
+                    - generic [ref=e1179]: What is google adk 2.0 software development kit used for
+                    - img [ref=e1183]
+                - link "What is google adk 2.0 software development kit pdf" [ref=e1188] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=What+is+google+adk+2.0+software+development+kit+pdf&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAg_EAE
+                  - generic [ref=e1189]:
+                    - generic [ref=e1194]: What is google adk 2.0 software development kit pdf
+                    - img [ref=e1198]
+                - link "What is google adk 2.0 software development kit github" [ref=e1203] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=What+is+google+adk+2.0+software+development+kit+github&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAg9EAE
+                  - generic [ref=e1204]:
+                    - generic [ref=e1209]: What is google adk 2.0 software development kit github
+                    - img [ref=e1213]
+                - link "Google agent development kit documentation" [ref=e1218] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+agent+development+kit+documentation&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAg8EAE
+                  - generic [ref=e1219]:
+                    - generic [ref=e1224]: Google agent development kit documentation
+                    - img [ref=e1228]
+              - generic [ref=e1230]:
+                - link "Google Agent Development Kit (ADK)" [ref=e1234] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+Agent+Development+Kit+(ADK)&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAg6EAE
+                  - generic [ref=e1235]:
+                    - generic [ref=e1240]: Google Agent Development Kit (ADK)
+                    - img [ref=e1244]
+                - link "Google ADK tutorial" [ref=e1249] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+ADK+tutorial&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAg1EAE
+                  - generic [ref=e1250]:
+                    - generic [ref=e1255]: Google ADK tutorial
+                    - img [ref=e1259]
+                - link "Google ADK vs LangGraph" [ref=e1264] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google+ADK+vs+LangGraph&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAg0EAE
+                  - generic [ref=e1265]:
+                    - generic [ref=e1270]: Google ADK vs LangGraph
+                    - img [ref=e1274]
+                - link "Google/adk GitHub" [ref=e1279] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Google/adk+GitHub&sa=X&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q1QJ6BAgzEAE
+                  - generic [ref=e1280]:
+                    - generic [ref=e1285]: Google/adk GitHub
+                    - img [ref=e1289]
+          - navigation [ref=e1291]:
+            - heading "Page Navigation" [level=1] [ref=e1292]
+            - text: "1"
+            - link "Page 2" [ref=e1295] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=10&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAE
+              - text: "2"
+            - link "Page 3" [ref=e1297] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=20&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAG
+              - text: "3"
+            - link "Page 4" [ref=e1299] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=30&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAI
+              - text: "4"
+            - link "Page 5" [ref=e1301] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=40&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAK
+              - text: "5"
+            - link "Page 6" [ref=e1303] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=50&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAM
+              - text: "6"
+            - link "Page 7" [ref=e1305] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=60&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAO
+              - text: "7"
+            - link "Page 8" [ref=e1307] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=70&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAQ
+              - text: "8"
+            - link "Page 9" [ref=e1309] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=80&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAS
+              - text: "9"
+            - link "Page 10" [ref=e1311] [cursor=pointer]:
+              - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=90&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8tMDegQIThAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1313]:
+              - link "Next" [ref=e1314] [cursor=pointer]:
+                - /url: /search?q=what+is+Google+ADK+2.0+software+development+kit&sca_esv=d11ba7484cdf09fb&ei=dyspasiNMOzKkPIPuav98A4&start=10&sa=N&sstk=AU9db-C3_76YNHUv4fz8_7SOw4W8z3twpX185ZaAbGrx6BvUqkYmrr48hI21f0GX10v5W2dF34DeCSbhVsX0sO76WubbbPaBi0vhlA&ved=2ahUKEwiIpZKcq_yUAxVsJUQIHblVH-4Q8NMDegQIThAW
+                - generic [ref=e1316]: Next
+        - navigation
+    - contentinfo [ref=e1317]:
+      - heading "Footer Links" [level=1] [ref=e1318]
+      - generic [ref=e1322]:
+        - generic [ref=e1326]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e1328] [cursor=pointer]:
+            - generic [ref=e1329]: 92780, Tustin, CA
+            - generic [ref=e1331]:
+              - text: "-"
+              - generic [ref=e1332]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1334] [cursor=pointer]: Update location
+        - generic [ref=e1337]:
+          - link "Help" [ref=e1338] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1339] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1340] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1341] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

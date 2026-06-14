@@ -1,0 +1,918 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "Skip navigation" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: Skip navigation
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - combobox "Search" [expanded] [ref=e33]: lovable.dev ai app builder
+              - button "Clear search query" [ref=e35] [cursor=pointer]:
+                - generic [ref=e38]:
+                  - img
+            - button "Search" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]:
+                - img
+        - generic [ref=e47]:
+          - button "Search with your voice" [ref=e49] [cursor=pointer]:
+            - generic [ref=e53]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e58]:
+        - button "Settings" [ref=e63] [cursor=pointer]:
+          - generic [ref=e66]:
+            - img
+        - link "Sign in" [ref=e69] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dlovable.dev%252Bai%252Bapp%252Bbuilder&hl=en&ec=65620
+          - generic [ref=e73]:
+            - img
+          - generic [ref=e74]: Sign in
+  - navigation [ref=e78]:
+    - generic [ref=e79]:
+      - link "Home" [ref=e81] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e84]:
+          - img
+        - generic [ref=e85]: Home
+      - link "Shorts" [ref=e87] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e90]:
+          - img
+        - generic [ref=e91]: Shorts
+      - link "Subscriptions" [ref=e93] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e96]:
+          - img
+        - generic [ref=e97]: Subscriptions
+      - link "You" [ref=e99] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e102]:
+          - img
+        - generic [ref=e103]: You
+  - generic [ref=e104]:
+    - main [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e108]:
+          - tablist [ref=e113]:
+            - tab "All" [selected] [ref=e117] [cursor=pointer]:
+              - generic [ref=e119]: All
+            - tab "Shorts" [ref=e126] [cursor=pointer]:
+              - generic [ref=e128]: Shorts
+            - tab "Unwatched" [ref=e135] [cursor=pointer]:
+              - generic [ref=e137]: Unwatched
+            - tab "Watched" [ref=e144] [cursor=pointer]:
+              - generic [ref=e146]: Watched
+            - tab "Videos" [ref=e153] [cursor=pointer]:
+              - generic [ref=e155]: Videos
+            - tab "Recently uploaded" [ref=e162] [cursor=pointer]:
+              - generic [ref=e164]: Recently uploaded
+            - tab "Live" [ref=e171] [cursor=pointer]:
+              - generic [ref=e173]: Live
+          - generic [ref=e178]:
+            - button "Search filters" [ref=e180] [cursor=pointer]:
+              - generic [ref=e181]: Filters
+              - generic [ref=e185]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e194]:
+          - generic [ref=e196]:
+            - link [ref=e198] [cursor=pointer]:
+              - /url: /watch?v=FguLWumgCFE&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+              - img [ref=e200]
+              - img [ref=e203]:
+                - generic [ref=e204]: 32:49
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e205] [cursor=pointer]:
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - heading "Lovable AI is INSANE – Build Apps Without Coding (Full Beginner Guide) 32 minutes" [level=3] [ref=e208]:
+                    - link "Lovable AI is INSANE – Build Apps Without Coding (Full Beginner Guide) 32 minutes" [ref=e209]:
+                      - /url: /watch?v=FguLWumgCFE&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Lovable AI is INSANE – Build Apps Without Coding (Full Beginner Guide)
+                  - button "Action menu" [ref=e213]:
+                    - generic [ref=e216]:
+                      - img
+                - generic [ref=e219]:
+                  - generic [ref=e220]: 115K views
+                  - generic [ref=e221]: •7 months ago
+              - generic [ref=e222]:
+                - link "Go to channel Nuno Tavares | Automated Marketer" [ref=e223]:
+                  - /url: /@AutomatedMarketer
+                - link "Nuno Tavares | Automated Marketer" [ref=e229]:
+                  - /url: /@AutomatedMarketer
+              - generic [ref=e230]:
+                - generic [ref=e231]: "Try Lovable for free → https://lovable.dev/?via=nuno-tavares ✓Full Lovable AI series: ..."
+                - tooltip "tooltip"
+              - generic [ref=e232]:
+                - link "0 seconds We are doing a full tutorial on <b>Lovable AI</b> our favorite <b>AI app builder</b> where you can take an idea from Absolute Zero and turn it into&nbsp;..." [ref=e233]:
+                  - /url: /watch?v=FguLWumgCFE
+                  - text: 0:00
+                  - generic [ref=e234]: We are doing a full tutorial on Lovable AI our favorite AI app builder where you can take an idea from Absolute Zero and turn it into ...
+                - tooltip "tooltip"
+          - generic [ref=e236]:
+            - link [ref=e238] [cursor=pointer]:
+              - /url: /watch?v=lhaGyrp1vfY&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+              - img [ref=e240]
+              - img [ref=e243]:
+                - generic [ref=e244]: 24:50
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e245] [cursor=pointer]:
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - heading "Lovable vs MeDo, which AI app builder actually works? 24 minutes" [level=3] [ref=e248]:
+                    - link "Lovable vs MeDo, which AI app builder actually works? 24 minutes" [ref=e249]:
+                      - /url: /watch?v=lhaGyrp1vfY&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Lovable vs MeDo, which AI app builder actually works?
+                  - button "Action menu" [ref=e253]:
+                    - generic [ref=e256]:
+                      - img
+                - generic [ref=e259]:
+                  - generic [ref=e260]: 88K views
+                  - generic [ref=e261]: •4 months ago
+              - generic [ref=e262]:
+                - link "Go to channel Tech With Tim" [ref=e263]:
+                  - /url: /@TechWithTim
+                - generic [ref=e265]:
+                  - link "Tech With Tim" [ref=e269]:
+                    - /url: /@TechWithTim
+                  - img "Verified" [ref=e274]:
+                    - generic [ref=e277]:
+                      - img
+              - generic [ref=e278]:
+                - generic [ref=e279]: AI app builders are everywhere right now, and everyone's claiming that you can go from an idea to a full product in just minutes.
+                - tooltip "tooltip"
+              - generic [ref=e281]:
+                - img "4K" [ref=e284]:
+                  - generic [ref=e285]: 4K
+                - img "Closed captions" [ref=e288]:
+                  - generic [ref=e289]: CC
+              - generic [ref=e292]:
+                - generic [ref=e293]:
+                  - generic [ref=e297]: 9 chapters
+                  - button "Overview | Comparison Metrics | Lovable | MeDo.dev | Free Credits/Usage | Test 1 - Simple Landing Page | Test 2 - Full Stack SaaS | Test 3 - Game Development | Final Thoughts & Price Analysis" [ref=e298]
+                - button "More" [ref=e303]:
+                  - generic [ref=e307]:
+                    - img
+          - generic [ref=e312]:
+            - link [ref=e314] [cursor=pointer]:
+              - /url: /@lovable
+            - generic [ref=e317]:
+              - link "Lovable @lovable•65.3K subscribers Build web apps by chatting with AI." [ref=e318] [cursor=pointer]:
+                - /url: /@lovable
+                - generic [ref=e319]:
+                  - generic [ref=e323]: Lovable
+                  - generic [ref=e324]: "@lovable•65.3K subscribers"
+                  - generic [ref=e325]: Build web apps by chatting with AI.
+              - link "Subscribe" [ref=e330] [cursor=pointer]:
+                - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dlovable.dev%252Bai%252Bapp%252Bbuilder%26continue_action%3DQUFFLUhqbHBEZFVfTmRCNHBfVVRoSHRRaEtzZW1ZVXRqZ3xBQ3Jtc0trb2tmTzZFTTJUNEZ3ckJNay1NT2JnWnE2WWcyeUZMMmhhRWZRZnFlanhoMXdYUlUxZHNtbzZ3MHFUcFlWWElobXFjQWNTdWtXaEltYnA4T3FDZzh5dWNSZHAzN01pMXJWQV9RVWw1UDI5ejNVZlg1ZmxYMTJBUVUwc1MyR0pwQllHYlhSZmtEcmZNcjc3M09VaEVXMnpUaEZ6NlA2d09xU0lTM1htSFpzYnYydWFqVV9kZ1VvdlRTSnM5N2JYeUJ3anlpZjI&hl=en
+                - generic [ref=e331]: Subscribe
+          - generic [ref=e335]:
+            - generic [ref=e338]:
+              - img [ref=e340]:
+                - generic [ref=e342]:
+                  - img
+              - heading "Shorts" [level=2] [ref=e345]
+            - generic [ref=e347]:
+              - generic [ref=e350]:
+                - link [ref=e351] [cursor=pointer]:
+                  - /url: /shorts/t4S3IytnVeg
+                - generic [ref=e355] [cursor=pointer]:
+                  - link "Build Apps Without Code Using Lovable AI & ChatGPT | Step-by-Step AI App Builder Guide" [ref=e356]:
+                    - /url: /shorts/t4S3IytnVeg
+                  - generic [ref=e357]: 69K views
+                - button "More actions" [ref=e359] [cursor=pointer]:
+                  - generic [ref=e363]:
+                    - img
+              - generic [ref=e369]:
+                - link [ref=e370] [cursor=pointer]:
+                  - /url: /shorts/hy1Fe-u2Z3k
+                - generic [ref=e374] [cursor=pointer]:
+                  - 'link "Building Apps For Students At Columbia #lovable #ai #coding #streetinterview #entrepreneurship" [ref=e375]':
+                    - /url: /shorts/hy1Fe-u2Z3k
+                  - generic [ref=e376]: 16K views
+                - button "More actions" [ref=e378] [cursor=pointer]:
+                  - generic [ref=e382]:
+                    - img
+              - generic [ref=e388]:
+                - link [ref=e389] [cursor=pointer]:
+                  - /url: /shorts/PYkBqLqvoKc
+                - generic [ref=e393] [cursor=pointer]:
+                  - link "How to build an app from scratch using Lovable ￼" [ref=e394]:
+                    - /url: /shorts/PYkBqLqvoKc
+                  - generic [ref=e395]: 23K views
+                - button "More actions" [ref=e397] [cursor=pointer]:
+                  - generic [ref=e401]:
+                    - img
+              - generic [ref=e407]:
+                - link [ref=e408] [cursor=pointer]:
+                  - /url: /shorts/4PnnMiQ1J0A
+                - generic [ref=e412] [cursor=pointer]:
+                  - 'link "Lovable AI App Builder: From Idea to Launch!" [ref=e413]':
+                    - /url: /shorts/4PnnMiQ1J0A
+                  - generic [ref=e414]: 42K views
+                - button "More actions" [ref=e416] [cursor=pointer]:
+                  - generic [ref=e420]:
+                    - img
+              - generic [ref=e426]:
+                - link [ref=e427] [cursor=pointer]:
+                  - /url: /shorts/vY5jejuKf9o
+                - generic [ref=e431] [cursor=pointer]:
+                  - 'link "Someone made $3M with Lovable in 48hrs. Here are my top 3 tips to get started. #ai #lovable #aitips" [ref=e432]':
+                    - /url: /shorts/vY5jejuKf9o
+                  - generic [ref=e433]: 74K views
+                - button "More actions" [ref=e435] [cursor=pointer]:
+                  - generic [ref=e439]:
+                    - img
+          - generic [ref=e444]:
+            - link [ref=e446] [cursor=pointer]:
+              - /url: /watch?v=LxrV_U9TKdc&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXLSBwkJOQsBhyohjO8%3D
+            - generic [ref=e448] [cursor=pointer]:
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - heading "Lovable AI Review - Is It Worth Trying? 2 minutes, 49 seconds" [level=3] [ref=e451]:
+                    - link "Lovable AI Review - Is It Worth Trying? 2 minutes, 49 seconds" [ref=e452]:
+                      - /url: /watch?v=LxrV_U9TKdc&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXLSBwkJOQsBhyohjO8%3D
+                      - text: Lovable AI Review - Is It Worth Trying?
+                  - button "Action menu" [ref=e456]:
+                    - generic [ref=e459]:
+                      - img
+                - generic [ref=e462]:
+                  - generic [ref=e463]: 23K views
+                  - generic [ref=e464]: •10 months ago
+              - generic [ref=e465]:
+                - link "Go to channel WEB WISE" [ref=e466]:
+                  - /url: /@webwise150
+                - link "WEB WISE" [ref=e471]:
+                  - /url: /@webwise150
+              - generic [ref=e472]:
+                - generic [ref=e473]: Get the Best Price Available for Lovable AI here https://lovable.dev/?via=taylor-walker Is Lovable AI actually the fastest way to ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e478]:
+                - generic [ref=e479]: 4K
+              - generic [ref=e482]:
+                - generic [ref=e483]:
+                  - generic [ref=e487]: 8 chapters
+                  - 'button "Intro | What is Lovable AI and how does it work | My test project: building a real event website | Responsive features and functionality breakdown | Free plan limits and when to consider going premium | Can you export your project? Key infrastructure details | Who Lovable AI is best for and final thoughts | Outro" [ref=e488]'
+                - button "More" [ref=e493]:
+                  - generic [ref=e497]:
+                    - img
+          - generic [ref=e502]:
+            - link [ref=e504] [cursor=pointer]:
+              - /url: /watch?v=ZD9pr2AWW7E&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e506] [cursor=pointer]:
+              - generic [ref=e507]:
+                - generic [ref=e508]:
+                  - 'heading "Lovable Tutorial: Build & Deploy a Full Stack App with Login + Database (Step-by-Step) 8 minutes, 53 seconds" [level=3] [ref=e509]':
+                    - 'link "Lovable Tutorial: Build & Deploy a Full Stack App with Login + Database (Step-by-Step) 8 minutes, 53 seconds" [ref=e510]':
+                      - /url: /watch?v=ZD9pr2AWW7E&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: "Lovable Tutorial: Build & Deploy a Full Stack App with Login + Database (Step-by-Step)"
+                  - button "Action menu" [ref=e514]:
+                    - generic [ref=e517]:
+                      - img
+                - generic [ref=e520]:
+                  - generic [ref=e521]: 3.4K views
+                  - generic [ref=e522]: •2 months ago
+              - generic [ref=e523]:
+                - link "Go to channel AI Academy" [ref=e524]:
+                  - /url: /@AI-AcademyOfficial
+                - link "AI Academy" [ref=e529]:
+                  - /url: /@AI-AcademyOfficial
+              - generic [ref=e530]:
+                - generic [ref=e531]: "Try Lovable today and start building AI-powered apps in minutes: https://lovable.dev/invite/HXLG19P In this video, I'll go over how ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e536]:
+                - generic [ref=e537]: 4K
+              - generic [ref=e540]:
+                - generic [ref=e541]:
+                  - generic [ref=e545]: 9 chapters
+                  - button "Introduction | Starting a New Project | The Prompt That Builds the Entire App | Testing Authentication (The First Real Check) | Testing the Database (Making Sure This Is Real) | Improving the App Without Writing Code | Understanding What Lovable Actually Built | Deploying the App | Conclusion" [ref=e546]
+                - button "More" [ref=e551]:
+                  - generic [ref=e555]:
+                    - img
+          - generic [ref=e560]:
+            - link [ref=e562] [cursor=pointer]:
+              - /url: /watch?v=6VejFu1nEYs&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e564] [cursor=pointer]:
+              - generic [ref=e565]:
+                - generic [ref=e566]:
+                  - heading "Lovable Tutorial for Beginners (Best AI App Builder?) 16 minutes" [level=3] [ref=e567]:
+                    - link "Lovable Tutorial for Beginners (Best AI App Builder?) 16 minutes" [ref=e568]:
+                      - /url: /watch?v=6VejFu1nEYs&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Lovable Tutorial for Beginners (Best AI App Builder?)
+                  - button "Action menu" [ref=e572]:
+                    - generic [ref=e575]:
+                      - img
+                - generic [ref=e578]:
+                  - generic [ref=e579]: 125K views
+                  - generic [ref=e580]: •1 year ago
+              - generic [ref=e581]:
+                - link "Go to channel Volo Builds" [ref=e582]:
+                  - /url: /@VoloBuilds
+                - link "Volo Builds" [ref=e587]:
+                  - /url: /@VoloBuilds
+              - generic [ref=e588]:
+                - generic [ref=e589]: Full AI Coding Course → https://bit.ly/ai-coding-volo ‍ Lovable.dev is a powerful new AI-powered App Builder. It has powerful ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e594]:
+                - generic [ref=e595]: 4K
+              - generic [ref=e598]:
+                - generic [ref=e599]:
+                  - generic [ref=e603]: 7 chapters
+                  - button "Building with Lovable | GitHub Integration | Supabase Integration | Troubleshooting | Auth Integration | Deployment | Final thoughts + Pricing" [ref=e604]
+                - button "More" [ref=e609]:
+                  - generic [ref=e613]:
+                    - img
+          - generic [ref=e617]:
+            - generic [ref=e620]:
+              - img [ref=e622]:
+                - generic [ref=e624]:
+                  - img
+              - heading "Shorts" [level=2] [ref=e627]
+            - generic [ref=e628]:
+              - generic [ref=e629]:
+                - generic [ref=e632]:
+                  - link [ref=e633] [cursor=pointer]:
+                    - /url: /shorts/1FvgOcL6t1k
+                  - generic [ref=e637] [cursor=pointer]:
+                    - link "How to build an AI app inside Lovable" [ref=e638]:
+                      - /url: /shorts/1FvgOcL6t1k
+                    - generic [ref=e639]: 5.4K views
+                  - button "More actions" [ref=e641] [cursor=pointer]:
+                    - generic [ref=e645]:
+                      - img
+                - generic [ref=e651]:
+                  - link [ref=e652] [cursor=pointer]:
+                    - /url: /shorts/3sNRNkWg0yw
+                  - generic [ref=e656] [cursor=pointer]:
+                    - link "So you've built an app in Lovable. Here's exactly what to do next..." [ref=e657]:
+                      - /url: /shorts/3sNRNkWg0yw
+                    - generic [ref=e658]: 53K views
+                  - button "More actions" [ref=e660] [cursor=pointer]:
+                    - generic [ref=e664]:
+                      - img
+                - generic [ref=e670]:
+                  - link [ref=e671] [cursor=pointer]:
+                    - /url: /shorts/pmMn44gP60s
+                  - generic [ref=e675] [cursor=pointer]:
+                    - 'link "Bubble vs Lovable: AI App Builders Comparison #lovable #bubble #aitools #aiapplications" [ref=e676]':
+                      - /url: /shorts/pmMn44gP60s
+                    - generic [ref=e677]: 5.9K views
+                  - button "More actions" [ref=e679] [cursor=pointer]:
+                    - generic [ref=e683]:
+                      - img
+                - generic [ref=e689]:
+                  - link [ref=e690] [cursor=pointer]:
+                    - /url: /shorts/xIPz114u0Gs
+                  - generic [ref=e694] [cursor=pointer]:
+                    - 'link "Lovable.dev: Build Apps FAST! No Code Needed! #shorts" [ref=e695]':
+                      - /url: /shorts/xIPz114u0Gs
+                    - generic [ref=e696]: 486 views
+                  - button "More actions" [ref=e698] [cursor=pointer]:
+                    - generic [ref=e702]:
+                      - img
+                - generic [ref=e708]:
+                  - link [ref=e709] [cursor=pointer]:
+                    - /url: /shorts/n58sZjjiAk0
+                    - img [ref=e714]:
+                      - generic [ref=e715]: New
+                  - generic [ref=e716] [cursor=pointer]:
+                    - 'link "So easy to do this using lovable.dev #lovablepartner #ai" [ref=e717]':
+                      - /url: /shorts/n58sZjjiAk0
+                    - generic [ref=e718]: 829 views
+                  - button "More actions" [ref=e720] [cursor=pointer]:
+                    - generic [ref=e724]:
+                      - img
+              - generic [ref=e728]:
+                - generic [ref=e731]:
+                  - link [ref=e732] [cursor=pointer]:
+                    - /url: /shorts/eyW8Tz7sTBI
+                  - generic [ref=e736] [cursor=pointer]:
+                    - 'link "We Built A Beautiful Website For His Business #entrepreneurship #ai #lovable" [ref=e737]':
+                      - /url: /shorts/eyW8Tz7sTBI
+                    - generic [ref=e738]: 334K views
+                  - button "More actions" [ref=e740] [cursor=pointer]:
+                    - generic [ref=e744]:
+                      - img
+                - generic [ref=e750]:
+                  - link [ref=e751] [cursor=pointer]:
+                    - /url: /shorts/TO6oosQyREc
+                  - generic [ref=e755] [cursor=pointer]:
+                    - 'link "Build Apps Fast with Lovable.dev 🚀#Tags: #AI #AppBuilder #NoCode" [ref=e756]':
+                      - /url: /shorts/TO6oosQyREc
+                    - generic [ref=e757]: 245 views
+                  - button "More actions" [ref=e759] [cursor=pointer]:
+                    - generic [ref=e763]:
+                      - img
+                - generic [ref=e769]:
+                  - link [ref=e770] [cursor=pointer]:
+                    - /url: /shorts/mQdcprJ1SaU
+                  - generic [ref=e774] [cursor=pointer]:
+                    - 'link "How I used lovable to make $35k in one month #ai #software #lovable #entrepreneur" [ref=e775]':
+                      - /url: /shorts/mQdcprJ1SaU
+                    - generic [ref=e776]: 28K views
+                  - button "More actions" [ref=e778] [cursor=pointer]:
+                    - generic [ref=e782]:
+                      - img
+                - generic [ref=e788]:
+                  - link [ref=e789] [cursor=pointer]:
+                    - /url: /shorts/PsUmURfgPT8
+                  - generic [ref=e793] [cursor=pointer]:
+                    - link "This new AI app builder might be the best one yet…" [ref=e794]:
+                      - /url: /shorts/PsUmURfgPT8
+                    - generic [ref=e795]: 141K views
+                  - button "More actions" [ref=e797] [cursor=pointer]:
+                    - generic [ref=e801]:
+                      - img
+                - generic [ref=e807]:
+                  - link [ref=e808] [cursor=pointer]:
+                    - /url: /shorts/n06-f8ojgxw
+                  - generic [ref=e812] [cursor=pointer]:
+                    - 'link "Is @lovable the Best AI App Builder in 2025? The Truth Nobody’s Saying ... #ai #lovable" [ref=e813]':
+                      - /url: /shorts/n06-f8ojgxw
+                    - generic [ref=e814]: 1.4K views
+                  - button "More actions" [ref=e816] [cursor=pointer]:
+                    - generic [ref=e820]:
+                      - img
+            - button "Show more" [ref=e827] [cursor=pointer]:
+              - generic [ref=e828]: Show more
+              - generic [ref=e832]:
+                - img
+          - generic [ref=e837]:
+            - link [ref=e839] [cursor=pointer]:
+              - /url: /watch?v=mOak_imYmqU&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e841] [cursor=pointer]:
+              - generic [ref=e842]:
+                - generic [ref=e843]:
+                  - heading "Master Lovable AI in 20 Minutes (NEW 2.0 UPDATE) 21 minutes" [level=3] [ref=e844]:
+                    - link "Master Lovable AI in 20 Minutes (NEW 2.0 UPDATE) 21 minutes" [ref=e845]:
+                      - /url: /watch?v=mOak_imYmqU&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Master Lovable AI in 20 Minutes (NEW 2.0 UPDATE)
+                  - button "Action menu" [ref=e849]:
+                    - generic [ref=e852]:
+                      - img
+                - generic [ref=e855]:
+                  - generic [ref=e856]: 389K views
+                  - generic [ref=e857]: •10 months ago
+              - generic [ref=e858]:
+                - link "Go to channel Darrel Wilson" [ref=e859]:
+                  - /url: /@darrelwilson
+                - generic [ref=e860]:
+                  - link "Darrel Wilson" [ref=e864]:
+                    - /url: /@darrelwilson
+                  - img "Verified" [ref=e869]:
+                    - generic [ref=e872]:
+                      - img
+              - generic [ref=e873]:
+                - generic [ref=e874]: "Try Loveable AI Free: https://darrelwilson.com/recommends/loveable Create an eCom App With Lovable: ..."
+                - tooltip "tooltip"
+              - generic [ref=e877]:
+                - generic [ref=e878]:
+                  - generic [ref=e882]: 6 chapters
+                  - button "Intro | Make Website Website | Make App | Wordspace And \"Remix\" | More Complex Designs | How To Build A Database" [ref=e883]
+                - button "More" [ref=e888]:
+                  - generic [ref=e892]:
+                    - img
+          - generic [ref=e897]:
+            - link [ref=e899] [cursor=pointer]:
+              - /url: /watch?v=6rrqUZU8wTU&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e901] [cursor=pointer]:
+              - generic [ref=e902]:
+                - generic [ref=e903]:
+                  - heading "How to Build and Deploy Your First AI App with Lovable.dev (No Code Needed) 6 minutes, 23 seconds" [level=3] [ref=e904]:
+                    - link "How to Build and Deploy Your First AI App with Lovable.dev (No Code Needed) 6 minutes, 23 seconds" [ref=e905]:
+                      - /url: /watch?v=6rrqUZU8wTU&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: How to Build and Deploy Your First AI App with Lovable.dev (No Code Needed)
+                  - button "Action menu" [ref=e909]:
+                    - generic [ref=e912]:
+                      - img
+                - generic [ref=e915]:
+                  - generic [ref=e916]: 215K views
+                  - generic [ref=e917]: •11 months ago
+              - generic [ref=e918]:
+                - link "Go to channel AI Academy" [ref=e919]:
+                  - /url: /@AI-AcademyOfficial
+                - link "AI Academy" [ref=e924]:
+                  - /url: /@AI-AcademyOfficial
+              - generic [ref=e925]:
+                - generic [ref=e926]: "Try Lovable here and start building your own AI app: https://lovable.dev/invite/HXLG19P Get Hostinger to build your website ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e931]:
+                - generic [ref=e932]: 4K
+              - generic [ref=e935]:
+                - generic [ref=e936]:
+                  - generic [ref=e940]: 10 chapters
+                  - button "Introduction | Getting Started with Lovable.dev | Creating a PRD with ChatGPT | Pasting PRD into Lovable | Pricing of Lovable | Reviewing the First Version | Connecting to Supabase | Testing and Debugging | Publishing the Application | Conclusion" [ref=e941]
+                - button "More" [ref=e946]:
+                  - generic [ref=e950]:
+                    - img
+          - generic [ref=e955]:
+            - link [ref=e957] [cursor=pointer]:
+              - /url: /watch?v=dLxz6zDGzUQ&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e959] [cursor=pointer]:
+              - generic [ref=e960]:
+                - generic [ref=e961]:
+                  - heading "Building 5 AI Apps In 30 Minutes (ChatGPT + Lovable Tutorial) 30 minutes" [level=3] [ref=e962]:
+                    - link "Building 5 AI Apps In 30 Minutes (ChatGPT + Lovable Tutorial) 30 minutes" [ref=e963]:
+                      - /url: /watch?v=dLxz6zDGzUQ&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Building 5 AI Apps In 30 Minutes (ChatGPT + Lovable Tutorial)
+                  - button "Action menu" [ref=e967]:
+                    - generic [ref=e970]:
+                      - img
+                - generic [ref=e973]:
+                  - generic [ref=e974]: 183K views
+                  - generic [ref=e975]: •10 months ago
+              - generic [ref=e976]:
+                - link "Go to channel Tina Huang" [ref=e977]:
+                  - /url: /@TinaHuang1
+                - generic [ref=e978]:
+                  - link "Tina Huang" [ref=e982]:
+                    - /url: /@TinaHuang1
+                  - img "Verified" [ref=e987]:
+                    - generic [ref=e990]:
+                      - img
+              - generic [ref=e991]:
+                - generic [ref=e992]: "Start building AI apps for free with #lovable and use code TINA20YT for a 20% discount at https://lovable.dev/ PRP Metaprompt: ..."
+                - tooltip "tooltip"
+              - generic [ref=e995]:
+                - generic [ref=e996]:
+                  - generic [ref=e1000]: 9 chapters
+                  - 'button "Intro | Frameworks for Building AI Apps | Quiz 1 | Project 1: The Everything Calculator | Project 2: Freelancer Toolkit | Project 3: Mobile App Drawing Coach | Project 4: Personal Finance Dashboard | Project 5: Task Manager AI Agent | Quiz 2" [ref=e1001]'
+                - button "More" [ref=e1006]:
+                  - generic [ref=e1010]:
+                    - img
+          - generic [ref=e1015]:
+            - link [ref=e1017] [cursor=pointer]:
+              - /url: /watch?v=N7NsveOiG-g&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1019] [cursor=pointer]:
+              - generic [ref=e1020]:
+                - generic [ref=e1021]:
+                  - 'heading "Lovable AI: How to Build an App & Upload to App Store (Tutorial) 38 minutes" [level=3] [ref=e1022]':
+                    - 'link "Lovable AI: How to Build an App & Upload to App Store (Tutorial) 38 minutes" [ref=e1023]':
+                      - /url: /watch?v=N7NsveOiG-g&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: "Lovable AI: How to Build an App & Upload to App Store (Tutorial)"
+                  - button "Action menu" [ref=e1027]:
+                    - generic [ref=e1030]:
+                      - img
+                - generic [ref=e1033]:
+                  - generic [ref=e1034]: 112K views
+                  - generic [ref=e1035]: •5 months ago
+              - generic [ref=e1036]:
+                - link "Go to channel Mikey No Code" [ref=e1037]:
+                  - /url: /@mikeynocode
+                - link "Mikey No Code" [ref=e1042]:
+                  - /url: /@mikeynocode
+              - generic [ref=e1043]:
+                - generic [ref=e1044]: "Tool I used: ✓ (UPDATE) Best AI App builder is Base44 (Lovable is outdated) ..."
+                - tooltip "tooltip"
+              - generic [ref=e1047]:
+                - generic [ref=e1048]:
+                  - generic [ref=e1052]: Matching chapter
+                  - button "0:00 Building a Viral AI App with Lovable" [ref=e1053]
+                - button "More" [ref=e1058]:
+                  - generic [ref=e1062]:
+                    - img
+          - generic [ref=e1067]:
+            - link [ref=e1069] [cursor=pointer]:
+              - /url: /watch?v=rqvtLxwMklo&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1071] [cursor=pointer]:
+              - generic [ref=e1072]:
+                - generic [ref=e1073]:
+                  - heading "Master Lovable In 24 Minutes 24 minutes" [level=3] [ref=e1074]:
+                    - link "Master Lovable In 24 Minutes 24 minutes" [ref=e1075]:
+                      - /url: /watch?v=rqvtLxwMklo&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Master Lovable In 24 Minutes
+                  - button "Action menu" [ref=e1079]:
+                    - generic [ref=e1082]:
+                      - img
+                - generic [ref=e1085]:
+                  - generic [ref=e1086]: 143K views
+                  - generic [ref=e1087]: •5 months ago
+              - generic [ref=e1088]:
+                - link "Go to channel Lovable" [ref=e1089]:
+                  - /url: /@lovable
+                - link "Lovable" [ref=e1094]:
+                  - /url: /@lovable
+              - generic [ref=e1095]:
+                - generic [ref=e1096]: "Try Lovable now: https://lovable.dev/?utm_source=youtube-organic&utm_campaign=tutorial&utm_content=master-lovable-24min ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e1101]:
+                - generic [ref=e1102]: 4K
+              - generic [ref=e1105]:
+                - generic [ref=e1106]:
+                  - generic [ref=e1110]: 15 chapters
+                  - button "Intro to Lovable | Writing first prompt | Previewing the first version | Iterating by prompting | Custom knowledge | Visual edits | Reverting | Lovable Cloud | Lovable AI | Updating custom knowledge | Chat-only mode | Integrating external APIs | Adding payments | Publishing & Security | Wrap up" [ref=e1111]
+                - button "More" [ref=e1116]:
+                  - generic [ref=e1120]:
+                    - img
+          - generic [ref=e1125]:
+            - link [ref=e1127] [cursor=pointer]:
+              - /url: /watch?v=WG-Sdvmq4r8&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1129] [cursor=pointer]:
+              - generic [ref=e1130]:
+                - generic [ref=e1131]:
+                  - heading "5 Tiny Apps Making $50,000+/Month Built With AI (Lovable) 11 minutes, 35 seconds" [level=3] [ref=e1132]:
+                    - link "5 Tiny Apps Making $50,000+/Month Built With AI (Lovable) 11 minutes, 35 seconds" [ref=e1133]:
+                      - /url: /watch?v=WG-Sdvmq4r8&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: 5 Tiny Apps Making $50,000+/Month Built With AI (Lovable)
+                  - button "Action menu" [ref=e1137]:
+                    - generic [ref=e1140]:
+                      - img
+                - generic [ref=e1143]:
+                  - generic [ref=e1144]: 11K views
+                  - generic [ref=e1145]: •2 months ago
+              - generic [ref=e1146]:
+                - link "Go to channel Christian Peverelli - WeAreNoCode" [ref=e1147]:
+                  - /url: /@wearenocode
+                - link "Christian Peverelli - WeAreNoCode" [ref=e1152]:
+                  - /url: /@wearenocode
+              - generic [ref=e1153]:
+                - generic [ref=e1154]: "Lovable (AI App Builder): https://lovable.link/Byhy3ow FREE AI Startup Playbook: https://www.wearenocode.com/free-playbook ..."
+                - tooltip "tooltip"
+          - generic [ref=e1156]:
+            - link [ref=e1158] [cursor=pointer]:
+              - /url: /watch?v=_q5HWwSWCds&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1160] [cursor=pointer]:
+              - generic [ref=e1161]:
+                - generic [ref=e1162]:
+                  - heading "How to Build Lovable Apps Inside ChatGPT (Instantly) 6 minutes" [level=3] [ref=e1163]:
+                    - link "How to Build Lovable Apps Inside ChatGPT (Instantly) 6 minutes" [ref=e1164]:
+                      - /url: /watch?v=_q5HWwSWCds&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: How to Build Lovable Apps Inside ChatGPT (Instantly)
+                  - button "Action menu" [ref=e1168]:
+                    - generic [ref=e1171]:
+                      - img
+                - generic [ref=e1174]:
+                  - generic [ref=e1175]: 5.8K views
+                  - generic [ref=e1176]: •5 months ago
+              - generic [ref=e1177]:
+                - link "Go to channel Brock Mesarich | AI for Non Techies" [ref=e1178]:
+                  - /url: /@BrockMesarich
+                - link "Brock Mesarich | AI for Non Techies" [ref=e1183]:
+                  - /url: /@BrockMesarich
+              - generic [ref=e1184]:
+                - generic [ref=e1185]: You can now build full apps directly inside ChatGPT using Lovable. This new update lets you design and iterate on apps without ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e1190]:
+                - generic [ref=e1191]: 4K
+              - generic [ref=e1194]:
+                - generic [ref=e1195]:
+                  - generic [ref=e1196]:
+                    - generic [ref=e1199]:
+                      - img
+                    - generic [ref=e1200]: Summary
+                  - button
+                  - text: ·
+                - button "More" [ref=e1205]:
+                  - generic [ref=e1209]:
+                    - img
+          - generic [ref=e1214]:
+            - link [ref=e1216] [cursor=pointer]:
+              - /url: /watch?v=atiaQHSODO0&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1218] [cursor=pointer]:
+              - generic [ref=e1219]:
+                - generic [ref=e1220]:
+                  - heading "How I'd Make a $10,000 App with Lovable In 1 hour (AI + No Code) 1 hour, 7 minutes" [level=3] [ref=e1221]:
+                    - link "How I'd Make a $10,000 App with Lovable In 1 hour (AI + No Code) 1 hour, 7 minutes" [ref=e1222]:
+                      - /url: /watch?v=atiaQHSODO0&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: How I'd Make a $10,000 App with Lovable In 1 hour (AI + No Code)
+                  - button "Action menu" [ref=e1226]:
+                    - generic [ref=e1229]:
+                      - img
+                - generic [ref=e1232]:
+                  - generic [ref=e1233]: 65K views
+                  - generic [ref=e1234]: •9 months ago
+              - generic [ref=e1235]:
+                - link "Go to channel Mikey No Code" [ref=e1236]:
+                  - /url: /@mikeynocode
+                - link "Mikey No Code" [ref=e1241]:
+                  - /url: /@mikeynocode
+              - generic [ref=e1242]:
+                - generic [ref=e1243]: "Tool I used: ✓ Best AI App builder is Base44 (Lovable is outdated) ..."
+                - tooltip "tooltip"
+              - generic [ref=e1246]:
+                - generic [ref=e1247]:
+                  - generic [ref=e1248]:
+                    - generic [ref=e1251]:
+                      - img
+                    - generic [ref=e1252]: Summary
+                  - button
+                  - text: ·
+                - button "More" [ref=e1257]:
+                  - generic [ref=e1261]:
+                    - img
+          - generic [ref=e1266]:
+            - link [ref=e1268] [cursor=pointer]:
+              - /url: /watch?v=0UCWNYd3Heg&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1270] [cursor=pointer]:
+              - generic [ref=e1271]:
+                - generic [ref=e1272]:
+                  - 'heading "Base44 vs Lovable: which AI app builder comes out on top? 20 minutes" [level=3] [ref=e1273]':
+                    - 'link "Base44 vs Lovable: which AI app builder comes out on top? 20 minutes" [ref=e1274]':
+                      - /url: /watch?v=0UCWNYd3Heg&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: "Base44 vs Lovable: which AI app builder comes out on top?"
+                  - button "Action menu" [ref=e1278]:
+                    - generic [ref=e1281]:
+                      - img
+                - generic [ref=e1284]:
+                  - generic [ref=e1285]: 22K views
+                  - generic [ref=e1286]: •5 months ago
+              - generic [ref=e1287]:
+                - link "Go to channel Santrel Media" [ref=e1288]:
+                  - /url: /@SantrelMedia
+                - generic [ref=e1289]:
+                  - link "Santrel Media" [ref=e1293]:
+                    - /url: /@SantrelMedia
+                  - img "Verified" [ref=e1298]:
+                    - generic [ref=e1301]:
+                      - img
+              - generic [ref=e1302]:
+                - generic [ref=e1303]: "START HERE: https://santrelmedia.com/Base44 Lovable: https://santrelmedia.com/Lovable Lovable tutorial ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e1308]:
+                - generic [ref=e1309]: 4K
+              - generic [ref=e1312]:
+                - generic [ref=e1313]:
+                  - generic [ref=e1317]: 10 chapters
+                  - button "Lovable vs Base44 | What is Base44 | Getting started | Quick newsletter shoutout! | Lovable Error | Reviewing the output of Lovable and Base44 | Editing on both platforms | Integrations | Pricing | Output v2" [ref=e1318]
+                - button "More" [ref=e1323]:
+                  - generic [ref=e1327]:
+                    - img
+          - generic [ref=e1332] [cursor=pointer]:
+            - link [ref=e1333]:
+              - /url: /watch?v=hkMDdJehsvY&list=PLv9iG7LyEvIlNIXgqRQ_vlYi5LlJR2cnr
+              - generic [ref=e1343]:
+                - generic [ref=e1346]:
+                  - img
+                - generic [ref=e1347]: 31 videos
+            - generic [ref=e1350]:
+              - heading "Lovable Mobile Apps" [level=3] [ref=e1351]:
+                - link "Lovable Mobile Apps" [ref=e1352]:
+                  - /url: /watch?v=hkMDdJehsvY&list=PLv9iG7LyEvIlNIXgqRQ_vlYi5LlJR2cnr
+              - generic [ref=e1354]:
+                - group [ref=e1355]:
+                  - link "NoCode ProCode - Despia CEO" [ref=e1358]:
+                    - /url: /@NoCodeProCode
+                  - generic [ref=e1359]: •
+                  - link "Playlist" [ref=e1362]:
+                    - /url: /@NoCodeProCode
+                - group [ref=e1363]
+                - group [ref=e1364]:
+                  - link "Build Mobile Apps with Lovable - Full Blueprint · 12:42" [ref=e1366]:
+                    - /url: /watch?v=hkMDdJehsvY&list=PLv9iG7LyEvIlNIXgqRQ_vlYi5LlJR2cnr&pp=0gcJCfcAOCosWNin
+                - group [ref=e1367]:
+                  - link "Native App Settings in Lovable Mobile Apps · 3:11" [ref=e1369]:
+                    - /url: /watch?v=hbr3nlHVqQc&list=PLv9iG7LyEvIlNIXgqRQ_vlYi5LlJR2cnr
+                - group [ref=e1370]
+                - group [ref=e1371]:
+                  - link "View full playlist" [ref=e1374]:
+                    - /url: /playlist?list=PLv9iG7LyEvIlNIXgqRQ_vlYi5LlJR2cnr
+          - generic [ref=e1376]:
+            - link [ref=e1378] [cursor=pointer]:
+              - /url: /watch?v=TwKPvKy6Vbg&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1380] [cursor=pointer]:
+              - generic [ref=e1381]:
+                - generic [ref=e1382]:
+                  - heading "Building a SaaS in 9 Hours with Lovable (AI App Builder Tutorial) 8 minutes, 33 seconds" [level=3] [ref=e1383]:
+                    - link "Building a SaaS in 9 Hours with Lovable (AI App Builder Tutorial) 8 minutes, 33 seconds" [ref=e1384]:
+                      - /url: /watch?v=TwKPvKy6Vbg&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Building a SaaS in 9 Hours with Lovable (AI App Builder Tutorial)
+                  - button "Action menu" [ref=e1388]:
+                    - generic [ref=e1391]:
+                      - img
+                - generic [ref=e1394]:
+                  - generic [ref=e1395]: 27K views
+                  - generic [ref=e1396]: •7 months ago
+              - generic [ref=e1397]:
+                - link "Go to channel AI Led Growth" [ref=e1398]:
+                  - /url: /@ai-led-growth
+                - link "AI Led Growth" [ref=e1403]:
+                  - /url: /@ai-led-growth
+              - generic [ref=e1404]:
+                - generic [ref=e1405]: "Get our 2-hour session on Vibe Marketing with Lovable to 10x your productivity: https://go.ailedgrowth.com/4rknyQj Everyone's ..."
+                - tooltip "tooltip"
+              - generic [ref=e1408]:
+                - generic [ref=e1409]:
+                  - generic [ref=e1413]: 14 chapters
+                  - 'button "Introduction: Building End-to-End with Only Prompting | Loan Kit Homepage & Product Overview | Customer Portal: Adding Prospects & Running Assessments | Assessment Results & Loan Product Options | Profile Enrichment Using Edge Functions (The Cool Part) | Document Upload System with Password-Protected Links | AI Document Processing: PDF Extraction with GPT-4 Vision | Document Classification & Auto-Extracted Data | Tools Section: Loan Calculator Demo | Stripe Integration: Checkout Flow (Fully Prompted) | Backend: Edge Functions, Storage Cleanup, User Management | Database Design: CSV Research → Production Tables | Analytics & Visitor Tracking | Planning with Claude: How the Build Started" [ref=e1414]'
+                - button "More" [ref=e1419]:
+                  - generic [ref=e1423]:
+                    - img
+          - generic [ref=e1428]:
+            - link [ref=e1430] [cursor=pointer]:
+              - /url: /watch?v=FfRYw1jeY5c&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1432] [cursor=pointer]:
+              - generic [ref=e1433]:
+                - generic [ref=e1434]:
+                  - heading "The Lovable alternatives I wish I knew about sooner (I tested all 7) 7 minutes, 50 seconds" [level=3] [ref=e1435]:
+                    - link "The Lovable alternatives I wish I knew about sooner (I tested all 7) 7 minutes, 50 seconds" [ref=e1436]:
+                      - /url: /watch?v=FfRYw1jeY5c&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: The Lovable alternatives I wish I knew about sooner (I tested all 7)
+                  - button "Action menu" [ref=e1440]:
+                    - generic [ref=e1443]:
+                      - img
+                - generic [ref=e1446]:
+                  - generic [ref=e1447]: 20K views
+                  - generic [ref=e1448]: •7 months ago
+              - generic [ref=e1449]:
+                - link "Go to channel No Code MBA" [ref=e1450]:
+                  - /url: /@nocodemba
+                - link "No Code MBA" [ref=e1455]:
+                  - /url: /@nocodemba
+              - generic [ref=e1456]:
+                - generic [ref=e1457]: Read our free 2-min AI daily brief → https://nocode.mba/newsletter?refer=youtube-FfRYw1jeY5c In this video I test seven Lovable ...
+                - tooltip "tooltip"
+              - img "Closed captions" [ref=e1462]:
+                - generic [ref=e1463]: CC
+              - generic [ref=e1466]:
+                - generic [ref=e1467]:
+                  - generic [ref=e1468]:
+                    - generic [ref=e1471]:
+                      - img
+                    - generic [ref=e1472]: Summary
+                  - button
+                  - text: ·
+                - button "More" [ref=e1477]:
+                  - generic [ref=e1481]:
+                    - img
+          - generic [ref=e1486]:
+            - link [ref=e1488] [cursor=pointer]:
+              - /url: /watch?v=-lPee4zMQlk&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+            - generic [ref=e1490] [cursor=pointer]:
+              - generic [ref=e1491]:
+                - generic [ref=e1492]:
+                  - heading "Lovable Tutorial | Build Your Business App Idea in Minutes with AI 13 minutes, 45 seconds" [level=3] [ref=e1493]:
+                    - link "Lovable Tutorial | Build Your Business App Idea in Minutes with AI 13 minutes, 45 seconds" [ref=e1494]:
+                      - /url: /watch?v=-lPee4zMQlk&pp=ygUabG92YWJsZS5kZXYgYWkgYXBwIGJ1aWxkZXI%3D
+                      - text: Lovable Tutorial | Build Your Business App Idea in Minutes with AI
+                  - button "Action menu" [ref=e1498]:
+                    - generic [ref=e1501]:
+                      - img
+                - generic [ref=e1504]:
+                  - generic [ref=e1505]: 16K views
+                  - generic [ref=e1506]: •8 months ago
+              - generic [ref=e1507]:
+                - link "Go to channel Stewart Gauld" [ref=e1508]:
+                  - /url: /@StewartGauld
+                - generic [ref=e1509]:
+                  - link "Stewart Gauld" [ref=e1513]:
+                    - /url: /@StewartGauld
+                  - img "Verified" [ref=e1518]:
+                    - generic [ref=e1521]:
+                      - img
+              - generic [ref=e1522]:
+                - generic [ref=e1523]: Today, in this Lovable tutorial, I share how you can use Lovable to generate web apps and tools in minutes by chatting with AI.
+                - tooltip "tooltip"
+              - img "4K" [ref=e1528]:
+                - generic [ref=e1529]: 4K
+              - generic [ref=e1532]:
+                - generic [ref=e1533]:
+                  - generic [ref=e1537]: 16 chapters
+                  - button "Intro | What is Lovable? | Getting started with Lovable | Preview and edit your web app | Customize via chat | Connect Lovable Cloud | Add paid subscription | Connect Stripe | Revert to older versions | Preview Lovable code | Modify and view Lovable Cloud | Preview and fix security issues | Preview analytics | Publish your web app | Lovable alternative | Outro" [ref=e1538]
+                - button "More" [ref=e1543]:
+                  - generic [ref=e1547]:
+                    - img
+          - generic [ref=e1552] [cursor=pointer]:
+            - link [ref=e1553]:
+              - /url: /watch?v=pEqDJanMFuk&list=PLzGdIG6wLMjjTEelI0h0lQh3zEcJWJyzU
+              - generic [ref=e1563]:
+                - generic [ref=e1566]:
+                  - img
+                - generic [ref=e1567]: 23 videos
+            - generic [ref=e1570]:
+              - heading "Complete SaaS Development with Lovable.dev - Build an AI Video Caption Generator" [level=3] [ref=e1571]:
+                - link "Complete SaaS Development with Lovable.dev - Build an AI Video Caption Generator" [ref=e1572]:
+                  - /url: /watch?v=pEqDJanMFuk&list=PLzGdIG6wLMjjTEelI0h0lQh3zEcJWJyzU
+              - generic [ref=e1574]:
+                - group [ref=e1575]:
+                  - link "Zohar Vanunu | זוהר וענונו" [ref=e1578]:
+                    - /url: /@ZoharVanunu
+                  - generic [ref=e1579]: •
+                  - link "Playlist" [ref=e1582]:
+                    - /url: /@ZoharVanunu
+                - group [ref=e1583]
+                - group [ref=e1584]:
+                  - 'link "From IDEA to LAUNCH: Create a FULL AI Web App with Lovable.dev | 100% FREE Course · 0:57" [ref=e1586]':
+                    - /url: /watch?v=pEqDJanMFuk&list=PLzGdIG6wLMjjTEelI0h0lQh3zEcJWJyzU&pp=0gcJCfcAOCosWNin
+                - group [ref=e1587]:
+                  - 'link "Chapter 1: ClipCaption - Feature Presentation Overview | Lovable.dev Course · 3:58" [ref=e1589]':
+                    - /url: /watch?v=-A76lLhO6tg&list=PLzGdIG6wLMjjTEelI0h0lQh3zEcJWJyzU
+                - group [ref=e1590]
+                - group [ref=e1591]:
+                  - link "View full playlist" [ref=e1594]:
+                    - /url: /playlist?list=PLzGdIG6wLMjjTEelI0h0lQh3zEcJWJyzU
+    - text: •

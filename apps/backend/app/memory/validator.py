@@ -21,6 +21,12 @@ class MemoryValidator:
             raise MemoryValidationError(f"Duplicate node id: {frontmatter.id}")
         if frontmatter.status == NodeStatus.ACTIVE and active_node_count >= self.active_node_cap:
             raise MemoryValidationError("Active memory node cap would be exceeded.")
+        if not frontmatter.tree.strip():
+            raise MemoryValidationError("Memory node tree must not be empty.")
+        if frontmatter.parent_id == frontmatter.id:
+            raise MemoryValidationError("Memory node cannot parent itself.")
+        if frontmatter.parent_id and frontmatter.parent_id not in existing_ids:
+            raise MemoryValidationError(f"Unknown parent node: {frontmatter.parent_id}")
 
         for link in frontmatter.links:
             if link.target_id == frontmatter.id:

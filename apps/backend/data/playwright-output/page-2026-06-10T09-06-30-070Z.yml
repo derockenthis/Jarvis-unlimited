@@ -1,0 +1,324 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: site:reddit.com "lovable.dev" problem issue limitation feature request complaint price expensive alternatives site:reddit.com "lovable.dev" problem issue limitation feature request complaint price expensive alternatives
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:reddit.com%2B%2522lovable.dev%2522%2Bproblem%2Bissue%2Blimitation%2Bfeature%2Brequest%2Bcomplaint%2Bprice%2Bexpensive%2Balternatives&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+alternatives&sca_esv=d11ba7484cdf09fb&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6Ofh8q4lh0CmiimQpw3MDsxReRYY8EAfyPOPui60KHiG5ObU4njovih_yCSbn6PVYIUkFb8B4pMyboM6gm_lYlu9g-N0Z6A&aep=1&ntc=1&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQ2J8OegQIDxAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Short videos" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6Ofh8q4lh0CmiimQpw3MDsxReRYY8EAfyPOPui60KHiG5ObU4njovih_yCSbn6PVYIUkFb8B4pMyboM6gm_lYlu9g-N0Z6A&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+alternatives&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQs6gLegQIFBAB
+              - generic [ref=e90]: Short videos
+          - listitem [ref=e91]:
+            - link "Images" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6Ofh8q4lh0CmiimQpw3MDsxReRYY8EAfyPOPui60KHiG5ObU4njovih_yCSbn6PVYIUkFb8B4pMyboM6gm_lYlu9g-N0Z6A&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+alternatives&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQtKgLegQIExAB
+              - generic [ref=e94]: Images
+          - listitem [ref=e95]:
+            - link "News" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+alternatives&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6Ofh8q4lh0CmiimQpw3MDsxReRYY8EAfyPOPui60KHiG5ObU4njovih_yCSbn6PVYIUkFb8B4pMyboM6gm_lYlu9g-N0Z6A&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQ0pQJegQIERAB
+              - generic [ref=e98]: News
+          - listitem [ref=e99]:
+            - link "Forums" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6Ofh8q4lh0CmiimQpw3MDsxReRYY8EAfyPOPui60KHiG5ObU4njovih_yCSbn6PVYIUkFb8B4pMyboM6gm_lYlu9g-N0Z6A&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+alternatives&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQs6gLegQIFRAB
+              - generic [ref=e102]: Forums
+          - listitem [ref=e103]:
+            - link "Shopping" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWlJZsmUZO02Mn3Xk0gnThkk5CHZ50Ie2Uexo_Lh6Ofh8q4lh0CmiimQpw3MDsxReRYY8EAfyPOPui60KHiG5ObU4njovih_yCSbn6PVYIUkFb8B4pMyboM6gm_lYlu9g-N0Z6A&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+alternatives&ved=1t:220175&ictx=111
+              - generic [ref=e106]: Shopping
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - main [ref=e125]:
+      - generic [ref=e129]:
+        - generic [ref=e132]:
+          - heading "Web results" [level=2] [ref=e133]
+          - generic [ref=e134]:
+            - generic [ref=e137]:
+              - link "The Problem with Lovable Reddit · r/lovable 190+ comments · 11 months ago" [ref=e139] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/lovable/comments/1le45id/the_problem_with_lovable/
+                - heading "The Problem with Lovable" [level=3] [ref=e140]
+                - generic [ref=e145]:
+                  - generic [ref=e147]: Reddit · r/lovable
+                  - generic [ref=e149]: 190+ comments · 11 months ago
+              - button "About this result" [ref=e150] [cursor=pointer]:
+                - img [ref=e153]
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - emphasis [ref=e158]: Lovable dev
+                - text: becoming a trendy vibe coding platform but it is not worth spending with taking subscription as of now. A simple sign up / sign ...
+              - link "Read more" [ref=e159] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/lovable/comments/1le45id/the_problem_with_lovable/#:~:text=Lovable%20dev%20becoming%20a%20trendy,40%20credits%20no%20resolution%20still.
+        - generic [ref=e163]:
+          - generic [ref=e166]:
+            - link "What is going on with Lovable??? Reddit · r/lovable 120+ comments · 9 months ago" [ref=e168] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/lovable/comments/1n7g499/what_is_going_on_with_lovable/
+              - heading "What is going on with Lovable???" [level=3] [ref=e169]
+              - generic [ref=e174]:
+                - generic [ref=e176]: Reddit · r/lovable
+                - generic [ref=e178]: 120+ comments · 9 months ago
+            - button "About this result" [ref=e179] [cursor=pointer]:
+              - img [ref=e182]
+          - generic [ref=e185]: Its crazy how its downgraded. Its become so stupid, changing things when explicitly requested it to only change an image!!! Am i the only one, been a long ...
+          - generic [ref=e190]:
+            - link "126 answers" [ref=e191] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/lovable/comments/1n7g499/what_is_going_on_with_lovable/nc79ukh/
+            - generic [ref=e192]: ·
+            - generic [ref=e193]: "Top answer:"
+            - generic [ref=e194]: It seems Lovable isn’t so lovable after all, the removal of legacy mode was brave enough, ...
+          - generic [ref=e196]: "Missing: price ‎alternatives"
+        - generic [ref=e200]:
+          - generic [ref=e203]:
+            - link "My honest experience with Lovable after burning through € ... Reddit · r/vibecoding 30+ comments · 8 months ago" [ref=e205] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/vibecoding/comments/1nqx6s0/my_honest_experience_with_lovable_after_burning/
+              - heading "My honest experience with Lovable after burning through € ..." [level=3] [ref=e206]
+              - generic [ref=e211]:
+                - generic [ref=e213]: Reddit · r/vibecoding
+                - generic [ref=e215]: 30+ comments · 8 months ago
+            - button "About this result" [ref=e216] [cursor=pointer]:
+              - img [ref=e219]
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - text: ... takes 5-20 mins to do. TechTeezy. •. 5mo ago. Hey can you do mine please. https://
+              - emphasis [ref=e224]: lovable.dev
+              - text: /invite/FRXFXBQ · PatrickHusband. •. 4mo ago.
+            - link "Read more" [ref=e225] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/vibecoding/comments/1nqx6s0/my_honest_experience_with_lovable_after_burning/#:~:text=Through%20your%20referral%20link%2C%20i,4mo%20ago
+          - generic [ref=e227]: "Missing: complaint ‎alternatives"
+        - generic [ref=e231]:
+          - generic [ref=e234]:
+            - 'link "No Code Regrets : r/nocode Reddit · r/nocode 10+ comments · 1 year ago" [ref=e236] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/nocode/comments/1ioy1g7/no_code_regrets/
+              - 'heading "No Code Regrets : r/nocode" [level=3] [ref=e237]'
+              - generic [ref=e242]:
+                - generic [ref=e244]: Reddit · r/nocode
+                - generic [ref=e246]: 10+ comments · 1 year ago
+            - button "About this result" [ref=e247] [cursor=pointer]:
+              - img [ref=e250]
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - text: I found training vids/
+              - emphasis [ref=e255]: options
+              - text: the weakest
+              - emphasis [ref=e256]: feature
+              - text: of most no code, which is unfortunate as ...
+              - emphasis [ref=e257]: Lovable.dev
+              - text: is a timesaver. WindyCityChick.
+            - link "Read more" [ref=e258] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/nocode/comments/1ioy1g7/no_code_regrets/#:~:text=I%20found%20training%20vids%2F%20options,some%20were%20really%2C%20really%20good.&text=Lovable.dev%20is%20a%20timesaver.,WindyCityChick
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - link "Do People Really Just Create An Entire App just Vibe ... Reddit · r/webdev 330+ comments · 4 months ago" [ref=e267] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/webdev/comments/1qfzemc/do_people_really_just_create_an_entire_app_just/
+              - heading "Do People Really Just Create An Entire App just Vibe ..." [level=3] [ref=e268]
+              - generic [ref=e273]:
+                - generic [ref=e275]: Reddit · r/webdev
+                - generic [ref=e277]: 330+ comments · 4 months ago
+            - button "About this result" [ref=e278] [cursor=pointer]:
+              - img [ref=e281]
+          - generic [ref=e284]: I do work as a programmer and use chatgpt (free version only ) for generating boilerplate code and snippets, but nothing more than that. And it doesn't ...
+          - generic [ref=e289]:
+            - link "334 answers" [ref=e290] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/webdev/comments/1qfzemc/do_people_really_just_create_an_entire_app_just/o08rbwy/
+            - generic [ref=e291]: ·
+            - generic [ref=e292]: "Top answer:"
+            - generic [ref=e293]: Vibe coding seems great for POCs and demos. For larger projects, I have found it only works ...
+          - generic [ref=e295]:
+            - text: "Missing: alternatives ‎| Show results with:"
+            - link "alternatives" [ref=e296] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+%22alternatives%22&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQ5t4CegQIShAB
+        - generic [ref=e300]:
+          - generic [ref=e303]:
+            - link "r/Anthropic - 100% usage after my FIRST EVER PROMPT ... Reddit · r/Anthropic 270+ comments · 1 month ago" [ref=e305] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/Anthropic/comments/1sqcfvp/100_usage_after_my_first_ever_prompt_pro/
+              - heading "r/Anthropic - 100% usage after my FIRST EVER PROMPT ..." [level=3] [ref=e306]
+              - generic [ref=e311]:
+                - generic [ref=e313]: Reddit · r/Anthropic
+                - generic [ref=e315]: 270+ comments · 1 month ago
+            - button "About this result" [ref=e316] [cursor=pointer]:
+              - img [ref=e319]
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - emphasis [ref=e324]: Lovable.dev
+              - text: + Claude Code shipped a production console + backend in 2 days (and what I learned). 1 comment. Check your usage, less than 2 full ...
+            - link "Read more" [ref=e325] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/Anthropic/comments/1sqcfvp/100_usage_after_my_first_ever_prompt_pro/#:~:text=Lovable.dev%20%2B%20Claude%20Code%20shipped,comment
+          - generic [ref=e327]:
+            - text: "Missing: alternatives ‎| Show results with:"
+            - link "alternatives" [ref=e328] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+%22alternatives%22&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQ5t4CegQIThAB
+        - generic [ref=e332]:
+          - generic [ref=e335]:
+            - link "The UX is terrible and needs a dedicated UX/UI team to ... Reddit · r/PathOfExile2 90+ comments · 4 months ago" [ref=e337] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/PathOfExile2/comments/1qpgwbw/the_ux_is_terrible_and_needs_a_dedicated_uxui/
+              - heading "The UX is terrible and needs a dedicated UX/UI team to ..." [level=3] [ref=e338]
+              - generic [ref=e343]:
+                - generic [ref=e345]: Reddit · r/PathOfExile2
+                - generic [ref=e347]: 90+ comments · 4 months ago
+            - button "About this result" [ref=e348] [cursor=pointer]:
+              - img [ref=e351]
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - text: The option is Gemcutting
+              - emphasis [ref=e356]: Restrictions
+              - text: under
+              - emphasis [ref=e357]: Options
+              - text: "> Game ..."
+              - emphasis [ref=e358]: Lovable.dev
+              - text: works perfectly but it's
+              - emphasis [ref=e359]: expensive
+              - text: . What am I missing? 0.
+            - link "Read more" [ref=e360] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/PathOfExile2/comments/1qpgwbw/the_ux_is_terrible_and_needs_a_dedicated_uxui/#:~:text=The%20option%20is%20Gemcutting%20Restrictions,it%20being%20equipped%20or%20restricted.&text=Lovable.dev%20works%20perfectly%20but%20it's,0
+          - generic [ref=e362]: "Missing: request ‎alternatives"
+        - generic [ref=e366]:
+          - generic [ref=e369]:
+            - link "Let's talk CAD. What are you using? Reddit · r/MechanicalEngineering 240+ comments · 1 year ago" [ref=e371] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/MechanicalEngineering/comments/1jza0d2/lets_talk_cad_what_are_you_using/
+              - heading "Let's talk CAD. What are you using?" [level=3] [ref=e372]
+              - generic [ref=e377]:
+                - generic [ref=e379]: Reddit · r/MechanicalEngineering
+                - generic [ref=e381]: 240+ comments · 1 year ago
+            - button "About this result" [ref=e382] [cursor=pointer]:
+              - img [ref=e385]
+          - generic [ref=e388]: Hey r/mechanicalengineers , Hope everyone's week isn't kicking their butt too hard! Just wanted to start a thread to chat about the CAD systems you're ...
+          - generic [ref=e393]:
+            - link "246 answers" [ref=e394] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/MechanicalEngineering/comments/1jza0d2/lets_talk_cad_what_are_you_using/mn4pcqq/
+            - generic [ref=e395]: ·
+            - generic [ref=e396]: "Top answer:"
+            - generic [ref=e397]: SolidWorks * Pretty intuitive, loaded with features, very good with assemblies * Ungodly amount ...
+          - generic [ref=e399]:
+            - text: "Missing: alternatives ‎| Show results with:"
+            - link "alternatives" [ref=e400] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&q=site:reddit.com+%22lovable.dev%22+problem+issue+limitation+feature+request+complaint+price+expensive+%22alternatives%22&sa=X&ved=2ahUKEwj__4X5qPyUAxXjJkQIHSnuDtkQ5t4CegQITRAB
+        - generic [ref=e404]:
+          - heading "Images" [level=2] [ref=e408]
+          - generic [ref=e412]:
+            - generic [ref=e416] [cursor=pointer]:
+              - 'link "The Problem with Lovable : r/lovable Reddit"':
+                - /url: https://www.reddit.com/r/lovable/comments/1le45id/the_problem_with_lovable/
+              - 'button "The Problem with Lovable : r/lovable" [ref=e418]':
+                - 'img "The Problem with Lovable : r/lovable" [ref=e420]'
+              - generic [ref=e422]:
+                - generic [ref=e424]: "The Problem with Lovable : r/lovable"
+                - generic [ref=e425]:
+                  - generic [ref=e432]: Reddit
+                  - button "About this result" [ref=e435]:
+                    - img [ref=e438]
+            - generic [ref=e443] [cursor=pointer]:
+              - 'link "The Problem with Lovable : r/lovable Reddit"':
+                - /url: https://www.reddit.com/r/lovable/comments/1le45id/the_problem_with_lovable/
+              - 'button "The Problem with Lovable : r/lovable" [ref=e445]':
+                - 'img "The Problem with Lovable : r/lovable" [ref=e447]'
+              - generic [ref=e449]:
+                - generic [ref=e451]: "The Problem with Lovable : r/lovable"
+                - generic [ref=e452]:
+                  - generic [ref=e459]: Reddit
+                  - button "About this result" [ref=e462]:
+                    - img [ref=e465]
+            - generic [ref=e470] [cursor=pointer]:
+              - 'link "The Problem with Lovable : r/lovable Reddit"':
+                - /url: https://www.reddit.com/r/lovable/comments/1le45id/the_problem_with_lovable/
+              - 'button "The Problem with Lovable : r/lovable" [ref=e472]':
+                - 'img "The Problem with Lovable : r/lovable" [ref=e474]'
+              - generic [ref=e476]:
+                - generic [ref=e478]: "The Problem with Lovable : r/lovable"
+                - generic [ref=e479]:
+                  - generic [ref=e486]: Reddit
+                  - button "About this result" [ref=e489]:
+                    - img [ref=e492]
+          - button "Show more images" [ref=e495] [cursor=pointer]:
+            - separator [ref=e496]
+            - generic [ref=e497]:
+              - generic [ref=e498]: Show more images
+              - img [ref=e500]
+        - generic [ref=e504]:
+          - heading "Web results" [level=2] [ref=e505]
+          - generic [ref=e506]:
+            - generic [ref=e509]:
+              - link "aytekin Reddit https://www.reddit.com › user › aytekin" [ref=e511] [cursor=pointer]:
+                - /url: https://www.reddit.com/user/aytekin/
+                - heading "aytekin" [level=3] [ref=e512]
+                - generic [ref=e517]:
+                  - generic [ref=e519]: Reddit
+                  - generic [ref=e521]: https://www.reddit.com › user › aytekin
+              - button "About this result" [ref=e522] [cursor=pointer]:
+                - img [ref=e525]
+            - generic [ref=e528]:
+              - generic [ref=e529]:
+                - text: My
+                - emphasis [ref=e530]: suggestion
+                - text: ": If you're serious about building a real app, choose"
+                - emphasis [ref=e531]: Lovable.dev
+                - text: ". If you're making a simple website or MVP, go with Vzero. Step 3: Show the AI ..."
+              - link "Read more" [ref=e532] [cursor=pointer]:
+                - /url: https://www.reddit.com/user/aytekin/#:~:text=My%20suggestion%3A,what%20you%20want%20(screenshots%20help)
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=e533]:
+      - heading "Footer Links" [level=1] [ref=e534]
+      - generic [ref=e538]:
+        - generic [ref=e542]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e544] [cursor=pointer]:
+            - generic [ref=e545]: 92780, Tustin, CA
+            - generic [ref=e547]:
+              - text: "-"
+              - generic [ref=e548]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e550] [cursor=pointer]: Update location
+        - generic [ref=e553]:
+          - link "Help" [ref=e554] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e555] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e556] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e557] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

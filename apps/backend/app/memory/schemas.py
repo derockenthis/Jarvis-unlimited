@@ -11,6 +11,7 @@ class NodeType(StrEnum):
     RULE = "rule"
     EVENT = "event"
     TASK = "task"
+    SCOPE = "scope"
 
 
 class NodeStatus(StrEnum):
@@ -33,6 +34,9 @@ class MemoryNodeFrontmatter(BaseModel):
     valid_from: datetime
     valid_until: datetime | None = None
     confidence: Literal["low", "medium", "high"] = "medium"
+    weight: float = Field(default=0.5, ge=0.0, le=1.0)
+    tree: str = Field(default="general", min_length=1)
+    parent_id: str | None = None
     tags: list[str] = Field(default_factory=list)
     aliases: list[str] = Field(default_factory=list)
     links: list[MemoryLink] = Field(default_factory=list)

@@ -1,0 +1,516 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: how lovable.dev works stackdriver webcontainers supabase how lovable.dev works stackdriver webcontainers supabase
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dhow%2Blovable.dev%2Bworks%2Bstackdriver%2Bwebcontainers%2Bsupabase&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpKhLTwdBViyqaMPX_061dAunoYO1Ns2H6YsZmI-zSbRAFAtloidZsTZwBtcSHGm2vJl3grv1PMSwtmHRwt4kndsgq4X-5hOkBRFx2WA1WF2k3BkXoniza-I6eiK7VOfDHJzRKogNCpMIuwm-KRXSQOrGUR6Q&aep=1&ntc=1&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ2J8OegQIERAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Videos" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpKhLTwdBViyqaMPX_061dAunoYO1Ns2H6YsZmI-zSbRAFAtloidZsTZwBtcSHGm2vJl3grv1PMSwtmHRwt4kndsgq4X-5hOkBRFx2WA1WF2k3BkXoniza-I6eiK7VOfDHJzRKogNCpMIuwm-KRXSQOrGUR6Q&q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQtKgLegQIFxAB
+              - generic [ref=e90]: Videos
+          - listitem [ref=e91]:
+            - link "Images" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpKhLTwdBViyqaMPX_061dAunoYO1Ns2H6YsZmI-zSbRAFAtloidZsTZwBtcSHGm2vJl3grv1PMSwtmHRwt4kndsgq4X-5hOkBRFx2WA1WF2k3BkXoniza-I6eiK7VOfDHJzRKogNCpMIuwm-KRXSQOrGUR6Q&q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQtKgLegQIFhAB
+              - generic [ref=e94]: Images
+          - listitem [ref=e95]:
+            - link "Forums" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpKhLTwdBViyqaMPX_061dAunoYO1Ns2H6YsZmI-zSbRAFAtloidZsTZwBtcSHGm2vJl3grv1PMSwtmHRwt4kndsgq4X-5hOkBRFx2WA1WF2k3BkXoniza-I6eiK7VOfDHJzRKogNCpMIuwm-KRXSQOrGUR6Q&q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQs6gLegQIFBAB
+              - generic [ref=e98]: Forums
+          - listitem [ref=e99]:
+            - link "Short videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpKhLTwdBViyqaMPX_061dAunoYO1Ns2H6YsZmI-zSbRAFAtloidZsTZwBtcSHGm2vJl3grv1PMSwtmHRwt4kndsgq4X-5hOkBRFx2WA1WF2k3BkXoniza-I6eiK7VOfDHJzRKogNCpMIuwm-KRXSQOrGUR6Q&q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQs6gLegQIFRAB
+              - generic [ref=e102]: Short videos
+          - listitem [ref=e103]:
+            - link "Shopping" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX-kA7ovRmAIYWC70eULDzbpKhLTwdBViyqaMPX_061dAunoYO1Ns2H6YsZmI-zSbRAFAtloidZsTZwBtcSHGm2vJl3grv1PMSwtmHRwt4kndsgq4X-5hOkBRFx2WA1WF2k3BkXoniza-I6eiK7VOfDHJzRKogNCpMIuwm-KRXSQOrGUR6Q&q=how+lovable.dev+works+stackdriver+webcontainers+supabase&ved=1t:220175&ictx=111
+              - generic [ref=e106]: Shopping
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e124]:
+      - generic [ref=e141]:
+        - heading "Thinking" [level=2] [ref=e145]:
+          - generic [ref=e146]: Thinking
+        - progressbar [ref=e147]
+      - main [ref=e149]:
+        - generic [ref=e153]:
+          - generic [ref=e157]:
+            - generic [ref=e159]:
+              - heading "Videos" [level=2] [ref=e160]
+              - button "About this result" [ref=e161] [cursor=pointer]:
+                - img [ref=e164]
+            - generic [ref=e167]:
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - link "Lovable.dev Tutorial & Full Site Build w/Supabase (Step-by ... YouTube Arielle Phoenix Dec 23, 2024" [ref=e177] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=2MYwWu4u_ZM
+                      - heading "Lovable.dev Tutorial & Full Site Build w/Supabase (Step-by ... YouTube Arielle Phoenix Dec 23, 2024" [level=3] [ref=e178]:
+                        - generic [ref=e181]: Lovable.dev Tutorial & Full Site Build w/Supabase (Step-by ...
+                        - generic [ref=e183]:
+                          - generic [ref=e184]:
+                            - text: YouTube
+                            - generic [ref=e185]: · Arielle Phoenix
+                          - generic [ref=e186]: Dec 23, 2024
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Arielle Phoenix
+                        - button "About this result" [ref=e187] [cursor=pointer]:
+                          - img [ref=e190]
+                  - button "Lovable.dev Tutorial & Full Site Build w/Supabase (Step-by ... by Arielle Phoenix on YouTube. Play on Google. 1:43:19" [ref=e192] [cursor=pointer]:
+                    - generic [ref=e193]:
+                      - img [ref=e199]
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: 1:43:19
+                        - img [ref=e206]
+                - button "Learn how to build a website with lovable.dev, a tool that offers flexibility and SEO opportunities." [ref=e209] [cursor=pointer]:
+                  - generic [ref=e213]: Learn how to build a website with lovable.dev, a tool that offers flexibility and SEO opportunities.
+              - generic [ref=e217]:
+                - generic [ref=e218]:
+                  - generic [ref=e219]:
+                    - link "Lovable AI Supabase Integration... How to Setup & Fix YouTube Meteoric Money Labs by Troy Cherasaro Mar 10, 2025" [ref=e221] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=riwQ_imDEQ8
+                      - heading "Lovable AI Supabase Integration... How to Setup & Fix YouTube Meteoric Money Labs by Troy Cherasaro Mar 10, 2025" [level=3] [ref=e222]:
+                        - generic [ref=e225]: Lovable AI Supabase Integration... How to Setup & Fix
+                        - generic [ref=e227]:
+                          - generic [ref=e228]:
+                            - text: YouTube
+                            - generic [ref=e229]: · Meteoric Money Labs by Troy Cherasaro
+                          - generic [ref=e230]: Mar 10, 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Meteoric Money Labs by Troy Cherasaro
+                        - button "About this result" [ref=e231] [cursor=pointer]:
+                          - img [ref=e234]
+                  - link "Lovable AI Supabase Integration... How to Setup & Fix by Meteoric Money Labs by Troy Cherasaro on YouTube. Play on YouTube. 8:10" [ref=e236] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=riwQ_imDEQ8
+                    - generic [ref=e237]:
+                      - img [ref=e240]
+                      - generic [ref=e244]: 8:10
+                - button "8 key moments in this video" [ref=e249] [cursor=pointer]:
+                  - generic [ref=e258]:
+                    - generic [ref=e261]: 8 key moments in this video
+                    - img [ref=e263]
+              - generic [ref=e269]:
+                - generic [ref=e270]:
+                  - generic [ref=e271]:
+                    - link "Everything Starts with Lovable and Supabase YouTube Enterprise DNA Jun 9, 2025" [ref=e273] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=WSsmsyynphM
+                      - heading "Everything Starts with Lovable and Supabase YouTube Enterprise DNA Jun 9, 2025" [level=3] [ref=e274]:
+                        - generic [ref=e277]: Everything Starts with Lovable and Supabase
+                        - generic [ref=e279]:
+                          - generic [ref=e280]:
+                            - text: YouTube
+                            - generic [ref=e281]: · Enterprise DNA
+                          - generic [ref=e282]: Jun 9, 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Enterprise DNA
+                        - button "About this result" [ref=e283] [cursor=pointer]:
+                          - img [ref=e286]
+                  - button "Everything Starts with Lovable and Supabase by Enterprise DNA on YouTube. Play on Google. 18:58" [ref=e288] [cursor=pointer]:
+                    - generic [ref=e289]:
+                      - img [ref=e292]
+                      - generic [ref=e295]:
+                        - generic [ref=e296]: 18:58
+                        - img [ref=e299]
+                - button "Everything starts with lovable and Supabase." [ref=e302] [cursor=pointer]:
+                  - generic [ref=e306]: Everything starts with lovable and Supabase.
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]:
+                    - link "Let's build a full stack app with Lovable & Supabase YouTube No Code MBA Apr 17, 2025" [ref=e316] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=pdMT4Efanfg
+                      - heading "Let's build a full stack app with Lovable & Supabase YouTube No Code MBA Apr 17, 2025" [level=3] [ref=e317]:
+                        - generic [ref=e320]: Let's build a full stack app with Lovable & Supabase
+                        - generic [ref=e322]:
+                          - generic [ref=e323]:
+                            - text: YouTube
+                            - generic [ref=e324]: · No Code MBA
+                          - generic [ref=e325]: Apr 17, 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · No Code MBA
+                        - button "About this result" [ref=e326] [cursor=pointer]:
+                          - img [ref=e329]
+                  - button "Let's build a full stack app with Lovable & Supabase by No Code MBA on YouTube. Play on Google. 8:40" [ref=e331] [cursor=pointer]:
+                    - generic [ref=e332]:
+                      - img [ref=e338]
+                      - generic [ref=e341]:
+                        - generic [ref=e342]: 8:40
+                        - img [ref=e345]
+                - button "5 key moments in this video" [ref=e351] [cursor=pointer]:
+                  - generic [ref=e360]:
+                    - generic [ref=e363]: 5 key moments in this video
+                    - img [ref=e365]
+            - link "View all videos" [ref=e369] [cursor=pointer]:
+              - /url: /search?sca_esv=d11ba7484cdf09fb&udm=7&q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8ccDKAJ6BAgcEAQ
+              - separator [ref=e370]
+              - generic [ref=e371]:
+                - generic [ref=e372]: View all
+                - img [ref=e374]
+          - generic [ref=e378]:
+            - heading "Web results" [level=2] [ref=e379]
+            - generic [ref=e380]:
+              - generic [ref=e383]:
+                - link "Connect to Supabase Lovable Documentation https://docs.lovable.dev › integrations › supabase" [ref=e385] [cursor=pointer]:
+                  - /url: https://docs.lovable.dev/integrations/supabase
+                  - heading "Connect to Supabase" [level=3] [ref=e386]
+                  - generic [ref=e391]:
+                    - generic [ref=e393]: Lovable Documentation
+                    - generic [ref=e395]: https://docs.lovable.dev › integrations › supabase
+                - button "About this result" [ref=e396] [cursor=pointer]:
+                  - img [ref=e399]
+              - generic [ref=e402]:
+                - generic [ref=e403]:
+                  - emphasis [ref=e404]: Lovable's native Supabase integration
+                  - text: lets you manage both your front-end UI and your back-end database through a single, easy-to-use chat interface.
+                - link "Read more" [ref=e405] [cursor=pointer]:
+                  - /url: https://docs.lovable.dev/integrations/supabase#:~:text=Lovable's%20native%20Supabase%20integration%20lets,a%20single%2C%20easy%2Dto%2Duse%20chat%20interface.
+              - generic [ref=e407]:
+                - text: "Missing: stackdriver ‎| Show results with:"
+                - link "stackdriver" [ref=e408] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=how+lovable.dev+works+%22stackdriver%22+webcontainers+supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ5t4CegQITxAB
+          - generic [ref=e412]:
+            - generic [ref=e415]:
+              - link "Integrate Backend with Supabase Lovable https://lovable.dev › supabase-integration" [ref=e417] [cursor=pointer]:
+                - /url: https://lovable.dev/supabase-integration
+                - heading "Integrate Backend with Supabase" [level=3] [ref=e418]
+                - generic [ref=e423]:
+                  - generic [ref=e425]: Lovable
+                  - generic [ref=e427]: https://lovable.dev › supabase-integration
+              - button "About this result" [ref=e428] [cursor=pointer]:
+                - img [ref=e431]
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - emphasis [ref=e436]: Lovable's native Supabase integration
+                - text: lets you manage both your front-end UI and your back-end database through a single, easy-to-use chat interface.
+              - link "Read more" [ref=e437] [cursor=pointer]:
+                - /url: https://lovable.dev/supabase-integration#:~:text=Key%20features
+          - generic [ref=e441]:
+            - generic [ref=e444]:
+              - 'link "Lovable Supabase Integration: How It Works and What to ... UI Bakery https://uibakery.io › blog › lovable-supabase-integration" [ref=e446] [cursor=pointer]':
+                - /url: https://uibakery.io/blog/lovable-supabase-integration
+                - 'heading "Lovable Supabase Integration: How It Works and What to ..." [level=3] [ref=e447]'
+                - generic [ref=e452]:
+                  - generic [ref=e454]: UI Bakery
+                  - generic [ref=e456]: https://uibakery.io › blog › lovable-supabase-integration
+              - button "About this result" [ref=e457] [cursor=pointer]:
+                - img [ref=e460]
+            - generic [ref=e463]:
+              - generic [ref=e464]: Aug 23, 2025 —
+              - generic [ref=e465]:
+                - text: Explore Lovable Supabase integration,
+                - emphasis [ref=e466]: how it works
+                - text: ", what does it give to developers, and if there are any alternatives to choose in 2025."
+          - generic [ref=e471]:
+            - heading "People also ask" [level=2] [ref=e473]
+            - generic [ref=e474]:
+              - button "How do Lovable and Supabase work together?" [ref=e480] [cursor=pointer]:
+                - generic [ref=e482]: How do Lovable and Supabase work together?
+                - img [ref=e485]
+              - button "Is it better to use Lovable Cloud or Supabase?" [ref=e494] [cursor=pointer]:
+                - generic [ref=e496]: Is it better to use Lovable Cloud or Supabase?
+                - img [ref=e499]
+              - button "Can Lovable build full-stack apps?" [ref=e508] [cursor=pointer]:
+                - generic [ref=e510]: Can Lovable build full-stack apps?
+                - img [ref=e513]
+              - button "Why did I stop using Supabase?" [ref=e522] [cursor=pointer]:
+                - generic [ref=e524]: Why did I stop using Supabase?
+                - img [ref=e527]
+          - generic [ref=e532]:
+            - heading "Web results" [level=2] [ref=e533]
+            - generic [ref=e534]:
+              - generic [ref=e537]:
+                - link "developer experience issues with lovable and supabase ... Reddit · r/lovable 7 comments · 5 months ago" [ref=e539] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/lovable/comments/1pvb5gs/developer_experience_issues_with_lovable_and/
+                  - heading "developer experience issues with lovable and supabase ..." [level=3] [ref=e540]
+                  - generic [ref=e545]:
+                    - generic [ref=e547]: Reddit · r/lovable
+                    - generic [ref=e549]: 7 comments · 5 months ago
+                - button "About this result" [ref=e550] [cursor=pointer]:
+                  - img [ref=e553]
+              - generic [ref=e556]:
+                - generic [ref=e557]:
+                  - emphasis [ref=e558]: Lovable could is everything inbuilt with supabase
+                  - text: and all the AI integrations you need hence you will not be able to access supabase outside ...
+                - link "Read more" [ref=e559] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/lovable/comments/1pvb5gs/developer_experience_issues_with_lovable_and/#:~:text=Lovable%20could%20is%20everything%20inbuilt,to%20access%20supabase%20outside%20that.
+              - generic [ref=e562]:
+                - generic [ref=e563]:
+                  - link "How to build any web app with Lovable, Supabase and ..." [ref=e566] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/n8n/comments/1iht0wm/how_to_build_any_web_app_with_lovable_supabase/
+                    - generic [ref=e567]:
+                      - text: How to build any web app with
+                      - emphasis [ref=e568]: Lovable
+                      - text: ","
+                      - emphasis [ref=e569]: Supabase
+                      - text: and ...
+                  - generic [ref=e571]: 5 posts
+                  - generic [ref=e573]: Feb 4, 2025
+                - generic [ref=e574]:
+                  - link "Should I Use Lovable for Backend and Supabase or ..." [ref=e577] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/lovable/comments/1jaugf7/should_i_use_lovable_for_backend_and_supabase_or/
+                    - generic [ref=e578]:
+                      - text: Should I Use
+                      - emphasis [ref=e579]: Lovable
+                      - text: for Backend and
+                      - emphasis [ref=e580]: Supabase
+                      - text: or ...
+                  - generic [ref=e582]: 11 posts
+                  - generic [ref=e584]: Mar 14, 2025
+                - link "More results from www.reddit.com" [ref=e588] [cursor=pointer]:
+                  - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase+site:www.reddit.com&sca_esv=d11ba7484cdf09fb&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQrQIoAnoECDIQAw
+              - generic [ref=e590]: "Missing: stackdriver ‎webcontainers"
+          - generic [ref=e597]:
+            - generic [ref=e600]:
+              - link "Lovable.dev + Supabase Full Stack App in ONLY 5 ... YouTube · Jeremy Devz 11K+ views · 1 year ago" [ref=e602] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=eVuyIWnyKSM
+                - heading "Lovable.dev + Supabase Full Stack App in ONLY 5 ..." [level=3] [ref=e603]
+                - generic [ref=e608]:
+                  - generic [ref=e610]: YouTube · Jeremy Devz
+                  - generic [ref=e612]: 11K+ views · 1 year ago
+              - button "About this result" [ref=e613] [cursor=pointer]:
+                - img [ref=e616]
+            - generic [ref=e618]:
+              - button "Lovable.dev + Supabase Full Stack App in ONLY 5 ... by Jeremy Devz on YouTube. Play on Google. 25:48" [ref=e619] [cursor=pointer]:
+                - generic [ref=e621]:
+                  - img [ref=e627]
+                  - generic [ref=e630]:
+                    - generic [ref=e631]: 25:48
+                    - img [ref=e634]
+              - generic [ref=e637]: A full stack web application with user authentication email verification and database functionality all in under five messages to compare.
+            - button "21 key moments in this video" [ref=e642] [cursor=pointer]:
+              - generic [ref=e651]:
+                - generic [ref=e654]: 21 key moments in this video
+                - img [ref=e656]
+            - generic [ref=e659]: "Missing: stackdriver ‎webcontainers"
+          - generic [ref=e665]:
+            - generic [ref=e668]:
+              - link "Let's Build A Full Stack App With Lovable.dev AI | Supabase ... Lovable · Astro K Joseph https://lovable.dev · May 27, 2025" [ref=e670] [cursor=pointer]:
+                - /url: https://lovable.dev/video/lets-build-a-full-stack-app-with-lovabledev-ai-supabase-auth-database-api-more
+                - heading "Let's Build A Full Stack App With Lovable.dev AI | Supabase ..." [level=3] [ref=e671]
+                - generic [ref=e676]:
+                  - generic [ref=e678]: Lovable · Astro K Joseph
+                  - generic [ref=e680]: https://lovable.dev · May 27, 2025
+              - button "About this result" [ref=e681] [cursor=pointer]:
+                - img [ref=e684]
+            - generic [ref=e686]:
+              - link "Let's Build A Full Stack App With Lovable.dev AI | Supabase ... by Astro K Joseph on Lovable. Play on Lovable. 19:26" [ref=e687] [cursor=pointer]:
+                - /url: https://lovable.dev/video/lets-build-a-full-stack-app-with-lovabledev-ai-supabase-auth-database-api-more
+                - generic [ref=e689]:
+                  - img [ref=e695]
+                  - generic [ref=e699]: 19:26
+              - generic [ref=e701]: Lovable.dev's native integration with Supabase provides instant access to professional-grade authentication and database management. You can implement secure ...
+            - generic [ref=e703]: "Missing: stackdriver ‎webcontainers"
+          - generic [ref=e707]:
+            - generic [ref=e710]:
+              - link "How Lovable's Supabase Integration Changed the Game Lovable https://lovable.dev › blog › lovable-supabase-integratio..." [ref=e712] [cursor=pointer]:
+                - /url: https://lovable.dev/blog/lovable-supabase-integration-mcp
+                - heading "How Lovable's Supabase Integration Changed the Game" [level=3] [ref=e713]
+                - generic [ref=e718]:
+                  - generic [ref=e720]: Lovable
+                  - generic [ref=e722]: https://lovable.dev › blog › lovable-supabase-integratio...
+              - button "About this result" [ref=e723] [cursor=pointer]:
+                - img [ref=e726]
+            - generic [ref=e729]:
+              - generic [ref=e730]: Mar 11, 2025 —
+              - generic [ref=e731]:
+                - emphasis [ref=e732]: How we built the best Supabase integration for LLMs
+                - text: ", why it was a big deal, and what MCP changes for the future."
+            - generic [ref=e734]:
+              - text: "Missing: webcontainers ‎| Show results with:"
+              - link "webcontainers" [ref=e735] [cursor=pointer]:
+                - /url: /search?sca_esv=d11ba7484cdf09fb&q=how+lovable.dev+works+stackdriver+%22webcontainers%22+supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ5t4CegQIQBAB
+          - generic [ref=e741]:
+            - generic [ref=e744]:
+              - link "Easily Integrate Lovable with Supabase in One Prompt TikTok · Matt Paige | Learn AI 20.2K+ views · 11 months ago" [ref=e746] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@mattpaige68/video/7520374170065194295
+                - heading "Easily Integrate Lovable with Supabase in One Prompt" [level=3] [ref=e747]
+                - generic [ref=e752]:
+                  - generic [ref=e754]: TikTok · Matt Paige | Learn AI
+                  - generic [ref=e756]: 20.2K+ views · 11 months ago
+              - button "About this result" [ref=e757] [cursor=pointer]:
+                - img [ref=e760]
+            - generic [ref=e762]:
+              - link "Easily Integrate Lovable with Supabase in One Prompt by mattpaige68 on TikTok. Play on TikTok. 0:41" [ref=e763] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@mattpaige68/video/7520374170065194295
+                - generic [ref=e765]:
+                  - img [ref=e771]
+                  - generic [ref=e775]: 0:41
+              - generic [ref=e777]: "Discover how to streamline backend and API integration with Lovable and Supabase in just one prompt! #ai #lovabledev #aitools #aicoding # ..."
+            - generic [ref=e779]: "Missing: stackdriver ‎webcontainers"
+          - generic [ref=e783]:
+            - generic [ref=e786]:
+              - link "How to Connect Lovable (No-Code Builder) to Supabase ... Medium · Divya Sabade 10+ likes · 11 months ago" [ref=e788] [cursor=pointer]:
+                - /url: https://medium.com/design-bootcamp/how-to-connect-lovable-no-code-builder-to-supabase-in-minutes-0220f5eda998
+                - heading "How to Connect Lovable (No-Code Builder) to Supabase ..." [level=3] [ref=e789]
+                - generic [ref=e794]:
+                  - generic [ref=e796]: Medium · Divya Sabade
+                  - generic [ref=e798]: 10+ likes · 11 months ago
+              - button "About this result" [ref=e799] [cursor=pointer]:
+                - img [ref=e802]
+            - generic [ref=e805]:
+              - generic [ref=e806]:
+                - text: Together, they're a killer duo for fast, scalable, full-stack development.
+                - emphasis [ref=e807]: Lovable handles the interface and workflows
+                - text: . Supabase powers your ...
+              - link "Read more" [ref=e808] [cursor=pointer]:
+                - /url: https://medium.com/design-bootcamp/how-to-connect-lovable-no-code-builder-to-supabase-in-minutes-0220f5eda998#:~:text=Together%2C%20they're%20a%20killer%20duo,authentication%2C%20storage%2C%20and%20backend%20logic.
+        - generic [ref=e810]:
+          - generic [ref=e815]:
+            - heading "People also search for" [level=2] [ref=e817]
+            - generic [ref=e819]:
+              - generic [ref=e820]:
+                - link "How lovable dev works stackdriver webcontainers supabase github" [ref=e824] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=How+lovable+dev+works+stackdriver+webcontainers+supabase+github&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhLEAE
+                  - generic [ref=e825]:
+                    - generic [ref=e830]: How lovable dev works stackdriver webcontainers supabase github
+                    - img [ref=e834]
+                - link "Lovable + Supabase integration" [ref=e839] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Lovable+%2B+Supabase+integration&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhVEAE
+                  - generic [ref=e840]:
+                    - generic [ref=e845]: Lovable + Supabase integration
+                    - img [ref=e849]
+                - link "Lovable Cloud to Supabase" [ref=e854] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Lovable+Cloud+to+Supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhUEAE
+                  - generic [ref=e855]:
+                    - generic [ref=e860]: Lovable Cloud to Supabase
+                    - img [ref=e864]
+                - link "Lovable database integration" [ref=e869] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Lovable+database+integration&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhXEAE
+                  - generic [ref=e870]:
+                    - generic [ref=e875]: Lovable database integration
+                    - img [ref=e879]
+              - generic [ref=e881]:
+                - link "Supabase login" [ref=e885] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Supabase+login&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhZEAE
+                  - generic [ref=e886]:
+                    - generic [ref=e891]: Supabase login
+                    - img [ref=e895]
+                - link "What is Supabase" [ref=e900] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=What+is+Supabase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhYEAE
+                  - generic [ref=e901]:
+                    - generic [ref=e906]: What is Supabase
+                    - img [ref=e910]
+                - link "Supabase database" [ref=e915] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Supabase+database&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhWEAE
+                  - generic [ref=e916]:
+                    - generic [ref=e921]: Supabase database
+                    - img [ref=e925]
+                - link "Supabase vs Firebase" [ref=e930] [cursor=pointer]:
+                  - /url: /search?sca_esv=d11ba7484cdf09fb&q=Supabase+vs+Firebase&sa=X&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ1QJ6BAhREAE
+                  - generic [ref=e931]:
+                    - generic [ref=e936]: Supabase vs Firebase
+                    - img [ref=e940]
+          - navigation [ref=e942]:
+            - heading "Page Navigation" [level=1] [ref=e943]
+            - text: "1"
+            - link "Page 2" [ref=e946] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=10&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8tMDegQIUxAE
+              - text: "2"
+            - link "Page 3" [ref=e948] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=20&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8tMDegQIUxAG
+              - text: "3"
+            - link "Page 4" [ref=e950] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=30&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8tMDegQIUxAI
+              - text: "4"
+            - link "Page 5" [ref=e952] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=40&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8tMDegQIUxAK
+              - text: "5"
+            - link "Page 6" [ref=e954] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=50&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8tMDegQIUxAM
+              - text: "6"
+            - link "Page 7" [ref=e956] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=60&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8tMDegQIUxAO
+              - text: "7"
+            - link "Page 8" [ref=e958] [cursor=pointer]:
+              - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=70&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8tMDegQIUxAQ
+              - text: "8"
+            - heading "Next" [level=2] [ref=e960]:
+              - link "Next" [ref=e961] [cursor=pointer]:
+                - /url: /search?q=how+lovable.dev+works+stackdriver+webcontainers+supabase&sca_esv=d11ba7484cdf09fb&ei=KCcpasfjCq_GkPIPo7b0oAo&start=10&sa=N&sstk=AU9db-CmE4rWX6DHXhO1-e_cy7MLZeyKVbirjeo1NdE7FuEWJfsgDIZNLF_OiZp3ww2R81qV-GlhvzZ7A2VniFrHE4QBCch90Y30JQ&ved=2ahUKEwjHl_ONp_yUAxUvI0QIHSMbHaQQ8NMDegQIUxAS
+                - generic [ref=e963]: Next
+        - navigation
+    - contentinfo [ref=e964]:
+      - heading "Footer Links" [level=1] [ref=e965]
+      - generic [ref=e969]:
+        - generic [ref=e973]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e975] [cursor=pointer]:
+            - generic [ref=e976]: 92780, Tustin, CA
+            - generic [ref=e978]:
+              - text: "-"
+              - generic [ref=e979]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e981] [cursor=pointer]: Update location
+        - generic [ref=e984]:
+          - link "Help" [ref=e985] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e986] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e987] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e988] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

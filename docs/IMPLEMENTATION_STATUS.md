@@ -24,7 +24,7 @@
 - Added guarded persistent terminal sessions with session-bound ADK tools for spawn, run, read, and close.
 - Added desktop screenshot capture and local image-analysis tools so the agent can capture the macOS desktop and inspect saved images.
 - Added a `share screen with agent` control, a visible sharing status indicator, and a color-changing desktop ring around the actual desktop display; screen capture tools are only attached to the agent when sharing is enabled.
-- Added speech-to-text input in the chat composer using local microphone recording plus backend transcription through an OpenRouter ASR model.
+- Added speech-to-text input in the chat composer using local microphone recording plus backend transcription through a local MLX Whisper model.
 - Added a selectable skills folder in the left sidebar and threaded that folder into chat requests so the agent can search it first and treat `skills.md` inside it as the canonical skills index.
 - Improved the root agent prompt for local repository inspection, grounded tool use, and safe file edits.
 - Wired basic NBAM runtime storage by appending chat observations to the observation log and exposing memory status and node-read tools.
@@ -43,7 +43,7 @@
 - Add UI controls to review and constrain full filesystem access.
 - Expand NBAM beyond basic observation logging and node inspection into real scout/dreamer consolidation.
 - Persist screen-sharing preference and add richer UI around captured screenshots.
-- Consider an alternate transcription provider or local Whisper-style fallback if OpenRouter ASR quality is insufficient.
+- Consider exposing the local speech-to-text model choice in settings if MLX Whisper accuracy or speed needs tuning.
 
 ## Next
 

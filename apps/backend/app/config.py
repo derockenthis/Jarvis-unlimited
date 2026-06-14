@@ -31,13 +31,42 @@ class Settings(BaseSettings):
         default="openai/gpt-4o-mini",
         validation_alias=AliasChoices("OPENROUTER_VISION_MODEL", "AGENT_VISION_MODEL"),
     )
-    openrouter_transcription_model: str = Field(
-        default="nvidia/parakeet-tdt-0.6b-v3",
-        validation_alias=AliasChoices("OPENROUTER_TRANSCRIPTION_MODEL", "SPEECH_TO_TEXT_MODEL"),
+    speech_to_text_model: str = Field(
+        default="mlx-community/whisper-small",
+        validation_alias=AliasChoices(
+            "SPEECH_TO_TEXT_MODEL",
+            "MLX_TRANSCRIPTION_MODEL",
+            "LOCAL_TRANSCRIPTION_MODEL",
+            "OPENROUTER_TRANSCRIPTION_MODEL",
+        ),
     )
     memory_dreamer_model: str = Field(
-        default="google/gemini-3.1-flash-lite",
+        default="google/gemini-3-flash-preview",
         validation_alias=AliasChoices("NBAM_DREAMER_MODEL", "MEMORY_DREAMER_MODEL"),
+    )
+    memory_promotion_interval: int = Field(
+        default=5,
+        validation_alias=AliasChoices("JARVIS_MEMORY_PROMOTION_INTERVAL"),
+    )
+    conversation_compaction_interval: int = Field(
+        default=6,
+        validation_alias=AliasChoices("JARVIS_CONVERSATION_COMPACTION_INTERVAL"),
+    )
+    conversation_compaction_overlap: int = Field(
+        default=1,
+        validation_alias=AliasChoices("JARVIS_CONVERSATION_COMPACTION_OVERLAP"),
+    )
+    context_cache_min_tokens: int = Field(
+        default=2048,
+        validation_alias=AliasChoices("JARVIS_CONTEXT_CACHE_MIN_TOKENS"),
+    )
+    context_cache_ttl_seconds: int = Field(
+        default=600,
+        validation_alias=AliasChoices("JARVIS_CONTEXT_CACHE_TTL_SECONDS"),
+    )
+    context_cache_intervals: int = Field(
+        default=5,
+        validation_alias=AliasChoices("JARVIS_CONTEXT_CACHE_INTERVALS"),
     )
     sqlite_path: Path = Field(default=Path("data/jarvis.sqlite"), alias="JARVIS_SQLITE_PATH")
     memory_root: Path = Field(default=Path("data/memory"), alias="JARVIS_MEMORY_ROOT")
@@ -56,12 +85,6 @@ class Settings(BaseSettings):
         if self.openrouter_vision_model.startswith("openrouter/"):
             return self.openrouter_vision_model
         return f"openrouter/{self.openrouter_vision_model}"
-
-    @property
-    def openrouter_transcription_model_slug(self) -> str:
-        if self.openrouter_transcription_model.startswith("openrouter/"):
-            return self.openrouter_transcription_model.removeprefix("openrouter/")
-        return self.openrouter_transcription_model
 
     @property
     def memory_dreamer_litellm_model(self) -> str:

@@ -1,5 +1,7 @@
-import { FormEvent, useEffect, useRef, useState } from 'react';
+import { FormEvent, KeyboardEvent, useEffect, useRef, useState } from 'react';
 import { Mic, MicOff, MonitorUp, Send, Sparkles } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { streamChat, transcribeAudio } from '../api/backend';
 import { useAppStore } from '../stores/useAppStore';
 
@@ -11,64 +13,61 @@ function getActivityPreview(detail: string | undefined, content: string) {
   return `${source.slice(0, 280)}...`;
 }
 
-type AssistantBlock =
-  | { id: string; type: 'paragraph'; text: string }
-  | { id: string; type: 'list'; items: string[] };
-
-function getAssistantBlocks(content: string): AssistantBlock[] {
-  const normalized = content
-    .replace(/\r\n/g, '\n')
-    .replace(/([:.])\s+\*\s+/g, '$1\n* ')
-    .replace(/\s+\*\s+(?=\*\*)/g, '\n* ');
-  const lines = normalized.split('\n').map((line) => line.trim()).filter(Boolean);
-  const blocks: AssistantBlock[] = [];
-  let listItems: string[] = [];
-
-  const flushList = () => {
-    if (listItems.length > 0) {
-      blocks.push({ id: `list-${blocks.length}`, type: 'list', items: listItems });
-      listItems = [];
-    }
-  };
-
-  lines.forEach((line) => {
-    const bullet = line.match(/^[*-]\s+(.+)$/);
-    if (bullet) {
-      listItems.push(bullet[1]);
-      return;
-    }
-
-    flushList();
-    blocks.push({ id: `paragraph-${blocks.length}`, type: 'paragraph', text: line });
-  });
-
-  flushList();
-  return blocks;
+function isTableRow(line: string) {
+  return /^\|(?:[^|\n]*\|)+\s*$/.test(line.trim());
 }
 
-function renderInlineText(text: string) {
-  return text.split(/(\*\*[^*]+\*\*)/g).filter(Boolean).map((part, index) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={`${part}-${index}`}>{part.slice(2, -2)}</strong>;
-    }
-    return <span key={`${part}-${index}`}>{part}</span>;
-  });
+function normalizeAssistantMarkdown(content: string) {
+  const normalizedLines = content
+    .replace(/\r\n/g, '\n')
+    .replace(/\*\*([^*\n]+?)\*\*/g, (_, boldText: string) => `**${boldText.trim()}**`)
+    .replace(/\*\*([^*\n]+:)\*\*\s+\*\*([^*\n]+)\*\*/g, '**$1** $2')
+    .replace(/^(\s{0,3}#{1,6})(\S)/gm, '$1 $2')
+    .replace(/^(\s*\d+\.)(\S)/gm, '$1 $2')
+    .replace(/^(\s*[-*])(\S)/gm, '$1 $2')
+    .replace(/([:.])(\*\*)/g, '$1 $2')
+    .replace(/(\*\*[^*]+\*\*)(?=\w)/g, '$1 ')
+    .replace(/(?<=\w)(\*\*[^*]+\*\*)/g, ' $1')
+    .split('\n');
+
+  return normalizedLines
+    .filter((line, index, lines) => {
+      if (line.trim() !== '') {
+        return true;
+      }
+
+      return !(isTableRow(lines[index - 1] ?? '') && isTableRow(lines[index + 1] ?? ''));
+    })
+    .join('\n');
 }
 
 function renderAssistantContent(content: string) {
-  return getAssistantBlocks(content).map((block) => {
-    if (block.type === 'list') {
-      return (
-        <ul className="assistant-list" key={block.id}>
-          {block.items.map((item, index) => (
-            <li key={`${item}-${index}`}>{renderInlineText(item)}</li>
-          ))}
-        </ul>
-      );
-    }
+  return (
+    <div className="assistant-markdown">
+      <ReactMarkdown remarkPlugins={[remarkGfm]}>{normalizeAssistantMarkdown(content)}</ReactMarkdown>
+    </div>
+  );
+}
 
-    return <p key={block.id}>{renderInlineText(block.text)}</p>;
-  });
+function renderThoughtPanel(message: { thoughts?: { id: string; content: string }[]; isStreaming?: boolean }) {
+  if (!message.thoughts?.length) {
+    return null;
+  }
+
+  return (
+    <details className="thought-panel" open={message.isStreaming}>
+      <summary>
+        <Sparkles size={14} />
+        Agent thoughts
+        <span>{message.thoughts.length}</span>
+      </summary>
+      <ol>
+        {message.thoughts.map((thought) => (
+          <li key={thought.id}>{thought.content}</li>
+        ))}
+      </ol>
+    </details>
+  );
 }
 
 export function ChatPane() {
@@ -208,8 +207,12 @@ export function ChatPane() {
     await startSpeechRecording();
   };
 
-  const submit = async (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+  const provider = useAppStore((state) => state.provider);
+  const model = useAppStore((state) => state.model);
+  const apiKey = useAppStore((state) => state.apiKey);
+  const baseUrl = useAppStore((state) => state.baseUrl);
+
+  const sendDraft = async () => {
     const content = draft.trim();
     if (!content || isStreaming) {
       return;
@@ -220,7 +223,7 @@ export function ChatPane() {
     setDraft('');
     setStreaming(true);
     try {
-      await streamChat(backendUrl, content, isScreenSharing, skillsRootPath, addChatEvent);
+      await streamChat(backendUrl, content, isScreenSharing, skillsRootPath, provider, model, apiKey, baseUrl, addChatEvent);
     } catch (error) {
       addChatEvent({
         type: 'error',
@@ -229,6 +232,20 @@ export function ChatPane() {
     } finally {
       setStreaming(false);
     }
+  };
+
+  const submit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    await sendDraft();
+  };
+
+  const handleComposerKeyDown = (event: KeyboardEvent<HTMLTextAreaElement>) => {
+    if (event.key !== 'Enter' || event.shiftKey) {
+      return;
+    }
+
+    event.preventDefault();
+    void sendDraft();
   };
 
   return (
@@ -253,13 +270,14 @@ export function ChatPane() {
       <div className="message-list">
         {messages.map((message) => (
           <article className={`message message-${message.role}`} key={message.id}>
-            <span>{message.role}</span>
+            <span className="message-role-label">{message.role}</span>
+            {message.role === 'assistant' ? renderThoughtPanel(message) : null}
             {message.activities?.length ? (
               <ol className="message-activity-list">
                 {message.activities.map((activity) => (
                   <li className={`activity activity-${activity.type}`} key={activity.id}>
                     <strong>
-                      {activity.type === 'tool_call' ? 'tool call' : activity.type === 'tool_result' ? 'tool result' : 'thought'}
+                      {activity.type === 'tool_call' ? 'tool call' : 'tool result'}
                       {activity.toolName ? ` / ${activity.toolName}` : ''}
                       {activity.status ? ` / ${activity.status}` : ''}
                     </strong>
@@ -312,6 +330,7 @@ export function ChatPane() {
             placeholder="Ask Jarvis to inspect a repo, wire an MCP, or create a UI component..."
             value={draft}
             onChange={(event) => setDraft(event.target.value)}
+            onKeyDown={handleComposerKeyDown}
           />
           <button className="send-button" type="submit" aria-label="Send message">
             {isStreaming ? <Sparkles size={18} /> : <Send size={18} />}

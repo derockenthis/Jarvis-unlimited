@@ -20,12 +20,35 @@ class ChatRequest(BaseModel):
     user_id: str = "local-user"
     screen_share_enabled: bool = False
     skills_root: str | None = None
+    provider: str | None = None
+    model: str | None = None
+    api_key: str | None = None
+    base_url: str | None = None
 
 
 class ChatEvent(BaseModel):
     type: str
     content: str
     payload: ChatEventPayload = Field(default_factory=ChatEventPayload)
+
+
+class ProviderModelSettings(BaseModel):
+    provider: str
+    model: str = ""
+    api_key: str = ""
+    base_url: str = ""
+
+
+class ModelSettingsResponse(BaseModel):
+    current_provider: str = "openrouter"
+    providers: list[ProviderModelSettings] = Field(default_factory=list)
+
+
+class UpsertModelSettingsRequest(BaseModel):
+    provider: str = Field(min_length=1)
+    model: str = ""
+    api_key: str = ""
+    base_url: str = ""
 
 
 class SpeechTranscriptionResponse(BaseModel):
