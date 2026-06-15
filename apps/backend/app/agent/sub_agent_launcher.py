@@ -10,14 +10,14 @@ from typing import Any
 
 from app.agent.agent import build_agent
 from app.agent.provider_config import ProviderRuntimeConfig
+from app.agent.tools.mcp import _build_browser_open_and_inspect_tool
 from app.agent.tools import build_terminal_tools, build_workspace_tools
-from app.config import get_settings
+from app.config import Settings, get_settings
 from app.services.mcp_service import McpService
 from app.mcp.presets import PLAYWRIGHT_MCP_ISOLATED_PRESET
 from app.security.path_policy import PathPolicy
+from app.services.settings_service import SettingsService
 from app.services.session_terminal_service import SessionTerminalService
-
-DEFAULT_SUB_AGENT_MODEL = "google/gemma-4-26b-a4b-it"
 
 
 def _build_sub_agent_instruction(name: str, description: str, tools: list[str]) -> str:
@@ -61,26 +61,67 @@ async def _build_sub_agent_tools(policy: PathPolicy, tools: list[str], name: str
     return resolved_tools
 
 
+def _sub_agent_provider_config(settings: Settings) -> ProviderRuntimeConfig:
+    model_settings = SettingsService(settings).get_model_settings()
+    current_provider = (model_settings.current_provider or "openrouter").strip().lower()
+    provider_row = next(
+        (row for row in model_settings.providers if row.provider.strip().lower() == current_provider),
+        None,
+    )
+
+    if provider_row is not None:
+        return ProviderRuntimeConfig(
+            provider=current_provider,
+            model_name=provider_row.model or None,
+            api_key=provider_row.api_key or None,
+            base_url=provider_row.base_url or None,
+        )
+
+    if current_provider == "openrouter":
+        return ProviderRuntimeConfig(
+            provider=current_provider,
+            model_name=settings.openrouter_model,
+            api_key=settings.openrouter_api_key,
+            base_url=settings.openrouter_base_url,
+        )
+
+    return ProviderRuntimeConfig(provider=current_provider)
+
+
 async def _resolve_browser_tools(mcp_service: McpService, requested_names: list[str]) -> list[object]:
     resolved_tools = await mcp_service.resolve_running_tools()
-    browser_tool_map = {
-        str(getattr(tool, "name", "")): tool
+    browser_tools = [
+        tool
         for tool in resolved_tools
         if str(getattr(tool, "name", "")).startswith("browser_")
-    }
+    ]
+    browser_tool_map = {str(getattr(tool, "name", "")): tool for tool in browser_tools}
 
+    resolved: list[object] = []
     missing = [name for name in requested_names if name not in browser_tool_map]
+    if "browser_open_and_inspect_tool" in missing:
+        composite_tool = _build_browser_open_and_inspect_tool(browser_tools)
+        if composite_tool is not None:
+            resolved.append(composite_tool)
+            missing = [name for name in missing if name != "browser_open_and_inspect_tool"]
+
     if missing:
         raise ValueError(
             "Requested browser tools are unavailable: " + ", ".join(sorted(missing)) + "."
         )
 
-    return [browser_tool_map[name] for name in requested_names]
+    for name in requested_names:
+        if name == "browser_open_and_inspect_tool":
+            continue
+        resolved.append(browser_tool_map[name])
+
+    return resolved
 
 
 async def _run_sub_agent(spec: dict[str, Any]) -> int:
     settings = get_settings()
     policy = PathPolicy(settings.allowed_root_paths, full_access=settings.full_filesystem_access)
+    provider_config = _sub_agent_provider_config(settings)
 
     tools = await _build_sub_agent_tools(policy, spec["tools"], spec["name"])
     instruction = _build_sub_agent_instruction(spec["name"], spec["description"], spec["tools"])
@@ -89,10 +130,7 @@ async def _run_sub_agent(spec: dict[str, Any]) -> int:
         settings=settings,
         tools=tools,
         conversation_context=None,
-        provider_config=ProviderRuntimeConfig(
-            provider="openrouter",
-            model_name=DEFAULT_SUB_AGENT_MODEL,
-        ),
+        provider_config=provider_config,
         skills_root=None,
         instruction_override=instruction,
         agent_name=spec["name"],

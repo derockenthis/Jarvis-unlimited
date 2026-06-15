@@ -5,12 +5,6 @@ import { useAppStore } from '../stores/useAppStore';
 import type { ProviderModelSettings } from '../types';
 
 function defaultModelForProvider(provider: string) {
-  if (provider === 'openai') {
-    return 'gpt-4o';
-  }
-  if (provider === 'openrouter') {
-    return 'openai/gpt-4o-mini';
-  }
   return '';
 }
 
@@ -57,6 +51,13 @@ export function SettingsView() {
         baseUrl: activeProfile?.base_url || defaultBaseUrlForProvider(activeProvider),
         speechModel: activeProfile?.speech_model || 'mlx-community/whisper-large-v3-turbo',
       });
+      void window.jarvisDesktop?.setModelSettings({
+        provider: activeProvider,
+        model: activeProfile?.model || defaultModelForProvider(activeProvider),
+        apiKey: activeProfile?.api_key || '',
+        baseUrl: activeProfile?.base_url || defaultBaseUrlForProvider(activeProvider),
+        speechModel: activeProfile?.speech_model || 'mlx-community/whisper-large-v3-turbo',
+      });
       setSettingsReady(true);
     }).catch((error) => {
       addChatEvent({
@@ -90,6 +91,11 @@ export function SettingsView() {
     }
 
     const timeoutId = window.setTimeout(() => {
+      if (!model.trim()) {
+        setIsSavingModelSettings(false);
+        return;
+      }
+
       setIsSavingModelSettings(true);
       saveModelSettings(backendUrl, {
         provider,
@@ -99,6 +105,14 @@ export function SettingsView() {
         speech_model: speechModel,
       }).then((response) => {
         setSavedProfiles(Object.fromEntries(response.providers.map((entry) => [entry.provider, entry])));
+        const activeProfile = response.providers.find((entry) => entry.provider === response.current_provider);
+        void window.jarvisDesktop?.setModelSettings({
+          provider: response.current_provider,
+          model: activeProfile?.model || '',
+          apiKey: activeProfile?.api_key || '',
+          baseUrl: activeProfile?.base_url || '',
+          speechModel: activeProfile?.speech_model || '',
+        });
       }).catch((error) => {
         addChatEvent({
           type: 'error',
@@ -171,7 +185,7 @@ export function SettingsView() {
             </label>
             <label className="field-row">
               <span>LLM Model</span>
-              <input type="text" value={model} onChange={(event) => setModel(event.target.value)} placeholder={provider === 'openrouter' ? 'openai/gpt-4o-mini' : 'gpt-4o'} className="text-input" />
+              <input type="text" value={model} onChange={(event) => setModel(event.target.value)} placeholder="Enter a model name" className="text-input" />
             </label>
             <label className="field-row">
               <span>Base URL (Optional)</span>

@@ -1,5 +1,10 @@
 import { create } from 'zustand';
-import { getConversationMessages, listConversations } from '../api/backend';
+import {
+  deleteConversation as deleteConversationApi,
+  fetchModelSettings,
+  getConversationMessages,
+  listConversations,
+} from '../api/backend';
 import type { ChatActivity, ChatEvent, ChatMessage, ConversationMessage, Conversationlist, McpTool, PreviewItem, WorkspaceView } from '../types';
 
 type AppState = {
@@ -23,6 +28,7 @@ type AppState = {
   sessionId: string;
   baseUrl: string;
   speechModel: string;
+  providerSettingsLoaded: boolean;
 
   toggleSidebar: () => void;
   setActiveWorkspaceView: (view: WorkspaceView) => void;
@@ -39,9 +45,11 @@ type AppState = {
   setBaseUrl: (baseUrl: string) => void;
   setSpeechModel: (speechModel: string) => void;
   setProviderSettings: (settings: { provider: string; model: string; apiKey: string; baseUrl: string; speechModel: string }) => void;
+  loadProviderSettings: (force?: boolean) => Promise<void>;
   loadConversationMessages: (conversationId: string) => Promise<void>;
   addNewConversation: () => void;
   populateConversations: () => Promise<void>;
+  deleteConversation: (conversationId: string) => Promise<void>;
   addUserMessage: (content: string) => void;
   addChatEvent: (event: ChatEvent) => void;
   setStreaming: (isStreaming: boolean) => void;
@@ -84,6 +92,24 @@ function setStoredSkillsRootPath(path: string | null) {
   } else {
     window.localStorage.removeItem(skillsRootStorageKey);
   }
+}
+
+function defaultModelForProvider(provider: string) {
+  return '';
+}
+
+function defaultBaseUrlForProvider(provider: string) {
+  return provider === 'ollama' ? 'http://localhost:11434' : '';
+}
+
+function syncDesktopModelSettings(settings: {
+  provider: string;
+  model: string;
+  apiKey: string;
+  baseUrl: string;
+  speechModel: string;
+}) {
+  window.jarvisDesktop?.setModelSettings(settings).catch(() => undefined);
 }
 
 function appendToAssistantById(
@@ -145,10 +171,11 @@ export const useAppStore = create<AppState>((set, get) => ({
   skillsRootPath: getStoredSkillsRootPath(),
 
   provider: 'openrouter',
-  model: 'openai/gpt-4o-mini',
+  model: '',
   apiKey: '',
   baseUrl: '',
   speechModel: 'mlx-community/whisper-large-v3-turbo',
+  providerSettingsLoaded: false,
 
   toggleSidebar: () => set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed })),
   setActiveWorkspaceView: (activeWorkspaceView) => set({ activeWorkspaceView }),
@@ -164,12 +191,103 @@ export const useAppStore = create<AppState>((set, get) => ({
   setSessionId: (sessionId) => set({ sessionId }),
   setActiveConversationId: (activeConversationId) => set({ activeConversationId }),
   setMessages: (messages) => set({ messages }),
-  setProvider: (provider) => set({ provider }),
-  setModel: (model) => set({ model }),
-  setApiKey: (apiKey) => set({ apiKey }),
-  setBaseUrl: (baseUrl) => set({ baseUrl }),
-  setSpeechModel: (speechModel) => set({ speechModel }),
-  setProviderSettings: ({ provider, model, apiKey, baseUrl, speechModel }) => set({ provider, model, apiKey, baseUrl, speechModel }),
+  setProvider: (provider) => {
+    const current = get();
+    const next = {
+      provider,
+      model: current.model,
+      apiKey: current.apiKey,
+      baseUrl: current.baseUrl,
+      speechModel: current.speechModel,
+    };
+    set({ provider });
+    syncDesktopModelSettings(next);
+  },
+  setModel: (model) => {
+    const current = get();
+    const next = {
+      provider: current.provider,
+      model,
+      apiKey: current.apiKey,
+      baseUrl: current.baseUrl,
+      speechModel: current.speechModel,
+    };
+    set({ model });
+    syncDesktopModelSettings(next);
+  },
+  setApiKey: (apiKey) => {
+    const current = get();
+    const next = {
+      provider: current.provider,
+      model: current.model,
+      apiKey,
+      baseUrl: current.baseUrl,
+      speechModel: current.speechModel,
+    };
+    set({ apiKey });
+    syncDesktopModelSettings(next);
+  },
+  setBaseUrl: (baseUrl) => {
+    const current = get();
+    const next = {
+      provider: current.provider,
+      model: current.model,
+      apiKey: current.apiKey,
+      baseUrl,
+      speechModel: current.speechModel,
+    };
+    set({ baseUrl });
+    syncDesktopModelSettings(next);
+  },
+  setSpeechModel: (speechModel) => {
+    const current = get();
+    const next = {
+      provider: current.provider,
+      model: current.model,
+      apiKey: current.apiKey,
+      baseUrl: current.baseUrl,
+      speechModel,
+    };
+    set({ speechModel });
+    syncDesktopModelSettings(next);
+  },
+  setProviderSettings: ({ provider, model, apiKey, baseUrl, speechModel }) => {
+    set({ provider, model, apiKey, baseUrl, speechModel });
+    syncDesktopModelSettings({ provider, model, apiKey, baseUrl, speechModel });
+  },
+
+  loadProviderSettings: async (force = false) => {
+    if (!force && get().providerSettingsLoaded) {
+      return;
+    }
+
+    try {
+      const response = await fetchModelSettings(get().backendUrl);
+      const nextSavedProfiles = Object.fromEntries(
+        response.providers.map((entry) => [entry.provider, entry]),
+      );
+      const activeProvider = response.current_provider || 'openrouter';
+      const activeProfile = nextSavedProfiles[activeProvider];
+
+      set({
+        provider: activeProvider,
+        model: activeProfile?.model || defaultModelForProvider(activeProvider),
+        apiKey: activeProfile?.api_key || '',
+        baseUrl: activeProfile?.base_url || defaultBaseUrlForProvider(activeProvider),
+        speechModel: activeProfile?.speech_model || 'mlx-community/whisper-large-v3-turbo',
+        providerSettingsLoaded: true,
+      });
+      syncDesktopModelSettings({
+        provider: activeProvider,
+        model: activeProfile?.model || defaultModelForProvider(activeProvider),
+        apiKey: activeProfile?.api_key || '',
+        baseUrl: activeProfile?.base_url || defaultBaseUrlForProvider(activeProvider),
+        speechModel: activeProfile?.speech_model || 'mlx-community/whisper-large-v3-turbo',
+      });
+    } catch {
+      set({ providerSettingsLoaded: true });
+    }
+  },
 
   loadConversationMessages: async (conversationId) => {
     const messages = await getConversationMessages(get().backendUrl, conversationId);
@@ -201,8 +319,22 @@ export const useAppStore = create<AppState>((set, get) => ({
         id: conversation.id,
         title: conversation.title,
         createdAt: conversation.created_at,
-      })),
+        })),
     });
+  },
+
+  deleteConversation: async (conversationId) => {
+    await deleteConversationApi(get().backendUrl, conversationId);
+    const state = get();
+    const deletingActiveConversation = state.activeConversationId === conversationId;
+
+    set((currentState) => ({
+      conversation: currentState.conversation.filter((item) => item.id !== conversationId),
+    }));
+
+    if (deletingActiveConversation) {
+      state.addNewConversation();
+    }
   },
 
   addUserMessage: (content) => set((state) => {
@@ -303,6 +435,9 @@ export const useAppStore = create<AppState>((set, get) => ({
     };
   }),
   setStreaming: (isStreaming) => set({ isStreaming }),
-  setScreenSharing: (isScreenSharing) => set({ isScreenSharing }),
+  setScreenSharing: (isScreenSharing) => {
+    set({ isScreenSharing });
+    window.jarvisDesktop?.setScreenSharingEnabled(isScreenSharing).catch(() => undefined);
+  },
   setScreenViewing: (isScreenViewing) => set({ isScreenViewing }),
 }));

@@ -1,0 +1,1238 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [pressed] [ref=e9] [cursor=pointer]:
+            - generic [ref=e604]:
+              - img
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e606]:
+              - img
+          - button "Skip navigation" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: Skip navigation
+        - generic [ref=e24]:
+          - search [ref=e25]:
+            - generic [ref=e26]:
+              - generic [ref=e27]:
+                - combobox "Search" [expanded] [ref=e29]: Ryzen AI Max Plus 395
+                - button "Clear search query" [ref=e31] [cursor=pointer]:
+                  - generic [ref=e608]:
+                    - img
+              - button "Search" [ref=e36] [cursor=pointer]:
+                - generic [ref=e610]:
+                  - img
+          - generic [ref=e39]:
+            - button "Search with your voice" [ref=e41] [cursor=pointer]:
+              - generic [ref=e612]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e48]:
+          - button "Settings" [ref=e53] [cursor=pointer]:
+            - generic [ref=e614]:
+              - img
+          - link "Sign in" [ref=e57] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253DRyzen%252BAI%252BMax%252BPlus%252B395&hl=en&ec=65620
+            - generic [ref=e616]:
+              - img
+            - generic [ref=e60]: Sign in
+    - navigation [ref=e64]:
+      - generic [ref=e617]:
+        - generic [ref=e618]:
+          - generic [ref=e620]:
+            - link "Home" [ref=e622] [cursor=pointer]:
+              - /url: /
+              - link "Home" [ref=e623]:
+                - generic [ref=e626]:
+                  - img
+                - generic [ref=e627]: Home
+            - link "Shorts" [ref=e629] [cursor=pointer]:
+              - link "Shorts" [ref=e630]:
+                - generic [ref=e633]:
+                  - img
+                - generic [ref=e634]: Shorts
+            - link "Subscriptions" [ref=e636] [cursor=pointer]:
+              - /url: /feed/subscriptions
+              - link "Subscriptions" [ref=e637]:
+                - generic [ref=e640]:
+                  - img
+                - generic [ref=e641]: Subscriptions
+            - link "You" [ref=e643] [cursor=pointer]:
+              - /url: /feed/you
+              - link "You" [ref=e644]:
+                - generic [ref=e647]:
+                  - img
+                - generic [ref=e648]: You
+            - link "History" [ref=e650] [cursor=pointer]:
+              - /url: /feed/history
+              - link "History" [ref=e651]:
+                - generic [ref=e654]:
+                  - img
+                - generic [ref=e655]: History
+          - generic [ref=e656]:
+            - generic [ref=e657]: Sign in to like videos, comment, and subscribe.
+            - link "Sign in" [ref=e660] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253DRyzen%252BAI%252BMax%252BPlus%252B395&hl=en
+              - generic [ref=e664]:
+                - img
+              - generic [ref=e665]: Sign in
+          - generic [ref=e669]:
+            - heading "Explore" [level=3] [ref=e670]:
+              - generic [ref=e671]: Explore
+            - generic [ref=e672]:
+              - link "Shopping" [ref=e674] [cursor=pointer]:
+                - /url: /channel/UCkYQyvc_i9hXEo4xic9Hh2g
+                - link "Shopping" [ref=e675]:
+                  - generic [ref=e678]:
+                    - img
+                  - generic [ref=e679]: Shopping
+              - link "Music" [ref=e681] [cursor=pointer]:
+                - /url: /channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+                - link "Music" [ref=e682]:
+                  - generic [ref=e685]:
+                    - img
+                  - generic [ref=e686]: Music
+              - link "Movies & TV" [ref=e688] [cursor=pointer]:
+                - /url: /feed/storefront
+                - link "Movies & TV" [ref=e689]:
+                  - generic [ref=e692]:
+                    - img
+                  - generic [ref=e693]: Movies & TV
+              - button "Show more" [ref=e695]:
+                - link "Show more" [ref=e696] [cursor=pointer]:
+                  - link "Show more" [ref=e697]:
+                    - generic [ref=e700]:
+                      - img
+                    - generic [ref=e701]: Show more
+          - generic [ref=e702]:
+            - heading "More from YouTube" [level=3] [ref=e703]:
+              - generic [ref=e704]: More from YouTube
+            - generic [ref=e705]:
+              - link "YouTube Premium" [ref=e707] [cursor=pointer]:
+                - /url: /premium
+                - link "YouTube Premium" [ref=e708]:
+                  - generic [ref=e711]:
+                    - img
+                  - generic [ref=e712]: YouTube Premium
+              - link "YouTube TV" [ref=e714] [cursor=pointer]:
+                - /url: https://tv.youtube.com/?utm_source=youtube_web&utm_medium=ep&utm_campaign=home&ve=34273
+                - link "YouTube TV" [ref=e715]:
+                  - generic [ref=e718]:
+                    - img
+                  - generic [ref=e719]: YouTube TV
+              - link "YouTube Music" [ref=e721] [cursor=pointer]:
+                - /url: https://music.youtube.com/
+                - link "YouTube Music" [ref=e722]:
+                  - generic [ref=e725]:
+                    - img
+                  - generic [ref=e726]: YouTube Music
+              - link "YouTube Kids" [ref=e728] [cursor=pointer]:
+                - /url: https://www.youtubekids.com/?source=youtube_web
+                - link "YouTube Kids" [ref=e729]:
+                  - generic [ref=e732]:
+                    - img
+                  - generic [ref=e733]: YouTube Kids
+          - link "Report history" [ref=e737] [cursor=pointer]:
+            - /url: /reporthistory
+            - link "Report history" [ref=e738]:
+              - generic [ref=e741]:
+                - img
+              - generic [ref=e742]: Report history
+        - generic [ref=e743]:
+          - generic [ref=e744]:
+            - link "About" [ref=e745] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/
+            - link "Press" [ref=e746] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/press/
+            - link "Copyright" [ref=e747] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/copyright/
+            - link "Contact us" [ref=e748] [cursor=pointer]:
+              - /url: /t/contact_us/
+            - link "Creators" [ref=e749] [cursor=pointer]:
+              - /url: https://www.youtube.com/creators/
+            - link "Advertise" [ref=e750] [cursor=pointer]:
+              - /url: https://www.youtube.com/ads/
+            - link "Developers" [ref=e751] [cursor=pointer]:
+              - /url: https://developers.google.com/youtube
+          - generic [ref=e752]:
+            - link "Terms" [ref=e753] [cursor=pointer]:
+              - /url: /t/terms
+            - link "Privacy" [ref=e754] [cursor=pointer]:
+              - /url: /t/privacy
+            - link "Policy & Safety" [ref=e755] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/policies/
+            - link "How YouTube works" [ref=e756] [cursor=pointer]:
+              - /url: https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen
+            - link "Test new features" [ref=e757] [cursor=pointer]:
+              - /url: /new
+            - link "NFL Sunday Ticket" [ref=e758] [cursor=pointer]:
+              - /url: https://tv.youtube.com/learn/nflsundayticket
+          - generic [ref=e759]: © 2026 Google LLC
+    - generic [ref=e70]:
+      - main [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e74]:
+            - tablist [ref=e79]:
+              - tab "All" [selected] [ref=e83] [cursor=pointer]:
+                - generic [ref=e85]: All
+              - tab "Shorts" [ref=e92] [cursor=pointer]:
+                - generic [ref=e94]: Shorts
+              - tab "Unwatched" [ref=e101] [cursor=pointer]:
+                - generic [ref=e103]: Unwatched
+              - tab "Watched" [ref=e110] [cursor=pointer]:
+                - generic [ref=e112]: Watched
+              - tab "Videos" [ref=e119] [cursor=pointer]:
+                - generic [ref=e121]: Videos
+              - tab "Recently uploaded" [ref=e128] [cursor=pointer]:
+                - generic [ref=e130]: Recently uploaded
+              - tab "Live" [ref=e137] [cursor=pointer]:
+                - generic [ref=e139]: Live
+            - generic [ref=e144]:
+              - button "Search filters" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]: Filters
+                - generic [ref=e761]:
+                  - img
+              - tooltip "tooltip"
+          - generic [ref=e158]:
+            - generic [ref=e167] [cursor=pointer]:
+              - link [ref=e168]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e173]:
+                  - generic [ref=e763]:
+                    - img
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - link "Faster prototyping shortens feedback loops. Codex helps teams get there sooner." [ref=e184]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Go from idea to prototype faster than ever, with Codex." [ref=e187]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e188]:
+                      - button "ChatGPT" [ref=e192]
+                      - generic [ref=e196]:
+                        - generic [ref=e197]: Sponsored
+                        - text: ·
+                      - generic [ref=e199]: OpenAI
+                  - button "My Ad Center" [ref=e202]:
+                    - generic [ref=e765]:
+                      - img
+                - generic [ref=e210]:
+                  - link "Watch" [ref=e213]:
+                    - /url: /watch?v=BfZzwD575NQ
+                    - generic [ref=e214]: Watch
+                  - link "Sign up" [ref=e220]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e221]: Sign up
+            - generic [ref=e226]:
+              - link [ref=e228] [cursor=pointer]:
+                - /url: /watch?v=rDyZsqDmQbQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                - img [ref=e766]
+                - img [ref=e769]:
+                  - generic [ref=e770]: 16:10
+                - generic:
+                  - generic: Now playing
+                  - generic:
+                    - img
+              - generic [ref=e230] [cursor=pointer]:
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - heading "This Mini PC Might be the Best Value YET - X+ Rival 16 minutes" [level=3] [ref=e233]:
+                      - link "This Mini PC Might be the Best Value YET - X+ Rival 16 minutes" [ref=e234]:
+                        - /url: /watch?v=rDyZsqDmQbQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: This Mini PC Might be the Best Value YET - X+ Rival
+                    - button "Action menu" [ref=e774]:
+                      - generic [ref=e777]:
+                        - img
+                  - generic [ref=e237]:
+                    - generic [ref=e238]: 302K views
+                    - generic [ref=e239]: •7 months ago
+                - generic [ref=e240]:
+                  - link "Go to channel ShortCircuit" [ref=e241]:
+                    - /url: /@ShortCircuit
+                  - generic [ref=e242]:
+                    - link "ShortCircuit" [ref=e246]:
+                      - /url: /@ShortCircuit
+                    - img "Verified" [ref=e251]:
+                      - generic [ref=e780]:
+                        - img
+                - generic [ref=e253]:
+                  - text: Whether you're creating content, hosting meetings, or just want to upgrade your webcam game, the EMEET Pixy has you covered.
+                  - tooltip "tooltip"
+                - generic [ref=e254]:
+                  - link "8 seconds ... might be rivaling the framework desktop that I just looked at a couple weeks ago because in here is the <b>Ryzen AI Max 395 Plus</b>&nbsp;..." [ref=e255]:
+                    - /url: /watch?v=rDyZsqDmQbQ&t=8s&pp=0gcJCaMCg7Wk3p_U
+                    - text: 0:08
+                    - generic [ref=e256]: ... might be rivaling the framework desktop that I just looked at a couple weeks ago because in here is the Ryzen AI Max 395 Plus ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e261]:
+                  - generic [ref=e262]: 4K
+            - generic [ref=e264]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /watch?v=7wsXLPZxglg&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                - img [ref=e781]
+                - img [ref=e784]:
+                  - generic [ref=e785]: 10:10
+                - generic:
+                  - generic: Now playing
+                  - generic:
+                    - img
+              - generic [ref=e268] [cursor=pointer]:
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - heading "Building a Ryzen Ai MAX+ 395 Mini PC That Plays Every Game! 10 minutes, 10 seconds" [level=3] [ref=e271]:
+                      - link "Building a Ryzen Ai MAX+ 395 Mini PC That Plays Every Game! 10 minutes, 10 seconds" [ref=e272]:
+                        - /url: /watch?v=7wsXLPZxglg&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Building a Ryzen Ai MAX+ 395 Mini PC That Plays Every Game!
+                    - button "Action menu" [ref=e789]:
+                      - generic [ref=e792]:
+                        - img
+                  - generic [ref=e275]:
+                    - generic [ref=e276]: 223K views
+                    - generic [ref=e277]: •10 months ago
+                - generic [ref=e278]:
+                  - link "Go to channel ETA PRIME" [ref=e279]:
+                    - /url: /@ETAPRIME
+                  - generic [ref=e280]:
+                    - link "ETA PRIME" [ref=e284]:
+                      - /url: /@ETAPRIME
+                    - img "Verified" [ref=e289]:
+                      - generic [ref=e795]:
+                        - img
+                - generic [ref=e291]:
+                  - generic [ref=e292]: "... https://amzn.to/4mG2VeU 400W FLEX PSU: https://amzn.to/4oGDnjR Framework Desktop Mainboard (AMD Ryzen™ AI Max ..."
+                  - tooltip "tooltip"
+                - generic [ref=e293]:
+                  - link "18 seconds ... What&#39;s going on everybody It&#39;s ETA Prime back here again Today we&#39;re going to be pushing the AMD <b>Ryzen AI Max Plus 395</b> to&nbsp;..." [ref=e294]:
+                    - /url: /watch?v=7wsXLPZxglg&t=18s
+                    - text: 0:18
+                    - generic [ref=e295]: ... What's going on everybody It's ETA Prime back here again Today we're going to be pushing the AMD Ryzen AI Max Plus 395 to ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e300]:
+                  - generic [ref=e301]: 4K
+            - generic [ref=e306]:
+              - img [ref=e312]:
+                - generic [ref=e797]:
+                  - img
+              - generic [ref=e314] [cursor=pointer]:
+                - generic [ref=e315]:
+                  - link "Galaxy S26 is here. No trade-in needed." [ref=e318]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CsHbU53owatvPCMv4qMwPqPrauA3yrvPhhwHL1pS51RVkEAIgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHl9_ztAagDBMgDCqoE2AJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi23GVl7swAREczI640Tsih-Qc4Hx5Mw8I1vaeLjjQ47W9KQFkQvg_xyYBbsUXaBuPzMatIW-z4UcroZKt9z4rtt5t2RJP_jEVOfamRJyyBaXnIXVlk8VfvDSOLmoohWmGdVwChU46GLQHUVlijQ82emeeHgQ_1SIgFmYeMiFeSBQgIE3in9eyYAqAGboAHg4iDkgKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJM2h0dHBzOi8vd3d3LnQtbW9iaWxlLmNvbS9vZmZlcnMvc2Ftc3VuZy1waG9uZS1kZWFsc7EJ81Ss4NrlWjDICQDICYoCyAmXAroLPQgDEAUYBCAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIRugMFdmlhdGzQCxLgCwGiDDpiFAoSY29tLnQtbW9iaWxlLmRyaXZlah0KG2NvbS50bW9iaWxlLnZ2bS5hcHBsaWNhdGlvbngAiAEA0gwCEAHaDCUKChDwn-T7mtbtr3cSAgEDGg0YmYeMiFcgnv3TqboFQAFKAhAfmg0BEqoNAlVTyA0B0g2cBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzY3MS4yNzkzODJEQk1ULU1PQklMRVVTOTQxMDU5OS9CMzQ3NDE5MzkuNDQ1NDA3NTEwO2RjX3Rya19haWQ9NjM4NjgxMDA1O2RjX3Rya19jaWQ9MjUzODAxMjYyO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSW1ZZU1pRmVvQXFmMTdKZ0NzQUtJc05yb0EwQTdFTEw3dVFGX0Uza0phbkxCUXBNeEZMT1ZoMGFTO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjRFlVTEM4TnZtUG9WWlN5a3F5VDdYa0ZQRmtKdHFuSVl1cEJMQzhXYW9BUWlYVTdGSzkybFdSQ3lZMWpWNzZjVzNaeHFGd1RLWC0xMjR1UHc7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy50LW1vYmlsZS5jb20vb2ZmZXJzL3NhbXN1bmctcGhvbmUtZGVhbHM_Y21waWQ9TUdQT19EU19QXzI2UFBTMjZFWFBfREcmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzcwODU5NDE3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3sBP2_bEiuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF3pJaTRZjYTzuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAiAAEgIwvPD_BwE&num=2&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&sig=AOD64_1_Zc0MLB-LmG9ZpwCySiKkZCWcWg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "Why wait? Get the new Samsung Galaxy S26." [ref=e321]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CsHbU53owatvPCMv4qMwPqPrauA3yrvPhhwHL1pS51RVkEAIgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHl9_ztAagDBMgDCqoE2AJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi23GVl7swAREczI640Tsih-Qc4Hx5Mw8I1vaeLjjQ47W9KQFkQvg_xyYBbsUXaBuPzMatIW-z4UcroZKt9z4rtt5t2RJP_jEVOfamRJyyBaXnIXVlk8VfvDSOLmoohWmGdVwChU46GLQHUVlijQ82emeeHgQ_1SIgFmYeMiFeSBQgIE3in9eyYAqAGboAHg4iDkgKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJM2h0dHBzOi8vd3d3LnQtbW9iaWxlLmNvbS9vZmZlcnMvc2Ftc3VuZy1waG9uZS1kZWFsc7EJ81Ss4NrlWjDICQDICYoCyAmXAroLPQgDEAUYBCAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIRugMFdmlhdGzQCxLgCwGiDDpiFAoSY29tLnQtbW9iaWxlLmRyaXZlah0KG2NvbS50bW9iaWxlLnZ2bS5hcHBsaWNhdGlvbngAiAEA0gwCEAHaDCUKChDwn-T7mtbtr3cSAgEDGg0YmYeMiFcgnv3TqboFQAFKAhAfmg0BEqoNAlVTyA0B0g2cBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzY3MS4yNzkzODJEQk1ULU1PQklMRVVTOTQxMDU5OS9CMzQ3NDE5MzkuNDQ1NDA3NTEwO2RjX3Rya19haWQ9NjM4NjgxMDA1O2RjX3Rya19jaWQ9MjUzODAxMjYyO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSW1ZZU1pRmVvQXFmMTdKZ0NzQUtJc05yb0EwQTdFTEw3dVFGX0Uza0phbkxCUXBNeEZMT1ZoMGFTO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjRFlVTEM4TnZtUG9WWlN5a3F5VDdYa0ZQRmtKdHFuSVl1cEJMQzhXYW9BUWlYVTdGSzkybFdSQ3lZMWpWNzZjVzNaeHFGd1RLWC0xMjR1UHc7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy50LW1vYmlsZS5jb20vb2ZmZXJzL3NhbXN1bmctcGhvbmUtZGVhbHM_Y21waWQ9TUdQT19EU19QXzI2UFBTMjZFWFBfREcmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzcwODU5NDE3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3sBP2_bEiuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF3pJaTRZjYTzuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAiAAEgIwvPD_BwE&num=2&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&sig=AOD64_1_Zc0MLB-LmG9ZpwCySiKkZCWcWg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e322]:
+                    - generic [ref=e324]:
+                      - generic [ref=e325]: Sponsored
+                      - text: ·
+                    - generic [ref=e327]: T-Mobile
+                - button "My Ad Center" [ref=e330]:
+                  - generic [ref=e799]:
+                    - img
+            - generic [ref=e337]:
+              - link [ref=e339] [cursor=pointer]:
+                - /url: /watch?v=prIUKAbHlj8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e341] [cursor=pointer]:
+                - generic [ref=e342]:
+                  - generic [ref=e343]:
+                    - heading "AMD Strix Halo/Ryzen AI Max+ 395 for AI – An Honest Review 18 minutes" [level=3] [ref=e344]:
+                      - link "AMD Strix Halo/Ryzen AI Max+ 395 for AI – An Honest Review 18 minutes" [ref=e345]:
+                        - /url: /watch?v=prIUKAbHlj8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: AMD Strix Halo/Ryzen AI Max+ 395 for AI – An Honest Review
+                    - button "Action menu" [ref=e803]:
+                      - generic [ref=e806]:
+                        - img
+                  - generic [ref=e348]:
+                    - generic [ref=e349]: 68K views
+                    - generic [ref=e350]: •8 months ago
+                - generic [ref=e351]:
+                  - link "Go to channel Bijan Bowen" [ref=e352]:
+                    - /url: /@Bijanbowen
+                  - link "Bijan Bowen" [ref=e357]:
+                    - /url: /@Bijanbowen
+                - generic [ref=e358]:
+                  - generic [ref=e359]: ... https://discord.gg/hfaR2exy7S In this video, we review the newly released AMD Strix Halo, also known as the Ryzen AI Max 395 ...
+                  - tooltip "tooltip"
+                - generic [ref=e360]:
+                  - link "0 seconds In my hand right here is the <b>Ryzen</b> Stricks Halo or as you may be familiar with the <b>Ryzen AI Max Plus</b> But regardless of what it&#39;s&nbsp;..." [ref=e361]:
+                    - /url: /watch?v=prIUKAbHlj8
+                    - text: 0:00
+                    - generic [ref=e362]: In my hand right here is the Ryzen Stricks Halo or as you may be familiar with the Ryzen AI Max Plus But regardless of what it's ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e367]:
+                  - generic [ref=e368]: 4K
+            - generic [ref=e370]:
+              - link [ref=e372] [cursor=pointer]:
+                - /url: /watch?v=ziZDzrDI7AM&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e374] [cursor=pointer]:
+                - generic [ref=e375]:
+                  - generic [ref=e376]:
+                    - heading "Linux on the New Framework Desktop PC! 12 minutes, 30 seconds" [level=3] [ref=e377]:
+                      - link "Linux on the New Framework Desktop PC! 12 minutes, 30 seconds" [ref=e378]:
+                        - /url: /watch?v=ziZDzrDI7AM&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Linux on the New Framework Desktop PC!
+                    - button "Action menu" [ref=e810]:
+                      - generic [ref=e813]:
+                        - img
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: 96K views
+                    - generic [ref=e383]: •10 months ago
+                - generic [ref=e384]:
+                  - link "Go to channel Level1Linux" [ref=e385]:
+                    - /url: /@Level1Linux
+                  - generic [ref=e386]:
+                    - link "Level1Linux" [ref=e390]:
+                      - /url: /@Level1Linux
+                    - img "Verified" [ref=e395]:
+                      - generic [ref=e815]:
+                        - img
+                - generic [ref=e397]:
+                  - text: Framework isn't just making laptops anymore! Now they are making very small desktop pc too! Check out Wednell's fun with Linux ...
+                  - tooltip "tooltip"
+                - generic [ref=e398]:
+                  - link "22 seconds When I first got my hands on this platform in laptop form I felt it to my core or AMD calls it the <b>Ryzen AI Max Plus 395</b> 16 cores&nbsp;..." [ref=e399]:
+                    - /url: /watch?v=ziZDzrDI7AM&t=22s
+                    - text: 0:22
+                    - generic [ref=e400]: When I first got my hands on this platform in laptop form I felt it to my core or AMD calls it the Ryzen AI Max Plus 395 16 cores ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e405]:
+                  - generic [ref=e406]: 4K
+            - generic [ref=e415] [cursor=pointer]:
+              - link [ref=e416]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e421]:
+                  - generic [ref=e817]:
+                    - img
+              - generic [ref=e427]:
+                - generic [ref=e428]:
+                  - generic [ref=e429]:
+                    - link "The BMW X3." [ref=e432]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Experience the ultimate blend of adventure and versatility." [ref=e435]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e436]:
+                      - button "BMWUSAT2" [ref=e440]
+                      - generic [ref=e444]:
+                        - generic [ref=e445]: Sponsored
+                        - text: ·
+                      - generic [ref=e447]: BMW
+                  - button "My Ad Center" [ref=e450]:
+                    - generic [ref=e819]:
+                      - img
+                - generic [ref=e458]:
+                  - link "Watch" [ref=e461]:
+                    - /url: /watch?v=pH6Ok5OwteM
+                    - generic [ref=e462]: Watch
+                  - link "Learn more" [ref=e468]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e469]: Learn more
+            - generic [ref=e473]:
+              - generic [ref=e476]:
+                - img [ref=e478]:
+                  - generic [ref=e821]:
+                    - img
+                - heading "Shorts" [level=2] [ref=e481]
+              - generic [ref=e483]:
+                - generic [ref=e486]:
+                  - link [ref=e487] [cursor=pointer]:
+                    - /url: /shorts/Mj49wMVpkg0
+                    - img [ref=e492]:
+                      - generic [ref=e493]: New
+                  - generic [ref=e494] [cursor=pointer]:
+                    - link "AMD Just Killed Nvidia With A $1,499 AI Lunchbox (Ryzen AI Max+ 395)" [ref=e495]:
+                      - /url: /shorts/Mj49wMVpkg0
+                    - generic [ref=e496]: 2.2K views
+                  - button "More actions" [ref=e498] [cursor=pointer]:
+                    - generic [ref=e823]:
+                      - img
+                - generic [ref=e506]:
+                  - link [ref=e507] [cursor=pointer]:
+                    - /url: /shorts/PiVQ7Fa3h_s
+                  - generic [ref=e511] [cursor=pointer]:
+                    - link "AMD just changed the GAME - ROG Flow Z13 w/ Ryzen AI Max+ 395" [ref=e512]:
+                      - /url: /shorts/PiVQ7Fa3h_s
+                    - generic [ref=e513]: 169K views
+                  - button "More actions" [ref=e515] [cursor=pointer]:
+                    - generic [ref=e825]:
+                      - img
+                - generic [ref=e523]:
+                  - link [ref=e524] [cursor=pointer]:
+                    - /url: /shorts/Cq5_tgfyJSo
+                  - generic [ref=e528] [cursor=pointer]:
+                    - link "AMD RYZEN AI 9 strix halo 395 max plus extra on" [ref=e529]:
+                      - /url: /shorts/Cq5_tgfyJSo
+                    - generic [ref=e530]: 56K views
+                  - button "More actions" [ref=e532] [cursor=pointer]:
+                    - generic [ref=e827]:
+                      - img
+                - generic [ref=e540]:
+                  - link [ref=e541] [cursor=pointer]:
+                    - /url: /shorts/Iz8A6Aywtn8
+                  - generic [ref=e545] [cursor=pointer]:
+                    - link "Ryzen AI Max+ Pro 395 in ROG Flow" [ref=e546]:
+                      - /url: /shorts/Iz8A6Aywtn8
+                    - generic [ref=e547]: 147K views
+                  - button "More actions" [ref=e549] [cursor=pointer]:
+                    - generic [ref=e829]:
+                      - img
+                - generic [ref=e557]:
+                  - link [ref=e558] [cursor=pointer]:
+                    - /url: /shorts/xMdFTIH5dRA
+                  - generic [ref=e562] [cursor=pointer]:
+                    - link "Testing 120B LLMs on the MINISFORUM MS-S1 MAX - Powered by AMD Ryzen™ AI Max+ 395" [ref=e563]:
+                      - /url: /shorts/xMdFTIH5dRA
+                    - generic [ref=e564]: 190K views
+                  - button "More actions" [ref=e566] [cursor=pointer]:
+                    - generic [ref=e831]:
+                      - img
+            - generic [ref=e833]:
+              - link [ref=e835] [cursor=pointer]:
+                - /url: /watch?v=cO7tE4eFf-A&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e837] [cursor=pointer]:
+                - generic [ref=e838]:
+                  - generic [ref=e839]:
+                    - heading "The New MAX+ 388 Powers The Ultimate 13\" Creator Laptop! 11 minutes, 28 seconds" [level=3] [ref=e840]:
+                      - link "The New MAX+ 388 Powers The Ultimate 13\" Creator Laptop! 11 minutes, 28 seconds" [ref=e841]:
+                        - /url: /watch?v=cO7tE4eFf-A&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: The New MAX+ 388 Powers The Ultimate 13" Creator Laptop!
+                    - button "Action menu" [ref=e845]:
+                      - generic [ref=e848]:
+                        - img
+                  - generic [ref=e851]:
+                    - generic [ref=e852]: 40K views
+                    - generic [ref=e853]: •1 month ago
+                - generic [ref=e854]:
+                  - link "Go to channel ETA PRIME" [ref=e855]:
+                    - /url: /@ETAPRIME
+                  - generic [ref=e856]:
+                    - link "ETA PRIME" [ref=e860]:
+                      - /url: /@ETAPRIME
+                    - img "Verified" [ref=e865]:
+                      - generic [ref=e868]:
+                        - img
+                - generic [ref=e869]:
+                  - generic [ref=e870]: In this video, we take a hands-on look at the all-new 2026 ASUS ProArt PX13, powered by the highly anticipated AMD Ryzen AI ...
+                  - tooltip "tooltip"
+                - generic [ref=e871]:
+                  - link "34 seconds ... of the <b>Ryzen Max Plus 395</b> and even the <b>Max Plus</b> 392 but what we&#39;ve got here is the AMD <b>Ryzen AI Max Plus</b> 388 so instead of&nbsp;..." [ref=e872]:
+                    - /url: /watch?v=cO7tE4eFf-A&t=34s
+                    - text: 0:34
+                    - generic [ref=e873]: ... of the Ryzen Max Plus 395 and even the Max Plus 392 but what we've got here is the AMD Ryzen AI Max Plus 388 so instead of ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e878]:
+                  - generic [ref=e879]: 4K
+            - generic [ref=e881]:
+              - link [ref=e883] [cursor=pointer]:
+                - /url: /watch?v=zaLiP1SD2sU&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e885] [cursor=pointer]:
+                - generic [ref=e886]:
+                  - generic [ref=e887]:
+                    - heading "The Most Powerful APU on Earth 13 minutes, 39 seconds" [level=3] [ref=e888]:
+                      - link "The Most Powerful APU on Earth 13 minutes, 39 seconds" [ref=e889]:
+                        - /url: /watch?v=zaLiP1SD2sU&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: The Most Powerful APU on Earth
+                    - button "Action menu" [ref=e893]:
+                      - generic [ref=e896]:
+                        - img
+                  - generic [ref=e899]:
+                    - generic [ref=e900]: 302K views
+                    - generic [ref=e901]: •6 months ago
+                - generic [ref=e902]:
+                  - link "Go to channel Alex Ziskind" [ref=e903]:
+                    - /url: /@AZisk
+                  - generic [ref=e904]:
+                    - link "Alex Ziskind" [ref=e908]:
+                      - /url: /@AZisk
+                    - img "Verified" [ref=e913]:
+                      - generic [ref=e916]:
+                        - img
+                - generic [ref=e917]:
+                  - generic [ref=e918]: I put the $2000 cheaper Beelink GTR9 Pro through LLM benchmarks against the Mac Studio M3 Ultra and other AMD Ryzen AI ...
+                  - tooltip "tooltip"
+                - generic [ref=e919]:
+                  - link "30 seconds ... the Being GTR9 has the most powerful x86 APU chip on the planet right now that would be the <b>Ryzen AI Max Plus 395</b> the same&nbsp;..." [ref=e920]:
+                    - /url: /watch?v=zaLiP1SD2sU&t=30s
+                    - text: 0:30
+                    - generic [ref=e921]: ... the Being GTR9 has the most powerful x86 APU chip on the planet right now that would be the Ryzen AI Max Plus 395 the same ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e926]:
+                  - generic [ref=e927]: 4K
+            - generic [ref=e929]:
+              - link [ref=e931] [cursor=pointer]:
+                - /url: /watch?v=qL28fZ9s8h8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e933] [cursor=pointer]:
+                - generic [ref=e934]:
+                  - generic [ref=e935]:
+                    - heading "Agent Computers Are Here. Powered by Ryzen AI Max 3 minutes, 11 seconds" [level=3] [ref=e936]:
+                      - link "Agent Computers Are Here. Powered by Ryzen AI Max 3 minutes, 11 seconds" [ref=e937]:
+                        - /url: /watch?v=qL28fZ9s8h8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Agent Computers Are Here. Powered by Ryzen AI Max
+                    - button "Action menu" [ref=e941]:
+                      - generic [ref=e944]:
+                        - img
+                  - generic [ref=e947]:
+                    - generic [ref=e948]: 37K views
+                    - generic [ref=e949]: •1 month ago
+                - generic [ref=e950]:
+                  - link "Go to channel AMD" [ref=e951]:
+                    - /url: /@AMD
+                  - generic [ref=e952]:
+                    - link "AMD" [ref=e956]:
+                      - /url: /@AMD
+                    - img "Verified" [ref=e961]:
+                      - generic [ref=e964]:
+                        - img
+                - generic [ref=e965]:
+                  - generic [ref=e966]: "At AMD Developer Day in San Francisco, we're introducing what comes next: Agent Computers powered by Ryzen AI Max."
+                  - tooltip "tooltip"
+                - generic [ref=e968]:
+                  - img "4K" [ref=e971]:
+                    - generic [ref=e972]: 4K
+                  - img "Closed captions" [ref=e975]:
+                    - generic [ref=e976]: CC
+            - generic [ref=e977]:
+              - generic [ref=e980]:
+                - img [ref=e982]:
+                  - generic [ref=e984]:
+                    - img
+                - heading "Shorts" [level=2] [ref=e987]
+              - generic [ref=e988]:
+                - generic [ref=e989]:
+                  - generic [ref=e992]:
+                    - link [ref=e993] [cursor=pointer]:
+                      - /url: /shorts/qF-Dfwto5LA
+                    - generic [ref=e997] [cursor=pointer]:
+                      - link "Ryzen AI Max+" [ref=e998]:
+                        - /url: /shorts/qF-Dfwto5LA
+                      - generic [ref=e999]: 274K views
+                    - button "More actions" [ref=e1001] [cursor=pointer]:
+                      - generic [ref=e1005]:
+                        - img
+                  - generic [ref=e1011]:
+                    - link [ref=e1012] [cursor=pointer]:
+                      - /url: /shorts/4B6cSZxIziQ
+                    - generic [ref=e1016] [cursor=pointer]:
+                      - link "AYANEO’s NEXT 2 Handheld Featuring Ryzen AI Max+ 395" [ref=e1017]:
+                        - /url: /shorts/4B6cSZxIziQ
+                      - generic [ref=e1018]: 11K views
+                    - button "More actions" [ref=e1020] [cursor=pointer]:
+                      - generic [ref=e1024]:
+                        - img
+                  - generic [ref=e1030]:
+                    - link [ref=e1031] [cursor=pointer]:
+                      - /url: /shorts/k9UQbfa8OOU
+                    - generic [ref=e1035] [cursor=pointer]:
+                      - 'link "HP ZBook Ultra G1a - AMD Ryzen AI MAX+ PRO 395 / Radeon 8060S #HP #AMD #laptop" [ref=e1036]':
+                        - /url: /shorts/k9UQbfa8OOU
+                      - generic [ref=e1037]: 54K views
+                    - button "More actions" [ref=e1039] [cursor=pointer]:
+                      - generic [ref=e1043]:
+                        - img
+                  - generic [ref=e1049]:
+                    - link [ref=e1050] [cursor=pointer]:
+                      - /url: /shorts/ieO-54ApAhE
+                      - img [ref=e1055]:
+                        - generic [ref=e1056]: New
+                    - generic [ref=e1057] [cursor=pointer]:
+                      - link "AMD Ryzen™ AI MAX+ 395 | Super X, Apex & OneXStation i1 Performance Showcase 🚀" [ref=e1058]:
+                        - /url: /shorts/ieO-54ApAhE
+                      - generic [ref=e1059]: 1.9K views
+                    - button "More actions" [ref=e1061] [cursor=pointer]:
+                      - generic [ref=e1065]:
+                        - img
+                  - generic [ref=e1071]:
+                    - link [ref=e1072] [cursor=pointer]:
+                      - /url: /shorts/IHbbHh8phLw
+                    - generic [ref=e1076] [cursor=pointer]:
+                      - 'link "AMD Ryzen AI Pro Series vs. NVIDIA: The Battle for AI-Powered Business PCs! #ai #shorts" [ref=e1077]':
+                        - /url: /shorts/IHbbHh8phLw
+                      - generic [ref=e1078]: 36K views
+                    - button "More actions" [ref=e1080] [cursor=pointer]:
+                      - generic [ref=e1084]:
+                        - img
+                - generic [ref=e1088]:
+                  - generic [ref=e1091]:
+                    - link [ref=e1092] [cursor=pointer]:
+                      - /url: /shorts/FyqSy4fbZ1g
+                    - generic [ref=e1096] [cursor=pointer]:
+                      - 'link "AYANEO NEXT II: 9-Inch OLED Monster w/ Desktop Power? (Ryzen AI Max+ 395)" [ref=e1097]':
+                        - /url: /shorts/FyqSy4fbZ1g
+                      - generic [ref=e1098]: 21K views
+                    - button "More actions" [ref=e1100] [cursor=pointer]:
+                      - generic [ref=e1104]:
+                        - img
+                  - generic [ref=e1110]:
+                    - link [ref=e1111] [cursor=pointer]:
+                      - /url: /shorts/1qiSB6tEmh4
+                    - generic [ref=e1115] [cursor=pointer]:
+                      - link "MINISFORUM MS-S1 MAX Unboxing | Next-Gen AI Workstation with AMD Ryzen AI Max+ 395" [ref=e1116]:
+                        - /url: /shorts/1qiSB6tEmh4
+                      - generic [ref=e1117]: 244K views
+                    - button "More actions" [ref=e1119] [cursor=pointer]:
+                      - generic [ref=e1123]:
+                        - img
+                  - generic [ref=e1129]:
+                    - link [ref=e1130] [cursor=pointer]:
+                      - /url: /shorts/d0vLUv3mTWQ
+                    - generic [ref=e1134] [cursor=pointer]:
+                      - link "GPD Win 5 AMD Ryzen AI Max 395 gaming handheld" [ref=e1135]:
+                        - /url: /shorts/d0vLUv3mTWQ
+                      - generic [ref=e1136]: 11K views
+                    - button "More actions" [ref=e1138] [cursor=pointer]:
+                      - generic [ref=e1142]:
+                        - img
+                  - generic [ref=e1148]:
+                    - link [ref=e1149] [cursor=pointer]:
+                      - /url: /shorts/_JLsAp4mllk
+                    - generic [ref=e1153] [cursor=pointer]:
+                      - 'link "AMD Ryzen AI Max+ 395: Power in a Small Package!" [ref=e1154]':
+                        - /url: /shorts/_JLsAp4mllk
+                      - generic [ref=e1155]: 2.9K views
+                    - button "More actions" [ref=e1157] [cursor=pointer]:
+                      - generic [ref=e1161]:
+                        - img
+                  - generic [ref=e1167]:
+                    - link [ref=e1168] [cursor=pointer]:
+                      - /url: /shorts/_OnUWWiR2CY
+                      - img [ref=e1173]:
+                        - generic [ref=e1174]: New
+                    - generic [ref=e1175] [cursor=pointer]:
+                      - link "AooStar Launches T03-395 Mini PC with Ryzen AI Max+ 395 and Quad SSD Slots" [ref=e1176]:
+                        - /url: /shorts/_OnUWWiR2CY
+                      - generic [ref=e1177]: 68 views
+                    - button "More actions" [ref=e1179] [cursor=pointer]:
+                      - generic [ref=e1183]:
+                        - img
+              - button "Show more" [ref=e1190] [cursor=pointer]:
+                - generic [ref=e1191]: Show more
+                - generic [ref=e1195]:
+                  - img
+            - generic [ref=e1207] [cursor=pointer]:
+              - link [ref=e1208]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cfyox53owatvPCMv4qMwPqPrauA2wj7vahwHwqI_-5RVkEAQgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHp64jIA6gDBMgDCqoEyQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwje1WVl7swANz1rr0TDQIbq-w_AGybP8i4vHaDscmD14fDcZMmrt5BwbKU7c1vmXuIs3jsBYHyYcMl5fy4cqPY-iHJ4V8RgvPsgtDKhD6OQmNNeuH6vIo8DKtxALSEJ_dNQsyd0gDsLLogF5oK6lViSBQcIE3iH-vM4oAahAYAH_5P3N5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLWnU4Ri0yY1pGd0GoCAGwCAzSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFi4zeX6o4qVA2ABmgkwaHR0cDovL3d3dy5zdWJhcnUuY29tL3ZlaGljbGVzL291dGJhY2svMjAyNi5odG1ssQnr1ArcuiERzsgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmlhdGzQCxLgCwGiDBpiEwoRY29tLnN1YmFydS5vbmVhcHB4AIgBANIMAhAB2gwkCgkQoPC2u42bhkkSAgEDGg0Y5oK6lVggs6Gd1ekFQAFKAhAfmg0BEqoNAlVTyA0B0g2aB2h0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMjg4My4xOTcyMTAzRE9VQkxFQ0xJQ0tCSURNQU5BRy9CMzU0NjUyNjEuNDQyNzMwNzEzO2RjX3Rya19haWQ9NjM2ODMxMTU5O2RjX3Rya19jaWQ9MjQ0NjYxMDE4O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTRDaklLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhJSTVvSzZsVmlvQXFIcEliQUMtdnkxNlFOQU94QzIyUjRQYXA1em52dDY4cjIwZ0dNSUtXVEw7ZHNwX2RlYWxpZF8wXz0ke0lOVkVOVE9SWV9TT1VSQ0VfRVhURVJOQUxfSUR9O2RzcF9jYW1wYWlnbmlkXzBfPSR7SU5TRVJUSU9OX09SREVSX0lEfTtkc3BfYmlkdXJsXzBfPSR7U09VUkNFX1VSTF9FTkN9O2RzcF9jaGFuaWRfMF89JHtFWENIQU5HRV9JRH07ZHNwX2lkXzBfPTM7ZHNwX2ltcGlkXzBfPXY0fn4ke0FVQ1RJT05fSUR9O2RzcF94YXBwYl8wXz0ke0JVTkRMRV9JRH07ZHNwX3B1Ymxpc2hlcmlkXzBfPSR7QURTWFRfUFVCTElTSEVSX0lEfTtkc3BfcGxhY2VtZW50aWRfMF89JHtDQU1QQUlHTl9JRH07ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNBZk9uY0VEd291UHdEX3RXU0tJVEFhTFBEeHpjNDE4bW84aTZqRzk3NXlmSy1zMW50QUJkUHBRYkl6N1g4THcwY28wTlhubF9DMjV5N1FDUTtkY19wdWJpZD02P2h0dHA6Ly93d3cuc3ViYXJ1LmNvbS92ZWhpY2xlcy9vdXRiYWNrLzIwMjYuaHRtbD9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM2NjczMTA5NTAmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXQmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXSwE72OtCK4E____________wGIFASwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX1s3T7LhvjBC6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYBCAAEgKo9vD_BwE&num=4&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2rJ784WqNOPdRGVYe0talAcDt-Rg&ctype=110&video_id=Zu8F-2cZFwA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e1213]:
+                  - generic [ref=e1217]:
+                    - img
+              - generic [ref=e1221]:
+                - generic [ref=e1222]:
+                  - generic [ref=e1223]:
+                    - link "See Specs and Build Your Own" [ref=e1226]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cfyox53owatvPCMv4qMwPqPrauA2wj7vahwHwqI_-5RVkEAQgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHp64jIA6gDBMgDCqoEyQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwje1WVl7swANz1rr0TDQIbq-w_AGybP8i4vHaDscmD14fDcZMmrt5BwbKU7c1vmXuIs3jsBYHyYcMl5fy4cqPY-iHJ4V8RgvPsgtDKhD6OQmNNeuH6vIo8DKtxALSEJ_dNQsyd0gDsLLogF5oK6lViSBQcIE3iH-vM4oAahAYAH_5P3N5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLWnU4Ri0yY1pGd0GoCAGwCAzSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFi4zeX6o4qVA2ABmgkwaHR0cDovL3d3dy5zdWJhcnUuY29tL3ZlaGljbGVzL291dGJhY2svMjAyNi5odG1ssQnr1ArcuiERzsgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmlhdGzQCxLgCwGiDBpiEwoRY29tLnN1YmFydS5vbmVhcHB4AIgBANIMAhAB2gwkCgkQoPC2u42bhkkSAgEDGg0Y5oK6lVggs6Gd1ekFQAFKAhAfmg0BEqoNAlVTyA0B0g2aB2h0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMjg4My4xOTcyMTAzRE9VQkxFQ0xJQ0tCSURNQU5BRy9CMzU0NjUyNjEuNDQyNzMwNzEzO2RjX3Rya19haWQ9NjM2ODMxMTU5O2RjX3Rya19jaWQ9MjQ0NjYxMDE4O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTRDaklLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhJSTVvSzZsVmlvQXFIcEliQUMtdnkxNlFOQU94QzIyUjRQYXA1em52dDY4cjIwZ0dNSUtXVEw7ZHNwX2RlYWxpZF8wXz0ke0lOVkVOVE9SWV9TT1VSQ0VfRVhURVJOQUxfSUR9O2RzcF9jYW1wYWlnbmlkXzBfPSR7SU5TRVJUSU9OX09SREVSX0lEfTtkc3BfYmlkdXJsXzBfPSR7U09VUkNFX1VSTF9FTkN9O2RzcF9jaGFuaWRfMF89JHtFWENIQU5HRV9JRH07ZHNwX2lkXzBfPTM7ZHNwX2ltcGlkXzBfPXY0fn4ke0FVQ1RJT05fSUR9O2RzcF94YXBwYl8wXz0ke0JVTkRMRV9JRH07ZHNwX3B1Ymxpc2hlcmlkXzBfPSR7QURTWFRfUFVCTElTSEVSX0lEfTtkc3BfcGxhY2VtZW50aWRfMF89JHtDQU1QQUlHTl9JRH07ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNBZk9uY0VEd291UHdEX3RXU0tJVEFhTFBEeHpjNDE4bW84aTZqRzk3NXlmSy1zMW50QUJkUHBRYkl6N1g4THcwY28wTlhubF9DMjV5N1FDUTtkY19wdWJpZD02P2h0dHA6Ly93d3cuc3ViYXJ1LmNvbS92ZWhpY2xlcy9vdXRiYWNrLzIwMjYuaHRtbD9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM2NjczMTA5NTAmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXQmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXSwE72OtCK4E____________wGIFASwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX1s3T7LhvjBC6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYBCAAEgKo9vD_BwE&num=4&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2rJ784WqNOPdRGVYe0talAcDt-Rg&ctype=110&video_id=Zu8F-2cZFwA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Shop the 2026 Outback SUV at Subaru.com. View pricing & specs." [ref=e1229]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cfyox53owatvPCMv4qMwPqPrauA2wj7vahwHwqI_-5RVkEAQgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHp64jIA6gDBMgDCqoEyQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwje1WVl7swANz1rr0TDQIbq-w_AGybP8i4vHaDscmD14fDcZMmrt5BwbKU7c1vmXuIs3jsBYHyYcMl5fy4cqPY-iHJ4V8RgvPsgtDKhD6OQmNNeuH6vIo8DKtxALSEJ_dNQsyd0gDsLLogF5oK6lViSBQcIE3iH-vM4oAahAYAH_5P3N5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLWnU4Ri0yY1pGd0GoCAGwCAzSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFi4zeX6o4qVA2ABmgkwaHR0cDovL3d3dy5zdWJhcnUuY29tL3ZlaGljbGVzL291dGJhY2svMjAyNi5odG1ssQnr1ArcuiERzsgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmlhdGzQCxLgCwGiDBpiEwoRY29tLnN1YmFydS5vbmVhcHB4AIgBANIMAhAB2gwkCgkQoPC2u42bhkkSAgEDGg0Y5oK6lVggs6Gd1ekFQAFKAhAfmg0BEqoNAlVTyA0B0g2aB2h0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMjg4My4xOTcyMTAzRE9VQkxFQ0xJQ0tCSURNQU5BRy9CMzU0NjUyNjEuNDQyNzMwNzEzO2RjX3Rya19haWQ9NjM2ODMxMTU5O2RjX3Rya19jaWQ9MjQ0NjYxMDE4O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTRDaklLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhJSTVvSzZsVmlvQXFIcEliQUMtdnkxNlFOQU94QzIyUjRQYXA1em52dDY4cjIwZ0dNSUtXVEw7ZHNwX2RlYWxpZF8wXz0ke0lOVkVOVE9SWV9TT1VSQ0VfRVhURVJOQUxfSUR9O2RzcF9jYW1wYWlnbmlkXzBfPSR7SU5TRVJUSU9OX09SREVSX0lEfTtkc3BfYmlkdXJsXzBfPSR7U09VUkNFX1VSTF9FTkN9O2RzcF9jaGFuaWRfMF89JHtFWENIQU5HRV9JRH07ZHNwX2lkXzBfPTM7ZHNwX2ltcGlkXzBfPXY0fn4ke0FVQ1RJT05fSUR9O2RzcF94YXBwYl8wXz0ke0JVTkRMRV9JRH07ZHNwX3B1Ymxpc2hlcmlkXzBfPSR7QURTWFRfUFVCTElTSEVSX0lEfTtkc3BfcGxhY2VtZW50aWRfMF89JHtDQU1QQUlHTl9JRH07ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNBZk9uY0VEd291UHdEX3RXU0tJVEFhTFBEeHpjNDE4bW84aTZqRzk3NXlmSy1zMW50QUJkUHBRYkl6N1g4THcwY28wTlhubF9DMjV5N1FDUTtkY19wdWJpZD02P2h0dHA6Ly93d3cuc3ViYXJ1LmNvbS92ZWhpY2xlcy9vdXRiYWNrLzIwMjYuaHRtbD9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM2NjczMTA5NTAmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXQmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXSwE72OtCK4E____________wGIFASwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX1s3T7LhvjBC6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYBCAAEgKo9vD_BwE&num=4&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2rJ784WqNOPdRGVYe0talAcDt-Rg&ctype=110&video_id=Zu8F-2cZFwA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e1230]:
+                      - button "Subaru" [ref=e1234]
+                      - generic [ref=e1238]:
+                        - generic [ref=e1239]: Sponsored
+                        - text: ·
+                      - generic [ref=e1241]: Subaru
+                  - button "My Ad Center" [ref=e1244]:
+                    - generic [ref=e1248]:
+                      - img
+                - generic [ref=e1254]:
+                  - link "Watch" [ref=e1257]:
+                    - /url: /watch?v=Zu8F-2cZFwA
+                    - generic [ref=e1258]: Watch
+                  - link "Visit site" [ref=e1264]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cfyox53owatvPCMv4qMwPqPrauA2wj7vahwHwqI_-5RVkEAQgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHp64jIA6gDBMgDCqoEyQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwje1WVl7swANz1rr0TDQIbq-w_AGybP8i4vHaDscmD14fDcZMmrt5BwbKU7c1vmXuIs3jsBYHyYcMl5fy4cqPY-iHJ4V8RgvPsgtDKhD6OQmNNeuH6vIo8DKtxALSEJ_dNQsyd0gDsLLogF5oK6lViSBQcIE3iH-vM4oAahAYAH_5P3N5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLWnU4Ri0yY1pGd0GoCAGwCAzSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFi4zeX6o4qVA2ABmgkwaHR0cDovL3d3dy5zdWJhcnUuY29tL3ZlaGljbGVzL291dGJhY2svMjAyNi5odG1ssQnr1ArcuiERzsgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmlhdGzQCxLgCwGiDBpiEwoRY29tLnN1YmFydS5vbmVhcHB4AIgBANIMAhAB2gwkCgkQoPC2u42bhkkSAgEDGg0Y5oK6lVggs6Gd1ekFQAFKAhAfmg0BEqoNAlVTyA0B0g2aB2h0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMjg4My4xOTcyMTAzRE9VQkxFQ0xJQ0tCSURNQU5BRy9CMzU0NjUyNjEuNDQyNzMwNzEzO2RjX3Rya19haWQ9NjM2ODMxMTU5O2RjX3Rya19jaWQ9MjQ0NjYxMDE4O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTRDaklLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhJSTVvSzZsVmlvQXFIcEliQUMtdnkxNlFOQU94QzIyUjRQYXA1em52dDY4cjIwZ0dNSUtXVEw7ZHNwX2RlYWxpZF8wXz0ke0lOVkVOVE9SWV9TT1VSQ0VfRVhURVJOQUxfSUR9O2RzcF9jYW1wYWlnbmlkXzBfPSR7SU5TRVJUSU9OX09SREVSX0lEfTtkc3BfYmlkdXJsXzBfPSR7U09VUkNFX1VSTF9FTkN9O2RzcF9jaGFuaWRfMF89JHtFWENIQU5HRV9JRH07ZHNwX2lkXzBfPTM7ZHNwX2ltcGlkXzBfPXY0fn4ke0FVQ1RJT05fSUR9O2RzcF94YXBwYl8wXz0ke0JVTkRMRV9JRH07ZHNwX3B1Ymxpc2hlcmlkXzBfPSR7QURTWFRfUFVCTElTSEVSX0lEfTtkc3BfcGxhY2VtZW50aWRfMF89JHtDQU1QQUlHTl9JRH07ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNBZk9uY0VEd291UHdEX3RXU0tJVEFhTFBEeHpjNDE4bW84aTZqRzk3NXlmSy1zMW50QUJkUHBRYkl6N1g4THcwY28wTlhubF9DMjV5N1FDUTtkY19wdWJpZD02P2h0dHA6Ly93d3cuc3ViYXJ1LmNvbS92ZWhpY2xlcy9vdXRiYWNrLzIwMjYuaHRtbD9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM2NjczMTA5NTAmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXQmZ2JyYWlkPTBBQUFBQURrQ05lbUU2Y2tTTFRSSV91V1F0c3hwZlVOTXSwE72OtCK4E____________wGIFASwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX1s3T7LhvjBC6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYBCAAEgKo9vD_BwE&num=4&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2rJ784WqNOPdRGVYe0talAcDt-Rg&ctype=110&video_id=Zu8F-2cZFwA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e1265]: Visit site
+            - generic [ref=e1270]:
+              - link [ref=e1272] [cursor=pointer]:
+                - /url: /watch?v=m4pzGZCRyu4&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1274] [cursor=pointer]:
+                - generic [ref=e1275]:
+                  - generic [ref=e1276]:
+                    - heading "Ryzen AI Max+ 395 (Radeon 8060S) vs Desktop PC - Productivity, Gaming, FSR4 & More! 18 minutes" [level=3] [ref=e1277]:
+                      - link "Ryzen AI Max+ 395 (Radeon 8060S) vs Desktop PC - Productivity, Gaming, FSR4 & More! 18 minutes" [ref=e1278]:
+                        - /url: /watch?v=m4pzGZCRyu4&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Ryzen AI Max+ 395 (Radeon 8060S) vs Desktop PC - Productivity, Gaming, FSR4 & More!
+                    - button "Action menu" [ref=e1282]:
+                      - generic [ref=e1285]:
+                        - img
+                  - generic [ref=e1288]:
+                    - generic [ref=e1289]: 19K views
+                    - generic [ref=e1290]: •3 months ago
+                - generic [ref=e1291]:
+                  - link "Go to channel Ancient Gameplays" [ref=e1292]:
+                    - /url: /@AncientGameplays
+                  - generic [ref=e1293]:
+                    - link "Ancient Gameplays" [ref=e1297]:
+                      - /url: /@AncientGameplays
+                    - img "Verified" [ref=e1302]:
+                      - generic [ref=e1305]:
+                        - img
+                - generic [ref=e1306]:
+                  - text: "Thank you Beelink for sending the Mini PC (and no, this isn't sponsored :D) Get your Beelink GTR9 PRO Here: ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1307]:
+                  - link "1 minute, 12 seconds ... Billink mini computer the <b>Ryzen AI Max Plus 395</b> versus the Zenbook S16 with a Ryzen 9 Ajax 370 versus my desktop computer&nbsp;..." [ref=e1308]:
+                    - /url: /watch?v=m4pzGZCRyu4&t=72s
+                    - text: 1:12
+                    - generic [ref=e1309]: ... Billink mini computer the Ryzen AI Max Plus 395 versus the Zenbook S16 with a Ryzen 9 Ajax 370 versus my desktop computer ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1314]:
+                  - generic [ref=e1315]: 4K
+            - generic [ref=e1317]:
+              - link [ref=e1319] [cursor=pointer]:
+                - /url: /watch?v=sw3x5jvU96k&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1321] [cursor=pointer]:
+                - generic [ref=e1322]:
+                  - generic [ref=e1323]:
+                    - 'heading "128GB AI PC Showdown: HP vs Framework vs GMKTek! Ryzen AI 395+ PRO MAX 15 minutes" [level=3] [ref=e1324]':
+                      - 'link "128GB AI PC Showdown: HP vs Framework vs GMKTek! Ryzen AI 395+ PRO MAX 15 minutes" [ref=e1325]':
+                        - /url: /watch?v=sw3x5jvU96k&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: "128GB AI PC Showdown: HP vs Framework vs GMKTek! Ryzen AI 395+ PRO MAX"
+                    - button "Action menu" [ref=e1329]:
+                      - generic [ref=e1332]:
+                        - img
+                  - generic [ref=e1335]:
+                    - generic [ref=e1336]: 121K views
+                    - generic [ref=e1337]: •9 months ago
+                - generic [ref=e1338]:
+                  - link "Go to channel Dave's Garage" [ref=e1339]:
+                    - /url: /@DavesGarage
+                  - generic [ref=e1340]:
+                    - link "Dave's Garage" [ref=e1344]:
+                      - /url: /@DavesGarage
+                    - img "Verified" [ref=e1349]:
+                      - generic [ref=e1352]:
+                        - img
+                - generic [ref=e1353]:
+                  - generic [ref=e1354]: Dave explains and compares three of the newest Ryzen AI 395+ MAX systems for desktop AI and other compute-heavy tasks!
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1359]:
+                  - generic [ref=e1360]: 4K
+                - generic [ref=e1363]:
+                  - generic [ref=e1364]:
+                    - generic [ref=e1365]:
+                      - generic [ref=e1368]:
+                        - img
+                      - generic [ref=e1369]: Summary
+                    - button
+                    - text: ·
+                  - button "More" [ref=e1374]:
+                    - generic [ref=e1378]:
+                      - img
+            - generic [ref=e1383]:
+              - link [ref=e1385] [cursor=pointer]:
+                - /url: /watch?v=pHB3-9AG6tw&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1387] [cursor=pointer]:
+                - generic [ref=e1388]:
+                  - generic [ref=e1389]:
+                    - heading "The BEST AI Mini PC That One Upped Apple? AMD Strix Halo Beelink GTR9 Pro 17 minutes" [level=3] [ref=e1390]:
+                      - link "The BEST AI Mini PC That One Upped Apple? AMD Strix Halo Beelink GTR9 Pro 17 minutes" [ref=e1391]:
+                        - /url: /watch?v=pHB3-9AG6tw&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: The BEST AI Mini PC That One Upped Apple? AMD Strix Halo Beelink GTR9 Pro
+                    - button "Action menu" [ref=e1395]:
+                      - generic [ref=e1398]:
+                        - img
+                  - generic [ref=e1401]:
+                    - generic [ref=e1402]: 211K views
+                    - generic [ref=e1403]: •8 months ago
+                - generic [ref=e1404]:
+                  - link "Go to channel ServeTheHome" [ref=e1405]:
+                    - /url: /@ServeTheHomeVideo
+                  - generic [ref=e1406]:
+                    - link "ServeTheHome" [ref=e1410]:
+                      - /url: /@ServeTheHomeVideo
+                    - img "Verified" [ref=e1415]:
+                      - generic [ref=e1418]:
+                        - img
+                - generic [ref=e1419]:
+                  - generic [ref=e1420]: Looking like a smaller Apple Mac Studio, the Beelink GTR9 Pro packs the powerful AMD Ryzen AI Max+ 395 processor (Strix ...
+                  - tooltip "tooltip"
+                - generic [ref=e1421]:
+                  - link "30 seconds ... on the AMD <b>Ryzen AI Max Plus 395</b> which is a complete mouthful but it is an awesome little AI processor At the same time this is&nbsp;..." [ref=e1422]:
+                    - /url: /watch?v=pHB3-9AG6tw&t=30s
+                    - text: 0:30
+                    - generic [ref=e1423]: ... on the AMD Ryzen AI Max Plus 395 which is a complete mouthful but it is an awesome little AI processor At the same time this is ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1428]:
+                  - generic [ref=e1429]: 4K
+            - generic [ref=e1431]:
+              - link [ref=e1433] [cursor=pointer]:
+                - /url: /watch?v=LO6pUCiNGSM&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1435] [cursor=pointer]:
+                - generic [ref=e1436]:
+                  - generic [ref=e1437]:
+                    - heading "AMD Ryzen AI Max+ 395 – 4K Gaming Without a GPU? (21 Games Tested) 18 minutes" [level=3] [ref=e1438]:
+                      - link "AMD Ryzen AI Max+ 395 – 4K Gaming Without a GPU? (21 Games Tested) 18 minutes" [ref=e1439]:
+                        - /url: /watch?v=LO6pUCiNGSM&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: AMD Ryzen AI Max+ 395 – 4K Gaming Without a GPU? (21 Games Tested)
+                    - button "Action menu" [ref=e1443]:
+                      - generic [ref=e1446]:
+                        - img
+                  - generic [ref=e1449]:
+                    - generic [ref=e1450]: 121K views
+                    - generic [ref=e1451]: •10 months ago
+                - generic [ref=e1452]:
+                  - link "Go to channel Team Pandory" [ref=e1453]:
+                    - /url: /@TeamPandory
+                  - link "Team Pandory" [ref=e1458]:
+                    - /url: /@TeamPandory
+                - generic [ref=e1459]:
+                  - generic [ref=e1460]: We test 21 popular games on the GMKtec Evo-X2 Mini PC, powered by the AMD Ryzen Max+ 395 and integrated Radeon 8060S ...
+                  - tooltip "tooltip"
+                - generic [ref=e1461]:
+                  - link "0 seconds This PC is armed with a <b>Ryzen Max Plus 395</b> powerful and expensive but when paired with the integrated Radon 8060S is it really&nbsp;..." [ref=e1462]:
+                    - /url: /watch?v=LO6pUCiNGSM
+                    - text: 0:00
+                    - generic [ref=e1463]: This PC is armed with a Ryzen Max Plus 395 powerful and expensive but when paired with the integrated Radon 8060S is it really ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1468]:
+                  - generic [ref=e1469]: 4K
+            - generic [ref=e1471]:
+              - link [ref=e1473] [cursor=pointer]:
+                - /url: /watch?v=uHk9-rCLnKI&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1475] [cursor=pointer]:
+                - generic [ref=e1476]:
+                  - generic [ref=e1477]:
+                    - heading "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395 13 minutes" [level=3] [ref=e1478]:
+                      - link "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395 13 minutes" [ref=e1479]:
+                        - /url: /watch?v=uHk9-rCLnKI&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395
+                    - button "Action menu" [ref=e1483]:
+                      - generic [ref=e1486]:
+                        - img
+                  - generic [ref=e1489]:
+                    - generic [ref=e1490]: 15K views
+                    - generic [ref=e1491]: •2 months ago
+                - generic [ref=e1492]:
+                  - link "Go to channel Brad Colbow" [ref=e1493]:
+                    - /url: /@thebradcolbow
+                  - generic [ref=e1494]:
+                    - link "Brad Colbow" [ref=e1498]:
+                      - /url: /@thebradcolbow
+                    - img "Verified" [ref=e1503]:
+                      - generic [ref=e1506]:
+                        - img
+                - generic [ref=e1507]:
+                  - text: "NEW COURSES: http://bradsartschool.com Infplane Hilbert Kickstarter https://reurl.cc/X2mbEe More about The Infplane Hilbert ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1508]:
+                  - link "6 minutes, 5 seconds ... least in the like higherend pro versions of those tablets okay performance when we&#39;re talking about the <b>Ryzen AI Max Plus 395</b>&nbsp;..." [ref=e1509]:
+                    - /url: /watch?v=uHk9-rCLnKI&t=365s
+                    - text: 6:05
+                    - generic [ref=e1510]: ... least in the like higherend pro versions of those tablets okay performance when we're talking about the Ryzen AI Max Plus 395 ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1515]:
+                  - generic [ref=e1516]: 4K
+            - generic [ref=e1521]:
+              - img [ref=e1527]:
+                - generic [ref=e1529]:
+                  - img
+              - generic [ref=e1531] [cursor=pointer]:
+                - generic [ref=e1532]:
+                  - link "Save on the new Google Pixel 10a now" [ref=e1535]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7rX-53owatvPCMv4qMwPqPrauA3O1uLdhwHSsoGKyRVkEAUgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGtwdrBKKgDBMgDCqoEqQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwiKymVl7swAAj1zBKkmTRMmB4vU-AnbL_kBMK6GvRbz2f9KOlSncgJ7_SQ9o9BUPFvJiy0KeXxvr2Rqyd9rMkLSt3y9F8sqNOOIBZP3pOhWkgUICBN418X0hASgBm6AB9anqd4DkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAqgHwsixArAIDNIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWLjN5fqjipUDYAGaCU9odHRwczovL3d3dy52ZXJpem9uLmNvbS9idXNpbmVzcy9wcm9kdWN0cy9kZXZpY2VzL3NtYXJ0cGhvbmVzL2dvb2dsZS1waXhlbC0xMGEvsQl65d_2zXhM9sgJAMgJigK6Cz0IAxAFGAQgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpYXRs0AsS4AsBogweahcKFWNvbS52encuaHNzLm15dmVyaXpvbngAiAEA0gwCEAHaDCUKChCQpuHx663CnCsSAgEDGg0Yk_ek6FYgyOyLr9oFQAFKAhAfmg0BEqoNAlVTyA0B0g21A2h0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMjk5OC5nb29nbGUuY29tT1gyNDE2L0IzNDU2MTA5NC40MzU4MTA4MTY7ZGNfdHJrX2FpZD02Mjg2NTUwNjY7ZGNfdHJrX2NpZD0yNTA5MjUzMjk7ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07Z2Rwcj0ke0dEUFJ9O2dkcHJfY29uc2VudD0ke0dEUFJfQ09OU0VOVF83NTV9O2x0ZD07ZGNfdGR2PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RtSFVITkk4dVgxY1JaSUp6T2ltRnV2Wk1CWGVGQXFtd0piU2ZvVjhoRUZEQ1cyTEtfdksxVWhfNXBWODUtR2pyaTB2YzdSVzFobFh1UWlnO2RjX3B1YmlkPTY_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzA0MTU4MDk5JmdicmFpZD0wQUFBQUFvZzJvSzJ1TDVudWxfMlBVWG5BOW02azNyNUY2uBP___________8BiBQFsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF2gBltkX6M-puhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYBSAAEgLTnPD_BwE&num=5&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&sig=AOD64_04hQ2W7N8havtPuOQXxcYUNhc5fQ&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "Get Google Pixel 10a with Gemini, on us. 128 GB only. My Biz Plan required. Terms apply." [ref=e1538]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7rX-53owatvPCMv4qMwPqPrauA3O1uLdhwHSsoGKyRVkEAUgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGtwdrBKKgDBMgDCqoEqQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwiKymVl7swAAj1zBKkmTRMmB4vU-AnbL_kBMK6GvRbz2f9KOlSncgJ7_SQ9o9BUPFvJiy0KeXxvr2Rqyd9rMkLSt3y9F8sqNOOIBZP3pOhWkgUICBN418X0hASgBm6AB9anqd4DkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAqgHwsixArAIDNIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWLjN5fqjipUDYAGaCU9odHRwczovL3d3dy52ZXJpem9uLmNvbS9idXNpbmVzcy9wcm9kdWN0cy9kZXZpY2VzL3NtYXJ0cGhvbmVzL2dvb2dsZS1waXhlbC0xMGEvsQl65d_2zXhM9sgJAMgJigK6Cz0IAxAFGAQgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpYXRs0AsS4AsBogweahcKFWNvbS52encuaHNzLm15dmVyaXpvbngAiAEA0gwCEAHaDCUKChCQpuHx663CnCsSAgEDGg0Yk_ek6FYgyOyLr9oFQAFKAhAfmg0BEqoNAlVTyA0B0g21A2h0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMjk5OC5nb29nbGUuY29tT1gyNDE2L0IzNDU2MTA5NC40MzU4MTA4MTY7ZGNfdHJrX2FpZD02Mjg2NTUwNjY7ZGNfdHJrX2NpZD0yNTA5MjUzMjk7ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07Z2Rwcj0ke0dEUFJ9O2dkcHJfY29uc2VudD0ke0dEUFJfQ09OU0VOVF83NTV9O2x0ZD07ZGNfdGR2PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RtSFVITkk4dVgxY1JaSUp6T2ltRnV2Wk1CWGVGQXFtd0piU2ZvVjhoRUZEQ1cyTEtfdksxVWhfNXBWODUtR2pyaTB2YzdSVzFobFh1UWlnO2RjX3B1YmlkPTY_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzA0MTU4MDk5JmdicmFpZD0wQUFBQUFvZzJvSzJ1TDVudWxfMlBVWG5BOW02azNyNUY2uBP___________8BiBQFsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF2gBltkX6M-puhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYBSAAEgLTnPD_BwE&num=5&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&sig=AOD64_04hQ2W7N8havtPuOQXxcYUNhc5fQ&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e1539]:
+                    - generic [ref=e1541]:
+                      - generic [ref=e1542]: Sponsored
+                      - text: ·
+                    - generic [ref=e1544]: Verizon Business
+                - button "My Ad Center" [ref=e1547]:
+                  - generic [ref=e1551]:
+                    - img
+            - generic [ref=e1556]:
+              - link [ref=e1558] [cursor=pointer]:
+                - /url: /watch?v=dDCC70W9vr0&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk10gcJCT4LAYcqIYzv
+              - generic [ref=e1560] [cursor=pointer]:
+                - generic [ref=e1561]:
+                  - generic [ref=e1562]:
+                    - heading "Ryzen AI Max+ 395 is INSANE - ROG Flow Z13 vs M4 Pro MBP 16 minutes" [level=3] [ref=e1563]:
+                      - link "Ryzen AI Max+ 395 is INSANE - ROG Flow Z13 vs M4 Pro MBP 16 minutes" [ref=e1564]:
+                        - /url: /watch?v=dDCC70W9vr0&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk10gcJCT4LAYcqIYzv
+                        - text: Ryzen AI Max+ 395 is INSANE - ROG Flow Z13 vs M4 Pro MBP
+                    - button "Action menu" [ref=e1568]:
+                      - generic [ref=e1571]:
+                        - img
+                  - generic [ref=e1574]:
+                    - generic [ref=e1575]: 205K views
+                    - generic [ref=e1576]: •1 year ago
+                - generic [ref=e1577]:
+                  - link "Go to channel Max Tech" [ref=e1578]:
+                    - /url: /@MaxTechOfficial
+                  - generic [ref=e1579]:
+                    - link "Max Tech" [ref=e1583]:
+                      - /url: /@MaxTechOfficial
+                    - img "Verified" [ref=e1588]:
+                      - generic [ref=e1591]:
+                        - img
+                - generic [ref=e1592]:
+                  - generic [ref=e1593]: The NEW Asus ROG Flow Z13 comes with AMD's Ryzen AI Max+ 395 which is the BEST x86 chip we've EVER seen for thin and ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1598]:
+                  - generic [ref=e1599]: 4K
+                - generic [ref=e1602]:
+                  - generic [ref=e1603]:
+                    - generic [ref=e1607]: 13 chapters
+                    - button "Asus ROG Flow Z13 vs M4 Pro MacBook Pro | Design Differences | Geekbench 6 CPU | Geekbench 6 CPU Unplugged | Geekbench 6 Metal GPU | 3D Mark Steel Nomad Light | Cinebench 2024 | Speedometer 3.0 | Figma Web Design | Blender 3D Rendering | Lightroom Classic Export | Photo Editing with more RAM | Is the ROG Z Flow 13 BETTER than MBP?" [ref=e1608]
+                  - button "More" [ref=e1613]:
+                    - generic [ref=e1617]:
+                      - img
+            - generic [ref=e1622]:
+              - link [ref=e1624] [cursor=pointer]:
+                - /url: /watch?v=61Nu2Je5hA8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1626] [cursor=pointer]:
+                - generic [ref=e1627]:
+                  - generic [ref=e1628]:
+                    - heading "Ryzen AI Max+ 395 Is Unreal! - ROG Flow Z13 Review 9 minutes, 3 seconds" [level=3] [ref=e1629]:
+                      - link "Ryzen AI Max+ 395 Is Unreal! - ROG Flow Z13 Review 9 minutes, 3 seconds" [ref=e1630]:
+                        - /url: /watch?v=61Nu2Je5hA8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Ryzen AI Max+ 395 Is Unreal! - ROG Flow Z13 Review
+                    - button "Action menu" [ref=e1634]:
+                      - generic [ref=e1637]:
+                        - img
+                  - generic [ref=e1640]:
+                    - generic [ref=e1641]: 21K views
+                    - generic [ref=e1642]: •11 months ago
+                - generic [ref=e1643]:
+                  - link "Go to channel ThinkView" [ref=e1644]:
+                    - /url: /@ThinkViewGlo
+                  - link "ThinkView" [ref=e1649]:
+                    - /url: /@ThinkViewGlo
+                - generic [ref=e1650]:
+                  - generic [ref=e1651]: The ROG Flow Z13 with the AMD Ryzen AI Max+395 is a game-changer! This compact machine packs desktop-level CPU ...
+                  - tooltip "tooltip"
+                - generic [ref=e1653]:
+                  - img "4K" [ref=e1656]:
+                    - generic [ref=e1657]: 4K
+                  - img "Closed captions" [ref=e1660]:
+                    - generic [ref=e1661]: CC
+                - generic [ref=e1664]:
+                  - generic [ref=e1665]:
+                    - generic [ref=e1669]: 6 chapters
+                    - button "Introduction | CPU Performance | GPU Performance | Battery Life | Build & Design | Conclusion" [ref=e1670]
+                  - button "More" [ref=e1675]:
+                    - generic [ref=e1679]:
+                      - img
+            - generic [ref=e1684]:
+              - link [ref=e1686] [cursor=pointer]:
+                - /url: /watch?v=5k8P-SUjgSw&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1688] [cursor=pointer]:
+                - generic [ref=e1689]:
+                  - generic [ref=e1690]:
+                    - heading "Ryzen MAX+ 395 Handhelds Are Coming! 25W vs Z1 & Z2 Extreme 10 minutes, 56 seconds" [level=3] [ref=e1691]:
+                      - link "Ryzen MAX+ 395 Handhelds Are Coming! 25W vs Z1 & Z2 Extreme 10 minutes, 56 seconds" [ref=e1692]:
+                        - /url: /watch?v=5k8P-SUjgSw&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Ryzen MAX+ 395 Handhelds Are Coming! 25W vs Z1 & Z2 Extreme
+                    - button "Action menu" [ref=e1696]:
+                      - generic [ref=e1699]:
+                        - img
+                  - generic [ref=e1702]:
+                    - generic [ref=e1703]: 88K views
+                    - generic [ref=e1704]: •9 months ago
+                - generic [ref=e1705]:
+                  - link "Go to channel ETA PRIME" [ref=e1706]:
+                    - /url: /@ETAPRIME
+                  - generic [ref=e1707]:
+                    - link "ETA PRIME" [ref=e1711]:
+                      - /url: /@ETAPRIME
+                    - img "Verified" [ref=e1716]:
+                      - generic [ref=e1719]:
+                        - img
+                - generic [ref=e1720]:
+                  - generic [ref=e1721]: We put the AMD Ryzen MAX+ 395 up against the Z2 Extreme and Z1 Extreme at just 25W to see which APU is the low-power ...
+                  - tooltip "tooltip"
+                - generic [ref=e1722]:
+                  - link "1 second It&#39;s no secret that we&#39;re soon going to be seeing handhelds powered by the AMD <b>Ryzen AI Max Plus 395</b> this chip is absolutely&nbsp;..." [ref=e1723]:
+                    - /url: /watch?v=5k8P-SUjgSw&t=1s&pp=0gcJCaMCg7Wk3p_U
+                    - text: 0:01
+                    - generic [ref=e1724]: It's no secret that we're soon going to be seeing handhelds powered by the AMD Ryzen AI Max Plus 395 this chip is absolutely ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1729]:
+                  - generic [ref=e1730]: 4K
+            - generic [ref=e1732]:
+              - link [ref=e1734] [cursor=pointer]:
+                - /url: /watch?v=OK2Bq1GBi0g&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1736] [cursor=pointer]:
+                - generic [ref=e1737]:
+                  - generic [ref=e1738]:
+                    - heading "We Overclocked the Ryzen MAX+ 395… and It’s Wild 10 minutes, 50 seconds" [level=3] [ref=e1739]:
+                      - link "We Overclocked the Ryzen MAX+ 395… and It’s Wild 10 minutes, 50 seconds" [ref=e1740]:
+                        - /url: /watch?v=OK2Bq1GBi0g&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: We Overclocked the Ryzen MAX+ 395… and It’s Wild
+                    - button "Action menu" [ref=e1744]:
+                      - generic [ref=e1747]:
+                        - img
+                  - generic [ref=e1750]:
+                    - generic [ref=e1751]: 69K views
+                    - generic [ref=e1752]: •8 months ago
+                - generic [ref=e1753]:
+                  - link "Go to channel ETA PRIME" [ref=e1754]:
+                    - /url: /@ETAPRIME
+                  - generic [ref=e1755]:
+                    - link "ETA PRIME" [ref=e1759]:
+                      - /url: /@ETAPRIME
+                    - img "Verified" [ref=e1764]:
+                      - generic [ref=e1767]:
+                        - img
+                - generic [ref=e1768]:
+                  - generic [ref=e1769]: We overclocked the AMD Ryzen AI MAX+ 395 and Radeon 8060S—AMD's most powerful iGPU—to see if extra clocks actually ...
+                  - tooltip "tooltip"
+                - generic [ref=e1770]:
+                  - link "0 seconds In this video we&#39;re going to be overclocking the AMD <b>Ryzen AI Max Plus 395</b> what I&#39;ve got here is the new Beink GTR9 i recently&nbsp;..." [ref=e1771]:
+                    - /url: /watch?v=OK2Bq1GBi0g&pp=0gcJCaMCg7Wk3p_U
+                    - text: 0:00
+                    - generic [ref=e1772]: In this video we're going to be overclocking the AMD Ryzen AI Max Plus 395 what I've got here is the new Beink GTR9 i recently ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1777]:
+                  - generic [ref=e1778]: 4K
+            - generic [ref=e1780]:
+              - link [ref=e1782] [cursor=pointer]:
+                - /url: /watch?v=G7KgWVeHx3E&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1784] [cursor=pointer]:
+                - generic [ref=e1785]:
+                  - generic [ref=e1786]:
+                    - heading "SteamOS 3.8 on Ryzen AI Max+395 — The Most Powerful iGPU Mini PC Yet! 10 minutes, 1 second" [level=3] [ref=e1787]:
+                      - link "SteamOS 3.8 on Ryzen AI Max+395 — The Most Powerful iGPU Mini PC Yet! 10 minutes, 1 second" [ref=e1788]:
+                        - /url: /watch?v=G7KgWVeHx3E&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: SteamOS 3.8 on Ryzen AI Max+395 — The Most Powerful iGPU Mini PC Yet!
+                    - button "Action menu" [ref=e1792]:
+                      - generic [ref=e1795]:
+                        - img
+                  - generic [ref=e1798]:
+                    - generic [ref=e1799]: 116K views
+                    - generic [ref=e1800]: •7 months ago
+                - generic [ref=e1801]:
+                  - link "Go to channel ETA PRIME" [ref=e1802]:
+                    - /url: /@ETAPRIME
+                  - generic [ref=e1803]:
+                    - link "ETA PRIME" [ref=e1807]:
+                      - /url: /@ETAPRIME
+                    - img "Verified" [ref=e1812]:
+                      - generic [ref=e1815]:
+                        - img
+                - generic [ref=e1816]:
+                  - generic [ref=e1817]: Experience official SteamOS 3.8 running on the MINISFORUM MS-S1 MAX mini PC powered by AMD Ryzen AI Max+395 and ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1822]:
+                  - generic [ref=e1823]: 4K
+                - generic [ref=e1826]:
+                  - generic [ref=e1827]:
+                    - generic [ref=e1831]: 8 chapters
+                    - button "Intro & Hardware Overview (MS-S1 MAX Specs) | Installing Official SteamOS 3.8 | BIOS Tweaks & Ryzen AI Max+395 Overclock | SteamOS Interface & Custom Theme Setup | Game Tests – Doom The Dark Ages / Cyberpunk 2077 | More Benchmarks – Witcher 3 / Spider-Man 2 / God of War Ragnarök | Temps, Power Draw & Cooling Performance | Final Thoughts & Verdict" [ref=e1832]
+                  - button "More" [ref=e1837]:
+                    - generic [ref=e1841]:
+                      - img
+            - generic [ref=e1846]:
+              - link [ref=e1848] [cursor=pointer]:
+                - /url: /watch?v=oKRzUqdILTQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1850] [cursor=pointer]:
+                - generic [ref=e1851]:
+                  - generic [ref=e1852]:
+                    - heading "Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 Benchmarks 22 minutes" [level=3] [ref=e1853]:
+                      - link "Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 Benchmarks 22 minutes" [ref=e1854]:
+                        - /url: /watch?v=oKRzUqdILTQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 Benchmarks
+                    - button "Action menu" [ref=e1858]:
+                      - generic [ref=e1861]:
+                        - img
+                  - generic [ref=e1864]:
+                    - generic [ref=e1865]: 62K views
+                    - generic [ref=e1866]: •7 months ago
+                - generic [ref=e1867]:
+                  - link "Go to channel Craft Computing" [ref=e1868]:
+                    - /url: /@CraftComputing
+                  - generic [ref=e1869]:
+                    - link "Craft Computing" [ref=e1873]:
+                      - /url: /@CraftComputing
+                    - img "Verified" [ref=e1878]:
+                      - generic [ref=e1881]:
+                        - img
+                - generic [ref=e1882]:
+                  - generic [ref=e1883]: Grab yourself a Pint Glass at https://craftcomputing.store AMD's Ryzen AI Max+ 395 is one of the fastest APUs in existence.
+                  - tooltip "tooltip"
+                - generic [ref=e1884]:
+                  - link "36 seconds ... here&#39;s a quick recap The MSS1 on my desk houses AMD&#39;s flagship stricks Halo chip a <b>Ryzen AI Max Plus 395</b> It&#39;s a 16 core Zen&nbsp;..." [ref=e1885]:
+                    - /url: /watch?v=oKRzUqdILTQ&t=36s
+                    - text: 0:36
+                    - generic [ref=e1886]: ... here's a quick recap The MSS1 on my desk houses AMD's flagship stricks Halo chip a Ryzen AI Max Plus 395 It's a 16 core Zen ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1891]:
+                  - generic [ref=e1892]: 4K
+            - generic [ref=e1894]:
+              - link [ref=e1896] [cursor=pointer]:
+                - /url: /watch?v=Xct5RuzJ8uc&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1898] [cursor=pointer]:
+                - generic [ref=e1899]:
+                  - generic [ref=e1900]:
+                    - 'heading "AMD APU Face-Off: PS5 vs Strix Halo/Ryzen AI Max+ 395 - Alan Wake 2, Hitman, Black Myth Wukong 9 minutes, 38 seconds" [level=3] [ref=e1901]':
+                      - 'link "AMD APU Face-Off: PS5 vs Strix Halo/Ryzen AI Max+ 395 - Alan Wake 2, Hitman, Black Myth Wukong 9 minutes, 38 seconds" [ref=e1902]':
+                        - /url: /watch?v=Xct5RuzJ8uc&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: "AMD APU Face-Off: PS5 vs Strix Halo/Ryzen AI Max+ 395 - Alan Wake 2, Hitman, Black Myth Wukong"
+                    - button "Action menu" [ref=e1906]:
+                      - generic [ref=e1909]:
+                        - img
+                  - generic [ref=e1912]:
+                    - generic [ref=e1913]: 28K views
+                    - generic [ref=e1914]: •8 months ago
+                - generic [ref=e1915]:
+                  - link "Go to channel DF Clips" [ref=e1916]:
+                    - /url: /@DFClipsChannel
+                  - generic [ref=e1917]:
+                    - link "DF Clips" [ref=e1921]:
+                      - /url: /@DFClipsChannel
+                    - img "Verified" [ref=e1926]:
+                      - generic [ref=e1929]:
+                        - img
+                - generic [ref=e1930]:
+                  - text: "Watch the FULL Video Here: https://youtu.be/vMGX35mzsWg ▻ Support us on Patreon! https://bit.ly/3jEGjvx ▻ Digital Foundry ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1931]:
+                  - link "11 seconds ... AMD has ever made the <b>Ryzen AI Max Plus 395</b> code named Stricks Halo But how does this efficiency orientated APU compare&nbsp;..." [ref=e1932]:
+                    - /url: /watch?v=Xct5RuzJ8uc&t=11s
+                    - text: 0:11
+                    - generic [ref=e1933]: ... AMD has ever made the Ryzen AI Max Plus 395 code named Stricks Halo But how does this efficiency orientated APU compare ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1938]:
+                  - generic [ref=e1939]: 4K
+            - generic [ref=e1941]:
+              - link [ref=e1943] [cursor=pointer]:
+                - /url: /watch?v=MeMc3WgmFJQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+              - generic [ref=e1945] [cursor=pointer]:
+                - generic [ref=e1946]:
+                  - generic [ref=e1947]:
+                    - 'heading "BREAKING: AMD Just Destroyed NVIDIA’s RTX 5080 With a \"Lunchbox\" 5 minutes, 9 seconds" [level=3] [ref=e1948]':
+                      - 'link "BREAKING: AMD Just Destroyed NVIDIA’s RTX 5080 With a \"Lunchbox\" 5 minutes, 9 seconds" [ref=e1949]':
+                        - /url: /watch?v=MeMc3WgmFJQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                        - text: "BREAKING: AMD Just Destroyed NVIDIA’s RTX 5080 With a \"Lunchbox\""
+                    - button "Action menu" [ref=e1953]:
+                      - generic [ref=e1956]:
+                        - img
+                  - generic [ref=e1959]:
+                    - generic [ref=e1960]: 8K views
+                    - generic [ref=e1961]: •13 hours ago
+                - generic [ref=e1962]:
+                  - link "Go to channel AIM Network" [ref=e1963]:
+                    - /url: /@aimmediahouse
+                  - link "AIM Network" [ref=e1968]:
+                    - /url: /@aimmediahouse
+                - generic [ref=e1969]:
+                  - text: "AMD CEO Lisa Su just shocked the tech world by pulling a \"lunchbox-sized\" desktop PC onto a stage and doing the unthinkable: ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1970]:
+                  - link "43 seconds ... sue may have actually just challenged that very assumption the machine is powered by amd&#39;s new <b>ryzen ai max plus 395</b> part of&nbsp;..." [ref=e1971]:
+                    - /url: /watch?v=MeMc3WgmFJQ&t=43s
+                    - text: 0:43
+                    - generic [ref=e1972]: ... sue may have actually just challenged that very assumption the machine is powered by amd's new ryzen ai max plus 395 part of ...
+                  - tooltip "tooltip"
+                - img "New" [ref=e1977]:
+                  - generic [ref=e1978]: New
+      - text: •
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "YouTube Video Player":
+                          - generic:
+                            - button "Play":
+                              - img

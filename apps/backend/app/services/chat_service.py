@@ -105,6 +105,39 @@ class ChatService:
 
         return [ConversationMessage(**dict(row)) for row in rows]
 
+    async def delete_conversation(self, conversation_id: str, user_id: str = "local-user") -> bool:
+        self.initialize()
+        with sqlite3.connect(self.sqlite_path) as database:
+            database.row_factory = sqlite3.Row
+            conversation = database.execute(
+                """
+                SELECT id
+                FROM conversations
+                WHERE id = ? AND user_id = ?
+                """,
+                (conversation_id, user_id),
+            ).fetchone()
+            if conversation is None:
+                return False
+
+            database.execute(
+                "DELETE FROM conversation_messages WHERE conversation_id = ?",
+                (conversation_id,),
+            )
+            database.execute(
+                "DELETE FROM conversations WHERE id = ? AND user_id = ?",
+                (conversation_id, user_id),
+            )
+            database.commit()
+
+        return True
+
+    async def cancel_chat(self, session_id: str) -> bool:
+        cancel_session = getattr(self.runtime, "cancel_session", None)
+        if not callable(cancel_session):
+            return False
+        return bool(cancel_session(session_id))
+
     async def stream_chat(self, request: ChatRequest) -> AsyncIterator[ChatEvent]:
         async for event in self.runtime.stream_chat(request, conversation_store=self):
             yield event

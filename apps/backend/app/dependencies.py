@@ -10,6 +10,7 @@ from app.services.memory_service import MemoryService
 from app.services.mcp_service import McpService
 from app.services.session_terminal_service import SessionTerminalService
 from app.services.settings_service import SettingsService
+from app.services.text_to_speech_service import TextToSpeechService
 from app.services.transcription_service import SpeechToTextService
 
 
@@ -65,6 +66,11 @@ def get_conversation_context_service() -> ConversationContextService:
 @lru_cache(maxsize=1)
 def get_speech_to_text_service() -> SpeechToTextService:
     return SpeechToTextService(get_settings())
+
+
+@lru_cache(maxsize=1)
+def get_text_to_speech_service() -> TextToSpeechService:
+    return TextToSpeechService(get_settings())
 
 
 @lru_cache(maxsize=1)

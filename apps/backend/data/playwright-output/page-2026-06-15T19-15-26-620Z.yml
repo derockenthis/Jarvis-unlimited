@@ -1,0 +1,301 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e5]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link "Go to homepage" [ref=e14] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e16]
+        - navigation [ref=e28]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - button "Solutions" [ref=e31] [cursor=pointer]:
+                - text: Solutions
+                - img [ref=e33]
+            - listitem [ref=e35]:
+              - button "Resources" [ref=e36] [cursor=pointer]:
+                - text: Resources
+                - img [ref=e38]
+            - listitem [ref=e40]:
+              - link "Community" [ref=e41] [cursor=pointer]:
+                - /url: /community
+            - listitem [ref=e42]:
+              - link "Enterprise" [ref=e43] [cursor=pointer]:
+                - /url: /enterprise-landing
+            - listitem [ref=e44]:
+              - link "Pricing" [ref=e45] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e46]:
+              - link "Security" [ref=e47] [cursor=pointer]:
+                - /url: /security
+      - generic [ref=e49]:
+        - button "Log in" [ref=e50] [cursor=pointer]:
+          - generic [ref=e52]: Log in
+        - button "Get started" [ref=e53] [cursor=pointer]:
+          - generic [ref=e55]: Get started
+    - generic [ref=e56]:
+      - main [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - heading "Build something Lovable" [level=2] [ref=e61]:
+                - generic [ref=e62]: Build something Lovable
+              - paragraph [ref=e63]: Create apps and websites by chatting with AI
+            - generic [ref=e74]:
+              - button "Additional actions" [disabled]:
+                - generic:
+                  - img
+              - generic [ref=e75]:
+                - button "Enable plan mode" [disabled]:
+                  - generic:
+                    - generic: Build
+                    - img
+                - button "Send message" [disabled]:
+                  - generic:
+                    - img
+                    - generic: Send message
+          - generic [ref=e77]:
+            - paragraph [ref=e78]: Teams from top companies build with Lovable
+            - generic [ref=e82]:
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - img [ref=e98]
+                - img [ref=e100]
+                - img [ref=e103]
+                - img [ref=e109]
+                - img [ref=e114]
+              - generic [ref=e118]:
+                - img [ref=e119]
+                - img [ref=e132]
+                - img [ref=e134]
+                - img [ref=e137]
+                - img [ref=e143]
+                - img [ref=e148]
+              - generic [ref=e152]:
+                - img [ref=e153]
+                - img [ref=e166]
+                - img [ref=e168]
+                - img [ref=e171]
+                - img [ref=e177]
+                - img [ref=e182]
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - heading "AI App Builder" [level=1] [ref=e187]
+          - heading "Ready to build?" [level=2] [ref=e188]
+        - contentinfo [ref=e190]:
+          - navigation [ref=e191]:
+            - link "Lovable" [ref=e193] [cursor=pointer]:
+              - /url: /home
+              - img "Lovable" [ref=e194]
+            - generic [ref=e204]:
+              - heading "Company" [level=3] [ref=e205]
+              - list [ref=e206]:
+                - listitem [ref=e207]:
+                  - link "Careers" [ref=e208] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=e209]:
+                  - link "Press & media" [ref=e210] [cursor=pointer]:
+                    - /url: /brand
+                - listitem [ref=e211]:
+                  - link "Enterprise" [ref=e212] [cursor=pointer]:
+                    - /url: /enterprise-landing
+                - listitem [ref=e213]:
+                  - link "Security" [ref=e214] [cursor=pointer]:
+                    - /url: /security
+                - listitem [ref=e215]:
+                  - link "Trust center" [ref=e216] [cursor=pointer]:
+                    - /url: https://trust.lovable.dev
+                    - text: Trust center
+                    - img [ref=e217]
+                - listitem [ref=e219]:
+                  - link "Partnerships" [ref=e220] [cursor=pointer]:
+                    - /url: /partners
+            - generic [ref=e221]:
+              - heading "Product" [level=3] [ref=e222]
+              - list [ref=e223]:
+                - listitem [ref=e224]:
+                  - link "Pricing" [ref=e225] [cursor=pointer]:
+                    - /url: /pricing
+                - listitem [ref=e226]:
+                  - link "Student discount" [ref=e227] [cursor=pointer]:
+                    - /url: /students
+                - listitem [ref=e228]:
+                  - link "Founders" [ref=e229] [cursor=pointer]:
+                    - /url: /founders
+                - listitem [ref=e230]:
+                  - link "Product Managers" [ref=e231] [cursor=pointer]:
+                    - /url: /product-managers
+                - listitem [ref=e232]:
+                  - link "Designers" [ref=e233] [cursor=pointer]:
+                    - /url: /designers
+                - listitem [ref=e234]:
+                  - link "Marketers" [ref=e235] [cursor=pointer]:
+                    - /url: /marketers
+                - listitem [ref=e236]:
+                  - link "Sales" [ref=e237] [cursor=pointer]:
+                    - /url: /sales
+                - listitem [ref=e238]:
+                  - link "Ops" [ref=e239] [cursor=pointer]:
+                    - /url: /ops
+                - listitem [ref=e240]:
+                  - link "People" [ref=e241] [cursor=pointer]:
+                    - /url: /people
+                - listitem [ref=e242]:
+                  - link "Prototyping" [ref=e243] [cursor=pointer]:
+                    - /url: /prototypes
+                - listitem [ref=e244]:
+                  - link "Internal Tools" [ref=e245] [cursor=pointer]:
+                    - /url: /tools
+                - listitem [ref=e246]:
+                  - link "Connections" [ref=e247] [cursor=pointer]:
+                    - /url: https://docs.lovable.dev/integrations/introduction
+                    - text: Connections
+                    - img [ref=e248]
+                - listitem [ref=e250]:
+                  - link "Changelog" [ref=e251] [cursor=pointer]:
+                    - /url: https://docs.lovable.dev/changelog
+                    - text: Changelog
+                    - img [ref=e252]
+                - listitem [ref=e254]:
+                  - link "Status" [ref=e255] [cursor=pointer]:
+                    - /url: https://status.lovable.dev/
+                    - text: Status
+                    - img [ref=e256]
+            - generic [ref=e258]:
+              - heading "Resources" [level=3] [ref=e259]
+              - list [ref=e260]:
+                - listitem [ref=e261]:
+                  - link "Learn" [ref=e262] [cursor=pointer]:
+                    - /url: https://docs.lovable.dev/introduction/welcome
+                    - text: Learn
+                    - img [ref=e263]
+                - listitem [ref=e265]:
+                  - link "Templates" [ref=e266] [cursor=pointer]:
+                    - /url: /templates
+                - listitem [ref=e267]:
+                  - link "Guides" [ref=e268] [cursor=pointer]:
+                    - /url: /guides
+                - listitem [ref=e269]:
+                  - link "Connectors" [ref=e270] [cursor=pointer]:
+                    - /url: /connect
+                - listitem [ref=e271]:
+                  - link "MCP server" [ref=e272] [cursor=pointer]:
+                    - /url: /mcp
+                - listitem [ref=e273]:
+                  - link "Videos" [ref=e274] [cursor=pointer]:
+                    - /url: /videos
+                - listitem [ref=e275]:
+                  - link "Blog" [ref=e276] [cursor=pointer]:
+                    - /url: /blog
+                - listitem [ref=e277]:
+                  - link "Support" [ref=e278] [cursor=pointer]:
+                    - /url: /support
+                - listitem [ref=e279]:
+                  - link "Reviews" [ref=e280] [cursor=pointer]:
+                    - /url: /reviews
+                - listitem [ref=e281]:
+                  - link "Sitemap" [ref=e282] [cursor=pointer]:
+                    - /url: /sitemap
+            - generic [ref=e283]:
+              - heading "Legal" [level=3] [ref=e284]
+              - list [ref=e285]:
+                - listitem [ref=e286]:
+                  - link "Privacy policy" [ref=e287] [cursor=pointer]:
+                    - /url: /privacy
+                    - text: Privacy policy
+                    - img [ref=e288]
+                - listitem [ref=e290]:
+                  - link "Do not sell or share my personal information" [ref=e291] [cursor=pointer]:
+                    - /url: /do-not-sell-or-share-my-personal-information
+                - listitem [ref=e292]:
+                  - link "Cookie settings" [ref=e293] [cursor=pointer]:
+                    - /url: /cookie-policy
+                - listitem [ref=e294]:
+                  - link "Enterprise terms" [ref=e295] [cursor=pointer]:
+                    - /url: https://lovable.dev/legal
+                    - text: Enterprise terms
+                    - img [ref=e296]
+                - listitem [ref=e298]:
+                  - link "General terms" [ref=e299] [cursor=pointer]:
+                    - /url: /terms
+                    - text: General terms
+                    - img [ref=e300]
+                - listitem [ref=e302]:
+                  - link "Desktop app terms" [ref=e303] [cursor=pointer]:
+                    - /url: /desktop-app-terms
+                    - text: Desktop app terms
+                    - img [ref=e304]
+                - listitem [ref=e306]:
+                  - link "Domain registration terms" [ref=e307] [cursor=pointer]:
+                    - /url: /domain-registration-terms
+                    - text: Domain registration terms
+                    - img [ref=e308]
+                - listitem [ref=e310]:
+                  - link "DMCA copyright policy" [ref=e311] [cursor=pointer]:
+                    - /url: /dmca
+                    - text: DMCA copyright policy
+                    - img [ref=e312]
+                - listitem [ref=e314]:
+                  - link "Platform rules" [ref=e315] [cursor=pointer]:
+                    - /url: https://rules.lovable.dev/
+                    - text: Platform rules
+                    - img [ref=e316]
+                - listitem [ref=e318]:
+                  - link "Report abuse" [ref=e319] [cursor=pointer]:
+                    - /url: /abuse
+                    - text: Report abuse
+                    - img [ref=e320]
+                - listitem [ref=e322]:
+                  - link "Report security concerns" [ref=e323] [cursor=pointer]:
+                    - /url: /security-issues
+                    - text: Report security concerns
+                    - img [ref=e324]
+                - listitem [ref=e326]:
+                  - link "DPA" [ref=e327] [cursor=pointer]:
+                    - /url: /data-processing-agreement
+                    - text: DPA
+                    - img [ref=e328]
+            - generic [ref=e330]:
+              - heading "Community" [level=3] [ref=e331]
+              - list [ref=e332]:
+                - listitem [ref=e333]:
+                  - link "Become a partner" [ref=e334] [cursor=pointer]:
+                    - /url: /partners
+                - listitem [ref=e335]:
+                  - link "Hire a Lovable expert" [ref=e336] [cursor=pointer]:
+                    - /url: /experts
+                - listitem [ref=e337]:
+                  - link "Affiliates" [ref=e338] [cursor=pointer]:
+                    - /url: /partners/affiliates
+                - listitem [ref=e339]:
+                  - link "Code of conduct" [ref=e340] [cursor=pointer]:
+                    - /url: /community-code-of-conduct
+                - listitem [ref=e341]:
+                  - link "Discord" [ref=e342] [cursor=pointer]:
+                    - /url: https://discord.com/invite/lovable-dev
+                    - text: Discord
+                    - img [ref=e343]
+                - listitem [ref=e345]:
+                  - link "Reddit" [ref=e346] [cursor=pointer]:
+                    - /url: https://reddit.com/r/lovable
+                    - text: Reddit
+                    - img [ref=e347]
+                - listitem [ref=e349]:
+                  - link "X / Twitter" [ref=e350] [cursor=pointer]:
+                    - /url: https://twitter.com/Lovable
+                    - text: X / Twitter
+                    - img [ref=e351]
+                - listitem [ref=e353]:
+                  - link "YouTube" [ref=e354] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@lovable
+                    - text: YouTube
+                    - img [ref=e355]
+                - listitem [ref=e357]:
+                  - link "LinkedIn" [ref=e358] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/lovable-dev/
+                    - text: LinkedIn
+                    - img [ref=e359]
+            - button "EN" [ref=e362] [cursor=pointer]:
+              - img [ref=e363]
+              - generic [ref=e365]: EN

@@ -1,0 +1,281 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [pressed] [ref=e9] [cursor=pointer]
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - button "Skip navigation" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: Skip navigation
+        - generic [ref=e24]:
+          - search [ref=e25]:
+            - generic [ref=e26]:
+              - generic [ref=e27]:
+                - combobox "Search" [expanded] [ref=e29]: Ryzen AI Max Plus 395
+                - button "Clear search query" [ref=e31] [cursor=pointer]
+              - button "Search" [ref=e36] [cursor=pointer]
+          - generic [ref=e39]:
+            - button "Search with your voice" [ref=e41] [cursor=pointer]
+            - tooltip "tooltip"
+        - generic [ref=e48]:
+          - button "Settings" [ref=e53] [cursor=pointer]
+          - link "Sign in" [ref=e57] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253DRyzen%252BAI%252BMax%252BPlus%252B395&hl=en&ec=65620
+            - generic [ref=e60]: Sign in
+    - navigation [ref=e64]
+    - main [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e74]:
+          - tablist [ref=e79]:
+            - tab "All" [selected] [ref=e83] [cursor=pointer]:
+              - generic [ref=e85]: All
+            - tab "Shorts" [ref=e92] [cursor=pointer]:
+              - generic [ref=e94]: Shorts
+            - tab "Unwatched" [ref=e101] [cursor=pointer]:
+              - generic [ref=e103]: Unwatched
+            - tab "Watched" [ref=e110] [cursor=pointer]:
+              - generic [ref=e112]: Watched
+            - tab "Videos" [ref=e119] [cursor=pointer]:
+              - generic [ref=e121]: Videos
+            - tab "Recently uploaded" [ref=e128] [cursor=pointer]:
+              - generic [ref=e130]: Recently uploaded
+            - tab "Live" [ref=e137] [cursor=pointer]:
+              - generic [ref=e139]: Live
+          - generic [ref=e144]:
+            - button "Search filters" [ref=e146] [cursor=pointer]:
+              - generic [ref=e147]: Filters
+            - tooltip "tooltip"
+        - generic [ref=e158]:
+          - generic [ref=e167] [cursor=pointer]:
+            - link [ref=e168]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - button [ref=e173]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - link "Faster prototyping shortens feedback loops. Codex helps teams get there sooner." [ref=e184]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "Go from idea to prototype faster than ever, with Codex." [ref=e187]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e188]:
+                    - button "ChatGPT" [ref=e192]
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: Sponsored
+                      - text: ·
+                    - generic [ref=e199]: OpenAI
+                - button "My Ad Center" [ref=e202]
+              - generic [ref=e210]:
+                - link "Watch" [ref=e213]:
+                  - /url: /watch?v=BfZzwD575NQ
+                  - generic [ref=e214]: Watch
+                - link "Sign up" [ref=e220]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CPI7j53owatvPCMv4qMwPqPrauA3l2t2_hwHOktvh3xVkEAEgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGXp9CRPqgDBMgDCqoErQJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi_hGVl7swAHXR6bqsmTWdjTKLM-AnbL_kBMK4hDkXw2f9KIFcKn5lEDqoNT848BNn5EjjE2kxHql74ZCLXs_EVNkKHnHPOlD8xbcKbiAWbsvGlWJIFCAgTeKOAv60coAahAYAH3IOCkhyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0JmWnp3RDU3NU5RqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJGmh0dHBzOi8vY2hhdGdwdC5jb20vY29kZXgvsQmaPpcG0414ZsgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEqIMG2oUChJjb20ub3BlbmFpLmNoYXRncHR4AIgBANIMAhAB2gwmCgsQ8OPqyf-AzofUARICAQMaDRibsvGlWCDJmK-t4AVAAUoCEB-aDQESqg0CVVPIDQHSDY8DaHR0cHM6Ly9jaGF0Z3B0LmNvbS9jb2RleC8_bW9kZT1kZWZhdWx0JnByb21wdD0_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcm9ncmFtbWF0aWMmdXRtX2NhbXBhaWduPUdPT0dfWF9QUkdfREdOX0NvZGV4LU5hdGlvbmFsX0NEWF9CQVVfQUNRX1BFUl9CUkRfQUxMX05BTUVSX1VTX0VOXzA0MDEyNiZ1dG1fY29udGVudD1HT09HX1hfUFJHX0RHTl9Db2RleC1OYXRpb25hbF9DRFhfQkFVX0FDUV9QRVJfQlJEX0FMTF9OQU1FUl9VU19FTl8wNDAxMjYmY19pZD0yMzcwMTc3MjU3MSZjX2FnaWQ9MTk3NjYzNjQwNjQ5JmNfY3JpZD04MDMxNzgyNDEzMzUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNzAxNzcyNTcxJmdicmFpZD0wQUFBQUEtSTBFNWR1VWpWdXIxWkg2UGtzeDBHZWQwUEhWuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF0ZgIh89xphJuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYASAAEgJVVvD_BwE&num=1&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_2DuX4NSv_yxmasjsoaRx-F9g4Ghw&ctype=110&video_id=BfZzwD575NQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e221]: Sign up
+          - generic [ref=e226]:
+            - link [ref=e228] [cursor=pointer]:
+              - /url: /watch?v=rDyZsqDmQbQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+            - generic [ref=e230] [cursor=pointer]:
+              - generic [ref=e231]:
+                - heading "This Mini PC Might be the Best Value YET - X+ Rival 16 minutes" [level=3] [ref=e233]:
+                  - link "This Mini PC Might be the Best Value YET - X+ Rival 16 minutes" [ref=e234]:
+                    - /url: /watch?v=rDyZsqDmQbQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                    - text: This Mini PC Might be the Best Value YET - X+ Rival
+                - generic [ref=e237]:
+                  - generic [ref=e238]: 302K views
+                  - generic [ref=e239]: •7 months ago
+              - generic [ref=e240]:
+                - link "Go to channel ShortCircuit" [ref=e241]:
+                  - /url: /@ShortCircuit
+                - generic [ref=e242]:
+                  - link "ShortCircuit" [ref=e246]:
+                    - /url: /@ShortCircuit
+                  - img "Verified" [ref=e251]
+              - generic [ref=e253]:
+                - text: Whether you're creating content, hosting meetings, or just want to upgrade your webcam game, the EMEET Pixy has you covered.
+                - tooltip "tooltip"
+              - generic [ref=e254]:
+                - link "8 seconds ... might be rivaling the framework desktop that I just looked at a couple weeks ago because in here is the <b>Ryzen AI Max 395 Plus</b>&nbsp;..." [ref=e255]:
+                  - /url: /watch?v=rDyZsqDmQbQ&t=8s&pp=0gcJCaMCg7Wk3p_U
+                  - text: 0:08
+                  - generic [ref=e256]: ... might be rivaling the framework desktop that I just looked at a couple weeks ago because in here is the Ryzen AI Max 395 Plus ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e261]:
+                - generic [ref=e262]: 4K
+          - generic [ref=e264]:
+            - link [ref=e266] [cursor=pointer]:
+              - /url: /watch?v=7wsXLPZxglg&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+            - generic [ref=e268] [cursor=pointer]:
+              - generic [ref=e269]:
+                - heading "Building a Ryzen Ai MAX+ 395 Mini PC That Plays Every Game! 10 minutes, 10 seconds" [level=3] [ref=e271]:
+                  - link "Building a Ryzen Ai MAX+ 395 Mini PC That Plays Every Game! 10 minutes, 10 seconds" [ref=e272]:
+                    - /url: /watch?v=7wsXLPZxglg&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                    - text: Building a Ryzen Ai MAX+ 395 Mini PC That Plays Every Game!
+                - generic [ref=e275]:
+                  - generic [ref=e276]: 223K views
+                  - generic [ref=e277]: •10 months ago
+              - generic [ref=e278]:
+                - link "Go to channel ETA PRIME" [ref=e279]:
+                  - /url: /@ETAPRIME
+                - generic [ref=e280]:
+                  - link "ETA PRIME" [ref=e284]:
+                    - /url: /@ETAPRIME
+                  - img "Verified" [ref=e289]
+              - generic [ref=e291]:
+                - generic [ref=e292]: "... https://amzn.to/4mG2VeU 400W FLEX PSU: https://amzn.to/4oGDnjR Framework Desktop Mainboard (AMD Ryzen™ AI Max ..."
+                - tooltip "tooltip"
+              - generic [ref=e293]:
+                - link "18 seconds ... What&#39;s going on everybody It&#39;s ETA Prime back here again Today we&#39;re going to be pushing the AMD <b>Ryzen AI Max Plus 395</b> to&nbsp;..." [ref=e294]:
+                  - /url: /watch?v=7wsXLPZxglg&t=18s
+                  - text: 0:18
+                  - generic [ref=e295]: ... What's going on everybody It's ETA Prime back here again Today we're going to be pushing the AMD Ryzen AI Max Plus 395 to ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e300]:
+                - generic [ref=e301]: 4K
+          - generic [ref=e306]:
+            - img [ref=e312]
+            - generic [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]:
+                - link "Galaxy S26 is here. No trade-in needed." [ref=e318]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CsHbU53owatvPCMv4qMwPqPrauA3yrvPhhwHL1pS51RVkEAIgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHl9_ztAagDBMgDCqoE2AJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi23GVl7swAREczI640Tsih-Qc4Hx5Mw8I1vaeLjjQ47W9KQFkQvg_xyYBbsUXaBuPzMatIW-z4UcroZKt9z4rtt5t2RJP_jEVOfamRJyyBaXnIXVlk8VfvDSOLmoohWmGdVwChU46GLQHUVlijQ82emeeHgQ_1SIgFmYeMiFeSBQgIE3in9eyYAqAGboAHg4iDkgKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJM2h0dHBzOi8vd3d3LnQtbW9iaWxlLmNvbS9vZmZlcnMvc2Ftc3VuZy1waG9uZS1kZWFsc7EJ81Ss4NrlWjDICQDICYoCyAmXAroLPQgDEAUYBCAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIRugMFdmlhdGzQCxLgCwGiDDpiFAoSY29tLnQtbW9iaWxlLmRyaXZlah0KG2NvbS50bW9iaWxlLnZ2bS5hcHBsaWNhdGlvbngAiAEA0gwCEAHaDCUKChDwn-T7mtbtr3cSAgEDGg0YmYeMiFcgnv3TqboFQAFKAhAfmg0BEqoNAlVTyA0B0g2cBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzY3MS4yNzkzODJEQk1ULU1PQklMRVVTOTQxMDU5OS9CMzQ3NDE5MzkuNDQ1NDA3NTEwO2RjX3Rya19haWQ9NjM4NjgxMDA1O2RjX3Rya19jaWQ9MjUzODAxMjYyO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSW1ZZU1pRmVvQXFmMTdKZ0NzQUtJc05yb0EwQTdFTEw3dVFGX0Uza0phbkxCUXBNeEZMT1ZoMGFTO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjRFlVTEM4TnZtUG9WWlN5a3F5VDdYa0ZQRmtKdHFuSVl1cEJMQzhXYW9BUWlYVTdGSzkybFdSQ3lZMWpWNzZjVzNaeHFGd1RLWC0xMjR1UHc7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy50LW1vYmlsZS5jb20vb2ZmZXJzL3NhbXN1bmctcGhvbmUtZGVhbHM_Y21waWQ9TUdQT19EU19QXzI2UFBTMjZFWFBfREcmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzcwODU5NDE3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3sBP2_bEiuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF3pJaTRZjYTzuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAiAAEgIwvPD_BwE&num=2&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&sig=AOD64_1_Zc0MLB-LmG9ZpwCySiKkZCWcWg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - link "Why wait? Get the new Samsung Galaxy S26." [ref=e321]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CsHbU53owatvPCMv4qMwPqPrauA3yrvPhhwHL1pS51RVkEAIgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHl9_ztAagDBMgDCqoE2AJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi23GVl7swAREczI640Tsih-Qc4Hx5Mw8I1vaeLjjQ47W9KQFkQvg_xyYBbsUXaBuPzMatIW-z4UcroZKt9z4rtt5t2RJP_jEVOfamRJyyBaXnIXVlk8VfvDSOLmoohWmGdVwChU46GLQHUVlijQ82emeeHgQ_1SIgFmYeMiFeSBQgIE3in9eyYAqAGboAHg4iDkgKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJM2h0dHBzOi8vd3d3LnQtbW9iaWxlLmNvbS9vZmZlcnMvc2Ftc3VuZy1waG9uZS1kZWFsc7EJ81Ss4NrlWjDICQDICYoCyAmXAroLPQgDEAUYBCAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIRugMFdmlhdGzQCxLgCwGiDDpiFAoSY29tLnQtbW9iaWxlLmRyaXZlah0KG2NvbS50bW9iaWxlLnZ2bS5hcHBsaWNhdGlvbngAiAEA0gwCEAHaDCUKChDwn-T7mtbtr3cSAgEDGg0YmYeMiFcgnv3TqboFQAFKAhAfmg0BEqoNAlVTyA0B0g2cBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzY3MS4yNzkzODJEQk1ULU1PQklMRVVTOTQxMDU5OS9CMzQ3NDE5MzkuNDQ1NDA3NTEwO2RjX3Rya19haWQ9NjM4NjgxMDA1O2RjX3Rya19jaWQ9MjUzODAxMjYyO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSW1ZZU1pRmVvQXFmMTdKZ0NzQUtJc05yb0EwQTdFTEw3dVFGX0Uza0phbkxCUXBNeEZMT1ZoMGFTO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjRFlVTEM4TnZtUG9WWlN5a3F5VDdYa0ZQRmtKdHFuSVl1cEJMQzhXYW9BUWlYVTdGSzkybFdSQ3lZMWpWNzZjVzNaeHFGd1RLWC0xMjR1UHc7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy50LW1vYmlsZS5jb20vb2ZmZXJzL3NhbXN1bmctcGhvbmUtZGVhbHM_Y21waWQ9TUdQT19EU19QXzI2UFBTMjZFWFBfREcmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzcwODU5NDE3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3JmdicmFpZD0wQUFBQUFCMl9PLVg5blZDbHNmblFGRWdoRVRsZWZPZUY3sBP2_bEiuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF3pJaTRZjYTzuhcKCAEoATAAOAFIAdAYAfAYAYAZA8IZAggB&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAiAAEgIwvPD_BwE&num=2&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&sig=AOD64_1_Zc0MLB-LmG9ZpwCySiKkZCWcWg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=e322]:
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: Sponsored
+                    - text: ·
+                  - generic [ref=e327]: T-Mobile
+              - button "My Ad Center" [ref=e330]
+          - generic [ref=e337]:
+            - link [ref=e339] [cursor=pointer]:
+              - /url: /watch?v=prIUKAbHlj8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+            - generic [ref=e341] [cursor=pointer]:
+              - generic [ref=e342]:
+                - heading "AMD Strix Halo/Ryzen AI Max+ 395 for AI – An Honest Review 18 minutes" [level=3] [ref=e344]:
+                  - link "AMD Strix Halo/Ryzen AI Max+ 395 for AI – An Honest Review 18 minutes" [ref=e345]:
+                    - /url: /watch?v=prIUKAbHlj8&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                    - text: AMD Strix Halo/Ryzen AI Max+ 395 for AI – An Honest Review
+                - generic [ref=e348]:
+                  - generic [ref=e349]: 68K views
+                  - generic [ref=e350]: •8 months ago
+              - generic [ref=e351]:
+                - link "Go to channel Bijan Bowen" [ref=e352]:
+                  - /url: /@Bijanbowen
+                - link "Bijan Bowen" [ref=e357]:
+                  - /url: /@Bijanbowen
+              - generic [ref=e358]:
+                - generic [ref=e359]: ... https://discord.gg/hfaR2exy7S In this video, we review the newly released AMD Strix Halo, also known as the Ryzen AI Max 395 ...
+                - tooltip "tooltip"
+              - generic [ref=e360]:
+                - link "0 seconds In my hand right here is the <b>Ryzen</b> Stricks Halo or as you may be familiar with the <b>Ryzen AI Max Plus</b> But regardless of what it&#39;s&nbsp;..." [ref=e361]:
+                  - /url: /watch?v=prIUKAbHlj8
+                  - text: 0:00
+                  - generic [ref=e362]: In my hand right here is the Ryzen Stricks Halo or as you may be familiar with the Ryzen AI Max Plus But regardless of what it's ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e367]:
+                - generic [ref=e368]: 4K
+          - generic [ref=e370]:
+            - link [ref=e372] [cursor=pointer]:
+              - /url: /watch?v=ziZDzrDI7AM&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+            - generic [ref=e374] [cursor=pointer]:
+              - generic [ref=e375]:
+                - heading "Linux on the New Framework Desktop PC! 12 minutes, 30 seconds" [level=3] [ref=e377]:
+                  - link "Linux on the New Framework Desktop PC! 12 minutes, 30 seconds" [ref=e378]:
+                    - /url: /watch?v=ziZDzrDI7AM&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1
+                    - text: Linux on the New Framework Desktop PC!
+                - generic [ref=e381]:
+                  - generic [ref=e382]: 96K views
+                  - generic [ref=e383]: •10 months ago
+              - generic [ref=e384]:
+                - link "Go to channel Level1Linux" [ref=e385]:
+                  - /url: /@Level1Linux
+                - generic [ref=e386]:
+                  - link "Level1Linux" [ref=e390]:
+                    - /url: /@Level1Linux
+                  - img "Verified" [ref=e395]
+              - generic [ref=e397]:
+                - text: Framework isn't just making laptops anymore! Now they are making very small desktop pc too! Check out Wednell's fun with Linux ...
+                - tooltip "tooltip"
+              - generic [ref=e398]:
+                - link "22 seconds When I first got my hands on this platform in laptop form I felt it to my core or AMD calls it the <b>Ryzen AI Max Plus 395</b> 16 cores&nbsp;..." [ref=e399]:
+                  - /url: /watch?v=ziZDzrDI7AM&t=22s
+                  - text: 0:22
+                  - generic [ref=e400]: When I first got my hands on this platform in laptop form I felt it to my core or AMD calls it the Ryzen AI Max Plus 395 16 cores ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e405]:
+                - generic [ref=e406]: 4K
+          - generic [ref=e415] [cursor=pointer]:
+            - link [ref=e416]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - button [ref=e421]
+            - generic [ref=e427]:
+              - generic [ref=e428]:
+                - generic [ref=e429]:
+                  - link "The BMW X3." [ref=e432]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "Experience the ultimate blend of adventure and versatility." [ref=e435]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e436]:
+                    - button "BMWUSAT2" [ref=e440]
+                    - generic [ref=e444]:
+                      - generic [ref=e445]: Sponsored
+                      - text: ·
+                    - generic [ref=e447]: BMW
+                - button "My Ad Center" [ref=e450]
+              - generic [ref=e458]:
+                - link "Watch" [ref=e461]:
+                  - /url: /watch?v=pH6Ok5OwteM
+                  - generic [ref=e462]: Watch
+                - link "Learn more" [ref=e468]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CMFIB53owatvPCMv4qMwPqPrauA2_44bKhwHl5M-C4RVkEAMgAGDJjoGHyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGKr6bdKqgDBMgDCqoEywJP0HB3vEKCf8YBMkvLWEak4MfFbE0HRd4XCYTTAwWoreY9HBU4KFqtgxHzhAgbIq4xidkijGMSo65ffNcQ6ex-G2hc6VulXBj5R4j7BDbfZ2920LjbspsmW74Vc6UAyeC1VIvBZGiUG3pXCtCTq2ex55hCvVuwifPqytFJ4CdCtI18llvUi5SItKYkpLqWN-1Ha78rqZSB37nwxizjC8z-jEOq_9L5XPQ1brE90IrjcRpS70XfJZCdql2376yI6Y6pe8Zod7oVYCOtKKr9z0sYBaoLLn6oA-CXYb1DXPhQPwi50WVl7swAYWFfY6w0Ts-h-gfQCA1na3du_EZtbUoe8vKop8pA7bcTDPRKmG081ulxonx-yX5Uo6F9k5TgArZiVfGVnOgRZkmUlZSoLaiIQGEe5KMOEq0PMg2TAVDTReNyvT-NS1MPwi0RiAXWwcavV5IFCAgTeOXZ0_MFoAahAYAHiuf2vAWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BINk9rNU93dGVNqAgBsAgM0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuM3l-qOKlQNgAZoJRmh0dHBzOi8vd3d3LmJtd3VzYS5jb20vc3BlY2lhbC1vZmZlcnMtbmV3Lmh0bWwvb2ZmZXItZGV0YWlsLzI2WEQvbGVhc2WxCWsqjF-wPp8RyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQ8OH4pPSFmZOTARICAQMaDRjWwcavVyDi0O_KxwVAAUoCEB-aDQESqg0CVVPIDQHSDYUGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMzU2MzguNDM3Nzk0MTMyO2RjX3Rya19haWQ9NjMxMjA0ODc1O2RjX3Rya19jaWQ9MjQ4MDEzMDg5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTFzSEdyMWVvQXVYWjBfTUZzQUtqeF8zb0EwQTdFTVRINXVJRi1jTkFNal9rVFlVQnpaM2VNbjN4cXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0RWdmpOTjhrNkU4QzJjbHA0VEFTZXlVMTBwaUhYQTJNZkt0ZFZzN2RFMGVYOGdKMWpfX3BOZnc3LW12NG1DOFJJWmRsS2lONDF0cTVSMGJnO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYRC9sZWFzZT96aXA9OTA0MDEmY2lkPXl0LXVzZTI2LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0zMjAzJmNoPXZpZGVvJnZlaD14MyZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NTM2MDYxMDImZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVAmZ2JyYWlkPTBBQUFBQXF1cGw0cWJlV0k2VzZLSXlOVy1VOXdfWWtHbVCwE6jEziK4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwoIASgBMAA4AUgB0BgB8BgBgBkDwhkCCAE&ase=2&gclid=EAIaIQobChMIm9_l-qOKlQMVSzyKAx0ovRbXEAEYAyAAEgJdhvD_BwE&num=3&cid=CAASwwHkaLhxjMgPNc6ZagfTI3H4anBSSKYMxtdeT3ZiXJid52E-iD5jCOwCdVcwv314OW60UlgjczY_jVJiZiDjHIbGwkqjkUUcPHG_Hki90EQ5uh8Lo-ONsobd5rcIakZe1lgr8vRig06VPYhTXf8W8dEzd15dmiUuwtdgDf_8VJd0uzLJpDelYtUepDz_xX-RFdDp6C_LAMRWO8zLfXBjceplUQCcVIDKuU45f_VbfWjryi_offGTgqxXrpsBuJnzyPJDWfY&ad_cpn=%5BCPN%5D&sig=AOD64_3NYFshjcJ9i8YQcZ2YJyYxkgdOLA&ctype=110&video_id=pH6Ok5OwteM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e469]: Learn more
+          - generic [ref=e473]:
+            - generic [ref=e476]:
+              - img [ref=e478]
+              - heading "Shorts" [level=2] [ref=e481]
+            - generic [ref=e483]:
+              - generic [ref=e486]:
+                - link [ref=e487] [cursor=pointer]:
+                  - /url: /shorts/Mj49wMVpkg0
+                  - img [ref=e492]:
+                    - generic [ref=e493]: New
+                - generic [ref=e494] [cursor=pointer]:
+                  - link "AMD Just Killed Nvidia With A $1,499 AI Lunchbox (Ryzen AI Max+ 395)" [ref=e495]:
+                    - /url: /shorts/Mj49wMVpkg0
+                  - generic [ref=e496]: 2.2K views
+                - button "More actions" [ref=e498] [cursor=pointer]
+              - generic [ref=e506]:
+                - link [ref=e507] [cursor=pointer]:
+                  - /url: /shorts/PiVQ7Fa3h_s
+                - generic [ref=e511] [cursor=pointer]:
+                  - link "AMD just changed the GAME - ROG Flow Z13 w/ Ryzen AI Max+ 395" [ref=e512]:
+                    - /url: /shorts/PiVQ7Fa3h_s
+                  - generic [ref=e513]: 169K views
+                - button "More actions" [ref=e515] [cursor=pointer]
+              - generic [ref=e523]:
+                - link [ref=e524] [cursor=pointer]:
+                  - /url: /shorts/Cq5_tgfyJSo
+                - generic [ref=e528] [cursor=pointer]:
+                  - link "AMD RYZEN AI 9 strix halo 395 max plus extra on" [ref=e529]:
+                    - /url: /shorts/Cq5_tgfyJSo
+                  - generic [ref=e530]: 56K views
+                - button "More actions" [ref=e532] [cursor=pointer]
+              - generic [ref=e540]:
+                - link [ref=e541] [cursor=pointer]:
+                  - /url: /shorts/Iz8A6Aywtn8
+                - generic [ref=e545] [cursor=pointer]:
+                  - link "Ryzen AI Max+ Pro 395 in ROG Flow" [ref=e546]:
+                    - /url: /shorts/Iz8A6Aywtn8
+                  - generic [ref=e547]: 147K views
+                - button "More actions" [ref=e549] [cursor=pointer]
+              - generic [ref=e557]:
+                - link [ref=e558] [cursor=pointer]:
+                  - /url: /shorts/xMdFTIH5dRA
+                - generic [ref=e562] [cursor=pointer]:
+                  - link "Testing 120B LLMs on the MINISFORUM MS-S1 MAX - Powered by AMD Ryzen™ AI Max+ 395" [ref=e563]:
+                    - /url: /shorts/xMdFTIH5dRA
+                  - generic [ref=e564]: 190K views
+                - button "More actions" [ref=e566] [cursor=pointer]
+  - generic [ref=e597]:
+    - link "This Mini PC Might be the Best Value YET - X+ Rival 16 minutes":
+      - /url: /watch?v=rDyZsqDmQbQ&pp=ygUVUnl6ZW4gQUkgTWF4IFBsdXMgMzk1

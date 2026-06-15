@@ -1,0 +1,661 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: Ryzen AI Max Plus 395 Micro Center Ryzen AI Max Plus 395 Micro Center
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DRyzen%2BAI%2BMax%2BPlus%2B395%2BMicro%2BCenter&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB3q7aY8Npw3JZtuFz5T8EpQmf7z0QgvHrMRwrfO8Rcae5tHHEC_WKHMwIK_cmu7p_xdAhRyUgD9pq3dFPqxF--oXUUErZ0JB-6zNU71632froqNC2kZobiPB8x9iH6q2RpDzinHj0EmdxScHZg8MJpUt28eCw&aep=1&ntc=1&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ2J8OegQICxAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Shopping" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB3q7aY8Npw3JZtuFz5T8EpQmf7z0QgvHrMRwrfO8Rcae5tHHEC_WKHMwIK_cmu7p_xdAhRyUgD9pq3dFPqxF--oXUUErZ0JB-6zNU71632froqNC2kZobiPB8x9iH6q2RpDzinHj0EmdxScHZg8MJpUt28eCw&q=Ryzen+AI+Max+Plus+395+Micro+Center&ved=1t:220175&ictx=111
+              - generic [ref=e84]: Shopping
+          - listitem [ref=e85]:
+            - link "Videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB3q7aY8Npw3JZtuFz5T8EpQmf7z0QgvHrMRwrfO8Rcae5tHHEC_WKHMwIK_cmu7p_xdAhRyUgD9pq3dFPqxF--oXUUErZ0JB-6zNU71632froqNC2kZobiPB8x9iH6q2RpDzinHj0EmdxScHZg8MJpUt28eCw&q=Ryzen+AI+Max+Plus+395+Micro+Center&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQtKgLegQIExAB
+              - generic [ref=e88]: Videos
+          - listitem [ref=e89]:
+            - link "News" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max+Plus+395+Micro+Center&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB3q7aY8Npw3JZtuFz5T8EpQmf7z0QgvHrMRwrfO8Rcae5tHHEC_WKHMwIK_cmu7p_xdAhRyUgD9pq3dFPqxF--oXUUErZ0JB-6zNU71632froqNC2kZobiPB8x9iH6q2RpDzinHj0EmdxScHZg8MJpUt28eCw&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ0pQJegQIEhAB
+              - generic [ref=e92]: News
+          - listitem [ref=e93]:
+            - link "Short videos" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB3q7aY8Npw3JZtuFz5T8EpQmf7z0QgvHrMRwrfO8Rcae5tHHEC_WKHMwIK_cmu7p_xdAhRyUgD9pq3dFPqxF--oXUUErZ0JB-6zNU71632froqNC2kZobiPB8x9iH6q2RpDzinHj0EmdxScHZg8MJpUt28eCw&q=Ryzen+AI+Max+Plus+395+Micro+Center&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQs6gLegQIERAB
+              - generic [ref=e96]: Short videos
+          - listitem [ref=e97]:
+            - link "Images" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB3q7aY8Npw3JZtuFz5T8EpQmf7z0QgvHrMRwrfO8Rcae5tHHEC_WKHMwIK_cmu7p_xdAhRyUgD9pq3dFPqxF--oXUUErZ0JB-6zNU71632froqNC2kZobiPB8x9iH6q2RpDzinHj0EmdxScHZg8MJpUt28eCw&q=Ryzen+AI+Max+Plus+395+Micro+Center&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQtKgLegQIEBAB
+              - generic [ref=e100]: Images
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e118]:
+      - main [ref=e119]:
+        - generic [ref=e126]:
+          - heading "Tustin, CA 92780" [level=2] [ref=e127]:
+            - img [ref=e130]:
+              - img [ref=e131]
+            - generic [ref=e134]: Tustin, CA 92780
+          - generic [ref=e136]:
+            - text: ∙
+            - button "Choose area" [ref=e137] [cursor=pointer]
+          - button "How location is used" [ref=e140] [cursor=pointer]:
+            - img [ref=e142]
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e151]:
+              - generic [ref=e155]:
+                - generic [ref=e163]:
+                  - button "See photos" [ref=e167] [cursor=pointer]:
+                    - generic [ref=e170]: See photos
+                  - generic [ref=e171]:
+                    - generic [ref=e172]:
+                      - link "Map of Micro Center" [ref=e174] [cursor=pointer]:
+                        - /url: /maps/place/Micro+Center/data=!4m2!3m1!1s0x0:0x43251d93937d87ee?sa=X&ved=1t:2428&ictx=111
+                        - img "Map of Micro Center" [ref=e176]
+                      - link "Map of Micro Center" [ref=e178] [cursor=pointer]:
+                        - /url: /maps/place/Micro+Center/data=!4m2!3m1!1s0x0:0x43251d93937d87ee?sa=X&ved=1t:2428&ictx=111
+                        - img "Map of Micro Center" [ref=e180]
+                    - link "See outside" [ref=e188] [cursor=pointer]:
+                      - /url: /local/place/fid/0x80dcd9564924dd09:0x43251d93937d87ee/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3DihJrMpFGURgk9uL8wtB44A%26cb_client%3Dsearch.gws-prod.gps%26yaw%3D312.8265%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFmloSnJNcEZHVVJnazl1TDh3dEI0NEE%3D&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQpx96BAhFEBI
+                      - generic [ref=e190]: See outside
+                - generic [ref=e193]:
+                  - heading "Micro Center" [level=2] [ref=e196]
+                  - generic [ref=e199]:
+                    - text: "4.5"
+                    - img "Rated 4.5 out of 5," [ref=e200]
+                    - button "7,646 Google reviews" [ref=e205] [cursor=pointer]
+                    - text: Computer store in Tustin, California
+                - generic [ref=e212]:
+                  - generic [ref=e226]:
+                    - link "Website" [ref=e228] [cursor=pointer]:
+                      - /url: https://www.microcenter.com/site/stores/tustin.aspx?storeid=101
+                      - generic [ref=e229]:
+                        - img [ref=e231]
+                        - generic [ref=e233]: Website
+                    - link "Directions" [ref=e235]:
+                      - generic [ref=e236] [cursor=pointer]:
+                        - img [ref=e238]
+                        - generic [ref=e243]: Directions
+                    - link "Reviews" [ref=e245] [cursor=pointer]:
+                      - /url: /search?sca_esv=b38ed05e961c07a9&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x2OAataWdHtwwxm_7jM5kMczCARHrZwtLZX_zFvQsl3omfNT6qT4lT1azflAbHIFQIuccLAqc-HI7z0d-21HDWwdA4C-&q=Micro+Center+Reviews&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ0bkNegQIQxAH
+                      - generic [ref=e246]:
+                        - img [ref=e248]
+                        - generic [ref=e250]: Reviews
+                    - button "Save Micro Center to collection" [ref=e255] [cursor=pointer]:
+                      - img [ref=e256]
+                      - generic [ref=e258]: Save
+                    - button "Share" [ref=e261] [cursor=pointer]:
+                      - generic [ref=e262]:
+                        - img [ref=e264]
+                        - generic [ref=e266]: Share
+                  - generic [ref=e272]:
+                    - generic [ref=e278]: Retail chain with a vast stock of computers & parts, plus software, gaming supplies & electronics.
+                    - generic [ref=e281]:
+                      - generic [ref=e282]:
+                        - link "Address" [ref=e283] [cursor=pointer]:
+                          - /url: /search?sca_esv=b38ed05e961c07a9&q=micro+center+tustin+address&ludocid=4838305894351341550&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ6BN6BAgxEAI
+                        - text: ":"
+                      - text: 1100 Edinger Ave, Tustin, CA 92780
+                    - generic [ref=e285]:
+                      - generic [ref=e286]:
+                        - link "Hours" [ref=e287] [cursor=pointer]:
+                          - /url: /search?sca_esv=b38ed05e961c07a9&q=micro+center+tustin+hours&ludocid=4838305894351341550&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ6BN6BAg0EBY
+                        - text: ":"
+                      - button "Open · Closes 9 PM · More hours" [ref=e289]:
+                        - generic [ref=e295]: Open · Closes 9 PM
+                        - text: · More hours
+                    - generic [ref=e299]:
+                      - button "Suggest an edit" [ref=e303] [cursor=pointer]
+                      - generic [ref=e304]:
+                        - generic [ref=e305]: Add missing information
+                        - link "Add place's phone number" [ref=e306] [cursor=pointer]: Add place's phone number
+                  - generic [ref=e317]:
+                    - generic [ref=e318]:
+                      - text: "Appointments:"
+                      - link "microcenter.com" [ref=e320] [cursor=pointer]:
+                        - /url: https://www.microcenter.com/product/653864/free-consultation
+                    - button "About these providers" [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]:
+                        - text: Providers
+                        - img [ref=e324]
+                  - generic [ref=e338]:
+                    - heading "See what's in store" [level=2] [ref=e340]
+                    - generic [ref=e342]:
+                      - generic [ref=e344]:
+                        - textbox "What are you looking for?" [ref=e346]
+                        - button "Search" [disabled] [ref=e348]:
+                          - img [ref=e350]
+                      - generic [ref=e353]:
+                        - generic [ref=e354]:
+                          - link "Computers & Accessories" [ref=e355] [cursor=pointer]:
+                            - /url: /search?q=Computers+%26+Accessories&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECPTyIBgfKhdDb21wdXRlcnMgJiBBY2Nlc3NvcmllczIWCAISACIIOgYKBJvSogMqBAoAGAFIATJLCB8SE01pY3JvIENlbnRlciBUdXN0aW4iFbIBEgnU3whDV6LBfBG9v6dbBgAACCoZChNNaWNybyBDZW50ZXIgVHVzdGluEAEYAUgBMisICSIGWgQI9PIgKh0KF0NvbXB1dGVycyAmIEFjY2Vzc29yaWVzEAEYAUgAWPTyIA&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAF
+                            - generic [ref=e358]: Computers & Accessories
+                          - link "Electronic Components & Tools" [ref=e359] [cursor=pointer]:
+                            - /url: /search?q=Electronic+Components+%26+Tools&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECLH0IBgfKh1FbGVjdHJvbmljIENvbXBvbmVudHMgJiBUb29sczIWCAISACIIOgYKBJvSogMqBAoAGAFIATJLCB8SE01pY3JvIENlbnRlciBUdXN0aW4iFbIBEgnU3whDV6LBfBG9v6dbBgAACCoZChNNaWNybyBDZW50ZXIgVHVzdGluEAEYAUgBMjEICSIGWgQIsfQgKiMKHUVsZWN0cm9uaWMgQ29tcG9uZW50cyAmIFRvb2xzEAEYAUgAWLH0IA&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAH
+                            - generic [ref=e362]: Electronic Components & Tools
+                          - link "Gaming" [ref=e363] [cursor=pointer]:
+                            - /url: /search?q=Gaming&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECN2xIBgfKgZHYW1pbmcyFggCEgAiCDoGCgSb0qIDKgQKABgBSAEySwgfEhNNaWNybyBDZW50ZXIgVHVzdGluIhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgqGQoTTWljcm8gQ2VudGVyIFR1c3RpbhABGAFIATIaCAkiBloECN2xICoMCgZHYW1pbmcQARgBSABY3bEg&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAJ
+                            - generic [ref=e366]: Gaming
+                          - link "Office Supplies" [ref=e367] [cursor=pointer]:
+                            - /url: /search?q=Office+Supplies&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECJfLIBgfKg9PZmZpY2UgU3VwcGxpZXMyFggCEgAiCDoGCgSb0qIDKgQKABgBSAEySwgfEhNNaWNybyBDZW50ZXIgVHVzdGluIhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgqGQoTTWljcm8gQ2VudGVyIFR1c3RpbhABGAFIATIjCAkiBloECJfLICoVCg9PZmZpY2UgU3VwcGxpZXMQARgBSABYl8sg&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAL
+                            - generic [ref=e370]: Office Supplies
+                          - link "Office Electronics" [ref=e371] [cursor=pointer]:
+                            - /url: /search?q=Office+Electronics&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECK28IBgfKhJPZmZpY2UgRWxlY3Ryb25pY3MyFggCEgAiCDoGCgSb0qIDKgQKABgBSAEySwgfEhNNaWNybyBDZW50ZXIgVHVzdGluIhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgqGQoTTWljcm8gQ2VudGVyIFR1c3RpbhABGAFIATImCAkiBloECK28ICoYChJPZmZpY2UgRWxlY3Ryb25pY3MQARgBSABYrbwg&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAN
+                            - generic [ref=e374]: Office Electronics
+                          - link "Home Theater" [ref=e375] [cursor=pointer]:
+                            - /url: /search?q=Home+Theater&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECN3oIBgfKgxIb21lIFRoZWF0ZXIyFggCEgAiCDoGCgSb0qIDKgQKABgBSAEySwgfEhNNaWNybyBDZW50ZXIgVHVzdGluIhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgqGQoTTWljcm8gQ2VudGVyIFR1c3RpbhABGAFIATIgCAkiBloECN3oICoSCgxIb21lIFRoZWF0ZXIQARgBSABY3egg&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAP
+                            - generic [ref=e378]: Home Theater
+                          - link "TV & Video" [ref=e379] [cursor=pointer]:
+                            - /url: /search?q=TV+%26+Video&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECJqzIBgfKgpUViAmIFZpZGVvMhYIAhIAIgg6BgoEm9KiAyoECgAYAUgBMksIHxITTWljcm8gQ2VudGVyIFR1c3RpbiIVsgESCdTfCENXosF8Eb2_p1sGAAAIKhkKE01pY3JvIENlbnRlciBUdXN0aW4QARgBSAEyHggJIgZaBAiasyAqEAoKVFYgJiBWaWRlbxABGAFIAFiasyA&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAR
+                            - generic [ref=e382]: TV & Video
+                          - link "Cameras & Optics" [ref=e383] [cursor=pointer]:
+                            - /url: /search?q=Cameras+%26+Optics&udm=28&shoprs=CAESCDoGCgSb0qIDEhWyARIJ1N8IQ1eiwXwRvb-nWwYAAAgSBloECJuzIBgfKhBDYW1lcmFzICYgT3B0aWNzMhYIAhIAIgg6BgoEm9KiAyoECgAYAUgBMksIHxITTWljcm8gQ2VudGVyIFR1c3RpbiIVsgESCdTfCENXosF8Eb2_p1sGAAAIKhkKE01pY3JvIENlbnRlciBUdXN0aW4QARgBSAEyJAgJIgZaBAibsyAqFgoQQ2FtZXJhcyAmIE9wdGljcxABGAFIAFibsyA&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQyPUBegQITBAT
+                            - generic [ref=e386]: Cameras & Optics
+                        - button "More categories" [ref=e388] [cursor=pointer]:
+                          - generic [ref=e389]:
+                            - generic [ref=e390]: More categories
+                            - img [ref=e392]
+                  - generic [ref=e403]:
+                    - generic [ref=e404]:
+                      - heading "Popular times" [level=3] [ref=e406]
+                      - button "More information about Popular times" [ref=e409] [cursor=pointer]:
+                        - img [ref=e410]
+                    - generic [ref=e412]:
+                      - radiogroup [ref=e414]:
+                        - radio "Monday" [checked] [ref=e415] [cursor=pointer]:
+                          - generic [ref=e416]: Mon
+                        - radio "Tuesday" [ref=e418] [cursor=pointer]:
+                          - generic [ref=e419]: Tue
+                        - radio "Wednesday" [ref=e420] [cursor=pointer]:
+                          - generic [ref=e421]: Wed
+                        - radio "Thursday" [ref=e422] [cursor=pointer]:
+                          - generic [ref=e423]: Thu
+                        - radio "Friday" [ref=e424] [cursor=pointer]:
+                          - generic [ref=e425]: Fri
+                        - radio "Saturday" [ref=e426] [cursor=pointer]:
+                          - generic [ref=e427]: Sat
+                        - radio "Sunday" [ref=e428] [cursor=pointer]:
+                          - generic [ref=e429]: Sun
+                      - generic [ref=e430]:
+                        - region [ref=e433]: "Live: A little busy"
+                        - radiogroup [ref=e438]:
+                          - radio [disabled] [ref=e440] [cursor=pointer]
+                          - radio [disabled] [ref=e442] [cursor=pointer]
+                          - radio [disabled] [ref=e444] [cursor=pointer]
+                          - radio [disabled] [ref=e446] [cursor=pointer]
+                          - radio "10 AM" [ref=e448] [cursor=pointer]
+                          - radio "11 AM" [ref=e451] [cursor=pointer]
+                          - radio "12 PM" [ref=e454] [cursor=pointer]
+                          - radio "1 PM" [ref=e457] [cursor=pointer]
+                          - radio "2 PM" [ref=e460] [cursor=pointer]
+                          - radio "3 PM" [checked] [ref=e463] [cursor=pointer]
+                          - radio "4 PM" [ref=e467] [cursor=pointer]
+                          - radio "5 PM" [ref=e470] [cursor=pointer]
+                          - radio "6 PM" [ref=e473] [cursor=pointer]
+                          - radio "7 PM" [ref=e476] [cursor=pointer]
+                          - radio "8 PM" [ref=e479] [cursor=pointer]
+                          - radio [disabled] [ref=e482] [cursor=pointer]
+                          - radio [disabled] [ref=e484] [cursor=pointer]
+                          - radio [disabled] [ref=e486] [cursor=pointer]
+                        - generic [ref=e488]:
+                          - generic [ref=e495]: 9a
+                          - generic [ref=e501]: 12p
+                          - generic [ref=e507]: 3p
+                          - generic [ref=e513]: 6p
+                          - generic [ref=e519]: 9p
+                    - generic [ref=e522]:
+                      - img [ref=e523]
+                      - generic [ref=e531]: People typically spend 20 min to 1 hr here
+                  - generic [ref=e541]:
+                    - generic [ref=e542]:
+                      - heading "Reviews" [level=3] [ref=e543]
+                      - button "More info" [ref=e548] [cursor=pointer]:
+                        - img [ref=e550]
+                      - generic [ref=e552]:
+                        - button "Write a review" [ref=e556] [cursor=pointer]:
+                          - generic [ref=e557]: Write a review
+                        - link "Add photos" [ref=e559] [cursor=pointer]:
+                          - /url: "#"
+                    - generic [ref=e560]:
+                      - generic [ref=e561]:
+                        - generic [ref=e562]:
+                          - link "Jordan-Patrick Chenoweth":
+                            - /url: https://www.google.com/maps/contrib/108095091745891223506?hl=en-US&ved=1t:31296&ictx=111
+                            - img "Jordan-Patrick Chenoweth" [ref=e564] [cursor=pointer]
+                        - generic [ref=e565]:
+                          - link "\"Helpful staff gave solid advice, great item selection and good prices and deals.\"" [ref=e566] [cursor=pointer]:
+                            - /url: https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s108095091745891223506!2s0x80dcd9564924dd09:0x43251d93937d87ee?ved=1t:31295&ictx=111
+                          - img "Rated 5.0 out of 5," [ref=e568]
+                      - generic [ref=e571]:
+                        - generic [ref=e572]:
+                          - link "Ryan Lavacot":
+                            - /url: https://www.google.com/maps/contrib/113720984727915274976?hl=en-US&ved=1t:31296&ictx=111
+                            - img "Ryan Lavacot" [ref=e574] [cursor=pointer]
+                        - generic [ref=e575]:
+                          - link "\"Bathrooms could use a bit of work but the selection of things can't be beat\"" [ref=e576] [cursor=pointer]:
+                            - /url: https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s113720984727915274976!2s0x80dcd9564924dd09:0x43251d93937d87ee?ved=1t:31295&ictx=111
+                          - img "Rated 5.0 out of 5," [ref=e578]
+                      - generic [ref=e581]:
+                        - generic [ref=e582]:
+                          - link "The Fox":
+                            - /url: https://www.google.com/maps/contrib/106462455693393232036?hl=en-US&ved=1t:31296&ictx=111
+                            - img "The Fox" [ref=e584] [cursor=pointer]
+                        - generic [ref=e585]:
+                          - link "\"Excellent service, personable staff.\"" [ref=e586] [cursor=pointer]:
+                            - /url: https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s106462455693393232036!2s0x80dcd9564924dd09:0x43251d93937d87ee?ved=1t:31295&ictx=111
+                          - img "Rated 5.0 out of 5," [ref=e588]
+                    - button "View all Google reviews" [ref=e593] [cursor=pointer]
+                  - generic [ref=e603]:
+                    - generic [ref=e604]:
+                      - heading "From Micro Center" [level=3] [ref=e605]
+                      - button "Report description" [ref=e607]:
+                        - img [ref=e608]
+                    - generic [ref=e611]:
+                      - text: "\"What makes us the world's best computer and electronics store is unrivaled selection, knowledgeable associates, and great customer service - since 1979. We stock a huge selection of desktops, laptops, monitors, and computer parts from Apple, Dell,..."
+                      - button "show more" [ref=e612] [cursor=pointer]: More
+                  - generic [ref=e622]:
+                    - heading "Updates from Micro Center" [level=3] [ref=e623]
+                    - generic [ref=e625]: View previous updates on Google
+                  - generic [ref=e632]:
+                    - heading "Profiles" [level=3] [ref=e633]
+                    - generic [ref=e634]:
+                      - link "Instagram" [ref=e638] [cursor=pointer]:
+                        - /url: https://www.instagram.com/microcenter
+                        - generic [ref=e644]: Instagram
+                      - link "X (Twitter)" [ref=e648] [cursor=pointer]:
+                        - /url: https://twitter.com/microcenter
+                        - generic [ref=e654]: X (Twitter)
+                      - link "Facebook" [ref=e658] [cursor=pointer]:
+                        - /url: https://www.facebook.com/MicroCenter
+                        - generic [ref=e664]: Facebook
+                      - link "YouTube" [ref=e668] [cursor=pointer]:
+                        - /url: https://www.youtube.com/@microcentertech
+                        - generic [ref=e674]: YouTube
+              - link "About this data" [ref=e676] [cursor=pointer]:
+                - /url: https://support.google.com/local-listings?p=how_google_sources
+            - generic [ref=e678]:
+              - heading "Web results" [level=2] [ref=e679]
+              - generic [ref=e680]:
+                - generic [ref=e683]:
+                  - link "Windows 11 Pro; AMD Ryzen AI Max+ 395 3.0GHz ... Micro Center https://www.microcenter.com › ... › Desktop Computers" [ref=e685] [cursor=pointer]:
+                    - /url: https://www.microcenter.com/product/711962/amd-ryzen-ai-halo-developer-platform-windows-11-pro
+                    - heading "Windows 11 Pro; AMD Ryzen AI Max+ 395 3.0GHz ..." [level=3] [ref=e686]
+                    - generic [ref=e692]:
+                      - generic [ref=e694]: Micro Center
+                      - generic [ref=e696]: https://www.microcenter.com › ... › Desktop Computers
+                  - button "About this result" [ref=e697] [cursor=pointer]:
+                    - img [ref=e700]
+                - generic [ref=e703]:
+                  - generic [ref=e704]:
+                    - emphasis [ref=e706]: 16 minutes ago
+                    - text: —
+                  - generic [ref=e707]:
+                    - text: Micro Center · AMD Ryzen AI Halo Developer Platform - Windows 11 Pro
+                    - emphasis [ref=e708]: AMD Ryzen AI Max+ 395 3.0GHz Processor
+                    - text: ; 128GB LPDDR5x-8000 RAM; 2TB Solid ...
+                  - link "Read more" [ref=e709] [cursor=pointer]:
+                    - /url: https://www.microcenter.com/product/711962/amd-ryzen-ai-halo-developer-platform-windows-11-pro#:~:text=Sign%20in&text=AMD%20Ryzen%20AI%20Halo%20Developer,Drive%3B%20AMD%20Radeon%208060S%20Graphics
+                - generic [ref=e711]:
+                  - generic [ref=e712]: $3,999.99
+                  - text: ·
+                  - generic [ref=e713]: Out of stock
+          - generic [ref=e719]:
+            - generic [ref=e722]:
+              - link "GMKtec EVO-X2 AI Mini PC; AMD Ryzen AI Max+ 395 3.0 ... Micro Center https://www.microcenter.com › ... › Desktop Computers" [ref=e724] [cursor=pointer]:
+                - /url: https://www.microcenter.com/product/695875/gmktec-evo-x2-ai-mini-pc
+                - heading "GMKtec EVO-X2 AI Mini PC; AMD Ryzen AI Max+ 395 3.0 ..." [level=3] [ref=e725]
+                - generic [ref=e731]:
+                  - generic [ref=e733]: Micro Center
+                  - generic [ref=e735]: https://www.microcenter.com › ... › Desktop Computers
+              - button "About this result" [ref=e736] [cursor=pointer]:
+                - img [ref=e739]
+            - generic [ref=e743]:
+              - text: Shop the
+              - emphasis [ref=e744]: GMKtec EVO X2 AI Mini PC with Ryzen AI Max
+              - text: +, 128GB RAM, and 2TB SSD-powerful, compact, and perfect for creators. Available now at Micro Center!
+            - generic [ref=e746]:
+              - generic [ref=e747]: $3,299.99
+              - text: ·
+              - generic [ref=e748]: Out of stock
+              - text: ·
+              - img "Rated 4.6 out of 5, (9) user reviews" [ref=e754]:
+                - text: "4.6"
+                - img [ref=e755]
+                - text: (9)
+          - generic [ref=e761]:
+            - generic [ref=e764]:
+              - 'link "AMD Ryzen AI Halo: Pre-Orders Open at Micro Center Micro Center https://www.microcenter.com › site › mc-news › article" [ref=e766] [cursor=pointer]':
+                - /url: https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-preorder.aspx
+                - 'heading "AMD Ryzen AI Halo: Pre-Orders Open at Micro Center" [level=3] [ref=e767]'
+                - generic [ref=e773]:
+                  - generic [ref=e775]: Micro Center
+                  - generic [ref=e777]: https://www.microcenter.com › site › mc-news › article
+              - button "About this result" [ref=e778] [cursor=pointer]:
+                - img [ref=e781]
+            - generic [ref=e784]:
+              - generic [ref=e785]:
+                - text: The Ryzen AI Halo is built around
+                - emphasis [ref=e786]: AMD's Ryzen AI Max+ 395 processor
+                - text: ", a 16-core Zen 5 chip with a 5.1 GHz boost clock and 80MB of total cache. It's paired with ..."
+              - link "Read more" [ref=e787] [cursor=pointer]:
+                - /url: https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-preorder.aspx#:~:text=The%20Ryzen%20AI%20Halo%20is,total%20cache.%20It's%20paired%20with
+            - generic [ref=e789]:
+              - text: "Missing: Plus ‎| Show results with:"
+              - link "Plus" [ref=e790] [cursor=pointer]:
+                - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max+%22Plus%22+395+Micro+Center&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ5t4CegQIJRAB
+          - generic [ref=e794]:
+            - generic [ref=e797]:
+              - link "Linux OS; AMD Ryzen AI Max+ 395 3.0GHz Processor; ... Micro Center https://www.microcenter.com › ... › Desktop Computers" [ref=e799] [cursor=pointer]:
+                - /url: https://www.microcenter.com/product/711961/amd-ryzen-ai-halo-developer-platform-linux-os
+                - heading "Linux OS; AMD Ryzen AI Max+ 395 3.0GHz Processor; ..." [level=3] [ref=e800]
+                - generic [ref=e806]:
+                  - generic [ref=e808]: Micro Center
+                  - generic [ref=e810]: https://www.microcenter.com › ... › Desktop Computers
+              - button "About this result" [ref=e811] [cursor=pointer]:
+                - img [ref=e814]
+            - generic [ref=e817]:
+              - generic [ref=e818]:
+                - emphasis [ref=e820]: 3 hours ago
+                - text: —
+              - generic [ref=e821]:
+                - text: Micro Center · AMD Ryzen AI Halo Developer Platform - Linux OS
+                - emphasis [ref=e822]: AMD Ryzen AI Max+ 395 3.0GHz Processor
+                - text: ; 128GB LPDDR5x-8000 RAM; 2TB Solid State ...
+              - link "Read more" [ref=e823] [cursor=pointer]:
+                - /url: https://www.microcenter.com/product/711961/amd-ryzen-ai-halo-developer-platform-linux-os#:~:text=Sign%20in&text=AMD%20Ryzen%20AI%20Halo%20Developer,Drive%3B%20AMD%20Radeon%208060S%20Graphics
+            - generic [ref=e825]:
+              - generic [ref=e826]: $3,999.00
+              - text: ·
+              - generic [ref=e827]: 30-day returns
+          - generic [ref=e831]:
+            - generic [ref=e834]:
+              - link "GMKtec EVO X2 AI Mini PC; AMD Ryzen AI Max+ 395 3.0 ... Micro Center https://www.microcenter.com › ... › Desktop Computers" [ref=e836] [cursor=pointer]:
+                - /url: https://www.microcenter.com/product/699561/gmktec-evo-x2-ai-mini-pc
+                - heading "GMKtec EVO X2 AI Mini PC; AMD Ryzen AI Max+ 395 3.0 ..." [level=3] [ref=e837]
+                - generic [ref=e843]:
+                  - generic [ref=e845]: Micro Center
+                  - generic [ref=e847]: https://www.microcenter.com › ... › Desktop Computers
+              - button "About this result" [ref=e848] [cursor=pointer]:
+                - img [ref=e851]
+            - generic [ref=e854]:
+              - generic [ref=e855]:
+                - emphasis [ref=e856]: Micro Center
+                - text: · GMKtec EVO X2
+                - emphasis [ref=e857]: AI
+                - text: Mini PC AMD
+                - emphasis [ref=e858]: Ryzen AI Max+ 395
+                - text: 3.0GHz Processor; 64GB LPDDR5X-8000 Onboard RAM; 1TB Solid State Drive; AMD Radeon 8060S Graphics.
+              - link "Read more" [ref=e859] [cursor=pointer]:
+                - /url: https://www.microcenter.com/product/699561/gmktec-evo-x2-ai-mini-pc#:~:text=Sign%20in&text=GMKtec%20EVO%20X2%20AI%20Mini,Drive%3B%20AMD%20Radeon%208060S%20Graphics
+            - generic [ref=e861]:
+              - generic [ref=e862]: $3,299.99
+              - text: ·
+              - generic [ref=e863]: Out of stock
+              - text: ·
+              - img "Rated 4.6 out of 5, (9) user reviews" [ref=e869]:
+                - text: "4.6"
+                - img [ref=e870]
+                - text: (9)
+          - generic [ref=e876]:
+            - generic [ref=e879]:
+              - link "Deal on a Ryzen AI Max+ 395 PC? GMKtec vs Framework? Reddit · r/Microcenter 1 comment · 3 months ago" [ref=e881] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/Microcenter/comments/1rloukw/deal_on_a_ryzen_ai_max_395_pc_gmktec_vs_framework/
+                - heading "Deal on a Ryzen AI Max+ 395 PC? GMKtec vs Framework?" [level=3] [ref=e882]
+                - generic [ref=e888]:
+                  - generic [ref=e890]: Reddit · r/Microcenter
+                  - generic [ref=e892]: 1 comment · 3 months ago
+              - button "About this result" [ref=e893] [cursor=pointer]:
+                - img [ref=e896]
+            - generic [ref=e900]:
+              - text: Was recently looking to build a PC using a Framework motherboard, but noticed this at
+              - emphasis [ref=e901]: Microcenter
+              - text: . I'm a huge fan of how open Framework is, ...
+            - generic [ref=e904]:
+              - generic [ref=e905]:
+                - 'link "AMD Ryzen™ AI Max+ 395 mini pc worth it ? : r ..." [ref=e908] [cursor=pointer]':
+                  - /url: https://www.reddit.com/r/MiniPCs/comments/1ot3vk3/amd_ryzen_ai_max_395_mini_pc_worth_it/
+                  - generic [ref=e909]:
+                    - text: AMD
+                    - emphasis [ref=e910]: Ryzen
+                    - text: ™
+                    - emphasis [ref=e911]: AI Max+ 395
+                    - text: "mini pc worth it ? : r ..."
+                - generic [ref=e913]: 51 posts
+                - generic [ref=e915]: Nov 10, 2025
+              - generic [ref=e916]:
+                - link "Made a list of AMD Ryzen AI Max+ 395 Mini PC's and ..." [ref=e919] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/MiniPCs/comments/1moi3qs/made_a_list_of_amd_ryzen_ai_max_395_mini_pcs_and/
+                  - generic [ref=e920]:
+                    - text: Made a list of AMD
+                    - emphasis [ref=e921]: Ryzen AI Max+ 395
+                    - text: Mini PC's and ...
+                - generic [ref=e923]: 101 posts
+                - generic [ref=e925]: Aug 13, 2025
+              - link "More results from www.reddit.com" [ref=e929] [cursor=pointer]:
+                - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center+site:www.reddit.com&sca_esv=b38ed05e961c07a9&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQrQIoAnoECHYQAw
+          - generic [ref=e933]:
+            - generic [ref=e936]:
+              - link "AMD's new Ryzen AI Max Plus, and everything else ... Micro Center https://www.microcenter.com › article › amd-at-ces-2026" [ref=e938] [cursor=pointer]:
+                - /url: https://www.microcenter.com/site/mc-news/article/amd-at-ces-2026.aspx
+                - heading "AMD's new Ryzen AI Max Plus, and everything else ..." [level=3] [ref=e939]
+                - generic [ref=e945]:
+                  - generic [ref=e947]: Micro Center
+                  - generic [ref=e949]: https://www.microcenter.com › article › amd-at-ces-2026
+              - button "About this result" [ref=e950] [cursor=pointer]:
+                - img [ref=e953]
+            - generic [ref=e956]:
+              - generic [ref=e957]:
+                - emphasis [ref=e958]: Ryzen AI Max Plus
+                - text: ; MODEL, CORES/THREADS, MAX BOOST ;
+                - emphasis [ref=e959]: Ryzen AI Max Plus 395
+                - text: ", 16/32, 5.1 GHz ; NEW ->"
+                - emphasis [ref=e960]: Ryzen AI Max Plus
+                - text: 392, 12/24, 5.0 GHz ;
+                - emphasis [ref=e961]: Ryzen AI
+                - text: Max 390, 12/24 ...
+              - link "Read more" [ref=e962] [cursor=pointer]:
+                - /url: https://www.microcenter.com/site/mc-news/article/amd-at-ces-2026.aspx#:~:text=Ryzen%20AI%20Max%20Plus&text=MODEL,MAX%20BOOST&text=Ryzen%20AI%20Max%20Plus%20395,5.1%20GHz&text=NEW%20%2D%3E%20Ryzen%20AI%20Max,5.0%20GHz&text=Ryzen%20AI%20Max%20390,12%2F24
+          - generic [ref=e966]:
+            - generic [ref=e969]:
+              - link "Pre-Orders for $4000 AMD Ryzen AI Halo Mini PC Dev Kits ... TechPowerUp https://www.techpowerup.com › pre-orders-for-usd-40..." [ref=e971] [cursor=pointer]:
+                - /url: https://www.techpowerup.com/349943/pre-orders-for-usd-4000-amd-ryzen-ai-halo-mini-pc-dev-kits-go-live
+                - heading "Pre-Orders for $4000 AMD Ryzen AI Halo Mini PC Dev Kits ..." [level=3] [ref=e972]
+                - generic [ref=e978]:
+                  - generic [ref=e980]: TechPowerUp
+                  - generic [ref=e982]: https://www.techpowerup.com › pre-orders-for-usd-40...
+              - button "About this result" [ref=e983] [cursor=pointer]:
+                - img [ref=e986]
+            - generic [ref=e989]:
+              - generic [ref=e990]: 3 days ago —
+              - text: The mini PC is launching with 2 TB of SSD storage, and it includes a 120 W PSU. Pricing is set at $3,999, and the only difference between the ...
+              - link "Read more" [ref=e991] [cursor=pointer]:
+                - /url: https://www.techpowerup.com/349943/pre-orders-for-usd-4000-amd-ryzen-ai-halo-mini-pc-dev-kits-go-live#:~:text=The%20mini%20PC%20is%20launching,ships%20with%20Windows%2011%20Pro.
+          - generic [ref=e998]:
+            - generic [ref=e1001]:
+              - link "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395 YouTube · Brad Colbow 15.5K+ views · 2 months ago" [ref=e1003] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=uHk9-rCLnKI
+                - heading "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395" [level=3] [ref=e1004]
+                - generic [ref=e1010]:
+                  - generic [ref=e1012]: YouTube · Brad Colbow
+                  - generic [ref=e1014]: 15.5K+ views · 2 months ago
+              - button "About this result" [ref=e1015] [cursor=pointer]:
+                - img [ref=e1018]
+            - generic [ref=e1020]:
+              - button "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395 by Brad Colbow on YouTube. Play on Google. 13:00" [ref=e1021] [cursor=pointer]:
+                - generic [ref=e1023]:
+                  - img [ref=e1026]
+                  - generic [ref=e1029]:
+                    - generic [ref=e1030]: 13:00
+                    - img [ref=e1033]
+              - generic [ref=e1036]: Best Local AI Hardware at Micro Center. Micro Center•7.4K views · 9:38 ... AMD Strix Halo/Ryzen AI Max+ 395 for AI – An Honest Review.
+          - generic [ref=e1040]:
+            - generic [ref=e1043]:
+              - link "AMD Ryzen AI Max+ 395 Mini PC Listed for Pre-Order at ... www.guru3d.com https://www.guru3d.com › Archive › June 2026" [ref=e1045] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/amd-ryzen-ai-395-mini-pc-listed-for-preorder-at/
+                - heading "AMD Ryzen AI Max+ 395 Mini PC Listed for Pre-Order at ..." [level=3] [ref=e1046]
+                - generic [ref=e1052]:
+                  - generic [ref=e1054]: www.guru3d.com
+                  - generic [ref=e1056]: https://www.guru3d.com › Archive › June 2026
+              - button "About this result" [ref=e1057] [cursor=pointer]:
+                - img [ref=e1060]
+            - generic [ref=e1063]:
+              - generic [ref=e1064]: 3 days ago —
+              - generic [ref=e1065]:
+                - text: Micro Center
+                - emphasis [ref=e1066]: currently lists the system at $3,999
+                - text: and offers customers a choice between Windows 11 Professional and Linux operating systems.
+              - link "Read more" [ref=e1067] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/amd-ryzen-ai-395-mini-pc-listed-for-preorder-at/#:~:text=Micro%20Center%20currently%20lists%20the,Professional%20and%20Linux%20operating%20systems.
+            - generic [ref=e1070]: $3,999.00
+        - generic [ref=e1072]:
+          - generic [ref=e1077]:
+            - heading "People also search for" [level=2] [ref=e1079]
+            - generic [ref=e1081]:
+              - generic [ref=e1082]:
+                - link "Ryzen ai max plus 395 micro center specs" [ref=e1086] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+ai+max+plus+395+micro+center+specs&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAhqEAE
+                  - generic [ref=e1087]:
+                    - generic [ref=e1092]: Ryzen ai max plus 395 micro center specs
+                    - img [ref=e1096]
+                - link "GMKtec EVO-X2 AI mini PC 128GB" [ref=e1101] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=GMKtec+EVO-X2+AI+mini+PC+128GB&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAhxEAE
+                  - generic [ref=e1102]:
+                    - generic [ref=e1107]: GMKtec EVO-X2 AI mini PC 128GB
+                    - img [ref=e1111]
+                - link "Ryzen AI Max+ 395 mini PC" [ref=e1116] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+mini+PC&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAh1EAE
+                  - generic [ref=e1117]:
+                    - generic [ref=e1122]: Ryzen AI Max+ 395 mini PC
+                    - img [ref=e1126]
+                - link "Ryzen AI Max+ 395 price" [ref=e1131] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+price&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAhwEAE
+                  - generic [ref=e1132]:
+                    - generic [ref=e1137]: Ryzen AI Max+ 395 price
+                    - img [ref=e1141]
+              - generic [ref=e1143]:
+                - link "GMKtec EVO-X2 AI Mini PC AMD Ryzen ™ AI Max+ 395" [ref=e1147] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=GMKtec+EVO-X2+AI+Mini+PC+AMD+Ryzen+%E2%84%A2+AI+Max%2B+395&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAhvEAE
+                  - generic [ref=e1148]:
+                    - generic [ref=e1153]: GMKtec EVO-X2 AI Mini PC AMD Ryzen ™ AI Max+ 395
+                    - img [ref=e1157]
+                - link "Ryzen AI Max+ 395 PC" [ref=e1162] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+PC&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAhuEAE
+                  - generic [ref=e1163]:
+                    - generic [ref=e1168]: Ryzen AI Max+ 395 PC
+                    - img [ref=e1172]
+                - link "GMKtec AI Mini PC Ultra 9 285H" [ref=e1177] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=GMKtec+AI+Mini+PC+Ultra+9+285H&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAhtEAE
+                  - generic [ref=e1178]:
+                    - generic [ref=e1183]: GMKtec AI Mini PC Ultra 9 285H
+                    - img [ref=e1187]
+                - link "EVO-X2 AI mini PC reddit" [ref=e1192] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=EVO-X2+AI+mini+PC+reddit&sa=X&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ1QJ6BAhrEAE
+                  - generic [ref=e1193]:
+                    - generic [ref=e1198]: EVO-X2 AI mini PC reddit
+                    - img [ref=e1202]
+          - navigation [ref=e1204]:
+            - heading "Page Navigation" [level=1] [ref=e1205]
+            - text: "1"
+            - link "Page 2" [ref=e1208] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=10&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAE
+              - text: "2"
+            - link "Page 3" [ref=e1210] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=20&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAG
+              - text: "3"
+            - link "Page 4" [ref=e1212] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=30&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAI
+              - text: "4"
+            - link "Page 5" [ref=e1214] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=40&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAK
+              - text: "5"
+            - link "Page 6" [ref=e1216] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=50&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAM
+              - text: "6"
+            - link "Page 7" [ref=e1218] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=60&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAO
+              - text: "7"
+            - link "Page 8" [ref=e1220] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=70&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAQ
+              - text: "8"
+            - link "Page 9" [ref=e1222] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=80&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAS
+              - text: "9"
+            - link "Page 10" [ref=e1224] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=90&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8tMDegQIaBAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1226]:
+              - link "Next" [ref=e1227] [cursor=pointer]:
+                - /url: /search?q=Ryzen+AI+Max+Plus+395+Micro+Center&sca_esv=b38ed05e961c07a9&ei=3XkwauafLYXIkPIP5La3gQU&start=10&sa=N&sstk=AU9db-DXsI0w-6ishGEnvWzx3Nuwum9WX8_woE8QXUy8R-Hbr3iGyAKhgk3VuJyk_92Mx_5H3gueWWQMrgIITXTp9l1Vie_ucC69BQ&ved=2ahUKEwimgp_8ooqVAxUFJEQIHWTbLVAQ8NMDegQIaBAW
+                - generic [ref=e1229]: Next
+        - navigation
+      - complementary "Complementary Results" [ref=e1230]:
+        - heading "Complementary Results" [level=2] [ref=e1231]
+    - contentinfo [ref=e1232]:
+      - heading "Footer Links" [level=1] [ref=e1233]
+      - generic [ref=e1237]:
+        - generic [ref=e1241]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e1243] [cursor=pointer]:
+            - generic [ref=e1244]: 92780, Tustin, CA
+            - generic [ref=e1246]:
+              - text: "-"
+              - generic [ref=e1247]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1249] [cursor=pointer]: Update location
+        - generic [ref=e1252]:
+          - link "Help" [ref=e1253] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1254] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1255] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1256] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

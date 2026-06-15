@@ -74,6 +74,10 @@ class SpeechTranscriptionResponse(BaseModel):
     model: str
 
 
+class SpeechSynthesisRequest(BaseModel):
+    text: str = Field(min_length=1)
+
+
 class McpToolConfig(BaseModel):
     id: str
     name: str

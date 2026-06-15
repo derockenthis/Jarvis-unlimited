@@ -20,7 +20,7 @@ def test_provider_runtime_config_validates_openrouter_and_ollama_support() -> No
 
 
 def test_provider_runtime_config_resolves_litellm_models() -> None:
-    settings = Settings(OPENROUTER_MODEL="openai/gpt-4o-mini")
+    settings = Settings(OPENROUTER_MODEL="google/gemma-4-26b-a4b-it")
 
     openrouter = ProviderRuntimeConfig(provider="openrouter", model_name="anthropic/claude-sonnet-4")
     openai = ProviderRuntimeConfig(provider="openai", model_name="gpt-4.1-mini")
@@ -56,6 +56,7 @@ def test_provider_runtime_config_builds_litellm_kwargs_without_env_mutation() ->
     assert ollama.litellm_kwargs(settings) == {
         "api_base": "http://ollama.internal:11434",
         "custom_llm_provider": "ollama_chat",
+        "extra_body": {"options": {"num_ctx": 50000}},
     }
 
 

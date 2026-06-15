@@ -11,12 +11,14 @@ export async function streamChat(
   baseUrl: string | null,
   onEvent: (event: ChatEvent) => void,
   sessionId: string,
+  signal?: AbortSignal,
 ) {
   const response = await fetch(`${backendUrl}/api/chat`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
+    signal,
     body: JSON.stringify({
       message,
       session_id: sessionId,
@@ -58,6 +60,19 @@ export async function streamChat(
   }
 }
 
+export async function cancelChat(
+  backendUrl: string,
+  sessionId: string,
+): Promise<{ status: string; session_id: string; cancelled: boolean }> {
+  const response = await fetch(`${backendUrl}/api/chat/${encodeURIComponent(sessionId)}/cancel`, {
+    method: 'POST',
+  });
+  if (!response.ok) {
+    throw new Error(`Cancel chat failed with status ${response.status}`);
+  }
+  return response.json() as Promise<{ status: string; session_id: string; cancelled: boolean }>;
+}
+
 export async function transcribeAudio(backendUrl: string, audioBlob: Blob, speechModel?: string): Promise<string> {
   const formData = new FormData();
   const extension = audioBlob.type.includes('ogg') ? 'ogg' : 'webm';
@@ -84,6 +99,29 @@ export async function transcribeAudio(backendUrl: string, audioBlob: Blob, speec
 
   const payload = await response.json() as { text: string };
   return payload.text;
+}
+
+export async function synthesizeSpeech(backendUrl: string, text: string): Promise<Blob> {
+  const response = await fetch(`${backendUrl}/api/speech/synthesize`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text }),
+  });
+
+  if (!response.ok) {
+    let detail = `Speech synthesis failed with status ${response.status}`;
+    try {
+      const payload = await response.json() as { detail?: string };
+      detail = payload.detail ?? detail;
+    } catch {
+      // Keep the generic status message when the server does not return JSON.
+    }
+    throw new Error(detail);
+  }
+
+  const contentType = response.headers.get('content-type') || 'audio/wav';
+  const audioBytes = await response.arrayBuffer();
+  return new Blob([audioBytes], { type: contentType });
 }
 
 export async function fetchOllamaModels(backendUrl: string, baseUrl: string = "http://localhost:11434"): Promise<string[]> {

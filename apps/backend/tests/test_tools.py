@@ -10,17 +10,26 @@ import subprocess
 import pytest
 
 from app.agent.runner import AgentStreamRunner
+from app.agent.provider_config import ProviderRuntimeConfig
 from app.agent.tools.cli import CLIAgentTool
 from app.config import Settings
 from app.mcp.adk_toolset import build_running_mcp_toolsets, resolve_running_mcp_tools
 from app.mcp.presets import PLAYWRIGHT_MCP_ISOLATED_PRESET
-from app.schemas import ChatEvent, ChatRequest, McpActionRequest, McpToolConfig
+from app.schemas import (
+    ChatEvent,
+    ChatRequest,
+    McpActionRequest,
+    McpToolConfig,
+    UpsertModelSettingsRequest,
+)
 from app.security.command_policy import CommandPolicy
 from app.security.path_policy import PathPolicy
 from app.services.conversation_context_service import ConversationContextService
+from app.services.chat_service import ChatService
 from app.services.desktop_vision_service import DesktopVisionService
 from app.services.memory_service import MemoryService
 from app.services.mcp_service import McpService
+from app.services.settings_service import SettingsService
 from app.services.session_terminal_service import SessionTerminalService
 from app.services.transcription_service import SpeechToTextService
 from app.tools.agent_tools import build_agent_tools
@@ -316,6 +325,137 @@ def test_isolated_playwright_preset_omits_shared_browser_context() -> None:
     assert "--shared-browser-context" not in PLAYWRIGHT_MCP_ISOLATED_PRESET.args
 
 
+@pytest.mark.asyncio
+async def test_chat_service_deletes_conversation_and_messages(tmp_path: Path) -> None:
+    settings = Settings(
+        OPENROUTER_API_KEY="test-key",
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
+    )
+    service = ChatService(runtime=SimpleNamespace(stream_chat=None), settings=settings)
+    service.initialize()
+
+    with sqlite3.connect(service.sqlite_path) as database:
+        database.execute(
+            """
+            INSERT INTO conversations (id, user_id, title, created_at, updated_at)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            ("session-1", "local-user", "Hello", "2026-06-15T00:00:00Z", "2026-06-15T00:00:00Z"),
+        )
+        database.execute(
+            """
+            INSERT INTO conversation_messages (conversation_id, role, content, created_at)
+            VALUES (?, ?, ?, ?)
+            """,
+            ("session-1", "user", "hello", "2026-06-15T00:00:00Z"),
+        )
+        database.commit()
+
+    deleted = await service.delete_conversation("session-1", "local-user")
+    missing = await service.delete_conversation("session-1", "local-user")
+
+    with sqlite3.connect(service.sqlite_path) as database:
+        conversation_count = database.execute(
+            "SELECT COUNT(*) FROM conversations WHERE id = ?",
+            ("session-1",),
+        ).fetchone()
+        message_count = database.execute(
+            "SELECT COUNT(*) FROM conversation_messages WHERE conversation_id = ?",
+            ("session-1",),
+        ).fetchone()
+
+    assert deleted is True
+    assert missing is False
+    assert int(conversation_count[0]) == 0
+    assert int(message_count[0]) == 0
+
+
+def test_runner_cancel_session_marks_active_task_cancelled(tmp_path: Path) -> None:
+    settings = Settings(
+        OPENROUTER_API_KEY="test-key",
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
+        JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
+    )
+    runtime = AgentStreamRunner(
+        settings,
+        PathPolicy([tmp_path], full_access=True),
+        McpService(),
+        SessionTerminalService(),
+        DesktopVisionService(settings),
+        MemoryService(settings),
+        ConversationContextService(settings.sqlite_path),
+    )
+
+    class _FakeTask:
+        def __init__(self) -> None:
+            self.cancelled = False
+
+        def done(self) -> bool:
+            return False
+
+        def cancel(self) -> None:
+            self.cancelled = True
+
+    fake_task = _FakeTask()
+    runtime._active_stream_tasks["session-1"] = fake_task  # type: ignore[assignment]
+
+    cancelled = runtime.cancel_session("session-1")
+
+    assert cancelled is True
+    assert fake_task.cancelled is True
+    assert runtime._is_session_cancelled("session-1") is True
+
+
+def test_settings_service_normalizes_ollama_model_prefix(tmp_path: Path) -> None:
+    settings = Settings(
+        OPENROUTER_API_KEY="test-key",
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
+    )
+    service = SettingsService(settings)
+
+    service.save_model_settings(
+        UpsertModelSettingsRequest(
+            provider="ollama",
+            model="openrouter/google/gemma-4-26b-a4b-it",
+            api_key="",
+            base_url="http://localhost:11434",
+            speech_model="",
+        )
+    )
+
+    result = service.get_model_settings()
+    ollama_row = next(provider for provider in result.providers if provider.provider == "ollama")
+
+    assert result.current_provider == "ollama"
+    assert ollama_row.model == "google/gemma-4-26b-a4b-it"
+    assert not ollama_row.model.startswith("openrouter/")
+
+
+def test_sub_agent_provider_config_uses_saved_current_provider(tmp_path: Path) -> None:
+    settings = Settings(
+        OPENROUTER_API_KEY="test-key",
+        JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
+    )
+    service = SettingsService(settings)
+    service.save_model_settings(
+        UpsertModelSettingsRequest(
+            provider="ollama",
+            model="openrouter/google/gemma-4-26b-a4b-it",
+            api_key="",
+            base_url="http://localhost:11434",
+            speech_model="",
+        )
+    )
+
+    from app.agent import sub_agent_launcher
+
+    provider_config = sub_agent_launcher._sub_agent_provider_config(settings)
+
+    assert provider_config.provider == "ollama"
+    assert provider_config.model_name == "google/gemma-4-26b-a4b-it"
+    assert provider_config.base_url == "http://localhost:11434"
+
+
 async def test_resolve_running_mcp_tools_flattens_toolset_tools(monkeypatch) -> None:
     class _FakeToolset:
         async def get_tools(self):
@@ -348,6 +488,9 @@ async def test_sub_agent_launcher_resolves_requested_browser_tools(monkeypatch, 
         def __init__(self, name: str) -> None:
             self.name = name
 
+        async def run_async(self, args=None, tool_context=None):
+            return {"content": [{"type": "text", "text": self.name}]}
+
     class _FakeMcpService:
         async def resolve_running_tools(self):
             return [
@@ -376,6 +519,49 @@ async def test_sub_agent_launcher_resolves_requested_browser_tools(monkeypatch, 
 
     assert tools[0] == "filesystem-tool"
     assert [tool.name for tool in tools[1:]] == ["browser_navigate", "browser_snapshot"]
+
+
+@pytest.mark.asyncio
+async def test_sub_agent_launcher_synthesizes_composite_browser_tool(
+    monkeypatch, tmp_path: Path
+) -> None:
+    from app.agent import sub_agent_launcher
+
+    class _FakeTool:
+        def __init__(self, name: str) -> None:
+            self.name = name
+
+        async def run_async(self, args=None, tool_context=None):
+            return {"content": [{"type": "text", "text": self.name}]}
+
+    class _FakeMcpService:
+        async def resolve_running_tools(self):
+            return [
+                _FakeTool("browser_navigate"),
+                _FakeTool("browser_snapshot"),
+                _FakeTool("browser_take_screenshot"),
+            ]
+
+    monkeypatch.setattr(
+        sub_agent_launcher,
+        "McpService",
+        lambda **kwargs: _FakeMcpService(),
+    )
+    monkeypatch.setattr(
+        sub_agent_launcher,
+        "build_workspace_tools",
+        lambda policy: ["filesystem-tool"],
+    )
+
+    policy = PathPolicy([tmp_path])
+    tools = await sub_agent_launcher._build_sub_agent_tools(
+        policy,
+        ["filesystem", "browser_open_and_inspect_tool"],
+        "browser_worker",
+    )
+
+    assert tools[0] == "filesystem-tool"
+    assert any(getattr(tool, "__name__", "") == "browser_open_and_inspect_tool" for tool in tools)
 
 
 async def test_mcp_service_reuses_toolset_between_calls_and_closes_on_stop(monkeypatch) -> None:
@@ -512,6 +698,104 @@ async def test_memory_service_logs_observations_and_reports_status(tmp_path: Pat
     assert status["data"]["node_count"] == 0
     assert status["data"]["observation_count"] == 2
     assert status["data"]["dreamer_model"] == "google/gemini-3-flash-preview"
+
+
+async def test_conversation_context_service_compacts_events_with_ollama_model(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    sqlite_path = tmp_path / "jarvis.sqlite"
+    settings = Settings(
+        OPENROUTER_API_KEY="test-key",
+        JARVIS_SQLITE_PATH=str(sqlite_path),
+    )
+    service = ConversationContextService(sqlite_path)
+    await service.observation_log.append("session-1", 1, "user[local-user]: first request")
+    await service.observation_log.append("session-1", 2, "assistant[local-user]: first answer")
+
+    with sqlite3.connect(sqlite_path) as database:
+        database.execute(
+            """
+            CREATE TABLE events (
+                id TEXT NOT NULL,
+                app_name TEXT NOT NULL,
+                user_id TEXT NOT NULL,
+                session_id TEXT NOT NULL,
+                invocation_id TEXT NOT NULL,
+                timestamp REAL NOT NULL,
+                event_data TEXT NOT NULL,
+                PRIMARY KEY (app_name, user_id, session_id, id)
+            )
+            """
+        )
+        for index in range(4):
+            database.execute(
+                """
+                INSERT INTO events (
+                    id, app_name, user_id, session_id, invocation_id, timestamp, event_data
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    f"event-{index}",
+                    "jarvis-desktop",
+                    "local-user",
+                    "session-1",
+                    f"invocation-{index}",
+                    float(index),
+                    json.dumps(
+                        {
+                            "author": "jarvis_desktop_agent",
+                            "content": {
+                                "role": "model",
+                                "parts": [{"text": f"important event {index}"}],
+                            },
+                        }
+                    ),
+                ),
+            )
+        database.commit()
+
+    seen: dict[str, object] = {}
+
+    async def _fake_acompletion(**kwargs):
+        seen.update(kwargs)
+        return SimpleNamespace(
+            choices=[
+                SimpleNamespace(
+                    message=SimpleNamespace(content="Remember the important event decisions.")
+                )
+            ]
+        )
+
+    import litellm
+
+    monkeypatch.setattr(litellm, "acompletion", _fake_acompletion)
+
+    cached_context = await service.compact_session_context_with_model(
+        "session-1",
+        settings,
+        ProviderRuntimeConfig(
+            provider="ollama",
+            model_name="gemma4:12b",
+            base_url="http://localhost:11434",
+        ),
+        event_limit=3,
+        overlap=1,
+    )
+
+    assert cached_context is not None
+    assert "Remember the important event decisions." in cached_context
+    assert seen["model"] == "ollama_chat/gemma4:12b"
+    assert "important event 1" in seen["messages"][1]["content"]
+    assert "important event 3" in seen["messages"][1]["content"]
+    assert "important event 0" not in seen["messages"][1]["content"]
+
+    await service.observation_log.append("session-1", 3, "user[local-user]: next request")
+    rendered_context = service.render_session_context("session-1")
+
+    assert "Remember the important event decisions." in rendered_context
+    assert "next request" not in rendered_context
 
 
 async def test_stream_chat_emits_visible_memory_promotion_thought_events(

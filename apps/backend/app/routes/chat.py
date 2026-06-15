@@ -35,6 +35,17 @@ async def chat(
     return StreamingResponse(event_stream(), media_type="text/event-stream")
 
 
+@router.post("/chat/{session_id}/cancel")
+async def cancel_chat(
+    session_id: str,
+    service: ChatService = Depends(get_chat_service),
+) -> JSONResponse:
+    cancelled = await service.cancel_chat(session_id)
+    return JSONResponse(
+        {"status": "success", "session_id": session_id, "cancelled": cancelled}
+    )
+
+
 @router.get("/conversations", response_model=list[Conversation])
 async def list_conversations(
     user_id: str = "local-user",
@@ -61,3 +72,15 @@ async def get_conversation_messages(
     service: ChatService = Depends(get_chat_service),
 ) -> list[ConversationMessage]:
     return await service.get_conversation_messages(conversation_id)
+
+
+@router.delete("/conversations/{conversation_id}")
+async def delete_conversation(
+    conversation_id: str,
+    user_id: str = "local-user",
+    service: ChatService = Depends(get_chat_service),
+) -> JSONResponse:
+    deleted = await service.delete_conversation(conversation_id, user_id=user_id)
+    if not deleted:
+        raise HTTPException(status_code=404, detail="Conversation not found")
+    return JSONResponse({"status": "success", "message": "Conversation deleted"})

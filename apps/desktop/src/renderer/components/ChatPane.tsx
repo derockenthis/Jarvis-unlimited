@@ -1,8 +1,8 @@
 import { FormEvent, KeyboardEvent, useEffect, useRef, useState } from 'react';
-import { Mic, MicOff, MonitorUp, Send, Sparkles } from 'lucide-react';
+import { CircleX, Mic, MicOff, MonitorUp, Send, Sparkles } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { streamChat, transcribeAudio } from '../api/backend';
+import { cancelChat, streamChat, transcribeAudio } from '../api/backend';
 import { useAppStore } from '../stores/useAppStore';
 
 function getActivityPreview(detail: string | undefined, content: string) {
@@ -90,6 +90,7 @@ export function ChatPane() {
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const recordingStreamRef = useRef<MediaStream | null>(null);
   const recordedChunksRef = useRef<Blob[]>([]);
+  const chatAbortControllerRef = useRef<AbortController | null>(null);
 
   useEffect(() => {
     if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === 'undefined') {
@@ -102,6 +103,8 @@ export function ChatPane() {
       mediaRecorderRef.current = null;
       recordingStreamRef.current?.getTracks().forEach((track) => track.stop());
       recordingStreamRef.current = null;
+      chatAbortControllerRef.current?.abort();
+      chatAbortControllerRef.current = null;
     };
   }, [addChatEvent]);
 
@@ -210,10 +213,8 @@ export function ChatPane() {
     await startSpeechRecording();
   };
 
-  const provider = useAppStore((state) => state.provider);
-  const model = useAppStore((state) => state.model);
-  const apiKey = useAppStore((state) => state.apiKey);
-  const baseUrl = useAppStore((state) => state.baseUrl);
+  const providerSettingsLoaded = useAppStore((state) => state.providerSettingsLoaded);
+  const loadProviderSettings = useAppStore((state) => state.loadProviderSettings);
   const sendDraft = async () => {
     const content = draft.trim();
     if (!content || isStreaming) {
@@ -224,19 +225,61 @@ export function ChatPane() {
 
     setDraft('');
     setStreaming(true);
+    const abortController = new AbortController();
+    chatAbortControllerRef.current = abortController;
     try {
+      if (!providerSettingsLoaded || !useAppStore.getState().model.trim()) {
+        await loadProviderSettings(true);
+      }
+
+      const currentSettings = useAppStore.getState();
+      if (!currentSettings.model.trim()) {
+        throw new Error('No model is configured. Open Settings and save a model before sending a message.');
+      }
       addUserMessage(content);
-      await streamChat(backendUrl, content, isScreenSharing, skillsRootPath, provider, model, apiKey, baseUrl, addChatEvent, sessionId);
+      await streamChat(
+        backendUrl,
+        content,
+        isScreenSharing,
+        skillsRootPath,
+        currentSettings.provider,
+        currentSettings.model,
+        currentSettings.apiKey,
+        currentSettings.baseUrl,
+        addChatEvent,
+        sessionId,
+        abortController.signal,
+      );
     } catch (error) {
+      if (error instanceof DOMException && error.name === 'AbortError') {
+        return;
+      }
       addChatEvent({
         type: 'error',
         content: error instanceof Error ? error.message : 'Chat stream failed.',
       });
     } finally {
+      chatAbortControllerRef.current = null;
       setStreaming(false);
       void populateConversations().catch((error) => {
         console.error('Failed to refresh conversations', error);
       });
+    }
+  };
+
+  const cancelStreamingResponse = async () => {
+    if (!isStreaming) {
+      return;
+    }
+
+    try {
+      await cancelChat(backendUrl, sessionId);
+    } catch (error) {
+      console.error('Failed to cancel chat turn', error);
+    } finally {
+      chatAbortControllerRef.current?.abort();
+      chatAbortControllerRef.current = null;
+      setStreaming(false);
     }
   };
 
@@ -338,8 +381,14 @@ export function ChatPane() {
             onChange={(event) => setDraft(event.target.value)}
             onKeyDown={handleComposerKeyDown}
           />
-          <button className="send-button" type="submit" aria-label="Send message">
-            {isStreaming ? <Sparkles size={18} /> : <Send size={18} />}
+          <button
+            className={isStreaming ? 'send-button send-button-cancel' : 'send-button'}
+            type={isStreaming ? 'button' : 'submit'}
+            aria-label={isStreaming ? 'Cancel message' : 'Send message'}
+            onClick={isStreaming ? () => { void cancelStreamingResponse(); } : undefined}
+            title={isStreaming ? 'Cancel response' : 'Send message'}
+          >
+            {isStreaming ? <CircleX size={18} /> : <Send size={18} />}
           </button>
         </div>
       </form>

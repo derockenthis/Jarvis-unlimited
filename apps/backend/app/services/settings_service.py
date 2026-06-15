@@ -57,7 +57,7 @@ class SettingsService:
             providers=[
                 ProviderModelSettings(
                     provider=str(row[0]),
-                    model=str(row[1] or ""),
+                    model=self._normalize_model_for_provider(str(row[0]), str(row[1] or "")),
                     api_key=str(row[2] or ""),
                     base_url=str(row[3] or ""),
                     speech_model=str(row[4] or ""),
@@ -69,6 +69,8 @@ class SettingsService:
     def save_model_settings(self, request: UpsertModelSettingsRequest) -> ModelSettingsResponse:
         self.initialize()
         timestamp = datetime.now(UTC).isoformat()
+        normalized_provider = request.provider.strip().lower()
+        normalized_model = self._normalize_model_for_provider(normalized_provider, request.model)
 
         with sqlite3.connect(self.sqlite_path) as database:
             database.execute(
@@ -82,7 +84,14 @@ class SettingsService:
                   speech_model = excluded.speech_model,
                   updated_at = excluded.updated_at
                 """,
-                (request.provider, request.model, request.api_key, request.base_url, request.speech_model, timestamp),
+                (
+                    normalized_provider,
+                    normalized_model,
+                    request.api_key,
+                    request.base_url,
+                    request.speech_model,
+                    timestamp,
+                ),
             )
             database.execute(
                 """
@@ -97,3 +106,23 @@ class SettingsService:
             database.commit()
 
         return self.get_model_settings()
+
+    def _normalize_model_for_provider(self, provider: str, model: str) -> str:
+        provider = provider.strip().lower()
+        normalized = model.strip()
+        if not normalized:
+            return normalized
+
+        if provider == "ollama":
+            for prefix in ("openrouter/", "openai/"):
+                if normalized.startswith(prefix):
+                    return normalized.removeprefix(prefix)
+        elif provider == "openai":
+            for prefix in ("openrouter/", "ollama/", "ollama_chat/"):
+                if normalized.startswith(prefix):
+                    return normalized.removeprefix(prefix)
+        elif provider == "openrouter":
+            for prefix in ("openai/", "ollama/", "ollama_chat/"):
+                if normalized.startswith(prefix):
+                    return normalized.removeprefix(prefix)
+        return normalized

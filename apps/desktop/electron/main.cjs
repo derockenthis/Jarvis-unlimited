@@ -6,6 +6,11 @@ const rendererUrl = process.env.JARVIS_RENDERER_URL || 'http://127.0.0.1:5173';
 const backendUrl = process.env.VITE_BACKEND_URL || 'http://127.0.0.1:8765';
 const screenShareOverlays = new Map();
 let screenShareRingActive = false;
+let screenSharingEnabled = false;
+let mainWindow = null;
+let miniChatWindow = null;
+let sharedSessionId = null;
+let sharedModelSettings = null;
 
 function createScreenShareOverlay(display) {
   const overlay = new BrowserWindow({
@@ -105,6 +110,15 @@ function setScreenShareRing(active) {
   return { active: true };
 }
 
+function setScreenSharingEnabled(active) {
+  screenSharingEnabled = Boolean(active);
+  return { active: screenSharingEnabled };
+}
+
+function getScreenSharingEnabled() {
+  return { active: screenSharingEnabled };
+}
+
 function createMainWindow() {
   const window = new BrowserWindow({
     width: 1440,
@@ -134,7 +148,139 @@ function createMainWindow() {
     return { action: 'deny' };
   });
 
+  window.on('minimize', () => {
+    showMiniChatWindow();
+  });
+
+  window.on('restore', () => {
+    hideMiniChatWindow();
+  });
+
+  window.on('focus', () => {
+    if (!window.isMinimized()) {
+      hideMiniChatWindow();
+    }
+  });
+
+  window.on('closed', () => {
+    if (mainWindow === window) {
+      mainWindow = null;
+    }
+    closeMiniChatWindow();
+  });
+
+  mainWindow = window;
   return window;
+}
+
+function createMiniChatWindow() {
+  const primaryDisplay = screen.getPrimaryDisplay();
+  const width = 620;
+  const height = 74;
+  const x = Math.round(primaryDisplay.workArea.x + (primaryDisplay.workArea.width - width) / 2);
+  const y = Math.round(primaryDisplay.workArea.y + primaryDisplay.workArea.height - height - 26);
+  const window = new BrowserWindow({
+    x,
+    y,
+    width,
+    height,
+    minWidth: 420,
+    minHeight: 64,
+    maxHeight: 120,
+    frame: false,
+    transparent: true,
+    resizable: false,
+    fullscreenable: false,
+    skipTaskbar: true,
+    hasShadow: false,
+    show: false,
+    alwaysOnTop: true,
+    title: 'Jarvis Mini Chat',
+    webPreferences: {
+      preload: path.join(__dirname, 'preload.cjs'),
+      contextIsolation: true,
+      nodeIntegration: false,
+      sandbox: false,
+    },
+  });
+
+  window.setVisibleOnAllWorkspaces(true, { visibleOnFullScreen: true });
+  window.setAlwaysOnTop(true, 'floating');
+
+  if (isDev) {
+    window.loadURL(`${rendererUrl}?miniChat=1`);
+  } else {
+    window.loadFile(path.join(__dirname, '../dist/index.html'), { query: { miniChat: '1' } });
+  }
+
+  window.on('closed', () => {
+    if (miniChatWindow === window) {
+      miniChatWindow = null;
+    }
+  });
+
+  return window;
+}
+
+function showMiniChatWindow() {
+  if (!miniChatWindow || miniChatWindow.isDestroyed()) {
+    miniChatWindow = createMiniChatWindow();
+  }
+
+  miniChatWindow.showInactive();
+}
+
+function hideMiniChatWindow() {
+  if (miniChatWindow && !miniChatWindow.isDestroyed()) {
+    miniChatWindow.hide();
+  }
+}
+
+function closeMiniChatWindow() {
+  if (miniChatWindow && !miniChatWindow.isDestroyed()) {
+    miniChatWindow.close();
+  }
+  miniChatWindow = null;
+}
+
+function restoreMainWindowFromMiniChat() {
+  if (!mainWindow || mainWindow.isDestroyed()) {
+    mainWindow = createMainWindow();
+  }
+
+  if (mainWindow.isMinimized()) {
+    mainWindow.restore();
+  }
+  mainWindow.show();
+  mainWindow.focus();
+  hideMiniChatWindow();
+  return { restored: true };
+}
+
+function setSharedSessionId(sessionId) {
+  sharedSessionId = typeof sessionId === 'string' && sessionId.trim() ? sessionId : null;
+  return { session_id: sharedSessionId };
+}
+
+function getSharedSessionId() {
+  return { session_id: sharedSessionId };
+}
+
+function setSharedModelSettings(settings) {
+  sharedModelSettings = settings && typeof settings === 'object' ? { ...settings } : null;
+  return { settings: sharedModelSettings };
+}
+
+function getSharedModelSettings() {
+  return { settings: sharedModelSettings };
+}
+
+function broadcastChatActivity(payload) {
+  for (const window of BrowserWindow.getAllWindows()) {
+    if (!window.isDestroyed()) {
+      window.webContents.send('chat:activity', payload);
+    }
+  }
 }
 
 function isTrustedRendererOrigin(origin) {
@@ -164,6 +310,21 @@ ipcMain.handle('app:get-info', () => ({
 
 ipcMain.handle('backend:get-url', () => backendUrl);
 ipcMain.handle('screen-share:set-ring-active', (_event, active) => setScreenShareRing(Boolean(active)));
+ipcMain.handle('screen-share:get-enabled', () => getScreenSharingEnabled());
+ipcMain.handle('screen-share:set-enabled', (_event, active) => setScreenSharingEnabled(Boolean(active)));
+ipcMain.handle('mini-chat:restore-main-window', () => restoreMainWindowFromMiniChat());
+ipcMain.handle('session:get-current', () => getSharedSessionId());
+ipcMain.handle('session:set-current', (_event, sessionId) => setSharedSessionId(String(sessionId || '')));
+ipcMain.handle('settings:get-model', () => getSharedModelSettings());
+ipcMain.handle('settings:set-model', (_event, settings) => setSharedModelSettings(settings));
+ipcMain.handle('chat:publish-turn-start', (_event, payload) => {
+  broadcastChatActivity({ type: 'turn_started', ...payload });
+  return { status: 'ok' };
+});
+ipcMain.handle('chat:publish-event', (_event, payload) => {
+  broadcastChatActivity({ type: 'event', ...payload });
+  return { status: 'ok' };
+});
 ipcMain.handle('skills-folder:pick', async () => {
   const result = await dialog.showOpenDialog({
     properties: ['openDirectory'],
@@ -179,7 +340,7 @@ ipcMain.handle('skills-folder:pick', async () => {
 
 app.whenReady().then(() => {
   configurePermissions();
-  createMainWindow();
+  mainWindow = createMainWindow();
 
   screen.on('display-added', () => {
     if (screenShareRingActive) {
@@ -198,14 +359,15 @@ app.whenReady().then(() => {
   });
 
   app.on('activate', () => {
-    if (BrowserWindow.getAllWindows().length === 0) {
-      createMainWindow();
+    if (!mainWindow || mainWindow.isDestroyed()) {
+      mainWindow = createMainWindow();
     }
   });
 });
 
 app.on('window-all-closed', () => {
   setScreenShareRing(false);
+  closeMiniChatWindow();
   if (process.platform !== 'darwin') {
     app.quit();
   }

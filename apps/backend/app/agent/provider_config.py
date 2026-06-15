@@ -2,6 +2,8 @@ from dataclasses import dataclass
 
 from app.config import Settings
 
+OLLAMA_CONTEXT_WINDOW = 50_000
+
 
 @dataclass(frozen=True, slots=True)
 class ProviderRuntimeConfig:
@@ -43,7 +45,13 @@ class ProviderRuntimeConfig:
 
     def litellm_model(self, settings: Settings) -> str:
         if not self.model_name:
-            return settings.openrouter_litellm_model
+            if self.provider == "openrouter":
+                return settings.openrouter_litellm_model
+            if self.provider == "openai":
+                raise ValueError("OpenAI model is not configured.")
+            if self.provider == "ollama":
+                raise ValueError("Ollama model is not configured.")
+            raise ValueError("Model is not configured.")
         if self.provider == "openrouter":
             return (
                 self.model_name
@@ -64,8 +72,8 @@ class ProviderRuntimeConfig:
             )
         return self.model_name
 
-    def litellm_kwargs(self, settings: Settings) -> dict[str, str]:
-        kwargs: dict[str, str] = {}
+    def litellm_kwargs(self, settings: Settings) -> dict[str, object]:
+        kwargs: dict[str, object] = {}
         if self.provider == "openrouter":
             kwargs["api_key"] = self.api_key or settings.openrouter_api_key
             kwargs["api_base"] = self.base_url or settings.openrouter_base_url
@@ -76,4 +84,5 @@ class ProviderRuntimeConfig:
         elif self.provider == "ollama":
             kwargs["api_base"] = self.base_url or "http://localhost:11434"
             kwargs["custom_llm_provider"] = "ollama_chat"
+            kwargs["extra_body"] = {"options": {"num_ctx": OLLAMA_CONTEXT_WINDOW}}
         return kwargs

@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     )
     openrouter_api_key: str = Field(default="", alias="OPENROUTER_API_KEY")
     openrouter_model: str = Field(
-        default="openai/gpt-4o-mini",
+        default="",
         validation_alias=AliasChoices("AGENT_MODEL_ID", "OPENROUTER_MODEL"),
     )
     openrouter_base_url: str = Field(
@@ -28,7 +28,7 @@ class Settings(BaseSettings):
         validation_alias=AliasChoices("OPENROUTER_API_BASE", "OPENROUTER_BASE_URL"),
     )
     openrouter_vision_model: str = Field(
-        default="openai/gpt-4o-mini",
+        default="",
         validation_alias=AliasChoices("OPENROUTER_VISION_MODEL", "AGENT_VISION_MODEL"),
     )
     openrouter_transcription_model: str = Field(
@@ -38,6 +38,22 @@ class Settings(BaseSettings):
     local_whisper_model: str = Field(
         default="mlx-community/whisper-large-v3-turbo",
         validation_alias=AliasChoices("LOCAL_WHISPER_MODEL", "JARVIS_LOCAL_WHISPER_MODEL"),
+    )
+    local_tts_voice: str = Field(
+        default="af_heart",
+        validation_alias=AliasChoices("LOCAL_TTS_VOICE", "JARVIS_LOCAL_TTS_VOICE"),
+    )
+    local_tts_language_code: str = Field(
+        default="a",
+        validation_alias=AliasChoices("LOCAL_TTS_LANGUAGE_CODE", "JARVIS_LOCAL_TTS_LANGUAGE_CODE"),
+    )
+    local_tts_sample_rate: int = Field(
+        default=24000,
+        validation_alias=AliasChoices("LOCAL_TTS_SAMPLE_RATE", "JARVIS_LOCAL_TTS_SAMPLE_RATE"),
+    )
+    local_tts_rate: int = Field(
+        default=180,
+        validation_alias=AliasChoices("LOCAL_TTS_RATE", "JARVIS_LOCAL_TTS_RATE"),
     )
     memory_dreamer_model: str = Field(
         default="google/gemini-3-flash-preview",
@@ -75,15 +91,21 @@ class Settings(BaseSettings):
 
     @property
     def openrouter_litellm_model(self) -> str:
-        if self.openrouter_model.startswith("openrouter/"):
-            return self.openrouter_model
-        return f"openrouter/{self.openrouter_model}"
+        model = self.openrouter_model.strip()
+        if not model:
+            raise ValueError("OpenRouter model is not configured.")
+        if model.startswith("openrouter/"):
+            return model
+        return f"openrouter/{model}"
 
     @property
     def openrouter_litellm_vision_model(self) -> str:
-        if self.openrouter_vision_model.startswith("openrouter/"):
-            return self.openrouter_vision_model
-        return f"openrouter/{self.openrouter_vision_model}"
+        model = self.openrouter_vision_model.strip()
+        if not model:
+            raise ValueError("OpenRouter vision model is not configured.")
+        if model.startswith("openrouter/"):
+            return model
+        return f"openrouter/{model}"
 
     @property
     def openrouter_transcription_model_slug(self) -> str:

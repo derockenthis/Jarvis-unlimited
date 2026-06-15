@@ -1,0 +1,1456 @@
+- generic [active] [ref=e1]:
+  - button "Enable accessibility" [ref=e3] [cursor=pointer]:
+    - generic [ref=e4]: Enable accessibility
+  - text:         
+  - navigation:
+    - link "Skip to Main Content Area" [ref=e6] [cursor=pointer]:
+      - /url: "#content"
+    - link "View our accessibility policy" [ref=e7] [cursor=pointer]:
+      - /url: /site/customer-support/accessibility-policy.aspx
+  - generic "”holidaymessage”" [ref=e8]:
+    - text: Lowest Prices for 3-in-1 PC Bundles -
+    - link "Shop AMD" [ref=e9] [cursor=pointer]:
+      - /url: /site/content/bundle-and-save.aspx
+    - text: "|"
+    - link "Shop INTEL" [ref=e10] [cursor=pointer]:
+      - /url: /site/content/intel-bundle-and-save.aspx
+  - banner [ref=e11]:
+    - 'navigation "Site Selections: Account Login, Store Selection, Cart Information" [ref=e12]':
+      - generic [ref=e13]:
+        - generic: "Site Selections: Account Login, Store Selection, Cart Information"
+        - link "Micro Center" [ref=e15] [cursor=pointer]:
+          - /url: /
+          - img "Micro Center" [ref=e16]
+        - generic "Product Search Form" [ref=e17]:
+          - generic: Product Search Form
+          - generic [ref=e19]:
+            - generic: Search for product
+            - textbox "Search for product" [ref=e20]:
+              - /placeholder: What can we help you find?
+            - button "Begin Product Search" [ref=e21] [cursor=pointer]: search
+        - generic [ref=e22]:
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - img "get store info" [ref=e26]
+              - link "Shippable Items" [ref=e27] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e28]: Shippable Items
+              - img "get store info" [ref=e30]
+            - listitem:
+              - strong
+            - listitem
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - list [ref=e33]:
+                - listitem [ref=e34]:
+                  - link "my account Hello, Sign in my account" [ref=e35] [cursor=pointer]:
+                    - /url: https://account.microcenter.com/auth/signin?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f
+                    - img "my account" [ref=e37]
+                    - generic [ref=e39]:
+                      - generic [ref=e40]: Hello,
+                      - text: Sign in
+                    - img "my account" [ref=e42]
+          - list [ref=e43]:
+            - listitem:
+              - text: My
+              - strong [ref=e44]: "Cart:"
+            - listitem [ref=e45]:
+              - link "View Cart Cart & List" [ref=e46] [cursor=pointer]:
+                - /url: https://cart.microcenter.com
+                - img "View Cart" [ref=e48]
+                - generic [ref=e49]:
+                  - generic [ref=e50]: Cart
+                  - generic [ref=e51]: "& List"
+    - generic [ref=e52]:
+      - navigation "Product category, brand navigation and general site naviation":
+        - generic: Product category, brand navigation and general site naviation
+        - navigation:
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "Products Navigation" [ref=e55] [cursor=pointer]:
+                - /url: "#"
+                - strong [ref=e56]: Products
+                - generic: Navigation
+              - list [ref=e58]:
+                - listitem [ref=e59]:
+                  - link "Top Deals" [ref=e60] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e61]:
+                  - link "PC Parts" [ref=e62] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e63]:
+                  - link "PC Builders" [ref=e64] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e65]:
+                  - link "Computers" [ref=e66] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e67]:
+                  - link "PowerSpec" [ref=e68] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e69]:
+                  - link "Apple" [ref=e70] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e71]:
+                  - link "Electronics" [ref=e72] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e73]:
+                  - link "Maker/STEM" [ref=e74] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e75]:
+                  - link "3D Printing" [ref=e76] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e77]:
+                  - link "Ubiquiti" [ref=e78] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e79]:
+                  - link "Networking" [ref=e80] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e81]:
+                  - link "Accessories" [ref=e82] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e83]:
+                  - link "Gaming & Software" [ref=e84] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e85]:
+                  - link "Laptop Batteries" [ref=e86] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e87]:
+                  - link "Clearance & Refurb" [ref=e88] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e89]:
+                  - link "Brands" [ref=e90] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e91]:
+                  - link "Services" [ref=e92] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e93]:
+                  - link "Micro Center News" [ref=e94] [cursor=pointer]:
+                    - /url: ""
+                - listitem [ref=e95]:
+                  - link "Support" [ref=e96] [cursor=pointer]:
+                    - /url: ""
+            - listitem [ref=e97]:
+              - link "Top Deals" [ref=e98] [cursor=pointer]:
+                - /url: /site/content/top-deals.aspx
+                - text: Top Deals
+              - list [ref=e100]:
+                - listitem [ref=e101]:
+                  - link "LAPTOP SAVINGS EVENT" [ref=e102] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Specials
+                - listitem [ref=e103]:
+                  - link "AMD/Intel Bundles" [ref=e104] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Bundles|772
+                - listitem [ref=e105]:
+                  - link "ASUS Combo & Save" [ref=e106] [cursor=pointer]:
+                    - /url: /site/content/asus-bundle-and-save.aspx
+                - listitem [ref=e107]:
+                  - link "Logitech Combo Savings" [ref=e108] [cursor=pointer]:
+                    - /url: /site/content/logitech-bundle-and-save.aspx
+                - listitem [ref=e109]:
+                  - link "Razer Combo Savings" [ref=e110] [cursor=pointer]:
+                    - /url: /site/content/razer-bundle-and-save.aspx
+                - listitem [ref=e111]:
+                  - link "Apple" [ref=e112] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,brand:Apple
+                - listitem [ref=e113]:
+                  - link "Desktops" [ref=e114] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Computers|92+OR+Desktop+Computers|106
+                - listitem [ref=e115]:
+                  - link "Laptops" [ref=e116] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Laptops%2FNotebooks|618,Micro+Center+Deals:Top+Deals
+                - listitem [ref=e117]:
+                  - link "Graphics Cards" [ref=e118] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Computer+Parts|94+OR+Graphics+Cards+%26+Accessories|137
+                - listitem [ref=e119]:
+                  - link "PC Parts" [ref=e120] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Computer+Parts|94
+                - listitem [ref=e121]:
+                  - link "Monitors" [ref=e122] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Electronics|95+OR+Monitors%60+TVs|161+OR+Computer+Monitors|575
+                - listitem [ref=e123]:
+                  - link "PC Accessories" [ref=e124] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category_flat:Gaming+Mice|606+OR+Gaming+Keyboards|603+OR+USB+Flash+Drives|586+OR+Document%60+Barcode+Scanners|493+OR+Inkjet+Printers%60+All-in-Ones|481+OR+3D+Printer+Accessories|749+OR+Gaming+Accessories|253,Micro+Center+Deals:Top+Deals
+                - listitem [ref=e125]:
+                  - link "3D Printers" [ref=e126] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,Subcategory:3D+Printers
+                - listitem [ref=e127]:
+                  - link "Shop All" [ref=e128] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals
+            - listitem [ref=e129]:
+              - link "PC Parts" [ref=e130] [cursor=pointer]:
+                - /url: https://www.microcenter.com/site/products/computer-parts.aspx
+                - text: PC Parts
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - link "Custom PC Builder" [ref=e134] [cursor=pointer]:
+                    - /url: https://www.microcenter.com/site/content/custom-pc-builder.aspx
+                - listitem [ref=e135]:
+                  - link "AMD/Intel Bundles" [ref=e136] [cursor=pointer]:
+                    - /url: /site/content/bundle-and-save.aspx
+                - listitem [ref=e137]:
+                  - link "Processors/CPUs" [ref=e138] [cursor=pointer]:
+                    - /url: /site/products/computer-processors.aspx
+                - listitem [ref=e139]:
+                  - link "Graphics Cards" [ref=e140] [cursor=pointer]:
+                    - /url: /site/products/graphics-cards.aspx
+                - listitem [ref=e141]:
+                  - link "Motherboards" [ref=e142] [cursor=pointer]:
+                    - /url: /site/products/motherboards.aspx
+                - listitem [ref=e143]:
+                  - link "Drives & Storage" [ref=e144] [cursor=pointer]:
+                    - /url: /site/products/drives-and-storage.aspx
+                - listitem [ref=e145]:
+                  - link "Computer Memory" [ref=e146] [cursor=pointer]:
+                    - /url: /site/products/computer-memory.aspx
+                - listitem [ref=e147]:
+                  - link "Computer Cases" [ref=e148] [cursor=pointer]:
+                    - /url: /site/products/computer-cases.aspx
+                - listitem [ref=e149]:
+                  - link "Power Supplies" [ref=e150] [cursor=pointer]:
+                    - /url: /site/products/power-supplies.aspx
+                - listitem [ref=e151]:
+                  - link "Air & Water Cooling" [ref=e152] [cursor=pointer]:
+                    - /url: /site/products/cpu-coolers.aspx
+            - listitem [ref=e153]:
+              - link "Computers" [ref=e154] [cursor=pointer]:
+                - /url: https://www.microcenter.com/site/products/computers.aspx
+                - text: Computers
+              - list [ref=e156]:
+                - listitem [ref=e157]:
+                  - link "Laptops/Notebooks" [ref=e158] [cursor=pointer]:
+                    - /url: /site/products/laptops-notebooks.aspx
+                - listitem [ref=e159]:
+                  - link "Desktops" [ref=e160] [cursor=pointer]:
+                    - /url: /site/products/desktop-computers.aspx
+                - listitem [ref=e161]:
+                  - link "PowerSpec" [ref=e162] [cursor=pointer]:
+                    - /url: /site/powerspec/default.aspx
+                - listitem [ref=e163]:
+                  - link "Pro AI Solutions" [ref=e164] [cursor=pointer]:
+                    - /url: /site/content/ai_destination.aspx
+                - listitem [ref=e165]:
+                  - link "Business Solutions" [ref=e166] [cursor=pointer]:
+                    - /url: "/site/products/smb-technology.aspx "
+                - listitem [ref=e167]:
+                  - link "Workstations" [ref=e168] [cursor=pointer]:
+                    - /url: /site/products/workstation-computers.aspx
+                - listitem [ref=e169]:
+                  - link "Servers" [ref=e170] [cursor=pointer]:
+                    - /url: /site/products/servers.aspx
+                - listitem [ref=e171]:
+                  - link "Computer Monitors" [ref=e172] [cursor=pointer]:
+                    - /url: /site/products/computer_monitors.aspx
+                - listitem [ref=e173]:
+                  - link "Windows 10 End of Life" [ref=e174] [cursor=pointer]:
+                    - /url: /site/content/windows10-eol.aspx
+            - listitem [ref=e175]:
+              - link "Apple" [ref=e176] [cursor=pointer]:
+                - /url: https://www.microcenter.com/site/brands/apple-showcase.aspx
+                - text: Apple
+              - list [ref=e178]:
+                - listitem [ref=e179]:
+                  - link "MacBook" [ref=e180] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Laptops%2FNotebooks|618,Subcategory:Apple+Laptops
+                - listitem [ref=e181]:
+                  - link "Mac Desktops" [ref=e182] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Desktop+Computers|106,Subcategory:Apple+Desktops
+                - listitem [ref=e183]:
+                  - link "iPad" [ref=e184] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:iPads|668
+                - listitem [ref=e185]:
+                  - link "Apple Watch" [ref=e186] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Wearable+Technology|561,brand:Apple
+                - listitem [ref=e187]:
+                  - link "AirPods" [ref=e188] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Headphones+%26+Earbuds|599,Series:AirPods
+                - listitem [ref=e189]:
+                  - link "Beats" [ref=e190] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Headphones+%26+Earbuds|599,Series:Beats+OR+Beats+Flex+OR+Beats+Solo+OR+Beats+Studio
+                - listitem [ref=e191]:
+                  - link "Accessories" [ref=e192] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Accessories|120,brand:Apple
+            - listitem [ref=e193]:
+              - link "Services" [ref=e194] [cursor=pointer]:
+                - /url: /site/service/service.aspx
+                - text: Services
+              - list [ref=e196]:
+                - listitem [ref=e197]:
+                  - link "Check Repair Status" [ref=e198] [cursor=pointer]:
+                    - /url: /site/service/repair-order.aspx
+                - listitem [ref=e199]:
+                  - link "Computer Repair & Upgrades" [ref=e200] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#repair-upgrades
+                - listitem [ref=e201]:
+                  - link "Custom Build & Rebuild" [ref=e202] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#build-rebuild
+                - listitem [ref=e203]:
+                  - link "Mobile, Tablets & Wearables" [ref=e204] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#wearables
+                - listitem [ref=e205]:
+                  - link "Data Services" [ref=e206] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#data-services
+                - listitem [ref=e207]:
+                  - link "Tech Support & Software" [ref=e208] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#support-software
+                - listitem [ref=e209]:
+                  - link "Gaming & Smart Home" [ref=e210] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#gaming-entertainment
+                - listitem [ref=e211]:
+                  - link "Accessories & Peripherals" [ref=e212] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#accessories-peripherals
+                - listitem [ref=e213]:
+                  - link "Trade-In, Recycling & Donation" [ref=e214] [cursor=pointer]:
+                    - /url: /site/service/service.aspx#trade-recycle
+                - listitem [ref=e215]:
+                  - link "Schedule Service" [ref=e216] [cursor=pointer]:
+                    - /url: https://www.microcenter.com/product/653864/free-consultation
+                - listitem [ref=e217]:
+                  - link "Protection Plans" [ref=e218] [cursor=pointer]:
+                    - /url: /site/customer-support/protection-plans/protection-plans-master.aspx
+                - listitem [ref=e219]:
+                  - link "In-Warranty Support" [ref=e220] [cursor=pointer]:
+                    - /url: /site/content/brands-we-service.aspx
+            - listitem [ref=e221]:
+              - link "PriorityCare+" [ref=e222] [cursor=pointer]:
+                - /url: /site/service/priority-care.aspx
+            - listitem [ref=e223]:
+              - link "MC News" [ref=e224] [cursor=pointer]:
+                - /url: /site/mc-news/default.aspx
+            - listitem [ref=e225]:
+              - link "Support" [ref=e226] [cursor=pointer]:
+                - /url: /site/customer-support/help-center.aspx
+                - text: Support
+              - list [ref=e228]:
+                - listitem [ref=e229]:
+                  - link "Customer Service" [ref=e230] [cursor=pointer]:
+                    - /url: /site/customer-support/help-center.aspx
+                - listitem [ref=e231]:
+                  - link "Remote Tech Support" [ref=e232] [cursor=pointer]:
+                    - /url: /site/content/tech-support.aspx
+          - link "18 MINUTE IN-STORE PICKUP" [ref=e233] [cursor=pointer]:
+            - /url: /site/customer-support/pickup.aspx
+  - main [ref=e234]:
+    - article [ref=e235]:
+      - generic [ref=e236]:
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - generic [ref=e240]:
+              - button "Previous" [ref=e241] [cursor=pointer]
+              - generic [ref=e243]:
+                - tabpanel [ref=e244]:
+                  - link "Lenovo Legion 5 15.3-inch 50 Series GPU Gaming Laptop - SHOP NOW; AMD Ryzen 7 260 3.8GHz Processor, NVIDIA GeForce RTX 5060 8GB GDDR7, 16GB DDR5-5600 RAM, 512GB SSD; SAVE $50; $1049.99; SKU 899732" [ref=e246] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Specials
+                    - img "Lenovo Legion 5 15.3-inch 50 Series GPU Gaming Laptop - SHOP NOW; AMD Ryzen 7 260 3.8GHz Processor, NVIDIA GeForce RTX 5060 8GB GDDR7, 16GB DDR5-5600 RAM, 512GB SSD; SAVE $50; $1049.99; SKU 899732" [ref=e247]
+                - tabpanel [ref=e248]:
+                  - link [ref=e250] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals
+                    - img [ref=e251]
+                - tabpanel [ref=e252]:
+                  - link [ref=e254] [cursor=pointer]:
+                    - /url: /product/708724/hp-omnibook-7-next-gen-ai-16-bh0007nr-oled-16-laptop-computer-glacier-silver-aluminum
+                    - img [ref=e255]
+                - tabpanel [ref=e256]:
+                  - link [ref=e258] [cursor=pointer]:
+                    - /url: /product/697953/acer-nitro-v-anv15-52-574m-156-gaming-laptop-computer-obsidian-black
+                    - img [ref=e259]
+                - tabpanel [ref=e260]:
+                  - link [ref=e262] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Computer+Monitors|575,Brand:Samsung
+                    - img [ref=e263]
+                - tabpanel [ref=e264]:
+                  - link [ref=e266] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=Subcategory:Smartwatch,brand:Samsung
+                    - img [ref=e267]
+              - button "Next" [ref=e268] [cursor=pointer]
+              - list [ref=e269]:
+                - listitem [ref=e270] [cursor=pointer]:
+                  - button "1" [ref=e271]
+                - listitem [ref=e272] [cursor=pointer]:
+                  - button "2" [ref=e273]
+                - listitem [ref=e274] [cursor=pointer]:
+                  - button "3" [ref=e275]
+                - listitem [ref=e276] [cursor=pointer]:
+                  - button "4" [ref=e277]
+                - listitem [ref=e278] [cursor=pointer]:
+                  - button "5" [ref=e279]
+                - listitem [ref=e280] [cursor=pointer]:
+                  - button "6" [ref=e281]
+            - link "Bundle Now" [ref=e283] [cursor=pointer]:
+              - /url: https://www.microcenter.com/site/content/bundle-and-save.aspx?bundle=amd#9850X3D-2-in-1
+              - img "AMD Ryzen 9850X3D 2-in-1 and 3-in-1 Bundles" [ref=e284]
+            - generic [ref=e285]:
+              - heading "Top Deals By Category" [level=3] [ref=e286]
+              - generic [ref=e287]:
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - link "Apple" [ref=e293] [cursor=pointer]:
+                      - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,brand:Apple
+                      - paragraph [ref=e294]: Apple
+                    - generic [ref=e295]:
+                      - generic:
+                        - link "View EarPods Lightning Earbuds - White":
+                          - /url: /product/682662/apple-earpods-lightning-earbuds-white
+                          - generic: View EarPods Lightning Earbuds - White
+                        - link " Add SKU:749028 to wishlist " [ref=e296] [cursor=pointer]:
+                          - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d682662
+                          - text: 
+                          - generic: Add SKU:749028 to wishlist
+                          - text: 
+                  - generic [ref=e298]:
+                    - generic [ref=e299]:
+                      - paragraph [ref=e300]:
+                        - link "Apple EarPods Lightning Earbuds - White" [ref=e301] [cursor=pointer]:
+                          - /url: /product/682662/apple-earpods-lightning-earbuds-white
+                      - link "4.7 out of 5 stars. 18 reviews" [ref=e304]:
+                        - /url: /product/682662/apple-earpods-lightning-earbuds-white#tab-reviews-bm
+                        - generic [ref=e307]:
+                          - img [ref=e308]
+                          - img [ref=e310]
+                          - img [ref=e312]
+                          - img [ref=e314]
+                          - img [ref=e316]
+                        - generic [ref=e318]:
+                          - generic [ref=e319]: "4.7"
+                          - generic [ref=e320]: (18)
+                    - generic [ref=e321]:
+                      - paragraph [ref=e324]:
+                        - generic [ref=e325]: Todays price
+                        - text: $19.99
+                      - 'button "ADD TO CART - Item: EarPods Lightning Earbuds - White SKU 749028" [ref=e328] [cursor=pointer]':
+                        - text: ADD TO CART
+                        - generic: "- Item: EarPods Lightning Earbuds - White SKU 749028"
+                - generic [ref=e332]:
+                  - generic [ref=e333]:
+                    - link "PC Parts" [ref=e334] [cursor=pointer]:
+                      - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Computer+Parts|94
+                      - paragraph [ref=e335]: PC Parts
+                    - generic [ref=e336]:
+                      - generic:
+                        - link "View SPATIUM M450 1TB SSD 3D NAND PCIe Gen 4 x4 NVMe M.2 2280 Internal Solid State Drive":
+                          - /url: /product/706966/msi-spatium-m450-1tb-ssd-3d-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive
+                          - generic: View SPATIUM M450 1TB SSD 3D NAND PCIe Gen 4 x4 NVMe M.2 2280 Internal Solid State Drive
+                        - link " Add SKU:990937 to wishlist " [ref=e337] [cursor=pointer]:
+                          - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d706966
+                          - text: 
+                          - generic: Add SKU:990937 to wishlist
+                          - text: 
+                  - generic [ref=e339]:
+                    - generic [ref=e340]:
+                      - paragraph [ref=e341]:
+                        - link "MSI SPATIUM M450 1TB SSD 3D NAND PCIe Gen 4 x4 NVMe M.2 2280 Internal Solid State Drive" [ref=e342] [cursor=pointer]:
+                          - /url: /product/706966/msi-spatium-m450-1tb-ssd-3d-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive
+                      - link "4.8 out of 5 stars. 4 reviews" [ref=e345]:
+                        - /url: /product/706966/msi-spatium-m450-1tb-ssd-3d-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive#tab-reviews-bm
+                        - generic [ref=e348]:
+                          - img [ref=e349]
+                          - img [ref=e351]
+                          - img [ref=e353]
+                          - img [ref=e355]
+                          - img [ref=e357]
+                        - generic [ref=e359]:
+                          - generic [ref=e360]: "4.8"
+                          - generic [ref=e361]: (4)
+                    - generic [ref=e362]:
+                      - generic [ref=e363]:
+                        - paragraph [ref=e365]:
+                          - generic [ref=e366]: Original price
+                          - text: $399.99
+                        - paragraph [ref=e368]:
+                          - generic [ref=e369]: Todays price
+                          - text: $179.99
+                      - 'button "ADD TO CART - Item: SPATIUM M450 1TB SSD 3D NAND PCIe Gen 4 x4 NVMe M.2 2280 Internal Solid State Drive SKU 990937" [ref=e372] [cursor=pointer]':
+                        - text: ADD TO CART
+                        - generic: "- Item: SPATIUM M450 1TB SSD 3D NAND PCIe Gen 4 x4 NVMe M.2 2280 Internal Solid State Drive SKU 990937"
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - link "Monitors" [ref=e378] [cursor=pointer]:
+                      - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Electronics|95+OR+Monitors%60+TVs|161+OR+Computer+Monitors|575
+                      - paragraph [ref=e379]: Monitors
+                    - generic [ref=e380]:
+                      - generic:
+                        - link "View UltraGear 27GX704A-B.AUS 26.5\" 2K QHD (2560 x 1440) 240Hz Gaming Monitor; AMD FreeSync Compatible; HDR; DisplayPort HDMI; Dynamic Action Sync; Flicker Safe":
+                          - /url: /product/701559/lg-ultragear-27gx704a-baus-265-2k-qhd-(2560-x-1440)-240hz-gaming-monitor
+                          - generic: View UltraGear 27GX704A-B.AUS 26.5" 2K QHD (2560 x 1440) 240Hz Gaming Monitor; AMD FreeSync Compatible; HDR; DisplayPort HDMI; Dynamic Action Sync; Flicker Safe
+                        - link " Add SKU:928150 to wishlist " [ref=e381] [cursor=pointer]:
+                          - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d701559
+                          - text: 
+                          - generic: Add SKU:928150 to wishlist
+                          - text: 
+                  - generic [ref=e383]:
+                    - generic [ref=e384]:
+                      - paragraph [ref=e385]:
+                        - link "LG UltraGear 27GX704A-B.AUS 26.5\" 2K QHD (2560 x 1440) 240Hz Gaming Monitor; AMD FreeSync Compatible;..." [ref=e386] [cursor=pointer]:
+                          - /url: /product/701559/lg-ultragear-27gx704a-baus-265-2k-qhd-(2560-x-1440)-240hz-gaming-monitor
+                      - link "4.6 out of 5 stars. 17 reviews" [ref=e389]:
+                        - /url: /product/701559/lg-ultragear-27gx704a-baus-265-2k-qhd-(2560-x-1440)-240hz-gaming-monitor#tab-reviews-bm
+                        - generic [ref=e392]:
+                          - img [ref=e393]
+                          - img [ref=e395]
+                          - img [ref=e397]
+                          - img [ref=e399]
+                          - img [ref=e401]
+                        - generic [ref=e403]:
+                          - generic [ref=e404]: "4.6"
+                          - generic [ref=e405]: (17)
+                    - generic [ref=e406]:
+                      - generic [ref=e407]:
+                        - paragraph [ref=e409]:
+                          - generic [ref=e410]: Original price
+                          - text: $799.99
+                        - paragraph [ref=e412]:
+                          - generic [ref=e413]: Todays price
+                          - text: $499.99
+                      - 'button "ADD TO CART - Item: UltraGear 27GX704A-B.AUS 26.5\" 2K QHD (2560 x 1440) 240Hz Gaming Monitor SKU 928150" [ref=e416] [cursor=pointer]':
+                        - text: ADD TO CART
+                        - generic: "- Item: UltraGear 27GX704A-B.AUS 26.5\" 2K QHD (2560 x 1440) 240Hz Gaming Monitor SKU 928150"
+                - generic [ref=e420]:
+                  - generic [ref=e421]:
+                    - link "PC Accessories" [ref=e422] [cursor=pointer]:
+                      - /url: /search/search_results.aspx?fq=category_flat:Gaming+Mice|606+OR+Gaming+Keyboards|603+OR+USB+Flash+Drives|586+OR+Document%60+Barcode+Scanners|493+OR+Inkjet+Printers%60+All-in-Ones|481+OR+3D+Printer+Accessories|749+OR+Gaming+Accessories|253,Micro+Center+Deals:Top+Deals
+                      - paragraph [ref=e423]: PC Accessories
+                    - generic [ref=e424]:
+                      - generic:
+                        - link "View PRO X2 Superstrike LIGHTSPEED Wireless Gaming Mouse - Lunar Eclipse":
+                          - /url: /product/706199/logitech-g-pro-x2-superstrike-lightspeed-wireless-gaming-mouse-lunar-eclipse
+                          - generic: View PRO X2 Superstrike LIGHTSPEED Wireless Gaming Mouse - Lunar Eclipse
+                        - link " Add SKU:979286 to wishlist " [ref=e425] [cursor=pointer]:
+                          - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d706199
+                          - text: 
+                          - generic: Add SKU:979286 to wishlist
+                          - text: 
+                  - generic [ref=e427]:
+                    - generic [ref=e428]:
+                      - paragraph [ref=e429]:
+                        - link "Logitech G PRO X2 Superstrike LIGHTSPEED Wireless Gaming Mouse - Lunar Eclipse" [ref=e430] [cursor=pointer]:
+                          - /url: /product/706199/logitech-g-pro-x2-superstrike-lightspeed-wireless-gaming-mouse-lunar-eclipse
+                      - link "4.6 out of 5 stars. 154 reviews" [ref=e433]:
+                        - /url: /product/706199/logitech-g-pro-x2-superstrike-lightspeed-wireless-gaming-mouse-lunar-eclipse#tab-reviews-bm
+                        - generic [ref=e436]:
+                          - img [ref=e437]
+                          - img [ref=e439]
+                          - img [ref=e441]
+                          - img [ref=e443]
+                          - img [ref=e445]
+                        - generic [ref=e447]:
+                          - generic [ref=e448]: "4.6"
+                          - generic [ref=e449]: (154)
+                          - button "Display a pop up to show review summary." [ref=e450]:
+                            - img [ref=e451]
+                    - generic [ref=e453]:
+                      - paragraph [ref=e456]:
+                        - generic [ref=e457]: Todays price
+                        - text: $179.99
+                      - 'button "ADD TO CART - Item: PRO X2 Superstrike LIGHTSPEED Wireless Gaming Mouse - Lunar Eclipse SKU 979286" [ref=e460] [cursor=pointer]':
+                        - text: ADD TO CART
+                        - generic: "- Item: PRO X2 Superstrike LIGHTSPEED Wireless Gaming Mouse - Lunar Eclipse SKU 979286"
+                - generic [ref=e464]:
+                  - generic [ref=e465]:
+                    - link "Shop All" [ref=e466] [cursor=pointer]:
+                      - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals
+                      - paragraph [ref=e467]: Shop All
+                    - generic [ref=e468]:
+                      - generic:
+                        - link "View Liquid Freezer III Pro 360mm All in One Liquid CPU Cooling Kit - Black":
+                          - /url: /product/695239/arctic-liquid-freezer-iii-pro-360mm-all-in-one-liquid-cpu-cooling-kit-black
+                          - generic: View Liquid Freezer III Pro 360mm All in One Liquid CPU Cooling Kit - Black
+                        - link " Add SKU:866715 to wishlist " [ref=e469] [cursor=pointer]:
+                          - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d695239
+                          - text: 
+                          - generic: Add SKU:866715 to wishlist
+                          - text: 
+                  - generic [ref=e471]:
+                    - generic [ref=e472]:
+                      - paragraph [ref=e473]:
+                        - link "ARCTIC Liquid Freezer III Pro 360mm All in One Liquid CPU Cooling Kit - Black" [ref=e474] [cursor=pointer]:
+                          - /url: /product/695239/arctic-liquid-freezer-iii-pro-360mm-all-in-one-liquid-cpu-cooling-kit-black
+                      - link "4.6 out of 5 stars. 27 reviews" [ref=e477]:
+                        - /url: /product/695239/arctic-liquid-freezer-iii-pro-360mm-all-in-one-liquid-cpu-cooling-kit-black#tab-reviews-bm
+                        - generic [ref=e480]:
+                          - img [ref=e481]
+                          - img [ref=e483]
+                          - img [ref=e485]
+                          - img [ref=e487]
+                          - img [ref=e489]
+                        - generic [ref=e491]:
+                          - generic [ref=e492]: "4.6"
+                          - generic [ref=e493]: (27)
+                    - generic [ref=e494]:
+                      - paragraph [ref=e497]:
+                        - generic [ref=e498]: Todays price
+                        - text: $119.99
+                      - 'button "ADD TO CART - Item: Liquid Freezer III Pro 360mm All in One Liquid CPU Cooling Kit - Black SKU 866715" [ref=e501] [cursor=pointer]':
+                        - text: ADD TO CART
+                        - generic: "- Item: Liquid Freezer III Pro 360mm All in One Liquid CPU Cooling Kit - Black SKU 866715"
+            - generic [ref=e503]:
+              - heading "Most Popular Categories" [level=2] [ref=e504]
+              - generic [ref=e505]:
+                - link "Laptop Savings Shop Now" [ref=e507] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?Ntt=5126&Ntk=Adv
+                  - generic [ref=e508]:
+                    - img "Laptop Savings" [ref=e510]
+                    - heading "Shop Now" [level=2] [ref=e511]
+                - link "TOP DEALS" [ref=e513] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals
+                  - heading "TOP DEALS" [level=2] [ref=e516]
+                - link "AMD Bundles" [ref=e518] [cursor=pointer]:
+                  - /url: /site/content/bundle-and-save.aspx
+                  - heading "AMD Bundles" [level=2] [ref=e521]
+                - link "Intel Bundles" [ref=e523] [cursor=pointer]:
+                  - /url: /site/content/intel-bundle-and-save.aspx
+                  - heading "Intel Bundles" [level=2] [ref=e526]
+                - link "Laptops" [ref=e528] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Laptops%2FNotebooks|618
+                  - heading "Laptops" [level=2] [ref=e531]
+                - link "Desktops" [ref=e533] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Desktop+Computers|106
+                  - heading "Desktops" [level=2] [ref=e536]
+                - link "Monitors" [ref=e538] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Computer+Monitors|575
+                  - heading "Monitors" [level=2] [ref=e541]
+                - link "Graphics Cards" [ref=e543] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Graphics+Cards|518
+                  - heading "Graphics Cards" [level=2] [ref=e546]
+                - link "Processors" [ref=e548] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Processors%2FCPUs|123
+                  - heading "Processors" [level=2] [ref=e551]
+                - link "Motherboards" [ref=e553] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Motherboards|122
+                  - heading "Motherboards" [level=2] [ref=e556]
+                - link "Computer Cases" [ref=e558] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Computer+Cases|128
+                  - heading "Computer Cases" [level=2] [ref=e561]
+                - link "SSDs, Hard Drives" [ref=e563] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Hard+Drives+%26+Data+Storage|131
+                  - heading "SSDs, Hard Drives" [level=2] [ref=e566]
+                - link "Memory" [ref=e568] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Computer+Memory|130
+                  - heading "Memory" [level=2] [ref=e571]
+                - link "Power Supplies" [ref=e573] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Power+Supplies|129
+                  - heading "Power Supplies" [level=2] [ref=e576]
+                - link "Apple Products" [ref=e578] [cursor=pointer]:
+                  - /url: /site/brands/apple-showcase.aspx
+                  - heading "Apple Products" [level=2] [ref=e581]
+                - link "Maker Products" [ref=e583] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Maker%2FSTEM|712
+                  - heading "Maker Products" [level=2] [ref=e586]
+                - link "Networking" [ref=e588] [cursor=pointer]:
+                  - /url: /site/products/all_networking.aspx
+                  - heading "Networking" [level=2] [ref=e591]
+                - link "TVs" [ref=e593] [cursor=pointer]:
+                  - /url: /site/products/tvs.aspx
+                  - heading "TVs" [level=2] [ref=e596]
+                - link "Maker Boards" [ref=e598] [cursor=pointer]:
+                  - /url: /search/search_results.aspx?fq=category:Boards%2FProjects|734
+                  - heading "Maker Boards" [level=2] [ref=e601]
+                - link "Liquid & Air Cooling" [ref=e603] [cursor=pointer]:
+                  - /url: /site/products/cpu-coolers.aspx
+                  - heading "Liquid & Air Cooling" [level=2] [ref=e606]
+            - generic [ref=e608]:
+              - heading "Start Browsing" [level=3] [ref=e610]
+              - generic [ref=e611]:
+                - generic [ref=e614]:
+                  - generic [ref=e616]:
+                    - generic:
+                      - link "View EarPods 3.5mm Wired Earbuds - White":
+                        - /url: /product/685078/apple-earpods-35mm-wired-earbuds-white
+                        - generic: View EarPods 3.5mm Wired Earbuds - White
+                      - link " Add SKU:752857 to wishlist " [ref=e617] [cursor=pointer]:
+                        - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d685078
+                        - text: 
+                        - generic: Add SKU:752857 to wishlist
+                        - text: 
+                  - generic [ref=e619]:
+                    - generic [ref=e620]:
+                      - paragraph [ref=e621]:
+                        - link "Apple EarPods 3.5mm Wired Earbuds - White" [ref=e622] [cursor=pointer]:
+                          - /url: /product/685078/apple-earpods-35mm-wired-earbuds-white
+                      - link "4.7 out of 5 stars. 7 reviews" [ref=e625]:
+                        - /url: /product/685078/apple-earpods-35mm-wired-earbuds-white#tab-reviews-bm
+                        - generic [ref=e628]:
+                          - img [ref=e629]
+                          - img [ref=e631]
+                          - img [ref=e633]
+                          - img [ref=e635]
+                          - img [ref=e637]
+                        - generic [ref=e639]:
+                          - generic [ref=e640]: "4.7"
+                          - generic [ref=e641]: (7)
+                    - paragraph [ref=e645]:
+                      - generic [ref=e646]: Todays price
+                      - text: $19.99
+                - generic [ref=e649]:
+                  - generic [ref=e651]:
+                    - generic:
+                      - link "View Liquid Freezer III Pro ARGB 360mm All in One Liquid CPU Cooling Kit - Black":
+                        - /url: /product/695240/arctic-liquid-freezer-iii-pro-argb-360mm-all-in-one-liquid-cpu-cooling-kit-black
+                        - generic: View Liquid Freezer III Pro ARGB 360mm All in One Liquid CPU Cooling Kit - Black
+                      - link " Add SKU:866731 to wishlist " [ref=e652] [cursor=pointer]:
+                        - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d695240
+                        - text: 
+                        - generic: Add SKU:866731 to wishlist
+                        - text: 
+                  - generic [ref=e654]:
+                    - generic [ref=e655]:
+                      - paragraph [ref=e656]:
+                        - link "ARCTIC Liquid Freezer III Pro ARGB 360mm All in One Liquid CPU Cooling Kit - Black" [ref=e657] [cursor=pointer]:
+                          - /url: /product/695240/arctic-liquid-freezer-iii-pro-argb-360mm-all-in-one-liquid-cpu-cooling-kit-black
+                      - link "4.9 out of 5 stars. 32 reviews" [ref=e660]:
+                        - /url: /product/695240/arctic-liquid-freezer-iii-pro-argb-360mm-all-in-one-liquid-cpu-cooling-kit-black#tab-reviews-bm
+                        - generic [ref=e663]:
+                          - img [ref=e664]
+                          - img [ref=e666]
+                          - img [ref=e668]
+                          - img [ref=e670]
+                          - img [ref=e672]
+                        - generic [ref=e674]:
+                          - generic [ref=e675]: "4.9"
+                          - generic [ref=e676]: (32)
+                          - button "Display a pop up to show review summary." [ref=e677]:
+                            - img [ref=e678]
+                    - paragraph [ref=e683]:
+                      - generic [ref=e684]: Todays price
+                      - text: $139.99
+                - generic [ref=e687]:
+                  - generic [ref=e689]:
+                    - generic:
+                      - link "View 16PM1Q Jbmiuux 15.6\" FHD (1920 x 1080) 60Hz Portable Monitor; AMD FreeSync Compatible; mini-HDMI USB Type-C; Ultra-Slim Design; Tiltable Stand":
+                        - /url: /product/684006/acer-16pm1q-jbmiuux-156-fhd-(1920-x-1080)-60hz-portable-monitor
+                        - generic: View 16PM1Q Jbmiuux 15.6" FHD (1920 x 1080) 60Hz Portable Monitor; AMD FreeSync Compatible; mini-HDMI USB Type-C; Ultra-Slim Design; Tiltable Stand
+                      - link " Add SKU:743229 to wishlist " [ref=e690] [cursor=pointer]:
+                        - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d684006
+                        - text: 
+                        - generic: Add SKU:743229 to wishlist
+                        - text: 
+                  - generic [ref=e692]:
+                    - generic [ref=e693]:
+                      - paragraph [ref=e694]:
+                        - link "Acer 16PM1Q Jbmiuux 15.6\" FHD (1920 x 1080) 60Hz Portable Monitor; AMD FreeSync Compatible; mini-HDMI..." [ref=e695] [cursor=pointer]:
+                          - /url: /product/684006/acer-16pm1q-jbmiuux-156-fhd-(1920-x-1080)-60hz-portable-monitor
+                      - link "4.6 out of 5 stars. 167 reviews" [ref=e698]:
+                        - /url: /product/684006/acer-16pm1q-jbmiuux-156-fhd-(1920-x-1080)-60hz-portable-monitor#tab-reviews-bm
+                        - generic [ref=e701]:
+                          - img [ref=e702]
+                          - img [ref=e704]
+                          - img [ref=e706]
+                          - img [ref=e708]
+                          - img [ref=e710]
+                        - generic [ref=e712]:
+                          - generic [ref=e713]: "4.6"
+                          - generic [ref=e714]: (167)
+                          - button "Display a pop up to show review summary." [ref=e715]:
+                            - img [ref=e716]
+                    - generic [ref=e719]:
+                      - paragraph [ref=e721]:
+                        - generic [ref=e722]: Original price
+                        - text: $129.99
+                      - paragraph [ref=e724]:
+                        - generic [ref=e725]: Todays price
+                        - text: $79.99
+                - generic [ref=e728]:
+                  - generic [ref=e730]:
+                    - generic:
+                      - link "View 256GB Store ‘n’ Go V3 USB 3.2 Gen 1 Flash Drive - Gray":
+                        - /url: /product/705001/verbatim-256gb-store-‘n’-go-v3-usb-32-gen-1-flash-drive-gray
+                        - generic: View 256GB Store ‘n’ Go V3 USB 3.2 Gen 1 Flash Drive - Gray
+                      - link " Add SKU:964478 to wishlist " [ref=e731] [cursor=pointer]:
+                        - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d705001
+                        - text: 
+                        - generic: Add SKU:964478 to wishlist
+                        - text: 
+                  - generic [ref=e733]:
+                    - generic [ref=e734]:
+                      - paragraph [ref=e735]:
+                        - link "Verbatim 256GB Store ‘n’ Go V3 USB 3.2 Gen 1 Flash Drive - Gray" [ref=e736] [cursor=pointer]:
+                          - /url: /product/705001/verbatim-256gb-store-‘n’-go-v3-usb-32-gen-1-flash-drive-gray
+                      - link "4.3 out of 5 stars. 19 reviews" [ref=e739]:
+                        - /url: /product/705001/verbatim-256gb-store-‘n’-go-v3-usb-32-gen-1-flash-drive-gray#tab-reviews-bm
+                        - generic [ref=e742]:
+                          - img [ref=e743]
+                          - img [ref=e745]
+                          - img [ref=e747]
+                          - img [ref=e749]
+                          - img [ref=e751]
+                        - generic [ref=e753]:
+                          - generic [ref=e754]: "4.3"
+                          - generic [ref=e755]: (19)
+                    - paragraph [ref=e759]:
+                      - generic [ref=e760]: Todays price
+                      - text: $19.99
+                - generic [ref=e763]:
+                  - generic [ref=e765]:
+                    - generic:
+                      - link "View Aqua Elite 360 V3 360mm All in One Liquid CPU Cooling Kit - Black":
+                        - /url: /product/700295/thermalright-aqua-elite-360-v3-360mm-all-in-one-liquid-cpu-cooling-kit-black
+                        - generic: View Aqua Elite 360 V3 360mm All in One Liquid CPU Cooling Kit - Black
+                      - link " Add SKU:915652 to wishlist " [ref=e766] [cursor=pointer]:
+                        - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d700295
+                        - text: 
+                        - generic: Add SKU:915652 to wishlist
+                        - text: 
+                  - generic [ref=e768]:
+                    - generic [ref=e769]:
+                      - paragraph [ref=e770]:
+                        - link "Thermalright Aqua Elite 360 V3 360mm All in One Liquid CPU Cooling Kit - Black" [ref=e771] [cursor=pointer]:
+                          - /url: /product/700295/thermalright-aqua-elite-360-v3-360mm-all-in-one-liquid-cpu-cooling-kit-black
+                      - link "4.8 out of 5 stars. 8 reviews" [ref=e774]:
+                        - /url: /product/700295/thermalright-aqua-elite-360-v3-360mm-all-in-one-liquid-cpu-cooling-kit-black#tab-reviews-bm
+                        - generic [ref=e777]:
+                          - img [ref=e778]
+                          - img [ref=e780]
+                          - img [ref=e782]
+                          - img [ref=e784]
+                          - img [ref=e786]
+                        - generic [ref=e788]:
+                          - generic [ref=e789]: "4.8"
+                          - generic [ref=e790]: (8)
+                    - paragraph [ref=e794]:
+                      - generic [ref=e795]: Todays price
+                      - text: $69.99
+          - generic [ref=e796]:
+            - link "Shop Now" [ref=e798] [cursor=pointer]:
+              - /url: https://www.microcenter.com/search/search_results.aspx?fq=category:3D+Printers|701,brand:Bambu+Lab
+              - img "Bambu Anniversary Sale" [ref=e799]
+            - generic [ref=e800]:
+              - heading "Top Deals For You" [level=3] [ref=e802]
+              - link "See All Top Deals" [ref=e804] [cursor=pointer]:
+                - /url: /search/search_results.aspx?Ntt=5206&Ntk=Adv
+                - text: See All
+                - generic: Top Deals
+            - generic [ref=e805]:
+              - generic [ref=e809]:
+                - generic [ref=e811]:
+                  - link "View AirPods Max 2 Active Noise Cancelling Wireless Bluetooth Headphones - Midnight" [ref=e812] [cursor=pointer]:
+                    - /url: /product/709085/apple-airpods-max-2-active-noise-cancelling-wireless-bluetooth-headphones-midnight
+                    - generic: View AirPods Max 2 Active Noise Cancelling Wireless Bluetooth Headphones - Midnight
+                  - link " Add SKU:13466 to wishlist " [ref=e813] [cursor=pointer]:
+                    - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d709085
+                    - text: 
+                    - generic: Add SKU:13466 to wishlist
+                    - text: 
+                - generic [ref=e815]:
+                  - generic [ref=e816]:
+                    - paragraph [ref=e817]: Apple Top Deal
+                    - paragraph [ref=e818]:
+                      - link "Apple AirPods Max 2 Active Noise Cancelling Wireless Bluetooth Headphones - Midnight" [ref=e819] [cursor=pointer]:
+                        - /url: /product/709085/apple-airpods-max-2-active-noise-cancelling-wireless-bluetooth-headphones-midnight
+                  - generic [ref=e820]:
+                    - paragraph [ref=e823]:
+                      - generic [ref=e824]: Todays price
+                      - text: $549.99
+                    - 'button "ADD TO CART - Item: AirPods Max 2 Active Noise Cancelling Wireless Bluetooth Headphones - Midnight SKU 13466" [ref=e827] [cursor=pointer]':
+                      - text: ADD TO CART
+                      - generic: "- Item: AirPods Max 2 Active Noise Cancelling Wireless Bluetooth Headphones - Midnight SKU 13466"
+              - generic [ref=e831]:
+                - generic [ref=e833]:
+                  - link "View Pro Micro Plus QBM1250 Desktop Computer; Intel Core Ultra 7 265 1.8GHz Processor; 16GB DDR5-5600 RAM; 512GB Solid State Drive; Intel Graphics; Microsoft Windows 11 Pro; 2x2 Intel Wi-Fi 6E AX211+Bluetooth 5.3" [ref=e834] [cursor=pointer]:
+                    - /url: /product/704641/dell-pro-micro-plus-qbm1250-desktop-computer
+                    - generic: View Pro Micro Plus QBM1250 Desktop Computer; Intel Core Ultra 7 265 1.8GHz Processor; 16GB DDR5-5600 RAM; 512GB Solid State Drive; Intel Graphics; Microsoft Windows 11 Pro; 2x2 Intel Wi-Fi 6E AX211+Bluetooth 5.3
+                  - link " Add SKU:960427 to wishlist " [ref=e835] [cursor=pointer]:
+                    - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d704641
+                    - text: 
+                    - generic: Add SKU:960427 to wishlist
+                    - text: 
+                - generic [ref=e837]:
+                  - generic [ref=e838]:
+                    - paragraph [ref=e839]: Desktops Deal
+                    - paragraph [ref=e840]:
+                      - link "Dell Pro Micro Plus QBM1250 Desktop Computer; Intel Core Ultra 7 265 1.8GHz Processor; 16GB DDR5-5600 RAM; 512GB Solid State Drive; Intel Graphics; Microsoft Windows 11 Pro; 2x2 Intel Wi-Fi 6E..." [ref=e841] [cursor=pointer]:
+                        - /url: /product/704641/dell-pro-micro-plus-qbm1250-desktop-computer
+                    - link "2.0 out of 5 stars. 1 review" [ref=e844]:
+                      - /url: /product/704641/dell-pro-micro-plus-qbm1250-desktop-computer#tab-reviews-bm
+                      - generic [ref=e847]:
+                        - img [ref=e848]
+                        - img [ref=e850]
+                        - img [ref=e852]
+                        - img [ref=e854]
+                        - img [ref=e856]
+                      - generic [ref=e858]:
+                        - generic [ref=e859]: "2.0"
+                        - generic [ref=e860]: (1)
+                  - generic [ref=e861]:
+                    - generic [ref=e862]:
+                      - paragraph [ref=e864]:
+                        - generic [ref=e865]: Original price
+                        - text: $1,999.99
+                      - paragraph [ref=e867]:
+                        - generic [ref=e868]: Todays price
+                        - text: $1,499.99
+                    - 'button "ADD TO CART - Item: Pro Micro Plus QBM1250 Desktop Computer SKU 960427" [ref=e871] [cursor=pointer]':
+                      - text: ADD TO CART
+                      - generic: "- Item: Pro Micro Plus QBM1250 Desktop Computer SKU 960427"
+              - generic [ref=e875]:
+                - generic [ref=e877]:
+                  - link "View CRAS C910G 1TB 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD" [ref=e878] [cursor=pointer]:
+                    - /url: /product/705543/klevv-cras-c910g-1tb-3d-tlc-nand-flash-pcie-gen-4-x4-nvme-m2-internal-ssd
+                    - generic: View CRAS C910G 1TB 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD
+                  - link " Add SKU:971564 to wishlist " [ref=e879] [cursor=pointer]:
+                    - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d705543
+                    - text: 
+                    - generic: Add SKU:971564 to wishlist
+                    - text: 
+                - generic [ref=e881]:
+                  - generic [ref=e882]:
+                    - paragraph [ref=e883]: PC Parts Deal
+                    - paragraph [ref=e884]:
+                      - link "KLEVV CRAS C910G 1TB 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD" [ref=e885] [cursor=pointer]:
+                        - /url: /product/705543/klevv-cras-c910g-1tb-3d-tlc-nand-flash-pcie-gen-4-x4-nvme-m2-internal-ssd
+                    - link "4.8 out of 5 stars. 16 reviews" [ref=e888]:
+                      - /url: /product/705543/klevv-cras-c910g-1tb-3d-tlc-nand-flash-pcie-gen-4-x4-nvme-m2-internal-ssd#tab-reviews-bm
+                      - generic [ref=e891]:
+                        - img [ref=e892]
+                        - img [ref=e894]
+                        - img [ref=e896]
+                        - img [ref=e898]
+                        - img [ref=e900]
+                      - generic [ref=e902]:
+                        - generic [ref=e903]: "4.8"
+                        - generic [ref=e904]: (16)
+                  - generic [ref=e905]:
+                    - generic [ref=e906]:
+                      - paragraph [ref=e908]:
+                        - generic [ref=e909]: Original price
+                        - text: $499.99
+                      - paragraph [ref=e911]:
+                        - generic [ref=e912]: Todays price
+                        - text: $189.99
+                    - 'button "ADD TO CART - Item: CRAS C910G 1TB 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD SKU 971564" [ref=e915] [cursor=pointer]':
+                      - text: ADD TO CART
+                      - generic: "- Item: CRAS C910G 1TB 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD SKU 971564"
+            - generic [ref=e919]:
+              - button "Previous" [ref=e920] [cursor=pointer]
+              - generic [ref=e922]:
+                - tabpanel [ref=e923]:
+                  - link "Micro Center Exclusive! $299.99; 7500X3D Bundle; AMD Ryzen 5 7500X3D pre-installed on an ASRock B580-M AM5 + G.Skill Flare X5 16GB DDR5; BUNDLE NOW" [ref=e924] [cursor=pointer]:
+                    - /url: /site/content/bundle-and-save.aspx?bundle=amd#7500X3D
+                    - img "Micro Center Exclusive! $299.99; 7500X3D Bundle; AMD Ryzen 5 7500X3D pre-installed on an ASRock B580-M AM5 + G.Skill Flare X5 16GB DDR5; BUNDLE NOW" [ref=e925]
+                  - link "$549.99; 3-in-1 Intel Core Ultra 7 270K Plus Bundle; Intel Core Ultra 7 270K Plus + Gigabyte Z890 Eagle WiFi7 1851 + Crucial Pro 32GB DDR5-6400; BUNDLE NOW" [ref=e926] [cursor=pointer]:
+                    - /url: /site/content/intel-bundle-and-save.aspx?bundle=intel#270Kplus-3-in-1
+                    - img "$549.99; 3-in-1 Intel Core Ultra 7 270K Plus Bundle; Intel Core Ultra 7 270K Plus + Gigabyte Z890 Eagle WiFi7 1851 + Crucial Pro 32GB DDR5-6400; BUNDLE NOW" [ref=e927]
+                  - link "ASUS - The More Components You Add, The More You Save. Pick components from two or more categories to activate combo savings. SHOP NOW" [ref=e928] [cursor=pointer]:
+                    - /url: /site/content/asus-bundle-and-save.aspx
+                    - img "ASUS - The More Components You Add, The More You Save. Pick components from two or more categories to activate combo savings. SHOP NOW" [ref=e929]
+                  - link "PowerColor RX 9070 XT 16GB GDDR6; $629.99; SKU 796706, LIMIT ONE" [ref=e930] [cursor=pointer]:
+                    - /url: /product/689903/powercolor-amd-radeon-rx-9070-xt-reaper-triple-fan-16gb-gddr6-pcie-50-graphics-card
+                    - img "PowerColor RX 9070 XT 16GB GDDR6; $629.99; SKU 796706, LIMIT ONE" [ref=e931]
+                - tabpanel [ref=e932]:
+                  - link [ref=e933] [cursor=pointer]:
+                    - /url: /site/content/razer-bundle-and-save.aspx
+                    - img [ref=e934]
+                  - link [ref=e935] [cursor=pointer]:
+                    - /url: /site/content/mcinsidercard.aspx?ccPromo=1
+                    - img [ref=e936]
+                  - link [ref=e937] [cursor=pointer]:
+                    - /url: /product/698645/asus-tuf-gaming-vg27aq5a-27-2k-qhd-(2560-x-1440)-210hz-gaming-monitor
+                    - img [ref=e938]
+                  - link [ref=e939] [cursor=pointer]:
+                    - /url: /product/688845/ubiquiti-cloud-gateway-ultra
+                    - img [ref=e940]
+                - tabpanel [ref=e941]:
+                  - link [ref=e942] [cursor=pointer]:
+                    - /url: /site/content/bundle-and-save.aspx?bundle=intel#14700K
+                    - img [ref=e943]
+                  - link [ref=e944] [cursor=pointer]:
+                    - /url: /site/content/bundle-and-save.aspx=amd#5800XT
+                    - img [ref=e945]
+                  - link [ref=e946] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Desktop+Computers|106,brand:PowerSpec,CPU+Brand:Intel
+                    - img [ref=e947]
+                  - link [ref=e948] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Desktop+Computers|106,brand:PowerSpec,CPU+Brand:AMD
+                    - img [ref=e949]
+                - tabpanel [ref=e950]:
+                  - link [ref=e951] [cursor=pointer]:
+                    - /url: /product/708674/hp-officejet-pro-9135-all-in-one-printer
+                    - img [ref=e952]
+                  - link [ref=e953] [cursor=pointer]:
+                    - /url: /product/636727/epson-ecotank-photo-et-8550-all-in-one-wide-format-supertank-printer-wireless-wide-format-print-copy-scan-ethernet
+                    - img [ref=e954]
+                  - link [ref=e955] [cursor=pointer]:
+                    - /url: /search/search_results.aspx?fq=category:Electronics|95,brand:Brother
+                    - img [ref=e956]
+                  - link [ref=e957] [cursor=pointer]:
+                    - /url: /product/700254/brother-work-smart-1410-wireless-color-inkjet-all-in-one-printer-with-27-color-touchscreen-and-automatic-duplex-printing-(mfc-j1410dw)
+                    - img [ref=e958]
+              - button "Next" [ref=e959] [cursor=pointer]
+              - tablist [ref=e960]:
+                - tab "1 of 4" [selected] [ref=e961] [cursor=pointer]: "1"
+                - tab "2 of 4" [ref=e962] [cursor=pointer]: "2"
+                - tab "3 of 4" [ref=e963] [cursor=pointer]: "3"
+                - tab "4 of 4" [ref=e964] [cursor=pointer]: "4"
+        - generic [ref=e966]:
+          - generic [ref=e968]:
+            - generic [ref=e969]:
+              - heading "Top Picks in PC Parts" [level=3] [ref=e971]
+              - link "See All Hot deals in PC Parts" [ref=e973] [cursor=pointer]:
+                - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Computer+Parts|94
+                - text: See All
+                - generic: Hot deals in PC Parts
+            - generic [ref=e974]:
+              - link "PowerSpec 850 Watt 80 Plus Gold ATX Fully Modular Power Supply" [ref=e976] [cursor=pointer]:
+                - /url: /product/682765/powerspec-850-watt-80-plus-gold-atx-fully-modular-power-supply
+                - paragraph [ref=e977]: PowerSpec 850 Watt 80 Plus Gold ATX Fully Modular Power Supply
+              - link "Corsair RMe Series RM1000e 1000 Watt Cybenetics Gold ATX Fully Modular Power Supply -..." [ref=e979] [cursor=pointer]:
+                - /url: /product/689530/corsair-rme-series-rm1000e-1000-watt-cybenetics-gold-atx-fully-modular-power-supply-atx-31-compatible
+                - paragraph [ref=e980]: Corsair RMe Series RM1000e 1000 Watt Cybenetics Gold ATX Fully Modular Power Supply -...
+              - link "G.Skill Trident Z5 Neo Series RGB 64GB (2 x 32GB) DDR5-6000 PC5-48000 CL38 Dual Channel..." [ref=e982] [cursor=pointer]:
+                - /url: /product/705548/gskill-trident-z5-neo-series-rgb-64gb-(2-x-32gb)-ddr5-6000-pc5-48000-cl38-dual-channel-desktop-memory-kit-f5-6000j3848d32gx2-tz5nr
+                - paragraph [ref=e983]: G.Skill Trident Z5 Neo Series RGB 64GB (2 x 32GB) DDR5-6000 PC5-48000 CL38 Dual Channel...
+              - link "Verbatim 64GB Premium MicroSDXC Class 10 / UHS-1 Flash Memory Card with Adapter" [ref=e985] [cursor=pointer]:
+                - /url: /product/705002/verbatim-64gb-premium-microsdxc-class-10-uhs-1-flash-memory-card-with-adapter
+                - paragraph [ref=e986]: Verbatim 64GB Premium MicroSDXC Class 10 / UHS-1 Flash Memory Card with Adapter
+          - generic [ref=e988]:
+            - generic [ref=e989]:
+              - heading "Top Picks in Monitors" [level=3] [ref=e991]
+              - link "See All Hot deals in Monitors" [ref=e993] [cursor=pointer]:
+                - /url: /search/search_results.aspx?fq=Micro+Center+Deals:Top+Deals,category:Electronics|95+OR+Monitors%60+TVs|161+OR+Computer+Monitors|575
+                - text: See All
+                - generic: Hot deals in Monitors
+            - generic [ref=e994]:
+              - link "LG 40U990A-W.AUS UltraFine 39.7\" 5K 2K WUHD (5120 x 2160) 120Hz Curved Screen..." [ref=e996] [cursor=pointer]:
+                - /url: /product/701576/lg-40u990a-waus-ultrafine-397-5k-2k-wuhd-(5120-x-2160)-120hz-curved-screen-ultrawide-monitor
+                - paragraph [ref=e997]: LG 40U990A-W.AUS UltraFine 39.7" 5K 2K WUHD (5120 x 2160) 120Hz Curved Screen...
+              - link "Viewsonic VX1754 17.3\" Full HD (1920 x 1080) 144Hz Gaming Monitor; AMD FreeSync..." [ref=e999] [cursor=pointer]:
+                - /url: /product/691248/viewsonic-vx1754-173-full-hd-(1920-x-1080)-144hz-gaming-monitor
+                - paragraph [ref=e1000]: Viewsonic VX1754 17.3" Full HD (1920 x 1080) 144Hz Gaming Monitor; AMD FreeSync...
+              - link "Samsung Movingstyle M7 32\" 4K UHD (3840 x 2160) 60Hz LED Monitor w/ Adjustable Rolling..." [ref=e1002] [cursor=pointer]:
+                - /url: /product/703432/samsung-movingstyle-m7-32-4k-uhd-(3840-x-2160)-60hz-led-monitor-w-adjustable-rolling-stand
+                - paragraph [ref=e1003]: Samsung Movingstyle M7 32" 4K UHD (3840 x 2160) 60Hz LED Monitor w/ Adjustable Rolling...
+              - link "Samsung ViewFinity S8 (S80UD) 37\" 4K UHD (3840 x 2160) 60Hz LED Monitor; HDR;..." [ref=e1005] [cursor=pointer]:
+                - /url: /product/697567/samsung-viewfinity-s8-(s80ud)-37-4k-uhd-(3840-x-2160)-60hz-led-monitor
+                - paragraph [ref=e1006]: Samsung ViewFinity S8 (S80UD) 37" 4K UHD (3840 x 2160) 60Hz LED Monitor; HDR;...
+          - generic [ref=e1008]:
+            - generic [ref=e1009]:
+              - heading "Top Picks in PC Accessories" [level=3] [ref=e1011]
+              - link "See All Hot deals in PC Accessories" [ref=e1013] [cursor=pointer]:
+                - /url: /search/search_results.aspx?fq=category_flat:Gaming+Mice|606+OR+Gaming+Keyboards|603+OR+USB+Flash+Drives|586+OR+Document%60+Barcode+Scanners|493+OR+Inkjet+Printers%60+All-in-Ones|481+OR+3D+Printer+Accessories|749+OR+Gaming+Accessories|253,Micro+Center+Deals:Top+Deals
+                - text: See All
+                - generic: Hot deals in PC Accessories
+            - generic [ref=e1014]:
+              - link "Moza Performance Kit for R5 Bundle" [ref=e1016] [cursor=pointer]:
+                - /url: /product/697787/moza-performance-kit-for-r5-bundle
+                - paragraph [ref=e1017]: Moza Performance Kit for R5 Bundle
+              - link "Logitech G G305 Lightspeed Wireless Gaming Mouse" [ref=e1019] [cursor=pointer]:
+                - /url: /product/507498/logitech-g-g305-lightspeed-wireless-gaming-mouse
+                - paragraph [ref=e1020]: Logitech G G305 Lightspeed Wireless Gaming Mouse
+              - link "Verbatim 128GB PinStripe USB Flash Drive - Black" [ref=e1022] [cursor=pointer]:
+                - /url: /product/704988/verbatim-128gb-pinstripe-usb-flash-drive-black
+                - paragraph [ref=e1023]: Verbatim 128GB PinStripe USB Flash Drive - Black
+              - link "Epson WorkForce Pro WF-7820 Wireless Wide-format All-in-One Printer" [ref=e1025] [cursor=pointer]:
+                - /url: /product/627926/epson-workforce-pro-wf-7820-wireless-wide-format-all-in-one-printer
+                - paragraph [ref=e1026]: Epson WorkForce Pro WF-7820 Wireless Wide-format All-in-One Printer
+        - generic [ref=e1028]:
+          - generic [ref=e1031]:
+            - emphasis [ref=e1032]
+            - paragraph [ref=e1033]: Apply for the Micro Center Insider Card*
+            - paragraph [ref=e1034]: Get 5% off INSTANTLY* with the MICRO CENTER INSIDER CREDIT CARD
+            - link "Learn More" [ref=e1035] [cursor=pointer]:
+              - /url: /site/content/mcinsidercard.aspx?ccPromo=1
+            - paragraph [ref=e1036]: "*The Micro Center Insider credit card is issued with approved credit by Wells Fargo Bank, N.A."
+          - generic [ref=e1039]:
+            - generic [ref=e1041]:
+              - emphasis [ref=e1042]
+              - paragraph [ref=e1043]: Meet the Micro Center PC Builder. Choose from hundreds of in-stock, compatible parts.
+              - link "START CUSTOM BUILD" [ref=e1044] [cursor=pointer]:
+                - /url: /site/content/custom-pc-builder.aspx
+            - generic [ref=e1045]:
+              - generic [ref=e1048]:
+                - paragraph [ref=e1049]: Creator
+                - paragraph [ref=e1050]: Set up your perfect studio
+                - link "Get started" [ref=e1051] [cursor=pointer]:
+                  - /url: https://www.microcenter.com/site/content/creator-studio-landing.aspx
+              - separator [ref=e1052]
+              - generic [ref=e1055]:
+                - paragraph [ref=e1056]: Racing Simulator
+                - paragraph [ref=e1057]: Race like the pros
+                - link "Get started" [ref=e1058] [cursor=pointer]:
+                  - /url: https://www.microcenter.com/site/content/racing-sim-builder.aspx
+              - separator [ref=e1059]
+              - generic [ref=e1062]:
+                - paragraph [ref=e1063]: Build Showcase
+                - paragraph [ref=e1064]: Get inspiration for your next build
+                - link "Get started" [ref=e1065] [cursor=pointer]:
+                  - /url: https://www.microcenter.com/search/builds.aspx
+        - generic [ref=e1067]:
+          - heading "Recommended for You" [level=2] [ref=e1069]
+          - generic [ref=e1071]:
+            - generic [ref=e1075]:
+              - generic [ref=e1076]:
+                - generic:
+                  - link "View Ryzen 7 9800X3D Granite Ridge AM5 4.70GHz 8-Core Boxed Processor - Heatsink Not Included":
+                    - /url: /product/687907/amd-ryzen-7-9800x3d-granite-ridge-am5-470ghz-8-core-boxed-processor-heatsink-not-included
+                    - generic: View Ryzen 7 9800X3D Granite Ridge AM5 4.70GHz 8-Core Boxed Processor - Heatsink Not Included
+                  - link " Add SKU:774919 to wishlist " [ref=e1077] [cursor=pointer]:
+                    - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d687907
+                    - text: 
+                    - generic: Add SKU:774919 to wishlist
+                    - text: 
+              - generic [ref=e1079]:
+                - generic [ref=e1080]:
+                  - paragraph [ref=e1081]:
+                    - link "AMD Ryzen 7 9800X3D Granite Ridge AM5 4.70GHz 8-Core Boxed Processor - Heatsink Not Included" [ref=e1082] [cursor=pointer]:
+                      - /url: /product/687907/amd-ryzen-7-9800x3d-granite-ridge-am5-470ghz-8-core-boxed-processor-heatsink-not-included
+                  - link "4.9 out of 5 stars. 1916 reviews" [ref=e1085]:
+                    - /url: /product/687907/amd-ryzen-7-9800x3d-granite-ridge-am5-470ghz-8-core-boxed-processor-heatsink-not-included#tab-reviews-bm
+                    - generic [ref=e1088]:
+                      - img [ref=e1089]
+                      - img [ref=e1091]
+                      - img [ref=e1093]
+                      - img [ref=e1095]
+                      - img [ref=e1097]
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]: "4.9"
+                      - generic [ref=e1101]: (1916)
+                      - button "Display a pop up to show review summary." [ref=e1102]:
+                        - img [ref=e1103]
+                - generic [ref=e1106]:
+                  - paragraph [ref=e1108]:
+                    - generic [ref=e1109]: Original price
+                    - text: $479.99
+                  - paragraph [ref=e1111]:
+                    - generic [ref=e1112]: Todays price
+                    - text: $419.99
+            - generic [ref=e1116]:
+              - generic [ref=e1117]:
+                - generic:
+                  - link "View X2D Combo 3D Printer - Gray":
+                    - /url: /product/709689/bambu-lab-x2d-combo-3d-printer-gray
+                    - generic: View X2D Combo 3D Printer - Gray
+                  - link " Add SKU:20800 to wishlist " [ref=e1118] [cursor=pointer]:
+                    - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d709689
+                    - text: 
+                    - generic: Add SKU:20800 to wishlist
+                    - text: 
+              - generic [ref=e1120]:
+                - generic [ref=e1121]:
+                  - paragraph [ref=e1122]:
+                    - link "Bambu Lab X2D Combo 3D Printer - Gray" [ref=e1123] [cursor=pointer]:
+                      - /url: /product/709689/bambu-lab-x2d-combo-3d-printer-gray
+                  - link "4.6 out of 5 stars. 68 reviews" [ref=e1126]:
+                    - /url: /product/709689/bambu-lab-x2d-combo-3d-printer-gray#tab-reviews-bm
+                    - generic [ref=e1129]:
+                      - img [ref=e1130]
+                      - img [ref=e1132]
+                      - img [ref=e1134]
+                      - img [ref=e1136]
+                      - img [ref=e1138]
+                    - generic [ref=e1140]:
+                      - generic [ref=e1141]: "4.6"
+                      - generic [ref=e1142]: (68)
+                      - button "Display a pop up to show review summary." [ref=e1143]:
+                        - img [ref=e1144]
+                - paragraph [ref=e1149]:
+                  - generic [ref=e1150]: Todays price
+                  - text: $899.99
+            - generic [ref=e1154]:
+              - generic [ref=e1155]:
+                - generic:
+                  - link "View Flare X5 Series 32GB (2 x 16GB) DDR5-6000 PC5-48000 CL36 Dual Channel Desktop Memory Kit F5-6000J3636F16GX2-FX5 - Black":
+                    - /url: /product/653727/gskill-flare-x5-series-32gb-(2-x-16gb)-ddr5-6000-pc5-48000-cl36-dual-channel-desktop-memory-kit-f5-6000j3636f16gx2-fx5-black
+                    - generic: View Flare X5 Series 32GB (2 x 16GB) DDR5-6000 PC5-48000 CL36 Dual Channel Desktop Memory Kit F5-6000J3636F16GX2-FX5 - Black
+                  - link " Add SKU:440792 to wishlist " [ref=e1156] [cursor=pointer]:
+                    - /url: https://account.microcenter.com/auth/signin/?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f%3ffavID%3d653727
+                    - text: 
+                    - generic: Add SKU:440792 to wishlist
+                    - text: 
+              - generic [ref=e1158]:
+                - generic [ref=e1159]:
+                  - paragraph [ref=e1160]:
+                    - link "G.Skill Flare X5 Series 32GB (2 x 16GB) DDR5-6000 PC5-48000 CL36 Dual Channel Desktop Memory Kit..." [ref=e1161] [cursor=pointer]:
+                      - /url: /product/653727/gskill-flare-x5-series-32gb-(2-x-16gb)-ddr5-6000-pc5-48000-cl36-dual-channel-desktop-memory-kit-f5-6000j3636f16gx2-fx5-black
+                  - link "4.5 out of 5 stars. 905 reviews" [ref=e1164]:
+                    - /url: /product/653727/gskill-flare-x5-series-32gb-(2-x-16gb)-ddr5-6000-pc5-48000-cl36-dual-channel-desktop-memory-kit-f5-6000j3636f16gx2-fx5-black#tab-reviews-bm
+                    - generic [ref=e1167]:
+                      - img [ref=e1168]
+                      - img [ref=e1170]
+                      - img [ref=e1172]
+                      - img [ref=e1174]
+                      - img [ref=e1176]
+                    - generic [ref=e1178]:
+                      - generic [ref=e1179]: "4.5"
+                      - generic [ref=e1180]: (905)
+                      - button "Display a pop up to show review summary." [ref=e1181]:
+                        - img [ref=e1182]
+                - generic [ref=e1185]:
+                  - paragraph [ref=e1187]:
+                    - generic [ref=e1188]: Original price
+                    - text: $599.99
+                  - paragraph [ref=e1190]:
+                    - generic [ref=e1191]: Todays price
+                    - text: $439.99
+            - text:              
+          - button "Shuffle Items Recommended For You" [ref=e1194] [cursor=pointer]:
+            - text: Shuffle
+            - generic: Items Recommended For You
+        - generic [ref=e1195]:
+          - heading "Browse By Interest" [level=2] [ref=e1196]
+          - generic [ref=e1197]:
+            - link "Gaming PCs link Gaming PCs Shop the best selection of prebuilt gaming PCs, in stock now!" [ref=e1199] [cursor=pointer]:
+              - /url: "/site/products/gaming_desktops.aspx "
+              - img "Gaming PCs link" [ref=e1200]
+              - paragraph [ref=e1201]: Gaming PCs
+              - text: Shop the best selection of prebuilt gaming PCs, in stock now!
+            - link "3D Printing link 3D Printing Take your prints to the next level with Inland filament. Starting at just $9.99!" [ref=e1203] [cursor=pointer]:
+              - /url: /search/search_results.aspx?fq=category:3D+Printing|748
+              - img "3D Printing link" [ref=e1204]
+              - paragraph [ref=e1205]: 3D Printing
+              - text: Take your prints to the next level with Inland filament. Starting at just $9.99!
+            - link "Small Business links Small Business Everything you need to keep your business running smoothly" [ref=e1207] [cursor=pointer]:
+              - /url: "/site/products/smb-technology.aspx "
+              - img "Small Business links" [ref=e1208]
+              - paragraph [ref=e1209]: Small Business
+              - text: Everything you need to keep your business running smoothly
+            - link "Power Users link Power Users Upgrade your storage and computing power with high-performance hard drives" [ref=e1211] [cursor=pointer]:
+              - /url: /search/search_results.aspx?fq=category:Hard+Drives+%26+Data+Storage|131
+              - img "Power Users link" [ref=e1212]
+              - paragraph [ref=e1213]: Power Users
+              - text: Upgrade your storage and computing power with high-performance hard drives
+            - link "Creator link Creator Create the best content using the best accessories" [ref=e1215] [cursor=pointer]:
+              - /url: /site/content/creator-studio-landing.aspx
+              - img "Creator link" [ref=e1216]
+              - paragraph [ref=e1217]: Creator
+              - text: Create the best content using the best accessories
+            - link "Home and Lifestyle link Home and Lifestyle Watch in Ultra HD with the best selection in TVs" [ref=e1219] [cursor=pointer]:
+              - /url: /search/search_results.aspx?fq=category:Televisions|576
+              - img "Home and Lifestyle link" [ref=e1220]
+              - paragraph [ref=e1221]: Home and Lifestyle
+              - text: Watch in Ultra HD with the best selection in TVs
+            - link "Networking link ASUS Router Finder Upgrade your network with the right router for you" [ref=e1223] [cursor=pointer]:
+              - /url: "/site/content/ASUS_Router_Finder.aspx "
+              - img "Networking link" [ref=e1224]
+              - paragraph [ref=e1225]: ASUS Router Finder
+              - text: Upgrade your network with the right router for you
+            - link "TK Racing Products link TK Racing Products Upgrade your racing rig with products from Indy 500 winner, Tony Kanaan" [ref=e1227] [cursor=pointer]:
+              - /url: /search/search_results.aspx?fq=brand:TK+Racing
+              - img "TK Racing Products link" [ref=e1228]
+              - paragraph [ref=e1229]: TK Racing Products
+              - text: Upgrade your racing rig with products from Indy 500 winner, Tony Kanaan
+        - generic [ref=e1232]:
+          - generic [ref=e1234]:
+            - heading " Service and Repair" [level=2] [ref=e1235]:
+              - emphasis [ref=e1236]: 
+              - generic [ref=e1237]: Service and Repair
+            - paragraph [ref=e1238]: Our OEM and A+ Certified Technicians can help with any computer repair or service need. Repairs are completed in each store, giving you peace of mind and a quick turnaround. Walk-ins are welcome at any of our nationwide locations or schedule a service appointment (below).
+            - link "Schedule Free Consultation" [ref=e1239] [cursor=pointer]:
+              - /url: https://www.microcenter.com/product/653864/free-consultation
+              - text: Schedule
+              - generic [ref=e1240]: Free Consultation
+            - link "Check Status of a repair" [ref=e1241] [cursor=pointer]:
+              - /url: https://www.microcenter.com/site/service/repair-order.aspx
+              - text: Check Status
+              - generic [ref=e1242]: of a repair
+          - generic [ref=e1243]:
+            - paragraph [ref=e1244]:
+              - strong [ref=e1245]: Free Consultation
+            - paragraph [ref=e1246]: Speak with an expert technician to gain more insight into your computer issue and potential
+            - link "Learn more about Free Consultation" [ref=e1247] [cursor=pointer]:
+              - /url: /product/653864/free-consultation
+              - text: Learn more
+              - generic [ref=e1248]: about Free Consultation
+            - separator [ref=e1249]
+            - paragraph [ref=e1250]:
+              - strong [ref=e1251]: Computer Hardware Installation
+            - paragraph [ref=e1252]: If your computer needs more storage, memory, or the latest graphics card check out our Computer Hardware Installation services
+            - link "Learn more about Computer Hardware Installation" [ref=e1253] [cursor=pointer]:
+              - /url: "/site/service/computer-hardware-installation.aspx "
+              - text: Learn more
+              - generic [ref=e1254]: about Computer Hardware Installation
+            - separator [ref=e1255]
+            - paragraph [ref=e1256]:
+              - strong [ref=e1257]: Laptop Battery Installation
+            - paragraph [ref=e1258]: Our expert A+ and OEM certified service technicians can install an internal laptop battery for you same day.
+            - link "Learn more about Laptop Battery Installation" [ref=e1259] [cursor=pointer]:
+              - /url: /site/products/laptop-batteries.aspx
+              - text: Learn more
+              - generic [ref=e1260]: about Laptop Battery Installation
+          - generic [ref=e1261]:
+            - paragraph [ref=e1262]: Custom PC Build Services
+            - generic [ref=e1265]:
+              - generic [ref=e1266]:
+                - paragraph [ref=e1267]: SAME-DAY BUILDS
+                - paragraph [ref=e1268]: Looking for an air or AIO cooled custom PC? Order 4 hours before close and our techs can build it for you same day!
+              - generic [ref=e1269]:
+                - paragraph [ref=e1270]: ADVANCED BUILDS
+                - paragraph [ref=e1271]: The sky is the limit with our custom water cooled PC builds. If you can dream it, our techs can build it.
+            - link "Learn More about Advanced Builds/span>" [ref=e1274] [cursor=pointer]:
+              - /url: "https://www.microcenter.com/site/service/instore-service-complete-build.aspx "
+              - text: Learn More
+              - generic [ref=e1275]: about Advanced Builds/span>
+      - navigation "Breadcrumbs":
+        - generic: Breadcrumbs
+      - heading "Microcenter Hot Deals" [level=1]
+    - insertion [ref=e1279]
+  - generic [ref=e1281]:
+    - heading "Sign in for the best experience" [level=2] [ref=e1282]
+    - paragraph [ref=e1283]: Access helpful features and personalize your experience - Sign in or create an account now
+    - link "Sign In" [ref=e1285] [cursor=pointer]:
+      - /url: https://account.microcenter.com/auth/signin?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f
+    - generic [ref=e1286]:
+      - generic [ref=e1287]: Don't have an account?
+      - link "Create Account" [ref=e1288] [cursor=pointer]:
+        - /url: https://account.microcenter.com/auth/create?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f
+  - contentinfo "footer with navigation" [ref=e1289]:
+    - generic [ref=e1292]:
+      - generic [ref=e1293]:
+        - heading "Sign Up for Special Offers" [level=2] [ref=e1294]
+        - paragraph [ref=e1295]: As an email subscriber, you'll have premier access to our best offers, exclusive deals and more.
+        - link "SIGN ME UP":
+          - /url: https://account.microcenter.com/auth/create?RedirectUrl=https%3a%2f%2fwww.microcenter.com%2f
+          - generic [ref=e1296] [cursor=pointer]: SIGN ME UP
+      - navigation "Satisfaction Guaranteed" [ref=e1297]:
+        - link "Satisfaction Guaranteed We guarantee your satisfaction on every product we sell with a full refund in accordance with our return policy – no receipt needed if you have a Micro Center Insider Account." [ref=e1298] [cursor=pointer]:
+          - /url: https://account.microcenter.com/auth/signin/
+          - heading "Satisfaction Guaranteed" [level=2] [ref=e1299]
+          - paragraph [ref=e1300]: We guarantee your satisfaction on every product we sell with a full refund in accordance with our return policy – no receipt needed if you have a Micro Center Insider Account.
+      - navigation "Service & Repair" [ref=e1301]:
+        - link "Service & Repair We're your trusted local service and repair professionals. SUPPORT & REPAIR" [ref=e1302] [cursor=pointer]:
+          - /url: /site/service/service.aspx
+          - heading "Service & Repair" [level=2] [ref=e1303]
+          - paragraph [ref=e1304]: We're your trusted local service and repair professionals.
+          - generic [ref=e1305]: SUPPORT & REPAIR
+    - navigation "Footer Navigation" [ref=e1307]:
+      - heading "Footer Navigation" [level=2]
+      - list [ref=e1308]:
+        - listitem [ref=e1309]:
+          - generic [ref=e1310]: Customer Service
+          - list [ref=e1311]:
+            - listitem [ref=e1312]:
+              - link "My Account and Orders" [ref=e1313] [cursor=pointer]:
+                - /url: https://community.microcenter.com/kb/articles/23-whats-my-order-status
+            - listitem [ref=e1314]:
+              - link "How To Return Merchandise" [ref=e1315] [cursor=pointer]:
+                - /url: https://community.microcenter.com/kb/articles/28-what-is-the-return-policy
+            - listitem [ref=e1316]:
+              - link "Services" [ref=e1317] [cursor=pointer]:
+                - /url: /site/service/service.aspx
+            - listitem [ref=e1318]:
+              - link "Safe Shopping Promise" [ref=e1319] [cursor=pointer]:
+                - /url: /site/customer-support/security.aspx
+            - listitem [ref=e1320]:
+              - link "Recycling" [ref=e1321] [cursor=pointer]:
+                - /url: /site/content/recycling-program.aspx
+            - listitem [ref=e1322]:
+              - link "Protection Plans" [ref=e1323] [cursor=pointer]:
+                - /url: /site/customer-support/protection-plans/protection-plans-master.aspx
+        - listitem [ref=e1324]:
+          - generic [ref=e1325]: Shopping
+          - list [ref=e1326]:
+            - listitem [ref=e1327]:
+              - link "In-Store Pickup" [ref=e1328] [cursor=pointer]:
+                - /url: /site/customer-support/pickup.aspx
+            - listitem [ref=e1329]:
+              - link "Product Availability" [ref=e1330] [cursor=pointer]:
+                - /url: https://community.microcenter.com/kb/categories/5-product-information
+            - listitem [ref=e1331]:
+              - link "Online Order Restrictions" [ref=e1332] [cursor=pointer]:
+                - /url: https://community.microcenter.com/kb/categories/7-my-account-and-orders
+            - listitem [ref=e1333]:
+              - link "Credit Cards Accepted" [ref=e1334] [cursor=pointer]:
+                - /url: /site/customer-support/credit-cards.aspx
+            - listitem [ref=e1335]:
+              - link "Affirm" [ref=e1336] [cursor=pointer]:
+                - /url: /site/content/affirm.aspx
+        - listitem [ref=e1337]:
+          - generic [ref=e1338]: Resources & Tools
+          - list [ref=e1339]:
+            - listitem [ref=e1340]:
+              - link "Community" [ref=e1341] [cursor=pointer]:
+                - /url: https://community.microcenter.com
+            - listitem [ref=e1342]:
+              - link "MC News" [ref=e1343] [cursor=pointer]:
+                - /url: /site/mc-news/default.aspx
+            - listitem [ref=e1344]:
+              - link "Rebate Center" [ref=e1345] [cursor=pointer]:
+                - /url: /site/rebate-center/default.aspx
+            - listitem [ref=e1346]:
+              - link "Ink & Toner Finder" [ref=e1347] [cursor=pointer]:
+                - /url: /site/products/ink-toner.aspx
+            - listitem [ref=e1348]:
+              - link "Careers" [ref=e1349] [cursor=pointer]:
+                - /url: /site/stores/employment.aspx
+            - listitem [ref=e1350]:
+              - link "Sell to Micro Center" [ref=e1351] [cursor=pointer]:
+                - /url: /site/content/sell-to-micro-center.aspx
+            - listitem [ref=e1352]:
+              - link "Business Services" [ref=e1353] [cursor=pointer]:
+                - /url: /site/products/smb-technology.aspx?rd=1
+            - listitem [ref=e1354]:
+              - link "Site Map" [ref=e1355] [cursor=pointer]:
+                - /url: /site/customer-support/sitemap.aspx
+        - listitem [ref=e1356]:
+          - generic [ref=e1357]: In-Demand & Tech
+          - list [ref=e1358]:
+            - listitem [ref=e1359]:
+              - link "Closeouts" [ref=e1360] [cursor=pointer]:
+                - /url: /site/content/closeout-products.aspx
+            - listitem [ref=e1361]:
+              - link "Tech Support" [ref=e1362] [cursor=pointer]:
+                - /url: /site/content/tech-support.aspx
+      - generic "SEE CAREERS" [ref=e1363]:
+        - link "We're Hiring Work with the latest in computer and digital technology. Search the Micro Center Job Access site to review our latest Openings. SEE CAREERS" [ref=e1364] [cursor=pointer]:
+          - /url: /site/stores/employment.aspx
+          - paragraph [ref=e1365]:
+            - strong [ref=e1366]: We're Hiring
+          - paragraph [ref=e1367]: Work with the latest in computer and digital technology. Search the Micro Center Job Access site to review our latest Openings.
+          - generic [ref=e1368]: SEE CAREERS
+      - generic [ref=e1369]:
+        - link "Micro Center" [ref=e1371] [cursor=pointer]:
+          - /url: /
+          - img "Micro Center" [ref=e1372]
+        - list [ref=e1373]:
+          - listitem [ref=e1374]: © 2026 Micro Electronics, Inc.
+          - listitem [ref=e1375]:
+            - link "About Micro Center" [ref=e1376] [cursor=pointer]:
+              - /url: /site/content/about_microcenter.aspx
+          - listitem [ref=e1377]:
+            - link "Accessibility Statement" [ref=e1378] [cursor=pointer]:
+              - /url: /site/customer-support/accessibility-statement.aspx
+          - listitem [ref=e1379]:
+            - link "State Specific Privacy Rights" [ref=e1380] [cursor=pointer]:
+              - /url: /site/customer-support/privacy-rights.aspx
+          - listitem [ref=e1381]:
+            - link "CAA Transparency" [ref=e1382] [cursor=pointer]:
+              - /url: https://transparency-in-coverage.uhc.com/
+          - listitem [ref=e1383]:
+            - link "Do Not Sell Or Share My Information" [ref=e1384] [cursor=pointer]:
+              - /url: /site/customer-support/privacy-rights.aspx
+          - listitem [ref=e1385]:
+            - link "Privacy Policy" [ref=e1386] [cursor=pointer]:
+              - /url: /site/customer-support/privacy_policy.aspx
+          - listitem [ref=e1387]:
+            - 'link "Terms and Conditions: Site" [ref=e1388] [cursor=pointer]':
+              - /url: /site/customer-support/terms-conditions-site.aspx
+          - listitem [ref=e1389]:
+            - 'link "Terms and Conditions: Sale" [ref=e1390] [cursor=pointer]':
+              - /url: /site/customer-support/terms-conditions-sale.aspx
+          - listitem [ref=e1391]:
+            - link "Copyrights & Trademarks" [ref=e1392] [cursor=pointer]:
+              - /url: /site/customer-support/copyrights-trademarks.aspx
+          - listitem [ref=e1393]:
+            - link "Account Sign In" [ref=e1394] [cursor=pointer]:
+              - /url: https://account.microcenter.com/members/account.aspx
+          - listitem [ref=e1395]:
+            - link "Cookie Preferences" [ref=e1396] [cursor=pointer]:
+              - /url: javascript:OneTrust.ToggleInfoDisplay();
+        - generic "Social Media Links" [ref=e1397]:
+          - generic: Social Media Links
+          - list:
+            - listitem [ref=e1398]:
+              - link "Facebook" [ref=e1399] [cursor=pointer]:
+                - /url: https://www.facebook.com/MicroCenter
+            - listitem [ref=e1400]:
+              - link "Twitter" [ref=e1401] [cursor=pointer]:
+                - /url: https://twitter.com/Microcenter
+            - listitem [ref=e1402]:
+              - link "Instagram" [ref=e1403] [cursor=pointer]:
+                - /url: https://www.instagram.com/microcenter/
+            - listitem [ref=e1404]:
+              - link "YouTube" [ref=e1405] [cursor=pointer]:
+                - /url: https://www.youtube.com/MicroCenter
+            - listitem [ref=e1406]:
+              - link "TikTok" [ref=e1407] [cursor=pointer]:
+                - /url: "https://www.tiktok.com/@microcenter.com "
+  - iframe [ref=e1408]:
+    - button "Open messaging window" [ref=f29e5] [cursor=pointer]:
+      - img [ref=f29e7]
+      - img [ref=f29e10]

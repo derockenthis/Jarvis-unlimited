@@ -1,0 +1,1151 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0QPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: Ryzen AI Max Plus 395 Ryzen AI Max Plus 395
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DRyzen%2BAI%2BMax%2BPlus%2B395&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnRdx8cTjotWVyC2QMTVww_YBFX02fOeR-h4YTkfXLtUiehs1uSRouJgoJNZQ8mefT3JxDO5Qo_TEe9mRkpIh1WYZDm9Ek2v6iJeugIY63eCim37l9rW0hxdEVbxtb4qGo8vFQE6Jh9tFE5-s6eeDhK0EjcPA&aep=1&ntc=1&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q2J8OegQIERAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Shopping" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnRdx8cTjotWVyC2QMTVww_YBFX02fOeR-h4YTkfXLtUiehs1uSRouJgoJNZQ8mefT3JxDO5Qo_TEe9mRkpIh1WYZDm9Ek2v6iJeugIY63eCim37l9rW0hxdEVbxtb4qGo8vFQE6Jh9tFE5-s6eeDhK0EjcPA&q=Ryzen+AI+Max+Plus+395&ved=1t:220175&ictx=111
+              - generic [ref=e84]: Shopping
+          - listitem [ref=e85]:
+            - link "Images" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnRdx8cTjotWVyC2QMTVww_YBFX02fOeR-h4YTkfXLtUiehs1uSRouJgoJNZQ8mefT3JxDO5Qo_TEe9mRkpIh1WYZDm9Ek2v6iJeugIY63eCim37l9rW0hxdEVbxtb4qGo8vFQE6Jh9tFE5-s6eeDhK0EjcPA&q=Ryzen+AI+Max+Plus+395&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0QtKgLegQIFxAB
+              - generic [ref=e88]: Images
+          - listitem [ref=e89]:
+            - link "Videos" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnRdx8cTjotWVyC2QMTVww_YBFX02fOeR-h4YTkfXLtUiehs1uSRouJgoJNZQ8mefT3JxDO5Qo_TEe9mRkpIh1WYZDm9Ek2v6iJeugIY63eCim37l9rW0hxdEVbxtb4qGo8vFQE6Jh9tFE5-s6eeDhK0EjcPA&q=Ryzen+AI+Max+Plus+395&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0QtKgLegQIFhAB
+              - generic [ref=e92]: Videos
+          - listitem [ref=e93]:
+            - link "News" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max+Plus+395&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnRdx8cTjotWVyC2QMTVww_YBFX02fOeR-h4YTkfXLtUiehs1uSRouJgoJNZQ8mefT3JxDO5Qo_TEe9mRkpIh1WYZDm9Ek2v6iJeugIY63eCim37l9rW0hxdEVbxtb4qGo8vFQE6Jh9tFE5-s6eeDhK0EjcPA&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q0pQJegQIFBAB
+              - generic [ref=e96]: News
+          - listitem [ref=e97]:
+            - link "Short videos" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnRdx8cTjotWVyC2QMTVww_YBFX02fOeR-h4YTkfXLtUiehs1uSRouJgoJNZQ8mefT3JxDO5Qo_TEe9mRkpIh1WYZDm9Ek2v6iJeugIY63eCim37l9rW0hxdEVbxtb4qGo8vFQE6Jh9tFE5-s6eeDhK0EjcPA&q=Ryzen+AI+Max+Plus+395&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Qs6gLegQIFRAB
+              - generic [ref=e100]: Short videos
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e126]:
+      - heading "Sponsored products" [level=3] [ref=e128]:
+        - generic [ref=e129]: Sponsored products
+      - button "Why this ad?" [ref=e135] [cursor=pointer]:
+        - img [ref=e137]
+      - generic [ref=e143]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - link "for from GMKtec":
+              - link "for from GMKtec" [ref=e149] [cursor=pointer]:
+                - /url: https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc?variant=3e9ba44f-9ac6-4936-bbe4-a7b293a1c621
+            - generic [ref=e150]:
+              - link [ref=e152]:
+                - link [ref=e153] [cursor=pointer]:
+                  - /url: https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc?variant=3e9ba44f-9ac6-4936-bbe4-a7b293a1c621
+              - generic [ref=e157]:
+                - heading "GMKtec EVO-X2 AI Mini PC AMD Ryzen AI Max+ 395 64GB RAM + 1TB SSD-AU" [level=3] [ref=e158]:
+                  - generic [ref=e159]: GMKtec EVO-X2 AI Mini PC AMD Ryzen AI Max+ 395 64GB RAM + 1TB SSD-AU
+                - generic [ref=e161]: $1,999.99
+                - generic "From GMKtec" [ref=e163]: GMKtec
+                - generic [ref=e167]:
+                  - img [ref=e169]
+                  - generic [ref=e171]: Free by 7/6
+          - generic [ref=e172]:
+            - link "for from Walmart":
+              - link "for from Walmart" [ref=e173] [cursor=pointer]:
+                - /url: https://www.walmart.com/ip/GMKtec-AI-Mini-PC-AMD-Ryzen-Al-Max-395-up-5-1GHz-Gaming-Computers-64GB-LPDDR5X-8000MHz-8GB-8-1TB-PCIe-4-0-SSD-Quad-Screen-8K-Display-WiFi-7-USB4-EVO/17433600660?wmlspartner=wlpa&selectedSellerId=101527299&selectedOfferId=AF72D09C40873B56976641F41E90A343&conditionGroupCode=1
+            - generic [ref=e174]:
+              - link [ref=e176]:
+                - link [ref=e177] [cursor=pointer]:
+                  - /url: https://www.walmart.com/ip/GMKtec-AI-Mini-PC-AMD-Ryzen-Al-Max-395-up-5-1GHz-Gaming-Computers-64GB-LPDDR5X-8000MHz-8GB-8-1TB-PCIe-4-0-SSD-Quad-Screen-8K-Display-WiFi-7-USB4-EVO/17433600660?wmlspartner=wlpa&selectedSellerId=101527299&selectedOfferId=AF72D09C40873B56976641F41E90A343&conditionGroupCode=1
+              - generic [ref=e181]:
+                - heading "Gmktec AI Mini PC AMD Ryzen Al Max+ 395 (up to 5.1GHz) Mini Gaming Computers, 64gb Lpddr5x 8000MHz (8gb*8) 1TB PCIe 4.0 Ssd, Quad Screen 8K Display," [level=3] [ref=e182]:
+                  - generic [ref=e183]: Gmktec AI Mini PC AMD Ryzen Al Max+ 395 (up to 5.1GHz) Mini Gaming Computers, 64gb Lpddr5x 8000MHz (8gb*8) 1TB PCIe 4.0 Ssd, Quad Screen 8K Display,
+                - generic [ref=e185]: $1,999.69
+                - generic "From Walmart" [ref=e187]: Walmart
+                - img "Rated 4.3 out of 5, (6) user reviews" [ref=e192]:
+                  - img [ref=e193]
+                  - text: (6)
+          - generic [ref=e196]:
+            - link "for from Insight":
+              - link "for from Insight" [ref=e197] [cursor=pointer]:
+                - /url: https://www.insight.com/en_US/shop/product/C3XE0UT%23ABA/HP+INC/C3XE0UT%23ABA/HP-Workstation-Z2-G1a---mini-Ryzen-AI-Max--Pro-395-3-GHz---128-GB---SSD-1-TB---US---with-HP-Wolf-Pro-Security-Edition--1-year-/
+            - generic [ref=e198]:
+              - link [ref=e200]:
+                - link [ref=e201] [cursor=pointer]:
+                  - /url: https://www.insight.com/en_US/shop/product/C3XE0UT%23ABA/HP+INC/C3XE0UT%23ABA/HP-Workstation-Z2-G1a---mini-Ryzen-AI-Max--Pro-395-3-GHz---128-GB---SSD-1-TB---US---with-HP-Wolf-Pro-Security-Edition--1-year-/
+              - generic [ref=e205]:
+                - heading "HP Workstation Z2 G1a - Mini Ryzen Ai Max+ Pro 395 3 GHz - 128 GB - SSD 1 TB - Us - With HP Wolf Pro Security Edition (1 Year)" [level=3] [ref=e206]:
+                  - generic [ref=e207]: HP Workstation Z2 G1a - Mini Ryzen Ai Max+ Pro 395 3 GHz - 128 GB - SSD 1 TB - Us - With HP Wolf Pro Security Edition (1 Year)
+                - generic [ref=e209]: $6,156.99
+                - generic "From Insight" [ref=e211]: Insight
+                - generic [ref=e215]:
+                  - img [ref=e217]
+                  - generic [ref=e219]: By 6/30
+          - generic [ref=e220]:
+            - link "for from Minisforum":
+              - link "for from Minisforum" [ref=e221] [cursor=pointer]:
+                - /url: https://store.minisforum.com/products/minisforum-ms-s1-max-mini-pc?variant=48174703378677&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic
+            - generic [ref=e222]:
+              - link [ref=e224]:
+                - link [ref=e225] [cursor=pointer]:
+                  - /url: https://store.minisforum.com/products/minisforum-ms-s1-max-mini-pc?variant=48174703378677&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic
+              - generic [ref=e229]:
+                - heading "MINISFORUM MS-S1 MAX AI Workstation | AMD Ryzen AI Max+ 395 CPU, 126 TOPS NPU & 2U Rack Support for AI Clusters AMD Ryzen AI Max+ 395 / 64GB RAM + 2TB" [level=3] [ref=e230]:
+                  - generic [ref=e231]: MINISFORUM MS-S1 MAX AI Workstation | AMD Ryzen AI Max+ 395 CPU, 126 TOPS NPU & 2U Rack Support for AI Clusters AMD Ryzen AI Max+ 395 / 64GB RAM + 2TB
+                - generic [ref=e233]: $2,599.00
+                - generic "From Minisforum" [ref=e235]: Minisforum
+                - generic [ref=e239]:
+                  - img [ref=e241]
+                  - generic [ref=e243]: Free by 6/26
+          - generic [ref=e244]:
+            - link "for was $3,000 from Best Buy":
+              - link "for was $3,000 from Best Buy" [ref=e245] [cursor=pointer]:
+                - /url: https://www.bestbuy.com/product/asus-rog-flow-z13-13-4-2-5k-180hz-touch-screen-gaming-laptop-copilot-pc-amd-ryzen-ai-max-395-64gb-ram-1tb-ssd-off-black/JJGGLHG8X9/sku/6619196?utm_source=feed&extStoreId=119
+            - generic [ref=e246]:
+              - generic:
+                - generic:
+                  - generic: Sale
+              - link "Costa Mesa" [ref=e248]:
+                - link "Costa Mesa" [ref=e249] [cursor=pointer]:
+                  - /url: https://www.bestbuy.com/product/asus-rog-flow-z13-13-4-2-5k-180hz-touch-screen-gaming-laptop-copilot-pc-amd-ryzen-ai-max-395-64gb-ram-1tb-ssd-off-black/JJGGLHG8X9/sku/6619196?utm_source=feed&extStoreId=119
+                  - generic [ref=e253]: Costa Mesa
+              - generic [ref=e256]:
+                - heading "ASUS - ROG Flow Z13 13.4\" 2.5K 180Hz Touch-Screen Gaming Laptop - Copilot+ PC - AMD Ryzen AI Max+ 395 - 64GB RAM - 1TB SSD - Off Black" [level=3] [ref=e257]:
+                  - generic [ref=e258]: ASUS - ROG Flow Z13 13.4" 2.5K 180Hz Touch-Screen Gaming Laptop - Copilot+ PC - AMD Ryzen AI Max+ 395 - 64GB RAM - 1TB SSD - Off Black
+                - generic [ref=e259]:
+                  - generic [ref=e260]: $2,199.99
+                  - generic [ref=e261]: 3,000
+                - generic "From Best Buy" [ref=e263]: Best Buy
+                - img "Rated 4.6 out of 5, (654) user reviews" [ref=e268]:
+                  - img [ref=e269]
+                  - text: (654)
+          - generic [ref=e272]:
+            - link "for from Origin PC":
+              - link "for from Origin PC" [ref=e273] [cursor=pointer]:
+                - /url: https://www.originpc.com/configurator/corsair-ai-workstation-cs-9080001-na/?MID=GG_GOOGLESHOPPING_DT274
+            - generic [ref=e274]:
+              - link [ref=e276]:
+                - link [ref=e277] [cursor=pointer]:
+                  - /url: https://www.originpc.com/configurator/corsair-ai-workstation-cs-9080001-na/?MID=GG_GOOGLESHOPPING_DT274
+              - generic [ref=e281]:
+                - heading "CORSAIR AI Workstation 300 Desktop PC – Ryzen AI Max 385, 64GB RAM, 1TB SSD, Radeon 8050S" [level=3] [ref=e282]:
+                  - generic [ref=e283]: CORSAIR AI Workstation 300 Desktop PC – Ryzen AI Max 385, 64GB RAM, 1TB SSD, Radeon 8050S
+                - generic [ref=e285]: $1,699.00
+                - generic "From Origin PC" [ref=e287]: Origin PC
+                - generic [ref=e291]:
+                  - img [ref=e293]
+                  - generic [ref=e295]: Free by 6/26
+          - generic [ref=e296]:
+            - link "for from Best Buy":
+              - link "for from Best Buy" [ref=e297] [cursor=pointer]:
+                - /url: https://www.bestbuy.com/product/minix-er939-ai-mini-pc-amd-ryzen-ai-max-395-64gb-ddr5-2tb-pcie-4-0-ssd-radeon-8060s-100-tops-ai-wifi-7-4-x-8k-output-black/CGCLX97P47/sku/12524649?ref=212&loc=marketplace
+            - generic [ref=e298]:
+              - link [ref=e300]:
+                - link [ref=e301] [cursor=pointer]:
+                  - /url: https://www.bestbuy.com/product/minix-er939-ai-mini-pc-amd-ryzen-ai-max-395-64gb-ddr5-2tb-pcie-4-0-ssd-radeon-8060s-100-tops-ai-wifi-7-4-x-8k-output-black/CGCLX97P47/sku/12524649?ref=212&loc=marketplace
+              - generic [ref=e305]:
+                - heading "MINIX - ER939-AI Mini PC, AMD Ryzen AI Max+ 395, 64GB DDR5/2TB PCIe 4.0 SSD, Radeon 8060S, 100+ TOPS AI, WiFi 7, 4 x 8K Output - Black" [level=3] [ref=e306]:
+                  - generic [ref=e307]: MINIX - ER939-AI Mini PC, AMD Ryzen AI Max+ 395, 64GB DDR5/2TB PCIe 4.0 SSD, Radeon 8060S, 100+ TOPS AI, WiFi 7, 4 x 8K Output - Black
+                - generic [ref=e309]: $3,150.00
+                - generic "From Best Buy" [ref=e311]: Best Buy
+                - generic [ref=e315]:
+                  - img [ref=e317]
+                  - generic [ref=e319]: By 6/30
+          - link "View all" [ref=e322] [cursor=pointer]:
+            - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&source=univ&udm=28&ved=1t:6869&ictx=111
+            - generic [ref=e324]:
+              - img [ref=e327]
+              - generic [ref=e329]: View all
+        - button [ref=e330] [cursor=pointer]:
+          - img [ref=e333]
+    - generic [ref=e337]:
+      - main [ref=e338]:
+        - generic [ref=e342]:
+          - generic [ref=e343]:
+            - generic [ref=e346]:
+              - generic [ref=e350]:
+                - generic [ref=e353]:
+                  - heading "GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [level=2] [ref=e356]
+                  - generic [ref=e357]:
+                    - img "Rated 4.7 out of 5, 23 user reviews" [ref=e362]:
+                      - img [ref=e363]
+                      - text: (23)
+                    - button "More options for GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e372] [cursor=pointer]:
+                      - img "More options for GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e373]:
+                        - img [ref=e375]
+                - generic [ref=e382]:
+                  - generic [ref=e389]:
+                    - generic [ref=e392]:
+                      - button "Details" [ref=e393] [cursor=pointer]
+                      - button "Reviews" [ref=e394] [cursor=pointer]
+                      - button "Stores" [ref=e395] [cursor=pointer]
+                    - generic [ref=e399]:
+                      - heading "Image Carousel" [level=3] [ref=e400]
+                      - generic [ref=e405]:
+                        - list [ref=e407]:
+                          - button "Image 1 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e409] [cursor=pointer]:
+                            - img "Image 1 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e410]
+                          - button "Image 2 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e412] [cursor=pointer]:
+                            - img "Image 2 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e413]
+                          - button "Image 3 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e415] [cursor=pointer]:
+                            - img "Image 3 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e416]
+                          - button "Image 4 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e418] [cursor=pointer]:
+                            - img "Image 4 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e419]
+                          - button "Image 5 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e421] [cursor=pointer]:
+                            - img "Image 5 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e422]
+                          - button "Image 6 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e424] [cursor=pointer]:
+                            - img "Image 6 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e425]
+                          - button "Image 7 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e427] [cursor=pointer]:
+                            - img "Image 7 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e428]
+                          - button "Image 8 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e430] [cursor=pointer]:
+                            - img "Image 8 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e431]
+                          - button "Image 9 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e433] [cursor=pointer]:
+                            - img "Image 9 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e434]
+                          - button "Image 10 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e436] [cursor=pointer]:
+                            - img "Image 10 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e437]
+                          - button "Image 11 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e439] [cursor=pointer]:
+                            - img "Image 11 of GMKtec EVO-X2 AMD Ryzen AI Max+ 395 Mini PC RAM + 2TB SSD / EU" [ref=e440]
+                        - button [ref=e441] [cursor=pointer]:
+                          - img [ref=e444]
+                    - generic [ref=e451]:
+                      - generic [ref=e454]:
+                        - generic [ref=e460]:
+                          - button "PowerPlugType filter by PowerPlugType. Currently unselected." [ref=e464] [cursor=pointer]:
+                            - generic "PowerPlugType filter by PowerPlugType. Currently unselected." [ref=e466]:
+                              - generic [ref=e467]:
+                                - generic [ref=e469]: PowerPlugType
+                                - img [ref=e471]
+                          - button "RAM filter by RAM. Currently unselected." [ref=e476] [cursor=pointer]:
+                            - generic "RAM filter by RAM. Currently unselected." [ref=e478]:
+                              - generic [ref=e479]:
+                                - generic [ref=e481]: RAM
+                                - img [ref=e483]
+                          - button "SSD Capacity filter by SSD Capacity. Currently unselected." [ref=e488] [cursor=pointer]:
+                            - generic "SSD Capacity filter by SSD Capacity. Currently unselected." [ref=e490]:
+                              - generic [ref=e491]:
+                                - generic [ref=e493]: SSD Capacity
+                                - img [ref=e495]
+                        - generic [ref=e498]:
+                          - heading "Price Insights" [level=3] [ref=e499]
+                          - button "Typically $2,000 to $4,261" [ref=e502] [cursor=pointer]:
+                            - generic [ref=e503]:
+                              - img [ref=e506]
+                              - generic "Typically $2,000 to $4,261" [ref=e509]:
+                                - generic [ref=e510]: Typically $2,000–$4,261
+                              - img [ref=e513]
+                        - list [ref=e516]:
+                          - listitem [ref=e517]:
+                            - generic [ref=e518]:
+                              - 'link "Best price Newegg.com - GMKtec-Official Current price: $2,100.00 GMKtec AI Mini PC Ryzen Al Max+ 395 (up to 5.1GHz) 2TB PCIe 4.0 SSD 64GB LPDDR5X 8000MHz (8GB*8) Quad Screen 8K Display/WiFi 7/ USB4/ SD Card Reader 4 In stock online Free delivery" [ref=e520] [cursor=pointer]':
+                                - /url: https://www.newegg.com/gmktec-barebone-systems-mini-pc-amd-ryzen-ai-max-395-16c-32t-up-to-5-10ghz-l2-16mb-l3-64mb-cache-evo-x2-64-2t/p/2SW-007C-00023?item=9SIC5P6KXW9479&utm_source=google&utm_medium=organic+shopping&utm_campaign=knc-googleadwords-_-barebone%20systems%20-%20mini-pc-_-gmktec-_-9SIC5P6KXW9479&source=region&negg_topt=0&srsltid=AfmBOopeTggTQSaGKXbpbfo27ixg9mNyt0dMgVoJLEsgZWkKvd4D7UqoQs8
+                                - generic [ref=e521]:
+                                  - generic [ref=e523]: Best price
+                                  - generic [ref=e525]:
+                                    - generic [ref=e526]:
+                                      - generic [ref=e532]: Newegg.com - GMKtec-Official
+                                      - generic [ref=e535]: $2,100.00
+                                    - generic [ref=e537]: GMKtec AI Mini PC Ryzen Al Max+ 395 (up to 5.1GHz) 2TB PCIe 4.0 SSD 64GB LPDDR5X 8000MHz (8GB*8) Quad Screen 8K Display/WiFi 7/ USB4/ SD Card Reader 4
+                                    - generic [ref=e539]:
+                                      - generic [ref=e542]: In stock online
+                                      - img "Free delivery" [ref=e545]
+                              - button "View offer details from Newegg.com - GMKtec-Official" [ref=e547] [cursor=pointer]:
+                                - img [ref=e549]
+                          - listitem [ref=e551]:
+                            - generic [ref=e552]:
+                              - 'link "eBay - cporch Current price: $3,254.99 Mini Pc Ryzen Ai Max+ 395 64gb Lpddr5x 8000mhz 2tb Ssd Wifi 7 Evo-x2 In stock online Free delivery by Friday" [ref=e554] [cursor=pointer]':
+                                - /url: https://www.ebay.com/itm/358616850557?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item&srsltid=AfmBOoreC89CkXvkAHMovubuQ04xSCDVdra4o29oKV4bdOipuglkZKh1lnY
+                                - generic [ref=e557]:
+                                  - generic [ref=e558]:
+                                    - generic [ref=e564]: eBay - cporch
+                                    - generic [ref=e567]: $3,254.99
+                                  - generic [ref=e569]: Mini Pc Ryzen Ai Max+ 395 64gb Lpddr5x 8000mhz 2tb Ssd Wifi 7 Evo-x2
+                                  - generic [ref=e571]:
+                                    - generic [ref=e574]: In stock online
+                                    - img "Free delivery by Friday" [ref=e577]: Free delivery by Fri
+                              - button "View offer details from eBay - cporch" [ref=e579] [cursor=pointer]:
+                                - img [ref=e581]
+                      - generic [ref=e583]:
+                        - button "Compare prices" [ref=e585] [cursor=pointer]:
+                          - img [ref=e588]
+                          - text: Compare prices
+                        - button "Feedback" [ref=e591] [cursor=pointer]:
+                          - generic [ref=e592]: Feedback
+                  - generic [ref=e602]:
+                    - generic [ref=e605]:
+                      - heading "Description" [level=3] [ref=e606]
+                      - generic [ref=e607]:
+                        - text: EVO-X2 AMD Ryzen Al Max+ 395 Mini PC, the World’s First Windows 11 AI+ PC APU Supporting 70B LLM, Experience relentless power with the AMD Ryzen
+                        - generic [ref=e608]:
+                          - text: …
+                          - button "More description" [ref=e609]:
+                            - generic [ref=e611] [cursor=pointer]:
+                              - text: MORE
+                              - img [ref=e613]
+                    - button "More details" [ref=e618] [cursor=pointer]:
+                      - img [ref=e621]
+                      - text: More details
+                  - generic [ref=e629]:
+                    - generic [ref=e635]:
+                      - list
+                      - generic [ref=e637]:
+                        - heading "User reviews" [level=3] [ref=e639]
+                        - button "Write a review" [ref=e640]:
+                          - button "Write a review" [ref=e641] [cursor=pointer]:
+                            - generic [ref=e642]:
+                              - img [ref=e644]
+                              - text: Write a review
+                    - generic [ref=e651]:
+                      - generic [ref=e652]: "4.7"
+                      - generic [ref=e653]:
+                        - img "Rated 4.7 out of 5," [ref=e654]
+                        - generic [ref=e657]: 23 reviews
+                    - group "User review" [ref=e664]:
+                      - generic [ref=e665]:
+                        - generic [ref=e666]:
+                          - img "digitec.ch Shopper" [ref=e668]
+                          - generic [ref=e669]:
+                            - generic [ref=e670]: digitec.ch Shopper
+                            - generic [ref=e672]:
+                              - img "Rated 5.0 out of 5," [ref=e673]:
+                                - text: "5"
+                                - img [ref=e674]
+                              - generic "Review submitted 4 months ago" [ref=e677]: 4 months ago
+                        - generic [ref=e679]: excellent for AI
+                        - generic [ref=e681]:
+                          - paragraph [ref=e682]: +the pc has been delivered in around two weeks as digitec advertised in its website +it came with win11 preinstalled and all drivers seems to work correctly +it is possible to install linux (gmktec is providing a linux custom installation package but i did not test it yet) +the amd graphic ...
+                          - button "More of the review" [ref=e683] [cursor=pointer]:
+                            - text: More
+                            - img [ref=e685]
+                      - button "Open feedback menu for review from digitec.ch Shopper" [ref=e688] [cursor=pointer]:
+                        - img [ref=e690]
+                      - generic [ref=e692]: Reviewed on digitec.ch
+                    - button "More reviews" [ref=e696] [cursor=pointer]:
+                      - img [ref=e699]
+                      - text: More reviews
+              - button "Feedback" [ref=e702] [cursor=pointer]:
+                - generic [ref=e703]: Feedback
+            - generic [ref=e705]:
+              - heading "Web results" [level=2] [ref=e706]
+              - generic [ref=e707]:
+                - generic [ref=e710]:
+                  - link "AMD Ryzen™ AI Max+ 395 AMD https://www.amd.com › ... › Ryzen Processors for Laptops" [ref=e712] [cursor=pointer]:
+                    - /url: https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html
+                    - heading "AMD Ryzen™ AI Max+ 395" [level=3] [ref=e713]
+                    - generic [ref=e719]:
+                      - generic [ref=e721]: AMD
+                      - generic [ref=e723]: https://www.amd.com › ... › Ryzen Processors for Laptops
+                  - button "About this result" [ref=e724] [cursor=pointer]:
+                    - img [ref=e727]
+                - generic [ref=e730]:
+                  - generic [ref=e731]:
+                    - text: "16x Zen 5, # of CPU Cores 16, Multithreading (SMT) Yes, # of Threads 32,"
+                    - emphasis [ref=e732]: Max
+                    - text: . Boost Clock Up to 5.1 GHz, Base Clock 3 GHz, L2 Cache 16 MB, L3 Cache 64 MB,
+                  - link "Read more" [ref=e733] [cursor=pointer]:
+                    - /url: https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html#:~:text=Connectivity
+          - generic [ref=e742]:
+            - generic [ref=e744]:
+              - generic [ref=e746]:
+                - generic [ref=e747]:
+                  - img [ref=e748]
+                  - heading "AI Overview" [level=2] [ref=e750]
+                - generic [ref=e751]:
+                  - button "View 10 corroboration links" [ref=e753] [cursor=pointer]:
+                    - generic [ref=e758]: "+7"
+                  - button "About this result" [ref=e761]:
+                    - img [ref=e763]
+              - generic [ref=e783]:
+                - generic [ref=e784]:
+                  - text: The
+                  - strong [ref=e785]: AMD Ryzen AI Max+ 395
+                  - text: (codenamed "Strix Halo") is
+                  - mark [ref=e786]: AMD's most powerful consumer APU to date
+                  - text: . Built on a 4nm TSMC process, it features 16 Zen 5 CPU cores (32 threads), an XDNA 2 NPU capable of up to 126 Total AI TOPS, and a massive Radeon 8060S integrated GPU.
+                  - generic [ref=e788]:
+                    - link "AMD (+4) - View related links" [ref=e789] [cursor=pointer]:
+                      - /url: https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html
+                    - button "AMD (+4) - View related links" [ref=e790] [cursor=pointer]:
+                      - generic [ref=e792]:
+                        - generic [ref=e793]: AMD
+                        - generic [ref=e794]: "+4"
+                - heading "Overview & Architecture" [level=3] [ref=e795]
+                - generic [ref=e797]:
+                  - text: "Designed to handle desktop-tier workloads in an integrated package, this processor completely redefines what integrated graphics and portable computing can do. It boasts:"
+                  - generic [ref=e799]:
+                    - link "YouTube (+1) - View related links" [ref=e800] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=oKRzUqdILTQ&t=30
+                    - button "YouTube (+1) - View related links" [ref=e801] [cursor=pointer]:
+                      - generic [ref=e803]:
+                        - generic [ref=e804]: YouTube
+                        - generic [ref=e805]: ·Craft Computing
+                        - generic [ref=e806]: "+1"
+                - list [ref=e808]:
+                  - listitem [ref=e809]:
+                    - generic [ref=e810]:
+                      - strong [ref=e811]: "CPU:"
+                      - text: 16 Zen 5 cores with 64MB of L3 cache, boosting up to 5.1GHz.
+                  - listitem [ref=e812]:
+                    - generic [ref=e813]:
+                      - strong [ref=e814]: "Graphics:"
+                      - text: The Radeon 8060S iGPU, which packs 40 compute units based on the RDNA 3.5 architecture. It is frequently cited as the most powerful integrated graphics processor on the market .
+                  - listitem [ref=e816]:
+                    - generic [ref=e817]:
+                      - strong [ref=e818]: "NPU:"
+                      - text: Delivers 50 peak AI TOPS (up to 126 total platform TOPS) for ultra-efficient, local machine learning and generative AI processing.
+                    - generic [ref=e820]:
+                      - link [ref=e821] [cursor=pointer]:
+                        - /url: https://www.amazon.com/GMKtec-5-1GHz-LPDDR5X-8000MHz-Display/dp/B0FKYZF9HL
+                      - button [ref=e822] [cursor=pointer]:
+                        - generic [ref=e824]:
+                          - generic [ref=e825]: Amazon.com
+                          - generic [ref=e826]: "+3"
+                - generic [ref=e827]:
+                  - generic [ref=e830]:
+                    - generic [ref=e831]: "For an architectural breakdown and a deep dive into the silicon layout of the Strix Halo chip:"
+                    - generic [ref=e833]:
+                      - button [ref=e837] [cursor=pointer]:
+                        - generic [ref=e838]:
+                          - img [ref=e839]
+                          - generic [ref=e841]:
+                            - img [ref=e842]
+                            - generic [ref=e844]: 55s
+                          - img [ref=e849]
+                      - link [ref=e854] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=vMGX35mzsWg
+                        - generic [ref=e855]:
+                          - generic [ref=e856]: AMD's Most Powerful APU Yet - Strix Halo/Ryzen AI Max+ 395 - GMKTec ...
+                          - generic [ref=e863]:
+                            - generic [ref=e864]: Digital Foundry
+                            - generic [ref=e865]: YouTube · Sep 18, 2025
+                  - heading [level=3] [ref=e867]: AI & Machine Learning
+                  - generic [ref=e869]:
+                    - text: Because of its unified memory architecture and up to 128GB of LPDDR5X-8000 RAM, it is widely considered an excellent, power-efficient choice for running Large Language Models (LLMs) locally. It comfortably runs large parameter models (such as DeepSeek 70B) in private AI applications.
+                    - generic [ref=e871]:
+                      - link [ref=e872] [cursor=pointer]:
+                        - /url: https://www.amazon.com/GMKtec-5-1GHz-LPDDR5X-8000MHz-Display/dp/B0FKYZF9HL
+                      - button [ref=e873] [cursor=pointer]:
+                        - generic [ref=e875]:
+                          - generic [ref=e876]: Amazon.com
+                          - generic [ref=e877]: "+4"
+                  - heading [level=3] [ref=e879]: Gaming Performance
+                  - generic [ref=e881]:
+                    - text: The Radeon 8060S iGPU offers performance roughly rivaling an entry-to-mid-tier discrete mobile GPU (like an RTX 4060 laptop GPU), enabling you to play demanding games at 1080p with high settings without needing a separate graphics card.
+                    - generic [ref=e883]:
+                      - link [ref=e884] [cursor=pointer]:
+                        - /url: https://www.amazon.com/GMKtec-5-1GHz-LPDDR5X-8000MHz-Display/dp/B0FKYZF9HL
+                      - button [ref=e885] [cursor=pointer]:
+                        - generic [ref=e887]:
+                          - generic [ref=e888]: Amazon.com
+                          - generic [ref=e889]: "+1"
+                  - generic [ref=e892]:
+                    - generic [ref=e893]: "For a look at the processor's gaming limits and FPS benchmarks:"
+                    - generic [ref=e895]:
+                      - button [ref=e899] [cursor=pointer]:
+                        - generic [ref=e900]:
+                          - img [ref=e901]
+                          - generic [ref=e903]:
+                            - img [ref=e904]
+                            - generic [ref=e906]: 2m
+                          - img [ref=e911]
+                      - link [ref=e916] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=oKRzUqdILTQ
+                        - generic [ref=e917]:
+                          - generic [ref=e918]: Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 Benchmarks
+                          - generic [ref=e925]:
+                            - generic [ref=e926]: Craft Computing
+                            - generic [ref=e927]: YouTube · Oct 30, 2025
+                  - heading [level=3] [ref=e929]: Devices
+                  - generic [ref=e931]:
+                    - text: "Because of its incredible thermal efficiency and heavy graphics muscle, it is predominantly utilized in top-tier mini PCs, mobile workstations, and high-end handheld/tablet form factors. Notable devices featuring this processor include:"
+                    - generic [ref=e933]:
+                      - link [ref=e934] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=oKRzUqdILTQ&t=30
+                      - button [ref=e935] [cursor=pointer]:
+                        - generic [ref=e937]:
+                          - generic [ref=e938]: YouTube
+                          - generic [ref=e939]: ·Craft Computing
+                          - generic [ref=e940]: "+2"
+                  - list [ref=e942]:
+                    - listitem [ref=e943]:
+                      - generic [ref=e944]:
+                        - strong [ref=e945]: "Mini PCs:"
+                        - text: The
+                        - link [ref=e947] [cursor=pointer]:
+                          - /url: https://www.amazon.com/GMKtec-5-1GHz-LPDDR5X-8000MHz-Display/dp/B0FKYZF9HL
+                          - text: GMKtec EVO-X2
+                        - text: (usually configured with 64GB/128GB RAM) and the
+                        - generic [ref=e948]: Beelink GTR9 Pro
+                        - text: .
+                    - listitem [ref=e949]:
+                      - generic [ref=e950]:
+                        - strong [ref=e951]: "Hybrid Devices:"
+                        - text: The
+                        - link [ref=e953] [cursor=pointer]:
+                          - /url: https://www.asus.com/us/laptops/for-gaming/all-series/filter?Spec=368018
+                          - text: ASUS ROG Flow Z13
+                        - text: .
+                    - listitem [ref=e954]:
+                      - generic [ref=e955]:
+                        - strong [ref=e956]: "Desktop DIY:"
+                        - text: The
+                        - link [ref=e958] [cursor=pointer]:
+                          - /url: https://frame.work/desktop?tab=specs
+                          - text: Framework Desktop
+                        - text: .
+                      - button [ref=e961] [cursor=pointer]:
+                        - img [ref=e964]
+                  - list [ref=e968]:
+                    - generic [ref=e969]:
+                      - listitem [ref=e970]:
+                        - generic [ref=e971]:
+                          - link [ref=e972] [cursor=pointer]:
+                            - /url: https://www.amazon.com/GMKtec-5-1GHz-LPDDR5X-8000MHz-Display/dp/B0FKYZF9HL
+                          - generic [ref=e973]:
+                            - generic [ref=e975]:
+                              - generic [ref=e976]: GMKtec AI Mini PC Ryzen Al Max+ 395 (up to 5.1GHz) 2TB PCIe 4.0 ...
+                              - generic [ref=e978]: "* EVOLUTION AMD RYZEN AI MAX+ 395 MINI PC - GMKtec EVO-X2 is the next evolution in AI mini PC Ryzen Strix Halo series. Thanks to A..."
+                            - generic [ref=e980]:
+                              - generic [ref=e983]: Amazon.com
+                              - button [ref=e987] [cursor=pointer]:
+                                - img [ref=e989]
+                      - listitem [ref=e992]:
+                        - generic [ref=e993]:
+                          - link [ref=e994] [cursor=pointer]:
+                            - /url: https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html
+                          - generic [ref=e995]:
+                            - generic [ref=e997]:
+                              - generic [ref=e998]: AMD Ryzen™ AI Max+ 395
+                              - generic [ref=e1000]: Name AMD Ryzen™ AI Max+ 395. Family Ryzen. Series Ryzen AI Max 300 Series. Form Factor Laptops , Desktops. Regional Availability G...
+                            - generic [ref=e1002]:
+                              - generic [ref=e1005]: AMD
+                              - button [ref=e1009] [cursor=pointer]:
+                                - img [ref=e1011]
+                      - listitem [ref=e1014]:
+                        - generic [ref=e1015]:
+                          - link [ref=e1016] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=oKRzUqdILTQ&t=30
+                          - generic [ref=e1017]:
+                            - generic [ref=e1018]:
+                              - button [ref=e1022] [cursor=pointer]:
+                                - generic [ref=e1024]:
+                                  - img [ref=e1025]
+                                  - generic [ref=e1027]: 2m
+                                - img [ref=e1032]
+                              - generic [ref=e1034]: Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 Benchmarks
+                            - generic [ref=e1035]:
+                              - generic [ref=e1038]:
+                                - text: YouTube
+                                - generic [ref=e1039]: ·Craft Computing
+                              - button [ref=e1043] [cursor=pointer]:
+                                - img [ref=e1045]
+                      - listitem [ref=e1048]:
+                        - generic [ref=e1049]:
+                          - link [ref=e1050] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=vMGX35mzsWg&t=2
+                          - generic [ref=e1051]:
+                            - generic [ref=e1052]:
+                              - button [ref=e1056] [cursor=pointer]:
+                                - generic [ref=e1058]:
+                                  - img [ref=e1059]
+                                  - generic [ref=e1061]: 4m
+                                - img [ref=e1066]
+                              - generic [ref=e1068]: AMD's Most Powerful APU Yet - Strix Halo/Ryzen AI Max+ 395
+                            - generic [ref=e1069]:
+                              - generic [ref=e1072]:
+                                - text: YouTube
+                                - generic [ref=e1073]: ·Digital Foundry
+                              - button [ref=e1077] [cursor=pointer]:
+                                - img [ref=e1079]
+                      - listitem [ref=e1082]:
+                        - generic [ref=e1083]:
+                          - link [ref=e1084] [cursor=pointer]:
+                            - /url: https://frame.work/desktop?tab=specs
+                          - generic [ref=e1085]:
+                            - generic [ref=e1087]:
+                              - generic [ref=e1088]: Order a Framework Desktop with AMD Ryzen™ AI Max
+                              - generic [ref=e1090]: Overview. Specs. Gaming. Machine Learning. Downloads and guides. Configure now. Available with the latest AMD Ryzen™ AI Max 300 Se...
+                            - generic [ref=e1092]:
+                              - generic [ref=e1095]: Framework
+                              - button [ref=e1099] [cursor=pointer]:
+                                - img [ref=e1101]
+                      - listitem [ref=e1104]:
+                        - generic [ref=e1105]:
+                          - link [ref=e1106] [cursor=pointer]:
+                            - /url: https://www.asus.com/us/laptops/for-gaming/all-series/filter?Spec=368018
+                          - generic [ref=e1107]:
+                            - generic [ref=e1109]:
+                              - generic [ref=e1110]: CPU - AMD Ryzen™ AI MAX+ 395｜Laptops For Gaming｜ASUS USA
+                              - generic [ref=e1112]: ROG Flow Z13 (2025) GZ302EA-XS99. ASUS Store Price. $3,299.99. Windows 11 Pro. AMD XDNA™ NPU up to 50TOPS. AMD Ryzen™ AI MAX+ 395 ...
+                            - generic [ref=e1114]:
+                              - generic [ref=e1117]: ASUS
+                              - button [ref=e1121] [cursor=pointer]:
+                                - img [ref=e1123]
+                      - listitem [ref=e1126]:
+                        - generic [ref=e1127]:
+                          - link [ref=e1128] [cursor=pointer]:
+                            - /url: https://www.nimopc.com/products/nimos-smallest-office-gaming-ai-pc-amd-ryzen-ai-max-395-up-to-5-1-ghz-128gb-lpddr5-8000mhz-16gb-8-2tb-4tb-ssd-with-3-performance-modes-up-to-120w
+                          - generic [ref=e1129]:
+                            - generic [ref=e1131]:
+                              - generic [ref=e1132]: Nimo's Office & Gaming AI PC - AMD Ryzen™ AI Max+ 395
+                              - generic [ref=e1134]: HIGH-EFFICIENCY IGPU FOR AI, GAMING & RENDERING The integrated graphics(8060S) of the AMD Ryzen AI Max+ 395 is currently the world...
+                            - generic [ref=e1136]:
+                              - generic [ref=e1139]: Nimo PC
+                              - button [ref=e1143] [cursor=pointer]:
+                                - img [ref=e1145]
+                      - generic [ref=e1149]:
+                        - link [ref=e1150] [cursor=pointer]:
+                          - /url: https://www.forbes.com/sites/davealtavilla/2025/01/15/amds-novel-ryzen-ai-max-chip-for-copilot-pcs-was-a-ces-showstopper/
+                        - generic [ref=e1151]:
+                          - generic [ref=e1153]:
+                            - generic [ref=e1154]: AMD’s Novel Ryzen AI Max Chip For Copilot+ PCs Was A CES Showstopper
+                            - generic [ref=e1156]: And the ASUS ROG Flow Z13 is likely going to be a pretty wild hybrid detachable machine that can competently game as well.
+                          - generic [ref=e1158]:
+                            - generic [ref=e1161]: Forbes
+                            - button [ref=e1165] [cursor=pointer]:
+                              - img [ref=e1167]
+                      - listitem [ref=e1170]:
+                        - generic [ref=e1171]:
+                          - link [ref=e1172] [cursor=pointer]:
+                            - /url: https://www.google.com/search?q=product&prds=pvt:hg,productid:16140331564429040872,catalogid:13376613023119409090,gpcid:15937331638742029911,mid:576462842118076356&ibp=oshop
+                          - generic [ref=e1173]:
+                            - generic [ref=e1175]:
+                              - generic [ref=e1176]: Beelink GTR9 Pro AMD Ryzen AI Max+ Processor
+                              - generic [ref=e1178]: 【Powerful AMD Ryzen AI Max+ 395 CPU and AMD Radeon 8060S GPU Bring the Future to Your Fingertips】 —16 Zen 5 CPU cores, combined wi...
+                            - generic [ref=e1180]:
+                              - generic [ref=e1183]: Google
+                              - button [ref=e1187] [cursor=pointer]:
+                                - img [ref=e1189]
+                      - listitem [ref=e1192]:
+                        - generic [ref=e1193]:
+                          - link [ref=e1194] [cursor=pointer]:
+                            - /url: https://www.google.com/search?q=product&prds=pvt:hg,productid:7152335238105281963&ibp=oshop
+                          - generic [ref=e1195]:
+                            - generic [ref=e1197]:
+                              - generic [ref=e1198]: Minisforum Ms-s1 Max Next-gen Ai Ryzen Ai Max+ 395 3.0ghz 128gb 2tb
+                              - generic [ref=e1200]: General Information Color Black Operating System Operating System Windows 11 Pro Case & Motherboard Case Orientation Vertical Hori...
+                            - generic [ref=e1202]:
+                              - generic [ref=e1205]: Google
+                              - button [ref=e1209] [cursor=pointer]:
+                                - img [ref=e1211]
+                      - listitem [ref=e1214]:
+                        - generic [ref=e1215]:
+                          - link [ref=e1216] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/LocalLLaMA/comments/1nozz23/the_ryzen_ai_max_395_is_a_true_unicorn_in_a_good/
+                          - generic [ref=e1217]:
+                            - generic [ref=e1219]:
+                              - generic [ref=e1220]: The Ryzen AI MAX+ 395 is a true unicorn (In a good way) - Reddit
+                              - generic [ref=e1222]: "{\"passageText\":\"Ryzen AI MAX+ 395 Value: The AMD Ryzen AI MAX+ 395 (Strix Halo) is a cost-effective choice for AI inference, parti..."
+                            - generic [ref=e1223]:
+                              - generic [ref=e1226]: www.reddit.com
+                              - button [ref=e1230] [cursor=pointer]:
+                                - img [ref=e1232]
+                    - button [ref=e1235] [cursor=pointer]:
+                      - img [ref=e1237]
+            - button "Show more AI Overview" [ref=e1242]:
+              - generic [ref=e1244] [cursor=pointer]:
+                - generic [ref=e1245]: Show more
+                - img [ref=e1247]
+          - generic [ref=e1252]:
+            - heading "Web results" [level=2] [ref=e1253]
+            - generic [ref=e1254]:
+              - generic [ref=e1257]:
+                - link "GMKtec AI Mini PC Ryzen Al Max+ 395 (up to 5.1GHz) 2TB ... Amazon.com https://www.amazon.com › ..." [ref=e1259] [cursor=pointer]:
+                  - /url: https://www.amazon.com/GMKtec-5-1GHz-LPDDR5X-8000MHz-Display/dp/B0FKYZF9HL
+                  - heading "GMKtec AI Mini PC Ryzen Al Max+ 395 (up to 5.1GHz) 2TB ..." [level=3] [ref=e1260]
+                  - generic [ref=e1266]:
+                    - generic [ref=e1268]: Amazon.com
+                    - generic [ref=e1270]: https://www.amazon.com › ...
+                - button "About this result" [ref=e1271] [cursor=pointer]:
+                  - img [ref=e1274]
+              - generic [ref=e1278]:
+                - text: "Amazon.com:"
+                - emphasis [ref=e1279]: GMKtec AI Mini PC Ryzen Al Max+ 395
+                - text: (up to 5.1GHz) 2TB PCIe 4.0 SSD 64GB LPDDR5X 8000MHz (8GB*8) Quad Screen 8K Display/WiFi 7/ USB4/ SD Card ...
+              - generic [ref=e1282]: Free 30-day returns
+          - generic [ref=e1286]:
+            - generic [ref=e1289]:
+              - link "Order a Framework Desktop with AMD Ryzen™ AI Max Framework https://frame.work › desktop" [ref=e1291] [cursor=pointer]:
+                - /url: https://frame.work/desktop?tab=specs
+                - heading "Order a Framework Desktop with AMD Ryzen™ AI Max" [level=3] [ref=e1292]
+                - generic [ref=e1298]:
+                  - generic [ref=e1300]: Framework
+                  - generic [ref=e1302]: https://frame.work › desktop
+              - button "About this result" [ref=e1303] [cursor=pointer]:
+                - img [ref=e1306]
+            - generic [ref=e1309]:
+              - generic [ref=e1310]:
+                - text: "Release Year. 2025 · Price. Starting at $1,269 · Assembly. Build it yourself; Setup Time: 10 minutes · Processor. AMD"
+                - emphasis [ref=e1311]: Ryzen
+                - text: ™
+                - emphasis [ref=e1312]: AI Max
+                - text: 385 (soldered) 3.6GHz base ...
+              - link "Read more" [ref=e1313] [cursor=pointer]:
+                - /url: https://frame.work/desktop?tab=specs#:~:text=Release%20Year,2025&text=Price,Starting%20at%20%241%2C269&text=Assembly,Setup%20Time%3A%2010%20minutes&text=Processor,3.6GHz%20base%20clock
+            - generic [ref=e1315]:
+              - generic [ref=e1316]: $1,269.00
+              - text: ·
+              - generic [ref=e1317]: $9 delivery
+              - text: ·
+              - generic [ref=e1318]: 30-day returns
+          - generic [ref=e1322]:
+            - generic [ref=e1325]:
+              - link "The Ryzen AI MAX+ 395 is a true unicorn (In a good way) Reddit · r/LocalLLaMA 300+ comments · 8 months ago" [ref=e1327] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1nozz23/the_ryzen_ai_max_395_is_a_true_unicorn_in_a_good/
+                - heading "The Ryzen AI MAX+ 395 is a true unicorn (In a good way)" [level=3] [ref=e1328]
+                - generic [ref=e1334]:
+                  - generic [ref=e1336]: Reddit · r/LocalLLaMA
+                  - generic [ref=e1338]: 300+ comments · 8 months ago
+              - button "About this result" [ref=e1339] [cursor=pointer]:
+                - img [ref=e1342]
+            - generic [ref=e1345]:
+              - generic [ref=e1346]:
+                - emphasis [ref=e1347]: AMD 395 cannot be beaten for what it is
+                - text: (quad channel RAM, 16 Zen5 core CPU) as workstation either at their full power version found in MiniPCs.
+              - link "Read more" [ref=e1348] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1nozz23/the_ryzen_ai_max_395_is_a_true_unicorn_in_a_good/#:~:text=AMD%20395%20cannot%20be%20beaten,power%20version%20found%20in%20MiniPCs.
+            - generic [ref=e1351]:
+              - generic [ref=e1352]:
+                - 'link "Honest thoughts on a $1500 Ryzen AI Max+ 395? : r ..." [ref=e1355] [cursor=pointer]':
+                  - /url: https://www.reddit.com/r/MiniPCs/comments/1lwxifk/honest_thoughts_on_a_1500_ryzen_ai_max_395/
+                  - generic [ref=e1356]:
+                    - text: Honest thoughts on a $1500
+                    - emphasis [ref=e1357]: Ryzen AI Max+ 395
+                    - text: "? : r ..."
+                - generic [ref=e1359]: 118 posts
+                - generic [ref=e1361]: Jul 11, 2025
+              - generic [ref=e1362]:
+                - link "Why should I **not** buy an AMD AI Max+ 395 ..." [ref=e1365] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/LocalLLaMA/comments/1ndoxxa/why_should_i_not_buy_an_amd_ai_max_395_128gb/
+                  - generic [ref=e1366]:
+                    - text: Why should I **not** buy an AMD
+                    - emphasis [ref=e1367]: AI Max+ 395
+                    - text: ...
+                - generic [ref=e1369]: 544 posts
+                - generic [ref=e1371]: Sep 10, 2025
+              - link "More results from www.reddit.com" [ref=e1375] [cursor=pointer]:
+                - /url: /search?q=Ryzen+AI+Max+Plus+395+site:www.reddit.com&sca_esv=b38ed05e961c07a9&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0QrQIoAnoECFQQAw
+          - generic [ref=e1379]:
+            - generic [ref=e1381]:
+              - heading "Videos" [level=2] [ref=e1382]
+              - button "About this result" [ref=e1383] [cursor=pointer]:
+                - img [ref=e1386]
+            - generic [ref=e1389]:
+              - generic [ref=e1394]:
+                - generic [ref=e1395]:
+                  - generic [ref=e1396]:
+                    - link "Ryzen AI Max+ 395 (Radeon 8060S) vs Desktop PC ... YouTube Ancient Gameplays Feb 16, 2026" [ref=e1398] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=m4pzGZCRyu4
+                      - heading "Ryzen AI Max+ 395 (Radeon 8060S) vs Desktop PC ... YouTube Ancient Gameplays Feb 16, 2026" [level=3] [ref=e1399]:
+                        - generic [ref=e1402]: Ryzen AI Max+ 395 (Radeon 8060S) vs Desktop PC ...
+                        - generic [ref=e1404]:
+                          - generic [ref=e1405]:
+                            - text: YouTube
+                            - generic [ref=e1406]: · Ancient Gameplays
+                          - generic [ref=e1407]: Feb 16, 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Ancient Gameplays
+                        - button "About this result" [ref=e1408] [cursor=pointer]:
+                          - img [ref=e1411]
+                  - button "Ryzen AI Max+ 395 (Radeon 8060S) vs Desktop PC ... by Ancient Gameplays on YouTube. Play on Google. 18:11" [ref=e1413] [cursor=pointer]:
+                    - generic [ref=e1414]:
+                      - img [ref=e1417]
+                      - generic [ref=e1420]:
+                        - generic [ref=e1421]: 18:11
+                        - img [ref=e1424]
+                - button "24 key moments in this video" [ref=e1430] [cursor=pointer]:
+                  - generic [ref=e1433]:
+                    - generic [ref=e1436]: 24 key moments in this video
+                    - img [ref=e1438]
+              - generic [ref=e1444]:
+                - generic [ref=e1445]:
+                  - generic [ref=e1446]:
+                    - link "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395 YouTube Brad Colbow Mar 23, 2026" [ref=e1448] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=uHk9-rCLnKI
+                      - heading "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395 YouTube Brad Colbow Mar 23, 2026" [level=3] [ref=e1449]:
+                        - generic [ref=e1452]: Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395
+                        - generic [ref=e1454]:
+                          - generic [ref=e1455]:
+                            - text: YouTube
+                            - generic [ref=e1456]: · Brad Colbow
+                          - generic [ref=e1457]: Mar 23, 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Brad Colbow
+                        - button "About this result" [ref=e1458] [cursor=pointer]:
+                          - img [ref=e1461]
+                  - button "Infplane Hilbert Hands On - AMD Ryzen AI Max+ 395 by Brad Colbow on YouTube. Play on Google. 13:00" [ref=e1463] [cursor=pointer]:
+                    - generic [ref=e1464]:
+                      - img [ref=e1467]
+                      - generic [ref=e1470]:
+                        - generic [ref=e1471]: 13:00
+                        - img [ref=e1474]
+                - button "Infplane Hilbert Super Workstation features an AMD Ryzen AI Max Plus 395 processor designed for local AI work tasks." [ref=e1477] [cursor=pointer]:
+                  - generic [ref=e1481]: Infplane Hilbert Super Workstation features an AMD Ryzen AI Max Plus 395 processor designed for local AI work tasks.
+              - generic [ref=e1487]:
+                - generic [ref=e1488]:
+                  - link "The Best Ryzen AI MAX+ PC is From a Company You've ... YouTube CButters Tech Mar 26, 2026" [ref=e1490] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=p9h1yDEQO2Q
+                    - heading "The Best Ryzen AI MAX+ PC is From a Company You've ... YouTube CButters Tech Mar 26, 2026" [level=3] [ref=e1491]:
+                      - generic [ref=e1494]: The Best Ryzen AI MAX+ PC is From a Company You've ...
+                      - generic [ref=e1496]:
+                        - generic [ref=e1497]:
+                          - text: YouTube
+                          - generic [ref=e1498]: · CButters Tech
+                        - generic [ref=e1499]: Mar 26, 2026
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · CButters Tech
+                      - button "About this result" [ref=e1500] [cursor=pointer]:
+                        - img [ref=e1503]
+                - button "The Best Ryzen AI MAX+ PC is From a Company You've ... by CButters Tech on YouTube. Play on Google. 14:04" [ref=e1505] [cursor=pointer]:
+                  - generic [ref=e1506]:
+                    - img [ref=e1509]
+                    - generic [ref=e1512]:
+                      - generic [ref=e1513]: 14:04
+                      - img [ref=e1516]
+            - link "View all videos" [ref=e1520] [cursor=pointer]:
+              - /url: /search?sca_esv=b38ed05e961c07a9&udm=7&q=Ryzen+AI+Max+Plus+395&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8ccDKAJ6BAhsEAQ
+              - separator [ref=e1521]
+              - generic [ref=e1522]:
+                - generic [ref=e1523]: View all
+                - img [ref=e1525]
+          - generic [ref=e1531]:
+            - heading "Discussions and forums" [level=2] [ref=e1533]
+            - generic [ref=e1534]:
+              - generic [ref=e1537]:
+                - generic [ref=e1539] [cursor=pointer]:
+                  - generic [ref=e1542]:
+                    - link "ONEXPLAYER drops Ryzen AI Max+ 395 for 388, ... Reddit · r/Handhelds · 80+ comments · 1 day ago" [ref=e1543]:
+                      - /url: https://www.reddit.com/r/Handhelds/comments/1u5jkdc/onexplayer_drops_ryzen_ai_max_395_for_388_2399/
+                      - generic [ref=e1544]:
+                        - heading "ONEXPLAYER drops Ryzen AI Max+ 395 for 388, ..." [level=3] [ref=e1545]:
+                          - link "ONEXPLAYER drops Ryzen AI Max+ 395 for 388, ..." [ref=e1546]
+                        - generic [ref=e1553]:
+                          - generic [ref=e1554]: Reddit ·
+                          - generic [ref=e1556]:
+                            - generic [ref=e1557]:
+                              - generic [ref=e1558]: r/Handhelds
+                              - generic [ref=e1559]:
+                                - generic [ref=e1560]: ·
+                                - generic [ref=e1561]: 80+ comments
+                            - generic [ref=e1562]:
+                              - generic [ref=e1563]: ·
+                              - generic [ref=e1564]: 1 day ago
+                    - generic [ref=e1570]:
+                      - generic [ref=e1574]: ·
+                      - button "About this result" [ref=e1579]:
+                        - img [ref=e1582]
+                  - button "ONEXPLAYER drops Ryzen AI Max+ 395 for 388, ... Reddit · r/Handhelds · 80+ comments · 1 day ago" [expanded] [ref=e1584]:
+                    - img [ref=e1587]
+                - list [ref=e1596]:
+                  - listitem [ref=e1597]:
+                    - generic [ref=e1601]:
+                      - link "ONEXPLAYER drops Ryzen AI Max+ 395 for 388, $2,399 base model costs more than five Switch 2 consoles · ONEXPLAYER X2 Mini confirmed for global ... More discussions on ONEXPLAYER drops Ryzen AI Max+ 395 for 388, ...":
+                        - /url: https://www.reddit.com/r/Handhelds/comments/1u5jkdc/onexplayer_drops_ryzen_ai_max_395_for_388_2399/
+                      - generic [ref=e1603]:
+                        - text: ONEXPLAYER drops Ryzen AI Max+ 395 for 388, $2,399 base model costs more than five Switch 2 consoles · ONEXPLAYER X2 Mini confirmed for global ...
+                        - link [ref=e1604] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/Handhelds/comments/1u5jkdc/onexplayer_drops_ryzen_ai_max_395_for_388_2399/
+                          - generic [ref=e1605]: More
+                          - img [ref=e1607]
+              - generic [ref=e1613] [cursor=pointer]:
+                - generic [ref=e1616]:
+                  - 'link "AMD Ryzen AI Max+ 395 mini PC: 128GB local AI workstation vs DGX Spark Windows Forum · 2 days ago" [ref=e1617]':
+                    - /url: https://windowsforum.com/threads/amd-ryzen-ai-max-395-mini-pc-128gb-local-ai-workstation-vs-dgx-spark.425887/
+                    - generic [ref=e1618]:
+                      - 'heading "AMD Ryzen AI Max+ 395 mini PC: 128GB local AI workstation vs DGX Spark" [level=3] [ref=e1619]':
+                        - 'link "AMD Ryzen AI Max+ 395 mini PC: 128GB local AI workstation vs DGX Spark" [ref=e1620]'
+                      - generic [ref=e1627]:
+                        - generic [ref=e1628]: Windows Forum ·
+                        - generic [ref=e1632]: 2 days ago
+                  - generic [ref=e1638]:
+                    - generic [ref=e1642]: ·
+                    - button "About this result" [ref=e1647]:
+                      - img [ref=e1650]
+                - 'button "AMD Ryzen AI Max+ 395 mini PC: 128GB local AI workstation vs DGX Spark Windows Forum · 2 days ago" [ref=e1652]':
+                  - img [ref=e1655]
+              - generic [ref=e1661] [cursor=pointer]:
+                - generic [ref=e1664]:
+                  - link "Thoughts on AMD Ryzen AI Max+ 395? - Blender and CG Discussions Blender Artists Community · 1 year ago" [ref=e1665]:
+                    - /url: https://blenderartists.org/t/thoughts-on-amd-ryzen-ai-max-395/1597374
+                    - generic [ref=e1666]:
+                      - heading "Thoughts on AMD Ryzen AI Max+ 395? - Blender and CG Discussions" [level=3] [ref=e1667]:
+                        - link "Thoughts on AMD Ryzen AI Max+ 395? - Blender and CG Discussions" [ref=e1668]
+                      - generic [ref=e1675]:
+                        - generic [ref=e1676]: Blender Artists Community ·
+                        - generic [ref=e1680]: 1 year ago
+                  - generic [ref=e1686]:
+                    - generic [ref=e1690]: ·
+                    - button "About this result" [ref=e1695]:
+                      - img [ref=e1698]
+                - button "Thoughts on AMD Ryzen AI Max+ 395? - Blender and CG Discussions Blender Artists Community · 1 year ago" [ref=e1700]:
+                  - img [ref=e1703]
+              - link "See more discussions" [ref=e1706] [cursor=pointer]:
+                - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&udm=18&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8poLegQIYRAE
+                - separator [ref=e1707]
+                - generic [ref=e1708]:
+                  - generic [ref=e1709]: See more
+                  - img [ref=e1711]
+          - generic [ref=e1719]:
+            - generic [ref=e1722]:
+              - link "Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 ... YouTube · Craft Computing 62.6K+ views · 7 months ago" [ref=e1724] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=oKRzUqdILTQ
+                - heading "Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 ..." [level=3] [ref=e1725]
+                - generic [ref=e1731]:
+                  - generic [ref=e1733]: YouTube · Craft Computing
+                  - generic [ref=e1735]: 62.6K+ views · 7 months ago
+              - button "About this result" [ref=e1736] [cursor=pointer]:
+                - img [ref=e1739]
+            - generic [ref=e1741]:
+              - button "Gaming on AMD's Fastest APU - Ryzen AI Max+ 395 ... by Craft Computing on YouTube. Play on Google. 22:16" [ref=e1742] [cursor=pointer]:
+                - generic [ref=e1744]:
+                  - img [ref=e1750]
+                  - generic [ref=e1753]:
+                    - generic [ref=e1754]: 22:16
+                    - img [ref=e1757]
+              - generic [ref=e1760]: Grab yourself a Pint Glass at https://craftcomputing.store AMD's Ryzen AI Max+ 395 is one of the fastest APUs in existence.
+          - generic [ref=e1764]:
+            - generic [ref=e1767]:
+              - link "Windows 11 Pro; AMD Ryzen AI Max+ 395 3.0GHz ... Micro Center https://www.microcenter.com › ... › Desktop Computers" [ref=e1769] [cursor=pointer]:
+                - /url: https://www.microcenter.com/product/711962/amd-ryzen-ai-halo-developer-platform-windows-11-pro
+                - heading "Windows 11 Pro; AMD Ryzen AI Max+ 395 3.0GHz ..." [level=3] [ref=e1770]
+                - generic [ref=e1776]:
+                  - generic [ref=e1778]: Micro Center
+                  - generic [ref=e1780]: https://www.microcenter.com › ... › Desktop Computers
+              - button "About this result" [ref=e1781] [cursor=pointer]:
+                - img [ref=e1784]
+            - generic [ref=e1787]:
+              - generic [ref=e1788]:
+                - emphasis [ref=e1790]: 17 minutes ago
+                - text: —
+              - generic [ref=e1791]:
+                - emphasis [ref=e1792]: AMD Ryzen AI Max+ 395 3.0GHz Processor
+                - text: ; 128GB LPDDR5x-8000 RAM; 2TB Solid State Drive; AMD Radeon 8060S Graphics; Microsoft Windows 11 Pro ...
+              - link "Read more" [ref=e1793] [cursor=pointer]:
+                - /url: https://www.microcenter.com/product/711962/amd-ryzen-ai-halo-developer-platform-windows-11-pro#:~:text=AMD%20Ryzen%20AI%20Max%2B%20395,Microsoft%20Windows%2011%20Pro
+            - generic [ref=e1795]:
+              - generic [ref=e1796]: $3,999.00
+              - text: ·
+              - generic [ref=e1798]:
+                - generic [ref=e1799]: Store nearby (
+                - button "0.6 mi" [ref=e1800]:
+                  - generic [ref=e1801]: 0.6 mi
+                - generic [ref=e1802]: )
+              - text: ·
+              - generic [ref=e1803]: 30-day returns
+          - generic [ref=e1807]:
+            - generic [ref=e1810]:
+              - link "Shop AMD Ryzen AI Max Desktops HP https://www.hp.com › HOME › DESKTOPS" [ref=e1812] [cursor=pointer]:
+                - /url: https://www.hp.com/us-en/shop/vwa/desktops/proc=AMD-Ryzen-AI-Max
+                - heading "Shop AMD Ryzen AI Max Desktops" [level=3] [ref=e1813]
+                - generic [ref=e1819]:
+                  - generic [ref=e1821]: HP
+                  - generic [ref=e1823]: https://www.hp.com › HOME › DESKTOPS
+              - button "About this result" [ref=e1824] [cursor=pointer]:
+                - img [ref=e1827]
+            - generic [ref=e1830]:
+              - generic [ref=e1831]:
+                - emphasis [ref=e1832]: Windows
+                - text: 11 ProAMD Ryzen™ AI Max PRO 385 (up to 5.0 GHz max boost clock, 32 MB L3 cache, 8 cores, 16 threads)64 GB memory;1 TB SSD storageAMD Radeon™ 8050S ...
+              - link "Read more" [ref=e1833] [cursor=pointer]:
+                - /url: https://www.hp.com/us-en/shop/vwa/desktops/proc=AMD-Ryzen-AI-Max#:~:text=Windows%2011%20ProAMD%20Ryzen%E2%84%A2%20AI,SSD%20storageAMD%20Radeon%E2%84%A2%208050S%20Graphics
+            - generic [ref=e1835]:
+              - generic [ref=e1837]:
+                - img "Rated 4.5 out of 5," [ref=e1839]:
+                  - text: "4.5"
+                  - img [ref=e1840]
+                - generic [ref=e1843]:
+                  - text: store rating (
+                  - link "984 user reviews" [ref=e1844] [cursor=pointer]:
+                    - /url: https://www.google.com/m/storepages?q=hp.com&c=US&hl=en-US
+                    - text: "984"
+                  - text: )
+              - text: ·
+              - generic [ref=e1845]: Free delivery
+              - text: ·
+              - generic [ref=e1846]: 30-day returns
+          - generic [ref=e1850]:
+            - generic [ref=e1853]:
+              - link "AMD Ryzen AI Max+ 395 Specs TechPowerUp https://www.techpowerup.com › cpu-specs › ryzen-ai-..." [ref=e1855] [cursor=pointer]:
+                - /url: https://www.techpowerup.com/cpu-specs/ryzen-ai-max-395.c3994
+                - heading "AMD Ryzen AI Max+ 395 Specs" [level=3] [ref=e1856]
+                - generic [ref=e1862]:
+                  - generic [ref=e1864]: TechPowerUp
+                  - generic [ref=e1866]: https://www.techpowerup.com › cpu-specs › ryzen-ai-...
+              - button "About this result" [ref=e1867] [cursor=pointer]:
+                - img [ref=e1870]
+            - generic [ref=e1873]:
+              - generic [ref=e1874]: Jan 6, 2025 —
+              - generic [ref=e1875]:
+                - text: The AMD Ryzen AI Max+ 395 is
+                - emphasis [ref=e1876]: a mobile processor with 16 cores
+                - text: ", launched in January 2025. It is part of the Ryzen AI Max lineup, using the Zen 5 (Strix Halo) ..."
+              - link "Read more" [ref=e1877] [cursor=pointer]:
+                - /url: https://www.techpowerup.com/cpu-specs/ryzen-ai-max-395.c3994#:~:text=The%20AMD%20Ryzen%20AI%20Max%2B,Halo)%20architecture%20with%20Socket%20FP11.
+        - generic [ref=e1879]:
+          - generic [ref=e1884]:
+            - heading "People also search for" [level=2] [ref=e1886]
+            - generic [ref=e1888]:
+              - generic [ref=e1889]:
+                - link "Ryzen AI Max+ 395 price" [ref=e1893] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+price&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhQEAE
+                  - generic [ref=e1894]:
+                    - generic [ref=e1899]: Ryzen AI Max+ 395 price
+                    - img [ref=e1903]
+                - link "Ryzen AI Max+ 395 laptop" [ref=e1908] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+laptop&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhuEAE
+                  - generic [ref=e1909]:
+                    - generic [ref=e1914]: Ryzen AI Max+ 395 laptop
+                    - img [ref=e1918]
+                - link "Ryzen AI Max+ 395 motherboard" [ref=e1923] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+motherboard&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhrEAE
+                  - generic [ref=e1924]:
+                    - generic [ref=e1929]: Ryzen AI Max+ 395 motherboard
+                    - img [ref=e1933]
+                - link "Ryzen AI Max+ 395 mini PC" [ref=e1938] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+mini+PC&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhoEAE
+                  - generic [ref=e1939]:
+                    - generic [ref=e1944]: Ryzen AI Max+ 395 mini PC
+                    - img [ref=e1948]
+              - generic [ref=e1950]:
+                - link "Ryzen AI Max 385" [ref=e1954] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max+385&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhlEAE
+                  - generic [ref=e1955]:
+                    - generic [ref=e1960]: Ryzen AI Max 385
+                    - img [ref=e1964]
+                - link "Ryzen AI Max+ 395 benchmark" [ref=e1969] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+AI+Max%2B+395+benchmark&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhiEAE
+                  - generic [ref=e1970]:
+                    - generic [ref=e1975]: Ryzen AI Max+ 395 benchmark
+                    - img [ref=e1979]
+                - link "Ryzen ai max plus 395 specs" [ref=e1984] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=Ryzen+ai+max+plus+395+specs&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhfEAE
+                  - generic [ref=e1985]:
+                    - generic [ref=e1990]: Ryzen ai max plus 395 specs
+                    - img [ref=e1994]
+                - link "AMD Ryzen AI Max+ 395 128GB" [ref=e1999] [cursor=pointer]:
+                  - /url: /search?sca_esv=b38ed05e961c07a9&q=AMD+Ryzen+AI+Max%2B+395+128GB&sa=X&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q1QJ6BAhYEAE
+                  - generic [ref=e2000]:
+                    - generic [ref=e2005]: AMD Ryzen AI Max+ 395 128GB
+                    - img [ref=e2009]
+          - navigation [ref=e2011]:
+            - heading "Page Navigation" [level=1] [ref=e2012]
+            - text: "1"
+            - link "Page 2" [ref=e2015] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=10&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAE
+              - text: "2"
+            - link "Page 3" [ref=e2017] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=20&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAG
+              - text: "3"
+            - link "Page 4" [ref=e2019] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=30&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAI
+              - text: "4"
+            - link "Page 5" [ref=e2021] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=40&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAK
+              - text: "5"
+            - link "Page 6" [ref=e2023] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=50&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAM
+              - text: "6"
+            - link "Page 7" [ref=e2025] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=60&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAO
+              - text: "7"
+            - link "Page 8" [ref=e2027] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=70&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAQ
+              - text: "8"
+            - link "Page 9" [ref=e2029] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=80&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAS
+              - text: "9"
+            - link "Page 10" [ref=e2031] [cursor=pointer]:
+              - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=90&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8tMDegQIYxAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e2033]:
+              - link "Next" [ref=e2034] [cursor=pointer]:
+                - /url: /search?q=Ryzen+AI+Max+Plus+395&sca_esv=b38ed05e961c07a9&ei=UnowaqicFO3FkPIPzvn9aA&start=10&sa=N&sstk=AU9db-CISaM_IFr6_o5BSHaZpYYGRA6nriyzFBEWytPLTs-h1yQKvdjQ0z6CdvvbhtMkO9rwhybtY0LPV3ROcUiCUJ8x58mzdS0tJg&ved=2ahUKEwiojeuzo4qVAxXtIkQIHc58Hw0Q8NMDegQIYxAW
+                - generic [ref=e2036]: Next
+        - navigation
+      - complementary "Complementary Results" [ref=e2037]:
+        - heading "Complementary Results" [level=2] [ref=e2038]
+    - contentinfo [ref=e2039]:
+      - heading "Footer Links" [level=1] [ref=e2040]
+      - generic [ref=e2044]:
+        - generic [ref=e2048]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e2050] [cursor=pointer]:
+            - generic [ref=e2051]: 92780, Tustin, CA
+            - generic [ref=e2053]:
+              - text: "-"
+              - generic [ref=e2054]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e2056] [cursor=pointer]: Update location
+        - generic [ref=e2059]:
+          - link "Help" [ref=e2060] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e2061] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e2062] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e2063] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

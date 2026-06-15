@@ -1,0 +1,282 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=e7]:
+    - generic [ref=e12]:
+      - link "AMD Website Accessibility Statement" [ref=e14] [cursor=pointer]:
+        - /url: /en/site-notifications/accessibility-statement.html
+      - banner [ref=e18]:
+        - navigation [ref=e19]:
+          - generic [ref=e20]:
+            - link "AMD Logo" [ref=e22] [cursor=pointer]:
+              - /url: /en.html
+              - img "AMD Logo" [ref=e23]
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - button "Products" [ref=e27] [cursor=pointer]: Products
+                - text: 
+              - listitem [ref=e28]:
+                - button "Solutions" [ref=e29] [cursor=pointer]: Solutions
+                - text: 
+              - listitem [ref=e30]:
+                - button "Resources & Support" [ref=e31] [cursor=pointer]: Resources & Support
+                - text: 
+              - listitem [ref=e32]:
+                - button "Shop" [ref=e33] [cursor=pointer]: Shop
+                - text: 
+            - generic [ref=e40]:
+              - button "Signed Out User" [ref=e42] [cursor=pointer]:
+                - generic [ref=e43]: 
+              - button "Language" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46]: 
+              - button "Search" [ref=e48] [cursor=pointer]:
+                - generic [ref=e49]: 
+              - generic [ref=e53]:
+                - button "Shopping Cart" [ref=e54] [cursor=pointer]:
+                  - generic [ref=e55]: 
+                - text: 
+    - generic:
+      - complementary
+    - navigation [ref=e60]:
+      - generic [ref=e62]:
+        - text:  
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - link "Overview" [ref=e67] [cursor=pointer]:
+              - /url: "#product-overview"
+          - listitem [ref=e68]:
+            - link "Specifications" [ref=e69] [cursor=pointer]:
+              - /url: "#product-specs"
+    - complementary [ref=e71]:
+      - navigation "Breadcrumb" [ref=e76]:
+        - list [ref=e77]:
+          - listitem [ref=e78]:
+            - link "Welcome to AMD" [ref=e79] [cursor=pointer]:
+              - /url: https://www.amd.com/en.html
+              - generic [ref=e80]: 
+          - listitem [ref=e81]:
+            - text: 
+            - link "Products" [ref=e82] [cursor=pointer]:
+              - /url: https://www.amd.com/en/products.html
+          - listitem [ref=e83]:
+            - text: 
+            - link "Ryzen Processors for Laptops" [ref=e84] [cursor=pointer]:
+              - /url: https://www.amd.com/en/products/processors/laptop/ryzen.html
+          - listitem [ref=e85]:  AMD Ryzen™ AI Max+ 395
+    - generic:
+      - complementary
+    - main [ref=e87]:
+      - generic [ref=e92]:
+        - generic [ref=e97] [cursor=pointer]:
+          - list [ref=e99]:
+            - listitem [ref=e100]:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: Image Zoom
+              - button [ref=e101]:
+                - figure [ref=e102]:
+                  - img "AMD Ryzen™ AI Max+ 395" [ref=e104]
+          - generic:    
+        - generic [ref=e105]:
+          - heading "AMD Ryzen™ AI Max+ 395" [level=1] [ref=e106]
+          - paragraph [ref=e107]: The ultimate next gen AI PCs
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Drivers & Support" [ref=e113] [cursor=pointer]:
+                - /url: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-ai-max-series/amd-ryzen-ai-max-plus-395.html
+                - text: Drivers & Support
+                - generic [ref=e114]: 
+          - generic [ref=e118]:
+            - link "Learn More" [ref=e120] [cursor=pointer]:
+              - /url: /en/products/processors/laptop/ryzen.html
+            - link "Learn More about Ryzen AI" [ref=e122] [cursor=pointer]:
+              - /url: /en/products/processors/consumer/ryzen-ai.html
+          - article [ref=e126]:
+            - button "Expand All" [ref=e127] [cursor=pointer]
+            - list [ref=e128]:
+              - listitem [ref=e129]:
+                - generic [ref=e130]:
+                  - heading "General Specifications" [level=2] [ref=e131]:
+                    - button "General Specifications" [ref=e132] [cursor=pointer]
+                  - text:  
+              - listitem [ref=e133]:
+                - heading "Connectivity" [level=2] [ref=e135]:
+                  - button "Connectivity" [ref=e136] [cursor=pointer]
+              - listitem [ref=e137]:
+                - heading "Graphics Capabilities" [level=2] [ref=e139]:
+                  - button "Graphics Capabilities" [ref=e140] [cursor=pointer]
+              - listitem [ref=e141]:
+                - heading "AI Engine Capabilities" [level=2] [ref=e143]:
+                  - button "AI Engine Capabilities" [ref=e144] [cursor=pointer]
+              - listitem [ref=e145]:
+                - heading "Product IDs" [level=2] [ref=e147]:
+                  - button "Product IDs" [ref=e148] [cursor=pointer]
+              - listitem [ref=e149]:
+                - heading "Security" [level=2] [ref=e151]:
+                  - button "Security" [ref=e152] [cursor=pointer]
+    - generic:
+      - complementary
+    - complementary [ref=e154]:
+      - paragraph [ref=e171]:
+        - subscript [ref=e172]: Certain AMD technologies may require third-party enablement or activation. Supported features may vary by operating system. Please confirm with system manufacturer for specific features. No technology or product can be completely secure.
+    - contentinfo [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e185]:
+          - link "Subscribe to the latest news from AMD" [ref=e191] [cursor=pointer]:
+            - /url: /en/preferences/sign-up.html
+          - list [ref=e193]:
+            - listitem [ref=e194]:
+              - link " Linkedin" [ref=e195] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/amd
+                - generic [ref=e196]: 
+                - generic [ref=e197]: Linkedin
+            - listitem [ref=e198]:
+              - button "xtwitter" [ref=e200] [cursor=pointer]:
+                - generic [ref=e201]: 
+            - listitem [ref=e202]:
+              - link " Instagram" [ref=e203] [cursor=pointer]:
+                - /url: https://www.instagram.com/amd
+                - generic [ref=e204]: 
+                - generic [ref=e205]: Instagram
+            - listitem [ref=e206]:
+              - button "youtube" [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: 
+            - listitem [ref=e210]:
+              - link " Facebook" [ref=e211] [cursor=pointer]:
+                - /url: http://www.facebook.com/amd
+                - generic [ref=e212]: 
+                - generic [ref=e213]: Facebook
+            - listitem [ref=e214]:
+              - button "discord" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: 
+            - listitem [ref=e218]:
+              - link " Subscriptions" [ref=e219] [cursor=pointer]:
+                - /url: https://www.amd.com/en/preferences.html
+                - generic [ref=e220]: 
+                - generic [ref=e221]: Subscriptions
+        - generic [ref=e223]:
+          - generic [ref=e228]:
+            - heading "Company" [level=6] [ref=e231]:
+              - button "Company"
+            - list [ref=e234]:
+              - listitem [ref=e235]:
+                - link "About AMD" [ref=e236] [cursor=pointer]:
+                  - /url: /en/corporate.html
+              - listitem [ref=e237]:
+                - link "Management Team" [ref=e238] [cursor=pointer]:
+                  - /url: /en/corporate/leadership.html
+              - listitem [ref=e239]:
+                - link "Corporate Responsibility" [ref=e240] [cursor=pointer]:
+                  - /url: /en/corporate/corporate-responsibility.html
+              - listitem [ref=e241]:
+                - link "Careers" [ref=e242] [cursor=pointer]:
+                  - /url: /en/corporate/careers.html
+              - listitem [ref=e243]:
+                - link "Contact Us" [ref=e244] [cursor=pointer]:
+                  - /url: /en/corporate/contacts.html
+          - generic [ref=e248]:
+            - heading "News & Events" [level=6] [ref=e251]:
+              - button "News & Events"
+            - list [ref=e254]:
+              - listitem [ref=e255]:
+                - link "Newsroom" [ref=e256] [cursor=pointer]:
+                  - /url: /en/newsroom.html
+              - listitem [ref=e257]:
+                - link "Events" [ref=e258] [cursor=pointer]:
+                  - /url: /en/corporate/events.html
+              - listitem [ref=e259]:
+                - link "Media Library" [ref=e260] [cursor=pointer]:
+                  - /url: /en/newsroom/media-library.html
+          - generic [ref=e264]:
+            - heading "Resources" [level=6] [ref=e267]:
+              - button "Resources"
+            - list [ref=e270]:
+              - listitem [ref=e271]:
+                - link "Developer Central" [ref=e272] [cursor=pointer]:
+                  - /url: /en/developer.html
+              - listitem [ref=e273]:
+                - link "Blogs" [ref=e274] [cursor=pointer]:
+                  - /url: /en/blogs.html
+              - listitem [ref=e275]:
+                - link "Case Studies" [ref=e276] [cursor=pointer]:
+                  - /url: /en/resources/case-studies.html
+              - listitem [ref=e277]:
+                - link "Webinars" [ref=e278] [cursor=pointer]:
+                  - /url: https://webinar.amd.com/meet-the-experts-hub/en/home
+              - listitem [ref=e279]:
+                - link "Explore Resources" [ref=e280] [cursor=pointer]:
+                  - /url: /en/resources.html
+          - generic [ref=e284]:
+            - heading "Partners" [level=6] [ref=e287]:
+              - button "Partners"
+            - list [ref=e290]:
+              - listitem [ref=e291]:
+                - link "AMD Partner Hub" [ref=e292] [cursor=pointer]:
+                  - /url: /en/partner.html
+              - listitem [ref=e293]:
+                - link "Authorized Distributors" [ref=e294] [cursor=pointer]:
+                  - /url: /en/partner/about-partners/authorized-distributors.html
+              - listitem [ref=e295]:
+                - link "AMD University Program" [ref=e296] [cursor=pointer]:
+                  - /url: /en/corporate/university-program.html
+          - generic [ref=e300]:
+            - heading "Investors" [level=6] [ref=e303]:
+              - button "Investors"
+            - list [ref=e306]:
+              - listitem [ref=e307]:
+                - link "Investor Relations" [ref=e308] [cursor=pointer]:
+                  - /url: https://ir.amd.com/
+              - listitem [ref=e309]:
+                - link "Financial Information" [ref=e310] [cursor=pointer]:
+                  - /url: https://ir.amd.com/financial-information
+              - listitem [ref=e311]:
+                - link "Board of Directors" [ref=e312] [cursor=pointer]:
+                  - /url: https://ir.amd.com/leadership-governance/board-of-directors
+              - listitem [ref=e313]:
+                - link "Governance Documents" [ref=e314] [cursor=pointer]:
+                  - /url: https://ir.amd.com/leadership-governance/governance-documents
+              - listitem [ref=e315]:
+                - link "SEC Filings" [ref=e316] [cursor=pointer]:
+                  - /url: https://ir.amd.com/sec-filings
+        - generic [ref=e318]:
+          - list [ref=e321]:
+            - listitem [ref=e322]:
+              - link "Terms and Conditions" [ref=e323] [cursor=pointer]:
+                - /url: /en/legal/copyright.html
+              - text: "|"
+            - listitem [ref=e324]:
+              - link "Privacy" [ref=e325] [cursor=pointer]:
+                - /url: /en/legal/privacy.html
+              - text: "|"
+            - listitem [ref=e326]:
+              - link "Trademarks" [ref=e327] [cursor=pointer]:
+                - /url: /en/legal/trademarks.html
+              - text: "|"
+            - listitem [ref=e328]:
+              - link "Supply Chain Transparency" [ref=e329] [cursor=pointer]:
+                - /url: https://www.amd.com/content/dam/amd/en/documents/corporate/cr/supply-chain-transparency.pdf
+              - text: "|"
+            - listitem [ref=e330]:
+              - link "Fair & Open Competition" [ref=e331] [cursor=pointer]:
+                - /url: /en/legal/competition.html
+              - text: "|"
+            - listitem [ref=e332]:
+              - link "UK Tax Strategy" [ref=e333] [cursor=pointer]:
+                - /url: https://www.amd.com/content/dam/amd/en/documents/corporate/amd-uk-tax-strategy.pdf
+              - text: "|"
+            - listitem [ref=e334]:
+              - link "Cookies Policy" [ref=e335] [cursor=pointer]:
+                - /url: /en/legal/cookies.html
+              - text: "|"
+            - listitem [ref=e336]:
+              - button "Cookie Settings" [ref=e337] [cursor=pointer]
+          - generic [ref=e340]: © 2026 Advanced Micro Devices, Inc.
+    - generic:
+      - generic:
+        - button "Feedback" [ref=e341] [cursor=pointer]
+        - generic: 
+  - generic [ref=e342]:
+    - button "Open chat" [ref=e343] [cursor=pointer]:
+      - generic [ref=e344]: 
+    - text:   

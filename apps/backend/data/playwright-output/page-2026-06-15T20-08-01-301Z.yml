@@ -1,0 +1,952 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: ducks ducks
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dducks&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBaie_kgjjuZt2chli7LRsYR14rj1vQfrYad91dTWk4Xkt52BIDCbPFHg9oOVVY3kgh81v7BGzy5NAVwSS_K7DHu-aeuB3JjwRCYdrz_HZwfM6kJ0Mg&aep=1&ntc=1&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ2J8OegQIChAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Images" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBaie_kgjjuZt2chli7LRsYR14rj1vQfrYad91dTWk4Xkt52BIDCbPFHg9oOVVY3kgh81v7BGzy5NAVwSS_K7DHu-aeuB3JjwRCYdrz_HZwfM6kJ0Mg&q=ducks&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQtKgLegQIDhAB
+              - generic [ref=e84]: Images
+          - listitem [ref=e85]:
+            - link "Videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBaie_kgjjuZt2chli7LRsYR14rj1vQfrYad91dTWk4Xkt52BIDCbPFHg9oOVVY3kgh81v7BGzy5NAVwSS_K7DHu-aeuB3JjwRCYdrz_HZwfM6kJ0Mg&q=ducks&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQtKgLegQIDRAB
+              - generic [ref=e88]: Videos
+          - listitem [ref=e89]:
+            - link "Short videos" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBaie_kgjjuZt2chli7LRsYR14rj1vQfrYad91dTWk4Xkt52BIDCbPFHg9oOVVY3kgh81v7BGzy5NAVwSS_K7DHu-aeuB3JjwRCYdrz_HZwfM6kJ0Mg&q=ducks&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQs6gLegQIDxAB
+              - generic [ref=e92]: Short videos
+          - listitem [ref=e93]:
+            - link "News" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&q=ducks&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBaie_kgjjuZt2chli7LRsYR14rj1vQfrYad91dTWk4Xkt52BIDCbPFHg9oOVVY3kgh81v7BGzy5NAVwSS_K7DHu-aeuB3JjwRCYdrz_HZwfM6kJ0Mg&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ0pQJegQIERAB
+              - generic [ref=e96]: News
+          - listitem [ref=e97]:
+            - link "Shopping" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxqtD2OJgNgqfuyx0ErWHyBaie_kgjjuZt2chli7LRsYR14rj1vQfrYad91dTWk4Xkt52BIDCbPFHg9oOVVY3kgh81v7BGzy5NAVwSS_K7DHu-aeuB3JjwRCYdrz_HZwfM6kJ0Mg&q=ducks&ved=1t:220175&ictx=111
+              - generic [ref=e100]: Shopping
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e118]:
+      - generic [ref=e135]:
+        - heading "Thinking" [level=2] [ref=e139]:
+          - generic [ref=e140]: Thinking
+        - progressbar "Generating" [ref=e141]
+      - main [ref=e143]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e150]:
+              - generic [ref=e154]:
+                - generic [ref=e156]:
+                  - button "Thumbnail image for Anaheim Ducks" [ref=e160] [cursor=pointer]
+                  - generic [ref=e163]:
+                    - heading "Anaheim Ducks" [level=2] [ref=e166]
+                    - generic [ref=e167]:
+                      - generic [ref=e169]: Ice hockey team
+                      - button "More options for Anaheim Ducks" [ref=e176] [cursor=pointer]:
+                        - img "More options for Anaheim Ducks" [ref=e177]:
+                          - img [ref=e179]
+                - generic [ref=e186]:
+                  - complementary "Featured results" [ref=e196]:
+                    - generic [ref=e202] [cursor=pointer]:
+                      - button "Players" [ref=e203]:
+                        - generic [ref=e204]: Players
+                        - generic:
+                          - generic:
+                            - img
+                      - generic [ref=e208]:
+                        - generic [ref=e210]: Cutter Gauthier, Leo Carlsson, Mason McTavish, Radko Gudas, Beckett Sennecke, John Carlson, Lukáš Dostál, Jackson LaCombe, Jacob Trouba, Olen Zellweger, Chris Kreider, Troy Terry, Ryan Poehling, Mikael Granlund, Pavel Mintyukov, Frank Vatrano, Alex Killorn, Ville Husso, Ross Johnston, Tyson Hinds, Tim Washe, Ian Moore, Jansen Harkins, Drew Helleson, Damian Clara, Vyacheslav Buteyets, Jeffrey Viel
+                        - generic [ref=e215]:
+                          - button "+26"
+                  - generic [ref=e225]:
+                    - generic [ref=e229]:
+                      - heading "Description" [level=3] [ref=e230]
+                      - generic [ref=e231]: The Anaheim Ducks are a professional ice hockey team based in Anaheim, California. The Ducks compete in the National Hockey League as a member of the Pacific Division in the Western Conference. The team plays its home games at Honda Center, and is owned by Henry and Susan Samueli.
+                      - link "Wikipedia" [ref=e233] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/wiki/Anaheim_Ducks
+                    - generic [ref=e234]:
+                      - generic [ref=e238]:
+                        - generic [ref=e239]: Location
+                        - link "Anaheim, CA" [ref=e242] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=Anaheim,+California&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRkfIONUyxnCSfO3mrrfwJ5qNQo9jRk5cvB5ZHTGAZDM4vfMOXgVAfL1y1OeMC6zfPx7DP_KsKprRWzldrt7zu9r-A3JBnNs8RhpW0BHuc8uVvQYlMZ_gEpBZyWVFSjjrxhcHiw_sWV9H8Vei2OfaSQrvgKYNSxUe0ahDNxrHpoA9aXCxzg%3D%3D&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgsEAI
+                      - generic [ref=e246]:
+                        - generic [ref=e247]: Arena/Stadium
+                        - link "Honda Center" [ref=e250] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=Honda+Center&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmiJ_yjyF_BzOdQ5jm4W5t-3l-MEmELjqO7QGYAZwPbu7xdkxBN7hsLca7j3kuA_GTcavtfsEM2W-GwzQHcZH5hZTxKONp-wU0p4fETDgnoqYg2PyChz2c4DU1Ip-_7e10tX1Us76XKYg4ae05xHKCpUOjjy4&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAg2EAI
+                      - generic [ref=e254]:
+                        - generic [ref=e255]: Owner
+                        - link "Henry Samueli" [ref=e258] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=Henry+Samueli&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmt6sRgAeAUDm9g7eVGuaNHj7llfjkpifBcTrPTT98DI8r7GVcqp3YJWAPEgeJmooM8DqrjveJFCiBtOhM7v45ltzq1rN1AolCN5IQdFBHJKANJ1jfH0uROHO3tv2HJeDh86j8rJvL79sjrnNB4UikK7C5cgT&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAg0EAI
+                      - generic [ref=e262]:
+                        - generic [ref=e263]: Mascot
+                        - link "Wild Wing" [ref=e266] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=&si=AL3DRZGDMkmBg1SB5TH8o8Xeh03tgmwpgZCgiYi5BFB_ELNOTCbVS-Hs5jFze8P0G5sDyMSKmgcoArhicCTHjz9rC9aXdpAgBCEru8HGlnJJMShPsBzWLjPLSUd3-bVeXlreh-TXW-Vo5JCtAjng5QguW2uIdVhYBgy3c7Pl5dO-7a2x5h1cbT6rebZzt6n1Md4MtECpZ49O&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAg1EAI
+                      - generic [ref=e270]:
+                        - generic [ref=e271]: Head coach
+                        - link "Joel Quenneville" [ref=e274] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=Joel+Quenneville&stick=H4sIAAAAAAAAAONgVuLUz9U3ME7OSatcxCrglZ-aoxBYmpqXl1qWmZOTCgA9M70ZIAAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgwEAI
+                      - generic [ref=e278]:
+                        - generic [ref=e279]: Division
+                        - link "Pacific Division" [ref=e282] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=NHL+Pacific+Division&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmmzfF57cbNLC_OsWe9ekA0GPofbpHeqsJnoYJQRNVtJ-ynxXRt3I0iwEUKILt_GFJbD8J3nJgzLhz5_cSA2AFKSlFkqlMgAl41TUlMu5cXLd4HVLIos-4cDQO0zGcQJZzseoQiTgVioBC26L6lBLUJDVBthNbgttptkMmmFexyYpHSdAkw%3D%3D&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgzEAI
+                      - generic [ref=e286]:
+                        - generic [ref=e287]: General manager
+                        - link "Pat Verbeek" [ref=e290] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=Pat+Verbeek&stick=H4sIAAAAAAAAAONgVuLUz9U3ME8yN01fxModkFiiEJZalJSamg0ARji-PRsAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgvEAI
+                      - generic [ref=e294]:
+                        - generic [ref=e295]: Captain
+                        - link "Radko Gudas" [ref=e298] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=Radko+Gudas&stick=H4sIAAAAAAAAAONgVuLSz9U3SLcsyTApWsTKHZSYkp2v4F6aklgMAMTBgI8cAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgrEAI
+                      - generic [ref=e302]:
+                        - generic [ref=e303]: Conference
+                        - link "Western" [ref=e306] [cursor=pointer]:
+                          - /url: /search?sca_esv=6eb3871cd6a786af&q=Western&stick=H4sIAAAAAAAAAONgVuLUz9U3SLbMizdexMoenlpcklqUBwBgJqYFFwAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgtEAI
+                      - generic [ref=e310]:
+                        - generic [ref=e311]: Founded
+                        - generic [ref=e313]: "1993"
+                      - generic [ref=e317]:
+                        - generic [ref=e318]: History
+                        - generic [ref=e320]: Mighty Ducks of Anaheim; 1993–2006; Anaheim Ducks; 2006–present
+                      - generic [ref=e324]:
+                        - generic [ref=e325]: Media
+                        - generic [ref=e327]:
+                          - link "Victory+" [ref=e328] [cursor=pointer]:
+                            - /url: /search?sca_esv=6eb3871cd6a786af&q=Victory%2B&stick=H4sIAAAAAAAAAONgVuLVT9c3NKw0z6iqLIovWMTKEZaZXJJfVKkNAP5eL1QcAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgqEAI
+                          - text: ;
+                          - link "KCOP" [ref=e329] [cursor=pointer]:
+                            - /url: /search?sca_esv=6eb3871cd6a786af&q=KCOP&stick=H4sIAAAAAAAAAONgVuLUz9U3SC6oyjBdxMri7ewfAAABCjmOFAAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgqEAM
+                          - text: (
+                          - link "Fox 11" [ref=e330] [cursor=pointer]:
+                            - /url: /search?sca_esv=6eb3871cd6a786af&q=Fox+11&stick=H4sIAAAAAAAAAONgVuLUz9U3MLbMrYhfxMrmll-hYGgIAHQvCTQWAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgqEAQ
+                          - text: Plus);
+                          - link "KTTV (Fox 11" [ref=e331] [cursor=pointer]:
+                            - /url: /search?sca_esv=6eb3871cd6a786af&q=KTTV+(Fox+11&stick=H4sIAAAAAAAAAONgVuLUz9U3MLbMrYhfxMrjHRISpqDhll-hYGgIAKiOmMQcAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgqEAU
+                          - text: );
+                          - link "Ducks Stream" [ref=e332] [cursor=pointer]:
+                            - /url: /search?sca_esv=6eb3871cd6a786af&q=Ducks+Stream&stick=H4sIAAAAAAAAAONgVuLVT9c3NCw2r8rNTUpJW8TK41KanF2sEFxSlJqYCwB7WuVFIAAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgqEAY
+                          - text: "on"
+                          - link "TuneIn" [ref=e333] [cursor=pointer]:
+                            - /url: /search?sca_esv=6eb3871cd6a786af&q=TuneIn&stick=H4sIAAAAAAAAAONgVuLSz9U3MCqqNK7IWMTKFlKal-qZBwCUagbpFwAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQmxN6BAgqEAc
+                  - generic [ref=e337]:
+                    - heading "Players" [level=3] [ref=e340]
+                    - generic [ref=e345]:
+                      - link "Cutter Gauthier (Forward)" [ref=e347] [cursor=pointer]:
+                        - /url: /search?sca_esv=6eb3871cd6a786af&q=Cutter+Gauthier&stick=H4sIAAAAAAAAAONgFuLQz9U3yMorSFbi1U_XNzTMMjXOrUgyS9ESCi7ILyopDklNzA3JD8ovLkktWsTK71xaAmQouCeWlmRkphbtYGUEAMCnBShEAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQxA16BAgnEAM
+                        - img [ref=e350]
+                        - generic [ref=e351]: Cutter Gauthier
+                        - generic "Cutter Gauthier (Forward)" [ref=e352]: Forward
+                      - link "Leo Carlsson (Center)" [ref=e354] [cursor=pointer]:
+                        - /url: /search?sca_esv=6eb3871cd6a786af&q=Leo+Carlsson&stick=H4sIAAAAAAAAAONgFuLQz9U3yMorSFbi1U_XNzRMzygzLcqpLNASCi7ILyopDklNzA3JD8ovLkktWsTK45Oar-CcWJRTXJyft4OVEQAvoUjsQQAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQxA16BAgnEAY
+                        - img [ref=e357]
+                        - generic [ref=e358]: Leo Carlsson
+                        - generic "Leo Carlsson (Center)" [ref=e359]: Center
+                      - link "Mason McTavish (Center)" [ref=e361] [cursor=pointer]:
+                        - /url: /search?sca_esv=6eb3871cd6a786af&q=Mason+McTavish&stick=H4sIAAAAAAAAAONgFuLQz9U3yMorSFbi1U_XNzTMMDBNKs4qqdQSCi7ILyopDklNzA3JD8ovLkktWsTK55tYnJ-n4JsckliWWZyxg5URAJPzYZRDAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQxA16BAgnEAk
+                        - img [ref=e364]
+                        - generic [ref=e365]: Mason McTavish
+                        - generic "Mason McTavish (Center)" [ref=e366]: Center
+                      - link "Radko Gudas (Defenseman)" [ref=e368] [cursor=pointer]:
+                        - /url: /search?sca_esv=6eb3871cd6a786af&q=Radko+Gudas&stick=H4sIAAAAAAAAAONgFuLQz9U3yMorSFbiArHSLUsyTIq0hIIL8otKikNSE3ND8oPyi0tSixaxcgclpmTnK7iXpiQW72BlBACPlAZpPQAAAA&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQxA16BAgnEAw
+                        - img [ref=e371]
+                        - generic [ref=e372]: Radko Gudas
+                        - generic "Radko Gudas (Defenseman)" [ref=e373]: Defenseman
+                  - generic [ref=e377]:
+                    - heading "Profiles" [level=3] [ref=e380]
+                    - generic [ref=e384]:
+                      - link "Anaheim Ducks Instagram" [ref=e388] [cursor=pointer]:
+                        - /url: https://www.instagram.com/anaheimducks/
+                        - generic [ref=e389]:
+                          - generic "Anaheim Ducks" [ref=e391]
+                          - generic [ref=e394]: Instagram
+                      - link "Anaheim Ducks X (Twitter)" [ref=e398] [cursor=pointer]:
+                        - /url: https://x.com/AnaheimDucks
+                        - generic [ref=e399]:
+                          - generic "Anaheim Ducks" [ref=e401]
+                          - generic [ref=e404]: X (Twitter)
+                      - link "Anaheim Ducks YouTube" [ref=e408] [cursor=pointer]:
+                        - /url: https://www.youtube.com/c/AnaheimDucksOfficial
+                        - generic [ref=e409]:
+                          - generic "Anaheim Ducks" [ref=e411]
+                          - generic [ref=e414]: YouTube
+                      - link "Anaheim Ducks Facebook" [ref=e418] [cursor=pointer]:
+                        - /url: https://www.facebook.com/anaheimducks
+                        - generic [ref=e419]:
+                          - generic "Anaheim Ducks" [ref=e421]
+                          - generic [ref=e424]: Facebook
+                  - generic [ref=e428]:
+                    - heading "People also search for" [level=3] [ref=e431]
+                    - list [ref=e438]:
+                      - listitem [ref=e440]:
+                        - generic [ref=e441]:
+                          - link "Edmonton Oilers":
+                            - /url: /search?sca_esv=6eb3871cd6a786af&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRs6tTmiFV5CjAcDtXuuqMk30chFRW9S1P02aRjvrEc8cHSx3FYJKDwOybavOsO8wK2EG3lPe-sKFgOOp_-yQfxpX1Z2_1xPFnTUXfZqspXXnyS0iQiKx0auBmfRG80jbzJ5_Wq7TfcmKaJiiIdeRQLLVZWM8WHe2lHs6u4AWo4Ys69psbZyufqpQiAqK8DW0hl9UApSEfXTspcRiBGLoi4Vo1rCK71_-aWUz_L9tj86ctz96Dv5RhmOqI9IKSsgXx9SWI1s%3D&q=Edmonton+Oilers&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQs9oBKAB6BAgmEAU
+                          - heading [level=3] [ref=e446]:
+                            - generic [ref=e447]: Edmonton Oilers
+                      - listitem [ref=e449]:
+                        - generic [ref=e450]:
+                          - link "Los Angeles Kings":
+                            - /url: /search?sca_esv=6eb3871cd6a786af&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRqmYAudbzpBNlHvhDUxH_6zXRYA1Ce5yk4iq778FeeECx_lJ5G8BJ49hVuJvu8V7n5xYuDRlS4WDDL6DJ27irNYc4nVN4wKL2gGpWCrStad0g2m3eNepNdYEhXL_lFROXnMmawlLvdHSS-b1AyY9x_GhMWyY0feJjwRKsbKKMy4u1Pd6YAkyl-J49KIHUWGRtfSBeLEdPg1NEHcGLlBnbLN9PJr8Jhxbx0sS4C0oYPxYqu2ASjPsSdttclj3nVlvNAOS2iY%3D&q=Los+Angeles+Kings&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQs9oBKAB6BAgmEAk
+                          - heading [level=3] [ref=e455]:
+                            - generic [ref=e456]: Los Angeles Kings
+                      - listitem [ref=e458]:
+                        - generic [ref=e459]:
+                          - link "Vegas Golden Knights":
+                            - /url: /search?sca_esv=6eb3871cd6a786af&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnccvHzTNL4QHqLxGZJjWHfqEfKW-LX-lUSUL8OBR_wcijyDs8sa4ITD-Ye3Cyy3k4To0DeAA9mHFH7WyZ5SqlK15QSjrVaToIBjajq-VRx3p3HfDR8W-QHil1wWW8hIP1QEauyf0Rs8WB0gawiGIrcNY8D3nozhHQtpGaMb4cWmIfimH08Tkc7Jho7PvNGN3wZaAkYlrp5KF2y_nnnFv7y2RWsUXGoWThI98gJXWi5VnaFiVf8KEnPogZB7Kj2G79NJh5NdH3df-ndccfFOi8G8QSo4f&q=Vegas+Golden+Knights&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQs9oBKAB6BAgmEA0
+                          - heading [level=3] [ref=e464]:
+                            - generic [ref=e465]: Vegas Golden Knights
+                      - listitem [ref=e467]:
+                        - generic [ref=e468]:
+                          - link "Los Angeles Angels":
+                            - /url: /search?sca_esv=6eb3871cd6a786af&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmoqOM5-t5UmycSp2BDxRBjmoKgPil7ZuviyDbKORfavdrCF4REiP7sFHGVK9_9NYVe0odciUEORrL48voxDXWuUtH_sXAkgAHML9uR8Ke0Yketmr63ir8DrXa4R3n_9KDwxKF7vOH5Bt0qZbsIu5vNHRWLgWNb0JKpcAPTKKVYurhx5M_qNWID_eLsN5hNY7C4NJ3bVpLZEGIZviUsZf8FvPrMZbq_3_pZIg9mVwc0tcyBMcgM3M4Hsg1Rxq_jM-XHh0AN8%3D&q=Los+Angeles+Angels&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQs9oBKAB6BAgmEBE
+                          - heading [level=3] [ref=e473]:
+                            - generic [ref=e474]: Los Angeles Angels
+              - button "Feedback" [ref=e476] [cursor=pointer]:
+                - generic [ref=e477]: Feedback
+            - generic [ref=e479]:
+              - heading "Web results" [level=2] [ref=e480]
+              - generic [ref=e481]:
+                - generic [ref=e484]:
+                  - link "Official Anaheim Ducks Website NHL.com https://www.nhl.com › ducks" [ref=e486] [cursor=pointer]:
+                    - /url: https://www.nhl.com/ducks/
+                    - heading "Official Anaheim Ducks Website" [level=3] [ref=e487]
+                    - generic [ref=e493]:
+                      - generic [ref=e495]: NHL.com
+                      - generic [ref=e497]: https://www.nhl.com › ducks
+                  - button "About this result" [ref=e498] [cursor=pointer]:
+                    - img [ref=e501]
+                - generic [ref=e505]:
+                  - emphasis [ref=e506]: The official National Hockey League website
+                  - text: including news, rosters, stats, schedules, teams, and video.
+          - generic [ref=e510]:
+            - generic [ref=e513]:
+              - link "Duck Wikipedia https://en.wikipedia.org › wiki › Duck" [ref=e515] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Duck
+                - heading "Duck" [level=3] [ref=e516]
+                - generic [ref=e522]:
+                  - generic [ref=e524]: Wikipedia
+                  - generic [ref=e526]: https://en.wikipedia.org › wiki › Duck
+              - button "About this result" [ref=e527] [cursor=pointer]:
+                - img [ref=e530]
+            - generic [ref=e533]:
+              - generic [ref=e534]:
+                - emphasis [ref=e535]: Duck
+                - text: is the common name for numerous species of waterfowl in the family Anatidae. Ducks are generally smaller and shorter-necked than swans and geese.
+              - link "Read more" [ref=e536] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Duck#:~:text=Duck%20is%20the%20common%20name,members%20of%20the%20same%20family.
+          - generic [ref=e540]:
+            - generic [ref=e543]:
+              - link "Anaheim Ducks (@anaheimducks) Instagram · anaheimducks 623.1K+ followers" [ref=e545] [cursor=pointer]:
+                - /url: https://www.instagram.com/anaheimducks/?hl=en
+                - heading "Anaheim Ducks (@anaheimducks)" [level=3] [ref=e546]
+                - generic [ref=e552]:
+                  - generic [ref=e554]: Instagram · anaheimducks
+                  - generic [ref=e556]: 623.1K+ followers
+              - button "About this result" [ref=e557] [cursor=pointer]:
+                - img [ref=e560]
+            - generic [ref=e564]:
+              - text: 623K followers · 16K posts ·
+              - emphasis [ref=e565]: Official Instagram of the Anaheim Ducks
+              - text: "and the best logo in sports #FlyTogether."
+            - link "ducks images from www.instagram.com" [ref=e567] [cursor=pointer]:
+              - /url: https://www.instagram.com/anaheimducks/?hl=en
+          - generic [ref=e584]:
+            - heading "Images" [level=2] [ref=e588]
+            - generic [ref=e592]:
+              - generic [ref=e596] [cursor=pointer]:
+                - link "10 Facts About Ducks - FOUR PAWS International - Animal ... Four Paws":
+                  - /url: https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-facts-about-ducks
+                - button "10 Facts About Ducks - FOUR PAWS International - Animal ..." [ref=e598]:
+                  - img "10 Facts About Ducks - FOUR PAWS International - Animal ..." [ref=e600]
+                - generic [ref=e602]:
+                  - generic [ref=e604]: 10 Facts About Ducks - FOUR PAWS International - Animal ...
+                  - generic [ref=e605]:
+                    - generic [ref=e612]: Four Paws
+                    - button "About this result" [ref=e615]:
+                      - img [ref=e618]
+              - generic [ref=e623] [cursor=pointer]:
+                - link "Ten Things You Didn't Know About Ducks Farm Sanctuary":
+                  - /url: https://www.farmsanctuary.org/news-stories/ten-facts-about-ducks/
+                - button "Ten Things You Didn't Know About Ducks" [ref=e625]:
+                  - img "Ten Things You Didn't Know About Ducks" [ref=e627]
+                - generic [ref=e629]:
+                  - generic [ref=e631]: Ten Things You Didn't Know About Ducks
+                  - generic [ref=e632]:
+                    - generic [ref=e639]: Farm Sanctuary
+                    - button "About this result" [ref=e642]:
+                      - img [ref=e645]
+              - generic [ref=e650] [cursor=pointer]:
+                - link "Duck - Wikipedia Wikipedia":
+                  - /url: https://en.wikipedia.org/wiki/Duck
+                - button "Duck - Wikipedia" [ref=e652]:
+                  - img "Duck - Wikipedia" [ref=e654]
+                - generic [ref=e656]:
+                  - generic [ref=e658]: Duck - Wikipedia
+                  - generic [ref=e659]:
+                    - generic [ref=e666]: Wikipedia
+                    - button "About this result" [ref=e669]:
+                      - img [ref=e672]
+            - button "Show more images" [ref=e675] [cursor=pointer]:
+              - separator [ref=e676]
+              - generic [ref=e677]:
+                - generic [ref=e678]: Show more images
+                - img [ref=e680]
+          - generic [ref=e684]:
+            - heading "Web results" [level=2] [ref=e685]
+            - generic [ref=e686]:
+              - generic [ref=e689]:
+                - 'link "Ducks Unlimited: Home Ducks Unlimited https://www.ducks.org" [ref=e691] [cursor=pointer]':
+                  - /url: https://www.ducks.org/
+                  - 'heading "Ducks Unlimited: Home" [level=3] [ref=e692]'
+                  - generic [ref=e698]:
+                    - generic [ref=e700]: Ducks Unlimited
+                    - generic [ref=e702]: https://www.ducks.org
+                - button "About this result" [ref=e703] [cursor=pointer]:
+                  - img [ref=e706]
+              - generic [ref=e709]:
+                - generic [ref=e710]:
+                  - emphasis [ref=e711]: Ducks Unlimited conserves, restores, and manages wetlands and associated habitats
+                  - text: for North America's waterfowl. These habitats also benefit other wildlife and ...
+                - link "Read more" [ref=e712] [cursor=pointer]:
+                  - /url: https://www.ducks.org/#:~:text=Ducks%20Unlimited%20conserves%2C%20restores%2C%20and,benefit%20other%20wildlife%20and%20people.
+          - generic [ref=e716]:
+            - generic [ref=e718]:
+              - heading "What people are saying" [level=2] [ref=e719]:
+                - generic [ref=e721]: What people are saying
+              - generic [ref=e731]: Trending posts and discussions
+            - generic [ref=e733]:
+              - button "Ducks hold massive equipment sale ." [expanded] [ref=e735] [cursor=pointer]:
+                - generic [ref=e736]:
+                  - generic [ref=e737]: Ducks hold massive equipment sale
+                  - generic: .
+                  - generic [ref=e739]: Fans lined up at 5 am for the annual gear sale, discussing inventory, prices, and criticizing people who resell items.
+                - img [ref=e742]
+              - generic [ref=e746]:
+                - generic [ref=e747]:
+                  - generic [ref=e748]: Fans lined up at 5 am for the annual gear sale, discussing inventory, prices, and criticizing people who resell items.
+                  - generic [ref=e749]:
+                    - text: Generative AI is experimental.
+                    - link "Learn more about Generative AI. Opens in new tab." [ref=e750] [cursor=pointer]:
+                      - /url: https://support.google.com/websearch?p=data_genai_search&hl=en
+                      - text: Learn more
+                - generic [ref=e751]:
+                  - list [ref=e753]:
+                    - generic [ref=e754]:
+                      - listitem [ref=e755]:
+                        - generic [ref=e759]:
+                          - link "Equipment sale 20+ comments · 1 day ago r/AnaheimDucks Reddit" [ref=e760] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/AnaheimDucks/comments/1u5ovg9/equipment_sale/
+                            - generic [ref=e764]:
+                              - heading "Equipment sale" [level=3] [ref=e766]
+                              - generic [ref=e767]: 20+ comments · 1 day ago
+                              - generic [ref=e776]:
+                                - generic [ref=e777]: r/AnaheimDucks
+                                - generic [ref=e778]: Reddit
+                          - button "About this result" [ref=e782] [cursor=pointer]:
+                            - img [ref=e785]
+                      - listitem [ref=e787]:
+                        - generic [ref=e791]:
+                          - link "Equipment sale 2 comments · 5 days ago r/AnaheimDucks Reddit" [ref=e792] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/AnaheimDucks/comments/1u20vx8/equipment_sale/
+                            - generic [ref=e793]:
+                              - heading "Equipment sale" [level=3] [ref=e795]
+                              - generic [ref=e796]: 2 comments · 5 days ago
+                              - generic [ref=e805]:
+                                - generic [ref=e806]: r/AnaheimDucks
+                                - generic [ref=e807]: Reddit
+                          - button "About this result" [ref=e811] [cursor=pointer]:
+                            - img [ref=e814]
+                      - listitem [ref=e816]:
+                        - generic [ref=e820]:
+                          - link "Equipment sale! 40+ comments · 2 weeks ago r/AnaheimDucks Reddit" [ref=e821] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/AnaheimDucks/comments/1tw4vm0/equipment_sale/
+                            - generic [ref=e825]:
+                              - heading "Equipment sale!" [level=3] [ref=e827]
+                              - generic [ref=e828]: 40+ comments · 2 weeks ago
+                              - generic [ref=e837]:
+                                - generic [ref=e838]: r/AnaheimDucks
+                                - generic [ref=e839]: Reddit
+                          - button "About this result" [ref=e843] [cursor=pointer]:
+                            - img [ref=e846]
+                      - listitem [ref=e848]:
+                        - generic [ref=e853]:
+                          - link "Equipment Sales Popular comment · Parking in the structure is always free, no matter what. Event or non-event, parking is free there 24/7/365 . 2 comments · 5 days ago r/AnaheimDucks Reddit" [ref=e854] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/AnaheimDucks/comments/1u2ath0/equipment_sales/
+                            - generic [ref=e855]:
+                              - heading "Equipment Sales" [level=3] [ref=e857]
+                              - generic [ref=e858]:
+                                - generic [ref=e859]: Popular comment · Parking in the structure is always free, no matter what. Event or non-event, parking is free there 24/7/365
+                                - generic [ref=e860]: .
+                              - generic [ref=e861]: 2 comments · 5 days ago
+                              - generic [ref=e870]:
+                                - generic [ref=e871]: r/AnaheimDucks
+                                - generic [ref=e872]: Reddit
+                          - button "About this result" [ref=e876] [cursor=pointer]:
+                            - img [ref=e879]
+                      - listitem [ref=e881]:
+                        - generic [ref=e886]:
+                          - link "Equipment sale pricing Popular comment · Goalie glove $250 Goalie leg pads $600 Street banners $20 Used skates $80 Last year prices of course . 8 comments · 2 weeks ago r/AnaheimDucks Reddit" [ref=e887] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/AnaheimDucks/comments/1tw5mjb/equipment_sale_pricing/
+                            - generic [ref=e888]:
+                              - heading "Equipment sale pricing" [level=3] [ref=e890]
+                              - generic [ref=e891]:
+                                - generic [ref=e892]: Popular comment · Goalie glove $250 Goalie leg pads $600 Street banners $20 Used skates $80 Last year prices of course
+                                - generic [ref=e893]: .
+                              - generic [ref=e894]: 8 comments · 2 weeks ago
+                              - generic [ref=e903]:
+                                - generic [ref=e904]: r/AnaheimDucks
+                                - generic [ref=e905]: Reddit
+                          - button "About this result" [ref=e909] [cursor=pointer]:
+                            - img [ref=e912]
+                      - listitem [ref=e914]:
+                        - generic [ref=e919]:
+                          - link "Equipment sale arrival (OA) Popular comment · 5am, I was there 6am & was already a line . 10+ comments · 1 week ago r/AnaheimDucks Reddit" [ref=e920] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/AnaheimDucks/comments/1tzww4m/equipment_sale_arrival_oa/
+                            - generic [ref=e921]:
+                              - heading "Equipment sale arrival (OA)" [level=3] [ref=e923]
+                              - generic [ref=e924]:
+                                - generic [ref=e925]: Popular comment · 5am, I was there 6am & was already a line
+                                - generic [ref=e926]: .
+                              - generic [ref=e927]: 10+ comments · 1 week ago
+                              - generic [ref=e936]:
+                                - generic [ref=e937]: r/AnaheimDucks
+                                - generic [ref=e938]: Reddit
+                          - button "About this result" [ref=e942] [cursor=pointer]:
+                            - img [ref=e945]
+                  - button [ref=e947] [cursor=pointer]:
+                    - img [ref=e950]
+            - button "Trade rumors swirl around McTavish . Trade rumors swirl around Mason McTavish as insiders link him to Montreal, Detroit, and Philadelphia as a \"buy-low\" target." [ref=e956] [cursor=pointer]:
+              - generic [ref=e957]:
+                - generic [ref=e958]: Trade rumors swirl around McTavish
+                - generic: .
+                - generic [ref=e961]: Trade rumors swirl around Mason McTavish as insiders link him to Montreal, Detroit, and Philadelphia as a "buy-low" target.
+              - img [ref=e964]
+            - button "Satisfying ice removal process . Viral ASMR videos of the \"oddly satisfying\" end-of-season ice removal process are captivating social media users." [ref=e970] [cursor=pointer]:
+              - generic [ref=e971]:
+                - generic [ref=e972]: Satisfying ice removal process
+                - generic: .
+                - generic [ref=e975]: Viral ASMR videos of the "oddly satisfying" end-of-season ice removal process are captivating social media users.
+              - img [ref=e978]
+            - button "Intense playoff series against Oilers . Fans celebrate the recent intense first-round series victory over the Oilers in six games, praising crucial saves by Lukas Dostal." [ref=e984] [cursor=pointer]:
+              - generic [ref=e985]:
+                - generic [ref=e986]: Intense playoff series against Oilers
+                - generic: .
+                - generic [ref=e989]: Fans celebrate the recent intense first-round series victory over the Oilers in six games, praising crucial saves by Lukas Dostal.
+              - img [ref=e992]
+            - button "Show 2 more" [ref=e995] [cursor=pointer]:
+              - separator [ref=e996]
+              - generic [ref=e997]:
+                - generic [ref=e998]: Show 2 more
+                - img [ref=e1000]
+          - generic [ref=e1006]:
+            - heading "People also ask" [level=2] [ref=e1008]
+            - generic [ref=e1009]:
+              - button "Is it ducks or duck's?" [ref=e1015] [cursor=pointer]:
+                - generic [ref=e1017]: Is it ducks or duck's?
+                - img [ref=e1020]
+              - button "What makes ducks happy?" [ref=e1029] [cursor=pointer]:
+                - generic [ref=e1031]: What makes ducks happy?
+                - img [ref=e1034]
+              - button "What is another name for a duck?" [ref=e1043] [cursor=pointer]:
+                - generic [ref=e1045]: What is another name for a duck?
+                - img [ref=e1048]
+              - button "Can I use Dawn dish soap on my ducks?" [ref=e1057] [cursor=pointer]:
+                - generic [ref=e1059]: Can I use Dawn dish soap on my ducks?
+                - img [ref=e1062]
+          - generic [ref=e1068]:
+            - generic [ref=e1070]:
+              - heading "Videos" [level=2] [ref=e1071]
+              - button "About this result" [ref=e1072] [cursor=pointer]:
+                - img [ref=e1075]
+            - generic [ref=e1078]:
+              - generic [ref=e1084]:
+                - generic [ref=e1085]:
+                  - generic [ref=e1086]:
+                    - link "5 Things You Didn't Know About Ducks! YouTube Badgerland Birding Mar 30, 2026" [ref=e1088] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=dNXgNaGPpuU
+                      - heading "5 Things You Didn't Know About Ducks! YouTube Badgerland Birding Mar 30, 2026" [level=3] [ref=e1089]:
+                        - generic [ref=e1092]: 5 Things You Didn't Know About Ducks!
+                        - generic [ref=e1094]:
+                          - generic [ref=e1095]:
+                            - text: YouTube
+                            - generic [ref=e1096]: · Badgerland Birding
+                          - generic [ref=e1097]: Mar 30, 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Badgerland Birding
+                        - button "About this result" [ref=e1098] [cursor=pointer]:
+                          - img [ref=e1101]
+                  - button "5 Things You Didn't Know About Ducks! by Badgerland Birding on YouTube. Play on Google. 5:21" [ref=e1103] [cursor=pointer]:
+                    - generic [ref=e1104]:
+                      - img [ref=e1110]
+                      - generic [ref=e1113]:
+                        - generic [ref=e1115]: 5:21
+                        - img [ref=e1118]
+                - button "Ducks are waterproof, some nest in trees, and they go through a period after breeding where they can't fly for 4-5 weeks." [ref=e1121] [cursor=pointer]:
+                  - generic [ref=e1125]: Ducks are waterproof, some nest in trees, and they go through a period after breeding where they can't fly for 4-5 weeks.
+              - generic [ref=e1131]:
+                - generic [ref=e1132]:
+                  - generic [ref=e1133]:
+                    - link "Family's New House Comes With A Bunch Of Ducks | The Dodo YouTube The Dodo Aug 19, 2025" [ref=e1135] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=-LkeceegE6Y
+                      - heading "Family's New House Comes With A Bunch Of Ducks | The Dodo YouTube The Dodo Aug 19, 2025" [level=3] [ref=e1136]:
+                        - generic [ref=e1139]: Family's New House Comes With A Bunch Of Ducks | The Dodo
+                        - generic [ref=e1141]:
+                          - generic [ref=e1142]:
+                            - text: YouTube
+                            - generic [ref=e1143]: · The Dodo
+                          - generic [ref=e1144]: Aug 19, 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · The Dodo
+                        - button "About this result" [ref=e1145] [cursor=pointer]:
+                          - img [ref=e1148]
+                  - button "Family's New House Comes With A Bunch Of Ducks | The Dodo by The Dodo on YouTube. Play on Google. 1:44" [ref=e1150] [cursor=pointer]:
+                    - generic [ref=e1151]:
+                      - img [ref=e1157]
+                      - generic [ref=e1160]:
+                        - generic [ref=e1162]: 1:44
+                        - img [ref=e1165]
+                - 'button "A family''s new house came with a surprise: ducks that visit every April, bringing friends and potentially ducklings in the future." [ref=e1168] [cursor=pointer]':
+                  - generic [ref=e1172]: "A family's new house came with a surprise: ducks that visit every April, bringing friends and potentially ducklings in the future."
+              - generic [ref=e1177]:
+                - generic [ref=e1178]:
+                  - link "Just a two year old who is obsessed with her ducks Instagram Audrey Mirabella Roloff 3 days ago" [ref=e1180] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/DZdjw0Fhxaz/
+                    - heading "Just a two year old who is obsessed with her ducks Instagram Audrey Mirabella Roloff 3 days ago" [level=3] [ref=e1181]:
+                      - generic [ref=e1184]: Just a two year old who is obsessed with her ducks
+                      - generic [ref=e1186]:
+                        - generic [ref=e1187]:
+                          - text: Instagram
+                          - generic [ref=e1188]: · Audrey Mirabella Roloff
+                        - generic [ref=e1189]: 3 days ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Instagram
+                            - generic: · Audrey Mirabella Roloff
+                      - button "About this result" [ref=e1190] [cursor=pointer]:
+                        - img [ref=e1193]
+                - link "Just a two year old who is obsessed with her ducks by Audrey Mirabella Roloff on Instagram. Play on Instagram. 0:56" [ref=e1195] [cursor=pointer]:
+                  - /url: https://www.instagram.com/reel/DZdjw0Fhxaz/
+                  - generic [ref=e1196]:
+                    - img [ref=e1199]
+                    - generic [ref=e1204]: 0:56
+            - link "View all videos" [ref=e1207] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=7&q=ducks&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8ccDKAJ6BAh8EAQ
+              - separator [ref=e1208]
+              - generic [ref=e1209]:
+                - generic [ref=e1210]: View all
+                - img [ref=e1212]
+          - generic [ref=e1216]:
+            - heading "Web results" [level=2] [ref=e1217]
+            - generic [ref=e1218]:
+              - generic [ref=e1221]:
+                - link "Ducks for Sale Metzer Farms https://www.metzerfarms.com › ducks-for-sale" [ref=e1223] [cursor=pointer]:
+                  - /url: https://www.metzerfarms.com/ducks-for-sale.html?srsltid=AfmBOoolYgqv7t07ET0qLRrv4-8jNLJxENj_5qoQ4qJJjx-OKuFRlt6m
+                  - heading "Ducks for Sale" [level=3] [ref=e1224]
+                  - generic [ref=e1230]:
+                    - generic [ref=e1232]: Metzer Farms
+                    - generic [ref=e1234]: https://www.metzerfarms.com › ducks-for-sale
+                - button "About this result" [ref=e1235] [cursor=pointer]:
+                  - img [ref=e1238]
+              - generic [ref=e1241]:
+                - generic [ref=e1242]:
+                  - text: Metzer Farms has
+                  - emphasis [ref=e1243]: over 30 breeds of baby ducks for sale
+                  - text: and we ship year-round. With our three bird minimum order and 100% satisfaction guarantee, you will not ...
+                - link "Read more" [ref=e1244] [cursor=pointer]:
+                  - /url: https://www.metzerfarms.com/ducks-for-sale.html?srsltid=AfmBOoolYgqv7t07ET0qLRrv4-8jNLJxENj_5qoQ4qJJjx-OKuFRlt6m#:~:text=Metzer%20Farms%20has%20over%2030,satisfaction%20guarantee%2C%20you%20will%20not
+              - generic [ref=e1246]:
+                - generic [ref=e1247]: $10 to $45
+                - text: ·
+                - generic [ref=e1248]: Free delivery
+          - generic [ref=e1252]:
+            - heading "Latest posts from Anaheim Ducks" [level=2] [ref=e1255]:
+              - generic [ref=e1257]: Latest posts from Anaheim Ducks
+            - generic [ref=e1259]:
+              - list [ref=e1261]:
+                - generic [ref=e1262]:
+                  - listitem [ref=e1263]:
+                    - generic [ref=e1266]:
+                      - generic [ref=e1267]:
+                        - link [ref=e1269] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks/status/2066611450387320967?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                          - generic [ref=e1274]:
+                            - img [ref=e1275]
+                            - generic [ref=e1277]: 1:00
+                        - generic [ref=e1278]:
+                          - link "Mowing lawns? Forecaddie? Painting? Just a few of the first jobs our Ducks had growing up. 30+ likes · 9 minutes ago AnaheimDucks X About this result" [ref=e1279] [cursor=pointer]:
+                            - /url: https://x.com/AnaheimDucks/status/2066611450387320967?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                          - generic [ref=e1280]:
+                            - generic [ref=e1282]: Mowing lawns? Forecaddie? Painting? Just a few of the first jobs our Ducks had growing up.
+                            - generic [ref=e1283]:
+                              - text: 30+ likes ·
+                              - generic [ref=e1285]: 9 minutes ago
+                      - generic [ref=e1287]:
+                        - link "AnaheimDucks X" [ref=e1289] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                          - generic [ref=e1299]:
+                            - generic [ref=e1300]: AnaheimDucks
+                            - generic [ref=e1301]: X
+                        - button "About this result" [ref=e1305] [cursor=pointer]:
+                          - img [ref=e1306]
+                  - listitem [ref=e1308]:
+                    - generic [ref=e1311]:
+                      - generic [ref=e1313]:
+                        - link "It was a spectacular year for our prospect Maxim Masse! He was named the CHL's David Branch Player of the Year! Read More ⬇️ www.nhl.com/ducks/news/… 130+ likes · 2 hours ago AnaheimDucks X About this result" [ref=e1314] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks/status/2066584689427816686?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e1315]:
+                          - generic [ref=e1317]: It was a spectacular year for our prospect Maxim Masse! He was named the CHL's David Branch Player of the Year! Read More ⬇️ www.nhl.com/ducks/news/…
+                          - generic [ref=e1318]:
+                            - text: 130+ likes ·
+                            - generic [ref=e1320]: 2 hours ago
+                      - generic [ref=e1322]:
+                        - link "AnaheimDucks X" [ref=e1324] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                          - generic [ref=e1334]:
+                            - generic [ref=e1335]: AnaheimDucks
+                            - generic [ref=e1336]: X
+                        - button "About this result" [ref=e1340] [cursor=pointer]:
+                          - img [ref=e1341]
+                  - listitem [ref=e1343]:
+                    - generic [ref=e1345]:
+                      - link "1:16 Get to Know Ryan Poehling 10+ views · 4 hours ago Anaheim Ducks YouTube" [ref=e1346] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=3ZESrpmvRpc
+                        - generic [ref=e1351]:
+                          - img [ref=e1352]
+                          - generic [ref=e1354]: 1:16
+                        - generic [ref=e1355]:
+                          - heading "Get to Know Ryan Poehling" [level=3] [ref=e1357]
+                          - generic [ref=e1358]: 10+ views · 4 hours ago
+                          - generic [ref=e1366]:
+                            - generic [ref=e1367]: Anaheim Ducks
+                            - generic [ref=e1368]: YouTube
+                      - button "About this result" [ref=e1372] [cursor=pointer]:
+                        - img [ref=e1375]
+                  - listitem [ref=e1377]:
+                    - generic [ref=e1381]:
+                      - generic [ref=e1382]:
+                        - link [ref=e1384] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks/status/2066363301832098089?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                          - generic [ref=e1389]:
+                            - img [ref=e1390]
+                            - generic [ref=e1392]: 0:20
+                        - generic [ref=e1393]:
+                          - link "Congrats to our guy Freddie! 🧡 4.7K+ likes · 17 hours ago AnaheimDucks X About this result" [ref=e1394] [cursor=pointer]:
+                            - /url: https://x.com/AnaheimDucks/status/2066363301832098089?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                          - generic [ref=e1395]:
+                            - generic [ref=e1397]: Congrats to our guy Freddie! 🧡
+                            - generic [ref=e1398]:
+                              - text: 4.7K+ likes ·
+                              - generic [ref=e1400]: 17 hours ago
+                      - generic [ref=e1402]:
+                        - link "AnaheimDucks X" [ref=e1404] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                          - generic [ref=e1414]:
+                            - generic [ref=e1415]: AnaheimDucks
+                            - generic [ref=e1416]: X
+                        - button "About this result" [ref=e1420] [cursor=pointer]:
+                          - img [ref=e1421]
+                  - listitem [ref=e1423]:
+                    - generic [ref=e1427]:
+                      - generic [ref=e1429]:
+                        - link "Congratulations, @Canes 🤝 3K+ likes · 17 hours ago AnaheimDucks X About this result" [ref=e1430] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks/status/2066354667765088356?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e1431]:
+                          - generic [ref=e1433]: Congratulations, @Canes 🤝
+                          - generic [ref=e1434]:
+                            - text: 3K+ likes ·
+                            - generic [ref=e1436]: 17 hours ago
+                      - generic [ref=e1438]:
+                        - link "AnaheimDucks X" [ref=e1440] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                          - generic [ref=e1450]:
+                            - generic [ref=e1451]: AnaheimDucks
+                            - generic [ref=e1452]: X
+                        - button "About this result" [ref=e1456] [cursor=pointer]:
+                          - img [ref=e1457]
+                  - listitem [ref=e1459]:
+                    - generic [ref=e1463]:
+                      - generic [ref=e1464]:
+                        - link [ref=e1466] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks/status/2065509690813903292?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                          - generic [ref=e1471]:
+                            - img [ref=e1472]
+                            - generic [ref=e1474]: 1:00
+                        - generic [ref=e1475]:
+                          - link "The final city is here! We've put our Ducks through enough with this 😂 230+ likes · 3 days ago AnaheimDucks X About this result" [ref=e1476] [cursor=pointer]:
+                            - /url: https://x.com/AnaheimDucks/status/2065509690813903292?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                          - generic [ref=e1477]:
+                            - generic [ref=e1479]: The final city is here! We've put our Ducks through enough with this 😂
+                            - generic [ref=e1480]:
+                              - text: 230+ likes ·
+                              - generic [ref=e1482]: 3 days ago
+                      - generic [ref=e1484]:
+                        - link "AnaheimDucks X" [ref=e1486] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                          - generic [ref=e1496]:
+                            - generic [ref=e1497]: AnaheimDucks
+                            - generic [ref=e1498]: X
+                        - button "About this result" [ref=e1502] [cursor=pointer]:
+                          - img [ref=e1503]
+                  - listitem [ref=e1505]:
+                    - generic [ref=e1509]:
+                      - generic [ref=e1511]:
+                        - link "Congrats to Beckett!! He has made the NHL All-Rookie Team. Details ⬇️ www.nhl.com/ducks/news/… 840+ likes · 3 days ago AnaheimDucks X About this result" [ref=e1512] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks/status/2065491250166235143?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=e1513]:
+                          - generic [ref=e1515]: Congrats to Beckett!! He has made the NHL All-Rookie Team. Details ⬇️ www.nhl.com/ducks/news/…
+                          - generic [ref=e1516]:
+                            - text: 840+ likes ·
+                            - generic [ref=e1518]: 3 days ago
+                      - generic [ref=e1520]:
+                        - link "AnaheimDucks X" [ref=e1522] [cursor=pointer]:
+                          - /url: https://x.com/AnaheimDucks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+                          - generic [ref=e1532]:
+                            - generic [ref=e1533]: AnaheimDucks
+                            - generic [ref=e1534]: X
+                        - button "About this result" [ref=e1538] [cursor=pointer]:
+                          - img [ref=e1539]
+                  - listitem [ref=e1541]:
+                    - generic [ref=e1544]:
+                      - button "Video. Play on Google. 4:20" [ref=e1549] [cursor=pointer]:
+                        - generic [ref=e1552]:
+                          - generic [ref=e1553]:
+                            - img [ref=e1554]
+                            - generic [ref=e1556]: 4:20
+                          - img [ref=e1559]
+                      - link "NHL Players Try to Pronounce California Locations 720+ views · 3 days ago Anaheim Ducks YouTube" [ref=e1561] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=DN_NiZUm9rM
+                        - generic [ref=e1562]:
+                          - heading "NHL Players Try to Pronounce California Locations" [level=3] [ref=e1564]
+                          - generic [ref=e1565]: 720+ views · 3 days ago
+                          - generic [ref=e1573]:
+                            - generic [ref=e1574]: Anaheim Ducks
+                            - generic [ref=e1575]: YouTube
+                      - button "About this result" [ref=e1579] [cursor=pointer]:
+                        - img [ref=e1582]
+                  - listitem [ref=e1584]:
+                    - generic [ref=e1589]:
+                      - 'link "Let’s go, Becks!!! #FlyTogether 6.8K+ likes · 3 days ago anaheimducks Instagram" [ref=e1590] [cursor=pointer]':
+                        - /url: https://www.instagram.com/p/DZfl9jAy9j-/
+                        - generic [ref=e1594]:
+                          - 'heading "Let’s go, Becks!!! #FlyTogether" [level=3] [ref=e1596]'
+                          - generic [ref=e1597]: 6.8K+ likes · 3 days ago
+                          - generic [ref=e1606]:
+                            - generic [ref=e1607]: anaheimducks
+                            - generic [ref=e1608]: Instagram
+                      - button "About this result" [ref=e1612] [cursor=pointer]:
+                        - img [ref=e1615]
+                  - listitem [ref=e1617]:
+                    - generic [ref=e1620]:
+                      - link "1:16 Get to Know Troy Terry 230+ views · 4 days ago Anaheim Ducks YouTube" [ref=e1621] [cursor=pointer]:
+                        - /url: https://m.youtube.com/watch?v=9_0KkZVgCDs
+                        - generic [ref=e1629]:
+                          - img [ref=e1630]
+                          - generic [ref=e1632]: 1:16
+                        - generic [ref=e1633]:
+                          - heading "Get to Know Troy Terry" [level=3] [ref=e1635]
+                          - generic [ref=e1636]: 230+ views · 4 days ago
+                          - generic [ref=e1644]:
+                            - generic [ref=e1645]: Anaheim Ducks
+                            - generic [ref=e1646]: YouTube
+                      - button "About this result" [ref=e1650] [cursor=pointer]:
+                        - img [ref=e1653]
+              - button [ref=e1655] [cursor=pointer]:
+                - img [ref=e1658]
+          - generic [ref=e1662]:
+            - heading "Web results" [level=2] [ref=e1663]
+            - generic [ref=e1664]:
+              - generic [ref=e1667]:
+                - link "Anaheim Ducks Scores, Stats and Highlights ESPN https://www.espn.com › nhl › team › name › ana › ana..." [ref=e1669] [cursor=pointer]:
+                  - /url: https://www.espn.com/nhl/team/_/name/ana/anaheim-ducks
+                  - heading "Anaheim Ducks Scores, Stats and Highlights" [level=3] [ref=e1670]
+                  - generic [ref=e1676]:
+                    - generic [ref=e1678]: ESPN
+                    - generic [ref=e1680]: https://www.espn.com › nhl › team › name › ana › ana...
+                - button "About this result" [ref=e1681] [cursor=pointer]:
+                  - img [ref=e1684]
+              - generic [ref=e1688]:
+                - text: Visit ESPN for
+                - emphasis [ref=e1689]: Anaheim Ducks live scores, video highlights, and latest news
+                - text: . Find standings and the full 2025-26 season schedule.
+          - generic [ref=e1693]:
+            - generic [ref=e1696]:
+              - link "Anaheim Ducks (@AnaheimDucks) / Posts / X X · AnaheimDucks 575.8K+ followers" [ref=e1698] [cursor=pointer]:
+                - /url: https://x.com/AnaheimDucks
+                - heading "Anaheim Ducks (@AnaheimDucks) / Posts / X" [level=3] [ref=e1699]
+                - generic [ref=e1705]:
+                  - generic [ref=e1707]: X · AnaheimDucks
+                  - generic [ref=e1709]: 575.8K+ followers
+              - button "About this result" [ref=e1710] [cursor=pointer]:
+                - img [ref=e1713]
+            - generic [ref=e1716]:
+              - generic [ref=e1717]:
+                - emphasis [ref=e1718]: Anaheim Ducks
+                - text: "✓. AnaheimDucks. Location: Orange County, Calif. Website: http://AnaheimDucks.com. Joined: Jan 31, 2009. 71623Posts. 841Following."
+              - link "Read more" [ref=e1719] [cursor=pointer]:
+                - /url: https://x.com/AnaheimDucks#:~:text=Anaheim%20Ducks%E2%9C%93,841Following
+            - link "ducks from x.com" [ref=e1722] [cursor=pointer]:
+              - /url: https://x.com/AnaheimDucks
+              - img "ducks from x.com" [ref=e1724]
+        - generic [ref=e1726]:
+          - generic [ref=e1731]:
+            - heading "People also search for" [level=2] [ref=e1733]
+            - generic [ref=e1735]:
+              - generic [ref=e1736]:
+                - link "Ducks Anaheim" [ref=e1740] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Ducks+Anaheim&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQiWARAB
+                  - generic [ref=e1741]:
+                    - generic [ref=e1746]: Ducks Anaheim
+                    - img [ref=e1750]
+                - link "Ducks for sale" [ref=e1755] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Ducks+for+sale&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQi6ARAB
+                  - generic [ref=e1756]:
+                    - generic [ref=e1761]: Ducks for sale
+                    - img [ref=e1765]
+                - link "Ducks standings" [ref=e1770] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Ducks+standings&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQi3ARAB
+                  - generic [ref=e1771]:
+                    - generic [ref=e1776]: Ducks standings
+                    - img [ref=e1780]
+                - link "Ducks tickets" [ref=e1785] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Ducks+tickets&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQiwARAB
+                  - generic [ref=e1786]:
+                    - generic [ref=e1791]: Ducks tickets
+                    - img [ref=e1795]
+              - generic [ref=e1797]:
+                - link "Ducks football" [ref=e1801] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Ducks+football&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQiqARAB
+                  - generic [ref=e1802]:
+                    - generic [ref=e1807]: Ducks football
+                    - img [ref=e1811]
+                - link "Ducks animal" [ref=e1816] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Ducks+animal&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQimARAB
+                  - generic [ref=e1817]:
+                    - generic [ref=e1822]: Ducks animal
+                    - img [ref=e1826]
+                - link "Anaheim Ducks players" [ref=e1831] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Anaheim+Ducks+players&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQieARAB
+                  - generic [ref=e1832]:
+                    - generic [ref=e1837]: Anaheim Ducks players
+                    - img [ref=e1841]
+                - link "Anaheim Ducks schedule" [ref=e1846] [cursor=pointer]:
+                  - /url: /search?sca_esv=6eb3871cd6a786af&q=Anaheim+Ducks+schedule&sa=X&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ1QJ6BQibARAB
+                  - generic [ref=e1847]:
+                    - generic [ref=e1852]: Anaheim Ducks schedule
+                    - img [ref=e1856]
+          - navigation [ref=e1858]:
+            - heading "Page Navigation" [level=1] [ref=e1859]
+            - text: "1"
+            - link "Page 2" [ref=e1862] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=10&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQBA
+              - text: "2"
+            - link "Page 3" [ref=e1864] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=20&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQBg
+              - text: "3"
+            - link "Page 4" [ref=e1866] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=30&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQCA
+              - text: "4"
+            - link "Page 5" [ref=e1868] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=40&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQCg
+              - text: "5"
+            - link "Page 6" [ref=e1870] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=50&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQDA
+              - text: "6"
+            - link "Page 7" [ref=e1872] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=60&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQDg
+              - text: "7"
+            - link "Page 8" [ref=e1874] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=70&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQEA
+              - text: "8"
+            - link "Page 9" [ref=e1876] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=80&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQEg
+              - text: "9"
+            - link "Page 10" [ref=e1878] [cursor=pointer]:
+              - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=90&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8tMDegUI4QEQFA
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1880]:
+              - link "Next" [ref=e1881] [cursor=pointer]:
+                - /url: /search?q=ducks&sca_esv=6eb3871cd6a786af&ei=oFswaqC8D87JkPIPuJXK2Qo&start=10&sa=N&sstk=AU9db-CZYuY9I2QxV7pdHsP6YuyHXudAmbxzvgIYQAsDDkLJ9EybsR4BXM6tSgoVnqZH7ki6LT9eyfZa4gx8pfEHeoDgkwnM4AiQfA&ved=2ahUKEwigjOiQhoqVAxXOJEQIHbiKMqsQ8NMDegUI4QEQFg
+                - generic [ref=e1883]: Next
+        - navigation
+    - contentinfo [ref=e1885]:
+      - heading "Footer Links" [level=1] [ref=e1886]
+      - generic [ref=e1890]:
+        - generic [ref=e1894]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e1896] [cursor=pointer]:
+            - generic [ref=e1897]: 92780, Tustin, CA
+            - generic [ref=e1899]:
+              - text: "-"
+              - generic [ref=e1900]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1902] [cursor=pointer]: Update location
+        - generic [ref=e1905]:
+          - link "Help" [ref=e1906] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1907] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1908] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1909] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

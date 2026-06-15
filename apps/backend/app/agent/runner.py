@@ -1,4 +1,5 @@
 from collections.abc import AsyncIterator
+import asyncio
 import sqlite3
 from typing import Protocol
 
@@ -30,6 +31,10 @@ class ConversationStore(Protocol):
     ) -> None: ...
 
 
+class ChatCancellationController(Protocol):
+    def cancel_session(self, session_id: str) -> bool: ...
+
+
 class AgentStreamRunner:
     """Builds an ADK runner per request and translates its events for the UI."""
 
@@ -51,6 +56,8 @@ class AgentStreamRunner:
         self.memory_service = memory_service
         self.conversation_context_service = conversation_context_service
         self._session_service: object | None = None
+        self._cancelled_sessions: set[str] = set()
+        self._active_stream_tasks: dict[str, asyncio.Task[object]] = {}
 
     def _debug(self, message: str) -> None:
         print(f"[jarvis-adk-runner] {message}", flush=True)
@@ -245,6 +252,68 @@ class AgentStreamRunner:
             base_url=request.base_url,
         )
 
+    def cancel_session(self, session_id: str) -> bool:
+        self._cancelled_sessions.add(session_id)
+        task = self._active_stream_tasks.get(session_id)
+        if task is not None and not task.done():
+            task.cancel()
+            return True
+        return False
+
+    def _clear_cancel_state(self, session_id: str) -> None:
+        self._cancelled_sessions.discard(session_id)
+        self._active_stream_tasks.pop(session_id, None)
+
+    def _is_session_cancelled(self, session_id: str) -> bool:
+        return session_id in self._cancelled_sessions
+
+    async def _compact_ollama_context_cache(
+        self,
+        request: ChatRequest,
+        current_event_count: int,
+    ) -> ChatEvent | None:
+        provider_config = self._provider_config_from_request(request)
+        interval = max(1, self.settings.conversation_compaction_interval)
+        overlap = max(0, self.settings.conversation_compaction_overlap)
+        if provider_config.provider != "ollama" or current_event_count <= interval:
+            return None
+
+        try:
+            cached_context = await self.conversation_context_service.compact_session_context_with_model(
+                request.session_id,
+                self.settings,
+                provider_config,
+                event_limit=interval,
+                overlap=overlap,
+            )
+        except Exception as exc:  # noqa: BLE001 - context compaction should not fail chat delivery
+            self._debug(
+                f"ollama_context_compaction_exception type={type(exc).__name__} message={exc}"
+            )
+            return ChatEvent(
+                type="thought",
+                content=f"Local context compaction failed: {type(exc).__name__}.",
+            )
+
+        if not cached_context:
+            self._debug(
+                f"ollama_context_compaction_skipped session_id={request.session_id} reason=empty"
+            )
+            return None
+
+        self._debug(
+            "ollama_context_compaction "
+            f"session_id={request.session_id} events_reviewed={interval} overlap={overlap} "
+            f"length={len(cached_context)}"
+        )
+        return ChatEvent(
+            type="thought",
+            content=(
+                "Updated local Ollama conversation cache "
+                f"from the last {interval} event(s), keeping {overlap} overlap event(s)."
+            ),
+        )
+
     def _provider_supports_adk_tools(self, provider: str | None) -> bool:
         return ProviderRuntimeConfig(provider=provider or "openrouter").supports_adk_tools
 
@@ -299,82 +368,104 @@ class AgentStreamRunner:
         request: ChatRequest,
         conversation_store: ConversationStore | None = None,
     ) -> AsyncIterator[ChatEvent]:
-        self._debug(
-            "stream_chat_start "
-            f"session_id={request.session_id} user_id={request.user_id} "
-            f"provider={request.provider or 'openrouter'} model={request.model or '<default>'} "
-            f"base_url={request.base_url or '<default>'}"
-        )
-        if conversation_store is not None:
-            await conversation_store.save_conversation(
-                request.session_id,
-                request.user_id,
-                self._conversation_title_from_message(request.message),
-            )
-            await conversation_store.save_conversation_message(
-                request.session_id,
-                "user",
-                request.message,
-            )
-        missing_configuration = self._missing_provider_configuration(request)
-        if missing_configuration:
-            self._debug(f"missing_configuration={missing_configuration}")
-            yield ChatEvent(type="error", content=missing_configuration)
-            yield ChatEvent(type="done", content="Chat stream completed.")
-            return
-
         genai_types = None
         try:
-            from google.genai import types
-
-            genai_types = types
-
-            await self.memory_service.append_observation(
-                request.session_id, f"user[{request.user_id}]: {request.message}"
+            current_task = asyncio.current_task()
+            if current_task is not None:
+                self._active_stream_tasks[request.session_id] = current_task
+            self._cancelled_sessions.discard(request.session_id)
+            self._debug(
+                "stream_chat_start "
+                f"session_id={request.session_id} user_id={request.user_id} "
+                f"provider={request.provider or 'openrouter'} model={request.model or '<default>'} "
+                f"base_url={request.base_url or '<default>'}"
             )
-            self._debug(f"user_observation_appended session_id={request.session_id}")
-            async for chat_event in self._run_adk_chat(
-                request,
-                genai_types,
-                conversation_store=conversation_store,
-            ):
-                self._debug(
-                    f"yield_chat_event type={chat_event.type} "
-                    f"content={chat_event.content[:200]!r}"
+            if conversation_store is not None:
+                await conversation_store.save_conversation(
+                    request.session_id,
+                    request.user_id,
+                    self._conversation_title_from_message(request.message),
                 )
-                yield chat_event
-        except Exception as exc:  # noqa: BLE001 - surfaced to the UI as a structured error event
-            self._debug(f"stream_chat_exception type={type(exc).__name__} message={exc}")
-            if (
-                genai_types is not None
-                and self._is_recoverable_session_error(exc)
-                and self._session_service is not None
-            ):
-                try:
-                    self._debug("recoverable_session_error_detected resetting_session")
-                    await self._reset_session(request.user_id, request.session_id)
-                    yield ChatEvent(
-                        type="thought",
-                        content="Resetting stale session tool history and retrying the request.",
-                    )
-                    async for chat_event in self._run_adk_chat(
-                        request,
-                        genai_types,
-                        conversation_store=conversation_store,
-                    ):
-                        yield chat_event
-                    yield ChatEvent(type="done", content="Chat stream completed.")
-                    return
-                except Exception as retry_exc:  # noqa: BLE001
-                    self._debug(
-                        f"retry_failed type={type(retry_exc).__name__} message={retry_exc}"
-                    )
-                    yield ChatEvent(type="error", content=f"Agent run failed: {retry_exc}")
-                    yield ChatEvent(type="done", content="Chat stream completed.")
-                    return
-            yield ChatEvent(type="error", content=f"Agent run failed: {exc}")
+                await conversation_store.save_conversation_message(
+                    request.session_id,
+                    "user",
+                    request.message,
+                )
+            missing_configuration = self._missing_provider_configuration(request)
+            if missing_configuration:
+                self._debug(f"missing_configuration={missing_configuration}")
+                yield ChatEvent(type="error", content=missing_configuration)
+                yield ChatEvent(type="done", content="Chat stream completed.")
+                return
 
-        yield ChatEvent(type="done", content="Chat stream completed.")
+            try:
+                from google.genai import types
+
+                genai_types = types
+
+                await self.memory_service.append_observation(
+                    request.session_id, f"user[{request.user_id}]: {request.message}"
+                )
+                self._debug(f"user_observation_appended session_id={request.session_id}")
+                async for chat_event in self._run_adk_chat(
+                    request,
+                    genai_types,
+                    conversation_store=conversation_store,
+                ):
+                    if self._is_session_cancelled(request.session_id):
+                        self._debug(f"stream_chat_cancelled session_id={request.session_id}")
+                        return
+                    self._debug(
+                        f"yield_chat_event type={chat_event.type} "
+                        f"content={chat_event.content[:200]!r}"
+                    )
+                    yield chat_event
+                    if self._is_session_cancelled(request.session_id):
+                        self._debug(
+                            f"stream_chat_cancelled_after_yield session_id={request.session_id}"
+                        )
+                        return
+            except Exception as exc:  # noqa: BLE001 - surfaced to the UI as a structured error event
+                self._debug(f"stream_chat_exception type={type(exc).__name__} message={exc}")
+                if (
+                    genai_types is not None
+                    and self._is_recoverable_session_error(exc)
+                    and self._session_service is not None
+                ):
+                    try:
+                        self._debug("recoverable_session_error_detected resetting_session")
+                        await self._reset_session(request.user_id, request.session_id)
+                        yield ChatEvent(
+                            type="thought",
+                            content="Resetting stale session tool history and retrying the request.",
+                        )
+                        async for chat_event in self._run_adk_chat(
+                            request,
+                            genai_types,
+                            conversation_store=conversation_store,
+                        ):
+                            if self._is_session_cancelled(request.session_id):
+                                return
+                            yield chat_event
+                        yield ChatEvent(type="done", content="Chat stream completed.")
+                        return
+                    except Exception as retry_exc:  # noqa: BLE001
+                        self._debug(
+                            f"retry_failed type={type(retry_exc).__name__} message={retry_exc}"
+                        )
+                        yield ChatEvent(type="error", content=f"Agent run failed: {retry_exc}")
+                        yield ChatEvent(type="done", content="Chat stream completed.")
+                        return
+                if not isinstance(exc, asyncio.CancelledError):
+                    yield ChatEvent(type="error", content=f"Agent run failed: {exc}")
+
+            if not self._is_session_cancelled(request.session_id):
+                yield ChatEvent(type="done", content="Chat stream completed.")
+        except asyncio.CancelledError:
+            self._debug(f"stream_chat_cancelled task session_id={request.session_id}")
+            return
+        finally:
+            self._clear_cancel_state(request.session_id)
 
     async def _run_adk_chat(
         self,
@@ -394,6 +485,9 @@ class AgentStreamRunner:
             session_id=request.session_id,
             new_message=new_message,
         ):
+            if self._is_session_cancelled(request.session_id):
+                self._debug(f"adk_chat_cancelled session_id={request.session_id}")
+                return
             event_class = event.__class__.__name__
             event_module = event.__class__.__module__
             function_calls = event.get_function_calls()
@@ -437,6 +531,11 @@ class AgentStreamRunner:
                 f"{[chat_event.type for chat_event in output_events]}"
             )
             for chat_event in output_events:
+                if self._is_session_cancelled(request.session_id):
+                    self._debug(
+                        f"adk_chat_cancelled_before_yield session_id={request.session_id}"
+                    )
+                    return
                 if chat_event.type == "assistant_message":
                     assistant_chunks.append(chat_event.content)
                     self._debug(
@@ -444,6 +543,9 @@ class AgentStreamRunner:
                         f"total={len(''.join(assistant_chunks))}"
                     )
                 yield chat_event
+            if self._is_session_cancelled(request.session_id):
+                self._debug(f"adk_chat_cancelled_after_event session_id={request.session_id}")
+                return
         if assistant_chunks:
             assistant_response = "".join(assistant_chunks).strip()
             if conversation_store is not None and assistant_response:
@@ -481,6 +583,12 @@ class AgentStreamRunner:
                 f"events={current_event_count} new_events={event_delta} "
                 f"interval={max(1, self.settings.memory_promotion_interval)}"
             )
+            context_event = await self._compact_ollama_context_cache(
+                request,
+                current_event_count,
+            )
+            if context_event is not None:
+                yield context_event
             self._prune_compacted_session_events(
                 request.user_id,
                 request.session_id,
@@ -523,6 +631,12 @@ class AgentStreamRunner:
                 type="thought",
                 content=f"Dream agent memory promotion failed: {type(exc).__name__}.",
             )
+        context_event = await self._compact_ollama_context_cache(
+            request,
+            current_event_count,
+        )
+        if context_event is not None:
+            yield context_event
         self._prune_compacted_session_events(
             request.user_id,
             request.session_id,

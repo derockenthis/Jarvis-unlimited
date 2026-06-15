@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight, FolderOpen, MessageSquare, Settings, Wrench } from 'lucide-react';
+import { ChevronLeft, ChevronRight, FolderOpen, MessageSquare, Settings, Trash2, Wrench } from 'lucide-react';
 import { useEffect } from 'react';
 import { useAppStore } from '../stores/useAppStore';
 import type { WorkspaceView } from '../types';
@@ -25,6 +25,7 @@ export function Sidebar() {
   const setSessionId = useAppStore((state) => state.setSessionId);
   const loadConversationMessages = useAppStore((state) => state.loadConversationMessages);
   const addNewConversation = useAppStore((state) => state.addNewConversation);
+  const deleteConversation = useAppStore((state) => state.deleteConversation);
   const populateConversations = useAppStore((state) => state.populateConversations);
   const conversation = useAppStore((state) => state.conversation);
 
@@ -80,30 +81,54 @@ export function Sidebar() {
           ) : null}
         </button>
         <div className="recent-chat-list">
-          {conversation.length > 0 ? conversation.map((message) => (
-            <button
-              className={activeWorkspaceView === 'chat' && activeConversationId === message.id ? 'recent-chat-row recent-chat-row-active' : 'recent-chat-row'}
-              type="button"
-              key={message.id}
-              title={`${message.title} · ${new Date(message.createdAt).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`}
-              onClick={() => {
-                setSessionId(message.id);
-                setActiveConversationId(message.id);
-                setActiveWorkspaceView('chat');
-                void loadConversationMessages(message.id).catch((error) => {
-                  console.error(`Failed to load conversation ${message.id}`, error);
-                });
-              }}
-            >
-              <MessageSquare size={16} />
-              {!collapsed ? (
-                <span>
-                  <strong>{message.title}</strong>
-                  <small>{new Date(message.createdAt).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}</small>
-                </span>
-              ) : null}
-            </button>
-          )): (
+          {conversation.length > 0 ? conversation.map((message) => {
+            const active = activeWorkspaceView === 'chat' && activeConversationId === message.id;
+
+            return (
+              <div className="recent-chat-row-shell" key={message.id}>
+                <button
+                  className={active ? 'recent-chat-row recent-chat-row-active recent-chat-row-main' : 'recent-chat-row recent-chat-row-main'}
+                  type="button"
+                  title={`${message.title} · ${new Date(message.createdAt).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`}
+                  onClick={() => {
+                    setSessionId(message.id);
+                    setActiveConversationId(message.id);
+                    setActiveWorkspaceView('chat');
+                    void loadConversationMessages(message.id).catch((error) => {
+                      console.error(`Failed to load conversation ${message.id}`, error);
+                    });
+                  }}
+                >
+                  <MessageSquare size={16} />
+                  {!collapsed ? (
+                    <span>
+                      <strong>{message.title}</strong>
+                      <small>{new Date(message.createdAt).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}</small>
+                    </span>
+                  ) : null}
+                </button>
+                {!collapsed ? (
+                  <button
+                    className="icon-button small recent-chat-delete-button"
+                    type="button"
+                    title="Delete conversation"
+                    aria-label={`Delete ${message.title}`}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      if (!window.confirm(`Delete conversation "${message.title}"?`)) {
+                        return;
+                      }
+                      void deleteConversation(message.id).catch((error) => {
+                        console.error(`Failed to delete conversation ${message.id}`, error);
+                      });
+                    }}
+                  >
+                    <Trash2 size={14} />
+                  </button>
+                ) : null}
+              </div>
+            );
+          }): (
             <div className="no-recent-chats">
               <p>No recent chats</p>
             </div>
