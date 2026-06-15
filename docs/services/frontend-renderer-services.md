@@ -35,7 +35,7 @@ State groups:
 | Chat | `messages`, `activeAssistantId`, `isStreaming`. |
 | Screen sharing | `isScreenSharing`, `isScreenViewing`. |
 | Skills | `skillsRootPath`. |
-| Provider settings | `provider`, `model`, `apiKey`, `baseUrl`. |
+| Provider settings | `provider`, `model`, `apiKey`, `baseUrl`, `speechModel`. |
 | Preview | `preview`. |
 
 Persistence:
@@ -83,8 +83,9 @@ The active assistant id prevents later stream events from mutating older assista
 
 1. Builds `FormData` with an `audio` blob.
 2. Picks `ogg` or `webm` filename extension based on MIME type.
-3. Posts to `/api/speech/transcribe`.
-4. Returns text or throws a detailed error.
+3. Optionally includes the configured `speechModel` from the store.
+4. Posts to `/api/speech/transcribe`.
+5. Returns text or throws a detailed error.
 
 `fetchOllamaModels(...)`:
 
@@ -104,12 +105,13 @@ MCP helpers list, start, and stop MCP tools through `/api/mcp` routes.
 
 Provider settings:
 
-1. Reads and writes `provider`, `model`, `apiKey`, and `baseUrl` through the store.
+1. Reads and writes `provider`, `model`, `apiKey`, `baseUrl`, and `speechModel` through the store.
 2. Shows OpenRouter, OpenAI, and Ollama provider options.
-3. Shows API key, model name, and optional base URL fields for OpenRouter/OpenAI.
+3. Shows API key, model name, optional base URL, and speech model fields for OpenRouter/OpenAI.
 4. Shows Ollama URL and model dropdown for Ollama.
 5. Calls `fetchOllamaModels(...)` when provider is Ollama.
 6. Selects the first detected Ollama model if the current model is missing or unavailable.
+7. Speech model defaults to `mlx-community/whisper-large-v3-turbo` for local transcription, or can be set to an OpenRouter model like `openrouter/qwen/qwen3-asr-flash-2026-02-10` for cloud transcription.
 
 MCP controls:
 

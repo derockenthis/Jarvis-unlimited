@@ -60,7 +60,7 @@ Routes should stay thin. If a route grows state, subprocess handling, storage be
 3. `McpService`, `SessionTerminalService`, `DesktopVisionService`, and `MemoryService`.
 4. `ChatRuntime`, which receives all long-lived services plus settings and path policy.
 5. `ChatService`, a thin wrapper over `ChatRuntime`.
-6. `SpeechToTextService`, which uses a local MLX Whisper model plus `ffmpeg`.
+6. `SpeechToTextService`, which uses local mlx-whisper or OpenRouter for transcription.
 
 This keeps route handlers simple and lets tests override dependencies without importing ADK eagerly.
 
@@ -113,6 +113,7 @@ The current request schema and renderer now carry provider settings:
 2. `model`: provider-specific model name.
 3. `api_key`: user-entered key from the sidebar.
 4. `base_url`: optional provider base URL, also used for Ollama discovery.
+5. `speech_model`: optional speech-to-text model (local mlx-whisper or OpenRouter), configurable per provider and persisted in SQLite.
 
 `ProviderRuntimeConfig` maps these into LiteLLM model strings:
 

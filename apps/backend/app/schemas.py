@@ -32,11 +32,20 @@ class ChatEvent(BaseModel):
     payload: ChatEventPayload = Field(default_factory=ChatEventPayload)
 
 
+class Conversation(BaseModel):
+    id: str
+    user_id: str
+    title: str
+    created_at: str
+    updated_at: str
+
+
 class ProviderModelSettings(BaseModel):
     provider: str
     model: str = ""
     api_key: str = ""
     base_url: str = ""
+    speech_model: str = ""
 
 
 class ModelSettingsResponse(BaseModel):
@@ -49,6 +58,7 @@ class UpsertModelSettingsRequest(BaseModel):
     model: str = ""
     api_key: str = ""
     base_url: str = ""
+    speech_model: str = ""
 
 
 class SpeechTranscriptionResponse(BaseModel):

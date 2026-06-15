@@ -9,6 +9,7 @@ from app.config import Settings
 from app.schemas import ChatEvent, ChatEventPayload, ChatRequest
 from app.security.path_policy import PathPolicy
 from app.services.desktop_vision_service import DesktopVisionService
+from app.services.conversation_context_service import ConversationContextService
 from app.services.memory_service import MemoryService
 from app.services.mcp_service import McpService
 from app.services.session_terminal_service import SessionTerminalService
@@ -83,6 +84,7 @@ def test_chat_runtime_allows_ollama_without_openrouter_key(tmp_path) -> None:
         SessionTerminalService(),
         DesktopVisionService(settings),
         MemoryService(settings),
+        ConversationContextService(settings.sqlite_path),
     )
     request = ChatRequest(message="hello", provider="ollama", model="gemma4:12b")
 

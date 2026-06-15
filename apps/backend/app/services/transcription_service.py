@@ -1,17 +1,14 @@
 from __future__ import annotations
 
-import importlib
-import mimetypes
-from pathlib import Path
-import shutil
 import tempfile
-from typing import Any
+from pathlib import Path
+from typing import Any, Dict
 
 from app.config import Settings
 
 
 class SpeechToTextService:
-    """Transcribe audio with a local MLX Whisper model."""
+    """Transcribe audio with configurable model (local mlx-whisper or OpenRouter)."""
 
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
@@ -21,39 +18,41 @@ class SpeechToTextService:
         audio_bytes: bytes,
         filename: str,
         content_type: str | None = None,
+        model: str | None = None,
     ) -> dict[str, Any]:
-        if shutil.which("ffmpeg") is None:
+        # Use provided model or fall back to configured default
+        speech_model = model or self.settings.local_whisper_model
+
+        # Route to OpenRouter if model is prefixed with openrouter/
+        if speech_model.startswith("openrouter/"):
+            return self._transcribe_openrouter(audio_bytes, filename, speech_model)
+
+        # Otherwise use local mlx-whisper
+        return self._transcribe_local(audio_bytes, filename, speech_model)
+
+    def _transcribe_local(
+        self, audio_bytes: bytes, filename: str, model: str
+    ) -> dict[str, Any]:
+        try:
+            import mlx_whisper
+        except ImportError:
             return {
                 "status": "error",
-                "error": "Local speech transcription requires ffmpeg. Install it with `brew install ffmpeg`.",
+                "error": (
+                    "mlx-whisper is not installed. "
+                    "Run: pip install mlx-whisper (or uv add mlx-whisper) to enable local speech transcription."
+                ),
             }
 
-        target_name = Path(filename).name or "speech.webm"
-        mime_type = content_type or mimetypes.guess_type(target_name)[0] or "audio/webm"
-        suffix = self._audio_suffix_from(target_name, mime_type)
-
         try:
-            mlx_whisper = self._load_mlx_whisper()
-            with tempfile.NamedTemporaryFile(suffix=f".{suffix}", delete=False) as audio_file:
-                audio_file.write(audio_bytes)
-                audio_path = Path(audio_file.name)
-
-            try:
-                response_payload = mlx_whisper.transcribe(
-                    str(audio_path),
-                    path_or_hf_repo=self.settings.speech_to_text_model,
-                )
-            finally:
-                audio_path.unlink(missing_ok=True)
-
-            text = str(response_payload.get("text", "")).strip()
+            result = self._transcribe_locally(mlx_whisper, audio_bytes, filename, model)
+            text = result["text"].strip()
             if not text:
                 return {
                     "status": "error",
                     "error": "No transcription text was returned.",
                 }
 
-            model = str(response_payload.get("model") or self.settings.speech_to_text_model)
             return {
                 "status": "success",
                 "data": {
@@ -61,26 +60,86 @@ class SpeechToTextService:
                     "model": model,
                 },
             }
-        except ModuleNotFoundError:
+        except Exception as error:  # noqa: BLE001
+            return {"status": "error", "error": str(error)}
+
+    def _transcribe_openrouter(
+        self, audio_bytes: bytes, filename: str, model: str
+    ) -> dict[str, Any]:
+        try:
+            import httpx
+        except ImportError:
             return {
                 "status": "error",
-                "error": "Local speech transcription requires the `mlx-whisper` Python package. Install it in `apps/backend` with `uv add mlx-whisper`.",
+                "error": "httpx is not installed. Run: pip install httpx",
+            }
+
+        api_key = self.settings.openrouter_api_key
+        if not api_key:
+            return {
+                "status": "error",
+                "error": "OpenRouter API key not configured. Set OPENROUTER_API_KEY.",
+            }
+
+        base_url = self.settings.openrouter_base_url or "https://openrouter.ai/api/v1"
+        model_slug = model.removeprefix("openrouter/")
+
+        try:
+            suffix = Path(filename).suffix.lower()
+            if not suffix:
+                suffix = ".webm"
+
+            with tempfile.NamedTemporaryFile(suffix=suffix, delete=True) as tmp:
+                tmp.write(audio_bytes)
+                tmp.flush()
+
+                with httpx.Client(timeout=60.0) as client:
+                    with open(tmp.name, "rb") as audio_file:
+                        files = {"file": (tmp.name, audio_file, "audio/webm")}
+                        data = {"model": model_slug}
+                        headers = {"Authorization": f"Bearer {api_key}"}
+                        response = client.post(
+                            f"{base_url}/audio/transcriptions",
+                            files=files,
+                            data=data,
+                            headers=headers,
+                        )
+
+            if response.status_code != 200:
+                return {
+                    "status": "error",
+                    "error": f"OpenRouter transcription failed: {response.text}",
+                }
+
+            result = response.json()
+            text = result.get("text", "").strip()
+            if not text:
+                return {
+                    "status": "error",
+                    "error": "No transcription text was returned.",
+                }
+
+            return {
+                "status": "success",
+                "data": {
+                    "text": text,
+                    "model": model,
+                },
             }
         except Exception as error:  # noqa: BLE001
             return {"status": "error", "error": str(error)}
 
-    def _load_mlx_whisper(self) -> Any:
-        return importlib.import_module("mlx_whisper")
+    def _transcribe_locally(
+        self, mlx_whisper: object, audio_bytes: bytes, filename: str, model: str
+    ) -> Dict[str, Any]:
+        suffix = Path(filename).suffix.lower()
+        if not suffix:
+            suffix = ".webm"
 
-    def _audio_suffix_from(self, filename: str, mime_type: str) -> str:
-        suffix = Path(filename).suffix.lower().lstrip(".")
-        if suffix in {"wav", "mp3", "m4a", "webm", "ogg", "flac"}:
-            return suffix
-
-        guessed = mimetypes.guess_extension(mime_type or "")
-        if guessed:
-            guessed_suffix = guessed.lstrip(".").lower()
-            if guessed_suffix in {"wav", "mp3", "m4a", "webm", "ogg", "flac"}:
-                return guessed_suffix
-
-        return "webm"
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=True) as tmp:
+            tmp.write(audio_bytes)
+            tmp.flush()
+            return mlx_whisper.transcribe(
+                tmp.name,
+                path_or_hf_repo=model,
+            )

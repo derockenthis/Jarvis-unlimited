@@ -652,46 +652,49 @@ async def test_build_runner_uses_workspace_and_browser_tools_only(
     ]
 
 
-def test_speech_to_text_service_uses_local_mlx_whisper(monkeypatch) -> None:
-    settings = Settings(SPEECH_TO_TEXT_MODEL="mlx-community/whisper-small")
+def test_speech_to_text_service_posts_multipart_audio(monkeypatch) -> None:
+    settings = Settings(
+        OPENROUTER_API_KEY="test-key",
+        OPENROUTER_TRANSCRIPTION_MODEL="nvidia/parakeet-tdt-0.6b-v3",
+    )
     service = SpeechToTextService(settings)
     seen: dict[str, object] = {}
 
-    class _FakeWhisper:
-        @staticmethod
-        def transcribe(audio_path: str, path_or_hf_repo: str):
-            seen["audio_path"] = audio_path
-            seen["path_or_hf_repo"] = path_or_hf_repo
-            seen["audio_bytes"] = Path(audio_path).read_bytes()
-            return {
-                "text": "microphone transcript",
-                "model": "mlx-community/whisper-small",
-            }
+    class _FakeResponse:
+        def __enter__(self):
+            return self
 
-    monkeypatch.setattr("app.services.transcription_service.shutil.which", lambda _: "/opt/homebrew/bin/ffmpeg")
-    monkeypatch.setattr("app.services.transcription_service.importlib.import_module", lambda name: _FakeWhisper())
+        def __exit__(self, exc_type, exc, tb):
+            return False
+
+        def read(self):
+            return json.dumps(
+                {
+                    "text": "microphone transcript",
+                    "model": "nvidia/parakeet-tdt-0.6b-v3",
+                }
+            ).encode("utf-8")
+
+    def _fake_urlopen(request, timeout):
+        seen["url"] = request.full_url
+        seen["headers"] = dict(request.headers)
+        seen["body"] = request.data
+        seen["timeout"] = timeout
+        return _FakeResponse()
+
+    monkeypatch.setattr("app.services.transcription_service.urllib.request.urlopen", _fake_urlopen)
 
     result = service.transcribe_audio(b"audio-bytes", "speech.webm", "audio/webm")
 
     assert result["status"] == "success"
     assert result["data"]["text"] == "microphone transcript"
-    assert result["data"]["model"] == "mlx-community/whisper-small"
-    assert seen["path_or_hf_repo"] == "mlx-community/whisper-small"
-    assert seen["audio_bytes"] == b"audio-bytes"
-    assert str(seen["audio_path"]).endswith(".webm")
-    assert not Path(str(seen["audio_path"])).exists()
-
-
-def test_speech_to_text_service_reports_missing_local_dependencies(monkeypatch) -> None:
-    settings = Settings(SPEECH_TO_TEXT_MODEL="mlx-community/whisper-small")
-    service = SpeechToTextService(settings)
-
-    monkeypatch.setattr("app.services.transcription_service.shutil.which", lambda _: None)
-
-    result = service.transcribe_audio(b"audio-bytes", "speech.webm", "audio/webm")
-
-    assert result["status"] == "error"
-    assert "ffmpeg" in result["error"]
+    assert seen["url"] == "https://openrouter.ai/api/v1/audio/transcriptions"
+    headers = {key.lower(): value for key, value in seen["headers"].items()}
+    assert "application/json" in str(headers.get("content-type"))
+    payload = json.loads(seen["body"].decode("utf-8"))
+    assert payload["model"] == "nvidia/parakeet-tdt-0.6b-v3"
+    assert payload["input_audio"]["format"] == "webm"
+    assert seen["timeout"] == 60
 
 def test_chat_runtime_translates_mcp_iserror_responses() -> None:
     runtime = object.__new__(AgentStreamRunner)

@@ -1,4 +1,5 @@
 from collections.abc import AsyncIterator
+from typing import Protocol
 
 from app.agent.agent import build_agent
 from app.agent.event_translation import clean_assistant_text, translate_event
@@ -18,6 +19,14 @@ from app.services.mcp_service import McpService
 from app.services.session_terminal_service import SessionTerminalService
 
 APP_NAME = "jarvis-desktop"
+
+
+class ConversationStore(Protocol):
+    async def save_conversation(self, session_id: str, user_id: str, title: str) -> None: ...
+
+    async def save_conversation_message(
+        self, conversation_id: str, role: str, content: str
+    ) -> None: ...
 
 
 class AgentStreamRunner:
@@ -218,13 +227,34 @@ class AgentStreamRunner:
 
         return []
 
-    async def stream_chat(self, request: ChatRequest) -> AsyncIterator[ChatEvent]:
+    def _conversation_title_from_message(self, message: str) -> str:
+        stripped = message.strip()
+        if not stripped:
+            return "New chat"
+        return stripped.splitlines()[0].strip()[:80]
+
+    async def stream_chat(
+        self,
+        request: ChatRequest,
+        conversation_store: ConversationStore | None = None,
+    ) -> AsyncIterator[ChatEvent]:
         self._debug(
             "stream_chat_start "
             f"session_id={request.session_id} user_id={request.user_id} "
             f"provider={request.provider or 'openrouter'} model={request.model or '<default>'} "
             f"base_url={request.base_url or '<default>'}"
         )
+        if conversation_store is not None:
+            await conversation_store.save_conversation(
+                request.session_id,
+                request.user_id,
+                self._conversation_title_from_message(request.message),
+            )
+            await conversation_store.save_conversation_message(
+                request.session_id,
+                "user",
+                request.message,
+            )
         missing_configuration = self._missing_provider_configuration(request)
         if missing_configuration:
             self._debug(f"missing_configuration={missing_configuration}")
@@ -242,7 +272,11 @@ class AgentStreamRunner:
                 request.session_id, f"user[{request.user_id}]: {request.message}"
             )
             self._debug(f"user_observation_appended session_id={request.session_id}")
-            async for chat_event in self._run_adk_chat(request, genai_types):
+            async for chat_event in self._run_adk_chat(
+                request,
+                genai_types,
+                conversation_store=conversation_store,
+            ):
                 self._debug(
                     f"yield_chat_event type={chat_event.type} "
                     f"content={chat_event.content[:200]!r}"
@@ -262,7 +296,11 @@ class AgentStreamRunner:
                         type="thought",
                         content="Resetting stale session tool history and retrying the request.",
                     )
-                    async for chat_event in self._run_adk_chat(request, genai_types):
+                    async for chat_event in self._run_adk_chat(
+                        request,
+                        genai_types,
+                        conversation_store=conversation_store,
+                    ):
                         yield chat_event
                     yield ChatEvent(type="done", content="Chat stream completed.")
                     return
@@ -277,7 +315,12 @@ class AgentStreamRunner:
 
         yield ChatEvent(type="done", content="Chat stream completed.")
 
-    async def _run_adk_chat(self, request: ChatRequest, types: object) -> AsyncIterator[ChatEvent]:
+    async def _run_adk_chat(
+        self,
+        request: ChatRequest,
+        types: object,
+        conversation_store: ConversationStore | None = None,
+    ) -> AsyncIterator[ChatEvent]:
         runner = await self._build_runner(request)
         await self._ensure_session(request.user_id, request.session_id)
         assistant_chunks: list[str] = []
@@ -340,12 +383,19 @@ class AgentStreamRunner:
                     )
                 yield chat_event
         if assistant_chunks:
+            assistant_response = "".join(assistant_chunks).strip()
+            if conversation_store is not None and assistant_response:
+                await conversation_store.save_conversation_message(
+                    request.session_id,
+                    "assistant",
+                    assistant_response,
+                )
             self._debug(
                 f"assistant_observation_appended session_id={request.session_id} "
-                f"length={len(''.join(assistant_chunks))}"
+                f"length={len(assistant_response)}"
             )
             await self.memory_service.append_observation(
-                request.session_id, f"assistant[{request.user_id}]: {''.join(assistant_chunks)}"
+                request.session_id, f"assistant[{request.user_id}]: {assistant_response}"
             )
         else:
             self._debug("assistant_chunks_empty_no_observation_appended")

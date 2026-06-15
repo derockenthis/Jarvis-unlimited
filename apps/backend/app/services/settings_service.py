@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS provider_model_settings (
   model TEXT NOT NULL DEFAULT '',
   api_key TEXT NOT NULL DEFAULT '',
   base_url TEXT NOT NULL DEFAULT '',
+  speech_model TEXT NOT NULL DEFAULT '',
   updated_at TEXT NOT NULL
 )
 """
@@ -48,7 +49,7 @@ class SettingsService:
                 ("current_provider",),
             ).fetchone()
             provider_rows = database.execute(
-                "SELECT provider, model, api_key, base_url FROM provider_model_settings ORDER BY provider"
+                "SELECT provider, model, api_key, base_url, speech_model FROM provider_model_settings ORDER BY provider"
             ).fetchall()
 
         return ModelSettingsResponse(
@@ -59,6 +60,7 @@ class SettingsService:
                     model=str(row[1] or ""),
                     api_key=str(row[2] or ""),
                     base_url=str(row[3] or ""),
+                    speech_model=str(row[4] or ""),
                 )
                 for row in provider_rows
             ],
@@ -71,15 +73,16 @@ class SettingsService:
         with sqlite3.connect(self.sqlite_path) as database:
             database.execute(
                 """
-                INSERT INTO provider_model_settings (provider, model, api_key, base_url, updated_at)
-                VALUES (?, ?, ?, ?, ?)
+                INSERT INTO provider_model_settings (provider, model, api_key, base_url, speech_model, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?)
                 ON CONFLICT(provider) DO UPDATE SET
                   model = excluded.model,
                   api_key = excluded.api_key,
                   base_url = excluded.base_url,
+                  speech_model = excluded.speech_model,
                   updated_at = excluded.updated_at
                 """,
-                (request.provider, request.model, request.api_key, request.base_url, timestamp),
+                (request.provider, request.model, request.api_key, request.base_url, request.speech_model, timestamp),
             )
             database.execute(
                 """

@@ -34,7 +34,7 @@ def get_chat_runtime() -> AgentStreamRunner:
 
 @lru_cache(maxsize=1)
 def get_chat_service() -> ChatService:
-    return ChatService(get_chat_runtime())
+    return ChatService(get_chat_runtime(), get_settings())
 
 
 @lru_cache(maxsize=1)

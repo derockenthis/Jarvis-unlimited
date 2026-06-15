@@ -33,7 +33,7 @@ Screen sharing is explicit. The chat surface exposes a `share screen with agent`
 
 The sidebar also lets the user choose a skills folder. When selected, that folder is passed to the agent on each chat request so it can search that folder first for reusable skills, prompts, and workflows. If a `skills.md` file exists in the selected folder, the agent should treat it as the canonical skills index and prefer editing that file when adding or updating a skill.
 
-The chat composer also exposes speech-to-text input outside the text entry area. In the current prototype this records raw microphone audio in the renderer, uploads it to the local backend, and transcribes it through a local MLX Whisper model before inserting the dictated text into the message draft. The renderer still needs microphone permission in the trusted desktop shell.
+The chat composer also exposes speech-to-text input outside the text entry area. In the current prototype this records raw microphone audio in the renderer, uploads it to the local backend, and transcribes it locally with mlx-whisper before inserting the dictated text into the message draft. The renderer still needs microphone permission in the trusted desktop shell.
 
 ## Frontend Architecture
 

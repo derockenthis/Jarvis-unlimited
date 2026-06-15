@@ -80,10 +80,12 @@ export function ChatPane() {
   const skillsRootPath = useAppStore((state) => state.skillsRootPath);
   const isStreaming = useAppStore((state) => state.isStreaming);
   const isScreenSharing = useAppStore((state) => state.isScreenSharing);
-  const addUserMessage = useAppStore((state) => state.addUserMessage);
   const addChatEvent = useAppStore((state) => state.addChatEvent);
+  const populateConversations = useAppStore((state) => state.populateConversations);
   const setStreaming = useAppStore((state) => state.setStreaming);
   const setScreenSharing = useAppStore((state) => state.setScreenSharing);
+  const sessionId = useAppStore((state) => state.sessionId);
+  const speechModel = useAppStore((state) => state.speechModel);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const recordingStreamRef = useRef<MediaStream | null>(null);
   const recordedChunksRef = useRef<Blob[]>([]);
@@ -129,7 +131,7 @@ export function ChatPane() {
 
     setIsTranscribing(true);
     try {
-      const transcript = (await transcribeAudio(backendUrl, audioBlob)).trim();
+      const transcript = (await transcribeAudio(backendUrl, audioBlob, speechModel)).trim();
       if (transcript) {
         setDraft((currentDraft) => (currentDraft ? `${currentDraft} ${transcript}`.trim() : transcript));
       }
@@ -211,7 +213,6 @@ export function ChatPane() {
   const model = useAppStore((state) => state.model);
   const apiKey = useAppStore((state) => state.apiKey);
   const baseUrl = useAppStore((state) => state.baseUrl);
-
   const sendDraft = async () => {
     const content = draft.trim();
     if (!content || isStreaming) {
@@ -219,11 +220,11 @@ export function ChatPane() {
     }
     mediaRecorderRef.current?.stop();
     setIsListening(false);
-    addUserMessage(content);
+
     setDraft('');
     setStreaming(true);
     try {
-      await streamChat(backendUrl, content, isScreenSharing, skillsRootPath, provider, model, apiKey, baseUrl, addChatEvent);
+      await streamChat(backendUrl, content, isScreenSharing, skillsRootPath, provider, model, apiKey, baseUrl, addChatEvent, sessionId);
     } catch (error) {
       addChatEvent({
         type: 'error',
@@ -231,6 +232,9 @@ export function ChatPane() {
       });
     } finally {
       setStreaming(false);
+      void populateConversations().catch((error) => {
+        console.error('Failed to refresh conversations', error);
+      });
     }
   };
 

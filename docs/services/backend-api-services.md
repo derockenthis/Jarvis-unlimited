@@ -17,7 +17,7 @@ Primary files:
 | `apps/backend/app/routes/workspaces.py` | Workspace root endpoint. |
 | `apps/backend/app/services/health_service.py` | Health response construction. |
 | `apps/backend/app/services/chat_service.py` | Thin chat service facade. |
-| `apps/backend/app/services/transcription_service.py` | OpenRouter speech-to-text integration. |
+| `apps/backend/app/services/transcription_service.py` | Local mlx-whisper speech-to-text integration. |
 | `apps/backend/app/services/workspace_service.py` | Workspace root projection. |
 
 ## App Initialization
@@ -45,7 +45,7 @@ CORS allows `http://127.0.0.1:5173` and `http://localhost:5173`, with all method
 | `get_session_terminal_service()` | `SessionTerminalService` | In-memory guarded terminal sessions. |
 | `get_desktop_vision_service()` | `DesktopVisionService` | Screenshot and image analysis service. |
 | `get_memory_service()` | `MemoryService` | NBAM observation and node storage. |
-| `get_speech_to_text_service()` | `SpeechToTextService` | OpenRouter speech service. |
+| `get_speech_to_text_service()` | `SpeechToTextService` | Local mlx-whisper speech service. |
 | `settings_dependency()` | `Settings` | Route-friendly settings dependency. |
 
 This structure keeps ADK and subprocess-heavy objects out of route files and makes tests easier to override.
@@ -91,17 +91,20 @@ Current revision opportunity: this endpoint could move into a dedicated `routes/
 
 ## Speech-To-Text Service
 
-`routes/transcription.py` accepts a multipart upload named `audio`. It reads the bytes, forwards them to `SpeechToTextService.transcribe_audio(...)`, then returns `SpeechTranscriptionResponse` on success.
+`routes/transcription.py` accepts a multipart upload named `audio` and an optional `model` form field. It reads the bytes, forwards them to `SpeechToTextService.transcribe_audio(...)`, then returns `SpeechTranscriptionResponse` on success.
 
 `SpeechToTextService`:
 
-1. Requires a local `ffmpeg` binary so recorded `webm` or `ogg` audio can be decoded.
-2. Requires the `mlx-whisper` Python package in the backend environment.
-3. Writes the uploaded audio to a temporary local file with a suffix derived from filename or MIME type.
-4. Calls `mlx_whisper.transcribe(...)` with the configured local Whisper model id.
-5. Returns text and model name, or a structured error.
+1. Requires `mlx-whisper` to be installed (`pip install mlx-whisper`) for local transcription.
+2. Writes the audio bytes to a temporary file.
+3. Routes transcription based on the model prefix:
+   - **Local (mlx-whisper)**: Models without `openrouter/` prefix. Default `mlx-community/whisper-large-v3-turbo`. Runs fully locally on Apple Silicon via MLX.
+   - **OpenRouter**: Models prefixed with `openrouter/` (e.g., `openrouter/qwen/qwen3-asr-flash-2026-02-10`). Requires `OPENROUTER_API_KEY` and `httpx`.
+4. Returns text and model name, or a structured error.
 
-Missing dependency failures are converted into useful user-facing install messages.
+The first local transcription call downloads the Whisper model from HuggingFace (~1.5 GB), cached in `~/.cache/huggingface/`. Subsequent calls are fast and fully local. OpenRouter models require no local download but need network access and an API key.
+
+The model can be configured per-provider in the UI (Provider Settings → Speech Model) and is persisted in SQLite alongside other provider settings.
 
 ## Workspace Service
 

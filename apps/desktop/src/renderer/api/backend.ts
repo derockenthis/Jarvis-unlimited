@@ -1,4 +1,4 @@
-import type { ChatEvent, McpActionResponse, McpTool, ModelSettingsResponse } from '../types';
+import type { ChatEvent, Conversation, ConversationMessage, McpActionResponse, McpTool, ModelSettingsResponse } from '../types';
 
 export async function streamChat(
   backendUrl: string,
@@ -10,6 +10,7 @@ export async function streamChat(
   apiKey: string | null,
   baseUrl: string | null,
   onEvent: (event: ChatEvent) => void,
+  sessionId: string,
 ) {
   const response = await fetch(`${backendUrl}/api/chat`, {
     method: 'POST',
@@ -18,7 +19,7 @@ export async function streamChat(
     },
     body: JSON.stringify({
       message,
-      session_id: 'desktop-session',
+      session_id: sessionId,
       user_id: 'local-user',
       screen_share_enabled: screenShareEnabled,
       skills_root: skillsRootPath,
@@ -57,10 +58,13 @@ export async function streamChat(
   }
 }
 
-export async function transcribeAudio(backendUrl: string, audioBlob: Blob): Promise<string> {
+export async function transcribeAudio(backendUrl: string, audioBlob: Blob, speechModel?: string): Promise<string> {
   const formData = new FormData();
   const extension = audioBlob.type.includes('ogg') ? 'ogg' : 'webm';
   formData.append('audio', audioBlob, `speech.${extension}`);
+  if (speechModel) {
+    formData.append('model', speechModel);
+  }
 
   const response = await fetch(`${backendUrl}/api/speech/transcribe`, {
     method: 'POST',
@@ -101,7 +105,7 @@ export async function fetchModelSettings(backendUrl: string): Promise<ModelSetti
 
 export async function saveModelSettings(
   backendUrl: string,
-  payload: { provider: string; model: string; api_key: string; base_url: string },
+  payload: { provider: string; model: string; api_key: string; base_url: string; speech_model?: string },
 ): Promise<ModelSettingsResponse> {
   const response = await fetch(`${backendUrl}/api/settings/model`, {
     method: 'PUT',
@@ -145,4 +149,82 @@ export async function stopMcpTool(backendUrl: string, toolId: string): Promise<M
     throw new Error(`Stop MCP tool failed with status ${response.status}`);
   }
   return response.json() as Promise<McpActionResponse>;
+}
+
+export async function createConversation(
+  backendUrl: string,
+  userId: string = 'local-user',
+  title: string = 'New Chat'
+): Promise<Conversation> {
+  const response = await fetch(`${backendUrl}/api/conversations`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ user_id: userId, title }),
+  });
+  if (!response.ok) {
+    throw new Error(`Create conversation failed with status ${response.status}`);
+  }
+  return response.json() as Promise<Conversation>;
+}
+
+export async function listConversations(
+  backendUrl: string,
+  userId: string = 'local-user',
+  limit: number = 50
+): Promise<Conversation[]> {
+  const response = await fetch(`${backendUrl}/api/conversations?user_id=${encodeURIComponent(userId)}&limit=${limit}`);
+  if (!response.ok) {
+    throw new Error(`List conversations failed with status ${response.status}`);
+  }
+  return response.json() as Promise<Conversation[]>;
+}
+
+export async function getConversation(
+  backendUrl: string,
+  conversationId: string
+): Promise<Conversation> {
+  const response = await fetch(`${backendUrl}/api/conversations/${conversationId}`);
+  if (!response.ok) {
+    throw new Error(`Get conversation failed with status ${response.status}`);
+  }
+  return response.json() as Promise<Conversation>;
+}
+
+export async function getConversationMessages(
+  backendUrl: string,
+  conversationId: string
+): Promise<ConversationMessage[]> {
+  const response = await fetch(`${backendUrl}/api/conversations/${conversationId}/messages`);
+  if (!response.ok) {
+    throw new Error(`Get conversation messages failed with status ${response.status}`);
+  }
+  return response.json() as Promise<ConversationMessage[]>;
+}
+
+export async function updateConversationTitle(
+  backendUrl: string,
+  conversationId: string,
+  title: string
+): Promise<Conversation> {
+  const response = await fetch(`${backendUrl}/api/conversations/${conversationId}`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title }),
+  });
+  if (!response.ok) {
+    throw new Error(`Update conversation title failed with status ${response.status}`);
+  }
+  return response.json() as Promise<Conversation>;
+}
+
+export async function deleteConversation(
+  backendUrl: string,
+  conversationId: string
+): Promise<void> {
+  const response = await fetch(`${backendUrl}/api/conversations/${conversationId}`, {
+    method: 'DELETE',
+  });
+  if (!response.ok) {
+    throw new Error(`Delete conversation failed with status ${response.status}`);
+  }
 }

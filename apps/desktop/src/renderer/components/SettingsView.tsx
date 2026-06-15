@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Cpu, Sparkles } from 'lucide-react';
+import { Cpu, Mic, Sparkles } from 'lucide-react';
 import { fetchModelSettings, fetchOllamaModels, saveModelSettings } from '../api/backend';
 import { useAppStore } from '../stores/useAppStore';
 import type { ProviderModelSettings } from '../types';
@@ -18,16 +18,18 @@ function defaultBaseUrlForProvider(provider: string) {
   return provider === 'ollama' ? 'http://localhost:11434' : '';
 }
 
-export function ProviderSettingsView() {
+export function SettingsView() {
   const backendUrl = useAppStore((state) => state.backendUrl);
   const addChatEvent = useAppStore((state) => state.addChatEvent);
   const provider = useAppStore((state) => state.provider);
   const model = useAppStore((state) => state.model);
   const apiKey = useAppStore((state) => state.apiKey);
   const baseUrl = useAppStore((state) => state.baseUrl);
+  const speechModel = useAppStore((state) => state.speechModel);
   const setModel = useAppStore((state) => state.setModel);
   const setApiKey = useAppStore((state) => state.setApiKey);
   const setBaseUrl = useAppStore((state) => state.setBaseUrl);
+  const setSpeechModel = useAppStore((state) => state.setSpeechModel);
   const setProviderSettings = useAppStore((state) => state.setProviderSettings);
 
   const [ollamaModels, setOllamaModels] = useState<string[]>([]);
@@ -53,6 +55,7 @@ export function ProviderSettingsView() {
         model: activeProfile?.model || defaultModelForProvider(activeProvider),
         apiKey: activeProfile?.api_key || '',
         baseUrl: activeProfile?.base_url || defaultBaseUrlForProvider(activeProvider),
+        speechModel: activeProfile?.speech_model || 'mlx-community/whisper-large-v3-turbo',
       });
       setSettingsReady(true);
     }).catch((error) => {
@@ -93,6 +96,7 @@ export function ProviderSettingsView() {
         model,
         api_key: apiKey,
         base_url: baseUrl,
+        speech_model: speechModel,
       }).then((response) => {
         setSavedProfiles(Object.fromEntries(response.providers.map((entry) => [entry.provider, entry])));
       }).catch((error) => {
@@ -108,7 +112,7 @@ export function ProviderSettingsView() {
     return () => {
       window.clearTimeout(timeoutId);
     };
-  }, [settingsReady, backendUrl, provider, model, apiKey, baseUrl, addChatEvent]);
+  }, [settingsReady, backendUrl, provider, model, apiKey, baseUrl, speechModel, addChatEvent]);
 
   const handleProviderChange = (nextProvider: string) => {
     const savedProfile = savedProfiles[nextProvider];
@@ -117,6 +121,7 @@ export function ProviderSettingsView() {
       model: savedProfile?.model || defaultModelForProvider(nextProvider),
       apiKey: savedProfile?.api_key || '',
       baseUrl: savedProfile?.base_url || defaultBaseUrlForProvider(nextProvider),
+      speechModel: savedProfile?.speech_model || 'mlx-community/whisper-large-v3-turbo',
     });
   };
 
@@ -124,8 +129,8 @@ export function ProviderSettingsView() {
     <section className="workspace-panel">
       <header className="workspace-header">
         <div>
-          <p className="eyebrow">Provider</p>
-          <h2><Cpu size={18} /> Model Settings</h2>
+          <p className="eyebrow">Settings</p>
+          <h2><Cpu size={18} /> LLM & Speech Models</h2>
         </div>
         {isSavingModelSettings ? (
           <div className="workspace-status"><Sparkles size={15} /> Saving</div>
@@ -134,7 +139,7 @@ export function ProviderSettingsView() {
 
       <div className="settings-form">
         <label className="field-row">
-          <span>Service</span>
+          <span>LLM Provider</span>
           <select value={provider} onChange={(event) => handleProviderChange(event.target.value)} className="text-input">
             <option value="openrouter">OpenRouter</option>
             <option value="openai">OpenAI</option>
@@ -149,7 +154,7 @@ export function ProviderSettingsView() {
               <input type="text" value={baseUrl} onChange={(event) => setBaseUrl(event.target.value)} placeholder="http://localhost:11434" className="text-input" />
             </label>
             <label className="field-row">
-              <span>Model</span>
+              <span>LLM Model</span>
               <select value={model} onChange={(event) => setModel(event.target.value)} className="text-input">
                 {ollamaModels.length === 0 ? <option value={model}>{model || 'Loading...'}</option> : null}
                 {ollamaModels.map((ollamaModel) => (
@@ -165,7 +170,7 @@ export function ProviderSettingsView() {
               <input type="password" value={apiKey} onChange={(event) => setApiKey(event.target.value)} placeholder="sk-..." className="text-input" />
             </label>
             <label className="field-row">
-              <span>Model Name</span>
+              <span>LLM Model</span>
               <input type="text" value={model} onChange={(event) => setModel(event.target.value)} placeholder={provider === 'openrouter' ? 'openai/gpt-4o-mini' : 'gpt-4o'} className="text-input" />
             </label>
             <label className="field-row">
@@ -174,6 +179,20 @@ export function ProviderSettingsView() {
             </label>
           </>
         )}
+
+        <div className="settings-divider">
+          <span>Speech to Text</span>
+        </div>
+
+        <label className="field-row">
+          <span>Speech Model</span>
+          <input type="text" value={speechModel} onChange={(event) => setSpeechModel(event.target.value)} placeholder="mlx-community/whisper-large-v3-turbo" className="text-input" />
+        </label>
+
+        <p className="settings-hint">
+          Use <code>mlx-community/whisper-large-v3-turbo</code> for local transcription (requires mlx-whisper + ffmpeg), 
+          or <code>openrouter/qwen/qwen3-asr-flash-2026-02-10</code> for cloud transcription via OpenRouter.
+        </p>
       </div>
     </section>
   );

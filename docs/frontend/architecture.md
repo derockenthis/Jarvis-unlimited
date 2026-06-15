@@ -46,7 +46,7 @@ The renderer does not directly access the filesystem, ADK, MCP subprocesses, or 
 4. Chat state: `messages`, `activeAssistantId`, `isStreaming`, and `addChatEvent`.
 5. Screen state: `isScreenSharing` and `isScreenViewing`.
 6. Skills state: `skillsRootPath`, persisted in `localStorage`.
-7. Model provider state: `provider`, `model`, `apiKey`, and `baseUrl`, persisted in `localStorage`.
+7. Model provider state: `provider`, `model`, `apiKey`, `baseUrl`, and `speechModel`, persisted in `localStorage`.
 8. Preview state: one `PreviewItem` for `LiveWindow`.
 
 The store appends every submitted user turn plus an empty assistant message. The generated assistant id is saved in `activeAssistantId`, so streamed backend events mutate only the current assistant bubble. Assistant messages keep tool activities and streamed thoughts separately so thought events can remain visible after a turn finishes.
@@ -68,9 +68,11 @@ Detailed configuration no longer lives in nested sidebar containers. `ProviderSe
 
 `WorkspacePanel.tsx` reads `activeWorkspaceView` from the store and renders one center-pane view.
 
-Provider settings allow selecting `OpenRouter`, `OpenAI`, or `Ollama (Local)`. For OpenRouter and OpenAI, users can enter an API key, model name, and optional base URL. For Ollama, users can enter an Ollama server URL and choose a detected local model.
+Provider settings allow selecting `OpenRouter`, `OpenAI`, or `Ollama (Local)`. For OpenRouter and OpenAI, users can enter an API key, model name, optional base URL, and speech model. For Ollama, users can enter an Ollama server URL and choose a detected local model.
 
 When Ollama is selected, the provider view calls `fetchOllamaModels(backendUrl, baseUrl || 'http://localhost:11434')`. The backend then probes `/api/tags` and returns discovered model names. If a model is found and the current model is absent or not available, the store selects the first returned model.
+
+Speech model defaults to `mlx-community/whisper-large-v3-turbo` for local transcription via mlx-whisper, or can be set to an OpenRouter model like `openrouter/qwen/qwen3-asr-flash-2026-02-10` for cloud transcription.
 
 MCP controls call:
 
@@ -93,7 +95,7 @@ On submit it sends the draft to `streamChat(...)` with:
 5. Selected provider, model, API key, and base URL.
 6. `addChatEvent` callback for streamed backend events.
 
-It also owns speech-to-text recording with `MediaRecorder`. The component records audio, posts it to `POST /api/speech/transcribe`, and inserts returned transcript text into the draft.
+It also owns speech-to-text recording with `MediaRecorder`. The component records audio, posts it to `POST /api/speech/transcribe` with the configured `speechModel` from the store, and inserts returned transcript text into the draft.
 
 The screen-sharing control toggles `isScreenSharing`. This has two effects:
 

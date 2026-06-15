@@ -1,14 +1,14 @@
 import { ChatPane } from './ChatPane';
 import { McpToolsView } from './McpToolsView';
-import { ProviderSettingsView } from './ProviderSettingsView';
+import { SettingsView } from './SettingsView';
 import { SkillsView } from './SkillsView';
 import { useAppStore } from '../stores/useAppStore';
 
 export function WorkspacePanel() {
   const activeWorkspaceView = useAppStore((state) => state.activeWorkspaceView);
 
-  if (activeWorkspaceView === 'provider') {
-    return <ProviderSettingsView />;
+  if (activeWorkspaceView === 'settings') {
+    return <SettingsView />;
   }
 
   if (activeWorkspaceView === 'mcp') {

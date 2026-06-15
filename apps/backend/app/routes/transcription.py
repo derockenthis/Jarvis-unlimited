@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
+from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 
 from app.dependencies import get_speech_to_text_service
 from app.schemas import SpeechTranscriptionResponse
@@ -10,12 +10,14 @@ router = APIRouter(prefix="/api", tags=["speech"])
 @router.post("/speech/transcribe", response_model=SpeechTranscriptionResponse)
 async def transcribe_speech(
     audio: UploadFile = File(...),
+    model: str = Form(default=""),
     service: SpeechToTextService = Depends(get_speech_to_text_service),
 ) -> SpeechTranscriptionResponse:
     result = service.transcribe_audio(
         await audio.read(),
         audio.filename or "speech.webm",
         audio.content_type,
+        model=model or None,
     )
 
     if result["status"] != "success":

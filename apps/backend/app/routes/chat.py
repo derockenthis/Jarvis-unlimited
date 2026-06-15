@@ -2,11 +2,11 @@ from collections.abc import AsyncIterator
 import json
 import httpx
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Query
 from fastapi.responses import StreamingResponse, JSONResponse
 
 from app.dependencies import get_chat_service
-from app.schemas import ChatRequest
+from app.schemas import ChatRequest, Conversation
 from app.services.chat_service import ChatService
 
 router = APIRouter(prefix="/api", tags=["chat"])
@@ -33,3 +33,12 @@ async def chat(
             yield f"data: {json.dumps(event.model_dump())}\n\n"
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
+
+
+@router.get("/conversations", response_model=list[Conversation])
+async def list_conversations(
+    user_id: str = "local-user",
+    limit: int = Query(default=50, ge=1, le=200),
+    service: ChatService = Depends(get_chat_service),
+) -> list[Conversation]:
+    return await service.list_conversations(user_id=user_id, limit=limit)

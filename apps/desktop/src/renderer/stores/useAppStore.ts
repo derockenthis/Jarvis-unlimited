@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import type { ChatActivity, ChatEvent, ChatMessage, McpTool, PreviewItem, WorkspaceView } from '../types';
+import { listConversations } from '../api/backend';
+import type { ChatActivity, ChatEvent, ChatMessage, McpTool, PreviewItem, WorkspaceView, Conversationlist } from '../types';
 
 type AppState = {
   sidebarCollapsed: boolean;
@@ -7,17 +8,21 @@ type AppState = {
   backendUrl: string;
   mcpTools: McpTool[];
   messages: ChatMessage[];
+  conversation: Conversationlist[];
   preview: PreviewItem;
   isStreaming: boolean;
   isScreenSharing: boolean;
   isScreenViewing: boolean;
   activeAssistantId: string | null;
+  activeConversationId: string | null;
   skillsRootPath: string | null;
 
   provider: string;
   model: string;
   apiKey: string;
+  sessionId: string;
   baseUrl: string;
+  speechModel: string;
 
   toggleSidebar: () => void;
   setActiveWorkspaceView: (view: WorkspaceView) => void;
@@ -25,14 +30,16 @@ type AppState = {
   setMcpTools: (tools: McpTool[]) => void;
   setMcpToolStatus: (toolId: string, status: McpTool['status']) => void;
   setSkillsRootPath: (skillsRootPath: string | null) => void;
-
+  setSessionId: (sessionId: string) => void;
+  setActiveConversationId: (conversationId: string | null) => void;
   setProvider: (provider: string) => void;
   setModel: (model: string) => void;
   setApiKey: (apiKey: string) => void;
   setBaseUrl: (baseUrl: string) => void;
-  setProviderSettings: (settings: { provider: string; model: string; apiKey: string; baseUrl: string }) => void;
-
-  addUserMessage: (content: string) => void;
+  setSpeechModel: (speechModel: string) => void;
+  setProviderSettings: (settings: { provider: string; model: string; apiKey: string; baseUrl: string; speechModel: string }) => void;
+  addNewConversation: () => void;
+  populateConversations: () => Promise<void>;
   addChatEvent: (event: ChatEvent) => void;
   setStreaming: (isStreaming: boolean) => void;
   setScreenSharing: (isScreenSharing: boolean) => void;
@@ -41,6 +48,21 @@ type AppState = {
 
 const now = () => new Date().toISOString();
 const skillsRootStorageKey = 'jarvis.skillsRootPath';
+
+function createInitialMessages(): ChatMessage[] {
+  return [
+    {
+      id: 'system-welcome',
+      role: 'system',
+      content: 'Jarvis local runtime is ready for backend connection. Configure OpenRouter and grant a workspace root to unlock agent tools.',
+      createdAt: now(),
+    },
+  ];
+}
+
+function generateSessionId() {
+  return `desktop-session-${crypto.randomUUID()}`;
+}
 
 function getStoredSkillsRootPath() {
   if (typeof window === 'undefined') {
@@ -72,9 +94,11 @@ function appendToAssistantById(
   return messages.map((message) => (message.id === assistantId ? update(message) : message));
 }
 
-export const useAppStore = create<AppState>((set) => ({
+export const useAppStore = create<AppState>((set, get) => ({
+  sessionId: generateSessionId(),
   sidebarCollapsed: false,
   activeWorkspaceView: 'chat',
+  conversation: [],
   backendUrl: import.meta.env.VITE_BACKEND_URL ?? 'http://127.0.0.1:8765',
   mcpTools: [
     {
@@ -94,14 +118,7 @@ export const useAppStore = create<AppState>((set) => ({
       description: 'Browser automation MCP preset for agent web browsing and live preview checks.',
     },
   ],
-  messages: [
-    {
-      id: 'system-welcome',
-      role: 'system',
-      content: 'Jarvis local runtime is ready for backend connection. Configure OpenRouter and grant a workspace root to unlock agent tools.',
-      createdAt: now(),
-    },
-  ],
+  messages: createInitialMessages(),
   preview: {
     id: 'empty-preview',
     title: 'Live AI Window',
@@ -112,12 +129,14 @@ export const useAppStore = create<AppState>((set) => ({
   isScreenSharing: false,
   isScreenViewing: false,
   activeAssistantId: null,
+  activeConversationId: null,
   skillsRootPath: getStoredSkillsRootPath(),
 
   provider: 'openrouter',
   model: 'openai/gpt-4o-mini',
   apiKey: '',
   baseUrl: '',
+  speechModel: 'mlx-community/whisper-large-v3-turbo',
 
   toggleSidebar: () => set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed })),
   setActiveWorkspaceView: (activeWorkspaceView) => set({ activeWorkspaceView }),
@@ -130,38 +149,41 @@ export const useAppStore = create<AppState>((set) => ({
     setStoredSkillsRootPath(skillsRootPath);
     set({ skillsRootPath });
   },
-
+  setSessionId: (sessionId) => set({ sessionId }),
+  setActiveConversationId: (activeConversationId) => set({ activeConversationId }),
   setProvider: (provider) => set({ provider }),
   setModel: (model) => set({ model }),
   setApiKey: (apiKey) => set({ apiKey }),
   setBaseUrl: (baseUrl) => set({ baseUrl }),
-  setProviderSettings: ({ provider, model, apiKey, baseUrl }) => set({ provider, model, apiKey, baseUrl }),
+  setSpeechModel: (speechModel) => set({ speechModel }),
+  setProviderSettings: ({ provider, model, apiKey, baseUrl, speechModel }) => set({ provider, model, apiKey, baseUrl, speechModel }),
 
-  addUserMessage: (content) => set((state) => {
-    const assistantId = crypto.randomUUID();
+  addNewConversation: () => set((state) => {
+    const sessionId = generateSessionId();
+
     return {
       activeWorkspaceView: 'chat',
-      activeAssistantId: assistantId,
-      messages: [
-        ...state.messages,
-        {
-          id: crypto.randomUUID(),
-          role: 'user',
-          content,
-          createdAt: now(),
-        },
-        {
-          id: assistantId,
-          role: 'assistant',
-          content: '',
-          createdAt: now(),
-          activities: [],
-          thoughts: [],
-          isStreaming: true,
-        },
-      ],
+      activeAssistantId: null,
+      activeConversationId: null,
+      isStreaming: false,
+      isScreenViewing: false,
+      sessionId,
+      messages: createInitialMessages(),
+      conversation: state.conversation,
     };
   }),
+
+  populateConversations: async () => {
+    const conversations = await listConversations(get().backendUrl);
+    set({
+      conversation: conversations.map((conversation) => ({
+        id: conversation.id,
+        title: conversation.title,
+        createdAt: conversation.created_at,
+      })),
+    });
+  },
+
   addChatEvent: (event) => set((state) => {
     if (event.type === 'done') {
       return {
