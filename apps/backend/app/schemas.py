@@ -40,6 +40,14 @@ class Conversation(BaseModel):
     updated_at: str
 
 
+class ConversationMessage(BaseModel):
+    id: int
+    conversation_id: str
+    role: str
+    content: str
+    created_at: str
+
+
 class ProviderModelSettings(BaseModel):
     provider: str
     model: str = ""

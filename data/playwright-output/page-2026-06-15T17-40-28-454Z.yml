@@ -1,0 +1,548 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: Relume homepage Relume homepage
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DRelume%2Bhomepage&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5cDfwZipYPk5P64E7C4q-PzQcE-SAkY1ipXM3LhBjirr4kmLILSqnTCAvzdwxFEdMiGYhDYeAR5BuuELApjHBPmDGa3WDRuTf-7uyJFg_PnjYged_CQPKwf-usnue41dAHtiSzA&aep=1&ntc=1&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ2J8OegQIDxAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Images" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5cDfwZipYPk5P64E7C4q-PzQcE-SAkY1ipXM3LhBjirr4kmLILSqnTCAvzdwxFEdMiGYhDYeAR5BuuELApjHBPmDGa3WDRuTf-7uyJFg_PnjYged_CQPKwf-usnue41dAHtiSzA&q=Relume+homepage&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQtKgLegQIFRAB
+              - generic [ref=e84]: Images
+          - listitem [ref=e85]:
+            - link "Shopping" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5cDfwZipYPk5P64E7C4q-PzQcE-SAkY1ipXM3LhBjirr4kmLILSqnTCAvzdwxFEdMiGYhDYeAR5BuuELApjHBPmDGa3WDRuTf-7uyJFg_PnjYged_CQPKwf-usnue41dAHtiSzA&q=Relume+homepage&ved=1t:220175&ictx=111
+              - generic [ref=e88]: Shopping
+          - listitem [ref=e89]:
+            - link "Videos" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5cDfwZipYPk5P64E7C4q-PzQcE-SAkY1ipXM3LhBjirr4kmLILSqnTCAvzdwxFEdMiGYhDYeAR5BuuELApjHBPmDGa3WDRuTf-7uyJFg_PnjYged_CQPKwf-usnue41dAHtiSzA&q=Relume+homepage&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQtKgLegQIExAB
+              - generic [ref=e92]: Videos
+          - listitem [ref=e93]:
+            - link "Forums" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5cDfwZipYPk5P64E7C4q-PzQcE-SAkY1ipXM3LhBjirr4kmLILSqnTCAvzdwxFEdMiGYhDYeAR5BuuELApjHBPmDGa3WDRuTf-7uyJFg_PnjYged_CQPKwf-usnue41dAHtiSzA&q=Relume+homepage&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQs6gLegQIERAB
+              - generic [ref=e96]: Forums
+          - listitem [ref=e97]:
+            - link "News" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=6eb3871cd6a786af&q=Relume+homepage&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5cDfwZipYPk5P64E7C4q-PzQcE-SAkY1ipXM3LhBjirr4kmLILSqnTCAvzdwxFEdMiGYhDYeAR5BuuELApjHBPmDGa3WDRuTf-7uyJFg_PnjYged_CQPKwf-usnue41dAHtiSzA&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ0pQJegQIEhAB
+              - generic [ref=e100]: News
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - heading "Web Result with Site Links" [level=2] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e136]:
+              - generic [ref=e138]:
+                - link "Relume — Websites designed & built faster with AI | AI ... Relume https://www.relume.io" [ref=e140] [cursor=pointer]:
+                  - /url: https://www.relume.io/
+                  - heading "Relume — Websites designed & built faster with AI | AI ..." [level=3] [ref=e141]
+                  - generic [ref=e147]:
+                    - generic [ref=e149]: Relume
+                    - generic [ref=e151]: https://www.relume.io
+                - button "About this result" [ref=e152] [cursor=pointer]:
+                  - img [ref=e155]
+              - generic [ref=e159]:
+                - text: Use AI as your design ally, not as a replacement. Effortlessly generate sitemaps and wireframes for marketing websites in minutes with
+                - emphasis [ref=e160]: Relume's
+                - text: AI
+                - emphasis [ref=e161]: website
+                - text: ...
+            - group "Personalized recommendations based on your history" [ref=e162]:
+              - rowgroup [ref=e163]:
+                - row "Pricing A seasoned designer and dev with a full-time job, often takes on a ..." [ref=e164]:
+                  - cell "Pricing A seasoned designer and dev with a full-time job, often takes on a ..." [ref=e165]:
+                    - generic [ref=e171]:
+                      - heading "Pricing" [level=3] [ref=e172]:
+                        - link "Pricing" [ref=e173] [cursor=pointer]:
+                          - /url: https://www.relume.io/pricing
+                          - text: Pricing
+                      - generic [ref=e176]: A seasoned designer and dev with a full-time job, often takes on a ...
+                - row "AI website builder The only AI website builder for pro designers & devs. AI generates ..." [ref=e177]:
+                  - cell "AI website builder The only AI website builder for pro designers & devs. AI generates ..." [ref=e178]:
+                    - generic [ref=e184]:
+                      - heading "AI website builder" [level=3] [ref=e185]:
+                        - link "AI website builder" [ref=e186] [cursor=pointer]:
+                          - /url: https://www.relume.io/contra
+                          - text: AI website builder
+                      - generic [ref=e189]: The only AI website builder for pro designers & devs. AI generates ...
+                - row "Login Relume Library. Log in. Email. Password. Forgot password ..." [ref=e190]:
+                  - cell "Login Relume Library. Log in. Email. Password. Forgot password ..." [ref=e191]:
+                    - generic [ref=e197]:
+                      - heading "Login" [level=3] [ref=e198]:
+                        - link "Login" [ref=e199] [cursor=pointer]:
+                          - /url: https://www.relume.io/app/login
+                          - text: Login
+                      - generic [ref=e202]: Relume Library. Log in. Email. Password. Forgot password ...
+                - row "Webflow Library Unlock 1k+ Webflow components plus more with Relume Site ..." [ref=e203]:
+                  - cell "Webflow Library Unlock 1k+ Webflow components plus more with Relume Site ..." [ref=e204]:
+                    - generic [ref=e210]:
+                      - heading "Webflow Library" [level=3] [ref=e211]:
+                        - link "Webflow Library" [ref=e212] [cursor=pointer]:
+                          - /url: https://www.relume.io/components
+                          - text: Webflow Library
+                      - generic [ref=e215]: Unlock 1k+ Webflow components plus more with Relume Site ...
+                - row "Showcase Showcase. Inspiring websites built with Relume Library. Submit a ..." [ref=e216]:
+                  - cell "Showcase Showcase. Inspiring websites built with Relume Library. Submit a ..." [ref=e217]:
+                    - generic [ref=e223]:
+                      - heading "Showcase" [level=3] [ref=e224]:
+                        - link "Showcase" [ref=e225] [cursor=pointer]:
+                          - /url: https://www.relume.io/showcase
+                          - text: Showcase
+                      - generic [ref=e228]: Showcase. Inspiring websites built with Relume Library. Submit a ...
+                - row "More results from relume.io »" [ref=e230]:
+                  - cell "More results from relume.io »" [ref=e231]:
+                    - link "More results from relume.io »" [ref=e233] [cursor=pointer]:
+                      - /url: /search?q=Relume+homepage+site:relume.io&sca_esv=6eb3871cd6a786af&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQrAN6BAgbEAE
+        - generic [ref=e237]:
+          - generic [ref=e239]:
+            - heading "Videos" [level=2] [ref=e240]
+            - button "About this result" [ref=e241] [cursor=pointer]:
+              - img [ref=e244]
+          - generic [ref=e247]:
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - generic [ref=e255]:
+                  - 'link "Relume AI: The Secret to Building Custom Websites in 5 Minutes YouTube Developers Digest Jan 15, 2025" [ref=e257] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=2H7UgosabMM
+                    - 'heading "Relume AI: The Secret to Building Custom Websites in 5 Minutes YouTube Developers Digest Jan 15, 2025" [level=3] [ref=e258]':
+                      - generic [ref=e261]: "Relume AI: The Secret to Building Custom Websites in 5 Minutes"
+                      - generic [ref=e263]:
+                        - generic [ref=e264]:
+                          - text: YouTube
+                          - generic [ref=e265]: · Developers Digest
+                        - generic [ref=e266]: Jan 15, 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Developers Digest
+                      - button "About this result" [ref=e267] [cursor=pointer]:
+                        - img [ref=e270]
+                - 'button "Relume AI: The Secret to Building Custom Websites in 5 Minutes by Developers Digest on YouTube. Play on Google. 12:26" [ref=e272] [cursor=pointer]':
+                  - generic [ref=e273]:
+                    - img [ref=e279]
+                    - generic [ref=e282]:
+                      - generic [ref=e283]: 12:26
+                      - img [ref=e286]
+              - generic [ref=e291]:
+                - button "10 key moments in this video" [expanded] [ref=e292] [cursor=pointer]:
+                  - generic [ref=e295]:
+                    - generic [ref=e298]: 10 key moments in this video
+                    - img [ref=e300]
+                - generic [ref=e304]:
+                  - list [ref=e306]:
+                    - generic [ref=e307]:
+                      - 'link "Introduction to Relume: AI-Powered Website Building. 1 of 10, 0 seconds." [ref=e308] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=0
+                        - generic [ref=e311]:
+                          - generic [ref=e312]:
+                            - text: From
+                            - generic [ref=e313]: 00:00
+                          - generic [ref=e314]: "Introduction to Relume: AI-Powered Website Building"
+                      - link "Why Relume Stands Out. 2 of 10, 22 seconds." [ref=e315] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=22
+                        - generic [ref=e318]:
+                          - generic [ref=e319]:
+                            - text: From
+                            - generic [ref=e320]: 00:22
+                          - generic [ref=e321]: Why Relume Stands Out
+                      - link "Getting Started with Relume. 3 of 10, 1 minute, 5 seconds." [ref=e322] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=65
+                        - generic [ref=e325]:
+                          - generic [ref=e326]:
+                            - text: From
+                            - generic [ref=e327]: 01:05
+                          - generic [ref=e328]: Getting Started with Relume
+                      - link "Generating and Customizing Your Sitemap. 4 of 10, 1 minute, 38 seconds." [ref=e329] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=98
+                        - generic [ref=e332]:
+                          - generic [ref=e333]:
+                            - text: From
+                            - generic [ref=e334]: 01:38
+                          - generic [ref=e335]: Generating and Customizing Your Sitemap
+                      - link "Exploring the Wireframe Tab. 5 of 10, 2 minutes, 30 seconds." [ref=e336] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=150
+                        - generic [ref=e339]:
+                          - generic [ref=e340]:
+                            - text: From
+                            - generic [ref=e341]: 02:30
+                          - generic [ref=e342]: Exploring the Wireframe Tab
+                      - link "Advanced Features and Customization. 6 of 10, 4 minutes, 10 seconds." [ref=e343] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=250
+                        - generic [ref=e346]:
+                          - generic [ref=e347]:
+                            - text: From
+                            - generic [ref=e348]: 04:10
+                          - generic [ref=e349]: Advanced Features and Customization
+                      - link "Exporting to React and HTML. 7 of 10, 5 minutes, 24 seconds." [ref=e350] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=324
+                        - generic [ref=e353]:
+                          - generic [ref=e354]:
+                            - text: From
+                            - generic [ref=e355]: 05:24
+                          - generic [ref=e356]: Exporting to React and HTML
+                      - 'link "Live Coding Example: Setting Up a Vite Project. 8 of 10, 6 minutes, 2 seconds." [ref=e357] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=362
+                        - generic [ref=e360]:
+                          - generic [ref=e361]:
+                            - text: From
+                            - generic [ref=e362]: 06:02
+                          - generic [ref=e363]: "Live Coding Example: Setting Up a Vite Project"
+                      - link "Building and Importing Components. 9 of 10, 6 minutes, 45 seconds." [ref=e364] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=405
+                        - generic [ref=e367]:
+                          - generic [ref=e368]:
+                            - text: From
+                            - generic [ref=e369]: 06:45
+                          - generic [ref=e370]: Building and Importing Components
+                      - link "Final Thoughts and Encouragement. 10 of 10, 12 minutes, 8 seconds." [ref=e371] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=2H7UgosabMM&t=728
+                        - generic [ref=e374]:
+                          - generic [ref=e375]:
+                            - text: From
+                            - generic [ref=e376]: 12:08
+                          - generic [ref=e377]: Final Thoughts and Encouragement
+                  - button [ref=e378] [cursor=pointer]:
+                    - img [ref=e381]
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - 'link "Relume AI Site Builder: Crash Course (2025) YouTube DesignWithArash Mar 5, 2025" [ref=e393] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=oYtbLTpyLZU
+                    - 'heading "Relume AI Site Builder: Crash Course (2025) YouTube DesignWithArash Mar 5, 2025" [level=3] [ref=e394]':
+                      - generic [ref=e397]: "Relume AI Site Builder: Crash Course (2025)"
+                      - generic [ref=e399]:
+                        - generic [ref=e400]:
+                          - text: YouTube
+                          - generic [ref=e401]: · DesignWithArash
+                        - generic [ref=e402]: Mar 5, 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · DesignWithArash
+                      - button "About this result" [ref=e403] [cursor=pointer]:
+                        - img [ref=e406]
+                - 'button "Relume AI Site Builder: Crash Course (2025) by DesignWithArash on YouTube. Play on Google. 21:35" [ref=e408] [cursor=pointer]':
+                  - generic [ref=e409]:
+                    - img [ref=e415]
+                    - generic [ref=e418]:
+                      - generic [ref=e419]: 21:35
+                      - img [ref=e422]
+              - button "Learn how to use the Reoom AI site builder to design websites 10x faster. Create sitemaps, wireframes, style guides, and export to Figma or Webflow." [ref=e425] [cursor=pointer]:
+                - generic [ref=e428]: Learn how to use the Reoom AI site builder to design websites 10x faster. Create sitemaps, wireframes, style guides, and export to Figma or Webflow.
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - generic [ref=e436]:
+                  - link "AI Website Concepts and Style Guide with Relume YouTube Jesse Showalter Mar 13, 2025" [ref=e438] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=us8kXDdEBqk
+                    - heading "AI Website Concepts and Style Guide with Relume YouTube Jesse Showalter Mar 13, 2025" [level=3] [ref=e439]:
+                      - generic [ref=e442]: AI Website Concepts and Style Guide with Relume
+                      - generic [ref=e444]:
+                        - generic [ref=e445]:
+                          - text: YouTube
+                          - generic [ref=e446]: · Jesse Showalter
+                        - generic [ref=e447]: Mar 13, 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Jesse Showalter
+                      - button "About this result" [ref=e448] [cursor=pointer]:
+                        - img [ref=e451]
+                - button "AI Website Concepts and Style Guide with Relume by Jesse Showalter on YouTube. Play on Google. 21:53" [ref=e453] [cursor=pointer]:
+                  - generic [ref=e454]:
+                    - img [ref=e460]
+                    - generic [ref=e463]:
+                      - generic [ref=e464]: 21:53
+                      - img [ref=e467]
+              - button "ReLume workflow speeds up web design by generating sitemaps, wireframes, style guides, and visual concepts with AI." [ref=e470] [cursor=pointer]:
+                - generic [ref=e474]: ReLume workflow speeds up web design by generating sitemaps, wireframes, style guides, and visual concepts with AI.
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - link "Relume AI Website Builder | Create your site in minutes! YouTube AM Design Apr 6, 2024" [ref=e483] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=vGI5vRWeoFQ
+                    - heading "Relume AI Website Builder | Create your site in minutes! YouTube AM Design Apr 6, 2024" [level=3] [ref=e484]:
+                      - generic [ref=e487]: Relume AI Website Builder | Create your site in minutes!
+                      - generic [ref=e489]:
+                        - generic [ref=e490]:
+                          - text: YouTube
+                          - generic [ref=e491]: · AM Design
+                        - generic [ref=e492]: Apr 6, 2024
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · AM Design
+                      - button "About this result" [ref=e493] [cursor=pointer]:
+                        - img [ref=e496]
+                - button "Relume AI Website Builder | Create your site in minutes! by AM Design on YouTube. Play on Google. 4:56" [ref=e498] [cursor=pointer]:
+                  - generic [ref=e499]:
+                    - img [ref=e502]
+                    - generic [ref=e505]:
+                      - generic [ref=e506]: 4:56
+                      - img [ref=e509]
+              - button "Create a sitemap and wireframes for your website in Relume AI, then import them directly into Webflow." [ref=e512] [cursor=pointer]:
+                - generic [ref=e516]: Create a sitemap and wireframes for your website in Relume AI, then import them directly into Webflow.
+          - link "View all videos" [ref=e519] [cursor=pointer]:
+            - /url: /search?sca_esv=6eb3871cd6a786af&udm=7&q=Relume+homepage&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8ccDKAJ6BAgaEAQ
+            - separator [ref=e520]
+            - generic [ref=e521]:
+              - generic [ref=e522]: View all
+              - img [ref=e524]
+        - generic [ref=e528]:
+          - heading "Web results" [level=2] [ref=e529]
+          - generic [ref=e530]:
+            - generic [ref=e533]:
+              - link "Relume Figma https://www.figma.com › ... › Import & export plugins" [ref=e535] [cursor=pointer]:
+                - /url: https://www.figma.com/community/plugin/1245615905217691936/relume
+                - heading "Relume" [level=3] [ref=e536]
+                - generic [ref=e542]:
+                  - generic [ref=e544]: Figma
+                  - generic [ref=e546]: https://www.figma.com › ... › Import & export plugins
+              - button "About this result" [ref=e547] [cursor=pointer]:
+                - img [ref=e550]
+            - generic [ref=e553]:
+              - generic [ref=e554]:
+                - text: Websites designed & built faster with AI. Create websites using the
+                - emphasis [ref=e555]: Relume Site Builder
+                - text: and access them through the plugin to easily edit them in Figma.
+              - link "Read more" [ref=e556] [cursor=pointer]:
+                - /url: https://www.figma.com/community/plugin/1245615905217691936/relume#:~:text=Websites%20designed%20%26%20built%20faster,easily%20edit%20them%20in%20Figma.
+        - generic [ref=e563]:
+          - generic [ref=e566]:
+            - link "Relume AI Website Builder | $3000 an hour YouTube · Jesse Showalter 402.9K+ views · 2 years ago" [ref=e568] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=3fcjxaYE5aw
+              - heading "Relume AI Website Builder | $3000 an hour" [level=3] [ref=e569]
+              - generic [ref=e575]:
+                - generic [ref=e577]: YouTube · Jesse Showalter
+                - generic [ref=e579]: 402.9K+ views · 2 years ago
+            - button "About this result" [ref=e580] [cursor=pointer]:
+              - img [ref=e583]
+          - generic [ref=e585]:
+            - button "Relume AI Website Builder | $3000 an hour by Jesse Showalter on YouTube. Play on Google. 19:59" [ref=e586] [cursor=pointer]:
+              - generic [ref=e588]:
+                - img [ref=e591]
+                - generic [ref=e594]:
+                  - generic [ref=e595]: 19:59
+                  - img [ref=e598]
+            - generic [ref=e601]: The new AI Relume library site builder is revolutionizing the way websites are created. With its advanced artificial intelligence technology ...
+        - generic [ref=e606]:
+          - heading "People also ask" [level=2] [ref=e608]
+          - generic [ref=e609]:
+            - button "Can I use relume for free?" [ref=e615] [cursor=pointer]:
+              - generic [ref=e617]: Can I use relume for free?
+              - img [ref=e620]
+            - button "Who is the CEO of Relume AI?" [ref=e629] [cursor=pointer]:
+              - generic [ref=e631]: Who is the CEO of Relume AI?
+              - img [ref=e634]
+            - button "What is the best AI website builder?" [ref=e643] [cursor=pointer]:
+              - generic [ref=e645]: What is the best AI website builder?
+              - img [ref=e648]
+            - button "What is relume used for?" [ref=e657] [cursor=pointer]:
+              - generic [ref=e659]: What is relume used for?
+              - img [ref=e662]
+        - generic [ref=e667]:
+          - heading "Web results" [level=2] [ref=e668]
+          - generic [ref=e669]:
+            - generic [ref=e672]:
+              - 'link "Is Relume still good? : r/webflow Reddit · r/webflow 40+ comments · 6 months ago" [ref=e674] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/webflow/comments/1p18vcj/is_relume_still_good/
+                - 'heading "Is Relume still good? : r/webflow" [level=3] [ref=e675]'
+                - generic [ref=e681]:
+                  - generic [ref=e683]: Reddit · r/webflow
+                  - generic [ref=e685]: 40+ comments · 6 months ago
+              - button "About this result" [ref=e686] [cursor=pointer]:
+                - img [ref=e689]
+            - generic [ref=e692]: I recently started a new job at a marketing agency as their web lead. When I saw how Relume speeds up workflows, I was amazed. Since I have limited ...
+        - generic [ref=e699]:
+          - generic [ref=e702]:
+            - 'link "The Easiest Way To Build a Pro Website: Relume + Webflow ... YouTube · Flux Academy 61K+ views · 1 year ago" [ref=e704] [cursor=pointer]':
+              - /url: https://www.youtube.com/watch?v=tVMECni4X7Q
+              - 'heading "The Easiest Way To Build a Pro Website: Relume + Webflow ..." [level=3] [ref=e705]'
+              - generic [ref=e711]:
+                - generic [ref=e713]: YouTube · Flux Academy
+                - generic [ref=e715]: 61K+ views · 1 year ago
+            - button "About this result" [ref=e716] [cursor=pointer]:
+              - img [ref=e719]
+          - generic [ref=e721]:
+            - 'button "The Easiest Way To Build a Pro Website: Relume + Webflow ... by Flux Academy on YouTube. Play on Google. 41:10" [ref=e722] [cursor=pointer]':
+              - generic [ref=e724]:
+                - img [ref=e730]
+                - generic [ref=e733]:
+                  - generic [ref=e734]: 41:10
+                  - img [ref=e737]
+            - generic [ref=e740]: "Comments · Relume's mind-blowing AI Site Builder: Crash Course · The Easiest Way to Build Killer Websites · Build fast and organize Webflow ..."
+          - button "5 key moments in this video" [ref=e745] [cursor=pointer]:
+            - generic [ref=e754]:
+              - generic [ref=e757]: 5 key moments in this video
+              - img [ref=e759]
+        - generic [ref=e764]:
+          - generic [ref=e767]:
+            - link "Relume YouTube · Relume 34.4K+ followers" [ref=e769] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/Relume_io
+              - heading "Relume" [level=3] [ref=e770]
+              - generic [ref=e776]:
+                - generic [ref=e778]: YouTube · Relume
+                - generic [ref=e780]: 34.4K+ followers
+            - button "About this result" [ref=e781] [cursor=pointer]:
+              - img [ref=e784]
+          - generic [ref=e787]:
+            - generic [ref=e788]:
+              - text: Popular videos · Introduction to Site Builder (Official Demo) · How to create an Animated Timeline in Webflow · Intro to
+              - emphasis [ref=e789]: Relume
+              - text: ": AI Site Builder For Web Designers."
+            - link "Read more" [ref=e790] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/Relume_io#:~:text=Popular%20videos&text=Introduction%20to%20Site%20Builder%20(Official,Demo)&text=How%20to%20create%20an%20Animated,Timeline%20in%20Webflow&text=Intro%20to%20Relume%3A%20AI%20Site,Builder%20For%20Web%20Designers
+      - generic [ref=e792]:
+        - generic [ref=e797]:
+          - heading "People also search for" [level=2] [ref=e799]
+          - generic [ref=e801]:
+            - generic [ref=e802]:
+              - link "Free AI website builder" [ref=e806] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=Free+AI+website+builder&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAgoEAE
+                - generic [ref=e807]:
+                  - generic [ref=e812]: Free AI website builder
+                  - img [ref=e816]
+              - link "Relume AI site Builder" [ref=e821] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=Relume+AI+site+Builder&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAg2EAE
+                - generic [ref=e822]:
+                  - generic [ref=e827]: Relume AI site Builder
+                  - img [ref=e831]
+              - link "Relume io" [ref=e836] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=Relume+io&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAgzEAE
+                - generic [ref=e837]:
+                  - generic [ref=e842]: Relume io
+                  - img [ref=e846]
+              - link "AI website builder free with prompt" [ref=e851] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=AI+website+builder+free+with+prompt&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAgxEAE
+                - generic [ref=e852]:
+                  - generic [ref=e857]: AI website builder free with prompt
+                  - img [ref=e861]
+            - generic [ref=e863]:
+              - link "Best free AI website builder" [ref=e867] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=Best+free+AI+website+builder&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAgwEAE
+                - generic [ref=e868]:
+                  - generic [ref=e873]: Best free AI website builder
+                  - img [ref=e877]
+              - link "Best AI website builder" [ref=e882] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=Best+AI+website+builder&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAguEAE
+                - generic [ref=e883]:
+                  - generic [ref=e888]: Best AI website builder
+                  - img [ref=e892]
+              - link "Wix AI website builder" [ref=e897] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=Wix+AI+website+builder&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAgrEAE
+                - generic [ref=e898]:
+                  - generic [ref=e903]: Wix AI website builder
+                  - img [ref=e907]
+              - link "Website generator AI" [ref=e912] [cursor=pointer]:
+                - /url: /search?sca_esv=6eb3871cd6a786af&q=Website+generator+AI&sa=X&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ1QJ6BAgqEAE
+                - generic [ref=e913]:
+                  - generic [ref=e918]: Website generator AI
+                  - img [ref=e922]
+        - navigation [ref=e924]:
+          - heading "Page Navigation" [level=1] [ref=e925]
+          - text: "1"
+          - link "Page 2" [ref=e928] [cursor=pointer]:
+            - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&ei=Czkwao6ANMHLkPIPmeKjmQo&start=10&sa=N&sstk=AU9db-AFDSabM8g16JZ_jCI9llJ1qRq4JFhu837ZMgsyCqMF5wtLtg49TVEw7C_0Qlu0qBFk9Lbxkuo6NE6u-9EP0Lr8JNSoWo0XaA&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8tMDegQIJRAE
+            - text: "2"
+          - link "Page 3" [ref=e930] [cursor=pointer]:
+            - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&ei=Czkwao6ANMHLkPIPmeKjmQo&start=20&sa=N&sstk=AU9db-AFDSabM8g16JZ_jCI9llJ1qRq4JFhu837ZMgsyCqMF5wtLtg49TVEw7C_0Qlu0qBFk9Lbxkuo6NE6u-9EP0Lr8JNSoWo0XaA&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8tMDegQIJRAG
+            - text: "3"
+          - link "Page 4" [ref=e932] [cursor=pointer]:
+            - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&ei=Czkwao6ANMHLkPIPmeKjmQo&start=30&sa=N&sstk=AU9db-AFDSabM8g16JZ_jCI9llJ1qRq4JFhu837ZMgsyCqMF5wtLtg49TVEw7C_0Qlu0qBFk9Lbxkuo6NE6u-9EP0Lr8JNSoWo0XaA&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8tMDegQIJRAI
+            - text: "4"
+          - link "Page 5" [ref=e934] [cursor=pointer]:
+            - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&ei=Czkwao6ANMHLkPIPmeKjmQo&start=40&sa=N&sstk=AU9db-AFDSabM8g16JZ_jCI9llJ1qRq4JFhu837ZMgsyCqMF5wtLtg49TVEw7C_0Qlu0qBFk9Lbxkuo6NE6u-9EP0Lr8JNSoWo0XaA&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8tMDegQIJRAK
+            - text: "5"
+          - link "Page 6" [ref=e936] [cursor=pointer]:
+            - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&ei=Czkwao6ANMHLkPIPmeKjmQo&start=50&sa=N&sstk=AU9db-AFDSabM8g16JZ_jCI9llJ1qRq4JFhu837ZMgsyCqMF5wtLtg49TVEw7C_0Qlu0qBFk9Lbxkuo6NE6u-9EP0Lr8JNSoWo0XaA&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8tMDegQIJRAM
+            - text: "6"
+          - link "Page 7" [ref=e938] [cursor=pointer]:
+            - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&ei=Czkwao6ANMHLkPIPmeKjmQo&start=60&sa=N&sstk=AU9db-AFDSabM8g16JZ_jCI9llJ1qRq4JFhu837ZMgsyCqMF5wtLtg49TVEw7C_0Qlu0qBFk9Lbxkuo6NE6u-9EP0Lr8JNSoWo0XaA&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8tMDegQIJRAO
+            - text: "7"
+          - heading "Next" [level=2] [ref=e940]:
+            - link "Next" [ref=e941] [cursor=pointer]:
+              - /url: /search?q=Relume+homepage&sca_esv=6eb3871cd6a786af&ei=Czkwao6ANMHLkPIPmeKjmQo&start=10&sa=N&sstk=AU9db-AFDSabM8g16JZ_jCI9llJ1qRq4JFhu837ZMgsyCqMF5wtLtg49TVEw7C_0Qlu0qBFk9Lbxkuo6NE6u-9EP0Lr8JNSoWo0XaA&ved=2ahUKEwjOsdST5YmVAxXBJUQIHRnxKKMQ8NMDegQIJRAQ
+              - generic [ref=e943]: Next
+      - navigation
+    - contentinfo [ref=e944]:
+      - heading "Footer Links" [level=1] [ref=e945]
+      - generic [ref=e949]:
+        - generic [ref=e953]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e955] [cursor=pointer]:
+            - generic [ref=e956]: 92780, Tustin, CA
+            - generic [ref=e958]:
+              - text: "-"
+              - generic [ref=e959]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e961] [cursor=pointer]: Update location
+        - generic [ref=e964]:
+          - link "Help" [ref=e965] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e966] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e967] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e968] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

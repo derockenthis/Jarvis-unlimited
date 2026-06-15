@@ -276,6 +276,10 @@ class MemoryService:
 
         return self.event_delta_since_last_promotion(session_id, event_count) >= interval
 
+    def record_session_event_count(self, session_id: str, event_count: int) -> None:
+        self.initialize()
+        self._record_promotion_event_count(session_id, event_count)
+
     def _observation_ids_for_operation(self, operation: PatchOperation) -> list[str]:
         explicit_ids = operation.payload.get("observation_ids")
         if isinstance(explicit_ids, list):

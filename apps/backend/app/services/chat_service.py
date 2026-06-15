@@ -4,7 +4,7 @@ from datetime import UTC, datetime
 from typing import TYPE_CHECKING
 
 from app.config import Settings
-from app.schemas import ChatEvent, ChatRequest, Conversation
+from app.schemas import ChatEvent, ChatRequest, Conversation, ConversationMessage
 
 if TYPE_CHECKING:
     from app.agent.runner import AgentStreamRunner
@@ -70,6 +70,40 @@ class ChatService:
             ).fetchall()
 
         return [Conversation(**dict(row)) for row in rows]
+
+    async def get_conversation(self, conversation_id: str) -> Conversation | None:
+        self.initialize()
+        with sqlite3.connect(self.sqlite_path) as database:
+            database.row_factory = sqlite3.Row
+            row = database.execute(
+                """
+                SELECT id, user_id, title, created_at, updated_at
+                FROM conversations
+                WHERE id = ?
+                """,
+                (conversation_id,),
+            ).fetchone()
+
+        if row is None:
+            return None
+
+        return Conversation(**dict(row))
+
+    async def get_conversation_messages(self, conversation_id: str) -> list[ConversationMessage]:
+        self.initialize()
+        with sqlite3.connect(self.sqlite_path) as database:
+            database.row_factory = sqlite3.Row
+            rows = database.execute(
+                """
+                SELECT id, conversation_id, role, content, created_at
+                FROM conversation_messages
+                WHERE conversation_id = ?
+                ORDER BY id ASC
+                """,
+                (conversation_id,),
+            ).fetchall()
+
+        return [ConversationMessage(**dict(row)) for row in rows]
 
     async def stream_chat(self, request: ChatRequest) -> AsyncIterator[ChatEvent]:
         async for event in self.runtime.stream_chat(request, conversation_store=self):

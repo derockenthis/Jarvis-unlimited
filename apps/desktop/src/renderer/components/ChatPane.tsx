@@ -80,6 +80,7 @@ export function ChatPane() {
   const skillsRootPath = useAppStore((state) => state.skillsRootPath);
   const isStreaming = useAppStore((state) => state.isStreaming);
   const isScreenSharing = useAppStore((state) => state.isScreenSharing);
+  const addUserMessage = useAppStore((state) => state.addUserMessage);
   const addChatEvent = useAppStore((state) => state.addChatEvent);
   const populateConversations = useAppStore((state) => state.populateConversations);
   const setStreaming = useAppStore((state) => state.setStreaming);
@@ -224,6 +225,7 @@ export function ChatPane() {
     setDraft('');
     setStreaming(true);
     try {
+      addUserMessage(content);
       await streamChat(backendUrl, content, isScreenSharing, skillsRootPath, provider, model, apiKey, baseUrl, addChatEvent, sessionId);
     } catch (error) {
       addChatEvent({

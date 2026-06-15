@@ -1,0 +1,592 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: GPT 5.4 mini vs GPT 5.5 token usage savings GPT 5.4 mini vs GPT 5.5 token usage savings
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DGPT%2B5.4%2Bmini%2Bvs%2BGPT%2B5.5%2Btoken%2Busage%2Bsavings&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5MJRoosnbembaWTjeNSquLiuX7-DUGO7by496jY1gaRvzYouM46eqQkgqRIedRg4gvYVGwIgQ0hZ7SXonU1N3XleP5jVk2XaUSC1H56BLWaQgDECj8GfcKxL6UuZDpvOjm6bOkcTOUsI58ycu04WfdSlJ1QjpvFITW_qiPWbuwI8rgfcQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ2J8OegQIEhAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Videos" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5MJRoosnbembaWTjeNSquLiuX7-DUGO7by496jY1gaRvzYouM46eqQkgqRIedRg4gvYVGwIgQ0hZ7SXonU1N3XleP5jVk2XaUSC1H56BLWaQgDECj8GfcKxL6UuZDpvOjm6bOkcTOUsI58ycu04WfdSlJ1QjpvFITW_qiPWbuwI8rgfcQ&q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQtKgLegQIFxAB
+              - generic [ref=e90]: Videos
+          - listitem [ref=e91]:
+            - link "Short videos" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5MJRoosnbembaWTjeNSquLiuX7-DUGO7by496jY1gaRvzYouM46eqQkgqRIedRg4gvYVGwIgQ0hZ7SXonU1N3XleP5jVk2XaUSC1H56BLWaQgDECj8GfcKxL6UuZDpvOjm6bOkcTOUsI58ycu04WfdSlJ1QjpvFITW_qiPWbuwI8rgfcQ&q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQs6gLegQIFRAB
+              - generic [ref=e94]: Short videos
+          - listitem [ref=e95]:
+            - link "Images" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5MJRoosnbembaWTjeNSquLiuX7-DUGO7by496jY1gaRvzYouM46eqQkgqRIedRg4gvYVGwIgQ0hZ7SXonU1N3XleP5jVk2XaUSC1H56BLWaQgDECj8GfcKxL6UuZDpvOjm6bOkcTOUsI58ycu04WfdSlJ1QjpvFITW_qiPWbuwI8rgfcQ&q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQtKgLegQIGBAB
+              - generic [ref=e98]: Images
+          - listitem [ref=e99]:
+            - link "Shopping" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5MJRoosnbembaWTjeNSquLiuX7-DUGO7by496jY1gaRvzYouM46eqQkgqRIedRg4gvYVGwIgQ0hZ7SXonU1N3XleP5jVk2XaUSC1H56BLWaQgDECj8GfcKxL6UuZDpvOjm6bOkcTOUsI58ycu04WfdSlJ1QjpvFITW_qiPWbuwI8rgfcQ&q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&ved=1t:220175&ictx=111
+              - generic [ref=e102]: Shopping
+          - listitem [ref=e103]:
+            - link "Forums" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5MJRoosnbembaWTjeNSquLiuX7-DUGO7by496jY1gaRvzYouM46eqQkgqRIedRg4gvYVGwIgQ0hZ7SXonU1N3XleP5jVk2XaUSC1H56BLWaQgDECj8GfcKxL6UuZDpvOjm6bOkcTOUsI58ycu04WfdSlJ1QjpvFITW_qiPWbuwI8rgfcQ&q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQs6gLegQIGRAB
+              - generic [ref=e106]: Forums
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e124]:
+      - generic [ref=e141]:
+        - heading "Thinking" [level=2] [ref=e145]:
+          - generic [ref=e146]: Thinking
+        - progressbar "Generating" [ref=e147]
+      - main [ref=e149]:
+        - generic [ref=e153]:
+          - generic [ref=e156]:
+            - heading "Web results" [level=2] [ref=e157]
+            - generic [ref=e158]:
+              - generic [ref=e161]:
+                - 'link "gpt-5.4-mini xHigh or gpt-5.5 medium? : r/codex Reddit · r/codex 20+ comments · 1 month ago" [ref=e163] [cursor=pointer]':
+                  - /url: https://www.reddit.com/r/codex/comments/1sw53cm/which_model_offers_better_value_for_money/
+                  - 'heading "gpt-5.4-mini xHigh or gpt-5.5 medium? : r/codex" [level=3] [ref=e164]'
+                  - generic [ref=e170]:
+                    - generic [ref=e172]: Reddit · r/codex
+                    - generic [ref=e174]: 20+ comments · 1 month ago
+                - button "About this result" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+              - generic [ref=e181]: Hey, I'm new to Codex and a bit confused by the various model and reasoning level combinations. In terms of value for money, which option is better? ...
+              - generic [ref=e186]:
+                - link "21 answers" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/codex/comments/1sw53cm/which_model_offers_better_value_for_money/oiczbgk/
+                - generic [ref=e188]: ·
+                - generic [ref=e189]: "Top answer:"
+                - generic [ref=e190]: Do not trust 5.4-mini with anything beyond the most simple tasks (even those he can mess ...
+              - generic [ref=e193]:
+                - generic [ref=e194]:
+                  - link "Just compared token usage between GPT-5.4 and GPT ..." [ref=e197] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/codex/comments/1tcf5gh/just_compared_token_usage_between_gpt54_and_gpt55/
+                    - generic [ref=e198]:
+                      - text: Just compared
+                      - emphasis [ref=e199]: token usage
+                      - text: between
+                      - emphasis [ref=e200]: GPT
+                      - text: "-"
+                      - emphasis [ref=e201]: 5.4 and GPT
+                      - text: ...
+                  - generic [ref=e203]: 55 answers
+                  - generic [ref=e205]: May 13, 2026
+                - generic [ref=e206]:
+                  - link "Comparing Real Usage Cost Across GPT-5.5, 5.4 ..." [ref=e209] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/codex/comments/1tve7xd/comparing_real_usage_cost_across_gpt55_54_and_54/
+                    - generic [ref=e210]:
+                      - text: Comparing Real
+                      - emphasis [ref=e211]: Usage
+                      - text: Cost Across
+                      - emphasis [ref=e212]: GPT
+                      - text: "-"
+                      - emphasis [ref=e213]: "5.5"
+                      - text: ","
+                      - emphasis [ref=e214]: "5.4"
+                      - text: ...
+                  - generic [ref=e216]: 2 answers
+                  - generic [ref=e218]: Jun 3, 2026
+                - link "More results from www.reddit.com" [ref=e222] [cursor=pointer]:
+                  - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings+site:www.reddit.com&sca_esv=655416a2e67afe4b&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQrQIoAnoECBwQAw
+          - generic [ref=e227]:
+            - heading "Discussions and forums" [level=2] [ref=e229]
+            - generic [ref=e230]:
+              - generic [ref=e233]:
+                - generic [ref=e235] [cursor=pointer]:
+                  - generic [ref=e238]:
+                    - link "Comparing Real Usage Cost Across GPT-5.5, 5.4, and 5.4 Mini on ChatGPT Plus Reddit · r/codex · 2 comments · 1 week ago" [ref=e239]:
+                      - /url: https://www.reddit.com/r/codex/comments/1tve7xd/comparing_real_usage_cost_across_gpt55_54_and_54/
+                      - generic [ref=e240]:
+                        - heading "Comparing Real Usage Cost Across GPT-5.5, 5.4, and 5.4 Mini on ChatGPT Plus" [level=3] [ref=e241]:
+                          - link "Comparing Real Usage Cost Across GPT-5.5, 5.4, and 5.4 Mini on ChatGPT Plus" [ref=e242]
+                        - generic [ref=e249]:
+                          - generic [ref=e250]: Reddit ·
+                          - generic [ref=e252]:
+                            - generic [ref=e253]:
+                              - generic [ref=e254]: r/codex
+                              - generic [ref=e255]:
+                                - generic [ref=e256]: ·
+                                - generic [ref=e257]: 2 comments
+                            - generic [ref=e258]:
+                              - generic [ref=e259]: ·
+                              - generic [ref=e260]: 1 week ago
+                    - generic [ref=e266]:
+                      - generic [ref=e270]: ·
+                      - button "About this result" [ref=e275]:
+                        - img [ref=e278]
+                  - button "Comparing Real Usage Cost Across GPT-5.5, 5.4, and 5.4 Mini on ChatGPT Plus Reddit · r/codex · 2 comments · 1 week ago" [expanded] [ref=e280]:
+                    - img [ref=e283]
+                - list [ref=e292]:
+                  - listitem [ref=e293]:
+                    - generic [ref=e297]:
+                      - link "The most interesting thing is that 5.5 is more heavily subsidized than 5.4 and 5.4mini. As of today, it's not worth using 5.4 (at least on the ... More discussions on Comparing Real Usage Cost Across GPT-5.5, 5.4, and 5.4 Mini on ChatGPT Plus":
+                        - /url: https://www.reddit.com/r/codex/comments/1tve7xd/comparing_real_usage_cost_across_gpt55_54_and_54/
+                      - generic [ref=e299]:
+                        - text: The most interesting thing is that 5.5 is more heavily subsidized than 5.4 and 5.4mini. As of today, it's not worth using 5.4 (at least on the ...
+                        - link [ref=e300] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/codex/comments/1tve7xd/comparing_real_usage_cost_across_gpt55_54_and_54/
+                          - generic [ref=e301]: More
+                          - img [ref=e303]
+              - generic [ref=e309] [cursor=pointer]:
+                - generic [ref=e312]:
+                  - 'link "GPT-5.4 deep dive: pricing, context limits, and tool search explained - API OpenAI Developer Community · 3 months ago" [ref=e313]':
+                    - /url: https://community.openai.com/t/gpt-5-4-deep-dive-pricing-context-limits-and-tool-search-explained/1375800
+                    - generic [ref=e314]:
+                      - 'heading "GPT-5.4 deep dive: pricing, context limits, and tool search explained - API" [level=3] [ref=e315]':
+                        - 'link "GPT-5.4 deep dive: pricing, context limits, and tool search explained - API" [ref=e316]'
+                      - generic [ref=e323]:
+                        - generic [ref=e324]: OpenAI Developer Community ·
+                        - generic [ref=e328]: 3 months ago
+                  - generic [ref=e334]:
+                    - generic [ref=e338]: ·
+                    - button "About this result" [ref=e343]:
+                      - img [ref=e346]
+                - 'button "GPT-5.4 deep dive: pricing, context limits, and tool search explained - API OpenAI Developer Community · 3 months ago" [ref=e348]':
+                  - img [ref=e351]
+              - link "See more discussions" [ref=e354] [cursor=pointer]:
+                - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&udm=18&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8poLegQIExAD
+                - separator [ref=e355]
+                - generic [ref=e356]:
+                  - generic [ref=e357]: See more
+                  - img [ref=e359]
+          - generic [ref=e364]:
+            - generic [ref=e366]:
+              - heading "Videos" [level=2] [ref=e367]
+              - button "About this result" [ref=e368] [cursor=pointer]:
+                - img [ref=e371]
+            - generic [ref=e374]:
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - generic [ref=e381]:
+                    - 'link "GPT-5.5 vs 5.4: Is the Price Double for NOTHING? Real Test YouTube AI Fire 1 month ago" [ref=e383] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=H2MFdhu-LCQ
+                      - 'heading "GPT-5.5 vs 5.4: Is the Price Double for NOTHING? Real Test YouTube AI Fire 1 month ago" [level=3] [ref=e384]':
+                        - generic [ref=e387]: "GPT-5.5 vs 5.4: Is the Price Double for NOTHING? Real Test"
+                        - generic [ref=e389]:
+                          - generic [ref=e390]:
+                            - text: YouTube
+                            - generic [ref=e391]: · AI Fire
+                          - generic [ref=e392]: 1 month ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · AI Fire
+                        - button "About this result" [ref=e393] [cursor=pointer]:
+                          - img [ref=e396]
+                  - 'button "GPT-5.5 vs 5.4: Is the Price Double for NOTHING? Real Test by AI Fire on YouTube. Play on Google. 7:30" [ref=e398] [cursor=pointer]':
+                    - generic [ref=e399]:
+                      - img [ref=e402]
+                      - generic [ref=e405]:
+                        - generic [ref=e407]: 7:30
+                        - img [ref=e410]
+                - button "7 key moments in this video" [ref=e416] [cursor=pointer]:
+                  - generic [ref=e419]:
+                    - generic [ref=e422]: 7 key moments in this video
+                    - img [ref=e424]
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - generic [ref=e433]:
+                    - 'link "I Tested GPT low/mini/older Models: Price/Quality Difference YouTube AI Coding Daily 2 weeks ago" [ref=e435] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=cTnXfF9DdYY
+                      - 'heading "I Tested GPT low/mini/older Models: Price/Quality Difference YouTube AI Coding Daily 2 weeks ago" [level=3] [ref=e436]':
+                        - generic [ref=e439]: "I Tested GPT low/mini/older Models: Price/Quality Difference"
+                        - generic [ref=e441]:
+                          - generic [ref=e442]:
+                            - text: YouTube
+                            - generic [ref=e443]: · AI Coding Daily
+                          - generic [ref=e444]: 2 weeks ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · AI Coding Daily
+                        - button "About this result" [ref=e445] [cursor=pointer]:
+                          - img [ref=e448]
+                  - 'button "I Tested GPT low/mini/older Models: Price/Quality Difference by AI Coding Daily on YouTube. Play on Google. 8:06" [ref=e450] [cursor=pointer]':
+                    - generic [ref=e451]:
+                      - img [ref=e457]
+                      - generic [ref=e460]:
+                        - generic [ref=e462]: 8:06
+                        - img [ref=e465]
+                - button "Testing GPT 5.5 low, 5.4 mini, & 5.3 Codeex reveals that while older models offer savings, they introduce quality issues." [ref=e468] [cursor=pointer]:
+                  - generic [ref=e472]: Testing GPT 5.5 low, 5.4 mini, & 5.3 Codeex reveals that while older models offer savings, they introduce quality issues.
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - generic [ref=e479]:
+                    - 'link "GPT-5.5 vs GPT-5.4: Which Should You Use? YouTube Cash Copilot AI 1 month ago" [ref=e481] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=4aHjTeXVJFw
+                      - 'heading "GPT-5.5 vs GPT-5.4: Which Should You Use? YouTube Cash Copilot AI 1 month ago" [level=3] [ref=e482]':
+                        - generic [ref=e485]: "GPT-5.5 vs GPT-5.4: Which Should You Use?"
+                        - generic [ref=e487]:
+                          - generic [ref=e488]:
+                            - text: YouTube
+                            - generic [ref=e489]: · Cash Copilot AI
+                          - generic [ref=e490]: 1 month ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Cash Copilot AI
+                        - button "About this result" [ref=e491] [cursor=pointer]:
+                          - img [ref=e494]
+                  - 'button "GPT-5.5 vs GPT-5.4: Which Should You Use? by Cash Copilot AI on YouTube. Play on Google. 5:17" [ref=e496] [cursor=pointer]':
+                    - generic [ref=e497]:
+                      - img [ref=e500]
+                      - generic [ref=e503]:
+                        - generic [ref=e505]: 5:17
+                        - img [ref=e508]
+                - button "GPT 5.5 is better for complex, multi-step tasks & costs twice as much, while GPT 5.4 is economical for clear, repeatable tasks." [ref=e511] [cursor=pointer]:
+                  - generic [ref=e515]: GPT 5.5 is better for complex, multi-step tasks & costs twice as much, while GPT 5.4 is economical for clear, repeatable tasks.
+            - link "View all videos" [ref=e518] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=7&q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8ccDKAJ6BAhREAQ
+              - separator [ref=e519]
+              - generic [ref=e520]:
+                - generic [ref=e521]: View all
+                - img [ref=e523]
+          - generic [ref=e527]:
+            - heading "Web results" [level=2] [ref=e528]
+            - generic [ref=e529]:
+              - generic [ref=e532]:
+                - link "GPT-5.5 vs GPT-5.4 mini Pricing | UsagePricing usagepricing.com https://usagepricing.com › AI Token Pricing" [ref=e534] [cursor=pointer]:
+                  - /url: https://usagepricing.com/ai-token-pricing/compare/gpt-5-5-vs-gpt-5-4-mini
+                  - heading "GPT-5.5 vs GPT-5.4 mini Pricing | UsagePricing" [level=3] [ref=e535]
+                  - generic [ref=e541]:
+                    - generic [ref=e543]: usagepricing.com
+                    - generic [ref=e545]: https://usagepricing.com › AI Token Pricing
+                - button "About this result" [ref=e546] [cursor=pointer]:
+                  - img [ref=e549]
+              - generic [ref=e552]:
+                - generic [ref=e553]:
+                  - emphasis [ref=e554]: GPT-5.4 mini is 85% cheaper on input tokens than GPT-5.5
+                  - text: . For output tokens, GPT-5.4 mini is the more affordable option at $4.50/1M vs $30.00. On context ...
+                - link "Read more" [ref=e555] [cursor=pointer]:
+                  - /url: https://usagepricing.com/ai-token-pricing/compare/gpt-5-5-vs-gpt-5-4-mini#:~:text=GPT%2D5.4%20mini%20is%2085%25%20cheaper,On%20context
+          - generic [ref=e559]:
+            - generic [ref=e561]:
+              - heading "What people are saying" [level=2] [ref=e562]:
+                - generic [ref=e564]: What people are saying
+              - generic [ref=e574]: Trending posts and discussions
+            - generic [ref=e576]:
+              - list [ref=e578]:
+                - generic [ref=e579]:
+                  - listitem [ref=e580]:
+                    - generic [ref=e584]:
+                      - 'link "Round 2: Token usage between GPT-5.4, GPT-5.5, GPT-5.4 Mini, GPT-5.3-Codex in Codex across all 4 reasoning modes (Low, Medium, High, and XHigh) using the exact same prompt and the same project as the baseline 50+ comments · 3 weeks ago r/codex Reddit" [ref=e585] [cursor=pointer]':
+                        - /url: https://www.reddit.com/r/codex/comments/1tihpz4/round_2_token_usage_between_gpt54_gpt55_gpt54/
+                        - generic [ref=e589]:
+                          - 'heading "Round 2: Token usage between GPT-5.4, GPT-5.5, GPT-5.4 Mini, GPT-5.3-Codex in Codex across all 4 reasoning modes (Low, Medium, High, and XHigh) using the exact same prompt and the same project as the baseline" [level=3] [ref=e591]'
+                          - generic [ref=e592]: 50+ comments · 3 weeks ago
+                          - generic [ref=e601]:
+                            - generic [ref=e602]: r/codex
+                            - generic [ref=e603]: Reddit
+                      - button "About this result" [ref=e607] [cursor=pointer]:
+                        - img [ref=e610]
+                  - listitem [ref=e612]:
+                    - generic [ref=e616]:
+                      - 'button "I Tested Three GPT-5.x: Worth Using Older \"Cheaper\" Models?. Play on Google. 8:17" [ref=e621] [cursor=pointer]':
+                        - generic [ref=e627]:
+                          - generic [ref=e628]:
+                            - img [ref=e629]
+                            - generic [ref=e631]: 8:17
+                          - img [ref=e634]
+                      - 'link "I Tested Three GPT-5.x: Worth Using Older \"Cheaper\" Models? 3.3K+ views · 1 month ago AI Coding Daily YouTube" [ref=e636] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=Ovi_L-jTDRA
+                        - generic [ref=e637]:
+                          - 'heading "I Tested Three GPT-5.x: Worth Using Older \"Cheaper\" Models?" [level=3] [ref=e639]'
+                          - generic [ref=e641]: 3.3K+ views · 1 month ago
+                          - generic [ref=e653]:
+                            - generic [ref=e654]: AI Coding Daily
+                            - generic [ref=e655]: YouTube
+                      - button "About this result" [ref=e659] [cursor=pointer]:
+                        - img [ref=e662]
+                  - listitem [ref=e664]:
+                    - generic [ref=e668]:
+                      - button "GPT-5.5 - 25x More Expensive than Open Models. Play on Google. 10:51" [ref=e673] [cursor=pointer]:
+                        - generic [ref=e679]:
+                          - generic [ref=e680]:
+                            - img [ref=e681]
+                            - generic [ref=e683]: 10:51
+                          - img [ref=e686]
+                      - link "GPT-5.5 - 25x More Expensive than Open Models 2.6K+ views · 1 month ago Alejandro AO · YouTube Developer advocate at HuggingFace" [ref=e688] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=_iwaZTG7MDY
+                        - generic [ref=e689]:
+                          - heading "GPT-5.5 - 25x More Expensive than Open Models" [level=3] [ref=e691]
+                          - generic [ref=e693]: 2.6K+ views · 1 month ago
+                          - generic [ref=e705]:
+                            - generic [ref=e706]: Alejandro AO · YouTube
+                            - generic [ref=e708]: Developer advocate at HuggingFace
+                      - button "About this result" [ref=e712] [cursor=pointer]:
+                        - img [ref=e715]
+                  - listitem [ref=e717]:
+                    - generic [ref=e722]:
+                      - button "GPT-5.5 Might Be the Best Model I've Ever Used. Play on Google. 9:14" [ref=e727] [cursor=pointer]:
+                        - generic [ref=e733]:
+                          - generic [ref=e734]:
+                            - img [ref=e735]
+                            - generic [ref=e737]: 9:14
+                          - img [ref=e740]
+                      - link "GPT-5.5 Might Be the Best Model I've Ever Used 9.8K+ views · 1 month ago Robin Ebers YouTube" [ref=e742] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=c5QTCX4HlfQ&vl=en
+                        - generic [ref=e743]:
+                          - heading "GPT-5.5 Might Be the Best Model I've Ever Used" [level=3] [ref=e745]
+                          - generic [ref=e747]: 9.8K+ views · 1 month ago
+                          - generic [ref=e759]:
+                            - generic [ref=e760]: Robin Ebers
+                            - generic [ref=e761]: YouTube
+                      - button "About this result" [ref=e765] [cursor=pointer]:
+                        - img [ref=e768]
+                  - listitem [ref=e770]:
+                    - generic [ref=e775]:
+                      - link "Common GPT 5.5 pricing misconception. 30+ comments · 1 month ago r/OpenAI Reddit" [ref=e776] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/OpenAI/comments/1stv7yg/common_gpt_55_pricing_misconception/
+                        - generic [ref=e780]:
+                          - heading "Common GPT 5.5 pricing misconception." [level=3] [ref=e782]
+                          - generic [ref=e783]: 30+ comments · 1 month ago
+                          - generic [ref=e792]:
+                            - generic [ref=e793]: r/OpenAI
+                            - generic [ref=e794]: Reddit
+                      - button "About this result" [ref=e798] [cursor=pointer]:
+                        - img [ref=e801]
+              - button [ref=e803] [cursor=pointer]:
+                - img [ref=e806]
+          - generic [ref=e810]:
+            - heading "Web results" [level=2] [ref=e811]
+            - generic [ref=e812]:
+              - generic [ref=e815]:
+                - link "Pricing | OpenAI API OpenAI Developers https://developers.openai.com › api › docs › pricing" [ref=e817] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs/pricing
+                  - heading "Pricing | OpenAI API" [level=3] [ref=e818]
+                  - generic [ref=e824]:
+                    - generic [ref=e826]: OpenAI Developers
+                    - generic [ref=e828]: https://developers.openai.com › api › docs › pricing
+                - button "About this result" [ref=e829] [cursor=pointer]:
+                  - img [ref=e832]
+              - generic [ref=e835]:
+                - generic [ref=e836]:
+                  - text: gpt-5.5, $5.00, $0.50, $30.00, $10.00, $1.00, $45.00. gpt-5.5-pro, $30.00, -, $180.00, $60.00, -, $270.00.
+                  - emphasis [ref=e837]: gpt-5.4
+                  - text: ", $2.50, $0.25, $15.00, $5.00, $0.50, $22.50."
+                - link "Read more" [ref=e838] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs/pricing#:~:text=gpt%2D5.5,%2422.50
+          - generic [ref=e842]:
+            - generic [ref=e845]:
+              - 'link "GPT-5.5 vs GPT-5.4: Worth 2x the Cost? | AI Pricing Guru aipricing.guru https://www.aipricing.guru › Blog" [ref=e847] [cursor=pointer]':
+                - /url: https://www.aipricing.guru/blog/gpt-5-5-vs-gpt-5-4-pricing/
+                - 'heading "GPT-5.5 vs GPT-5.4: Worth 2x the Cost? | AI Pricing Guru" [level=3] [ref=e848]'
+                - generic [ref=e854]:
+                  - generic [ref=e856]: aipricing.guru
+                  - generic [ref=e858]: https://www.aipricing.guru › Blog
+              - button "About this result" [ref=e859] [cursor=pointer]:
+                - img [ref=e862]
+            - generic [ref=e865]:
+              - generic [ref=e866]: Apr 28, 2026 —
+              - generic [ref=e867]:
+                - emphasis [ref=e868]: GPT-5.5 costs exactly 2x GPT-5.4
+                - text: on input, cached input, and output tokens. When the premium is worth paying — and when GPT-5.4 is the smarter ...
+              - link "Read more" [ref=e869] [cursor=pointer]:
+                - /url: https://www.aipricing.guru/blog/gpt-5-5-vs-gpt-5-4-pricing/#:~:text=GPT%2D5.5%20costs%20exactly%202x%20GPT%2D5.4,GPT%2D5.4%20is%20the%20smarter%20buy.
+          - generic [ref=e873]:
+            - generic [ref=e876]:
+              - link "GPT-5.5 is more token efficient than GPT-5.4. In Codex ... X · OpenAIDevs 170+ likes · 1 month ago" [ref=e878] [cursor=pointer]:
+                - /url: https://x.com/OpenAIDevs/status/2047377281480642685
+                - heading "GPT-5.5 is more token efficient than GPT-5.4. In Codex ..." [level=3] [ref=e879]
+                - generic [ref=e885]:
+                  - generic [ref=e887]: X · OpenAIDevs
+                  - generic [ref=e889]: 170+ likes · 1 month ago
+              - button "About this result" [ref=e890] [cursor=pointer]:
+                - img [ref=e893]
+            - generic [ref=e896]:
+              - generic [ref=e897]:
+                - text: In Codex,
+                - emphasis [ref=e898]: GPT-5.5 delivers better results with fewer tokens than GPT-5.4
+                - text: for most users, while continuing to offer generous usage across ...
+              - link "Read more" [ref=e899] [cursor=pointer]:
+                - /url: https://x.com/OpenAIDevs/status/2047377281480642685#:~:text=In%20Codex%2C%20GPT%2D5.5%20delivers%20better,generous%20usage%20across%20subscription%20levels.
+          - generic [ref=e903]:
+            - generic [ref=e906]:
+              - link "GPT-5.5 (high) vs GPT-5.4 mini (medium) Artificial Analysis https://artificialanalysis.ai › models › comparisons › gpt-..." [ref=e908] [cursor=pointer]:
+                - /url: https://artificialanalysis.ai/models/comparisons/gpt-5-5-high-vs-gpt-5-4-mini-medium
+                - heading "GPT-5.5 (high) vs GPT-5.4 mini (medium)" [level=3] [ref=e909]
+                - generic [ref=e915]:
+                  - generic [ref=e917]: Artificial Analysis
+                  - generic [ref=e919]: https://artificialanalysis.ai › models › comparisons › gpt-...
+              - button "About this result" [ref=e920] [cursor=pointer]:
+                - img [ref=e923]
+            - generic [ref=e927]:
+              - text: Comparison between
+              - emphasis [ref=e928]: GPT
+              - text: "-"
+              - emphasis [ref=e929]: "5.5"
+              - text: (high)
+              - emphasis [ref=e930]: and GPT
+              - text: "-"
+              - emphasis [ref=e931]: 5.4 mini
+              - text: (medium) across intelligence, price, speed, context window
+              - emphasis [ref=e932]: and
+              - text: more.
+          - generic [ref=e936]:
+            - generic [ref=e939]:
+              - link "GPT-5.5 may burn fewer tokens, but it always burns more ... The Register https://www.theregister.com › ai-and-ml › 2026/05/08" [ref=e941] [cursor=pointer]:
+                - /url: https://www.theregister.com/ai-and-ml/2026/05/08/gpt-55-may-burn-fewer-tokens-but-it-always-burns-more-cash/5237498
+                - heading "GPT-5.5 may burn fewer tokens, but it always burns more ..." [level=3] [ref=e942]
+                - generic [ref=e948]:
+                  - generic [ref=e950]: The Register
+                  - generic [ref=e952]: https://www.theregister.com › ai-and-ml › 2026/05/08
+              - button "About this result" [ref=e953] [cursor=pointer]:
+                - img [ref=e956]
+            - generic [ref=e959]:
+              - generic [ref=e960]: May 8, 2026 —
+              - generic [ref=e961]:
+                - text: "\"While"
+                - emphasis [ref=e962]: GPT
+                - text: ‑
+                - emphasis [ref=e963]: "5.5"
+                - text: is priced higher than
+                - emphasis [ref=e964]: GPT
+                - text: ‑
+                - emphasis [ref=e965]: "5.4"
+                - text: ", it is both more intelligent"
+                - emphasis [ref=e966]: and
+                - text: much more
+                - emphasis [ref=e967]: token
+                - text: efficient," the company said during the rollout.
+              - link "Read more" [ref=e968] [cursor=pointer]:
+                - /url: https://www.theregister.com/ai-and-ml/2026/05/08/gpt-55-may-burn-fewer-tokens-but-it-always-burns-more-cash/5237498#:~:text=%22While%20GPT%E2%80%915.5%20is%20priced%20higher,company%20said%20during%20the%20rollout.
+        - generic [ref=e970]:
+          - generic [ref=e975]:
+            - heading "People also search for" [level=2] [ref=e977]
+            - generic [ref=e979]:
+              - generic [ref=e980]:
+                - link "GPT-5.5 vs 5.4 token usage" [ref=e984] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=GPT-5.5+vs+5.4+token+usage&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAgzEAE
+                  - generic [ref=e985]:
+                    - generic [ref=e990]: GPT-5.5 vs 5.4 token usage
+                    - img [ref=e994]
+                - link "GPT-5.5 mini" [ref=e999] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=GPT-5.5+mini&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAhLEAE
+                  - generic [ref=e1000]:
+                    - generic [ref=e1005]: GPT-5.5 mini
+                    - img [ref=e1009]
+                - link "GPT-5.5 vs 5.4 Codex" [ref=e1014] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=GPT-5.5+vs+5.4+Codex&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAhJEAE
+                  - generic [ref=e1015]:
+                    - generic [ref=e1020]: GPT-5.5 vs 5.4 Codex
+                    - img [ref=e1024]
+                - link "GPT-5.4 mini vs GPT-5.3 Codex" [ref=e1029] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=GPT-5.4+mini+vs+GPT-5.3+Codex&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAg-EAE
+                  - generic [ref=e1030]:
+                    - generic [ref=e1035]: GPT-5.4 mini vs GPT-5.3 Codex
+                    - img [ref=e1039]
+              - generic [ref=e1041]:
+                - link "GPT 5.5 medium vs GPT-5.4 xhigh" [ref=e1045] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=GPT+5.5+medium+vs+GPT-5.4+xhigh&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAg9EAE
+                  - generic [ref=e1046]:
+                    - generic [ref=e1051]: GPT 5.5 medium vs GPT-5.4 xhigh
+                    - img [ref=e1055]
+                - link "Gpt 5.5 vs 5.4 tokens" [ref=e1060] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=Gpt+5.5+vs+5.4+tokens&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAg7EAE
+                  - generic [ref=e1061]:
+                    - generic [ref=e1066]: Gpt 5.5 vs 5.4 tokens
+                    - img [ref=e1070]
+                - link "GPT-5.4 mini cost" [ref=e1075] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=GPT-5.4+mini+cost&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAg4EAE
+                  - generic [ref=e1076]:
+                    - generic [ref=e1081]: GPT-5.4 mini cost
+                    - img [ref=e1085]
+                - link "GPT-5.5 usage" [ref=e1090] [cursor=pointer]:
+                  - /url: /search?sca_esv=655416a2e67afe4b&q=GPT-5.5+usage&sa=X&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ1QJ6BAg0EAE
+                  - generic [ref=e1091]:
+                    - generic [ref=e1096]: GPT-5.5 usage
+                    - img [ref=e1100]
+          - navigation [ref=e1102]:
+            - heading "Page Navigation" [level=1] [ref=e1103]
+            - text: "1"
+            - link "Page 2" [ref=e1106] [cursor=pointer]:
+              - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&ei=180vaoqIEMLKkPIPrL21wQo&start=10&sa=N&sstk=AU9db-DWzRq69_liqzjaphRrohcxjNuWllEZU-kb5copzGCNGdjW2xcOkUFZ70aMsm3Z90-nd_d2LMQlom0cXJ31djyzbwV3lWoFbg&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8tMDegQITRAE
+              - text: "2"
+            - link "Page 3" [ref=e1108] [cursor=pointer]:
+              - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&ei=180vaoqIEMLKkPIPrL21wQo&start=20&sa=N&sstk=AU9db-DWzRq69_liqzjaphRrohcxjNuWllEZU-kb5copzGCNGdjW2xcOkUFZ70aMsm3Z90-nd_d2LMQlom0cXJ31djyzbwV3lWoFbg&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8tMDegQITRAG
+              - text: "3"
+            - link "Page 4" [ref=e1110] [cursor=pointer]:
+              - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&ei=180vaoqIEMLKkPIPrL21wQo&start=30&sa=N&sstk=AU9db-DWzRq69_liqzjaphRrohcxjNuWllEZU-kb5copzGCNGdjW2xcOkUFZ70aMsm3Z90-nd_d2LMQlom0cXJ31djyzbwV3lWoFbg&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8tMDegQITRAI
+              - text: "4"
+            - link "Page 5" [ref=e1112] [cursor=pointer]:
+              - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&ei=180vaoqIEMLKkPIPrL21wQo&start=40&sa=N&sstk=AU9db-DWzRq69_liqzjaphRrohcxjNuWllEZU-kb5copzGCNGdjW2xcOkUFZ70aMsm3Z90-nd_d2LMQlom0cXJ31djyzbwV3lWoFbg&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8tMDegQITRAK
+              - text: "5"
+            - link "Page 6" [ref=e1114] [cursor=pointer]:
+              - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&ei=180vaoqIEMLKkPIPrL21wQo&start=50&sa=N&sstk=AU9db-DWzRq69_liqzjaphRrohcxjNuWllEZU-kb5copzGCNGdjW2xcOkUFZ70aMsm3Z90-nd_d2LMQlom0cXJ31djyzbwV3lWoFbg&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8tMDegQITRAM
+              - text: "6"
+            - heading "Next" [level=2] [ref=e1116]:
+              - link "Next" [ref=e1117] [cursor=pointer]:
+                - /url: /search?q=GPT+5.4+mini+vs+GPT+5.5+token+usage+savings&sca_esv=655416a2e67afe4b&ei=180vaoqIEMLKkPIPrL21wQo&start=10&sa=N&sstk=AU9db-DWzRq69_liqzjaphRrohcxjNuWllEZU-kb5copzGCNGdjW2xcOkUFZ70aMsm3Z90-nd_d2LMQlom0cXJ31djyzbwV3lWoFbg&ved=2ahUKEwjKz4f1_oiVAxVCJUQIHaxeLagQ8NMDegQITRAO
+                - generic [ref=e1119]: Next
+        - navigation
+    - contentinfo [ref=e1120]:
+      - heading "Footer Links" [level=1] [ref=e1121]
+      - generic [ref=e1125]:
+        - generic [ref=e1129]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e1131] [cursor=pointer]:
+            - generic [ref=e1132]: 92780, Tustin, CA
+            - generic [ref=e1134]:
+              - text: "-"
+              - generic [ref=e1135]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1137] [cursor=pointer]: Update location
+        - generic [ref=e1140]:
+          - link "Help" [ref=e1141] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1142] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1143] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1144] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

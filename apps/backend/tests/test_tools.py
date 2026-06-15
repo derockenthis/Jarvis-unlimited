@@ -1,15 +1,19 @@
+import os
 import sys
 from types import ModuleType
 from types import SimpleNamespace
 from pathlib import Path
 import json
+import sqlite3
 import subprocess
 
 import pytest
 
 from app.agent.runner import AgentStreamRunner
+from app.agent.tools.cli import CLIAgentTool
 from app.config import Settings
 from app.mcp.adk_toolset import build_running_mcp_toolsets, resolve_running_mcp_tools
+from app.mcp.presets import PLAYWRIGHT_MCP_ISOLATED_PRESET
 from app.schemas import ChatEvent, ChatRequest, McpActionRequest, McpToolConfig
 from app.security.command_policy import CommandPolicy
 from app.security.path_policy import PathPolicy
@@ -19,6 +23,7 @@ from app.services.memory_service import MemoryService
 from app.services.mcp_service import McpService
 from app.services.session_terminal_service import SessionTerminalService
 from app.services.transcription_service import SpeechToTextService
+from app.tools.agent_tools import build_agent_tools
 from app.tools.search_tools import read_file_section, ripgrep_search
 
 
@@ -41,6 +46,211 @@ def test_ripgrep_missing_dependency_is_structured(tmp_path: Path, monkeypatch) -
 
     assert result.status == "error"
     assert "ripgrep is not installed" in (result.error or "")
+
+
+def test_build_agent_tools_includes_cli_sub_agent_tool(tmp_path: Path) -> None:
+    policy = PathPolicy([tmp_path])
+
+    tools = build_agent_tools(policy)
+
+    assert any(getattr(tool, "__name__", "") == "spawn_sub_agent" for tool in tools)
+
+
+def test_cli_agent_tool_rejects_unsupported_tool(tmp_path: Path) -> None:
+    policy = PathPolicy([tmp_path])
+    tool = CLIAgentTool(policy)
+
+    result = tool.spawn_sub_agent(
+        name="code_reviewer",
+        description="Reviews code",
+        instructions="Review this code",
+        tools=["filesystem", "browser"],
+    )
+
+    assert result["status"] == "error"
+    assert "Unsupported sub-agent tools" in (result["error"] or "")
+
+
+def test_cli_agent_tool_runs_whitelisted_sub_agent(
+    monkeypatch, tmp_path: Path
+) -> None:
+    policy = PathPolicy([tmp_path])
+    tool = CLIAgentTool(policy)
+
+    captured: dict[str, object] = {}
+
+    def _fake_run(
+        argv, check, capture_output, text, cwd, env, timeout, preexec_fn
+    ) -> subprocess.CompletedProcess[str]:
+        captured.update(
+            {
+                "argv": argv,
+                "check": check,
+                "capture_output": capture_output,
+                "text": text,
+                "cwd": cwd,
+                "env": env,
+                "timeout": timeout,
+                "preexec_fn": preexec_fn,
+            }
+        )
+        spec_file = Path(argv[4])
+        spec = json.loads(spec_file.read_text(encoding="utf-8"))
+        captured["spec"] = spec
+        return subprocess.CompletedProcess(argv, 0, stdout="sub-agent output\n", stderr="")
+
+    monkeypatch.setattr("app.agent.tools.cli.subprocess.run", _fake_run)
+
+    result = tool.spawn_sub_agent(
+        name="code_reviewer",
+        description="A specialized agent that reviews code.",
+        instructions="Review the provided code snippets for vulnerabilities.",
+        tools=["filesystem", "terminal"],
+        timeout_seconds=5,
+    )
+
+    assert result["status"] == "success"
+    assert result["data"]["command"] == [
+        sys.executable,
+        "-m",
+        "app.agent.sub_agent_launcher",
+        "--spec-file",
+        captured["argv"][4],
+    ]
+    assert result["data"]["name"] == "code_reviewer"
+    assert captured["spec"] == {
+        "name": "code_reviewer",
+        "description": "A specialized agent that reviews code.",
+        "instructions": "Review the provided code snippets for vulnerabilities.",
+        "tools": ["filesystem", "terminal"],
+    }
+    assert result["data"]["stdout"] == "sub-agent output\n"
+    assert captured["timeout"] == 5
+    assert captured["env"]["PYTHONUNBUFFERED"] == "1"
+    assert captured["env"]["PATH"]
+    assert Path(captured["env"]["PYTHONPATH"].split(os.pathsep)[0]) == Path(
+        "/Users/derekin/Desktop/Jarvis-unlimited/apps/backend"
+    )
+    assert captured["cwd"] == tmp_path
+    assert callable(captured["preexec_fn"])
+
+
+def test_cli_agent_tool_accepts_browser_tools(monkeypatch, tmp_path: Path) -> None:
+    policy = PathPolicy([tmp_path])
+    tool = CLIAgentTool(policy)
+
+    def _fake_run(
+        argv, check, capture_output, text, cwd, env, timeout, preexec_fn
+    ) -> subprocess.CompletedProcess[str]:
+        spec_file = Path(argv[4])
+        spec = json.loads(spec_file.read_text(encoding="utf-8"))
+        assert spec["tools"] == ["filesystem", "browser_navigate", "browser_snapshot"]
+        return subprocess.CompletedProcess(argv, 0, stdout="ok\n", stderr="")
+
+    monkeypatch.setattr("app.agent.tools.cli.subprocess.run", _fake_run)
+
+    result = tool.spawn_sub_agent(
+        name="browser_worker",
+        description="Uses browser tools.",
+        instructions="Inspect the page.",
+        tools=["filesystem", "browser_navigate", "browser_snapshot"],
+    )
+
+    assert result["status"] == "success"
+    assert result["data"]["tools"] == ["filesystem", "browser_navigate", "browser_snapshot"]
+
+
+def test_runner_prunes_compacted_session_events(tmp_path: Path) -> None:
+    sqlite_path = tmp_path / "jarvis.sqlite"
+    settings = Settings(
+        OPENROUTER_API_KEY="test-key",
+        JARVIS_SQLITE_PATH=str(sqlite_path),
+        JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
+        JARVIS_CONVERSATION_COMPACTION_INTERVAL=3,
+        JARVIS_CONVERSATION_COMPACTION_OVERLAP=2,
+    )
+    memory_service = MemoryService(settings)
+    runtime = AgentStreamRunner(
+        settings,
+        PathPolicy([tmp_path], full_access=True),
+        McpService(),
+        SessionTerminalService(),
+        DesktopVisionService(settings),
+        memory_service,
+        ConversationContextService(settings.sqlite_path),
+    )
+
+    with sqlite3.connect(sqlite_path) as database:
+        database.execute(
+            """
+            CREATE TABLE events (
+                id TEXT NOT NULL,
+                app_name TEXT NOT NULL,
+                user_id TEXT NOT NULL,
+                session_id TEXT NOT NULL,
+                invocation_id TEXT NOT NULL,
+                timestamp REAL NOT NULL,
+                event_data TEXT NOT NULL,
+                PRIMARY KEY (app_name, user_id, session_id, id)
+            )
+            """
+        )
+        for index in range(5):
+            database.execute(
+                """
+                INSERT INTO events (
+                    id, app_name, user_id, session_id, invocation_id, timestamp, event_data
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    f"event-{index}",
+                    "jarvis-desktop",
+                    "local-user",
+                    "session-1",
+                    f"invocation-{index}",
+                    float(index),
+                    "{}",
+                ),
+            )
+        database.execute(
+            """
+            INSERT INTO events (
+                id, app_name, user_id, session_id, invocation_id, timestamp, event_data
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+            ("other-event", "jarvis-desktop", "local-user", "session-2", "other", 100.0, "{}"),
+        )
+        database.commit()
+
+    runtime._prune_compacted_session_events("local-user", "session-1", 5)
+
+    with sqlite3.connect(sqlite_path) as database:
+        retained = database.execute(
+            """
+            SELECT id FROM events
+            WHERE app_name = ? AND user_id = ? AND session_id = ?
+            ORDER BY timestamp
+            """,
+            ("jarvis-desktop", "local-user", "session-1"),
+        ).fetchall()
+        other_count = database.execute(
+            "SELECT COUNT(*) FROM events WHERE session_id = ?",
+            ("session-2",),
+        ).fetchone()
+        promotion_row = database.execute(
+            """
+            SELECT last_promotion_event_count
+            FROM memory_promotion_state
+            WHERE session_id = ?
+            """,
+            ("session-1",),
+        ).fetchone()
+
+    assert [row[0] for row in retained] == ["event-3", "event-4"]
+    assert int(other_count[0]) == 1
+    assert int(promotion_row[0]) == 2
 
 
 def test_build_running_mcp_toolsets_filters_by_enabled_and_running(monkeypatch) -> None:
@@ -102,6 +312,10 @@ def test_playwright_mcp_defaults_to_running_chrome_and_respects_manual_stop() ->
     assert restarted.status == "stopped"
 
 
+def test_isolated_playwright_preset_omits_shared_browser_context() -> None:
+    assert "--shared-browser-context" not in PLAYWRIGHT_MCP_ISOLATED_PRESET.args
+
+
 async def test_resolve_running_mcp_tools_flattens_toolset_tools(monkeypatch) -> None:
     class _FakeToolset:
         async def get_tools(self):
@@ -124,6 +338,44 @@ async def test_resolve_running_mcp_tools_flattens_toolset_tools(monkeypatch) -> 
     )
 
     assert result == ["browser_navigate", "browser_snapshot"]
+
+
+@pytest.mark.asyncio
+async def test_sub_agent_launcher_resolves_requested_browser_tools(monkeypatch, tmp_path: Path) -> None:
+    from app.agent import sub_agent_launcher
+
+    class _FakeTool:
+        def __init__(self, name: str) -> None:
+            self.name = name
+
+    class _FakeMcpService:
+        async def resolve_running_tools(self):
+            return [
+                _FakeTool("browser_navigate"),
+                _FakeTool("browser_snapshot"),
+                _FakeTool("browser_click"),
+            ]
+
+    monkeypatch.setattr(
+        sub_agent_launcher,
+        "McpService",
+        lambda **kwargs: _FakeMcpService(),
+    )
+    monkeypatch.setattr(
+        sub_agent_launcher,
+        "build_workspace_tools",
+        lambda policy: ["filesystem-tool"],
+    )
+
+    policy = PathPolicy([tmp_path])
+    tools = await sub_agent_launcher._build_sub_agent_tools(
+        policy,
+        ["filesystem", "browser_navigate", "browser_snapshot"],
+        "code_reviewer",
+    )
+
+    assert tools[0] == "filesystem-tool"
+    assert [tool.name for tool in tools[1:]] == ["browser_navigate", "browser_snapshot"]
 
 
 async def test_mcp_service_reuses_toolset_between_calls_and_closes_on_stop(monkeypatch) -> None:
@@ -245,6 +497,7 @@ def test_desktop_vision_service_captures_screenshot(tmp_path: Path, monkeypatch)
 
 async def test_memory_service_logs_observations_and_reports_status(tmp_path: Path) -> None:
     settings = Settings(
+        OPENROUTER_API_KEY="test-key",
         JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
         JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
     )
@@ -265,6 +518,7 @@ async def test_stream_chat_emits_visible_memory_promotion_thought_events(
     monkeypatch, tmp_path: Path
 ) -> None:
     settings = Settings(
+        OPENROUTER_API_KEY="test-key",
         JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
         JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
     )
@@ -378,6 +632,7 @@ async def test_stream_chat_emits_fallback_runtime_thoughts_for_tool_progress(
     monkeypatch, tmp_path: Path
 ) -> None:
     settings = Settings(
+        OPENROUTER_API_KEY="test-key",
         JARVIS_MEMORY_ROOT=str(tmp_path / "memory"),
         JARVIS_SQLITE_PATH=str(tmp_path / "jarvis.sqlite"),
     )
@@ -661,39 +916,55 @@ def test_speech_to_text_service_posts_multipart_audio(monkeypatch) -> None:
     seen: dict[str, object] = {}
 
     class _FakeResponse:
+        status_code = 200
+        text = "{\"text\": \"microphone transcript\"}"
+
+        def json(self):
+            return {"text": "microphone transcript"}
+
+        def raise_for_status(self):
+            return None
+
+    class _FakeClient:
+        def __init__(self, *args, **kwargs):
+            seen["client_args"] = args
+            seen["client_kwargs"] = kwargs
+            seen["timeout"] = kwargs.get("timeout")
+
         def __enter__(self):
             return self
 
         def __exit__(self, exc_type, exc, tb):
             return False
 
-        def read(self):
-            return json.dumps(
-                {
-                    "text": "microphone transcript",
-                    "model": "nvidia/parakeet-tdt-0.6b-v3",
-                }
-            ).encode("utf-8")
+        def close(self):
+            return None
 
-    def _fake_urlopen(request, timeout):
-        seen["url"] = request.full_url
-        seen["headers"] = dict(request.headers)
-        seen["body"] = request.data
-        seen["timeout"] = timeout
-        return _FakeResponse()
+        def post(self, url, files, data, headers):
+            seen["url"] = url
+            seen["files"] = files
+            seen["data"] = data
+            seen["headers"] = headers
+            return _FakeResponse()
 
-    monkeypatch.setattr("app.services.transcription_service.urllib.request.urlopen", _fake_urlopen)
+        def get(self, *args, **kwargs):
+            return _FakeResponse()
+
+        def request(self, *args, **kwargs):
+            return _FakeResponse()
+
+    import httpx
+
+    monkeypatch.setattr(httpx, "Client", _FakeClient)
 
     result = service.transcribe_audio(b"audio-bytes", "speech.webm", "audio/webm")
 
     assert result["status"] == "success"
     assert result["data"]["text"] == "microphone transcript"
     assert seen["url"] == "https://openrouter.ai/api/v1/audio/transcriptions"
-    headers = {key.lower(): value for key, value in seen["headers"].items()}
-    assert "application/json" in str(headers.get("content-type"))
-    payload = json.loads(seen["body"].decode("utf-8"))
-    assert payload["model"] == "nvidia/parakeet-tdt-0.6b-v3"
-    assert payload["input_audio"]["format"] == "webm"
+    assert seen["data"]["model"] == "nvidia/parakeet-tdt-0.6b-v3"
+    assert seen["files"]["file"][2] == "audio/webm"
+    assert seen["files"]["file"][0].endswith(".webm")
     assert seen["timeout"] == 60
 
 def test_chat_runtime_translates_mcp_iserror_responses() -> None:

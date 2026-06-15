@@ -13,6 +13,9 @@ def build_agent(
     tools: Sequence[object] | None = None,
     skills_root: str | None = None,
     conversation_context: str | None = None,
+    instruction_override: str | None = None,
+    agent_name: str = "jarvis_desktop_agent",
+    agent_description: str = "Local-first desktop assistant for filesystem, terminal, memory, and MCP-assisted tasks.",
     provider_config: ProviderRuntimeConfig | None = None,
     provider: str | None = None,
     model_name: str | None = None,
@@ -32,14 +35,15 @@ def build_agent(
     )
 
     return Agent(
-        name="jarvis_desktop_agent",
+        name=agent_name,
         model=LiteLlm(
             model=resolved_provider_config.litellm_model(settings),
             **resolved_provider_config.litellm_kwargs(settings),
         ),
-        description="Local-first desktop assistant for filesystem, terminal, memory, and MCP-assisted tasks.",
+        description=agent_description,
         instruction=append_conversation_context(
-            build_instruction(skills_root, tools=tools), conversation_context
+            instruction_override or build_instruction(skills_root, tools=tools),
+            conversation_context,
         ),
         tools=list(tools or []),
     )
@@ -50,6 +54,9 @@ def build_root_agent(
     tools: Sequence[object] | None = None,
     skills_root: str | None = None,
     conversation_context: str | None = None,
+    instruction_override: str | None = None,
+    agent_name: str = "jarvis_desktop_agent",
+    agent_description: str = "Local-first desktop assistant for filesystem, terminal, memory, and MCP-assisted tasks.",
     provider_config: ProviderRuntimeConfig | None = None,
     provider: str | None = None,
     model_name: str | None = None,
@@ -63,6 +70,9 @@ def build_root_agent(
         tools=tools,
         skills_root=skills_root,
         conversation_context=conversation_context,
+        instruction_override=instruction_override,
+        agent_name=agent_name,
+        agent_description=agent_description,
         provider_config=provider_config,
         provider=provider,
         model_name=model_name,

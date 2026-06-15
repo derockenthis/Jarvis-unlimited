@@ -23,6 +23,7 @@ export function Sidebar() {
   const setActiveWorkspaceView = useAppStore((state) => state.setActiveWorkspaceView);
   const setActiveConversationId = useAppStore((state) => state.setActiveConversationId);
   const setSessionId = useAppStore((state) => state.setSessionId);
+  const loadConversationMessages = useAppStore((state) => state.loadConversationMessages);
   const addNewConversation = useAppStore((state) => state.addNewConversation);
   const populateConversations = useAppStore((state) => state.populateConversations);
   const conversation = useAppStore((state) => state.conversation);
@@ -89,6 +90,9 @@ export function Sidebar() {
                 setSessionId(message.id);
                 setActiveConversationId(message.id);
                 setActiveWorkspaceView('chat');
+                void loadConversationMessages(message.id).catch((error) => {
+                  console.error(`Failed to load conversation ${message.id}`, error);
+                });
               }}
             >
               <MessageSquare size={16} />

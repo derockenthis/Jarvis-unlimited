@@ -12,9 +12,9 @@ The renderer does not directly access the filesystem, ADK, MCP subprocesses, or 
 | --- | --- |
 | `src/renderer/main.tsx` | Mounts React into the DOM. |
 | `src/renderer/App.tsx` | Composes the shell and mirrors screen-sharing state into Electron IPC. |
-| `src/renderer/components/Sidebar.tsx` | Navigation rail for Provider, MCP Tools, Skills, and local Recent Chats. |
+| `src/renderer/components/Sidebar.tsx` | Navigation rail for Settings, MCP Tools, Skills, and persisted Recent Chats. |
 | `src/renderer/components/WorkspacePanel.tsx` | Switches the center pane between chat and selected workspace views. |
-| `src/renderer/components/ProviderSettingsView.tsx` | Shows provider/model settings, saved profile loading, autosave, and Ollama model discovery. |
+| `src/renderer/components/SettingsView.tsx` | Shows provider/model settings, saved profile loading, autosave, and Ollama model discovery. |
 | `src/renderer/components/McpToolsView.tsx` | Shows MCP tool status plus start/stop controls. |
 | `src/renderer/components/SkillsView.tsx` | Shows skills folder selection and clearing controls. |
 | `src/renderer/components/ChatPane.tsx` | Owns message composition, chat streaming, speech recording, screen-sharing toggle, and chat rendering. |
@@ -30,8 +30,8 @@ The renderer does not directly access the filesystem, ADK, MCP subprocesses, or 
 
 `App.tsx` renders one root `main.app-shell` containing:
 
-1. `Sidebar` for workspace navigation and local recent chat rows.
-2. `WorkspacePanel` for the active center view: chat, Provider, MCP Tools, or Skills.
+1. `Sidebar` for workspace navigation and persisted recent chat rows.
+2. `WorkspacePanel` for the active center view: chat, Settings, MCP Tools, or Skills.
 3. `LiveWindow` for preview/workspace surfaces.
 
 `App.tsx` also fetches the backend URL from Electron through `window.jarvisDesktop.getBackendUrl()` and pushes screen-share activity to Electron through `window.jarvisDesktop.setScreenShareRing(active)`.
@@ -43,26 +43,32 @@ The renderer does not directly access the filesystem, ADK, MCP subprocesses, or 
 1. Layout: `sidebarCollapsed` and `activeWorkspaceView`.
 2. Backend integration: `backendUrl`.
 3. MCP state: `mcpTools` plus `setMcpTools` and `setMcpToolStatus`.
-4. Chat state: `messages`, `activeAssistantId`, `isStreaming`, and `addChatEvent`.
+4. Chat state: `messages`, `conversation`, `sessionId`, `activeConversationId`, `activeAssistantId`, `isStreaming`, and chat mutation/loading actions.
 5. Screen state: `isScreenSharing` and `isScreenViewing`.
 6. Skills state: `skillsRootPath`, persisted in `localStorage`.
-7. Model provider state: `provider`, `model`, `apiKey`, `baseUrl`, and `speechModel`, persisted in `localStorage`.
+7. Model provider state: `provider`, `model`, `apiKey`, `baseUrl`, and `speechModel`, loaded from and saved to the backend settings API.
 8. Preview state: one `PreviewItem` for `LiveWindow`.
 
-The store appends every submitted user turn plus an empty assistant message. The generated assistant id is saved in `activeAssistantId`, so streamed backend events mutate only the current assistant bubble. Assistant messages keep tool activities and streamed thoughts separately so thought events can remain visible after a turn finishes.
+The store appends every submitted user turn plus an empty assistant message through `addUserMessage(...)`. The generated assistant id is saved in `activeAssistantId`, so streamed backend events mutate only the current assistant bubble. Assistant messages keep tool activities and streamed thoughts separately so thought events can remain visible after a turn finishes.
+
+Conversation state is now split between local active-turn state and backend-backed history:
+
+1. `populateConversations()` loads recent conversation titles from `GET /api/conversations`.
+2. `loadConversationMessages(conversationId)` replaces `messages` with rows from `GET /api/conversations/{conversation_id}/messages`.
+3. `addNewConversation()` creates a fresh local session id and resets the pane to the default welcome message.
 
 ## Sidebar
 
-`Sidebar.tsx` is the left rail. It is navigation-only and currently includes:
+`Sidebar.tsx` is the left rail. It currently includes:
 
-1. Provider.
+1. Settings.
 2. MCP Tools.
 3. Skills.
 4. Recent Chats.
 
-Provider, MCP Tools, and Skills update `activeWorkspaceView`, which makes `WorkspacePanel` replace the center chat pane with the selected view. Recent Chats are currently local and derived from recent user messages in the current renderer session; selecting one returns the center pane to chat.
+Settings, MCP Tools, and Skills update `activeWorkspaceView`, which makes `WorkspacePanel` replace the center chat pane with the selected view. Recent Chats are loaded from the backend `conversations` table; selecting one sets `sessionId`, marks the active row, and hydrates the chat pane from SQLite-backed message history.
 
-Detailed configuration no longer lives in nested sidebar containers. `ProviderSettingsView`, `McpToolsView`, and `SkillsView` own the detailed controls in the center pane.
+Detailed configuration no longer lives in nested sidebar containers. `SettingsView`, `McpToolsView`, and `SkillsView` own the detailed controls in the center pane.
 
 ## Workspace Views
 
@@ -86,14 +92,16 @@ Skills folder selection uses Electron IPC through `window.jarvisDesktop.pickSkil
 
 `ChatPane.tsx` owns the central conversation workflow.
 
-On submit it sends the draft to `streamChat(...)` with:
+On submit it first appends the user turn plus an assistant placeholder locally, then sends the draft to `streamChat(...)` with:
 
 1. Message text.
-2. Static session id and user id.
+2. Current `sessionId` and user id.
 3. Screen-sharing consent.
 4. Selected skills root.
 5. Selected provider, model, API key, and base URL.
 6. `addChatEvent` callback for streamed backend events.
+
+When the stream exits, `ChatPane.tsx` refreshes the recent conversation list so the sidebar reflects the latest persisted title.
 
 It also owns speech-to-text recording with `MediaRecorder`. The component records audio, posts it to `POST /api/speech/transcribe` with the configured `speechModel` from the store, and inserts returned transcript text into the draft.
 
@@ -129,9 +137,11 @@ The CSS in `styles.css` now includes dedicated chat markdown rules for tables, c
 
 1. `streamChat(...)` posts to `/api/chat` and parses SSE frames.
 2. `transcribeAudio(...)` posts a `FormData` audio blob to `/api/speech/transcribe`.
-3. `fetchOllamaModels(...)` calls `/api/models/ollama` with an encoded base URL.
-4. `fetchMcpTools(...)` calls `/api/mcp/tools`.
-5. `startMcpTool(...)` and `stopMcpTool(...)` call MCP control endpoints.
+3. `listConversations(...)` calls `/api/conversations`.
+4. `getConversationMessages(...)` calls `/api/conversations/{conversation_id}/messages`.
+5. `fetchOllamaModels(...)` calls `/api/models/ollama` with an encoded base URL.
+6. `fetchMcpTools(...)` calls `/api/mcp/tools`.
+7. `startMcpTool(...)` and `stopMcpTool(...)` call MCP control endpoints.
 
 The renderer treats the backend as the trust boundary for local capabilities. Fetch failures become visible chat errors or silent empty model lists depending on the interaction.
 
@@ -152,7 +162,8 @@ The screen-sharing ring is a visual consent indicator, not the screenshot mechan
 
 ## Current Gaps
 
-1. Model provider state is persisted in `localStorage`, including API keys. This is acceptable for prototype speed but should move to secure local storage before production use.
-2. Ollama chat currently runs without backend ADK tool declarations so local models can answer normally; provider-specific tool support should be negotiated per model before enabling tools for Ollama.
-3. `LiveWindow` is still a placeholder and does not yet receive backend preview events.
-4. MCP tool configuration is not editable or durable from the renderer yet; only start/stop status is exposed.
+1. Historical conversation reload currently restores message text and timestamps only; stored tool activity and thoughts are not yet rehydrated.
+2. Provider credentials still transit the renderer in plain form during editing and request submission; secret handling should move to a more secure local storage path before production use.
+3. Ollama chat currently runs without backend ADK tool declarations so local models can answer normally; provider-specific tool support should be negotiated per model before enabling tools for Ollama.
+4. `LiveWindow` is still a placeholder and does not yet receive backend preview events.
+5. MCP tool configuration is not editable or durable from the renderer yet; only start/stop status is exposed.

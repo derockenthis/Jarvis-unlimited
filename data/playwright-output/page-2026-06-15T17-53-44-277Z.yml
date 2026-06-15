@@ -1,0 +1,490 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - link "New Chat" [ref=e7] [cursor=pointer]:
+          - /url: /chat
+          - img
+          - generic [ref=e8]: New Chat
+        - generic [ref=e10]:
+          - navigation "Main":
+            - list [ref=e12]:
+              - listitem [ref=e13]:
+                - button "Templates" [ref=e14] [cursor=pointer]:
+                  - text: Templates
+                  - img
+              - listitem [ref=e15]:
+                - button "Resources" [ref=e16] [cursor=pointer]:
+                  - text: Resources
+                  - img
+              - listitem [ref=e17]:
+                - link "Enterprise" [ref=e18] [cursor=pointer]:
+                  - /url: /enterprise
+              - listitem [ref=e19]:
+                - link "Pricing" [ref=e20] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e21]:
+                - link "iOS" [ref=e22] [cursor=pointer]:
+                  - /url: /ios
+              - listitem [ref=e23]:
+                - link "Students" [ref=e24] [cursor=pointer]:
+                  - /url: /students
+              - listitem [ref=e25]:
+                - link "FAQ" [ref=e26] [cursor=pointer]:
+                  - /url: /faq
+          - generic [ref=e27]:
+            - link "Sign In" [ref=e28] [cursor=pointer]:
+              - /url: /api/auth/login?next=%2F
+            - link "Sign Up" [ref=e29] [cursor=pointer]:
+              - /url: /api/auth/login?next=%2F&action=signup
+      - generic [ref=e30]:
+        - main [ref=e33]:
+          - generic [ref=e34]:
+            - heading "What do you want to create?" [level=1] [ref=e35]
+            - generic [ref=e37]:
+              - button "Scroll to bottom" [ref=e38] [cursor=pointer]:
+                - generic [ref=e41]:
+                  - img
+              - generic [ref=e42]:
+                - textbox "Ask v0 to build…" [active] [ref=e43]
+                - generic [ref=e44]:
+                  - button "Select model" [ref=e47] [cursor=pointer]:
+                    - generic [ref=e48]:
+                      - generic [ref=e49]:
+                        - img
+                      - generic [ref=e50]: v0 Max
+                    - img
+                  - button [ref=e52] [cursor=pointer]:
+                    - generic [ref=e55]:
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Maximum context limit reached
+                      - generic:
+                        - img
+                        - text: Drop files here to add as attachments
+              - generic [ref=e56]:
+                - button "Contact Form" [ref=e57] [cursor=pointer]:
+                  - img
+                  - text: Contact Form
+                - button "Image Editor" [ref=e58] [cursor=pointer]:
+                  - img
+                  - text: Image Editor
+                - button "Mini Game" [ref=e59] [cursor=pointer]:
+                  - img
+                  - text: Mini Game
+                - button "Finance Calculator" [ref=e60] [cursor=pointer]:
+                  - img
+                  - text: Finance Calculator
+                - button "Refresh suggestions" [ref=e61] [cursor=pointer]:
+                  - img
+          - generic [ref=e64]:
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - heading "Start with a template" [level=2] [ref=e69]
+                - generic [ref=e70]:
+                  - link "Apps and Games" [ref=e71] [cursor=pointer]:
+                    - /url: /templates/apps-and-games
+                    - img
+                    - text: Apps and Games
+                  - link "Landing Pages" [ref=e72] [cursor=pointer]:
+                    - /url: /templates/landing-pages
+                    - img
+                    - text: Landing Pages
+                  - link "Components" [ref=e73] [cursor=pointer]:
+                    - /url: /templates/components
+                    - img
+                    - text: Components
+                  - link "Dashboards" [ref=e74] [cursor=pointer]:
+                    - /url: /templates/dashboards
+                    - img
+                    - text: Dashboards
+                  - link "Browse all" [ref=e75] [cursor=pointer]:
+                    - /url: /templates
+                    - text: Browse all
+                    - img
+              - link "Browse all" [ref=e151] [cursor=pointer]:
+                - /url: /templates
+            - generic [ref=e154]:
+              - generic [ref=e156]:
+                - heading "Prompt. Build. Publish." [level=3] [ref=e157]:
+                  - text: Prompt.
+                  - text: Build. Publish.
+                - paragraph [ref=e158]: Generate working applications in minutes with AI. Publish as live websites in seconds.
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - heading "Sync with a repo" [level=3] [ref=e161]
+                  - paragraph [ref=e162]: Connect to GitHub and push code directly to your repository.
+                - generic [ref=e166]:
+                  - img [ref=e168]
+                  - img [ref=e171]
+              - generic [ref=e175]:
+                - heading "Integrate with apps" [level=3] [ref=e176]
+                - paragraph [ref=e177]: Build with your favorite tools and APIs. Automatic integration, no accounts required.
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - heading "Deploy to Vercel" [level=3] [ref=e304]
+                  - paragraph [ref=e305]: Go live instantly with one-click deployment to production in seconds.
+                - generic [ref=e308]:
+                  - img [ref=e309]
+                  - img [ref=e311]
+              - generic [ref=e314]:
+                - heading "Edit with design mode" [level=3] [ref=e315]
+                - paragraph [ref=e316]: Fine-tune every detail with visual controls and live preview.
+              - generic [ref=e321]:
+                - heading "Start with templates" [level=3] [ref=e322]
+                - paragraph [ref=e323]: Launch faster with ready-made components and full-page designs.
+              - generic [ref=e332]:
+                - heading "Create design systems" [level=3] [ref=e333]
+                - paragraph [ref=e334]: Define colors, typography, and styles that you can use across projects.
+              - generic [ref=e349]:
+                - generic [ref=e350]:
+                  - heading "Agentic by default" [level=3] [ref=e351]
+                  - paragraph [ref=e352]: v0 plans, creates tasks, and connects to databases as it builds.
+                - generic [ref=e355]:
+                  - img [ref=e357]
+                  - img
+                  - generic [ref=e360]:
+                    - img [ref=e361]
+                    - generic [ref=e363]: Web
+                  - generic [ref=e365]:
+                    - img [ref=e366]
+                    - generic [ref=e368]: Plan
+                  - generic [ref=e370]:
+                    - img [ref=e371]
+                    - generic [ref=e373]: DB
+                  - generic [ref=e375]:
+                    - img [ref=e376]
+                    - generic [ref=e378]: API
+                  - generic [ref=e380]:
+                    - img [ref=e381]
+                    - generic [ref=e383]: Deploy
+                  - generic [ref=e385]:
+                    - img [ref=e386]
+                    - generic [ref=e390]: LLM
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - heading "Create from your phone" [level=3] [ref=e393]
+                  - paragraph [ref=e394]: Build anywhere with the v0 iOS app. Design on the go.
+                - generic [ref=e397]:
+                  - img "iPhone Frame" [ref=e398]
+                  - img "iOS App" [ref=e400]
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - img [ref=e405]
+                - img [ref=e414]
+                - img [ref=e417]
+                - img [ref=e420]
+                - img [ref=e424]
+                - img [ref=e432]
+              - generic [ref=e441]:
+                - img [ref=e443]
+                - img [ref=e452]
+                - img [ref=e455]
+                - img [ref=e458]
+                - img [ref=e462]
+                - img [ref=e470]
+            - generic [ref=e480]:
+              - generic [ref=e482]:
+                - heading "Ship mobile sites" [level=2] [ref=e483]
+                - link "Browse all" [ref=e484] [cursor=pointer]:
+                  - /url: /templates
+                  - text: Browse all
+                  - img
+              - generic [ref=e487]:
+                - generic [ref=e489]:
+                  - link [ref=e494] [cursor=pointer]:
+                    - /url: /templates/dashboard-m-o-n-k-y-b7GDYVxuoGC
+                  - generic [ref=e495]:
+                    - link "joyco" [ref=e496] [cursor=pointer]:
+                      - /url: /@joyco
+                      - img "joyco" [ref=e497]
+                    - link "Dashboard – M.O.N.K.Y 7.5K 720" [ref=e498] [cursor=pointer]:
+                      - /url: /templates/dashboard-m-o-n-k-y-b7GDYVxuoGC
+                      - generic [ref=e499]:
+                        - generic [ref=e500]: Dashboard – M.O.N.K.Y
+                        - generic [ref=e501]:
+                          - generic [ref=e502]:
+                            - img
+                            - generic [ref=e503]: 7.5K
+                          - img
+                          - button "720" [ref=e504]:
+                            - img
+                            - generic [ref=e506]: "720"
+                - generic [ref=e508]:
+                  - link [ref=e513] [cursor=pointer]:
+                    - /url: /templates/garden-city-game-yAouuBHDmnT
+                  - generic [ref=e514]:
+                    - link "willierichter123-5121" [ref=e515] [cursor=pointer]:
+                      - /url: /@willierichter123-5121
+                      - img "willierichter123-5121" [ref=e516]
+                    - link "Garden City Game 8 3" [ref=e517] [cursor=pointer]:
+                      - /url: /templates/garden-city-game-yAouuBHDmnT
+                      - generic [ref=e518]:
+                        - generic [ref=e519]: Garden City Game
+                        - generic [ref=e520]:
+                          - generic [ref=e521]:
+                            - img
+                            - generic [ref=e522]: "8"
+                          - img
+                          - button "3" [ref=e523]:
+                            - img
+                            - generic [ref=e525]: "3"
+                - generic [ref=e527]:
+                  - link [ref=e532] [cursor=pointer]:
+                    - /url: /templates/3-d-gallery-photography-template-JUFK37Esjlj
+                  - generic [ref=e533]:
+                    - link "user-joelbqz" [ref=e534] [cursor=pointer]:
+                      - /url: /@user-joelbqz
+                      - img "user-joelbqz" [ref=e535]
+                    - link "3D Gallery Photography Template 1.8K 397" [ref=e536] [cursor=pointer]:
+                      - /url: /templates/3-d-gallery-photography-template-JUFK37Esjlj
+                      - generic [ref=e537]:
+                        - generic [ref=e538]: 3D Gallery Photography Template
+                        - generic [ref=e539]:
+                          - generic [ref=e540]:
+                            - img
+                            - generic [ref=e541]: 1.8K
+                          - img
+                          - button "397" [ref=e542]:
+                            - img
+                            - generic [ref=e544]: "397"
+                - generic [ref=e546]:
+                  - link [ref=e551] [cursor=pointer]:
+                    - /url: /templates/modern-smart-home-dashboard-t0b0i9Q0jMS
+                  - generic [ref=e552]:
+                    - link "ultrahive" [ref=e553] [cursor=pointer]:
+                      - /url: /@ultrahive
+                      - img "ultrahive" [ref=e554]
+                    - link "Modern Smart Home Dashboard 222 81" [ref=e555] [cursor=pointer]:
+                      - /url: /templates/modern-smart-home-dashboard-t0b0i9Q0jMS
+                      - generic [ref=e556]:
+                        - generic [ref=e557]: Modern Smart Home Dashboard
+                        - generic [ref=e558]:
+                          - generic [ref=e559]:
+                            - img
+                            - generic [ref=e560]: "222"
+                          - img
+                          - button "81" [ref=e561]:
+                            - img
+                            - generic [ref=e563]: "81"
+                - generic [ref=e565]:
+                  - link [ref=e570] [cursor=pointer]:
+                    - /url: /templates/new-components-shadcn-ui-rjaI1QX2ApZ
+                  - generic [ref=e571]:
+                    - link "estebansuarez" [ref=e572] [cursor=pointer]:
+                      - /url: /@estebansuarez
+                      - img "estebansuarez" [ref=e573]
+                    - link "New Components - shadcn/ui 672 182" [ref=e574] [cursor=pointer]:
+                      - /url: /templates/new-components-shadcn-ui-rjaI1QX2ApZ
+                      - generic [ref=e575]:
+                        - generic [ref=e576]: New Components - shadcn/ui
+                        - generic [ref=e577]:
+                          - generic [ref=e578]:
+                            - img
+                            - generic [ref=e579]: "672"
+                          - img
+                          - button "182" [ref=e580]:
+                            - img
+                            - generic [ref=e582]: "182"
+                - generic [ref=e584]:
+                  - link [ref=e589] [cursor=pointer]:
+                    - /url: /templates/v0-icon-qK8iWfx4VMX
+                  - generic [ref=e590]:
+                    - link "yoheinishitsuji" [ref=e591] [cursor=pointer]:
+                      - /url: /@yoheinishitsuji
+                      - img "yoheinishitsuji" [ref=e592]
+                    - link "v0 icon 539 73" [ref=e593] [cursor=pointer]:
+                      - /url: /templates/v0-icon-qK8iWfx4VMX
+                      - generic [ref=e594]:
+                        - generic [ref=e595]: v0 icon
+                        - generic [ref=e596]:
+                          - generic [ref=e597]:
+                            - img
+                            - generic [ref=e598]: "539"
+                          - img
+                          - button "73" [ref=e599]:
+                            - img
+                            - generic [ref=e601]: "73"
+                - generic [ref=e603]:
+                  - link [ref=e608] [cursor=pointer]:
+                    - /url: /templates/modern-booking-page-8lNrJsEZHaF
+                  - generic [ref=e609]:
+                    - link "vdimarco" [ref=e610] [cursor=pointer]:
+                      - /url: /@vdimarco
+                      - img "vdimarco" [ref=e611]
+                    - link "Modern Booking Page 18 5" [ref=e612] [cursor=pointer]:
+                      - /url: /templates/modern-booking-page-8lNrJsEZHaF
+                      - generic [ref=e613]:
+                        - generic [ref=e614]: Modern Booking Page
+                        - generic [ref=e615]:
+                          - generic [ref=e616]:
+                            - img
+                            - generic [ref=e617]: "18"
+                          - img
+                          - button "5" [ref=e618]:
+                            - img
+                            - generic [ref=e620]: "5"
+                - generic [ref=e622]:
+                  - link [ref=e627] [cursor=pointer]:
+                    - /url: /templates/wadada-run-club-hero-maaLWRPC8Cr
+                  - generic [ref=e628]:
+                    - link "jondoescodingx" [ref=e629] [cursor=pointer]:
+                      - /url: /@jondoescodingx
+                      - img "jondoescodingx" [ref=e630]
+                    - link "Wadada run club hero 590 95" [ref=e631] [cursor=pointer]:
+                      - /url: /templates/wadada-run-club-hero-maaLWRPC8Cr
+                      - generic [ref=e632]:
+                        - generic [ref=e633]: Wadada run club hero
+                        - generic [ref=e634]:
+                          - generic [ref=e635]:
+                            - img
+                            - generic [ref=e636]: "590"
+                          - img
+                          - button "95" [ref=e637]:
+                            - img
+                            - generic [ref=e639]: "95"
+                - generic [ref=e641]:
+                  - link [ref=e646] [cursor=pointer]:
+                    - /url: /templates/modern-agency-website-liquid-glass-ezmvVsZJxz8
+                  - generic [ref=e647]:
+                    - link "theskitbit" [ref=e648] [cursor=pointer]:
+                      - /url: /@theskitbit
+                      - img "theskitbit" [ref=e649]
+                    - link "Modern Agency Website - Liquid Glass 4.2K 575" [ref=e650] [cursor=pointer]:
+                      - /url: /templates/modern-agency-website-liquid-glass-ezmvVsZJxz8
+                      - generic [ref=e651]:
+                        - generic [ref=e652]: Modern Agency Website - Liquid Glass
+                        - generic [ref=e653]:
+                          - generic [ref=e654]:
+                            - img
+                            - generic [ref=e655]: 4.2K
+                          - img
+                          - button "575" [ref=e656]:
+                            - img
+                            - generic [ref=e658]: "575"
+                - generic [ref=e660]:
+                  - link [ref=e665] [cursor=pointer]:
+                    - /url: /templates/sleek-landing-page-R5iD4luh3cv
+                  - generic [ref=e666]:
+                    - link "rajoninternet" [ref=e667] [cursor=pointer]:
+                      - /url: /@rajoninternet
+                      - img "rajoninternet" [ref=e668]
+                    - link "Sleek Landing Page 103 33" [ref=e669] [cursor=pointer]:
+                      - /url: /templates/sleek-landing-page-R5iD4luh3cv
+                      - generic [ref=e670]:
+                        - generic [ref=e671]: Sleek Landing Page
+                        - generic [ref=e672]:
+                          - generic [ref=e673]:
+                            - img
+                            - generic [ref=e674]: "103"
+                          - img
+                          - button "33" [ref=e675]:
+                            - img
+                            - generic [ref=e677]: "33"
+                - generic [ref=e679]:
+                  - link [ref=e684] [cursor=pointer]:
+                    - /url: /templates/the-orb-RumDfOqDMPi
+                  - generic [ref=e685]:
+                    - link "chinpeerapat" [ref=e686] [cursor=pointer]:
+                      - /url: /@chinpeerapat
+                      - img "chinpeerapat" [ref=e687]
+                    - link "The Orb 3.5K 81" [ref=e688] [cursor=pointer]:
+                      - /url: /templates/the-orb-RumDfOqDMPi
+                      - generic [ref=e689]:
+                        - generic [ref=e690]: The Orb
+                        - generic [ref=e691]:
+                          - generic [ref=e692]:
+                            - img
+                            - generic [ref=e693]: 3.5K
+                          - img
+                          - button "81" [ref=e694]:
+                            - img
+                            - generic [ref=e696]: "81"
+            - generic [ref=e699]:
+              - heading "Start building with v0" [level=2] [ref=e700]
+              - paragraph [ref=e701]: Go from idea to production in seconds with smart, secure infrastructure
+              - button "Get Started" [ref=e703] [cursor=pointer]
+        - contentinfo [ref=e704]:
+          - contentinfo [ref=e705]:
+            - generic [ref=e707]:
+              - link "v0 logo" [ref=e708] [cursor=pointer]:
+                - /url: /
+                - img "v0 logo"
+              - generic [ref=e709]:
+                - generic [ref=e710]:
+                  - heading "Product" [level=2] [ref=e711]
+                  - list [ref=e712]:
+                    - listitem [ref=e713]:
+                      - link "Home" [ref=e714] [cursor=pointer]:
+                        - /url: /
+                    - listitem [ref=e715]:
+                      - link "Enterprise" [ref=e716] [cursor=pointer]:
+                        - /url: /enterprise
+                    - listitem [ref=e717]:
+                      - link "Pricing" [ref=e718] [cursor=pointer]:
+                        - /url: /pricing
+                    - listitem [ref=e719]:
+                      - link "v0 for Students" [ref=e720] [cursor=pointer]:
+                        - /url: /students
+                - generic [ref=e721]:
+                  - heading "Company" [level=2] [ref=e722]
+                  - list [ref=e723]:
+                    - listitem [ref=e724]:
+                      - link "Terms" [ref=e725] [cursor=pointer]:
+                        - /url: https://vercel.com/legal/terms
+                        - text: Terms
+                        - img
+                    - listitem [ref=e726]:
+                      - link "AI Policy" [ref=e727] [cursor=pointer]:
+                        - /url: /policy
+                    - listitem [ref=e728]:
+                      - link "Privacy" [ref=e729] [cursor=pointer]:
+                        - /url: https://vercel.com/legal/privacy-policy
+                        - text: Privacy
+                        - img
+                    - listitem [ref=e730]:
+                      - link "Cookies":
+                        - /url: ""
+                - generic [ref=e731]:
+                  - heading "Resources" [level=2] [ref=e732]
+                  - list [ref=e733]:
+                    - listitem [ref=e734]:
+                      - link "FAQs" [ref=e735] [cursor=pointer]:
+                        - /url: /faq
+                    - listitem [ref=e736]:
+                      - link "Docs" [ref=e737] [cursor=pointer]:
+                        - /url: /docs
+                    - listitem [ref=e738]:
+                      - link "Ambassadors" [ref=e739] [cursor=pointer]:
+                        - /url: /ambassador
+                    - listitem [ref=e740]:
+                      - link "Vercel Community" [ref=e741] [cursor=pointer]:
+                        - /url: https://community.vercel.com/c/v0/59
+                        - text: Vercel Community
+                        - img
+                    - listitem [ref=e742]:
+                      - link "Vercel" [ref=e743] [cursor=pointer]:
+                        - /url: https://vercel.com/?utm_source=v0-site&utm_medium=banner&utm_campaign=home
+                        - text: Vercel
+                        - img
+                - generic [ref=e744]:
+                  - heading "Social" [level=2] [ref=e745]
+                  - list [ref=e746]:
+                    - listitem [ref=e747]:
+                      - link "Twitter" [ref=e748] [cursor=pointer]:
+                        - /url: https://x.com/v0
+                        - img
+                        - text: Twitter
+                    - listitem [ref=e749]:
+                      - link "LinkedIn" [ref=e750] [cursor=pointer]:
+                        - /url: https://linkedin.com/company/vercel
+                        - img
+                        - text: LinkedIn
+  - alert [ref=e751]

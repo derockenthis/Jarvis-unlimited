@@ -1,0 +1,586 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - text: Launch AI Websites under your brand with
+    - link "10Web White Label Solutions" [ref=e7] [cursor=pointer]:
+      - /url: /white-label-website-builder/
+  - generic [ref=e9]:
+    - banner [ref=e10]:
+      - generic [ref=e12]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: https://10web.io/
+        - navigation [ref=e18]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: https://10web.io/
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "AI Builder" [ref=e27] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e28]:
+              - link "AI Tools" [ref=e29] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e30]:
+              - link "New White Label / API" [ref=e31] [cursor=pointer]:
+                - /url: https://10web.io/white-label-website-builder/
+            - listitem [ref=e32]:
+              - link "Pricing" [ref=e33] [cursor=pointer]:
+                - /url: https://10web.io/pricing-platform/
+            - listitem [ref=e34]:
+              - link "Talk to sales" [ref=e35] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e36]:
+              - link "Login" [ref=e37] [cursor=pointer]:
+                - /url: https://my.10web.io/login
+          - link "Generate Your Website" [ref=e39] [cursor=pointer]:
+            - /url: "#"
+    - main [ref=e40]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - heading "AI Website Builder" [level=1] [ref=e45]
+          - heading "From prompt to production ready websites." [level=2] [ref=e46]:
+            - text: From prompt
+            - text: to production
+            - text: ready websites.
+        - generic [ref=e48]:
+          - generic [ref=e51]:
+            - textbox "Provide your website name and describe it in a few words." [ref=e55]
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - link "Plus" [ref=e58] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img "Plus" [ref=e60]
+                - link [ref=e61] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=e63]
+                - link "Import Figma" [ref=e64] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=e65]
+                  - generic [ref=e66]: Import Figma
+              - link "Microphone" [ref=e67] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img "Microphone" [ref=e69]
+              - link "Send" [ref=e70] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img "Send" [ref=e71]
+          - generic [ref=e73]:
+            - generic [ref=e75]:
+              - generic [ref=e76] [cursor=pointer]:
+                - img "Diamond emoji representing handmade jewelry." [ref=e77]
+                - generic [ref=e78]: LunaGems is a handmade jewelry shop
+                - img "arrow" [ref=e79]
+              - generic [ref=e80] [cursor=pointer]:
+                - img "Briefcase emoji symbolizing a professional portfolio." [ref=e81]
+                - generic [ref=e82]: Portfolio showcasing graphic design work
+                - img "arrow" [ref=e83]
+              - generic [ref=e84] [cursor=pointer]:
+                - img "Airplane emoji representing blog about travel and photography." [ref=e85]
+                - generic [ref=e86]: NomadLens, a blog about solo travel & photography
+                - img "arrow" [ref=e87]
+              - generic [ref=e88] [cursor=pointer]:
+                - img "Building emoji symbolizing an SEO and marketing agency." [ref=e89]
+                - generic [ref=e90]: SEO and marketing agency called RankWise
+                - img "arrow" [ref=e91]
+              - generic [ref=e92] [cursor=pointer]:
+                - img "T-shirt emoji representing eco-friendly clothing." [ref=e93]
+                - generic [ref=e94]: Shop for eco-friendly clothing & accessories
+                - img "arrow" [ref=e95]
+            - generic [ref=e97]:
+              - generic [ref=e98] [cursor=pointer]:
+                - img "Diamond emoji representing handmade jewelry." [ref=e99]
+                - generic [ref=e100]: LunaGems is a handmade jewelry shop
+                - img "arrow" [ref=e101]
+              - generic [ref=e102] [cursor=pointer]:
+                - img "Briefcase emoji symbolizing a professional portfolio." [ref=e103]
+                - generic [ref=e104]: Portfolio showcasing graphic design work
+                - img "arrow" [ref=e105]
+              - generic [ref=e106] [cursor=pointer]:
+                - img "Airplane emoji representing blog about travel and photography." [ref=e107]
+                - generic [ref=e108]: NomadLens, a blog about solo travel & photography
+                - img "arrow" [ref=e109]
+              - generic [ref=e110] [cursor=pointer]:
+                - img "Building emoji symbolizing an SEO and marketing agency." [ref=e111]
+                - generic [ref=e112]: SEO and marketing agency called RankWise
+                - img "arrow" [ref=e113]
+              - generic [ref=e114] [cursor=pointer]:
+                - img "T-shirt emoji representing eco-friendly clothing." [ref=e115]
+                - generic [ref=e116]: Shop for eco-friendly clothing & accessories
+                - img "arrow" [ref=e117]
+        - generic [ref=e119]:
+          - paragraph [ref=e120]:
+            - text: 2M+
+            - generic [ref=e121]: websites created with 10Web AI website generator.
+          - link "Trustpilot" [ref=e123] [cursor=pointer]:
+            - /url: https://www.trustpilot.com/review/10web.io
+        - generic [ref=e125]:
+          - heading "Vibe code your website in 3 simple steps" [level=2] [ref=e128]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e133]:
+                - heading "Describe & let AI build" [level=3] [ref=e134]
+                - generic [ref=e135]: Use single line Prompt to get a fully functional website, no coding or design skills needed.
+              - img "Image of an AI Website Builder generating a structured site based on a brief description." [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e140]:
+                - heading "Customize & personalize" [level=3] [ref=e141]
+                - generic [ref=e142]:
+                  - text: Simply chat with AI adjust the design, personalize content, and fine-tune
+                  - text: the layout in real-time.
+              - img "Image of a website customization, showcasing color palette options and editable text." [ref=e144]
+            - generic [ref=e145]:
+              - generic [ref=e147]:
+                - heading "Review & publish" [level=3] [ref=e148]
+                - generic [ref=e149]:
+                  - text: Take a final look and launch - AI ensures mobile responsiveness and
+                  - text: SEO optimization for you.
+              - img "Image of a final website review and publishing." [ref=e151]
+      - generic [ref=e152]:
+        - generic [ref=e155]:
+          - heading "AI Website generation & builder features." [level=2] [ref=e156]
+          - generic [ref=e157]: Transform the way you build for the web with 10Web’s AI-native builder. Vibe Code your website and turn your creative vision into a functional, production ready site.
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: Vibe Coding for websites.
+                - paragraph [ref=e166]: 10Web AI interprets your prompt and generates layouts, color palettes, and typography that match your brand’s vibe instantly.
+              - img "Vibe Coding for websites." [ref=e169]
+            - generic [ref=e171]:
+              - img "URL-to-site cloning." [ref=e172]
+              - generic [ref=e173]:
+                - text: URL-to-site
+                - text: cloning.
+              - paragraph [ref=e176]: Recreate and redesign any existing website from a URL. 10Web AI will clone an editable site without manual rebuilding.
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - generic [ref=e179]: Scalable Ecommerce path.
+                - paragraph [ref=e182]:
+                  - text: Generate ecommerce stores
+                  - text: for high-volume sales, secure payments, and easy inventory management at any scale.
+              - img "Vacation rental website with multilingual support." [ref=e185]
+          - generic [ref=e186]:
+            - generic [ref=e188]:
+              - img "Unified smart editor." [ref=e189]
+              - generic [ref=e190]: Unified smart editor.
+              - paragraph [ref=e193]: Experience the perfect blend of automation and control. Use the vibe coding editor to build via natural language prompts, point and edit precision, or custom code, all in one seamless, high-performance interface.
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]: Figma to live website.
+                - paragraph [ref=e199]:
+                  - text: Import your Figma designs directly into the 10Web builder
+                  - text: to convert them into a fully functional, responsive
+                  - text: WordPress site.
+              - img "Interface showing multisite management dashboard." [ref=e202]
+            - generic [ref=e204]:
+              - img "Dynamic content engine." [ref=e205]
+              - generic [ref=e206]: Dynamic content engine.
+              - paragraph [ref=e209]:
+                - text: Build websites with dynamic functionality. Add practical features like contact forms, reservations, calendar
+                - text: bookings, and more.
+      - generic [ref=e211]:
+        - generic [ref=e213]:
+          - heading "Resell or integrate AI Website Builder under your brand." [level=2] [ref=e215]
+          - generic [ref=e216]: Give the power of 10Web AI Website Builder to your customers.
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - generic [ref=e220]:
+              - heading "White Label Reseller dashboard." [level=3] [ref=e221]
+              - generic [ref=e222]: Launch your own branded AI website SaaS platform. Resell 10Web and your own services, create custom plans, manage, and bill clients automatically.
+              - generic [ref=e223]:
+                - link "Explore White Label dashboard" [ref=e224] [cursor=pointer]:
+                  - /url: https://10web.io/white-label-website-builder/
+                - img "link icon" [ref=e225]
+            - img "Launch your online store with AI" [ref=e227]
+          - generic [ref=e228]:
+            - generic [ref=e230]:
+              - heading "AI Website Builder API." [level=3] [ref=e231]
+              - generic [ref=e232]: Deeply integrate AI site creation in your product and user flows, then bundle or upsell complete, ready-to-publish websites.
+              - generic [ref=e233]:
+                - link "Explore Website Builder API" [ref=e234] [cursor=pointer]:
+                  - /url: https://10web.io/website-builder-api/
+                - img "link icon" [ref=e235]
+            - img "AI Website Builder API." [ref=e237]
+      - generic [ref=e239]:
+        - generic [ref=e241]:
+          - heading "Get inspired by our customizable website templates." [level=2] [ref=e243]
+          - link "Website Templates" [ref=e245] [cursor=pointer]:
+            - /url: /website-templates/
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - img "DevProfile" [ref=e250]
+            - heading "DevProfile" [level=3] [ref=e251]
+          - generic [ref=e252]:
+            - img "JurisLaw" [ref=e254]
+            - heading "JurisLaw" [level=3] [ref=e255]
+          - generic [ref=e256]:
+            - img "VoyageTravel" [ref=e258]
+            - heading "VoyageTravel" [level=3] [ref=e259]
+          - generic [ref=e260]:
+            - img "TutorEdge" [ref=e262]
+            - heading "TutorEdge" [level=3] [ref=e263]
+          - generic [ref=e264]:
+            - img "SmileDent" [ref=e266]
+            - heading "SmileDent" [level=3] [ref=e267]
+          - generic [ref=e268]:
+            - img "LuxeStay" [ref=e270]
+            - heading "LuxeStay" [level=3] [ref=e271]
+          - generic [ref=e272]:
+            - img "VineEssence" [ref=e274]
+            - heading "VineEssence" [level=3] [ref=e275]
+          - generic [ref=e276]:
+            - img "CrustBake" [ref=e278]
+            - heading "CrustBake" [level=3] [ref=e279]
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Use template
+              - generic:
+                - img "Close"
+          - iframe [ref=e280]:
+            
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - heading "Vibe code the perfect website for any industry." [level=3] [ref=e285]
+            - paragraph [ref=e286]:
+              - text: Try our free AI website builder to create anything from informational sites
+              - text: to ecommerce stores in just a few clicks.
+          - generic [ref=e287]:
+            - link "Generate Your Website" [ref=e288] [cursor=pointer]:
+              - /url: "#"
+            - link "Browse Website Templates" [ref=e289] [cursor=pointer]:
+              - /url: /website-templates/
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - generic [ref=e296]: Restaurant
+              - generic [ref=e297]: Display your menu, accept online reservations, manage orders, and grow your loyal following.
+              - link "Learn more" [ref=e298] [cursor=pointer]:
+                - /url: /industries/restaurant/
+            - img "Restaurant" [ref=e299]
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - generic [ref=e302]: Portfolio
+              - generic [ref=e303]: Present your work, share your story, attract new opportunities, and build your personal brand.
+              - link "Learn more" [ref=e304] [cursor=pointer]:
+                - /url: /industries/portfolio/
+            - img "Portfolio" [ref=e305]
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: Real Estate
+              - generic [ref=e309]: Feature your listings, capture high-quality leads, schedule property viewings, and close more deals.
+              - link "Learn more" [ref=e310] [cursor=pointer]:
+                - /url: /industries/real-estate/
+            - img "Real Estate" [ref=e311]
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - generic [ref=e314]: Photography
+              - generic [ref=e315]: Showcase your unique vision, tell stories through imagery, connect with clients, and build a lasting legacy.
+              - link "Learn more" [ref=e316] [cursor=pointer]:
+                - /url: /industries/photography/
+            - img "Photography" [ref=e317]
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: Agency
+              - generic [ref=e321]: Demonstrate your strategic impact, showcase client success stories, prove your expertise, and lead industry innovation.
+              - link "Learn more" [ref=e322] [cursor=pointer]:
+                - /url: /industries/agency/
+            - img "Agency" [ref=e323]
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - generic [ref=e326]: Blog
+              - generic [ref=e327]: Share your unique voice, inspire your audience, spark meaningful conversations, and establish your thought leadership.
+              - link "Learn more" [ref=e328] [cursor=pointer]:
+                - /url: /industries/blog/
+            - img "Blog" [ref=e329]
+          - generic [ref=e330]:
+            - generic [ref=e331]:
+              - generic [ref=e332]: All industries
+              - generic [ref=e333]: "Description: Turn your ideas into reality, bridge the gap between concept and creation, and build a presence that reflects your vision."
+              - link "Learn more" [ref=e334] [cursor=pointer]:
+                - /url: /industries/
+            - img "All industries" [ref=e335]
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - img "AI Stars" [ref=e342]
+          - generic [ref=e343]: "|"
+        - heading "Launch a resilient, SEO friendly website with integrated core features for a growth ready operational website." [level=2] [ref=e344]:
+          - text: Launch a resilient,
+          - text: SEO friendly website with integrated core features for a growth ready operational website.
+      - generic [ref=e345]:
+        - generic [ref=e348]:
+          - generic [ref=e349] [cursor=pointer]: Generate
+          - generic [ref=e350] [cursor=pointer]: Customize
+          - generic [ref=e351] [cursor=pointer]: Publish
+        - generic [ref=e352]:
+          - generic [ref=e353]:
+            - generic [ref=e354]:
+              - heading "Generate with AI Website Builder." [level=3] [ref=e355]
+              - paragraph [ref=e356]: Follow these simple steps to start creating your website.
+            - link "Generate Your Website" [ref=e358] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e359]:
+            - img "Image showcasing the generation of a black and white photography portfolio website with AI Website Builder." [ref=e361]
+            - list [ref=e363]:
+              - listitem [ref=e364]: • Describe our website in a single prompt
+              - listitem [ref=e365]: • AI will convert your vision into a functional responsive site
+              - listitem [ref=e366]: • Tailor design details to match your brand
+              - listitem [ref=e367]: • Publish a production-ready responsive website
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - heading "Customize with AI." [level=3] [ref=e371]
+              - paragraph [ref=e372]: Personalize your website to match your brand.
+            - link "Generate Your Website" [ref=e374] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e375]:
+            - img "AI Co-Pilot interface assisting in website customization." [ref=e377]
+            - list [ref=e379]:
+              - listitem [ref=e380]: • Prompt to edit with chat based editor
+              - listitem [ref=e381]: • Generate high quality images
+              - listitem [ref=e382]: • Generate and fine tune your website copy
+              - listitem [ref=e383]: • Dynamic functionality with forms, maps, and more
+              - listitem [ref=e384]: • Recreate any website using only the URL
+        - generic [ref=e385]:
+          - generic [ref=e388]:
+            - heading "Publish with ease." [level=3] [ref=e389]
+            - generic [ref=e390]: Launch your website instantly with powerful built-in tools.
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - generic [ref=e395]:
+                - heading "Domain and hosting." [level=4] [ref=e397]
+                - generic [ref=e398]:
+                  - text: Get secure, reliable hosting and a free
+                  - link "custom domain" [ref=e399] [cursor=pointer]:
+                    - /url: /domain-name/
+                  - text: to establish your brand
+                  - text: instantly. Already have a domain? Connect it in just a few clicks.
+              - img "Selection of domain name options." [ref=e401]
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - heading "Security and performance." [level=4] [ref=e405]
+                - generic [ref=e406]:
+                  - text: Enjoy a fast-loading website with an
+                  - link "automated 90+ page speed score" [ref=e407] [cursor=pointer]:
+                    - /url: /page-speed-booster/
+                  - text: ","
+                  - text: backed by advanced security and a free SSL certificate.
+              - img "Website security and performance features." [ref=e409]
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - heading "AI text generation and editing." [level=4] [ref=e413]
+                - generic [ref=e414]:
+                  - text: Generate high-quality, SEO-optimized content using our AI-powered text
+                  - text: generation tool. Let AI Writer craft your copy and refine your messaging in
+                  - text: seconds.
+              - img "AI-powered text editing interface." [ref=e416]
+            - generic [ref=e417]:
+              - generic [ref=e418]:
+                - heading "Analytics and integrations." [level=4] [ref=e420]
+                - generic [ref=e421]:
+                  - text: Easily connect to plugins and tools like Google Analytics and social media
+                  - text: pixels. Track insights, improve your strategies, and grow your online
+                  - text: presence.
+              - img "Website analytics graph displaying key metrics." [ref=e423]
+      - generic [ref=e426]:
+        - generic [ref=e427]:
+          - heading "Real stories, real success with 10Web website generator." [level=4] [ref=e428]
+          - paragraph [ref=e430]: Read how 10Web has helped people build and grow their websites effortlessly.
+        - link "Generate Your Website" [ref=e432] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e434]:
+        - heading "Frequently asked questions." [level=2] [ref=e436]
+        - generic [ref=e437]:
+          - generic [ref=e439] [cursor=pointer]:
+            - heading "What is an AI website builder?" [level=3] [ref=e440]
+            - img "icon" [ref=e442]
+          - generic [ref=e444] [cursor=pointer]:
+            - heading "How long does it take to create a website with AI?" [level=3] [ref=e445]
+            - img "icon" [ref=e447]
+          - generic [ref=e449] [cursor=pointer]:
+            - heading "How to use AI to build a website?" [level=3] [ref=e450]
+            - img "icon" [ref=e452]
+          - generic [ref=e454] [cursor=pointer]:
+            - heading "Is 10Web AI Website Builder the best?" [level=3] [ref=e455]
+            - img "icon" [ref=e457]
+          - generic [ref=e459] [cursor=pointer]:
+            - heading "Can I customize my website created with 10Web AI Website Builder?" [level=3] [ref=e460]
+            - img "icon" [ref=e462]
+          - generic [ref=e464] [cursor=pointer]:
+            - heading "Is 10Web AI Website Builder free?" [level=3] [ref=e465]
+            - img "icon" [ref=e467]
+          - generic [ref=e469] [cursor=pointer]:
+            - heading "Are hosting and domain included with the AI Website Builder?" [level=3] [ref=e470]
+            - img "icon" [ref=e472]
+          - generic [ref=e474] [cursor=pointer]:
+            - heading "Can I use my own domain with 10Web?" [level=3] [ref=e475]
+            - img "icon" [ref=e477]
+          - generic [ref=e479] [cursor=pointer]:
+            - heading "Can I create an ecommerce website with 10Web?" [level=3] [ref=e480]
+            - img "icon" [ref=e482]
+          - generic [ref=e484] [cursor=pointer]:
+            - heading "Is 10web's website builder available through API?" [level=3] [ref=e485]
+            - img "icon" [ref=e487]
+          - generic [ref=e489] [cursor=pointer]:
+            - heading "Can I provide 10Web's Website Builder to my clients under my brand (white label)?" [level=3] [ref=e490]
+            - img "icon" [ref=e492]
+      - generic [ref=e493]:
+        - generic [ref=e496]:
+          - heading "More tools for your business success." [level=2] [ref=e497]
+          - generic [ref=e498]: Explore more AI tools to launch and grow your business online.
+        - generic [ref=e501]:
+          - generic [ref=e502]:
+            - generic [ref=e503]:
+              - heading "Business Name Generator." [level=3] [ref=e505]:
+                - link "Business Name Generator." [ref=e506] [cursor=pointer]:
+                  - /url: /business-name-generator/
+                  - text: Business Name
+                  - text: Generator.
+              - generic [ref=e507]: Generate a unique, brand-ready business name in seconds.
+            - img "Business Name Generator." [ref=e509]
+          - generic [ref=e510]:
+            - generic [ref=e511]:
+              - heading "Slogan Generator." [level=3] [ref=e513]:
+                - link "Slogan Generator." [ref=e514] [cursor=pointer]:
+                  - /url: /tools/slogan-generator/
+                  - text: Slogan
+                  - text: Generator.
+              - generic [ref=e515]: Create a catchy, memorable slogan that fits your brand.
+            - img "Slogan Generator." [ref=e517]
+          - generic [ref=e518]:
+            - generic [ref=e519]:
+              - heading "AI Logo Maker." [level=3] [ref=e521]:
+                - link "AI Logo Maker." [ref=e522] [cursor=pointer]:
+                  - /url: /tools/logo-maker/
+                  - text: AI Logo
+                  - text: Maker.
+              - generic [ref=e523]: Design a professional logo effortlessly with AI.
+            - img "AI Logo Maker." [ref=e525]
+          - generic [ref=e526]:
+            - generic [ref=e527]:
+              - heading "Mission Statement Generator." [level=3] [ref=e529]:
+                - link "Mission Statement Generator." [ref=e530] [cursor=pointer]:
+                  - /url: /tools/mission-statement-generator/
+                  - text: Mission Statement
+                  - text: Generator.
+              - generic [ref=e531]: Generate a clear, impactful mission statement for your business.
+            - img "Mission Statement Generator." [ref=e533]
+          - generic [ref=e534]:
+            - generic [ref=e535]:
+              - heading "Vision Statement Generator." [level=3] [ref=e537]:
+                - link "Vision Statement Generator." [ref=e538] [cursor=pointer]:
+                  - /url: /tools/vision-statement-generator/
+                  - text: Vision Statement
+                  - text: Generator.
+              - generic [ref=e539]: Create a strong vision statement that guides your brand to success.
+            - img "Vision Statement Generator." [ref=e541]
+      - contentinfo [ref=e542]:
+        - generic [ref=e544]:
+          - generic [ref=e545]:
+            - paragraph [ref=e547] [cursor=pointer]:
+              - text: AI Builder
+              - img "arrow" [ref=e548]
+            - paragraph [ref=e550] [cursor=pointer]:
+              - text: BUILDER FEATURES
+              - img "arrow" [ref=e551]
+          - generic [ref=e552]:
+            - paragraph [ref=e554] [cursor=pointer]:
+              - text: Wordpress Tools
+              - img "arrow" [ref=e555]
+            - paragraph [ref=e557] [cursor=pointer]:
+              - text: AI Tools
+              - img "arrow" [ref=e558]
+          - generic [ref=e559]:
+            - paragraph [ref=e561] [cursor=pointer]:
+              - text: BUILD WITH US
+              - img "arrow" [ref=e562]
+            - paragraph [ref=e564] [cursor=pointer]:
+              - text: Solutions
+              - img "arrow" [ref=e565]
+          - paragraph [ref=e568] [cursor=pointer]:
+            - text: Resources
+            - img "arrow" [ref=e569]
+          - paragraph [ref=e572] [cursor=pointer]:
+            - text: Company
+            - img "arrow" [ref=e573]
+        - generic [ref=e575]:
+          - generic [ref=e576]:
+            - paragraph [ref=e577]: Copyright © 2026 TenWeb. All rights reserved.
+            - paragraph [ref=e578]: "Address: 40 E Main St, Suite 721, Newark, DE 19711, United States"
+          - list [ref=e580]:
+            - listitem [ref=e581]:
+              - link "Slack" [ref=e582] [cursor=pointer]:
+                - /url: "https://10webexperts.slack.com/signup#/domain-signup "
+                - img "Slack" [ref=e583]
+            - listitem [ref=e584]:
+              - link "Twitter" [ref=e585] [cursor=pointer]:
+                - /url: https://x.com/10Web_io
+                - img "Twitter" [ref=e586]
+            - listitem [ref=e587]:
+              - link "Youtube" [ref=e588] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/10Web
+                - img "Youtube" [ref=e589]
+            - listitem [ref=e590]:
+              - link "Facebook" [ref=e591] [cursor=pointer]:
+                - /url: https://www.facebook.com/10Web.io/
+                - img "Facebook" [ref=e592]
+            - listitem [ref=e593]:
+              - link "Linkedin" [ref=e594] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/10web/
+                - img "Linkedin" [ref=e595]
+      - generic:
+        - dialog:
+          - generic:
+            - paragraph:
+              - generic: 2M+
+              - text: websites generated with 10Web
+            - heading [level=4]: Create your free account to generate and customize your website.
+            - generic:
+              - generic:
+                - img
+                - generic: Continue with Google
+              - generic:
+                - img
+                - generic: Sign up with Email
+              - generic:
+                - generic: Sign up with Email
+              - generic:
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Email
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: First name
+                  - generic:
+                    - textbox:
+                      - /placeholder: Last name
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Password
+                - generic:
+                  - generic:
+                    - generic: Sign Up
+            - paragraph:
+              - text: By signing up, you agree to 10Web’s
+              - link:
+                - /url: https://10web.io/legal/terms-of-service/
+                - text: Terms of Service
+              - text: "&"
+              - link:
+                - /url: https://10web.io/legal/privacy-policy/
+                - text: Privacy Policy
+              - text: .
+      - generic:
+        - dialog:
+          - generic:
+            - generic:
+              - img
+            - heading [level=4]: Authenticate with Figma
+            - paragraph: Pair with your Figma account
+            - generic:
+              - generic:
+                - generic: Pair with Figma
+              - generic:
+                - generic: Cancel

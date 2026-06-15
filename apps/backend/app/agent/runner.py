@@ -1,4 +1,5 @@
 from collections.abc import AsyncIterator
+import sqlite3
 from typing import Protocol
 
 from app.agent.agent import build_agent
@@ -176,6 +177,66 @@ class AgentStreamRunner:
             app_name=APP_NAME, user_id=user_id, session_id=session_id
         )
 
+    def _prune_compacted_session_events(
+        self,
+        user_id: str,
+        session_id: str,
+        event_count: int,
+    ) -> None:
+        interval = max(1, self.settings.conversation_compaction_interval)
+        overlap = max(0, self.settings.conversation_compaction_overlap)
+        if event_count <= interval:
+            return
+
+        with sqlite3.connect(self.settings.sqlite_path) as database:
+            tables = {
+                str(row[0])
+                for row in database.execute(
+                    "SELECT name FROM sqlite_master WHERE type = 'table'"
+                ).fetchall()
+            }
+            if "events" not in tables:
+                return
+
+            if overlap <= 0:
+                cursor = database.execute(
+                    """
+                    DELETE FROM events
+                    WHERE app_name = ? AND user_id = ? AND session_id = ?
+                    """,
+                    (APP_NAME, user_id, session_id),
+                )
+                remaining_count = 0
+            else:
+                cursor = database.execute(
+                    """
+                    DELETE FROM events
+                    WHERE app_name = ? AND user_id = ? AND session_id = ?
+                      AND id NOT IN (
+                        SELECT id
+                        FROM events
+                        WHERE app_name = ? AND user_id = ? AND session_id = ?
+                        ORDER BY timestamp DESC
+                        LIMIT ?
+                      )
+                    """,
+                    (APP_NAME, user_id, session_id, APP_NAME, user_id, session_id, overlap),
+                )
+                remaining_count = overlap
+            database.commit()
+
+        pruned_count = cursor.rowcount if cursor.rowcount >= 0 else 0
+        if pruned_count <= 0:
+            return
+        record_event_count = getattr(self.memory_service, "record_session_event_count", None)
+        if callable(record_event_count):
+            record_event_count(session_id, remaining_count)
+        self._debug(
+            "session_events_pruned "
+            f"session_id={session_id} user_id={user_id} pruned={pruned_count} "
+            f"remaining={remaining_count} interval={interval} overlap={overlap}"
+        )
+
     def _provider_config_from_request(self, request: ChatRequest) -> ProviderRuntimeConfig:
         return ProviderRuntimeConfig(
             provider=request.provider or "openrouter",
@@ -341,6 +402,7 @@ class AgentStreamRunner:
             part_summary = []
             if content is not None and getattr(content, "parts", None):
                 for part in content.parts:
+                    print(part, "checking for thoughts")
                     part_summary.append(
                         {
                             "text": (getattr(part, "text", None) or "")[:120],
@@ -419,6 +481,11 @@ class AgentStreamRunner:
                 f"events={current_event_count} new_events={event_delta} "
                 f"interval={max(1, self.settings.memory_promotion_interval)}"
             )
+            self._prune_compacted_session_events(
+                request.user_id,
+                request.session_id,
+                current_event_count,
+            )
             return
 
         try:
@@ -456,6 +523,11 @@ class AgentStreamRunner:
                 type="thought",
                 content=f"Dream agent memory promotion failed: {type(exc).__name__}.",
             )
+        self._prune_compacted_session_events(
+            request.user_id,
+            request.session_id,
+            current_event_count,
+        )
 
     def _is_recoverable_session_error(self, exc: Exception) -> bool:
         message = str(exc)

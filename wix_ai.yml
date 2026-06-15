@@ -1,0 +1,647 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to Main Content"
+    - generic [ref=e3]:
+      - link "Wix logo, homepage" [ref=e5] [cursor=pointer]:
+        - /url: https://www.wix.com
+        - img [ref=e6]
+      - navigation "Main menu" [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - button "Product" [ref=e13] [cursor=pointer]:
+              - generic [ref=e14]: Product
+              - img [ref=e15]
+          - listitem [ref=e17]:
+            - button "Solutions" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: Solutions
+              - img [ref=e21]
+          - listitem [ref=e23]:
+            - button "Resources" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: Resources
+              - img [ref=e27]
+          - listitem [ref=e29]:
+            - link "Pricing" [ref=e30] [cursor=pointer]:
+              - /url: https://www.wix.com/plans
+          - listitem [ref=e31]
+          - listitem [ref=e34]:
+            - link "Wixel" [ref=e35] [cursor=pointer]:
+              - /url: https://www.wix.com/wixel
+          - listitem [ref=e36]:
+            - link "Wix Studio" [ref=e37] [cursor=pointer]:
+              - /url: https://www.wix.com/studio
+          - listitem [ref=e38]:
+            - link "Enterprise" [ref=e39] [cursor=pointer]:
+              - /url: https://www.wix.com/studio/enterprise
+      - generic [ref=e40]:
+        - button "language selector, english selected" [ref=e41] [cursor=pointer]:
+          - img [ref=e42]
+        - link "Log In" [ref=e46] [cursor=pointer]:
+          - /url: https://users.wix.com/signin?view=sign-up&sendEmail=true&loginCompName=SignUp_H&referralInfo=SignUp_H&postSignUp=https%3A%2F%2Fwww.wix.com%2Fnew%2Fintro%2F&postLogin=https%3A%2F%2Fmanage.wix.com%2Faccount%2Froute&loginDialogContext=login&originUrl=https%3A%2F%2Fwww.wix.com%2Fai-website-builder
+        - link "Get Started" [ref=e47] [cursor=pointer]:
+          - /url: https://users.wix.com/signin?view=sign-up&sendEmail=true&loginCompName=SignUp_H&referralInfo=SignUp_H&postSignUp=https%3A%2F%2Fwww.wix.com%2Fnew%2Fintro%2F&postLogin=https%3A%2F%2Fmanage.wix.com%2Faccount%2Froute&loginDialogContext=signup&originUrl=https%3A%2F%2Fwww.wix.com%2Fai-website-builder
+  - generic [ref=e49]:
+    - region "top of page" [active]
+    - generic [ref=e55]:
+      - group:
+        - main:
+          - generic [ref=e60]:
+            - group:
+              - generic [ref=e63]:
+                - group:
+                  - heading "AI WEBSITE BUILDER" [level=1] [ref=e66]
+                  - heading "Experience site creation like never before" [level=2] [ref=e68]
+                  - paragraph [ref=e70]: Get a unique, business-ready website in no time with our powerful AI.
+                  - generic [ref=e71] [cursor=pointer]:
+                    - link "Create with AI" [ref=e74]:
+                      - /url: https://www.wix.com/intro/sg
+                      - generic [ref=e75]:
+                        - generic [ref=e76]: Create with AI
+                        - img [ref=e79]
+                    - paragraph [ref=e84]: Start for free. No credit card required.
+          - generic [ref=e85]:
+            - group:
+              - generic [ref=e92] [cursor=pointer]:
+                - button "Wix’s AI website generator is asked to design an online store. AI obliges, also for a bookings and events site. Play video" [ref=e93]:
+                  - generic "Wix’s AI website generator is asked to design an online store. AI obliges, also for a bookings and events site." [ref=e97]
+                - generic [ref=e100]:
+                  - img [ref=e102]
+                  - img [ref=e107]
+          - generic [ref=e110]:
+            - group:
+              - generic [ref=e120]:
+                - generic [ref=e122]:
+                  - heading "Your ideas go in. Your site comes out." [level=2] [ref=e125]
+                  - generic [ref=e126]:
+                    - paragraph [ref=e129]: Chat with our AI website creator and watch as your business story turns into a custom site right before your eyes.
+                    - link "Create with AI" [ref=e133] [cursor=pointer]:
+                      - /url: https://www.wix.com/intro/sg
+                      - generic [ref=e134]:
+                        - generic [ref=e135]: Create with AI
+                        - img [ref=e138]
+                - generic [ref=e142]:
+                  - group:
+                    - generic [ref=e144] [cursor=pointer]:
+                      - button "A user asks Wix’s AI website builder to tweak the style of their site. Play video" [pressed] [ref=e145]:
+                        - generic "A user asks Wix’s AI website builder to tweak the style of their site." [ref=e150]
+                      - generic [ref=e152]:
+                        - img [ref=e154]
+                        - img [ref=e159]
+              - generic [ref=e162]:
+                - generic [ref=e164]:
+                  - heading "Built for high standards." [level=2] [ref=e167]
+                  - generic [ref=e168]:
+                    - paragraph [ref=e171]: Refine elements within the AI website builder like design, text, layouts and more until it matches your vision.
+                    - link "Create with AI" [ref=e175] [cursor=pointer]:
+                      - /url: https://www.wix.com/intro/sg
+                      - generic [ref=e176]:
+                        - generic [ref=e177]: Create with AI
+                        - img [ref=e180]
+                - generic [ref=e186]:
+                  - group:
+                    - generic [ref=e188]:
+                      - group:
+                        - generic [ref=e190]:
+                          - group:
+                            - img [ref=e194]
+                            - heading "Change site themes" [level=3] [ref=e198]
+                            - paragraph [ref=e200]: Pick the fonts and colors that’ll shape your site’s visual style.
+                            - button "Toggle change site themes video" [ref=e202] [cursor=pointer]
+                        - generic [ref=e204]:
+                          - group:
+                            - img [ref=e208]
+                            - heading "Shuffle layouts" [level=3] [ref=e212]
+                            - paragraph [ref=e214]: Play with different structures for your site’s pages.
+                            - button "Toggle shuffle layouts video" [ref=e216] [cursor=pointer]
+                        - generic [ref=e218]:
+                          - group:
+                            - img [ref=e222]
+                            - heading "Update site content" [level=3] [ref=e226]
+                            - paragraph [ref=e228]: Revamp your site description for dynamic on-page text changes.
+                            - button "Toggle update site content video" [ref=e230] [cursor=pointer]
+                        - link "Create with AI" [ref=e235] [cursor=pointer]:
+                          - /url: https://www.wix.com/intro/sg
+                          - generic [ref=e236]:
+                            - generic [ref=e237]: Create with AI
+                            - img [ref=e240]
+                    - generic [ref=e244] [cursor=pointer]:
+                      - button "1. Change Site Theme.mov Play video" [pressed] [ref=e245]
+                      - generic [ref=e252]:
+                        - img [ref=e254]
+                        - img [ref=e259]
+                    - generic [ref=e262] [cursor=pointer]:
+                      - button "Layout Video.mov Play video" [pressed] [ref=e263]
+                      - generic [ref=e270]:
+                        - img [ref=e272]
+                        - img [ref=e277]
+                      - button "Mute" [pressed] [ref=e280]:
+                        - img [ref=e282]
+                        - img [ref=e286]
+                    - generic [ref=e289] [cursor=pointer]:
+                      - button "Description Video.mov Play video" [pressed] [ref=e290]
+                      - generic [ref=e297]:
+                        - img [ref=e299]
+                        - img [ref=e304]
+                      - button "Mute" [pressed] [ref=e307]:
+                        - img [ref=e309]
+                        - img [ref=e313]
+              - generic [ref=e316]:
+                - group:
+                  - generic [ref=e318]:
+                    - heading "More than just a good-looking site." [level=2] [ref=e321]
+                    - generic [ref=e322]:
+                      - paragraph [ref=e325]:
+                        - generic [ref=e326]:
+                          - text: With built-in business solutions like
+                          - link "scheduling" [ref=e328] [cursor=pointer]:
+                            - /url: https://www.wix.com/scheduling-software
+                          - text: ","
+                          - link "online store" [ref=e330] [cursor=pointer]:
+                            - /url: https://www.wix.com/ecommerce/online-store
+                          - text: ","
+                          - link "event management" [ref=e332] [cursor=pointer]:
+                            - /url: https://www.wix.com/event/website
+                          - text: and more automatically added to your site, you can get straight to work.
+                      - link "Create with AI" [ref=e336] [cursor=pointer]:
+                        - /url: https://www.wix.com/intro/sg
+                        - generic [ref=e337]:
+                          - generic [ref=e338]: Create with AI
+                          - img [ref=e341]
+                  - generic [ref=e345]:
+                    - group:
+                      - generic [ref=e347] [cursor=pointer]:
+                        - button "L'IA rend trois sites Web plus fonctionnels suivant une conversation avec les propriétaires de sites. Une conférence sur la finance obtient une fonctionnalité de RSVP, un site d'escalade en plein air obtient un système de réservation, et un site de commerce électronique obtient des options de paiement. Play video" [pressed] [ref=e348]:
+                          - generic "L'IA rend trois sites Web plus fonctionnels suivant une conversation avec les propriétaires de sites. Une conférence sur la finance obtient une fonctionnalité de RSVP, un site d'escalade en plein air obtient un système de réservation, et un site de commerce électronique obtient des options de paiement." [ref=e353]
+                        - generic [ref=e355]:
+                          - img [ref=e357]
+                          - img [ref=e362]
+          - generic [ref=e365]:
+            - group:
+              - generic [ref=e369]:
+                - group:
+                  - generic [ref=e371]:
+                    - group:
+                      - generic [ref=e373]:
+                        - group:
+                          - heading "Keep customizing your website with intuitive AI tools." [level=2] [ref=e376]
+                          - paragraph [ref=e378]: After creating your site, you can use Wix’s AI tools to personalize every detail and generate content at scale.
+                      - generic [ref=e379]:
+                        - generic [ref=e381]:
+                          - paragraph [ref=e384]: Use AI to speed up content writing, adjust your tone and deliver a consistent brand voice wherever you need it.
+                          - heading "Find the right words" [level=3] [ref=e386]
+                          - link "Create with AI" [ref=e390] [cursor=pointer]:
+                            - /url: https://www.wix.com/my-account/site-selector/?title=Select a site&buttonText=Get started&actionUrl=https%3A%2F%2Fwww.wix.com%2Feditor%2F%7B%7BmetaSiteId%7D%7D
+                            - generic [ref=e391]:
+                              - generic [ref=e392]: Create with AI
+                              - img [ref=e395]
+                        - generic [ref=e399] [cursor=pointer]:
+                          - button "Wix’s AI text creator generates branded text for a website’s welcome section.ix’s AI text creator to create text for the welcome section of their eComm site “Light-Hub”.It then generates content perfectly suited to their site. Play video" [pressed] [ref=e400]:
+                            - generic "Wix’s AI text creator generates branded text for a website’s welcome section.ix’s AI text creator to create text for the welcome section of their eComm site “Light-Hub”.It then generates content perfectly suited to their site." [ref=e404]
+                          - generic [ref=e407]:
+                            - img [ref=e409]
+                            - img [ref=e414]
+                  - generic [ref=e418]:
+                    - group:
+                      - generic [ref=e420]:
+                        - paragraph [ref=e423]: Instantly add sections that fit your look and feel—whether it's a map, a form, an about us or anything else you need.
+                        - heading "Create new sections for your site" [level=3] [ref=e425]
+                        - link "Create with AI" [ref=e429] [cursor=pointer]:
+                          - /url: https://www.wix.com/my-account/site-selector/?title=Select a site&buttonText=Get started&actionUrl=https%3A%2F%2Fwww.wix.com%2Feditor%2F%7B%7BmetaSiteId%7D%7D
+                          - generic [ref=e430]:
+                            - generic [ref=e431]: Create with AI
+                            - img [ref=e434]
+                      - generic [ref=e438] [cursor=pointer]:
+                        - button "Wix’s AI section creator generates 3 branded “About-Us” sections. Play video" [pressed] [ref=e439]:
+                          - generic "Wix’s AI section creator generates 3 branded “About-Us” sections." [ref=e443]
+                        - generic [ref=e446]:
+                          - img [ref=e448]
+                          - img [ref=e453]
+                  - generic [ref=e457]:
+                    - group:
+                      - generic [ref=e459]:
+                        - paragraph [ref=e462]: Enhance your site content and transform your ideas into high-quality images with just one click.
+                        - heading "Generate tailored images with AI" [level=3] [ref=e464]
+                        - link "Create with AI" [ref=e468] [cursor=pointer]:
+                          - /url: https://manage.wix.com/account/site-selector/?actionUrl=https%3A%2F%2Fwww.wix.com%2Feditor%2Ff5b0ed1a-bf99-45e5-a6f9-51420a859c87%3FopenPanel%3DaddPanel.gallery%26deeplink%3DphotoStudio%21generate
+                          - generic [ref=e469]:
+                            - generic [ref=e470]: Create with AI
+                            - img [ref=e473]
+                      - generic [ref=e477] [cursor=pointer]:
+                        - button "Wix’s AI image creator generates lamp images in 3D. Play video" [pressed] [ref=e478]:
+                          - generic "Wix’s AI image creator generates lamp images in 3D." [ref=e483]
+                        - generic [ref=e485]:
+                          - img [ref=e487]
+                          - img [ref=e492]
+          - generic [ref=e496]:
+            - group:
+              - generic [ref=e500]:
+                - group:
+                  - heading "How to create a website with AI for free." [level=2] [ref=e503]
+                  - generic [ref=e504]:
+                    - group:
+                      - paragraph [ref=e507]: Use our free AI website builder to go from draft to publish in 4 simple steps.
+                      - link "Create with AI" [ref=e511] [cursor=pointer]:
+                        - /url: https://www.wix.com/intro/sg
+                        - generic [ref=e512]:
+                          - generic [ref=e513]: Create with AI
+                          - img [ref=e516]
+                  - img "Wix AI website builder creates a Matcha eComm store alongside the site brief." [ref=e526]
+                  - generic [ref=e527]:
+                    - generic [ref=e532]:
+                      - generic [ref=e534]:
+                        - heading "1. Get started with a click" [level=3] [ref=e537]
+                        - img [ref=e540]
+                        - button "Show more" [ref=e544] [cursor=pointer]
+                      - paragraph [ref=e549]: Hit the 'Create with AI' button on this page, then chat with our AI about the kind of website you need.
+                    - generic [ref=e552]:
+                      - heading "2. Check out your AI website brief" [level=3] [ref=e555]
+                      - img [ref=e558]
+                      - button "Show more" [ref=e562] [cursor=pointer]
+                    - generic [ref=e566]:
+                      - heading "3. Refine key elements of your site" [level=3] [ref=e569]
+                      - img [ref=e572]
+                      - button "Show more" [ref=e576] [cursor=pointer]
+                    - generic [ref=e580]:
+                      - heading "4. Publish or keep customizing" [level=3] [ref=e583]
+                      - img [ref=e586]
+                      - button "Show more" [ref=e590] [cursor=pointer]
+          - generic [ref=e592]:
+            - group:
+              - generic [ref=e596]:
+                - group:
+                  - heading "Your sites come packed with power." [level=2] [ref=e599]
+                  - generic [ref=e600]:
+                    - paragraph [ref=e603]: Start strong and scale confidently with complete business solutions and robust infrastructure.
+                    - link "Create with AI" [ref=e607] [cursor=pointer]:
+                      - /url: https://www.wix.com/intro/sg
+                      - generic [ref=e608]:
+                        - generic [ref=e609]: Create with AI
+                        - img [ref=e612]
+              - generic [ref=e616]:
+                - list:
+                  - listitem [ref=e617]:
+                    - heading "Security & performance" [level=3] [ref=e620]
+                    - paragraph [ref=e622]:
+                      - generic [ref=e623]:
+                        - text: Your site is fully
+                        - link "optimized to load fast" [ref=e625] [cursor=pointer]:
+                          - /url: https://www.wix.com/performance
+                        - text: and backed by a resilient security infrastructure.
+                  - listitem [ref=e626]:
+                    - heading "Domains & web hosting" [level=3] [ref=e629]
+                    - paragraph [ref=e631]:
+                      - text: Enjoy scalable,
+                      - link "reliable web hosting" [ref=e633] [cursor=pointer]:
+                        - /url: https://www.wix.com/free/web-hosting
+                      - text: and get a
+                      - link "custom domain name" [ref=e635] [cursor=pointer]:
+                        - /url: https://www.wix.com/domains
+                      - text: for your AI-built website.
+                  - listitem [ref=e636]:
+                    - heading "Business growth solutions" [level=3] [ref=e639]
+                    - paragraph [ref=e641]:
+                      - text: Drive traffic and make informed decisions with built-in marketing,
+                      - link "SEO" [ref=e643] [cursor=pointer]:
+                        - /url: https://www.wix.com/seo
+                      - text: ", CRM &"
+                      - link "analytic tools" [ref=e645] [cursor=pointer]:
+                        - /url: https://www.wix.com/manage/analytics
+                      - text: .
+          - generic [ref=e646]:
+            - group:
+              - generic [ref=e650]:
+                - group:
+                  - heading "We’re here for you 24/7." [level=2] [ref=e653]
+                  - link "Go to Help Center" [ref=e657] [cursor=pointer]:
+                    - /url: https://support.wix.com/en
+                    - generic [ref=e658]:
+                      - generic [ref=e659]: Go to Help Center
+                      - img [ref=e662]
+              - generic [ref=e665]:
+                - list:
+                  - listitem [ref=e666]:
+                    - heading "Find answers" [level=3] [ref=e669]
+                    - paragraph [ref=e673]: Visit our Help Center for detailed articles and tutorials.
+                    - link "button for find answers" [ref=e675] [cursor=pointer]:
+                      - /url: https://support.wix.com/en
+                  - listitem [ref=e676]:
+                    - heading "Contact us" [level=3] [ref=e679]
+                    - paragraph [ref=e683]: Chat with us for real-time support or schedule a call with our experts.
+                    - link "button for contact us" [ref=e685] [cursor=pointer]:
+                      - /url: https://www.wix.com/contact
+          - generic [ref=e686]:
+            - group:
+              - heading "AI Website Builder FAQ" [level=2] [ref=e691]
+              - generic [ref=e696]:
+                - list:
+                  - listitem [ref=e697]:
+                    - generic [ref=e699]:
+                      - heading "What is an AI website builder?" [level=3] [ref=e702]
+                      - img [ref=e705]
+                      - button "Show more" [expanded] [ref=e709] [cursor=pointer]
+                    - generic [ref=e713]:
+                      - paragraph [ref=e714]: An AI website builder is a platform that uses artificial intelligence to help you create a professional website in just a few minutes. While traditional methods might require manual layout and coding, Wix’s AI website builder allows you to go from a simple prompt to a business-ready site through a conversational interface. By simply describing your vision, the AI generates a complete site with industry-specific logic, tailored copy and high-quality visuals already wired in.
+                      - paragraph [ref=e715]
+                      - paragraph [ref=e716]:
+                        - text: "Read more:"
+                        - link "How does AI work?" [ref=e717] [cursor=pointer]:
+                          - /url: https://www.wix.com/blog/how-does-ai-work
+                  - listitem [ref=e719]:
+                    - generic [ref=e721]:
+                      - heading "What kind of websites can I make with the Wix AI website generator?" [level=3] [ref=e724]
+                      - img [ref=e727]
+                      - button "Show more" [ref=e731] [cursor=pointer]
+                  - listitem [ref=e734]:
+                    - generic [ref=e736]:
+                      - heading "How do I choose the best AI website builder?" [level=3] [ref=e739]
+                      - img [ref=e742]
+                      - button "Show more" [ref=e746] [cursor=pointer]
+                  - listitem [ref=e749]:
+                    - generic [ref=e751]:
+                      - heading "Why should I build my website with AI?" [level=3] [ref=e754]
+                      - img [ref=e757]
+                      - button "Show more" [ref=e761] [cursor=pointer]
+                  - listitem [ref=e764]:
+                    - generic [ref=e766]:
+                      - heading "How do I create a website with AI?" [level=3] [ref=e769]
+                      - img [ref=e772]
+                      - button "Show more" [ref=e776] [cursor=pointer]
+                  - listitem [ref=e779]:
+                    - generic [ref=e781]:
+                      - heading "Can I use the Wix AI website builder for free?" [level=3] [ref=e784]
+                      - img [ref=e787]
+                      - button "Show more" [ref=e791] [cursor=pointer]
+                  - listitem [ref=e794]:
+                    - generic [ref=e796]:
+                      - heading "Can I customize the design of my AI-generated website?" [level=3] [ref=e799]
+                      - img [ref=e802]
+                      - button "Show more" [ref=e806] [cursor=pointer]
+                  - listitem [ref=e809]:
+                    - generic [ref=e811]:
+                      - heading "How long does it take to create my site with AI?" [level=3] [ref=e814]
+                      - img [ref=e817]
+                      - button "Show more" [ref=e821] [cursor=pointer]
+                  - listitem [ref=e824]:
+                    - generic [ref=e826]:
+                      - heading "Is a site created with AI mobile-friendly?" [level=3] [ref=e829]
+                      - img [ref=e832]
+                      - button "Show more" [ref=e836] [cursor=pointer]
+                  - listitem [ref=e839]:
+                    - generic [ref=e841]:
+                      - heading "Will my AI-built website be optimized for SEO?" [level=3] [ref=e844]
+                      - img [ref=e847]
+                      - button "Show more" [ref=e851] [cursor=pointer]
+                  - listitem [ref=e854]:
+                    - generic [ref=e856]:
+                      - heading "Are hosting and domain included when creating my site with AI?" [level=3] [ref=e859]
+                      - img [ref=e862]
+                      - button "Show more" [ref=e866] [cursor=pointer]
+                  - listitem [ref=e869]:
+                    - generic [ref=e871]:
+                      - heading "What other AI tools are available on Wix?" [level=3] [ref=e874]
+                      - img [ref=e877]
+                      - button "Show more" [ref=e881] [cursor=pointer]
+                  - listitem [ref=e884]:
+                    - generic [ref=e886]:
+                      - heading "What is Wix ADI and how is it different from the Wix AI website builder?" [level=3] [ref=e889]
+                      - img [ref=e892]
+                      - button "Show more" [ref=e896] [cursor=pointer]
+          - generic [ref=e900]:
+            - group:
+              - generic [ref=e904] [cursor=pointer]:
+                - generic [ref=e906]:
+                  - img [ref=e910]
+                  - heading "Now that's how you create a site." [level=2] [ref=e918]
+                - img [ref=e921]
+                - generic [ref=e924]:
+                  - paragraph [ref=e927]: Create with AI
+                  - img [ref=e930]
+                - link "Create with AI" [ref=e935]:
+                  - /url: https://www.wix.com/intro/sg
+          - generic [ref=e937]:
+            - group:
+              - generic [ref=e941]:
+                - link "Wix.com" [ref=e944] [cursor=pointer]:
+                  - /url: https://www.wix.com
+                  - generic [ref=e945]: Wix.com
+                - img [ref=e948]
+                - paragraph [ref=e952]: AI Website Builder
+    - region "bottom of page"
+  - contentinfo [ref=e954]:
+    - navigation "More Wix pages" [ref=e955]:
+      - generic [ref=e956]:
+        - generic [ref=e957]:
+          - link "Wix logo, homepage" [ref=e958] [cursor=pointer]:
+            - /url: https://www.wix.com
+            - img [ref=e959]
+          - paragraph [ref=e962]: Wix is a website builder that lets any business or individual build their own professional website. By combining design tools and business solutions in one AI-powered platform, Wix makes it easy for anyone to create without limits and scale confidently online.
+          - list [ref=e963]:
+            - listitem [ref=e964]:
+              - link "About" [ref=e965] [cursor=pointer]:
+                - /url: https://www.wix.com/about/us
+            - listitem [ref=e966]:
+              - link "Contact Us" [ref=e967] [cursor=pointer]:
+                - /url: https://www.wix.com/about/contact-us
+          - list [ref=e968]:
+            - listitem [ref=e969]:
+              - link "facebook" [ref=e970] [cursor=pointer]:
+                - /url: https://www.facebook.com/wix
+                - img [ref=e971]
+            - listitem [ref=e973]:
+              - link "youtube" [ref=e974] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/Wix
+                - img [ref=e975]
+            - listitem [ref=e977]:
+              - link "instagram" [ref=e978] [cursor=pointer]:
+                - /url: https://www.instagram.com/wix
+                - img [ref=e979]
+            - listitem [ref=e981]:
+              - link "tiktok" [ref=e982] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@wix
+                - img [ref=e983]
+            - listitem [ref=e985]:
+              - link "pinterest" [ref=e986] [cursor=pointer]:
+                - /url: https://www.pinterest.com/wixcom/
+                - img [ref=e987]
+            - listitem [ref=e989]:
+              - link "twitter" [ref=e990] [cursor=pointer]:
+                - /url: https://x.com/wix
+                - img [ref=e991]
+            - listitem [ref=e993]:
+              - link "linkedin" [ref=e994] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/wix-com?trk=biz-companies-cym
+                - img [ref=e995]
+        - generic [ref=e997]:
+          - generic [ref=e998]:
+            - paragraph [ref=e999]: Product
+            - list [ref=e1000]:
+              - listitem [ref=e1001]:
+                - link "Website Builder" [ref=e1002] [cursor=pointer]:
+                  - /url: https://www.wix.com
+              - listitem [ref=e1003]:
+                - link "AI Website Builder" [ref=e1004] [cursor=pointer]:
+                  - /url: https://www.wix.com/ai-website-builder
+              - listitem [ref=e1005]:
+                - link "Website Templates" [ref=e1006] [cursor=pointer]:
+                  - /url: https://www.wix.com/website/templates
+              - listitem [ref=e1007]:
+                - link "Website Design" [ref=e1008] [cursor=pointer]:
+                  - /url: https://www.wix.com/website/design
+              - listitem [ref=e1009]:
+                - link "Web Hosting" [ref=e1010] [cursor=pointer]:
+                  - /url: https://www.wix.com/free/web-hosting
+              - listitem [ref=e1011]:
+                - link "Landing Page Builder" [ref=e1012] [cursor=pointer]:
+                  - /url: https://www.wix.com/landing-page-builder
+              - listitem [ref=e1013]:
+                - link "Domain Names" [ref=e1014] [cursor=pointer]:
+                  - /url: https://www.wix.com/domains
+              - listitem [ref=e1015]:
+                - link "WHOIS Lookup" [ref=e1016] [cursor=pointer]:
+                  - /url: https://www.wix.com/domains/whois
+              - listitem [ref=e1017]:
+                - link "Domain Name Search" [ref=e1018] [cursor=pointer]:
+                  - /url: https://www.wix.com/domains/domain-name-search
+              - listitem [ref=e1019]:
+                - link "TLD List" [ref=e1020] [cursor=pointer]:
+                  - /url: https://www.wix.com/domains/tld-list
+              - listitem [ref=e1021]:
+                - link "Wixel" [ref=e1022] [cursor=pointer]:
+                  - /url: https://www.wix.com/wixel
+              - listitem [ref=e1023]:
+                - link "Wix Studio" [ref=e1024] [cursor=pointer]:
+                  - /url: https://www.wix.com/studio
+              - listitem [ref=e1025]:
+                - link "Mobile App Builder" [ref=e1026] [cursor=pointer]:
+                  - /url: https://www.wix.com/app-builder
+          - generic [ref=e1027]:
+            - paragraph [ref=e1028]: Solutions
+            - list [ref=e1029]:
+              - listitem [ref=e1030]:
+                - link "Business website" [ref=e1031] [cursor=pointer]:
+                  - /url: https://www.wix.com/business/website
+              - listitem [ref=e1032]:
+                - link "Online Store Builder" [ref=e1033] [cursor=pointer]:
+                  - /url: https://www.wix.com/ecommerce/online-store
+              - listitem [ref=e1034]:
+                - link "eCommerce Website" [ref=e1035] [cursor=pointer]:
+                  - /url: https://www.wix.com/ecommerce/website
+              - listitem [ref=e1036]:
+                - link "Portfolio Website" [ref=e1037] [cursor=pointer]:
+                  - /url: https://www.wix.com/portfolio-website
+              - listitem [ref=e1038]:
+                - link "Blog Website" [ref=e1039] [cursor=pointer]:
+                  - /url: https://www.wix.com/start/blog
+              - listitem [ref=e1040]:
+                - link "Business Software" [ref=e1041] [cursor=pointer]:
+                  - /url: https://www.wix.com/business-software
+              - listitem [ref=e1042]:
+                - link "Business email" [ref=e1043] [cursor=pointer]:
+                  - /url: https://www.wix.com/domains/business-email
+              - listitem [ref=e1044]:
+                - link "Free Business Tools" [ref=e1045] [cursor=pointer]:
+                  - /url: https://www.wix.com/tools
+              - listitem [ref=e1046]:
+                - link "Point of Sale" [ref=e1047] [cursor=pointer]:
+                  - /url: https://www.wix.com/pos
+              - listitem [ref=e1048]:
+                - link "Online Booking" [ref=e1049] [cursor=pointer]:
+                  - /url: https://www.wix.com/scheduling-software
+              - listitem [ref=e1050]:
+                - link "Logo Maker" [ref=e1051] [cursor=pointer]:
+                  - /url: https://www.wix.com/logo/maker
+              - listitem [ref=e1052]:
+                - link "Wix University" [ref=e1053] [cursor=pointer]:
+                  - /url: https://www.wix.com/university
+          - generic [ref=e1054]:
+            - paragraph [ref=e1055]: Resources
+            - list [ref=e1056]:
+              - listitem [ref=e1057]:
+                - link "Wix Blog" [ref=e1058] [cursor=pointer]:
+                  - /url: https://www.wix.com/blog
+              - listitem [ref=e1059]:
+                - link "Privacy and Security Hub" [ref=e1060] [cursor=pointer]:
+                  - /url: https://www.wix.com/manage/privacy-security-hub
+              - listitem [ref=e1061]:
+                - link "SEO Learning Hub" [ref=e1062] [cursor=pointer]:
+                  - /url: https://www.wix.com/seo/learn
+              - listitem [ref=e1063]:
+                - link "Wix Website Features" [ref=e1064] [cursor=pointer]:
+                  - /url: https://www.wix.com/features/main
+              - listitem [ref=e1065]:
+                - link "App Market" [ref=e1066] [cursor=pointer]:
+                  - /url: https://www.wix.com/app-market
+              - listitem [ref=e1067]:
+                - link "Website Accessibility" [ref=e1068] [cursor=pointer]:
+                  - /url: https://www.wix.com/accessibility
+          - generic [ref=e1069]:
+            - paragraph [ref=e1070]: Support
+            - list [ref=e1071]:
+              - listitem [ref=e1072]:
+                - link "Help Center" [ref=e1073] [cursor=pointer]:
+                  - /url: https://support.wix.com/en
+              - listitem [ref=e1074]:
+                - link "Hire a Professional" [ref=e1075] [cursor=pointer]:
+                  - /url: https://www.wix.com/marketplace
+              - listitem [ref=e1076]:
+                - link "Report Abuse" [ref=e1077] [cursor=pointer]:
+                  - /url: https://www.wix.com/abuse
+              - listitem [ref=e1078]:
+                - link "System Status" [ref=e1079] [cursor=pointer]:
+                  - /url: https://status.wix.com
+          - generic [ref=e1080]:
+            - paragraph [ref=e1081]: Company
+            - list [ref=e1082]:
+              - listitem [ref=e1083]:
+                - link "Channel Partnerships" [ref=e1084] [cursor=pointer]:
+                  - /url: https://www.wix.com/channels
+              - listitem [ref=e1085]:
+                - link "Press & Media" [ref=e1086] [cursor=pointer]:
+                  - /url: https://www.wix.com/press-room/home
+              - listitem [ref=e1087]:
+                - link "Investor Relations" [ref=e1088] [cursor=pointer]:
+                  - /url: https://investors.wix.com
+              - listitem [ref=e1089]:
+                - link "Wix Ventures" [ref=e1090] [cursor=pointer]:
+                  - /url: https://www.wix.com/wix-ventures
+              - listitem [ref=e1091]:
+                - link "Accessibility Statement" [ref=e1092] [cursor=pointer]:
+                  - /url: https://www.wix.com/about/terms-accessibility
+              - listitem [ref=e1093]:
+                - link "Patent Notice" [ref=e1094] [cursor=pointer]:
+                  - /url: https://www.wix.com/about/patent-notice
+              - listitem [ref=e1095]:
+                - link "Sitemap" [ref=e1096] [cursor=pointer]:
+                  - /url: https://www.wix.com/about/sitemap
+              - listitem [ref=e1097]:
+                - link "Careers" [ref=e1098] [cursor=pointer]:
+                  - /url: https://careers.wix.com
+      - generic [ref=e1102]:
+        - list [ref=e1103]:
+          - listitem [ref=e1104]:
+            - link "Do Not Sell or Share My Personal Information" [ref=e1105] [cursor=pointer]:
+              - /url: https://www.wix.com/about/privacy/do-not-sell-my-personal-information
+          - listitem [ref=e1106]:
+            - link "Terms of Use" [ref=e1107] [cursor=pointer]:
+              - /url: https://www.wix.com/about/terms-of-use
+          - listitem [ref=e1108]:
+            - link "Privacy Policy" [ref=e1109] [cursor=pointer]:
+              - /url: https://www.wix.com/about/privacy
+        - generic [ref=e1110]: © 2006-2026 Wix.com, Inc
+  - region "We use cookies to enable the proper functioning and security of our websites, and help us offer you the best possible user experience. By clicking Accept, you consent to the use of these cookies for advertising and analytics. You can change your cookie settings at any time. For more information, please read our Cookie Policy." [ref=e1111]:
+    - paragraph [ref=e1112]:
+      - generic [ref=e1113]:
+        - text: We use cookies to enable the proper functioning and security of our websites, and help us offer you the best possible user experience. By clicking Accept, you consent to the use of these cookies for advertising and analytics. You can change your cookie settings at any time. For more information, please read our
+        - link "Cookie Policy" [ref=e1114] [cursor=pointer]:
+          - /url: https://www.wix.com/about/cookie-policy
+        - text: .
+    - list [ref=e1115]:
+      - listitem [ref=e1116]:
+        - button "Advanced" [ref=e1117] [cursor=pointer]:
+          - generic [ref=e1118]: Advanced
+          - img [ref=e1119]
+      - listitem [ref=e1121]:
+        - button "Decline All" [ref=e1122] [cursor=pointer]
+      - listitem [ref=e1123]:
+        - button "Accept" [ref=e1124] [cursor=pointer]
+    - button "close" [ref=e1125] [cursor=pointer]:
+      - img [ref=e1126]

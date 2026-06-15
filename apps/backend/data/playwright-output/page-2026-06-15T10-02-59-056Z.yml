@@ -1,0 +1,347 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4QPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: aGPT aGPT
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DaGPT%26sca_esv%3D655416a2e67afe4b%26source%3Dhp%26ei%3Dnc0vatWJA6_NkPIP5cSHkAE%26iflsig%3DAFdpzrgAAAAAai_brZ3UNZKgSiJsAAyuwHZ82fzCq3EQ%26ved%3D0ahUKEwiVzKbZ_oiVAxWvJkQIHWXiARIQ4dUDCB0%26uact%3D5%26oq%3DaGPT%26gs_lp%3DEgdnd3Mtd2l6IgRhR1BUMggQABiABBixAzILEAAYgAQYsQMYgwEyCBAuGIAEGOUEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjKiQJQm05YzrMBcAF4AJABAJgBM6ABugGqAQE0uAEDyAEA-AEBmAIFoALFAagCCsICChAAGAMYjwEY6gLCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGIoFGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAhEQLhiABBiKBRiNBhixAxiDAcICBRAuGIAEwgIREC4YgAQYsQMYgwEYxwEYrwGYAwTxBb3UaLnoKTEdkgcBNaAH_yyyBwE0uAfBAcIHBTIuMi4xyAcHgAgB%26sclient%3Dgws-wiz&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=aGPT&sca_esv=655416a2e67afe4b&udm=50&source=hp&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjccRYPqX2iwT-1fJFMiicysrFMbUDQCiZ5ISKZmD1597JVPu0OGjndBKQkEyYdmbDqJm_l9mxcHuvJjc1V_cqDqC8vppxx95E3nekdD1A-V3nobygJ7g&aep=1&ntc=1&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q2J8OegQIExAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjccRYPqX2iwT-1fJFMiicysrFMbUDQCiZ5ISKZmD1597JVPu0OGjndBKQkEyYdmbDqJm_l9mxcHuvJjc1V_cqDqC8vppxx95E3nekdD1A-V3nobygJ7g&q=aGPT&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4QtKgLegQIGRAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Shopping" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjccRYPqX2iwT-1fJFMiicysrFMbUDQCiZ5ISKZmD1597JVPu0OGjndBKQkEyYdmbDqJm_l9mxcHuvJjc1V_cqDqC8vppxx95E3nekdD1A-V3nobygJ7g&q=aGPT&ved=1t:220175&ictx=111
+              - generic [ref=e94]: Shopping
+          - listitem [ref=e95]:
+            - link "News" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&q=aGPT&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjccRYPqX2iwT-1fJFMiicysrFMbUDQCiZ5ISKZmD1597JVPu0OGjndBKQkEyYdmbDqJm_l9mxcHuvJjc1V_cqDqC8vppxx95E3nekdD1A-V3nobygJ7g&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q0pQJegQIFxAB
+              - generic [ref=e98]: News
+          - listitem [ref=e99]:
+            - link "Videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjccRYPqX2iwT-1fJFMiicysrFMbUDQCiZ5ISKZmD1597JVPu0OGjndBKQkEyYdmbDqJm_l9mxcHuvJjc1V_cqDqC8vppxx95E3nekdD1A-V3nobygJ7g&q=aGPT&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4QtKgLegQIGBAB
+              - generic [ref=e102]: Videos
+          - listitem [ref=e103]:
+            - link "Forums" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=655416a2e67afe4b&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjccRYPqX2iwT-1fJFMiicysrFMbUDQCiZ5ISKZmD1597JVPu0OGjndBKQkEyYdmbDqJm_l9mxcHuvJjc1V_cqDqC8vppxx95E3nekdD1A-V3nobygJ7g&q=aGPT&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Qs6gLegQIFRAB
+              - generic [ref=e106]: Forums
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e126]:
+      - generic [ref=e130]:
+        - generic [ref=e133]:
+          - heading "Web results" [level=2] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e138]:
+              - link "AutoGPT — Stop building workflows. Start hiring agents. AutoGPT https://agpt.co" [ref=e140] [cursor=pointer]:
+                - /url: https://agpt.co/
+                - heading "AutoGPT — Stop building workflows. Start hiring agents." [level=3] [ref=e141]
+                - generic [ref=e147]:
+                  - generic [ref=e149]: AutoGPT
+                  - generic [ref=e151]: https://agpt.co
+              - button "About this result" [ref=e152] [cursor=pointer]:
+                - img [ref=e155]
+            - generic [ref=e159]:
+              - emphasis [ref=e160]: AutoGPT
+              - text: lets you build, deploy, and run AI agents that automate your digital workflows — research, outreach, content, support — without writing code.
+        - generic [ref=e161]:
+          - generic [ref=e165]:
+            - generic [ref=e168]:
+              - link "ChatGPT ChatGPT https://chatgpt.com" [ref=e170] [cursor=pointer]:
+                - /url: https://chatgpt.com/
+                - heading "ChatGPT" [level=3] [ref=e171]
+                - generic [ref=e177]:
+                  - generic [ref=e179]: ChatGPT
+                  - generic [ref=e181]: https://chatgpt.com
+              - button "About this result" [ref=e182] [cursor=pointer]:
+                - img [ref=e185]
+            - generic [ref=e189]:
+              - emphasis [ref=e190]: ChatGPT
+              - text: is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.
+          - generic [ref=e194]:
+            - generic [ref=e197]:
+              - link "Australian General Practice Training (AGPT) Program Royal Australian College of General Practitioners (RACGP) https://www.racgp.org.au › explore-a-gp-career › austra..." [ref=e199] [cursor=pointer]:
+                - /url: https://www.racgp.org.au/education/gp-training/explore-a-gp-career/australian-general-practice-training
+                - heading "Australian General Practice Training (AGPT) Program" [level=3] [ref=e200]
+                - generic [ref=e206]:
+                  - generic [ref=e208]: Royal Australian College of General Practitioners (RACGP)
+                  - generic [ref=e210]: https://www.racgp.org.au › explore-a-gp-career › austra...
+              - button "About this result" [ref=e211] [cursor=pointer]:
+                - img [ref=e214]
+            - generic [ref=e217]:
+              - generic [ref=e218]: Dec 11, 2025 —
+              - generic [ref=e219]:
+                - text: The AGPT Program is Commonwealth-funded,
+                - emphasis [ref=e220]: offering 3–4 years of full-time training
+                - text: with flexible part-time options and recognition of prior ...
+              - link "Read more" [ref=e221] [cursor=pointer]:
+                - /url: https://www.racgp.org.au/education/gp-training/explore-a-gp-career/australian-general-practice-training#:~:text=The%20AGPT%20Program%20is%20Commonwealth%2Dfunded%2C,and%20recognition%20of%20prior%20learning.
+          - generic [ref=e226]:
+            - heading "People also ask" [level=2] [ref=e228]
+            - generic [ref=e229]:
+              - button "What does the acronym AGPT stand for?" [ref=e235] [cursor=pointer]:
+                - generic [ref=e237]: What does the acronym AGPT stand for?
+                - img [ref=e240]
+              - button "Is AutoGPT free?" [ref=e249] [cursor=pointer]:
+                - generic [ref=e251]: Is AutoGPT free?
+                - img [ref=e254]
+              - button "What exactly does GPT mean?" [ref=e263] [cursor=pointer]:
+                - generic [ref=e265]: What exactly does GPT mean?
+                - img [ref=e268]
+              - button "How much does GPT cost?" [ref=e277] [cursor=pointer]:
+                - generic [ref=e279]: How much does GPT cost?
+                - img [ref=e282]
+          - generic [ref=e288]:
+            - generic [ref=e291]:
+              - link "AutoGPT Wikipedia https://en.wikipedia.org › wiki › AutoGPT" [ref=e293] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/AutoGPT
+                - heading "AutoGPT" [level=3] [ref=e294]
+                - generic [ref=e300]:
+                  - generic [ref=e302]: Wikipedia
+                  - generic [ref=e304]: https://en.wikipedia.org › wiki › AutoGPT
+              - button "About this result" [ref=e305] [cursor=pointer]:
+                - img [ref=e308]
+            - generic [ref=e311]:
+              - generic [ref=e312]:
+                - text: AutoGPT is
+                - emphasis [ref=e313]: an open-source autonomous software agent
+                - text: that uses OpenAI's large language models, such as GPT-4, to attempt to achieve a goal specified by a ...
+              - link "Read more" [ref=e314] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/AutoGPT#:~:text=AutoGPT%20is%20an%20open%2Dsource%20autonomous,a%20user%20in%20natural%20language.
+          - generic [ref=e318]:
+            - generic [ref=e321]:
+              - 'link "Understanding AGPT: A Platform for Autonomous AI Agents TechRaisal https://www.techraisal.com › blog › understanding-agpt-..." [ref=e323] [cursor=pointer]':
+                - /url: https://www.techraisal.com/blog/understanding-agpt-a-platform-for-autonomous-ai-agents/
+                - 'heading "Understanding AGPT: A Platform for Autonomous AI Agents" [level=3] [ref=e324]'
+                - generic [ref=e330]:
+                  - generic [ref=e332]: TechRaisal
+                  - generic [ref=e334]: https://www.techraisal.com › blog › understanding-agpt-...
+              - button "About this result" [ref=e335] [cursor=pointer]:
+                - img [ref=e338]
+            - generic [ref=e341]:
+              - generic [ref=e342]: May 10, 2025 —
+              - generic [ref=e343]:
+                - emphasis [ref=e344]: AGPT
+                - text: is building something that sits between a framework and a service—a way to deploy AI agents that can carry out tasks with minimal user ...
+              - link "Read more" [ref=e345] [cursor=pointer]:
+                - /url: https://www.techraisal.com/blog/understanding-agpt-a-platform-for-autonomous-ai-agents/#:~:text=AGPT%20is%20building%20something%20that,tasks%20with%20minimal%20user%20guidance.
+          - generic [ref=e349]:
+            - generic [ref=e352]:
+              - link "Australian General Practice Training (AGPT) Program Australian Government Department of Health, Disability and Ageing https://www.health.gov.au › our-work › agpt-program" [ref=e354] [cursor=pointer]:
+                - /url: https://www.health.gov.au/our-work/agpt-program?language=en
+                - heading "Australian General Practice Training (AGPT) Program" [level=3] [ref=e355]
+                - generic [ref=e361]:
+                  - generic [ref=e363]: Australian Government Department of Health, Disability and Ageing
+                  - generic [ref=e365]: https://www.health.gov.au › our-work › agpt-program
+              - button "About this result" [ref=e366] [cursor=pointer]:
+                - img [ref=e369]
+            - generic [ref=e372]:
+              - generic [ref=e373]: May 26, 2026 —
+              - generic [ref=e374]:
+                - text: The AGPT Program
+                - emphasis [ref=e375]: trains doctors to become GPs
+                - text: . It provides full-time, on-the-job training for Australian and overseas-trained doctors who want ...
+              - link "Read more" [ref=e376] [cursor=pointer]:
+                - /url: https://www.health.gov.au/our-work/agpt-program?language=en#:~:text=The%20AGPT%20Program%20trains%20doctors,to%20specialise%20in%20general%20practice.
+          - generic [ref=e383]:
+            - generic [ref=e386]:
+              - link "How do I apply for the AGPT GP training program? YouTube · RACGP 760+ views · 3 months ago" [ref=e388] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=uPPIEeaA7VE
+                - heading "How do I apply for the AGPT GP training program?" [level=3] [ref=e389]
+                - generic [ref=e395]:
+                  - generic [ref=e397]: YouTube · RACGP
+                  - generic [ref=e399]: 760+ views · 3 months ago
+              - button "About this result" [ref=e400] [cursor=pointer]:
+                - img [ref=e403]
+            - generic [ref=e405]:
+              - button "How do I apply for the AGPT GP training program? by RACGP on YouTube. Play on Google. 3:07" [ref=e406] [cursor=pointer]:
+                - generic [ref=e408]:
+                  - img [ref=e411]
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: 3:07
+                    - img [ref=e418]
+              - generic [ref=e421]: Are you ready to become a GP or Rural Generalist with the RACGP? Here's everything you need to know about how to apply and the Australian ...
+          - generic [ref=e425]:
+            - generic [ref=e428]:
+              - link "artGPT (AGPT) Price Gate.com https://www.gate.com › Crypto Prices" [ref=e430] [cursor=pointer]:
+                - /url: https://www.gate.com/price/artgpt-agpt
+                - heading "artGPT (AGPT) Price" [level=3] [ref=e431]
+                - generic [ref=e437]:
+                  - generic [ref=e439]: Gate.com
+                  - generic [ref=e441]: https://www.gate.com › Crypto Prices
+              - button "About this result" [ref=e442] [cursor=pointer]:
+                - img [ref=e445]
+            - generic [ref=e448]:
+              - generic [ref=e449]:
+                - text: By using advanced algorithms,
+                - emphasis [ref=e450]: artGPT
+                - text: allows users to generate unique works of art automatically. Additionally, the platform integrates with NFT (non-fungible ...
+              - link "Read more" [ref=e451] [cursor=pointer]:
+                - /url: https://www.gate.com/price/artgpt-agpt#:~:text=By%20using%20advanced%20algorithms%2C%20artGPT,creations%20as%20one%2Dof%2Da%2Dkind%2C%20collectible%20assets.
+            - img "Rated 4.9 out of 5, (205,856) user reviews" [ref=e456]:
+              - text: "4.9"
+              - img [ref=e457]
+              - text: (205,856)
+          - generic [ref=e463]:
+            - generic [ref=e466]:
+              - link "AutoGPT Platform AutoGPT https://platform.agpt.co" [ref=e468] [cursor=pointer]:
+                - /url: https://platform.agpt.co/
+                - heading "AutoGPT Platform" [level=3] [ref=e469]
+                - generic [ref=e475]:
+                  - generic [ref=e477]: AutoGPT
+                  - generic [ref=e479]: https://platform.agpt.co
+              - button "About this result" [ref=e480] [cursor=pointer]:
+                - img [ref=e483]
+            - generic [ref=e486]:
+              - text: Welcome back. Pick up where you left off. Your agents are waiting. What's new. New memory upgrades. Smarter agents with longer context windows.
+              - link "Read more" [ref=e487] [cursor=pointer]:
+                - /url: https://platform.agpt.co/#:~:text=Log%20in%20to%20your%20account
+          - generic [ref=e491]:
+            - generic [ref=e494]:
+              - link "artGPT price AGPT CoinMarketCap https://coinmarketcap.com › Cryptocurrency" [ref=e496] [cursor=pointer]:
+                - /url: https://coinmarketcap.com/currencies/artgpt/
+                - heading "artGPT price AGPT" [level=3] [ref=e497]
+                - generic [ref=e503]:
+                  - generic [ref=e505]: CoinMarketCap
+                  - generic [ref=e507]: https://coinmarketcap.com › Cryptocurrency
+              - button "About this result" [ref=e508] [cursor=pointer]:
+                - img [ref=e511]
+            - generic [ref=e514]:
+              - generic [ref=e515]:
+                - text: By using advanced algorithms,
+                - emphasis [ref=e516]: artGPT
+                - text: allows users to generate unique works of art automatically. Additionally, the platform integrates with NFT (non-fungible ...
+              - link "Read more" [ref=e517] [cursor=pointer]:
+                - /url: https://coinmarketcap.com/currencies/artgpt/#:~:text=Popular%20Real%20World%20Assets
+      - generic [ref=e519]:
+        - generic [ref=e524]:
+          - heading "People also search for" [level=2] [ref=e526]
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - link "AGPT Test" [ref=e533] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=AGPT+Test&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAgtEAE
+                - generic [ref=e534]:
+                  - generic [ref=e539]: AGPT Test
+                  - img [ref=e543]
+              - link "AGPT AI" [ref=e548] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=AGPT+AI&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAg4EAE
+                - generic [ref=e549]:
+                  - generic [ref=e554]: AGPT AI
+                  - img [ref=e558]
+              - link "Auto-GPT" [ref=e563] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=Auto-GPT&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAguEAE
+                - generic [ref=e564]:
+                  - generic [ref=e569]: Auto-GPT
+                  - img [ref=e573]
+              - link "DeepSeek" [ref=e578] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=DeepSeek&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAg8EAE
+                - generic [ref=e579]:
+                  - generic [ref=e584]: DeepSeek
+                  - img [ref=e588]
+            - generic [ref=e590]:
+              - link "AutoGPT AI" [ref=e594] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=AutoGPT+AI&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAg1EAE
+                - generic [ref=e595]:
+                  - generic [ref=e600]: AutoGPT AI
+                  - img [ref=e604]
+              - link "AutoGPT GitHub" [ref=e609] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=AutoGPT+GitHub&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAg5EAE
+                - generic [ref=e610]:
+                  - generic [ref=e615]: AutoGPT GitHub
+                  - img [ref=e619]
+              - link "Auto-GPT free" [ref=e624] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=Auto-GPT+free&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAg3EAE
+                - generic [ref=e625]:
+                  - generic [ref=e630]: Auto-GPT free
+                  - img [ref=e634]
+              - link "Autogpt marketplace" [ref=e639] [cursor=pointer]:
+                - /url: /search?sca_esv=655416a2e67afe4b&q=Autogpt+marketplace&sa=X&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q1QJ6BAgvEAE
+                - generic [ref=e640]:
+                  - generic [ref=e645]: Autogpt marketplace
+                  - img [ref=e649]
+        - navigation [ref=e651]:
+          - heading "Page Navigation" [level=1] [ref=e652]
+          - text: "1"
+          - link "Page 2" [ref=e655] [cursor=pointer]:
+            - /url: /search?q=aGPT&sca_esv=655416a2e67afe4b&ei=0c0vat2GPOzDkPIPhd_b8QM&start=10&sa=N&sstk=AU9db-BRTzTGGLYwIo2-IrzL9Ez-MAGzA4KcM6rla8tTyXE2zbL9P-Klo3zahzq86y-3SlaqyDX_Wynw-Rwt-mSQfe1WaQMuEAIyoQ&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q8tMDegQIKhAE
+            - text: "2"
+          - link "Page 3" [ref=e657] [cursor=pointer]:
+            - /url: /search?q=aGPT&sca_esv=655416a2e67afe4b&ei=0c0vat2GPOzDkPIPhd_b8QM&start=20&sa=N&sstk=AU9db-BRTzTGGLYwIo2-IrzL9Ez-MAGzA4KcM6rla8tTyXE2zbL9P-Klo3zahzq86y-3SlaqyDX_Wynw-Rwt-mSQfe1WaQMuEAIyoQ&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q8tMDegQIKhAG
+            - text: "3"
+          - link "Page 4" [ref=e659] [cursor=pointer]:
+            - /url: /search?q=aGPT&sca_esv=655416a2e67afe4b&ei=0c0vat2GPOzDkPIPhd_b8QM&start=30&sa=N&sstk=AU9db-BRTzTGGLYwIo2-IrzL9Ez-MAGzA4KcM6rla8tTyXE2zbL9P-Klo3zahzq86y-3SlaqyDX_Wynw-Rwt-mSQfe1WaQMuEAIyoQ&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q8tMDegQIKhAI
+            - text: "4"
+          - link "Page 5" [ref=e661] [cursor=pointer]:
+            - /url: /search?q=aGPT&sca_esv=655416a2e67afe4b&ei=0c0vat2GPOzDkPIPhd_b8QM&start=40&sa=N&sstk=AU9db-BRTzTGGLYwIo2-IrzL9Ez-MAGzA4KcM6rla8tTyXE2zbL9P-Klo3zahzq86y-3SlaqyDX_Wynw-Rwt-mSQfe1WaQMuEAIyoQ&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q8tMDegQIKhAK
+            - text: "5"
+          - heading "Next" [level=2] [ref=e663]:
+            - link "Next" [ref=e664] [cursor=pointer]:
+              - /url: /search?q=aGPT&sca_esv=655416a2e67afe4b&ei=0c0vat2GPOzDkPIPhd_b8QM&start=10&sa=N&sstk=AU9db-BRTzTGGLYwIo2-IrzL9Ez-MAGzA4KcM6rla8tTyXE2zbL9P-Klo3zahzq86y-3SlaqyDX_Wynw-Rwt-mSQfe1WaQMuEAIyoQ&ved=2ahUKEwids8Xy_oiVAxXsIUQIHYXvNj4Q8NMDegQIKhAM
+              - generic [ref=e666]: Next
+      - navigation
+    - contentinfo [ref=e667]:
+      - heading "Footer Links" [level=1] [ref=e668]
+      - generic [ref=e672]:
+        - generic [ref=e676]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e678] [cursor=pointer]:
+            - generic [ref=e679]: 92780, Tustin, CA
+            - generic [ref=e681]:
+              - text: "-"
+              - generic [ref=e682]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e684] [cursor=pointer]: Update location
+        - generic [ref=e687]:
+          - link "Help" [ref=e688] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e689] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e690] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e691] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

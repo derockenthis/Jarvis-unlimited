@@ -1,0 +1,574 @@
+- generic [ref=e2]:
+  - img [ref=e5]
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - generic [ref=e29]: NEW
+      - generic [ref=e30]: Relume now exports directly to Claude Design.
+    - link "See the integration" [ref=e31] [cursor=pointer]:
+      - /url: /claude-design-export
+      - generic [ref=e32]: See the integration
+      - img [ref=e34]
+  - banner [ref=e37]:
+    - generic [ref=e38]:
+      - link [ref=e39] [cursor=pointer]:
+        - /url: /?r=0
+      - navigation [ref=e40]:
+        - generic [ref=e41]:
+          - button "Products" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]: Products
+            - img [ref=e46]
+          - button "Community" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]: Community
+            - img [ref=e52]
+          - link "Pricing" [ref=e54] [cursor=pointer]:
+            - /url: /pricing
+          - link "Learn" [ref=e55] [cursor=pointer]:
+            - /url: /resources
+          - link "Contact Sales" [ref=e56] [cursor=pointer]:
+            - /url: /contact-sales
+      - generic [ref=e58]:
+        - link "Log in" [ref=e59] [cursor=pointer]:
+          - /url: /app/login
+        - link "Start for free" [ref=e60] [cursor=pointer]:
+          - /url: /app/signup
+    - link [ref=e62] [cursor=pointer]:
+      - /url: /?r=0
+    - link "Start for free" [ref=e64] [cursor=pointer]:
+      - /url: /app/signup
+  - main [ref=e65]:
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e70]:
+          - generic [ref=e72]: 1 Million+ Designers & Developers trust Relume
+          - heading "Websites designed & built faster with AI" [level=1] [ref=e73]
+          - paragraph [ref=e74]: Use AI as your design ally, not a replacement. Instantly generate Sitemaps, Wireframes and Style Guides for marketing websites—all in minutes
+        - generic [ref=e85]:
+          - paragraph [ref=e86]: Nothing short of groundbreaking for designers. It immediately changes how I work and makes me 10x more productive.
+          - generic [ref=e87]:
+            - generic [ref=e88]: "@ransegall"
+            - generic [ref=e89]: Designer & Content Creator
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - form "Email Form" [ref=e93]:
+            - textbox "Describe a company in a sentence or two..." [ref=e94]
+            - generic [ref=e95]:
+              - generic:
+                - img
+              - button "Generate" [ref=e96] [cursor=pointer]
+          - generic [ref=e97]:
+            - text: Take it for a spin with an
+            - link "example" [ref=e98] [cursor=pointer]:
+              - /url: /app/project/create?brief=Rebank+is+a+digital+bank+that+offers+a+range+of+financial+services+primarily+through+a+mobile+app%2C+allowing+you+to+manage+your+money+on-the-go.
+        - img [ref=e101]
+        - generic [ref=e115]:
+          - link "Plan Sitemaps Quickly map out your website pages with an AI-generated sitemap Give it a try" [ref=e116]:
+            - /url: https://relume.io/app/project/create?#mode=sitemap
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e123]: Plan
+                - heading "Sitemaps" [level=2] [ref=e124]
+                - generic [ref=e126]: Quickly map out your website pages with an AI-generated sitemap
+              - generic [ref=e129]: Give it a try
+          - link "Structure Wireframes Effortlessly structure your pages and copy with distraction-free wireframes Give it a try" [ref=e133]:
+            - /url: https://relume.io/app/project/create?#mode=wireframe
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]: Structure
+                - heading "Wireframes" [level=2] [ref=e141]
+                - generic [ref=e143]: Effortlessly structure your pages and copy with distraction-free wireframes
+              - generic [ref=e146]: Give it a try
+          - link "Conceptualise Style Guide Instantly create design concepts and apply the winning style across pages Give it a try" [ref=e151]:
+            - /url: https://relume.io/app/project/create?#mode=styleguide
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - generic [ref=e158]: Conceptualise
+                - heading "Style Guide" [level=2] [ref=e159]
+                - generic [ref=e161]: Instantly create design concepts and apply the winning style across pages
+              - generic [ref=e164]: Give it a try
+    - generic [ref=e179]:
+      - heading "Used by leading brands and companies from across the globe" [level=2] [ref=e181]
+      - region "carousel" [ref=e183]:
+        - group "1 of 2" [ref=e185]
+        - text:  
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e198]: Ship
+        - generic [ref=e199]:
+          - generic [ref=e200]: faster
+          - generic [ref=e201]: faster
+      - generic [ref=e204]:
+        - generic [ref=e206]:
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - heading "Prompt to" [level=2] [ref=e210]
+              - generic [ref=e212]:
+                - heading "Sitemap" [level=2] [ref=e213]
+                - img [ref=e215]
+              - paragraph [ref=e230]: The best way to start off your new project. Use AI to map out all your key pages with just a few sentences about your company. Effortlessly create a complete sitemap in mere seconds, not hours.
+            - generic [ref=e232]:
+              - generic [ref=e233]:
+                - heading "Map out key content" [level=3] [ref=e236]
+                - paragraph [ref=e237]: Easily identify key pages and sections for any website in any industry. Ensure a well-structured foundation from the start
+              - generic [ref=e239]:
+                - heading "Scope projects better" [level=3] [ref=e242]
+                - paragraph [ref=e243]: Kick off projects with a clear sitemap to avoid scope creep. Define pages early and stay on track effortlessly
+          - img [ref=e247]
+        - generic [ref=e269]:
+          - img [ref=e273]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - heading "Sitemap to" [level=2] [ref=e328]
+              - heading "Wireframe" [level=2] [ref=e331]
+              - paragraph [ref=e332]: Achieve your first draft in the first minute. Sit back and watch Ai magically turn your Sitemap into wireframes in one click generating real components un-styled with copy. Getting sign off has never been so easy.
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - heading "Editing super powers" [level=3] [ref=e338]
+                - paragraph [ref=e339]: Generate copy or add new components from our library. You're in control, not the AI
+              - generic [ref=e341]:
+                - heading "No AI-template gimmicks" [level=3] [ref=e344]
+                - paragraph [ref=e345]: Utilize our library of over 1000+ real components ready to export to Figma, Webflow or React
+        - generic [ref=e347]:
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e352]: New
+              - heading "Wireframes to" [level=2] [ref=e353]
+              - heading "Style Guide" [level=2] [ref=e356]
+              - paragraph [ref=e357]: In freelancing and agency work, time is money. Streamline one of the most time-consuming stages of web design with our Style Guide Builder—create visual concepts, lock in a design system, export to Figma or Webflow.
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - heading "Streamline approvals" [level=3] [ref=e363]
+                - paragraph [ref=e364]: Quickly merge client ideas with your own to create standout concepts and get approvals faster
+              - generic [ref=e366]:
+                - heading "Build faster" [level=3] [ref=e369]
+                - paragraph [ref=e370]: Skip manual Style Guide setup in Figma or Webflow. Export instantly and start designing
+          - img [ref=e374]:
+            - generic "Jason" [ref=e430]
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - generic [ref=e460]:
+          - generic [ref=e461]:
+            - generic [ref=e462]:
+              - img [ref=e465]
+              - img [ref=e469]
+            - generic [ref=e471]:
+              - img [ref=e474]
+              - img [ref=e478]
+              - img [ref=e482]
+          - generic [ref=e486]:
+            - generic [ref=e487]: Sue Lang • 49 minutes ago
+            - generic [ref=e488]: I’ve actioned all your comments. Let me know what you think!
+          - generic [ref=e490]: Reply
+        - generic [ref=e495]:
+          - heading "Cross-team" [level=2] [ref=e497]
+          - heading "Collaboration" [level=2] [ref=e499]
+          - paragraph [ref=e500]: Collaborate with the team and clients. Share projects and leave comments to streamline communication and get your designs approved.
+      - generic [ref=e501]:
+        - generic [ref=e502]:
+          - generic [ref=e504]: Copied to clipboard!
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - generic [ref=e507]: Copy
+              - generic [ref=e509]: ⌘C
+            - generic [ref=e510]:
+              - generic [ref=e511]: Paste in Site Builder
+              - generic [ref=e513]: ⌘V
+            - generic [ref=e515]: Ready to export
+            - generic [ref=e516]:
+              - generic [ref=e521]: Copy to Figma
+              - generic [ref=e523]: ⌘C
+            - generic [ref=e524]:
+              - generic [ref=e529]: Copy to Webflow
+              - generic [ref=e531]: ⌘C
+            - generic [ref=e532]:
+              - generic [ref=e537]: Copy to React
+              - generic [ref=e539]: ⌘C
+            - generic [ref=e540]:
+              - generic [ref=e545]: Copy to Claude Design
+              - generic [ref=e547]: ⌘C
+        - generic [ref=e549]:
+          - heading "Export to" [level=2] [ref=e551]
+          - heading "Figma, Webflow, React & Claude Design" [level=2] [ref=e553]
+          - paragraph [ref=e554]: Site Builder works with the tools you already love and respects your process. Copy any component and paste wherever you need.
+      - generic [ref=e558]:
+        - heading "Native in Claude Design." [level=2] [ref=e560]:
+          - text: Native in
+          - text: Claude Design.
+        - paragraph [ref=e561]: Send your full design system straight into Claude. Design in one click. Colour, type, spacing, components. No Figma step, no manual rebuilds.
+        - link "See how it works" [ref=e563] [cursor=pointer]:
+          - /url: /claude-design-export
+          - generic [ref=e564]: See how it works
+    - generic [ref=e569]:
+      - generic [ref=e570]:
+        - generic [ref=e571]:
+          - generic [ref=e572]:
+            - img [ref=e574]
+            - generic [ref=e576]: Relume Library
+          - heading "Our Building Blocks" [level=2] [ref=e577]
+        - paragraph [ref=e578]: Site Builder utilizes a built-in design system and component library of 1000+ components made for Figma & Webflow.
+      - generic [ref=e579]:
+        - generic [ref=e583]:
+          - generic [ref=e584]:
+            - heading "Figma Library" [level=3] [ref=e586]
+            - paragraph [ref=e588]: Get access to the Figma version of the Relume Webflow library with over 1k components all with mobile variants included.
+            - generic [ref=e589]:
+              - generic [ref=e590]:
+                - img [ref=e592]
+                - generic [ref=e594]: 1,000+ Figma components
+                - generic [ref=e596]: Free
+              - generic [ref=e597]:
+                - img [ref=e599]
+                - generic [ref=e601]: Mobile Variants of each component
+              - generic [ref=e602]:
+                - img [ref=e604]
+                - generic [ref=e606]: Built with Figma best practices
+              - generic [ref=e607]:
+                - img [ref=e609]
+                - generic [ref=e611]: Updates every month
+          - link "View Figma Library" [ref=e613] [cursor=pointer]:
+            - /url: /figma-library
+            - generic [ref=e614]: View Figma Library
+        - generic [ref=e618]:
+          - generic [ref=e619]:
+            - heading "Webflow Library" [level=3] [ref=e621]
+            - paragraph [ref=e623]: Save hours of dev time with over 1k responsive Webflow components. Get monthly updates with new components and improvements.
+            - generic [ref=e624]:
+              - generic [ref=e625]:
+                - img [ref=e627]
+                - generic [ref=e629]: 1,000+ Webflow components
+                - generic [ref=e631]: Paid plan
+              - generic [ref=e632]:
+                - img [ref=e634]
+                - generic [ref=e636]:
+                  - text: Built with Client-First by
+                  - link "Finsweet" [ref=e637] [cursor=pointer]:
+                    - /url: https://finsweet.com/client-first/docs/intro
+              - generic [ref=e638]:
+                - img [ref=e640]
+                - generic [ref=e642]: Copy & paste direct to Webflow
+              - generic [ref=e643]:
+                - img [ref=e645]
+                - generic [ref=e647]: Updates every month
+          - link "View Webflow Library" [ref=e649] [cursor=pointer]:
+            - /url: /components
+            - generic [ref=e650]: View Webflow Library
+        - generic [ref=e654]:
+          - generic [ref=e655]:
+            - heading "React Library" [level=3] [ref=e657]
+            - paragraph [ref=e659]: Design smarter, build faster. Access 1,000+ responsive React components and get monthly updates packed with new upgrades.
+            - generic [ref=e660]:
+              - generic [ref=e661]:
+                - img [ref=e663]
+                - generic [ref=e665]: 1,000+ React components
+                - generic [ref=e667]: Paid plan
+              - generic [ref=e668]:
+                - img [ref=e670]
+                - generic [ref=e672]: Built with Tailwind CSS and Shadcn UI
+              - generic [ref=e673]:
+                - img [ref=e675]
+                - generic [ref=e677]: Copy as React or HTML
+              - generic [ref=e678]:
+                - img [ref=e680]
+                - generic [ref=e682]: Updates every month
+          - link "View React Library" [ref=e684] [cursor=pointer]:
+            - /url: /react/components
+            - generic [ref=e685]: View React Library
+    - generic [ref=e690]:
+      - generic [ref=e692]:
+        - generic [ref=e693]:
+          - list [ref=e695]:
+            - listitem [ref=e696]
+            - listitem [ref=e698]
+            - listitem [ref=e700]
+            - listitem [ref=e702]
+            - listitem [ref=e704]
+          - list [ref=e707]:
+            - listitem [ref=e708]
+            - listitem [ref=e710]
+            - listitem [ref=e712]
+            - listitem [ref=e714]
+            - listitem [ref=e716]
+        - generic [ref=e718]:
+          - list [ref=e720]:
+            - listitem [ref=e721]
+            - listitem [ref=e723]
+            - listitem [ref=e725]
+            - listitem [ref=e727]
+            - listitem [ref=e729]
+          - list [ref=e732]:
+            - listitem [ref=e733]
+            - listitem [ref=e735]
+            - listitem [ref=e737]
+            - listitem [ref=e739]
+            - listitem [ref=e741]
+        - generic [ref=e743]:
+          - list [ref=e745]:
+            - listitem [ref=e746]
+            - listitem [ref=e748]
+            - listitem [ref=e750]
+            - listitem [ref=e752]
+            - listitem [ref=e754]
+          - list [ref=e757]:
+            - listitem [ref=e758]
+            - listitem [ref=e760]
+            - listitem [ref=e762]
+            - listitem [ref=e764]
+      - link "500k+ Websites built with Relume" [ref=e766] [cursor=pointer]:
+        - /url: /showcase
+        - generic [ref=e767]:
+          - generic [ref=e768]: 500k+ Websites built with Relume
+          - img [ref=e770]
+    - generic [ref=e777]:
+      - generic [ref=e781]:
+        - paragraph [ref=e784]: 1 Million+ Designers & developers trust Relume
+        - heading "Helping Lumers streamline their workflow and deliver faster" [level=2] [ref=e785]
+        - generic [ref=e787]:
+          - link "Join our community" [ref=e788] [cursor=pointer]:
+            - /url: http://slack.relume.io/
+            - img [ref=e790]
+            - generic [ref=e799]: Join our community
+          - link "Read more reviews" [ref=e800] [cursor=pointer]:
+            - /url: /community-love
+            - generic [ref=e801]: Read more reviews
+      - generic [ref=e803]:
+        - list [ref=e805]:
+          - listitem [ref=e806]:
+            - link "Wow, this is absolutely incredible – huge props to the @relume_io team for bringing these amazing AI superpowers to more Webflow visual developers! @callmevlad Co-founder & CEO @webflow" [ref=e808] [cursor=pointer]:
+              - /url: https://twitter.com/callmevlad/status/1688578506438156289
+              - generic [ref=e809]: Wow, this is absolutely incredible – huge props to the @relume_io team for bringing these amazing AI superpowers to more Webflow visual developers!
+              - generic [ref=e812]:
+                - generic [ref=e813]: "@callmevlad"
+                - generic [ref=e815]: Co-founder & CEO @webflow
+          - listitem [ref=e817]:
+            - link "Bro what?! Are you telling I was able to produce all of this with just one prompt? As soon as that happened, I signed up for the highest tier plan RIGHT AWAY. If you're a web designer, it's honestly a no-brainer that you have to sign up for @relume_io . They shut it down with this one 🔥 @rrabrot Designer & Webflow developer" [ref=e819] [cursor=pointer]:
+              - /url: https://twitter.com/rrabrot/status/1690110237708288000
+              - generic [ref=e820]: Bro what?! Are you telling I was able to produce all of this with just one prompt? As soon as that happened, I signed up for the highest tier plan RIGHT AWAY. If you're a web designer, it's honestly a no-brainer that you have to sign up for @relume_io . They shut it down with this one 🔥
+              - generic [ref=e823]:
+                - generic [ref=e824]: "@rrabrot"
+                - generic [ref=e826]: Designer & Webflow developer
+          - listitem [ref=e828]:
+            - link "Epic and Amazing... The @relume_io products that were already amazing, gain another great addition with the site builder. This a really time saver to projects and clients. 🔥 Congrats all the team! @nicomenezes Designer & Webflow developer" [ref=e830] [cursor=pointer]:
+              - /url: https://twitter.com/nicomenezes/status/1688533384467726336
+              - generic [ref=e831]: Epic and Amazing... The @relume_io products that were already amazing, gain another great addition with the site builder. This a really time saver to projects and clients. 🔥 Congrats all the team!
+              - generic [ref=e834]:
+                - generic [ref=e835]: "@nicomenezes"
+                - generic [ref=e837]: Designer & Webflow developer
+        - list [ref=e840]:
+          - listitem [ref=e841]:
+            - link "Finally an Ai tool that I will ACTUALLY include as part of my workflow. I love how seamless it is from start to finish. @SoyBalta Designer & Webflow developer" [ref=e843] [cursor=pointer]:
+              - /url: https://twitter.com/SoyBalta/status/1688517936925782016
+              - generic [ref=e844]: Finally an Ai tool that I will ACTUALLY include as part of my workflow. I love how seamless it is from start to finish.
+              - generic [ref=e847]:
+                - generic [ref=e848]: "@SoyBalta"
+                - generic [ref=e850]: Designer & Webflow developer
+          - listitem [ref=e852]:
+            - link "Yooooooooo, this is 🔥 @relume_io has been one of my favorite teams I’ve seen evolve in the @webflow space. They’re carving out a tremendous groove that designers and developers can vibe in when being able to generate web concepts. @rileyj_s Designer & Webflow developer" [ref=e854] [cursor=pointer]:
+              - /url: https://twitter.com/rileyj_s/status/1688539185357979649
+              - generic [ref=e855]: Yooooooooo, this is 🔥 @relume_io has been one of my favorite teams I’ve seen evolve in the @webflow space. They’re carving out a tremendous groove that designers and developers can vibe in when being able to generate web concepts.
+              - generic [ref=e858]:
+                - generic [ref=e859]: "@rileyj_s"
+                - generic [ref=e861]: Designer & Webflow developer
+          - listitem [ref=e863]:
+            - link "This is insane. The amount of time and effort that goes into what the AI just generated in seconds 🤯 Relume are revitalising the fun in web design. @cjpux_ Designer" [ref=e865] [cursor=pointer]:
+              - /url: https://twitter.com/cjpux_/status/1688588346262462464
+              - generic [ref=e866]: This is insane. The amount of time and effort that goes into what the AI just generated in seconds 🤯 Relume are revitalising the fun in web design.
+              - generic [ref=e869]:
+                - generic [ref=e870]: "@cjpux_"
+                - generic [ref=e872]: Designer
+        - list [ref=e875]:
+          - listitem [ref=e876]:
+            - link "This is pure magic. ✨ → Sitemaps in seconds → Wireframes in minutes → Full copy written with AI → Layered wireframes to Figma @relume_io saving the day for web and product designers! @DannPetty Designer & Content Creator" [ref=e878] [cursor=pointer]:
+              - /url: https://twitter.com/DannPetty/status/1688590435894149121
+              - generic [ref=e879]: This is pure magic. ✨ → Sitemaps in seconds → Wireframes in minutes → Full copy written with AI → Layered wireframes to Figma @relume_io saving the day for web and product designers!
+              - generic [ref=e882]:
+                - generic [ref=e883]: "@DannPetty"
+                - generic [ref=e885]: Designer & Content Creator
+          - listitem [ref=e887]:
+            - link "This is the most exciting AI website product I've seen — great work Relume team!!! Looks especially powerful for serious web professionals looking to build a site for scale. Having tried an earlier version the \"building of site IA in real time\" was 🤩 @brryant Co-founder @webflow" [ref=e889] [cursor=pointer]:
+              - /url: https://www.producthunt.com/posts/relume-ai-site-builder
+              - generic [ref=e890]: This is the most exciting AI website product I've seen — great work Relume team!!! Looks especially powerful for serious web professionals looking to build a site for scale. Having tried an earlier version the "building of site IA in real time" was 🤩
+              - generic [ref=e893]:
+                - generic [ref=e894]: "@brryant"
+                - generic [ref=e896]: Co-founder @webflow
+          - listitem [ref=e898]:
+            - link "Been sitting here with my jaw on the floor - periodically saying “oh my god, no fucking way” after checking out @relume_io new site builder. This is nutz my friends. @Trevflow Designer & Webflow developer" [ref=e900] [cursor=pointer]:
+              - /url: https://twitter.com/Trevflow/status/1688593691647311872
+              - generic [ref=e901]: Been sitting here with my jaw on the floor - periodically saying “oh my god, no fucking way” after checking out @relume_io new site builder. This is nutz my friends.
+              - generic [ref=e904]:
+                - generic [ref=e905]: "@Trevflow"
+                - generic [ref=e907]: Designer & Webflow developer
+        - list [ref=e910]:
+          - listitem [ref=e911]:
+            - 'link "Very excited for @relume_io ''s new AI-powered generative website builder. I love the messaging and positioning: ''to empower you, not replace you''. Strategic language to get even skeptical designers, who believe AI is the end of their jobs, to jump in. @gabelopez Designer" [ref=e913] [cursor=pointer]':
+              - /url: https://twitter.com/gabelopez/status/1688560673033203712
+              - generic [ref=e914]: "Very excited for @relume_io 's new AI-powered generative website builder. I love the messaging and positioning: 'to empower you, not replace you'. Strategic language to get even skeptical designers, who believe AI is the end of their jobs, to jump in."
+              - generic [ref=e917]:
+                - generic [ref=e918]: "@gabelopez"
+                - generic [ref=e920]: Designer
+          - listitem [ref=e922]:
+            - link "The new @relume_io AI Sitemap and Wireframe tools are game changers! This can absolutely speed up our development and will change how we build and design @webflow sites going forward. Huge shoutout to @AdamMura and the entire Relume team! 🎉 @KarimArdalan Designer & Webflow developer" [ref=e924] [cursor=pointer]:
+              - /url: https://twitter.com/KarimArdalan/status/1688644812474560513
+              - generic [ref=e925]: The new @relume_io AI Sitemap and Wireframe tools are game changers! This can absolutely speed up our development and will change how we build and design @webflow sites going forward. Huge shoutout to @AdamMura and the entire Relume team! 🎉
+              - generic [ref=e928]:
+                - generic [ref=e929]: "@KarimArdalan"
+                - generic [ref=e931]: Designer & Webflow developer
+          - listitem [ref=e933]:
+            - link "@relume_io bringing the heat 🔥 Big big fan. Been using it on client projects to build sitemaps and it’s made my process so much more efficient. I love it and clients love it. @lucadefreitash Designer & Webflow developer" [ref=e935] [cursor=pointer]:
+              - /url: https://twitter.com/lucadefreitash/status/1688567286804733952
+              - generic [ref=e936]: "@relume_io bringing the heat 🔥 Big big fan. Been using it on client projects to build sitemaps and it’s made my process so much more efficient. I love it and clients love it."
+              - generic [ref=e939]:
+                - generic [ref=e940]: "@lucadefreitash"
+                - generic [ref=e942]: Designer & Webflow developer
+  - generic [ref=e945]:
+    - generic [ref=e947]:
+      - generic [ref=e948]: By clicking “Accept Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. View our Cookie Policy for more information.
+      - button [ref=e949] [cursor=pointer]
+      - generic [ref=e950]:
+        - button "Cookie Settings" [ref=e951] [cursor=pointer]
+        - button "Accept Cookies" [ref=e952] [cursor=pointer]
+    - generic [ref=e954]:
+      - generic [ref=e955]:
+        - heading "Experience the power of our AI Site Builder today" [level=1] [ref=e957]
+        - generic [ref=e958]:
+          - link "Try the Site Builder" [ref=e959] [cursor=pointer]:
+            - /url: /app/signup
+            - img [ref=e961]
+            - generic [ref=e964]: Try the Site Builder
+          - generic [ref=e966]: Build a website in under 5 minutes. Yes really.
+      - generic [ref=e968]:
+        - generic [ref=e969]:
+          - generic [ref=e970]: Product
+          - link "What's New" [ref=e971] [cursor=pointer]:
+            - /url: /whats-new
+            - generic [ref=e972]: What's New
+          - link "AI Site Builder" [ref=e973] [cursor=pointer]:
+            - /url: /?r=0
+            - generic [ref=e974]: AI Site Builder
+          - link "Webflow Library" [ref=e975] [cursor=pointer]:
+            - /url: /components
+            - generic [ref=e976]: Webflow Library
+          - link "Figma Library" [ref=e977] [cursor=pointer]:
+            - /url: /figma-library
+            - generic [ref=e978]: Figma Library
+          - link "React Library" [ref=e979] [cursor=pointer]:
+            - /url: /react/components
+            - generic [ref=e980]: React Library
+          - link "Style Guide Builder" [ref=e981] [cursor=pointer]:
+            - /url: /style-guide
+            - generic [ref=e982]: Style Guide Builder
+          - link "Chrome Extension" [ref=e983] [cursor=pointer]:
+            - /url: /chrome-extension
+            - generic [ref=e984]: Chrome Extension
+          - link "Pricing" [ref=e985] [cursor=pointer]:
+            - /url: /pricing
+            - generic [ref=e986]: Pricing
+        - generic [ref=e987]:
+          - generic [ref=e988]: Power ups
+          - link "Relume Icons" [ref=e989] [cursor=pointer]:
+            - /url: https://icons.relume.io
+            - generic [ref=e990]: Relume Icons
+          - link "Color Palettes" [ref=e991] [cursor=pointer]:
+            - /url: /color-palettes
+            - generic [ref=e992]: Color Palettes
+          - link "Attributes" [ref=e993] [cursor=pointer]:
+            - /url: https://finsweet.com/attributes
+            - generic [ref=e994]: Attributes
+          - link "Untitled UI" [ref=e995] [cursor=pointer]:
+            - /url: https://library.relume.io/folder?p=untitled-ui
+            - generic [ref=e996]: Untitled UI
+          - link "Learn" [ref=e997] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=e998]: Learn
+          - link "Webflow Style Guide" [ref=e999] [cursor=pointer]:
+            - /url: https://try.webflow.com/relume-library-styleguide
+            - generic [ref=e1000]: Webflow Style Guide
+          - link "Site Builder Import" [ref=e1001] [cursor=pointer]:
+            - /url: https://try.webflow.com/relume-app
+            - generic [ref=e1002]: Site Builder Import
+          - link "Client-First Docs" [ref=e1003] [cursor=pointer]:
+            - /url: https://www.finsweet.com/client-first/docs/intro
+            - generic [ref=e1004]: Client-First Docs
+        - generic [ref=e1005]:
+          - generic [ref=e1006]: Community
+          - link "Community Love" [ref=e1007] [cursor=pointer]:
+            - /url: /community-love
+            - generic [ref=e1008]: Community Love
+          - link "Showcase" [ref=e1009] [cursor=pointer]:
+            - /url: /showcase
+            - generic [ref=e1010]: Showcase
+          - link "Inspiration Feed" [ref=e1011] [cursor=pointer]:
+            - /url: /inspiration
+            - generic [ref=e1012]: Inspiration Feed
+          - link "Slack" [ref=e1013] [cursor=pointer]:
+            - /url: http://slack.relume.io/
+            - generic [ref=e1014]: Slack
+          - link "Request Components" [ref=e1015] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e1016]: Request Components
+          - link "Provide Feedback" [ref=e1017] [cursor=pointer]:
+            - /url: mailto:hello@relume.io?subject=Feedback%20for%20Relume%20team
+            - generic [ref=e1018]: Provide Feedback
+          - link "Hire an Expert" [ref=e1019] [cursor=pointer]:
+            - /url: https://contra.com/relume
+            - generic [ref=e1020]: Hire an Expert
+          - link "Become an Affiliate" [ref=e1021] [cursor=pointer]:
+            - /url: mailto:affiliates@relume.io?subject=Affiliate%20Request
+            - generic [ref=e1022]: Become an Affiliate
+        - generic [ref=e1023]:
+          - generic [ref=e1024]: Company
+          - link "Careers Hiring!" [ref=e1025] [cursor=pointer]:
+            - /url: mailto:careers@relume.io
+            - generic [ref=e1026]: Careers
+            - generic [ref=e1028]: Hiring!
+          - link "Contact Sales" [ref=e1029] [cursor=pointer]:
+            - /url: /contact-sales
+            - generic [ref=e1030]: Contact Sales
+          - link "Support" [ref=e1031] [cursor=pointer]:
+            - /url: /support
+            - generic [ref=e1032]: Support
+          - link "FAQ" [ref=e1033] [cursor=pointer]:
+            - /url: /resources/faqs
+            - generic [ref=e1034]: FAQ
+          - link "Privacy Policy" [ref=e1035] [cursor=pointer]:
+            - /url: /legal/privacy-policy
+            - generic [ref=e1036]: Privacy Policy
+          - link "Terms & Conditions" [ref=e1037] [cursor=pointer]:
+            - /url: /legal/terms
+            - generic [ref=e1038]: Terms & Conditions
+          - link "Licensing Agreement" [ref=e1039] [cursor=pointer]:
+            - /url: /legal/licensing-agreement
+            - generic [ref=e1040]: Licensing Agreement
+          - link "Cookie Settings" [ref=e1041] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e1042]: Cookie Settings
+      - generic [ref=e1043]:
+        - generic [ref=e1044]:
+          - link [ref=e1045] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e1046]: © 2026 Relume. All rights reserved.
+        - generic [ref=e1115]:
+          - link "Join our community" [ref=e1116] [cursor=pointer]:
+            - /url: http://slack.relume.io/
+          - link [ref=e1118] [cursor=pointer]:
+            - /url: http://slack.relume.io/
+            - img [ref=e1120]
+          - link [ref=e1123] [cursor=pointer]:
+            - /url: https://twitter.com/relume_io
+            - img [ref=e1125]
+          - link [ref=e1128] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UC36lpnNYIg_c81NOLGhoxLA?sub_confirmation=1
+            - img [ref=e1130]
+          - link [ref=e1133] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@relume.io
+            - img [ref=e1135]
+          - link [ref=e1138] [cursor=pointer]:
+            - /url: https://www.instagram.com/relume.io/
+            - img [ref=e1140]
+          - link [ref=e1143] [cursor=pointer]:
+            - /url: https://au.linkedin.com/company/relume
+            - img [ref=e1145]
+          - link [ref=e1148] [cursor=pointer]:
+            - /url: https://webflow.com/relume
+            - img [ref=e1150]
+          - link [ref=e1153] [cursor=pointer]:
+            - /url: https://www.figma.com/@relume
+            - img [ref=e1155]

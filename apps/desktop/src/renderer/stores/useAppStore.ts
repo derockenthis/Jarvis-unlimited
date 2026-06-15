@@ -1,6 +1,6 @@
 import { create } from 'zustand';
-import { listConversations } from '../api/backend';
-import type { ChatActivity, ChatEvent, ChatMessage, McpTool, PreviewItem, WorkspaceView, Conversationlist } from '../types';
+import { getConversationMessages, listConversations } from '../api/backend';
+import type { ChatActivity, ChatEvent, ChatMessage, ConversationMessage, Conversationlist, McpTool, PreviewItem, WorkspaceView } from '../types';
 
 type AppState = {
   sidebarCollapsed: boolean;
@@ -32,14 +32,17 @@ type AppState = {
   setSkillsRootPath: (skillsRootPath: string | null) => void;
   setSessionId: (sessionId: string) => void;
   setActiveConversationId: (conversationId: string | null) => void;
+  setMessages: (messages: ChatMessage[]) => void;
   setProvider: (provider: string) => void;
   setModel: (model: string) => void;
   setApiKey: (apiKey: string) => void;
   setBaseUrl: (baseUrl: string) => void;
   setSpeechModel: (speechModel: string) => void;
   setProviderSettings: (settings: { provider: string; model: string; apiKey: string; baseUrl: string; speechModel: string }) => void;
+  loadConversationMessages: (conversationId: string) => Promise<void>;
   addNewConversation: () => void;
   populateConversations: () => Promise<void>;
+  addUserMessage: (content: string) => void;
   addChatEvent: (event: ChatEvent) => void;
   setStreaming: (isStreaming: boolean) => void;
   setScreenSharing: (isScreenSharing: boolean) => void;
@@ -92,6 +95,15 @@ function appendToAssistantById(
     return messages;
   }
   return messages.map((message) => (message.id === assistantId ? update(message) : message));
+}
+
+function mapConversationMessages(messages: ConversationMessage[]): ChatMessage[] {
+  return messages.map((message) => ({
+    id: `conversation-message-${message.id}`,
+    role: message.role as ChatMessage['role'],
+    content: message.content,
+    createdAt: message.created_at,
+  }));
 }
 
 export const useAppStore = create<AppState>((set, get) => ({
@@ -151,12 +163,21 @@ export const useAppStore = create<AppState>((set, get) => ({
   },
   setSessionId: (sessionId) => set({ sessionId }),
   setActiveConversationId: (activeConversationId) => set({ activeConversationId }),
+  setMessages: (messages) => set({ messages }),
   setProvider: (provider) => set({ provider }),
   setModel: (model) => set({ model }),
   setApiKey: (apiKey) => set({ apiKey }),
   setBaseUrl: (baseUrl) => set({ baseUrl }),
   setSpeechModel: (speechModel) => set({ speechModel }),
   setProviderSettings: ({ provider, model, apiKey, baseUrl, speechModel }) => set({ provider, model, apiKey, baseUrl, speechModel }),
+
+  loadConversationMessages: async (conversationId) => {
+    const messages = await getConversationMessages(get().backendUrl, conversationId);
+    set({
+      messages: mapConversationMessages(messages),
+      activeAssistantId: null,
+    });
+  },
 
   addNewConversation: () => set((state) => {
     const sessionId = generateSessionId();
@@ -183,6 +204,32 @@ export const useAppStore = create<AppState>((set, get) => ({
       })),
     });
   },
+
+  addUserMessage: (content) => set((state) => {
+    const assistantId = crypto.randomUUID();
+
+    return {
+      activeAssistantId: assistantId,
+      messages: [
+        ...state.messages,
+        {
+          id: crypto.randomUUID(),
+          role: 'user',
+          content,
+          createdAt: now(),
+        },
+        {
+          id: assistantId,
+          role: 'assistant',
+          content: '',
+          createdAt: now(),
+          activities: [],
+          thoughts: [],
+          isStreaming: true,
+        },
+      ],
+    };
+  }),
 
   addChatEvent: (event) => set((state) => {
     if (event.type === 'done') {

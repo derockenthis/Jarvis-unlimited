@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The backend is the local FastAPI boundary for Jarvis Agent Desktop. It exposes HTTP APIs to the Electron renderer, builds the Google ADK agent runtime, gates filesystem and browser-facing tools, manages MCP tool availability, and stores ADK session plus NBAM memory data locally.
+The backend is the local FastAPI boundary for Jarvis Agent Desktop. It exposes HTTP APIs to the Electron renderer, builds the Google ADK agent runtime, gates filesystem and browser-facing tools, manages MCP tool availability, and stores ADK session, conversation history, and NBAM memory data locally.
 
 The backend is intentionally split into thin route modules, service modules, runtime orchestration, tool wrappers, and safety policies. Route handlers should validate and hand off; most behavior belongs in services or runtime classes.
 
@@ -15,13 +15,14 @@ The backend is intentionally split into thin route modules, service modules, run
 | `app/dependencies.py` | Provides cached service, runtime, policy, and settings dependencies. |
 | `app/schemas.py` | Defines the HTTP and stream contracts shared by routes, services, and the renderer. |
 | `app/routes/` | FastAPI route modules for health, chat, speech, MCP, and workspace APIs. |
-| `app/services/` | Endpoint-facing business services: chat, MCP, memory, speech, desktop vision, terminal sessions, and workspace roots. |
+| `app/services/` | Endpoint-facing business services: chat, MCP, memory, speech, desktop vision, terminal sessions, workspace roots, and conversation persistence. |
 | `app/runtime/adk_runner.py` | Compatibility import surface for the canonical live chat runner. |
 | `app/agent/agent.py` | Canonical ADK agent factory plus default ADK loader hook for local smoke tests and eval wiring. |
 | `app/agent/prompt.py` | Owns the root instruction text and skills-folder context assembly. |
 | `app/agent/provider_config.py` | Encapsulates request-scoped provider validation, model resolution, and provider environment setup. |
 | `app/agent/event_translation.py` | Translates ADK events into the frontend stream contract and cleans assistant text. |
 | `app/agent/runner.py` | Canonical live chat runtime adapter that builds per-request runners and streams translated events. |
+| `app/agent/sub_agent_launcher.py` | CLI entrypoint for spawning isolated ADK sub-agents from the main orchestrator. |
 | `app/agent/tools/` | ADK-facing tool composition layer grouped by workspace, terminal, memory, and vision domains. |
 | `app/tools/` | Policy-bound file, search, edit, terminal, vision, memory, and ADK wrapper tools. |
 | `app/security/` | Path and command policies used before local resources are touched. |
@@ -42,6 +43,9 @@ The backend is intentionally split into thin route modules, service modules, run
 | --- | --- | --- |
 | `GET /health` | `routes/health.py` | Returns app health, OpenRouter configuration status, and ripgrep availability. |
 | `POST /api/chat` | `routes/chat.py` | Streams `ChatEvent` objects as server-sent events. |
+| `GET /api/conversations` | `routes/chat.py` | Returns recent persisted conversations for the current user. |
+| `GET /api/conversations/{conversation_id}` | `routes/chat.py` | Returns one persisted conversation or `404`. |
+| `GET /api/conversations/{conversation_id}/messages` | `routes/chat.py` | Returns persisted message rows for a conversation. |
 | `GET /api/models/ollama` | `routes/chat.py` | Probes an Ollama server's `/api/tags` endpoint and returns model names. |
 | `POST /api/speech/transcribe` | `routes/transcription.py` | Accepts recorded audio and returns transcribed text. |
 | `GET /api/mcp/tools` | `routes/mcp.py` | Lists configured MCP tools and their current status. |
@@ -59,7 +63,7 @@ Routes should stay thin. If a route grows state, subprocess handling, storage be
 2. `PathPolicy`, built from `Settings.allowed_root_paths` and `Settings.full_filesystem_access`.
 3. `McpService`, `SessionTerminalService`, `DesktopVisionService`, and `MemoryService`.
 4. `ChatRuntime`, which receives all long-lived services plus settings and path policy.
-5. `ChatService`, a thin wrapper over `ChatRuntime`.
+5. `ChatService`, a thin wrapper over `ChatRuntime` plus SQLite-backed conversation access.
 6. `SpeechToTextService`, which uses local mlx-whisper or OpenRouter for transcription.
 
 This keeps route handlers simple and lets tests override dependencies without importing ADK eagerly.
@@ -79,10 +83,26 @@ It does the following for each chat request:
 7. Ensures an ADK session exists, then calls `Runner.run_async(...)`.
 8. Translates ADK function calls, function responses, thought parts, and text parts into renderer events through `app/agent/event_translation.py`.
 9. Appends user and assistant observations to NBAM through `MemoryService`.
-10. After a completed turn, checks how many new ADK session event rows were added in SQLite since the last successful promotion for that session.
-11. When the configured memory promotion interval is reached, runs a deterministic promotion pass over unconsolidated observations for that session.
+10. Persists the incoming user prompt into `conversation_messages` before the ADK run starts when a `conversation_store` is attached.
+11. Persists the final assistant response into `conversation_messages` after a successful run completes.
+12. After a completed turn, checks how many new ADK session event rows were added in SQLite since the last successful promotion for that session.
+13. When the configured memory promotion interval is reached, runs a deterministic promotion pass over unconsolidated observations for that session.
 
 The runtime also detects stale ADK session failures caused by missing tool results or removed tools. On those known recoverable errors it deletes and recreates the ADK session once, then retries the current request.
+
+## Sub-Agent Launcher
+
+`app/agent/tools/cli.py` exposes a `spawn_sub_agent` tool that shells out to `python -m app.agent.sub_agent_launcher` with a JSON spec file.
+
+The launcher in `app/agent/sub_agent_launcher.py` builds a nested ADK agent from the provided spec:
+
+1. It uses the request-scoped filesystem policy from the parent runtime.
+2. It resolves only the tool groups requested in the spec.
+3. It defaults sub-agents to `google/gemma-4-26b-a4b-it` through OpenRouter.
+4. It runs each sub-agent in its own temporary SQLite session database.
+5. It uses a separate Playwright preset for sub-agents so browser sessions do not reuse the main agent's shared Chromium context.
+
+This keeps the orchestrator lightweight while still letting it delegate narrow tasks to isolated local subprocesses.
 
 ## Stream Contract
 
@@ -98,6 +118,23 @@ The backend streams JSON objects shaped by `ChatEvent`:
 | `done` | End of backend stream | Clears transient frontend activity and closes the assistant turn. |
 
 `app/agent/event_translation.py` strips provider channel markers from final assistant text before the renderer sees it.
+
+## Conversation Persistence
+
+Conversation persistence is currently owned by `ChatService`.
+
+It initializes two SQLite tables under `Settings.sqlite_path`:
+
+1. `conversations`: `id`, `user_id`, `title`, `created_at`, `updated_at`.
+2. `conversation_messages`: `id`, `conversation_id`, `role`, `content`, `created_at`.
+
+The current flow is:
+
+1. The renderer sends `session_id` on every `/api/chat` request.
+2. `AgentStreamRunner.stream_chat(...)` derives a conversation title from the first user message line and calls `ChatService.save_conversation(...)`.
+3. The same request saves the raw user prompt as a `conversation_messages` row before the ADK run.
+4. When the ADK stream finishes successfully, the backend saves the final assistant text as another `conversation_messages` row.
+5. The renderer later loads recent titles through `/api/conversations` and hydrates old chats through `/api/conversations/{conversation_id}/messages`.
 
 ## Model Providers
 
@@ -140,9 +177,13 @@ All custom ADK tools are built from testable functions that receive a `PathPolic
 
 `CommandPolicy` only allows a small command set and read-only git subcommands. It rejects shell control characters, executable paths, redirection, pipes, substitutions, and unapproved executables.
 
+`CLIAgentTool` is the only wrapper that may spawn sub-agents. It validates the tool allowlist, writes a temporary JSON spec, and launches the launcher with the current backend's Python interpreter so the sub-agent inherits the same virtual environment and import paths.
+
 ## MCP
 
-The first built-in MCP preset is Playwright. It is defined in `app/mcp/presets.py` and starts as enabled, auto-started, and running. `McpService` keeps the in-memory registry, remembers manually stopped tools so auto-start does not immediately re-enable them, caches ADK toolsets by command fingerprint, and closes stale toolsets when configs stop running.
+The first built-in MCP preset is Playwright. It is defined in `app/mcp/presets.py` and starts as enabled, auto-started, and running. The main agent uses the shared-browser preset, while sub-agents request the isolated preset so they do not steal each other's Chromium context.
+
+`McpService` keeps the in-memory registry, remembers manually stopped tools so auto-start does not immediately re-enable them, caches ADK toolsets by command fingerprint, and closes stale toolsets when configs stop running.
 
 Running configs are bridged into ADK with `build_mcp_toolset(...)`, which uses `StdioConnectionParams` and a 60-second timeout to tolerate slow first browser launches.
 
@@ -153,11 +194,14 @@ MCP state is not yet durable. Restarting the backend rebuilds the preset state f
 NBAM storage is separate from ADK sessions.
 
 1. ADK sessions live in SQLite through `SqliteSessionService` and track chat/runtime state.
-2. NBAM observations live in the `observations` SQLite table managed by `ObservationLog`.
-3. Durable memory nodes are markdown files under `Settings.memory_root / nodes` managed by `NodeStore`.
-4. `MemoryService` initializes storage, appends observations, tracks the last promoted event-count cursor per session, promotes validated `create_node` patches from unconsolidated observations, reports status, and reads nodes.
+2. Conversation metadata and message history live in the `conversations` and `conversation_messages` SQLite tables managed by `ChatService`.
+3. NBAM observations live in the `observations` SQLite table managed by `ObservationLog`.
+4. Durable memory nodes are markdown files under `Settings.memory_root / nodes` managed by `NodeStore`.
+5. `MemoryService` initializes storage, appends observations, tracks the last promoted event-count cursor per session, promotes validated `create_node` patches from unconsolidated observations, reports status, and reads nodes.
 
-The memory package includes schema, manifest, scout, dreamer, and validator modules. Live chat now uses an ADK-backed dreamer proposer with a deterministic fallback stub plus validation to promote observations into durable node files. The promotion trigger is based on new rows in the ADK `events` table since the last promotion, not on coarse compaction-cycle buckets. When a promoted node has no parent, the backend automatically creates a stable tree-root node such as `general-root` or `project-scope-root` before writing the child node. The richer scout and multi-op patch pipeline remain future work.
+The memory package includes schema, manifest, scout, dreamer, and validator modules. Live chat now uses an ADK-backed dreamer proposer with a deterministic fallback stub plus validation to promote observations into durable node files. The promotion trigger is based on new rows in the ADK `events` table since the last promotion, not on coarse compaction-cycle buckets. When a promoted node has no parent, the backend automatically creates a stable tree-root node such as `general-root` or `project-scope-root` before writing the child node.
+
+After compaction thresholds are reached, `AgentStreamRunner` prunes old SQLite rows from the `events` table for the active `app_name`, `user_id`, and `session_id`, while retaining the most recent overlap window. It also updates the memory promotion cursor so the next promotion pass stays aligned with the retained event history. The richer scout and multi-op patch pipeline remain future work.
 
 ## Validation
 

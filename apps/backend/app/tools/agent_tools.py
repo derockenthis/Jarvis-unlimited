@@ -8,6 +8,7 @@ close over a single ``PathPolicy`` instance and return plain dictionaries.
 from collections.abc import Callable
 from typing import Any
 
+from app.agent.tools.cli import build_cli_agent_tools
 from app.security.path_policy import PathPolicy
 from app.tools.edit_tools import create_file, insert_at_line, replace_file_section
 from app.tools.file_explorer import folder_tree, list_directory
@@ -124,4 +125,5 @@ def build_agent_tools(policy: PathPolicy) -> list[Callable[..., dict[str, Any]]]
         create_file_tool,
         replace_file_section_tool,
         insert_at_line_tool,
+        *build_cli_agent_tools(policy),
     ]

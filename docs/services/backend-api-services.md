@@ -11,7 +11,7 @@ Primary files:
 | `apps/backend/app/main.py` | FastAPI app, CORS, and router registration. |
 | `apps/backend/app/dependencies.py` | Cached dependency providers. |
 | `apps/backend/app/routes/health.py` | Health endpoint. |
-| `apps/backend/app/routes/chat.py` | Chat stream endpoint and Ollama model discovery endpoint. |
+| `apps/backend/app/routes/chat.py` | Chat stream, conversation history, and Ollama model discovery endpoints. |
 | `apps/backend/app/routes/transcription.py` | Speech transcription endpoint. |
 | `apps/backend/app/routes/mcp.py` | MCP tool list/start/stop endpoints. |
 | `apps/backend/app/routes/workspaces.py` | Workspace root endpoint. |
@@ -64,12 +64,22 @@ The frontend and setup scripts use this endpoint to confirm the backend is reach
 
 ## Chat Service
 
-`ChatService` is intentionally small:
+`ChatService` is intentionally small, but it now owns conversation persistence:
 
-1. It receives `ChatRuntime` in its constructor.
-2. Its `stream_chat(...)` method delegates to `runtime.stream_chat(...)`.
+1. It receives `ChatRuntime` plus `Settings` in its constructor.
+2. It initializes SQLite tables for `conversations` and `conversation_messages`.
+3. Its `stream_chat(...)` method delegates to `runtime.stream_chat(...)`.
+4. It provides `save_conversation(...)`, `save_conversation_message(...)`, `list_conversations(...)`, `get_conversation(...)`, and `get_conversation_messages(...)`.
 
-This gives routes a service abstraction while keeping all runtime complexity in one class.
+This gives routes a service abstraction while keeping ADK runtime complexity in one class.
+
+Conversation routes currently exposed from `routes/chat.py`:
+
+1. `GET /api/conversations`
+2. `GET /api/conversations/{conversation_id}`
+3. `GET /api/conversations/{conversation_id}/messages`
+
+These routes back the renderer sidebar and chat-history hydration flow.
 
 ## Ollama Model Discovery
 
@@ -130,6 +140,7 @@ Most services return structured dictionaries or Pydantic response models rather 
 
 ## Revision Notes
 
-1. Consider moving model discovery out of `routes/chat.py` if more providers are added.
-2. API keys sent from the renderer should eventually be handled by secure storage or a backend settings service rather than plain localStorage and request payloads.
-3. Health currently reports OpenRouter configuration only; provider-aware health could report OpenAI and Ollama readiness too.
+1. Conversation message history currently stores only `role`, `content`, and timestamps; if historical tool activity or thoughts need to be reconstructed, the schema will need to expand.
+2. Consider moving model discovery out of `routes/chat.py` if more providers are added.
+3. API keys sent from the renderer should eventually be handled by secure storage or a backend settings service rather than plain local request payloads.
+4. Health currently reports OpenRouter configuration only; provider-aware health could report OpenAI and Ollama readiness too.

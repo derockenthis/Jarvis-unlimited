@@ -4,7 +4,7 @@
 
 Jarvis Agent Desktop is a local-first desktop AI operating environment. It combines a Claude Code-style chat interface, a managed MCP tool sidebar, and a live AI work window for previews, browser sessions, generated UI, and future agent components.
 
-The app uses Electron for the desktop shell, React and TypeScript for the renderer, FastAPI for the local backend API, and Google ADK for the agent runtime. OpenRouter provides LLM access through ADK's LiteLLM integration. SQLite is used for local session, app, and memory persistence during the prototype phase.
+The app uses Electron for the desktop shell, React and TypeScript for the renderer, FastAPI for the local backend API, and Google ADK for the agent runtime. OpenRouter provides LLM access through ADK's LiteLLM integration. SQLite is used for local session, conversation, app, and memory persistence during the prototype phase.
 
 This is not intended to be a narrow coding bot. The long-term direction is a Jarvis-like local assistant that can inspect repositories, use MCP tools, modify code safely, preview work live, and maintain durable project knowledge through a curated memory system.
 
@@ -21,7 +21,7 @@ This is not intended to be a narrow coding bot. The long-term direction is a Jar
 
 The main window has three primary regions:
 
-1. Collapsible sidebar for MCP tools, workspace roots, model settings, memory status, and a selectable skills folder.
+1. Collapsible sidebar for recent chats, MCP tools, model settings, memory status, and a selectable skills folder.
 2. Central chat section with streaming assistant bubbles, temporary activity rows for thoughts/reasoning/tool calls, and a Claude Code-inspired conversational workflow.
 3. Live AI window for previews, browser surfaces, generated UI, or future agent workspaces.
 
@@ -32,6 +32,8 @@ Chat streaming should keep transient agent activity inside the active assistant 
 Screen sharing is explicit. The chat surface exposes a `share screen with agent` control and a visible sharing status indicator. When enabled, the desktop shell shows a color-changing ring around the actual desktop display so the user can tell the agent is allowed to view the screen. The backend only registers screenshot and image-analysis tools for chat requests that include screen-sharing consent. The agent should capture temporary screenshots only when visual context is necessary or likely changed.
 
 The sidebar also lets the user choose a skills folder. When selected, that folder is passed to the agent on each chat request so it can search that folder first for reusable skills, prompts, and workflows. If a `skills.md` file exists in the selected folder, the agent should treat it as the canonical skills index and prefer editing that file when adding or updating a skill.
+
+Recent chats should be durable rather than session-local. The sidebar should render titles from the backend `conversations` table, and selecting a recent chat should hydrate the chat pane from persisted `conversation_messages` rows.
 
 The chat composer also exposes speech-to-text input outside the text entry area. In the current prototype this records raw microphone audio in the renderer, uploads it to the local backend, and transcribes it locally with mlx-whisper before inserting the dictated text into the message draft. The renderer still needs microphone permission in the trusted desktop shell.
 
@@ -73,12 +75,13 @@ Initial model roles:
 
 ## Storage
 
-SQLite is the default local persistence layer. It stores app settings, chat metadata where needed, MCP configuration, workspace roots, NBAM observations, consolidation state, and indexes. ADK agent sessions use `SqliteSessionService` from `google.adk.sessions.sqlite_session_service`.
+SQLite is the default local persistence layer. It stores app settings, conversation metadata and messages, chat metadata where needed, MCP configuration, workspace roots, NBAM observations, consolidation state, and indexes. ADK agent sessions use `SqliteSessionService` from `google.adk.sessions.sqlite_session_service`.
 
 ADK sessions and NBAM durable memory are separate systems:
 
 1. ADK sessions track conversation/runtime state.
-2. NBAM tracks durable, curated, auditable knowledge.
+2. `conversations` and `conversation_messages` track user-visible chat history.
+3. NBAM tracks durable, curated, auditable knowledge.
 
 ## MCP Tooling
 

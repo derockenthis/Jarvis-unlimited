@@ -33,6 +33,9 @@
 - Removed the visible completion bubble from the chat UI while keeping backend `done` events as an internal stream terminator.
 - Fixed chat turn ownership so each prompt creates its own assistant bubble and transient activity rows clear after completion.
 - Added one-shot ADK session recovery for stale tool-call history so older failed MCP runs do not keep breaking later chat turns.
+- Added SQLite-backed `conversations` and `conversation_messages` tables plus backend routes for listing recent conversations and loading stored message history.
+- Updated the renderer sidebar to load recent chat titles from the backend and hydrate the chat pane when an older conversation is selected.
+- Simplified the renderer chat flow so submitted prompts immediately append a local user turn and assistant placeholder before streamed backend events update the active assistant bubble.
 - Validated `http://127.0.0.1:5173/` in the browser with a real chat submission that rendered live tool calls inside the assistant bubble and completed with a grounded assistant response.
 - Validated the live UI by enabling screen sharing, confirming the ring indicator, and searching Google for `flying pigs` through Playwright MCP browser tools.
 
@@ -44,6 +47,7 @@
 - Expand NBAM beyond basic observation logging and node inspection into real scout/dreamer consolidation.
 - Persist screen-sharing preference and add richer UI around captured screenshots.
 - Local mlx-whisper transcription is now the default; OpenRouter ASR is no longer required.
+- Historical conversation reload currently restores message text only; persisted tool activity and thoughts are not yet rehydrated into the renderer.
 
 ## Next
 

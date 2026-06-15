@@ -33,6 +33,13 @@ def _browser_tool_names(tools: Sequence[object] | None) -> list[str]:
     return sorted(name for name in names if name.startswith("browser_"))
 
 
+def _cli_tool_names(tools: Sequence[object] | None) -> list[str]:
+    if not tools:
+        return []
+    names = {_tool_name(tool) for tool in tools}
+    return sorted(name for name in names if name == "spawn_sub_agent")
+
+
 def build_browser_tool_guidance(tools: Sequence[object] | None) -> str | None:
     browser_tool_names = _browser_tool_names(tools)
     if not browser_tool_names:
@@ -72,11 +79,30 @@ def build_browser_tool_guidance(tools: Sequence[object] | None) -> str | None:
     return "\n".join(guidance)
 
 
+def build_cli_tool_guidance(tools: Sequence[object] | None) -> str | None:
+    cli_tool_names = _cli_tool_names(tools)
+    if not cli_tool_names:
+        return None
+
+    return "\n".join(
+        [
+            "CLI sub-agent tool guidance:",
+            "- Use spawn_sub_agent when a task is better handled by a dedicated local agent.",
+            "- Supply name, description, instructions, and tools only.",
+            "- Put the actual task details in instructions.",
+            "- Choose filesystem or terminal tools only when the sub-agent needs them.",
+        ]
+    )
+
+
 def build_instruction(skills_root: str | None, tools: Sequence[object] | None = None) -> str:
     parts = [BASE_INSTRUCTION]
     browser_guidance = build_browser_tool_guidance(tools)
     if browser_guidance:
         parts.append(browser_guidance)
+    cli_guidance = build_cli_tool_guidance(tools)
+    if cli_guidance:
+        parts.append(cli_guidance)
     if skills_root:
         selected_root = Path(skills_root).expanduser().resolve()
         skills_md = selected_root / "skills.md"

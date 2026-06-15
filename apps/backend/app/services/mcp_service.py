@@ -6,8 +6,8 @@ from app.schemas import McpActionRequest, McpActionResponse, McpToolConfig
 class McpService:
     """In-memory MCP registry for ADK-managed MCP toolsets."""
 
-    def __init__(self) -> None:
-        self._tools: dict[str, McpToolConfig] = {PLAYWRIGHT_MCP_PRESET.id: PLAYWRIGHT_MCP_PRESET}
+    def __init__(self, *, playwright_preset: McpToolConfig = PLAYWRIGHT_MCP_PRESET) -> None:
+        self._tools: dict[str, McpToolConfig] = {playwright_preset.id: playwright_preset}
         self._manually_stopped_tool_ids: set[str] = set()
         self._toolsets: dict[str, object] = {}
         self._toolset_fingerprints: dict[str, tuple[str, tuple[str, ...]]] = {}

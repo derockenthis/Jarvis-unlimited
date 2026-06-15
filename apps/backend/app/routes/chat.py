@@ -2,11 +2,11 @@ from collections.abc import AsyncIterator
 import json
 import httpx
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
 from fastapi.responses import StreamingResponse, JSONResponse
 
 from app.dependencies import get_chat_service
-from app.schemas import ChatRequest, Conversation
+from app.schemas import ChatRequest, Conversation, ConversationMessage
 from app.services.chat_service import ChatService
 
 router = APIRouter(prefix="/api", tags=["chat"])
@@ -42,3 +42,22 @@ async def list_conversations(
     service: ChatService = Depends(get_chat_service),
 ) -> list[Conversation]:
     return await service.list_conversations(user_id=user_id, limit=limit)
+
+
+@router.get("/conversations/{conversation_id}", response_model=Conversation)
+async def get_conversation(
+    conversation_id: str,
+    service: ChatService = Depends(get_chat_service),
+) -> Conversation:
+    conversation = await service.get_conversation(conversation_id)
+    if conversation is None:
+        raise HTTPException(status_code=404, detail="Conversation not found")
+    return conversation
+
+
+@router.get("/conversations/{conversation_id}/messages", response_model=list[ConversationMessage])
+async def get_conversation_messages(
+    conversation_id: str,
+    service: ChatService = Depends(get_chat_service),
+) -> list[ConversationMessage]:
+    return await service.get_conversation_messages(conversation_id)

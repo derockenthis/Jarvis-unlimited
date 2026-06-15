@@ -1,0 +1,613 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjN5pD214mVAxXkM0QIHbABOpYQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: how does claude code spawn sub-agents MCP or CLI how does claude code spawn sub-agents MCP or CLI
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dhow%2Bdoes%2Bclaude%2Bcode%2Bspawn%2Bsub-agents%2BMCP%2Bor%2BCLI&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8AaRchTLk94dg4O3CFQ_SX_bX4ARZQ7l4gQ2anDLCSXMpGHaE6VRA8U1F0nJYXJ4evrt_ujq3dwxFP_rqZmRPVi5Vi9h9O9esIOwPt_DFXLSDtxHz5Fh1D1efje9X0JcovBy4Tb7Fp06Akzt9jISY_ycEfBHhzid0w6dYpmh-F8mWIEmcw&aep=1&ntc=1&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ2J8OegQIERAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Forums" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8AaRchTLk94dg4O3CFQ_SX_bX4ARZQ7l4gQ2anDLCSXMpGHaE6VRA8U1F0nJYXJ4evrt_ujq3dwxFP_rqZmRPVi5Vi9h9O9esIOwPt_DFXLSDtxHz5Fh1D1efje9X0JcovBy4Tb7Fp06Akzt9jISY_ycEfBHhzid0w6dYpmh-F8mWIEmcw&q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQs6gLegQIGBAB
+              - generic [ref=e84]: Forums
+          - listitem [ref=e85]:
+            - link "Videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8AaRchTLk94dg4O3CFQ_SX_bX4ARZQ7l4gQ2anDLCSXMpGHaE6VRA8U1F0nJYXJ4evrt_ujq3dwxFP_rqZmRPVi5Vi9h9O9esIOwPt_DFXLSDtxHz5Fh1D1efje9X0JcovBy4Tb7Fp06Akzt9jISY_ycEfBHhzid0w6dYpmh-F8mWIEmcw&q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQtKgLegQIGRAB
+              - generic [ref=e88]: Videos
+          - listitem [ref=e89]:
+            - link "Shopping" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8AaRchTLk94dg4O3CFQ_SX_bX4ARZQ7l4gQ2anDLCSXMpGHaE6VRA8U1F0nJYXJ4evrt_ujq3dwxFP_rqZmRPVi5Vi9h9O9esIOwPt_DFXLSDtxHz5Fh1D1efje9X0JcovBy4Tb7Fp06Akzt9jISY_ycEfBHhzid0w6dYpmh-F8mWIEmcw&q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&ved=1t:220175&ictx=111
+              - generic [ref=e92]: Shopping
+          - listitem [ref=e93]:
+            - link "Short videos" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8AaRchTLk94dg4O3CFQ_SX_bX4ARZQ7l4gQ2anDLCSXMpGHaE6VRA8U1F0nJYXJ4evrt_ujq3dwxFP_rqZmRPVi5Vi9h9O9esIOwPt_DFXLSDtxHz5Fh1D1efje9X0JcovBy4Tb7Fp06Akzt9jISY_ycEfBHhzid0w6dYpmh-F8mWIEmcw&q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQs6gLegQIFxAB
+              - generic [ref=e96]: Short videos
+          - listitem [ref=e97]:
+            - link "Images" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8AaRchTLk94dg4O3CFQ_SX_bX4ARZQ7l4gQ2anDLCSXMpGHaE6VRA8U1F0nJYXJ4evrt_ujq3dwxFP_rqZmRPVi5Vi9h9O9esIOwPt_DFXLSDtxHz5Fh1D1efje9X0JcovBy4Tb7Fp06Akzt9jISY_ycEfBHhzid0w6dYpmh-F8mWIEmcw&q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQtKgLegQIFRAB
+              - generic [ref=e100]: Images
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e118]:
+      - generic [ref=e135]:
+        - heading "Searching Thinking a little longer" [level=2] [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e142]: Searching
+            - generic [ref=e152]: Thinking a little longer
+        - progressbar "Generating" [ref=e154]
+      - main [ref=e196]:
+        - generic [ref=e200]:
+          - generic [ref=e203]:
+            - heading "Web results" [level=2] [ref=e204]
+            - generic [ref=e205]:
+              - generic [ref=e208]:
+                - link "Create custom subagents - Claude Code Docs Download Claude Code https://code.claude.com › docs › sub-agents" [ref=e210] [cursor=pointer]:
+                  - /url: https://code.claude.com/docs/en/sub-agents
+                  - heading "Create custom subagents - Claude Code Docs" [level=3] [ref=e211]
+                  - generic [ref=e217]:
+                    - generic [ref=e219]: Download Claude Code
+                    - generic [ref=e221]: https://code.claude.com › docs › sub-agents
+                - button "About this result" [ref=e222] [cursor=pointer]:
+                  - img [ref=e225]
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - text: When an agent runs as the main thread with
+                  - emphasis [ref=e230]: clau
+                  - text: de --agent , it can spawn subagents using the Agent tool. To restrict which subagent types it can spawn, use ...
+                - link "Read more" [ref=e231] [cursor=pointer]:
+                  - /url: https://code.claude.com/docs/en/sub-agents#:~:text=When%20an%20agent%20runs%20as,syntax%20in%20the%20tools%20field.
+          - generic [ref=e236]:
+            - heading "Discussions and forums" [level=2] [ref=e238]
+            - generic [ref=e239]:
+              - generic [ref=e242]:
+                - generic [ref=e244] [cursor=pointer]:
+                  - generic [ref=e247]:
+                    - link "Why use MCP in subagents when they can use CLI with 0 tool context bloat? Reddit · r/ClaudeAI · 10+ comments · 6 months ago" [ref=e248]:
+                      - /url: https://www.reddit.com/r/ClaudeAI/comments/1pm0bu4/why_use_mcp_in_subagents_when_they_can_use_cli/
+                      - generic [ref=e249]:
+                        - heading "Why use MCP in subagents when they can use CLI with 0 tool context bloat?" [level=3] [ref=e250]:
+                          - link "Why use MCP in subagents when they can use CLI with 0 tool context bloat?" [ref=e251]
+                        - generic [ref=e258]:
+                          - generic [ref=e259]: Reddit ·
+                          - generic [ref=e261]:
+                            - generic [ref=e262]:
+                              - generic [ref=e263]: r/ClaudeAI
+                              - generic [ref=e264]:
+                                - generic [ref=e265]: ·
+                                - generic [ref=e266]: 10+ comments
+                            - generic [ref=e267]:
+                              - generic [ref=e268]: ·
+                              - generic [ref=e269]: 6 months ago
+                    - generic [ref=e275]:
+                      - generic [ref=e279]: ·
+                      - button "About this result" [ref=e284]:
+                        - img [ref=e287]
+                  - button "Why use MCP in subagents when they can use CLI with 0 tool context bloat? Reddit · r/ClaudeAI · 10+ comments · 6 months ago" [expanded] [ref=e289]:
+                    - img [ref=e292]
+                - list [ref=e301]:
+                  - listitem [ref=e302]:
+                    - generic [ref=e306]:
+                      - link "Anthropic have written functionality into Claude Code which turns MCP tools into CLI calls, exactly as you describe, for exactly the reasons you ... More discussions on Why use MCP in subagents when they can use CLI with 0 tool context bloat?":
+                        - /url: https://www.reddit.com/r/ClaudeAI/comments/1pm0bu4/why_use_mcp_in_subagents_when_they_can_use_cli/
+                      - generic [ref=e308]:
+                        - text: Anthropic have written functionality into Claude Code which turns MCP tools into CLI calls, exactly as you describe, for exactly the reasons you ...
+                        - link [ref=e309] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/ClaudeAI/comments/1pm0bu4/why_use_mcp_in_subagents_when_they_can_use_cli/
+                          - generic [ref=e310]: More
+                          - img [ref=e312]
+              - generic [ref=e318] [cursor=pointer]:
+                - generic [ref=e321]:
+                  - link "Claude code introduce sub-agents, that is super useful! Facebook · Artificial Intelligence & Mach… · 4 comments · 10 months ago" [ref=e322]:
+                    - /url: https://www.facebook.com/groups/aimlmalaysia/posts/2420648118335408/
+                    - generic [ref=e323]:
+                      - heading "Claude code introduce sub-agents, that is super useful!" [level=3] [ref=e324]:
+                        - link "Claude code introduce sub-agents, that is super useful!" [ref=e325]
+                      - generic [ref=e332]:
+                        - generic [ref=e333]: Facebook ·
+                        - generic [ref=e335]:
+                          - generic [ref=e336]:
+                            - generic [ref=e337]: Artificial Intelligence & Mach…
+                            - generic [ref=e338]:
+                              - generic [ref=e339]: ·
+                              - generic [ref=e340]: 4 comments
+                          - generic [ref=e341]:
+                            - generic [ref=e342]: ·
+                            - generic [ref=e343]: 10 months ago
+                  - generic [ref=e349]:
+                    - generic [ref=e353]: ·
+                    - button "About this result" [ref=e358]:
+                      - img [ref=e361]
+                - button "Claude code introduce sub-agents, that is super useful! Facebook · Artificial Intelligence & Mach… · 4 comments · 10 months ago" [ref=e363]:
+                  - img [ref=e366]
+              - link "See more discussions" [ref=e369] [cursor=pointer]:
+                - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&udm=18&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8poLegQIGhAD
+                - separator [ref=e370]
+                - generic [ref=e371]:
+                  - generic [ref=e372]: See more
+                  - img [ref=e374]
+          - generic [ref=e378]:
+            - heading "Web results" [level=2] [ref=e379]
+            - generic [ref=e380]:
+              - generic [ref=e383]:
+                - link "Made Claude spawn its own sub-agents (recursive ... Reddit · r/ClaudeAI 10+ comments · 6 months ago" [ref=e385] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/ClaudeAI/comments/1pmp1lm/made_claude_spawn_its_own_subagents_recursive/
+                  - heading "Made Claude spawn its own sub-agents (recursive ..." [level=3] [ref=e386]
+                  - generic [ref=e392]:
+                    - generic [ref=e394]: Reddit · r/ClaudeAI
+                    - generic [ref=e396]: 10+ comments · 6 months ago
+                - button "About this result" [ref=e397] [cursor=pointer]:
+                  - img [ref=e400]
+              - generic [ref=e403]:
+                - generic [ref=e404]:
+                  - text: Discovered you
+                  - emphasis [ref=e405]: can
+                  - text: make
+                  - emphasis [ref=e406]: Claude Code spawn sub
+                  - text: "-"
+                  - emphasis [ref=e407]: agents
+                  - text: that
+                  - emphasis [ref=e408]: can spawn
+                  - text: more
+                  - emphasis [ref=e409]: sub
+                  - text: "-"
+                  - emphasis [ref=e410]: agents
+                  - text: ", creating a recursive exploration tree."
+                - link "Read more" [ref=e411] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/ClaudeAI/comments/1pmp1lm/made_claude_spawn_its_own_subagents_recursive/#:~:text=Discovered%20you%20can%20make%20Claude,creating%20a%20recursive%20exploration%20tree.
+              - generic [ref=e414]:
+                - generic [ref=e415]:
+                  - link "Why use MCP in subagents when they can use CLI with 0 ..." [ref=e418] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/ClaudeAI/comments/1pm0bu4/why_use_mcp_in_subagents_when_they_can_use_cli/
+                    - generic [ref=e419]:
+                      - text: Why use
+                      - emphasis [ref=e420]: MCP
+                      - text: in
+                      - emphasis [ref=e421]: subagents
+                      - text: when they
+                      - emphasis [ref=e422]: can
+                      - text: use
+                      - emphasis [ref=e423]: CLI
+                      - text: with 0 ...
+                  - generic [ref=e425]: 15 posts
+                  - generic [ref=e427]: Dec 14, 2025
+                - generic [ref=e428]:
+                  - link "Claude Code - Sub Agents can invoke MCPs & have ..." [ref=e431] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/ClaudeAI/comments/1llrg2f/claude_code_sub_agents_can_invoke_mcps_have_write/
+                    - generic [ref=e432]:
+                      - emphasis [ref=e433]: Claude Code
+                      - text: "-"
+                      - emphasis [ref=e434]: Sub Agents can
+                      - text: invoke MCPs & have ...
+                  - generic [ref=e436]: 26 posts
+                  - generic [ref=e438]: Jun 27, 2025
+                - link "More results from www.reddit.com" [ref=e442] [cursor=pointer]:
+                  - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI+site:www.reddit.com&sca_esv=c6c16ab1eb0a4421&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQrQIoAnoECC8QAw
+              - generic [ref=e444]:
+                - text: "Missing: MCP ‎| Show results with:"
+                - link "MCP" [ref=e445] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=how+does+claude+code+spawn+sub-agents+%22MCP%22+or+CLI&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ5t4CegQIOxAB
+          - generic [ref=e449]:
+            - generic [ref=e452]:
+              - link "Claude Code Deep Dive - Subagents in Action Medium · Gigi Sayfan 20+ likes · 4 months ago" [ref=e454] [cursor=pointer]:
+                - /url: https://medium.com/@the.gigi/claude-code-deep-dive-subagents-in-action-703cd8745769
+                - heading "Claude Code Deep Dive - Subagents in Action" [level=3] [ref=e455]
+                - generic [ref=e461]:
+                  - generic [ref=e463]: Medium · Gigi Sayfan
+                  - generic [ref=e465]: 20+ likes · 4 months ago
+              - button "About this result" [ref=e466] [cursor=pointer]:
+                - img [ref=e469]
+            - generic [ref=e472]:
+              - generic [ref=e473]:
+                - emphasis [ref=e474]: Subagents
+                - text: let
+                - emphasis [ref=e475]: Claude Code spawn
+                - text: autonomous child processes, each with its own context window, tools, and instructions, to divide and conquer .
+              - link "Read more" [ref=e476] [cursor=pointer]:
+                - /url: https://medium.com/@the.gigi/claude-code-deep-dive-subagents-in-action-703cd8745769#:~:text=Subagents%20let%20Claude%20Code%20spawn,to%20divide%20and%20conquer%20%F0%9F%A7%A9.
+          - generic [ref=e480]:
+            - generic [ref=e483]:
+              - link "claude-howto/04-subagents/README.md at main GitHub https://github.com › luongnv89 › claude-howto › blob" [ref=e485] [cursor=pointer]:
+                - /url: https://github.com/luongnv89/claude-howto/blob/main/04-subagents/README.md
+                - heading "claude-howto/04-subagents/README.md at main" [level=3] [ref=e486]
+                - generic [ref=e492]:
+                  - generic [ref=e494]: GitHub
+                  - generic [ref=e496]: https://github.com › luongnv89 › claude-howto › blob
+              - button "About this result" [ref=e497] [cursor=pointer]:
+                - img [ref=e500]
+            - generic [ref=e503]:
+              - generic [ref=e504]: Jun 2, 2026 —
+              - generic [ref=e505]:
+                - emphasis [ref=e506]: Subagents are
+                - text: specialized AI assistants that
+                - emphasis [ref=e507]: Claude Code can
+                - text: delegate tasks to. Each subagent has a specific purpose, uses its own context ...
+              - link "Read more" [ref=e508] [cursor=pointer]:
+                - /url: https://github.com/luongnv89/claude-howto/blob/main/04-subagents/README.md#:~:text=Subagents%20are%20specialized%20AI%20assistants,and%20a%20custom%20system%20prompt.
+          - generic [ref=e512]:
+            - generic [ref=e515]:
+              - link "Bringing Claude Code's Sub-agents to Any MCP- ... DEV Community https://dev.to › shinpr › bringing-claude-codes-sub-age..." [ref=e517] [cursor=pointer]:
+                - /url: https://dev.to/shinpr/bringing-claude-codes-sub-agents-to-any-mcp-compatible-tool-1hb9
+                - heading "Bringing Claude Code's Sub-agents to Any MCP- ..." [level=3] [ref=e518]
+                - generic [ref=e524]:
+                  - generic [ref=e526]: DEV Community
+                  - generic [ref=e528]: https://dev.to › shinpr › bringing-claude-codes-sub-age...
+              - button "About this result" [ref=e529] [cursor=pointer]:
+                - img [ref=e532]
+            - generic [ref=e535]:
+              - generic [ref=e536]: Sep 4, 2025 —
+              - generic [ref=e537]:
+                - text: By implementing
+                - emphasis [ref=e538]: sub
+                - text: "-"
+                - emphasis [ref=e539]: agents
+                - text: as an
+                - emphasis [ref=e540]: MCP
+                - text: server, I made this
+                - emphasis [ref=e541]: Claude Code
+                - text: "-exclusive feature available to any"
+                - emphasis [ref=e542]: MCP
+                - text: "-compatible tool. How It Works. Just ..."
+              - link "Read more" [ref=e543] [cursor=pointer]:
+                - /url: https://dev.to/shinpr/bringing-claude-codes-sub-agents-to-any-mcp-compatible-tool-1hb9#:~:text=By%20implementing%20sub%2Dagents%20as%20an,AI%20to%20use%20a%20sub%2Dagent%3A
+            - generic [ref=e545]:
+              - text: "Missing: spawn ‎| Show results with:"
+              - link "spawn" [ref=e546] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=how+does+claude+code+%22spawn%22+sub-agents+MCP+or+CLI&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ5t4CegQIPBAB
+          - generic [ref=e550]:
+            - generic [ref=e552]:
+              - heading "What people are saying" [level=2] [ref=e553]:
+                - generic [ref=e555]: What people are saying
+              - generic [ref=e565]: Trending posts and discussions
+            - generic [ref=e567]:
+              - list [ref=e569]:
+                - generic [ref=e570]:
+                  - listitem [ref=e571]:
+                    - generic [ref=e575]:
+                      - button "3- How To Build Agents With Claude Code. Play on Google. 18:03" [ref=e580] [cursor=pointer]:
+                        - generic [ref=e586]:
+                          - generic [ref=e587]:
+                            - img [ref=e588]
+                            - generic [ref=e590]: 18:03
+                          - img [ref=e593]
+                      - link "3- How To Build Agents With Claude Code 23K+ views · 1 month ago Krish Naik · YouTube AI & machine learning professional" [ref=e595] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=bTyRYBE4hMM
+                        - generic [ref=e596]:
+                          - heading "3- How To Build Agents With Claude Code" [level=3] [ref=e598]
+                          - generic [ref=e600]: 23K+ views · 1 month ago
+                          - generic [ref=e612]:
+                            - generic [ref=e613]: Krish Naik · YouTube
+                            - generic [ref=e615]: AI & machine learning professional
+                      - button "About this result" [ref=e619] [cursor=pointer]:
+                        - img [ref=e622]
+                  - listitem [ref=e624]:
+                    - generic [ref=e628]:
+                      - link "𝐒𝐤𝐢𝐥𝐥𝐬, 𝐒𝐮𝐛𝐚𝐠𝐞𝐧𝐭𝐬, 𝐌𝐂𝐏, 𝐚𝐧𝐝 𝐇𝐨𝐨𝐤𝐬 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐟𝐨𝐮𝐫 𝐯𝐞𝐫𝐬𝐢𝐨𝐧𝐬 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐚𝐦𝐞 𝐭𝐡𝐢𝐧𝐠. They solve four different problems. Mix them up and your Claude Code setup starts to feel shaky for reasons no one on the team can explain. Here is the 1 month ago Brij Kishore Pandey · LinkedIn AI engineer & architect" [ref=e629] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/posts/brijpandeyji_%F0%9D%90%92%F0%9D%90%A4%F0%9D%90%A2%F0%9D%90%A5%F0%9D%90%A5%F0%9D%90%AC-%F0%9D%90%92%F0%9D%90%AE%F0%9D%90%9B%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%8C%F0%9D%90%82%F0%9D%90%8F-activity-7457406956539006977-Jr9F
+                        - generic [ref=e633]:
+                          - heading "𝐒𝐤𝐢𝐥𝐥𝐬, 𝐒𝐮𝐛𝐚𝐠𝐞𝐧𝐭𝐬, 𝐌𝐂𝐏, 𝐚𝐧𝐝 𝐇𝐨𝐨𝐤𝐬 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐟𝐨𝐮𝐫 𝐯𝐞𝐫𝐬𝐢𝐨𝐧𝐬 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐚𝐦𝐞 𝐭𝐡𝐢𝐧𝐠. They solve four different problems. Mix them up and your Claude Code setup starts to feel shaky for reasons no one on the team can explain. Here is the" [level=3] [ref=e635]
+                          - generic [ref=e636]: 1 month ago
+                          - generic [ref=e648]:
+                            - generic [ref=e649]: Brij Kishore Pandey · LinkedIn
+                            - generic [ref=e651]: AI engineer & architect
+                      - button "About this result" [ref=e655] [cursor=pointer]:
+                        - img [ref=e658]
+                  - listitem [ref=e660]:
+                    - generic [ref=e664]:
+                      - 'button "Claude Code Agent View: Parallel Agents Are Here. Play on Google. 12:20" [ref=e669] [cursor=pointer]':
+                        - generic [ref=e675]:
+                          - generic [ref=e676]:
+                            - img [ref=e677]
+                            - generic [ref=e679]: 12:20
+                          - img [ref=e682]
+                      - 'link "Claude Code Agent View: Parallel Agents Are Here 10.1K+ views · 1 month ago Leon van Zyl · YouTube AI tutorials & solutions" [ref=e684] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=tJVUAzLZUyI
+                        - generic [ref=e685]:
+                          - 'heading "Claude Code Agent View: Parallel Agents Are Here" [level=3] [ref=e687]'
+                          - generic [ref=e689]: 10.1K+ views · 1 month ago
+                          - generic [ref=e701]:
+                            - generic [ref=e702]: Leon van Zyl · YouTube
+                            - generic [ref=e704]: AI tutorials & solutions
+                      - button "About this result" [ref=e708] [cursor=pointer]:
+                        - img [ref=e711]
+                  - listitem [ref=e713]:
+                    - generic [ref=e718]:
+                      - button "How To Use Claude Code Sub-Agents Better Than 99% of People. Play on Google. 18:46" [ref=e723] [cursor=pointer]:
+                        - generic [ref=e729]:
+                          - generic [ref=e730]:
+                            - img [ref=e731]
+                            - generic [ref=e733]: 18:46
+                          - img [ref=e736]
+                      - link "How To Use Claude Code Sub-Agents Better Than 99% of People 14.8K+ views · Apr 1, 2026 Michele Torti YouTube" [ref=e738] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=6mG6tS6WG00
+                        - generic [ref=e739]:
+                          - heading "How To Use Claude Code Sub-Agents Better Than 99% of People" [level=3] [ref=e741]
+                          - generic [ref=e743]: 14.8K+ views · Apr 1, 2026
+                          - generic [ref=e755]:
+                            - generic [ref=e756]: Michele Torti
+                            - generic [ref=e757]: YouTube
+                      - button "About this result" [ref=e761] [cursor=pointer]:
+                        - img [ref=e764]
+                  - listitem [ref=e766]:
+                    - generic [ref=e771]:
+                      - 'button "The Ultimate Claude Code Guide: Every New Feature Explained. Play on Google. 16:07" [ref=e776] [cursor=pointer]':
+                        - generic [ref=e782]:
+                          - generic [ref=e783]:
+                            - img [ref=e784]
+                            - generic [ref=e786]: 16:07
+                          - img [ref=e789]
+                      - 'link "The Ultimate Claude Code Guide: Every New Feature Explained 1.1K+ views · Apr 15, 2026 Etisha Garg YouTube" [ref=e791] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=bbtRl3Iz7MI
+                        - generic [ref=e792]:
+                          - 'heading "The Ultimate Claude Code Guide: Every New Feature Explained" [level=3] [ref=e794]'
+                          - generic [ref=e796]: 1.1K+ views · Apr 15, 2026
+                          - generic [ref=e808]:
+                            - generic [ref=e809]: Etisha Garg
+                            - generic [ref=e810]: YouTube
+                      - button "About this result" [ref=e814] [cursor=pointer]:
+                        - img [ref=e817]
+                  - listitem [ref=e819]:
+                    - generic [ref=e824]:
+                      - 'button "How to Create an Agent in Claude Code CLI: Build Custom AI Subagents for Faster Workflows 2026. Play on Google. 4:34" [ref=e829] [cursor=pointer]':
+                        - generic [ref=e832]:
+                          - generic [ref=e833]:
+                            - img [ref=e834]
+                            - generic [ref=e836]: 4:34
+                          - img [ref=e839]
+                      - 'link "How to Create an Agent in Claude Code CLI: Build Custom AI Subagents for Faster Workflows 2026 320+ views · Mar 27, 2026 ProgrammingKnowledge2 · YouTube Programming knowledge & experience" [ref=e841] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=6i37HMP2J3E&vl=en
+                        - generic [ref=e842]:
+                          - 'heading "How to Create an Agent in Claude Code CLI: Build Custom AI Subagents for Faster Workflows 2026" [level=3] [ref=e844]'
+                          - generic [ref=e846]: 320+ views · Mar 27, 2026
+                          - generic [ref=e858]:
+                            - generic [ref=e859]: ProgrammingKnowledge2 · YouTube
+                            - generic [ref=e861]: Programming knowledge & experience
+                      - button "About this result" [ref=e865] [cursor=pointer]:
+                        - img [ref=e868]
+              - button [ref=e870] [cursor=pointer]:
+                - img [ref=e873]
+          - generic [ref=e877]:
+            - heading "Web results" [level=2] [ref=e878]
+            - generic [ref=e879]:
+              - generic [ref=e882]:
+                - 'link "Spawn Subagent: Claude Code Skill for AI Orchestration MCP Market https://mcpmarket.com › Agent Skills" [ref=e884] [cursor=pointer]':
+                  - /url: https://mcpmarket.com/tools/skills/subagent-spawner-1
+                  - 'heading "Spawn Subagent: Claude Code Skill for AI Orchestration" [level=3] [ref=e885]'
+                  - generic [ref=e891]:
+                    - generic [ref=e893]: MCP Market
+                    - generic [ref=e895]: https://mcpmarket.com › Agent Skills
+                - button "About this result" [ref=e896] [cursor=pointer]:
+                  - img [ref=e899]
+              - generic [ref=e902]:
+                - generic [ref=e903]:
+                  - text: The
+                  - emphasis [ref=e904]: spawn
+                  - text: "-subagent skill enables the main"
+                  - emphasis [ref=e905]: Claude Code
+                  - text: agent to delegate complex, well-defined tasks to independent
+                  - emphasis [ref=e906]: subagents
+                  - text: . ...
+                  - emphasis [ref=e907]: What is
+                  - text: an
+                  - emphasis [ref=e908]: MCP
+                  - text: server?
+                - link "Read more" [ref=e909] [cursor=pointer]:
+                  - /url: https://mcpmarket.com/tools/skills/subagent-spawner-1#:~:text=The%20spawn%2Dsubagent%20skill%20enables%20the,well%2Ddefined%20tasks%20to%20independent%20subagents.&text=What%20is%20an%20MCP%20server%3F
+          - generic [ref=e916]:
+            - generic [ref=e919]:
+              - link "Claude Code NEW Sub Agents in 7 Minutes YouTube · Developers Digest 247.2K+ views · 10 months ago" [ref=e921] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=DNGxMX7ym44
+                - heading "Claude Code NEW Sub Agents in 7 Minutes" [level=3] [ref=e922]
+                - generic [ref=e928]:
+                  - generic [ref=e930]: YouTube · Developers Digest
+                  - generic [ref=e932]: 247.2K+ views · 10 months ago
+              - button "About this result" [ref=e933] [cursor=pointer]:
+                - img [ref=e936]
+            - generic [ref=e938]:
+              - button "Claude Code NEW Sub Agents in 7 Minutes by Developers Digest on YouTube. Play on Google. 6:54" [ref=e939] [cursor=pointer]:
+                - generic [ref=e941]:
+                  - img [ref=e947]
+                  - generic [ref=e950]:
+                    - generic [ref=e952]: 6:54
+                    - img [ref=e955]
+              - generic [ref=e958]: In this video I'm going to show you how you can set up sub agents as well as how you can think about potentially leveraging within building out your application.
+            - button "7 key moments in this video" [ref=e963] [cursor=pointer]:
+              - generic [ref=e972]:
+                - generic [ref=e975]: 7 key moments in this video
+                - img [ref=e977]
+          - generic [ref=e982]:
+            - generic [ref=e985]:
+              - link "Skills vs MCP vs Subagents vs CLI (2026) - MCP.Directory mcp.directory https://mcp.directory › Blog" [ref=e987] [cursor=pointer]:
+                - /url: https://mcp.directory/blog/claude-skills-vs-mcp-vs-subagents-vs-cli-2026-decision-matrix
+                - heading "Skills vs MCP vs Subagents vs CLI (2026) - MCP.Directory" [level=3] [ref=e988]
+                - generic [ref=e994]:
+                  - generic [ref=e996]: mcp.directory
+                  - generic [ref=e998]: https://mcp.directory › Blog
+              - button "About this result" [ref=e999] [cursor=pointer]:
+                - img [ref=e1002]
+            - generic [ref=e1005]:
+              - generic [ref=e1006]:
+                - text: Per the
+                - emphasis [ref=e1007]: Claude Code
+                - text: "docs, verbatim: “"
+                - emphasis [ref=e1008]: Subagents are
+                - text: specialized AI assistants that handle specific types of tasks. Use one when a side task
+                - emphasis [ref=e1009]: would
+                - text: flood your main ...
+              - link "Read more" [ref=e1010] [cursor=pointer]:
+                - /url: https://mcp.directory/blog/claude-skills-vs-mcp-vs-subagents-vs-cli-2026-decision-matrix#:~:text=Per%20the%20Claude%20Code%20docs%2C,task%20would%20flood%20your%20main
+          - region "Ads" [ref=e1014]:
+            - generic [ref=e1015]:
+              - heading "Sponsored result" [level=2] [ref=e1022]
+              - generic [ref=e1023]:
+                - generic [ref=e1035]:
+                  - generic [ref=e1036]:
+                    - link "Agentic coding - Claude Code by Anthropic claude.com https://www.claude.com" [ref=e1037] [cursor=pointer]:
+                      - /url: https://claude.com/product/claude-code
+                      - heading "Agentic coding - Claude Code by Anthropic" [level=3] [ref=e1038]
+                      - generic [ref=e1044]:
+                        - generic [ref=e1046]: claude.com
+                        - generic [ref=e1047]: https://www.claude.com
+                    - button "Why this ad?" [ref=e1050] [cursor=pointer]:
+                      - img [ref=e1052]
+                  - generic [ref=e1057]:
+                    - text: Ship better
+                    - emphasis [ref=e1058]: code
+                    - text: ", faster with"
+                    - emphasis [ref=e1059]: Claude Code
+                    - text: ", your AI pair programmer. Delegate complex tasks with control. Never makes changes without permission."
+                  - generic [ref=e1064]: 1M+ visits in past month
+                - button "Hide sponsored result" [ref=e1066] [cursor=pointer]:
+                  - separator [ref=e1067]
+                  - generic [ref=e1068]:
+                    - generic [ref=e1069]: Hide sponsored result
+                    - img [ref=e1071]
+        - generic [ref=e1074]:
+          - generic [ref=e1079]:
+            - heading "People also search for" [level=2] [ref=e1081]
+            - generic [ref=e1083]:
+              - generic [ref=e1084]:
+                - link "Claude Code agent examples" [ref=e1088] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Claude+Code+agent+examples&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAggEAE
+                  - generic [ref=e1089]:
+                    - generic [ref=e1094]: Claude Code agent examples
+                    - img [ref=e1098]
+                - link "Claude Code subagents" [ref=e1103] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Claude+Code+subagents&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAg3EAE
+                  - generic [ref=e1104]:
+                    - generic [ref=e1109]: Claude Code subagents
+                    - img [ref=e1113]
+                - link "Claude Code subagents best practices" [ref=e1118] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Claude+Code+subagents+best+practices&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAgyEAE
+                  - generic [ref=e1119]:
+                    - generic [ref=e1124]: Claude Code subagents best practices
+                    - img [ref=e1128]
+                - link "Claude Code agents" [ref=e1133] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Claude+Code+agents&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAgwEAE
+                  - generic [ref=e1134]:
+                    - generic [ref=e1139]: Claude Code agents
+                    - img [ref=e1143]
+              - generic [ref=e1145]:
+                - link "Claude Code sub agents GitHub" [ref=e1149] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Claude+Code+sub+agents+GitHub&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAgsEAE
+                  - generic [ref=e1150]:
+                    - generic [ref=e1155]: Claude Code sub agents GitHub
+                    - img [ref=e1159]
+                - link "How to use subagents in Claude Code" [ref=e1164] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=How+to+use+subagents+in+Claude+Code&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAgpEAE
+                  - generic [ref=e1165]:
+                    - generic [ref=e1170]: How to use subagents in Claude Code
+                    - img [ref=e1174]
+                - link "How to use agents in Claude Code" [ref=e1179] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=How+to+use+agents+in+Claude+Code&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAgkEAE
+                  - generic [ref=e1180]:
+                    - generic [ref=e1185]: How to use agents in Claude Code
+                    - img [ref=e1189]
+                - link "Claude Code custom agents" [ref=e1194] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Claude+Code+custom+agents&sa=X&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ1QJ6BAgjEAE
+                  - generic [ref=e1195]:
+                    - generic [ref=e1200]: Claude Code custom agents
+                    - img [ref=e1204]
+          - navigation [ref=e1206]:
+            - heading "Page Navigation" [level=1] [ref=e1207]
+            - text: "1"
+            - link "Page 2" [ref=e1210] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=10&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAE
+              - text: "2"
+            - link "Page 3" [ref=e1212] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=20&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAG
+              - text: "3"
+            - link "Page 4" [ref=e1214] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=30&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAI
+              - text: "4"
+            - link "Page 5" [ref=e1216] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=40&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAK
+              - text: "5"
+            - link "Page 6" [ref=e1218] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=50&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAM
+              - text: "6"
+            - link "Page 7" [ref=e1220] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=60&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAO
+              - text: "7"
+            - link "Page 8" [ref=e1222] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=70&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAQ
+              - text: "8"
+            - link "Page 9" [ref=e1224] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=80&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAS
+              - text: "9"
+            - link "Page 10" [ref=e1226] [cursor=pointer]:
+              - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=90&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8tMDegQIPRAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1228]:
+              - link "Next" [ref=e1229] [cursor=pointer]:
+                - /url: /search?q=how+does+claude+code+spawn+sub-agents+MCP+or+CLI&sca_esv=c6c16ab1eb0a4421&ei=LCswas2gEOTnkPIPsIPosQk&start=10&sa=N&sstk=AU9db-CHCaEgOLtl4M_LrRPoAq5epgIePEkWmUaJ6k7j7a7m4wpqKcLAQWQPL4rcNwg2aOcUHH3RLFhXCAV2PQJHZhzW2f_NPvn88g&ved=2ahUKEwjN5pD214mVAxXkM0QIHbABOpYQ8NMDegQIPRAW
+                - generic [ref=e1231]: Next
+        - navigation
+    - contentinfo [ref=e1232]:
+      - heading "Footer Links" [level=1] [ref=e1233]
+      - generic [ref=e1237]:
+        - generic [ref=e1241]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e1243] [cursor=pointer]:
+            - generic [ref=e1244]: 92780, Tustin, CA
+            - generic [ref=e1246]:
+              - text: "-"
+              - generic [ref=e1247]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1249] [cursor=pointer]: Update location
+        - generic [ref=e1252]:
+          - link "Help" [ref=e1253] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1254] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1255] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1256] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

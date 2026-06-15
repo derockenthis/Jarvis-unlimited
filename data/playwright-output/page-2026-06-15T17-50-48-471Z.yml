@@ -1,0 +1,591 @@
+- generic [ref=e1]:
+  - banner:
+    - generic [ref=e2]:
+      - link "Skip to main content":
+        - /url: "#main"
+      - generic [ref=e4]:
+        - link "OpenAI Home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8]
+        - generic [ref=e10]:
+          - navigation "Main Navigation" [ref=e12]:
+            - list [ref=e13]:
+              - listitem [ref=e14]:
+                - link "Research" [ref=e15] [cursor=pointer]:
+                  - /url: /research/index/
+                  - generic [ref=e17]: Research
+                - button "Research menu"
+              - listitem [ref=e18]:
+                - button "Products" [ref=e19] [cursor=pointer]:
+                  - generic [ref=e21]: Products
+                - button "Products menu"
+              - listitem [ref=e22]:
+                - link "Business" [ref=e23] [cursor=pointer]:
+                  - /url: /business/
+                  - generic [ref=e25]: Business
+                - button "Business menu"
+              - listitem [ref=e26]:
+                - link "Developers" [ref=e27] [cursor=pointer]:
+                  - /url: /api/
+                  - generic [ref=e29]: Developers
+                - button "Developers menu"
+              - listitem [ref=e30]:
+                - link "Company" [ref=e31] [cursor=pointer]:
+                  - /url: /about/
+                  - generic [ref=e33]: Company
+                - button "Company menu"
+              - listitem [ref=e34]:
+                - link "Foundation (opens in a new window)" [ref=e35] [cursor=pointer]:
+                  - /url: https://openaifoundation.org/
+                  - generic [ref=e37]: Foundation
+                  - generic [ref=e38]: (opens in a new window)
+          - generic [ref=e40]:
+            - button "Open Search" [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+            - button "Close Search" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - generic [ref=e49]:
+            - button "Log in" [ref=e50] [cursor=pointer]:
+              - text: Log in
+              - img [ref=e51]
+            - link "Try ChatGPT (opens in a new window)" [ref=e53] [cursor=pointer]:
+              - /url: https://chatgpt.com/?openaicom-did=2cae8461-806d-4095-a31d-4d35c7e786a0&openaicom_referred=true
+              - text: Try ChatGPT
+              - img [ref=e54]
+              - generic [ref=e56]: (opens in a new window)
+  - generic [ref=e57]:
+    - main [ref=e58]:
+      - generic [ref=e59]: OpenAI | Research & Deployment
+      - article [ref=e60]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: What can I help with?
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e69]: Message ChatGPT
+                - generic:
+                  - generic:
+                    - generic: Quiz me on vocabulary
+                    - generic: Plan a surf trip to Costa Rica in August
+                    - generic: India stock market today
+                    - generic: Explica por qué el maíz palomitas explota
+                    - generic: Teach me Mahjong for beginners
+                    - generic: Find hiking boots for wide feet
+                    - generic: Explain this code
+                    - generic: Was mach ich in Berlin wenn es regnet?
+                    - generic: What are some outdoor markets in Mexico City?
+                    - generic: Rédigez une note de remerciement
+                    - generic: Recommend an easy potluck dish
+                    - generic: ハーフマラソンのトレーニングを手伝ってください
+                    - generic: Help me improve this job description
+                    - generic: Write a Python script
+                    - generic: Draw a picture of a mini aussie as a diver
+                    - generic: Travel pillow that actually works
+                    - generic: Translate this recipe into Greek
+                    - generic: Rank dog breeds for a small apartment
+                    - generic: 楽しいディナーパーティーの計画を手伝ってください
+                    - generic: Explain paradiddles for me
+                    - generic: Quais são as chances de Portugal na Euro 2024?
+                    - generic: Compare business strategies for transitioning from budget to luxury
+                    - generic: Teach me to negotiate
+                    - generic: Sugiere actividades divertidas para una familia que visita San Francisco
+                    - generic: Plan an itinerary for teens in Hong Kong
+                    - generic: Show me the F1 racing schedule
+                    - generic: Design a database schema
+                    - generic: Japan yen exchange rate
+                    - generic: Help me build a budget
+                    - generic: Kritisiere meine Kurzgeschichte
+                    - generic: Find gentle lower back stretches
+                    - generic: New restaurant openings in NYC
+                    - generic: Help me pick a halloween costume
+                    - generic: Write a polite rejection email
+                    - generic: Generate fantasy football team names
+                    - generic: Elabore um calendário de conteúdo para redes sociais
+                    - generic: Explique a turbulência em aviões
+                    - generic: Brainstorm domain names
+                    - generic: Global breaking news today
+                    - generic: 面接の質問を一緒に考えてください
+                    - generic: Summarize my meeting notes
+                    - generic: Explique a turbulência em aviões
+                    - generic: Plan a college tour
+                    - generic: Write a SQL Query
+                    - generic: Help me with gift ideas for my dad
+                    - generic: Rédigez un email pour un devis de réparation
+                    - generic: Troubleshoot my printer set-up
+                    - generic: Write a thank-you note
+                    - generic: Help me debug this code
+                    - generic: Crea un entrenamiento de movilidad
+                    - generic: Brainstorm podcast episode ideas
+                    - generic: Review my argument for a debate
+                    - generic: New space exploration plans
+                    - generic: Best cricket bat for beginners
+                    - generic: Rank e-bikes for daily commuting
+                    - generic: Quiz me on vocabulary
+                - textbox [active] [ref=e70]
+              - button "Send prompt to ChatGPT" [disabled] [ref=e72]:
+                - img [ref=e73]
+            - generic [ref=e76]:
+              - link "Talk with ChatGPT" [ref=e77] [cursor=pointer]:
+                - /url: https://chatgpt.com/?mode=voice&openaicom-did=2cae8461-806d-4095-a31d-4d35c7e786a0&openaicom_referred=true
+                - generic [ref=e78]: Talk with ChatGPT
+              - link "Research" [ref=e79] [cursor=pointer]:
+                - /url: /research/
+                - generic [ref=e80]: Research
+              - link "API Platform" [ref=e81] [cursor=pointer]:
+                - /url: /api/
+                - generic [ref=e82]: API Platform
+              - link "Stories" [ref=e83] [cursor=pointer]:
+                - /url: /stories/
+                - generic [ref=e84]: Stories
+              - button "More" [ref=e85] [cursor=pointer]:
+                - generic [ref=e86]: More
+        - generic [ref=e88]:
+          - generic [ref=e91]:
+            - img "1 1 Art Card" [ref=e97]
+            - link "Codex for every role, tool, and workflow - Product - Jun 2, 2026" [ref=e98] [cursor=pointer]:
+              - /url: /index/codex-for-every-role-tool-workflow/
+              - generic [ref=e99]:
+                - generic [ref=e100]: Codex for every role, tool, and workflow
+                - paragraph [ref=e101]:
+                  - generic [ref=e102]: Product
+                  - generic [ref=e104]: 7 min read
+          - generic [ref=e105]:
+            - generic [ref=e107]:
+              - generic [ref=e110]:
+                - img "Art Card 1080x1080 (3)" [ref=e113]
+                - generic:
+                  - generic:
+                    - generic: Better memory for a more helpful ChatGPT
+              - 'link "Dreaming: Better memory for a more helpful ChatGPT - Research - Jun 4, 2026" [ref=e114] [cursor=pointer]':
+                - /url: /index/chatgpt-memory-dreaming/
+                - generic [ref=e115]:
+                  - generic [ref=e116]: "Dreaming: Better memory for a more helpful ChatGPT"
+                  - paragraph [ref=e117]:
+                    - generic [ref=e118]: Research
+                    - generic [ref=e120]: 5 min read
+            - generic [ref=e122]:
+              - img "Hero Art Card SEO 1x1" [ref=e128]
+              - link "Introducing GPT-5.5 - Product - Apr 23, 2026" [ref=e129] [cursor=pointer]:
+                - /url: /index/introducing-gpt-5-5/
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Introducing GPT-5.5
+                  - paragraph [ref=e132]:
+                    - generic [ref=e133]: Product
+                    - generic [ref=e135]: 18 min read
+            - generic [ref=e137]:
+              - img "Images 2.0 blog art card" [ref=e143]
+              - link "Introducing ChatGPT Images 2.0 - Product - Apr 21, 2026" [ref=e144] [cursor=pointer]:
+                - /url: /index/introducing-chatgpt-images-2-0/
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Introducing ChatGPT Images 2.0
+                  - paragraph [ref=e147]:
+                    - generic [ref=e148]: Product
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "Recent news" [level=2] [ref=e152]
+            - link "View more" [ref=e153] [cursor=pointer]:
+              - /url: /news/company-announcements/
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - img "Confidential submission of draft S-1 to the SEC > cover image" [ref=e163]
+              - link "Confidential submission of draft S-1 to the SEC - Company - Jun 8, 2026" [ref=e164] [cursor=pointer]:
+                - /url: /index/openai-submits-confidential-s-1/
+                - generic [ref=e165]:
+                  - paragraph [ref=e167]: Confidential submission of draft S-1 to the SEC
+                  - paragraph [ref=e168]:
+                    - generic [ref=e169]: Company
+                    - time [ref=e171]: Jun 8, 2026
+            - generic [ref=e173]:
+              - img "Built for broad benefit > cover" [ref=e180]
+              - 'link "Built to benefit everyone: our plan - Company - Jun 8, 2026" [ref=e181] [cursor=pointer]':
+                - /url: /index/built-to-benefit-everyone-our-plan/
+                - generic [ref=e182]:
+                  - paragraph [ref=e184]: "Built to benefit everyone: our plan"
+                  - paragraph [ref=e185]:
+                    - generic [ref=e186]: Company
+                    - time [ref=e188]: Jun 8, 2026
+            - generic [ref=e190]:
+              - img "Art card (4)" [ref=e197]
+              - link "Advancing content provenance for a safer, more transparent AI ecosystem - Safety - May 19, 2026" [ref=e198] [cursor=pointer]:
+                - /url: /index/advancing-content-provenance/
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Advancing content provenance for a safer, more transparent AI ecosystem
+                  - paragraph [ref=e201]:
+                    - generic [ref=e202]: Safety
+                    - time [ref=e204]: May 19, 2026
+            - generic [ref=e206]:
+              - img "Personal finance in ChatGPT > Media > Cover" [ref=e213]
+              - link "A new personal finance experience in ChatGPT - Product - May 15, 2026" [ref=e214] [cursor=pointer]:
+                - /url: /index/personal-finance-chatgpt/
+                - generic [ref=e215]:
+                  - generic [ref=e216]: A new personal finance experience in ChatGPT
+                  - paragraph [ref=e217]:
+                    - generic [ref=e218]: Product
+                    - time [ref=e220]: May 15, 2026
+            - generic [ref=e222]:
+              - img "Helping ChatGPT better recognize context in sensitive conversations > Cover Image" [ref=e229]
+              - link "Helping ChatGPT better recognize context in sensitive conversations - Safety - May 14, 2026" [ref=e230] [cursor=pointer]:
+                - /url: /index/chatgpt-recognize-context-in-sensitive-conversations/
+                - generic [ref=e231]:
+                  - generic [ref=e232]: Helping ChatGPT better recognize context in sensitive conversations
+                  - paragraph [ref=e233]:
+                    - generic [ref=e234]: Safety
+                    - time [ref=e236]: May 14, 2026
+            - generic [ref=e238]:
+              - img "Introducing Trusted Contact in ChatGPT > Art Card" [ref=e245]
+              - link "Introducing Trusted Contact in ChatGPT - Safety - May 7, 2026" [ref=e246] [cursor=pointer]:
+                - /url: /index/introducing-trusted-contact-in-chatgpt/
+                - generic [ref=e247]:
+                  - generic [ref=e248]: Introducing Trusted Contact in ChatGPT
+                  - paragraph [ref=e249]:
+                    - generic [ref=e250]: Safety
+                    - time [ref=e252]: May 7, 2026
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - heading "Stories" [level=2] [ref=e256]
+            - link "View all" [ref=e257] [cursor=pointer]:
+              - /url: /stories/
+          - generic [ref=e260]:
+            - generic [ref=e262]:
+              - img "OpenAI Falcon Cover" [ref=e268]
+              - link "Training to cycle across Antarctica with ChatGPT - Jun 11, 2026" [ref=e269] [cursor=pointer]:
+                - /url: /index/cycling-across-antarctica/
+                - generic [ref=e270]:
+                  - generic [ref=e271]: Training to cycle across Antarctica with ChatGPT
+                  - paragraph [ref=e272]:
+                    - time [ref=e274]: Jun 11, 2026
+            - generic [ref=e276]:
+              - img "Owl story hero image" [ref=e282]
+              - link "Creating new simulations of black holes with Codex - Jun 11, 2026" [ref=e283] [cursor=pointer]:
+                - /url: /index/creating-new-simulations-black-holes/
+                - generic [ref=e284]:
+                  - generic [ref=e285]: Creating new simulations of black holes with Codex
+                  - paragraph [ref=e286]:
+                    - time [ref=e288]: Jun 11, 2026
+            - generic [ref=e290]:
+              - img "OpenAI Ganassi 1x1" [ref=e296]
+              - link "Chip Ganassi Racing × OpenAI - API - May 28, 2026" [ref=e297] [cursor=pointer]:
+                - /url: /index/chip-ganassi-racing/
+                - generic [ref=e298]:
+                  - generic [ref=e299]: Chip Ganassi Racing × OpenAI
+                  - paragraph [ref=e300]:
+                    - generic [ref=e301]: API
+                    - time [ref=e303]: May 28, 2026
+        - generic [ref=e304]:
+          - generic [ref=e305]:
+            - heading "Latest research" [level=2] [ref=e307]
+            - link "View all" [ref=e308] [cursor=pointer]:
+              - /url: /research/index/
+          - generic [ref=e311]:
+            - generic [ref=e313]:
+              - img "Geometry > ArtCard > Polynomial Construction" [ref=e319]
+              - link "An OpenAI model has disproved a central conjecture in discrete geometry - Research - May 20, 2026" [ref=e320] [cursor=pointer]:
+                - /url: /index/model-disproves-discrete-geometry-conjecture/
+                - generic [ref=e321]:
+                  - generic [ref=e322]: An OpenAI model has disproved a central conjecture in discrete geometry
+                  - paragraph [ref=e323]:
+                    - generic [ref=e324]: Research
+                    - time [ref=e326]: May 20, 2026
+            - generic [ref=e328]:
+              - img "OAI GPT-Rosaling Art Card 1x1" [ref=e334]
+              - link "Introducing GPT-Rosalind for life sciences research - Research - Apr 16, 2026" [ref=e335] [cursor=pointer]:
+                - /url: /index/introducing-gpt-rosalind/
+                - generic [ref=e336]:
+                  - generic [ref=e337]: Introducing GPT-Rosalind for life sciences research
+                  - paragraph [ref=e338]:
+                    - generic [ref=e339]: Research
+                    - time [ref=e341]: Apr 16, 2026
+            - generic [ref=e343]:
+              - img "OAI Monitoring internal deployments for loss of control risks Art Card 1x1" [ref=e349]
+              - link "How we monitor internal coding agents for misalignment - Safety - Mar 19, 2026" [ref=e350] [cursor=pointer]:
+                - /url: /index/how-we-monitor-internal-coding-agents-misalignment/
+                - generic [ref=e351]:
+                  - generic [ref=e352]: How we monitor internal coding agents for misalignment
+                  - paragraph [ref=e353]:
+                    - generic [ref=e354]: Safety
+                    - time [ref=e356]: Mar 19, 2026
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - heading "OpenAI for business" [level=2] [ref=e360]
+            - link "View all" [ref=e361] [cursor=pointer]:
+              - /url: /business/customer-stories/
+          - generic [ref=e364]:
+            - generic [ref=e366]:
+              - img "oai Choco 1x1" [ref=e372]
+              - link "Choco automates food distribution with AI agents - Apr 27, 2026" [ref=e373] [cursor=pointer]:
+                - /url: /index/choco/
+                - generic [ref=e374]:
+                  - generic [ref=e375]: Choco automates food distribution with AI agents
+                  - paragraph [ref=e376]:
+                    - time [ref=e378]: Apr 27, 2026
+            - generic [ref=e380]:
+              - img "oai CyberAgent 1x1" [ref=e386]
+              - link "CyberAgent moves faster with ChatGPT Enterprise and Codex - Apr 9, 2026" [ref=e387] [cursor=pointer]:
+                - /url: /index/cyberagent/
+                - generic [ref=e388]:
+                  - generic [ref=e389]: CyberAgent moves faster with ChatGPT Enterprise and Codex
+                  - paragraph [ref=e390]:
+                    - time [ref=e392]: Apr 9, 2026
+            - generic [ref=e394]:
+              - img "oai GradientLabs 1x1" [ref=e400]
+              - link "Gradient Labs gives every bank customer an AI account manager - Startup - Apr 1, 2026" [ref=e401] [cursor=pointer]:
+                - /url: /index/gradient-labs/
+                - generic [ref=e402]:
+                  - generic [ref=e403]: Gradient Labs gives every bank customer an AI account manager
+                  - paragraph [ref=e404]:
+                    - generic [ref=e405]: Startup
+                    - time [ref=e407]: Apr 1, 2026
+        - generic [ref=e410]:
+          - heading "Get started with ChatGPT" [level=2] [ref=e411]
+          - link "Download" [ref=e414] [cursor=pointer]:
+            - /url: /chatgpt/download/
+    - contentinfo [ref=e415]:
+      - generic [ref=e417]:
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - heading "Research" [level=2] [ref=e420]
+            - list [ref=e421]:
+              - listitem [ref=e422]:
+                - link "Research Index" [ref=e423] [cursor=pointer]:
+                  - /url: /research/index/
+              - listitem [ref=e424]:
+                - link "Research Overview" [ref=e425] [cursor=pointer]:
+                  - /url: /research/
+              - listitem [ref=e426]:
+                - link "Economic Research" [ref=e427] [cursor=pointer]:
+                  - /url: /signals/
+          - generic [ref=e428]:
+            - heading "Latest Advancements" [level=2] [ref=e429]
+            - list [ref=e430]:
+              - listitem [ref=e431]:
+                - link "GPT-5.5" [ref=e432] [cursor=pointer]:
+                  - /url: /index/introducing-gpt-5-5/
+              - listitem [ref=e433]:
+                - link "GPT-5.4" [ref=e434] [cursor=pointer]:
+                  - /url: /index/introducing-gpt-5-4/
+              - listitem [ref=e435]:
+                - link "GPT-5.3 Instant" [ref=e436] [cursor=pointer]:
+                  - /url: /index/gpt-5-3-instant/
+          - generic [ref=e437]:
+            - heading "Safety" [level=2] [ref=e438]
+            - list [ref=e439]:
+              - listitem [ref=e440]:
+                - link "Safety Approach" [ref=e441] [cursor=pointer]:
+                  - /url: /safety/
+              - listitem [ref=e442]:
+                - link "Deployment Safety (opens in a new window)" [ref=e443] [cursor=pointer]:
+                  - /url: https://deploymentsafety.openai.com/
+                  - text: Deployment Safety
+                  - img [ref=e444]
+                  - generic [ref=e446]: (opens in a new window)
+              - listitem [ref=e447]:
+                - link "Security & Privacy" [ref=e448] [cursor=pointer]:
+                  - /url: /security-and-privacy/
+              - listitem [ref=e449]:
+                - link "Trust & Transparency" [ref=e450] [cursor=pointer]:
+                  - /url: /trust-and-transparency/
+        - generic [ref=e451]:
+          - generic [ref=e452]:
+            - heading "Products" [level=2] [ref=e453]
+            - list [ref=e454]:
+              - listitem [ref=e455]:
+                - link "ChatGPT (opens in a new window)" [ref=e456] [cursor=pointer]:
+                  - /url: https://chatgpt.com/?openaicom-did=2cae8461-806d-4095-a31d-4d35c7e786a0&openaicom_referred=true
+                  - text: ChatGPT
+                  - img [ref=e457]
+                  - generic [ref=e459]: (opens in a new window)
+              - listitem [ref=e460]:
+                - link "ChatGPT Business (opens in a new window)" [ref=e461] [cursor=pointer]:
+                  - /url: https://chatgpt.com/business/?openaicom-did=2cae8461-806d-4095-a31d-4d35c7e786a0&openaicom_referred=true
+                  - text: ChatGPT Business
+                  - img [ref=e462]
+                  - generic [ref=e464]: (opens in a new window)
+              - listitem [ref=e465]:
+                - link "ChatGPT Enterprise (opens in a new window)" [ref=e466] [cursor=pointer]:
+                  - /url: https://chatgpt.com/business/enterprise/?openaicom-did=2cae8461-806d-4095-a31d-4d35c7e786a0&openaicom_referred=true
+                  - text: ChatGPT Enterprise
+                  - img [ref=e467]
+                  - generic [ref=e469]: (opens in a new window)
+              - listitem [ref=e470]:
+                - link "ChatGPT for Education (opens in a new window)" [ref=e471] [cursor=pointer]:
+                  - /url: https://chatgpt.com/business/education/?openaicom-did=2cae8461-806d-4095-a31d-4d35c7e786a0&openaicom_referred=true
+                  - text: ChatGPT for Education
+                  - img [ref=e472]
+                  - generic [ref=e474]: (opens in a new window)
+              - listitem [ref=e475]:
+                - link "Codex" [ref=e476] [cursor=pointer]:
+                  - /url: /codex/
+              - listitem [ref=e477]:
+                - link "Release Notes" [ref=e478] [cursor=pointer]:
+                  - /url: /products/release-notes/
+          - generic [ref=e479]:
+            - heading "API Platform" [level=2] [ref=e480]
+            - list [ref=e481]:
+              - listitem [ref=e482]:
+                - link "Overview" [ref=e483] [cursor=pointer]:
+                  - /url: /api/
+              - listitem [ref=e484]:
+                - link "API Log In (opens in a new window)" [ref=e485] [cursor=pointer]:
+                  - /url: https://platform.openai.com/login
+                  - text: API Log In
+                  - img [ref=e486]
+                  - generic [ref=e488]: (opens in a new window)
+              - listitem [ref=e489]:
+                - link "Docs (opens in a new window)" [ref=e490] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs
+                  - text: Docs
+                  - img [ref=e491]
+                  - generic [ref=e493]: (opens in a new window)
+        - generic [ref=e494]:
+          - generic [ref=e495]:
+            - heading "Business" [level=2] [ref=e496]
+            - list [ref=e497]:
+              - listitem [ref=e498]:
+                - link "Overview" [ref=e499] [cursor=pointer]:
+                  - /url: /business/
+              - listitem [ref=e500]:
+                - link "Solutions" [ref=e501] [cursor=pointer]:
+                  - /url: /solutions/
+              - listitem [ref=e502]:
+                - link "Resources" [ref=e503] [cursor=pointer]:
+                  - /url: /business/learn/
+              - listitem [ref=e504]:
+                - link "Contact Sales" [ref=e505] [cursor=pointer]:
+                  - /url: /contact-sales/
+          - generic [ref=e506]:
+            - heading "Developers" [level=2] [ref=e507]
+            - list [ref=e508]:
+              - listitem [ref=e509]:
+                - link "Apps SDK (opens in a new window)" [ref=e510] [cursor=pointer]:
+                  - /url: https://developers.openai.com/apps-sdk
+                  - text: Apps SDK
+                  - img [ref=e511]
+                  - generic [ref=e513]: (opens in a new window)
+              - listitem [ref=e514]:
+                - link "Open Models" [ref=e515] [cursor=pointer]:
+                  - /url: /open-models/
+              - listitem [ref=e516]:
+                - link "Docs (opens in a new window)" [ref=e517] [cursor=pointer]:
+                  - /url: https://developers.openai.com/
+                  - text: Docs
+                  - img [ref=e518]
+                  - generic [ref=e520]: (opens in a new window)
+              - listitem [ref=e521]:
+                - link "Resources (opens in a new window)" [ref=e522] [cursor=pointer]:
+                  - /url: https://developers.openai.com/learn
+                  - text: Resources
+                  - img [ref=e523]
+                  - generic [ref=e525]: (opens in a new window)
+              - listitem [ref=e526]:
+                - link "Developer Forum (opens in a new window)" [ref=e527] [cursor=pointer]:
+                  - /url: https://community.openai.com/
+                  - text: Developer Forum
+                  - img [ref=e528]
+                  - generic [ref=e530]: (opens in a new window)
+        - generic [ref=e531]:
+          - generic [ref=e532]:
+            - heading "Company" [level=2] [ref=e533]
+            - list [ref=e534]:
+              - listitem [ref=e535]:
+                - link "About Us" [ref=e536] [cursor=pointer]:
+                  - /url: /about/
+              - listitem [ref=e537]:
+                - link "Our Charter" [ref=e538] [cursor=pointer]:
+                  - /url: /charter/
+              - listitem [ref=e539]:
+                - link "Careers" [ref=e540] [cursor=pointer]:
+                  - /url: /careers/
+              - listitem [ref=e541]:
+                - link "News" [ref=e542] [cursor=pointer]:
+                  - /url: /news/
+          - generic [ref=e543]:
+            - heading "Support" [level=2] [ref=e544]
+            - list [ref=e545]:
+              - listitem [ref=e546]:
+                - link "Help Center (opens in a new window)" [ref=e547] [cursor=pointer]:
+                  - /url: https://help.openai.com/
+                  - text: Help Center
+                  - img [ref=e548]
+                  - generic [ref=e550]: (opens in a new window)
+        - generic [ref=e551]:
+          - generic [ref=e552]:
+            - heading "More" [level=2] [ref=e553]
+            - list [ref=e554]:
+              - listitem [ref=e555]:
+                - link "Stories" [ref=e556] [cursor=pointer]:
+                  - /url: /stories/
+              - listitem [ref=e557]:
+                - link "Academy" [ref=e558] [cursor=pointer]:
+                  - /url: /academy/
+              - listitem [ref=e559]:
+                - link "Livestreams" [ref=e560] [cursor=pointer]:
+                  - /url: /live/
+              - listitem [ref=e561]:
+                - link "Podcast" [ref=e562] [cursor=pointer]:
+                  - /url: /podcast/
+              - listitem [ref=e563]:
+                - link "RSS" [ref=e564] [cursor=pointer]:
+                  - /url: /news/rss.xml
+          - generic [ref=e565]:
+            - heading "Terms & Policies" [level=2] [ref=e566]
+            - list [ref=e567]:
+              - listitem [ref=e568]:
+                - link "Terms of Use" [ref=e569] [cursor=pointer]:
+                  - /url: /policies/terms-of-use/
+              - listitem [ref=e570]:
+                - link "Privacy Policy" [ref=e571] [cursor=pointer]:
+                  - /url: /policies/privacy-policy/
+              - listitem [ref=e572]:
+                - link "Other Policies" [ref=e573] [cursor=pointer]:
+                  - /url: /policies/
+      - generic [ref=e574]:
+        - generic [ref=e575]:
+          - link "X" [ref=e576] [cursor=pointer]:
+            - /url: https://x.com/OpenAI
+            - img [ref=e577]
+            - generic [ref=e579]: (opens in a new window)
+          - link "YouTube" [ref=e580] [cursor=pointer]:
+            - /url: https://www.youtube.com/OpenAI
+            - img [ref=e581]
+            - generic [ref=e583]: (opens in a new window)
+          - link "LinkedIn" [ref=e584] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/openai
+            - img [ref=e585]
+            - generic [ref=e587]: (opens in a new window)
+          - link "GitHub" [ref=e588] [cursor=pointer]:
+            - /url: https://github.com/openai
+            - img [ref=e589]
+            - generic [ref=e591]: (opens in a new window)
+          - link "Instagram" [ref=e592] [cursor=pointer]:
+            - /url: https://www.instagram.com/openai/
+            - img [ref=e593]
+            - generic [ref=e595]: (opens in a new window)
+          - link "TikTok" [ref=e596] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@openai
+            - img [ref=e597]
+            - generic [ref=e599]: (opens in a new window)
+          - link "Discord" [ref=e600] [cursor=pointer]:
+            - /url: https://discord.gg/openai
+            - img [ref=e601]
+            - generic [ref=e603]: (opens in a new window)
+        - generic [ref=e604]:
+          - generic [ref=e605]: OpenAI © 2015–2026
+          - button "Your privacy choices" [ref=e606] [cursor=pointer]:
+            - text: Your privacy choices
+            - img [ref=e607]
+        - generic [ref=e612]:
+          - button "Change language" [ref=e613] [cursor=pointer]:
+            - generic [ref=e614]:
+              - img [ref=e615]
+              - generic [ref=e618]:
+                - text: English
+                - generic [ref=e619]: United States
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                    - textbox "Search locales by name or region":
+                      - /placeholder: Search
+  - alert [ref=e620]

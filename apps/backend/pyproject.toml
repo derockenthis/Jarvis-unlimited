@@ -10,6 +10,7 @@ dependencies = [
   "litellm>=1.60.0",
   "mcp>=1.27.2",
   "mlx-whisper>=0.4.3",
+  "botocore>=1.35.0",
   "pydantic-settings>=2.7.0",
   "python-dotenv>=1.0.1",
   "uvicorn[standard]>=0.34.0",

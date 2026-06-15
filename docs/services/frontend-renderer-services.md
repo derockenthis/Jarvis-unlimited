@@ -8,11 +8,11 @@ Primary files:
 
 | File | Role |
 | --- | --- |
-| `apps/desktop/src/renderer/stores/useAppStore.ts` | Zustand state store and chat event reducer. |
+| `apps/desktop/src/renderer/stores/useAppStore.ts` | Zustand state store, chat event reducer, and conversation history loader. |
 | `apps/desktop/src/renderer/api/backend.ts` | HTTP/SSE API client for FastAPI. |
-| `apps/desktop/src/renderer/components/Sidebar.tsx` | Navigation rail for Provider, MCP Tools, Skills, and local Recent Chats. |
+| `apps/desktop/src/renderer/components/Sidebar.tsx` | Navigation rail for Settings, MCP Tools, Skills, and persisted Recent Chats. |
 | `apps/desktop/src/renderer/components/WorkspacePanel.tsx` | Center-pane view switcher. |
-| `apps/desktop/src/renderer/components/ProviderSettingsView.tsx` | Provider settings, Ollama model detection, saved profile loading, and autosave. |
+| `apps/desktop/src/renderer/components/SettingsView.tsx` | Provider settings, Ollama model detection, saved profile loading, and autosave. |
 | `apps/desktop/src/renderer/components/McpToolsView.tsx` | MCP tool list plus start/stop controls. |
 | `apps/desktop/src/renderer/components/SkillsView.tsx` | Skills folder selection and clearing. |
 | `apps/desktop/src/renderer/components/ChatPane.tsx` | Chat submit, streaming event handling, screen share toggle, and speech recording. |
@@ -32,18 +32,20 @@ State groups:
 | Layout | `sidebarCollapsed`, `activeWorkspaceView`. |
 | Backend | `backendUrl`. |
 | MCP | `mcpTools`. |
-| Chat | `messages`, `activeAssistantId`, `isStreaming`. |
+| Chat | `messages`, `conversation`, `sessionId`, `activeConversationId`, `activeAssistantId`, `isStreaming`. |
 | Screen sharing | `isScreenSharing`, `isScreenViewing`. |
 | Skills | `skillsRootPath`. |
 | Provider settings | `provider`, `model`, `apiKey`, `baseUrl`, `speechModel`. |
 | Preview | `preview`. |
 
-Persistence:
+Persistence and loading:
 
 1. `skillsRootPath` is stored as `jarvis.skillsRootPath` in `localStorage`.
-2. Provider settings are stored as `jarvis.provider`, `jarvis.model`, `jarvis.apiKey`, and `jarvis.baseUrl`.
+2. Provider settings are loaded from and autosaved to the backend settings API through `SettingsView.tsx`.
+3. Recent conversation titles are loaded from the backend `conversations` table through `populateConversations()`.
+4. Historical message lists are loaded from the backend `conversation_messages` table through `loadConversationMessages(conversationId)`.
 
-Security note: API keys are currently stored in `localStorage`. This is easy for a prototype but should be moved to secure local storage or an encrypted backend settings store before production.
+Security note: API keys still move through renderer state and request payloads during editing and chat submission. This is workable for a prototype but should move to a more secure local storage or secret-management path before production.
 
 ## Chat Event Reducer
 
@@ -65,6 +67,10 @@ Security note: API keys are currently stored in `localStorage`. This is easy for
 | `done` | Clears transient tool activity and closes the active turn without removing stored thoughts. |
 
 The active assistant id prevents later stream events from mutating older assistant bubbles.
+
+`addNewConversation()` creates a fresh client-side `sessionId`, clears the active conversation selection, and resets the pane to the default welcome message.
+
+`loadConversationMessages(conversationId)` replaces the current `messages` array with normalized rows returned by the backend for that conversation.
 
 ## Backend API Client
 
@@ -95,13 +101,19 @@ The active assistant id prevents later stream events from mutating older assista
 
 MCP helpers list, start, and stop MCP tools through `/api/mcp` routes.
 
+Conversation helpers:
+
+1. `listConversations(...)` calls `GET /api/conversations`.
+2. `getConversation(...)` calls `GET /api/conversations/{conversation_id}`.
+3. `getConversationMessages(...)` calls `GET /api/conversations/{conversation_id}/messages`.
+
 ## Sidebar And Workspace Behavior
 
-`Sidebar.tsx` is navigation-only. It updates `activeWorkspaceView` for Provider, MCP Tools, and Skills, and derives local Recent Chats from the current renderer messages. Selecting a recent chat row returns the center pane to chat.
+`Sidebar.tsx` loads recent conversations from the backend on mount. It updates `activeWorkspaceView` for Settings, MCP Tools, and Skills, and selecting a recent chat row sets `sessionId`, marks `activeConversationId`, and loads the stored message history into the chat pane.
 
-`WorkspacePanel.tsx` reads `activeWorkspaceView` and renders `ChatPane`, `ProviderSettingsView`, `McpToolsView`, or `SkillsView` in the center column.
+`WorkspacePanel.tsx` reads `activeWorkspaceView` and renders `ChatPane`, `SettingsView`, `McpToolsView`, or `SkillsView` in the center column.
 
-`ProviderSettingsView.tsx` owns provider settings behavior.
+`SettingsView.tsx` owns provider settings behavior.
 
 Provider settings:
 
@@ -141,8 +153,9 @@ Submission flow:
 3. Add the user and assistant placeholder messages.
 4. Clear the draft and set streaming true.
 5. Await `streamChat(...)` with current store settings.
-6. Convert failures into `error` chat events.
-7. Set streaming false when the stream exits.
+6. Refresh recent conversations from the backend when the stream exits.
+7. Convert failures into `error` chat events.
+8. Set streaming false when the stream exits.
 
 Speech-to-text flow:
 
@@ -197,7 +210,7 @@ Current native capabilities:
 
 ## Revision Notes
 
-1. Move API keys out of `localStorage` before production.
+1. Historical conversation reload currently restores message text and timestamps only; persisted tool activity and thoughts are not yet rehydrated.
 2. Add a typed preview event system for `LiveWindow`.
 3. Add durable MCP config editing once backend persistence exists.
 4. Consider a provider-aware status indicator so users can see whether OpenRouter, OpenAI, or Ollama is ready before submitting a chat.

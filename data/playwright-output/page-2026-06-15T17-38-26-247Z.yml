@@ -1,0 +1,335 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: site:reddit.com AI website builders tools site:reddit.com AI website builders tools
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:reddit.com%2BAI%2Bwebsite%2Bbuilders%2Btools&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-4YWYcW4druNLL4RhbEwVNo2apxTkON0plXz3eP6WS2lh-mQA1E0A7X4sfB9d9il7bi8jPst3reWxaajBCvbiYgi68gvN4v048oKz5q5po8i2FPIMAMXbgfmXo1gljs3WmCz0oy1fXHy3DZjK3DQglZBGfNLA&aep=1&ntc=1&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ2J8OegQIDxAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Images" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-4YWYcW4druNLL4RhbEwVNo2apxTkON0plXz3eP6WS2lh-mQA1E0A7X4sfB9d9il7bi8jPst3reWxaajBCvbiYgi68gvN4v048oKz5q5po8i2FPIMAMXbgfmXo1gljs3WmCz0oy1fXHy3DZjK3DQglZBGfNLA&q=site:reddit.com+AI+website+builders+tools&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQtKgLegQIFRAB
+              - generic [ref=e84]: Images
+          - listitem [ref=e85]:
+            - link "Shopping" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-4YWYcW4druNLL4RhbEwVNo2apxTkON0plXz3eP6WS2lh-mQA1E0A7X4sfB9d9il7bi8jPst3reWxaajBCvbiYgi68gvN4v048oKz5q5po8i2FPIMAMXbgfmXo1gljs3WmCz0oy1fXHy3DZjK3DQglZBGfNLA&q=site:reddit.com+AI+website+builders+tools&ved=1t:220175&ictx=111
+              - generic [ref=e88]: Shopping
+          - listitem [ref=e89]:
+            - link "Forums" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-4YWYcW4druNLL4RhbEwVNo2apxTkON0plXz3eP6WS2lh-mQA1E0A7X4sfB9d9il7bi8jPst3reWxaajBCvbiYgi68gvN4v048oKz5q5po8i2FPIMAMXbgfmXo1gljs3WmCz0oy1fXHy3DZjK3DQglZBGfNLA&q=site:reddit.com+AI+website+builders+tools&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQs6gLegQIERAB
+              - generic [ref=e92]: Forums
+          - listitem [ref=e93]:
+            - link "Videos" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-4YWYcW4druNLL4RhbEwVNo2apxTkON0plXz3eP6WS2lh-mQA1E0A7X4sfB9d9il7bi8jPst3reWxaajBCvbiYgi68gvN4v048oKz5q5po8i2FPIMAMXbgfmXo1gljs3WmCz0oy1fXHy3DZjK3DQglZBGfNLA&q=site:reddit.com+AI+website+builders+tools&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQtKgLegQIEhAB
+              - generic [ref=e96]: Videos
+          - listitem [ref=e97]:
+            - link "Short videos" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-4YWYcW4druNLL4RhbEwVNo2apxTkON0plXz3eP6WS2lh-mQA1E0A7X4sfB9d9il7bi8jPst3reWxaajBCvbiYgi68gvN4v048oKz5q5po8i2FPIMAMXbgfmXo1gljs3WmCz0oy1fXHy3DZjK3DQglZBGfNLA&q=site:reddit.com+AI+website+builders+tools&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQs6gLegQIExAB
+              - generic [ref=e100]: Short videos
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - heading "Web results" [level=2] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e135]:
+              - 'link "Best AI Website Builders: I Tested 15+ Tools and Narrowed ... Reddit · r/CopilotPro 140+ comments · 9 months ago" [ref=e137] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/CopilotPro/comments/1n01x5r/best_ai_website_builders_i_tested_15_tools_and/
+                - 'heading "Best AI Website Builders: I Tested 15+ Tools and Narrowed ..." [level=3] [ref=e138]'
+                - generic [ref=e144]:
+                  - generic [ref=e146]: Reddit · r/CopilotPro
+                  - generic [ref=e148]: 140+ comments · 9 months ago
+              - button "About this result" [ref=e149] [cursor=pointer]:
+                - img [ref=e152]
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - emphasis [ref=e157]: Hostinger AI Website Builder
+                - text: is your best bet, perfect for beginners and non-technical users. It's easy to use, and the pricing is hard to beat ...
+              - link "Read more" [ref=e158] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/CopilotPro/comments/1n01x5r/best_ai_website_builders_i_tested_15_tools_and/#:~:text=Hostinger%20AI%20Website%20Builder%20is,(around%20%242%2Fmonth%20for%2048%20months).
+        - generic [ref=e162]:
+          - generic [ref=e165]:
+            - 'link "What''s the best AI for building websites? : r/vibecoding Reddit · r/vibecoding 50+ comments · 5 months ago" [ref=e167] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/vibecoding/comments/1qahfj6/whats_the_best_ai_for_building_websites/
+              - 'heading "What''s the best AI for building websites? : r/vibecoding" [level=3] [ref=e168]'
+              - generic [ref=e174]:
+                - generic [ref=e176]: Reddit · r/vibecoding
+                - generic [ref=e178]: 50+ comments · 5 months ago
+            - button "About this result" [ref=e179] [cursor=pointer]:
+              - img [ref=e182]
+          - generic [ref=e185]: I want to build a website for a sim racing group that I have and all the AIs I’ve tried look so obviously AI generic and I want something that will ...
+          - generic [ref=e190]:
+            - link "50 answers" [ref=e191] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/vibecoding/comments/1qahfj6/whats_the_best_ai_for_building_websites/o330ihb/
+            - generic [ref=e192]: ·
+            - generic [ref=e193]: "Top answer:"
+            - generic [ref=e194]: I tried a bunch of AI site builders for a hobby project before and everything looked ...
+        - generic [ref=e198]:
+          - generic [ref=e201]:
+            - link "I tested free AI tools to build a website from scratch Reddit · r/smallbusinessesowners 20+ comments · 2 months ago" [ref=e203] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/smallbusinessesowners/comments/1sk3dj9/i_tested_free_ai_tools_to_build_a_website_from/
+              - heading "I tested free AI tools to build a website from scratch" [level=3] [ref=e204]
+              - generic [ref=e210]:
+                - generic [ref=e212]: Reddit · r/smallbusinessesowners
+                - generic [ref=e214]: 20+ comments · 2 months ago
+            - button "About this result" [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - text: I use
+              - emphasis [ref=e223]: Canva
+              - text: for banners and small visuals, and sometimes Midjourney or DALL·E for better images. Even small changes here make the site look way ...
+            - link "Read more" [ref=e224] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/smallbusinessesowners/comments/1sk3dj9/i_tested_free_ai_tools_to_build_a_website_from/#:~:text=I%20use%20Canva%20for%20banners,site%20look%20way%20more%20professional.
+        - generic [ref=e228]:
+          - generic [ref=e231]:
+            - link "Which AI website builder is actually worth using? Reddit · r/Entrepreneur 60+ comments · 5 months ago" [ref=e233] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/Entrepreneur/comments/1qau383/which_ai_website_builder_is_actually_worth_using/
+              - heading "Which AI website builder is actually worth using?" [level=3] [ref=e234]
+              - generic [ref=e240]:
+                - generic [ref=e242]: Reddit · r/Entrepreneur
+                - generic [ref=e244]: 60+ comments · 5 months ago
+            - button "About this result" [ref=e245] [cursor=pointer]:
+              - img [ref=e248]
+          - generic [ref=e251]: I’ve seen tools that claim they can build a website in minutes from a short description. Platforms like Wix, Squarespace, and Shopify are adding ...
+          - generic [ref=e256]:
+            - link "62 answers" [ref=e257] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/Entrepreneur/comments/1qau383/which_ai_website_builder_is_actually_worth_using/o4qrej6/
+            - generic [ref=e258]: ·
+            - generic [ref=e259]: "Top answer:"
+            - generic [ref=e260]: Some AI builders seem more useful depending on how simple or complex your project is. I would ...
+        - generic [ref=e264]:
+          - generic [ref=e267]:
+            - link "What's the best AI no-code web app builder you've ever ... Reddit · r/nocode 90+ comments · 10 months ago" [ref=e269] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/nocode/comments/1mbctla/whats_the_best_ai_nocode_web_app_builder_youve/
+              - heading "What's the best AI no-code web app builder you've ever ..." [level=3] [ref=e270]
+              - generic [ref=e276]:
+                - generic [ref=e278]: Reddit · r/nocode
+                - generic [ref=e280]: 90+ comments · 10 months ago
+            - button "About this result" [ref=e281] [cursor=pointer]:
+              - img [ref=e284]
+          - generic [ref=e287]: If there’s other apps write down in the comments!
+          - generic [ref=e292]:
+            - link "94 answers" [ref=e293] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/nocode/comments/1mbctla/whats_the_best_ai_nocode_web_app_builder_youve/n5l9giw/
+            - generic [ref=e294]: ·
+            - generic [ref=e295]: "Top answer:"
+            - generic [ref=e296]: Currently learning/using WeWeb. Last week I created a fully functioning company values generator ...
+        - generic [ref=e300]:
+          - generic [ref=e303]:
+            - link "What is the best artificial intelligence tool to help create a ... Reddit · r/website 40+ comments · 5 months ago" [ref=e305] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/website/comments/1qdmqjr/what_is_the_best_artificial_intelligence_tool_to/
+              - heading "What is the best artificial intelligence tool to help create a ..." [level=3] [ref=e306]
+              - generic [ref=e312]:
+                - generic [ref=e314]: Reddit · r/website
+                - generic [ref=e316]: 40+ comments · 5 months ago
+            - button "About this result" [ref=e317] [cursor=pointer]:
+              - img [ref=e320]
+          - generic [ref=e323]: I was creating a website and chatgpt was helping me, but it's a bit bad with HTML questions. Is there any other artificial intelligence better than chatgpt ...
+          - generic [ref=e328]:
+            - link "45 answers" [ref=e329] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/website/comments/1qdmqjr/what_is_the_best_artificial_intelligence_tool_to/nzul6yc/
+            - generic [ref=e330]: ·
+            - generic [ref=e331]: "Top answer:"
+            - generic [ref=e332]: ChatGPT is fine for ideas, but it struggles once you’re deep into HTML or layout details. ...
+        - generic [ref=e336]:
+          - generic [ref=e339]:
+            - link "What are your opinion on AI website builders? Reddit · r/growmybusiness 30+ comments · 9 months ago" [ref=e341] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/growmybusiness/comments/1mzqhgm/what_are_your_opinion_on_ai_website_builders/
+              - heading "What are your opinion on AI website builders?" [level=3] [ref=e342]
+              - generic [ref=e348]:
+                - generic [ref=e350]: Reddit · r/growmybusiness
+                - generic [ref=e352]: 30+ comments · 9 months ago
+            - button "About this result" [ref=e353] [cursor=pointer]:
+              - img [ref=e356]
+          - generic [ref=e359]: I am looking to create simple website for my small business. We are selling flowers and we need website where information of our stores will be. I just ...
+          - generic [ref=e364]:
+            - link "36 answers" [ref=e365] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/growmybusiness/comments/1mzqhgm/what_are_your_opinion_on_ai_website_builders/naljru4/
+            - generic [ref=e366]: ·
+            - generic [ref=e367]: "Top answer:"
+            - generic [ref=e368]: For a simple business like yours, an AI website builder is a great idea. They're quick and ...
+        - generic [ref=e372]:
+          - generic [ref=e375]:
+            - link "What's the Best AI Website Builder to Create an E- ... Reddit · r/nocode 50+ comments · 7 months ago" [ref=e377] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/nocode/comments/1oo7ttc/whats_the_best_ai_website_builder_to_create_an/
+              - heading "What's the Best AI Website Builder to Create an E- ..." [level=3] [ref=e378]
+              - generic [ref=e384]:
+                - generic [ref=e386]: Reddit · r/nocode
+                - generic [ref=e388]: 50+ comments · 7 months ago
+            - button "About this result" [ref=e389] [cursor=pointer]:
+              - img [ref=e392]
+          - generic [ref=e395]: Hey everyone, I’m planning to create an e-commerce website for my skincare products, but I don’t have much resources right now to hire designers ...
+          - generic [ref=e400]:
+            - link "51 answers" [ref=e401] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/nocode/comments/1oo7ttc/whats_the_best_ai_website_builder_to_create_an/no8d6rs/
+            - generic [ref=e402]: ·
+            - generic [ref=e403]: "Top answer:"
+            - generic [ref=e404]: I was in the same boat when I launched my handmade skincare shop. I didn’t know how to code ...
+        - generic [ref=e408]:
+          - generic [ref=e411]:
+            - link "Want to build a website using ai, hoping ... Reddit · r/automation 10+ comments · 5 months ago" [ref=e413] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/automation/comments/1qe5vse/want_to_build_a_website_using_ai_hoping_to_build/
+              - heading "Want to build a website using ai, hoping ..." [level=3] [ref=e414]
+              - generic [ref=e420]:
+                - generic [ref=e422]: Reddit · r/automation
+                - generic [ref=e424]: 10+ comments · 5 months ago
+            - button "About this result" [ref=e425] [cursor=pointer]:
+              - img [ref=e428]
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - text: For a
+              - emphasis [ref=e433]: website
+              - text: with content use Wordpress and your choice of
+              - emphasis [ref=e434]: AI builder
+              - text: like Elementor, Divi, PressMeGPT, Telex, or Seedprod. tjlodato. •. 4mo ...
+            - link "Read more" [ref=e435] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/automation/comments/1qe5vse/want_to_build_a_website_using_ai_hoping_to_build/#:~:text=For%20a%20website%20with%20content,4mo%20ago
+        - generic [ref=e439]:
+          - generic [ref=e442]:
+            - link "Which AI website builder is best? I tested 20+ so you don't ... Reddit · r/WebApps 30+ comments · 7 months ago" [ref=e444] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/WebApps/comments/1ohk4oe/which_ai_website_builder_is_best_i_tested_20_so/
+              - heading "Which AI website builder is best? I tested 20+ so you don't ..." [level=3] [ref=e445]
+              - generic [ref=e451]:
+                - generic [ref=e453]: Reddit · r/WebApps
+                - generic [ref=e455]: 30+ comments · 7 months ago
+            - button "About this result" [ref=e456] [cursor=pointer]:
+              - img [ref=e459]
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - text: "Best options:"
+              - emphasis [ref=e464]: Framer
+              - text: ", Squarespace Blueprint AI, Wix AI, Durable, Mixo. App builders -Built for interaction and data. You can add logins, ..."
+            - link "Read more" [ref=e465] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/WebApps/comments/1ohk4oe/which_ai_website_builder_is_best_i_tested_20_so/#:~:text=Best%20options%3A%20Framer%2C%20Squarespace%20Blueprint,payments%2C%20databases%2C%20or%20connect%20APIs.
+      - generic [ref=e467]:
+        - generic [ref=e472]:
+          - heading "People also search for" [level=2] [ref=e474]
+          - generic [ref=e476]:
+            - generic [ref=e477]:
+              - link "Ai website builders tools reddit" [ref=e481] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Ai+website+builders+tools+reddit&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ1QJ6BAg4EAE
+                - generic [ref=e482]:
+                  - generic [ref=e487]: Ai website builders tools reddit
+                  - img [ref=e491]
+              - link "Best ai website builders tools" [ref=e496] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Best+ai+website+builders+tools&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ1QJ6BAg6EAE
+                - generic [ref=e497]:
+                  - generic [ref=e502]: Best ai website builders tools
+                  - img [ref=e506]
+            - generic [ref=e508]:
+              - link "Ai website builders tools free" [ref=e512] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Ai+website+builders+tools+free&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ1QJ6BAg5EAE
+                - generic [ref=e513]:
+                  - generic [ref=e518]: Ai website builders tools free
+                  - img [ref=e522]
+              - link "Ai website builders tools list" [ref=e527] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Ai+website+builders+tools+list&sa=X&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ1QJ6BAg3EAE
+                - generic [ref=e528]:
+                  - generic [ref=e533]: Ai website builders tools list
+                  - img [ref=e537]
+        - navigation [ref=e539]:
+          - heading "Page Navigation" [level=1] [ref=e540]
+          - text: "1"
+          - link "Page 2" [ref=e543] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=10&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=e545] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=20&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=e547] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=30&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=e549] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=40&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=e551] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=50&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=e553] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=60&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAO
+            - text: "7"
+          - link "Page 8" [ref=e555] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=70&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAQ
+            - text: "8"
+          - link "Page 9" [ref=e557] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=80&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAS
+            - text: "9"
+          - link "Page 10" [ref=e559] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=90&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8tMDegQINRAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e561]:
+            - link "Next" [ref=e562] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com+AI+website+builders+tools&sca_esv=c6c16ab1eb0a4421&ei=kTgwarb_KLHckPIPu_quWA&start=10&sa=N&sstk=AU9db-BqQWtckLvKMkd75Rn6VN6pWEcThh39DU0MENBgt4jStZSmHAAtf1YDi0EZn8dZ98YYPyxqeMNKF6emmWbBRjPCgpYaabnu1Q&ved=2ahUKEwj2i7PZ5ImVAxUxLkQIHTu9CwsQ8NMDegQINRAW
+              - generic [ref=e564]: Next
+      - navigation
+    - contentinfo [ref=e565]:
+      - heading "Footer Links" [level=1] [ref=e566]
+      - generic [ref=e570]:
+        - generic [ref=e574]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e576] [cursor=pointer]:
+            - generic [ref=e577]: 92780, Tustin, CA
+            - generic [ref=e579]:
+              - text: "-"
+              - generic [ref=e580]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e582] [cursor=pointer]: Update location
+        - generic [ref=e585]:
+          - link "Help" [ref=e586] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e587] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e588] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e589] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

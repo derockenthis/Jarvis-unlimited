@@ -1,0 +1,326 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: site:reddit.com "user sentiment" technology love hate pain points pros cons site:reddit.com "user sentiment" technology love hate pain points pros cons
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:reddit.com%2B%2522user%2Bsentiment%2522%2Btechnology%2Blove%2Bhate%2Bpain%2Bpoints%2Bpros%2Bcons%26sei%3DDjQwatvEKonQkPIPismwWQ&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&sca_esv=c6c16ab1eb0a4421&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTUnm45O_6Cq-1VJ9pZry9x4136122odOjFfF7iAYEaZMM5TFelRCeqlfTeHc2cZojXEKPH5POPsSX_GiW925ueUsuuVvasBuAwJmzTUevIRTzGxIi27YgNF0aOj-QHECspO8vjczcFKjUOwZwsR1kGA1ZaVg&aep=1&ntc=1&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ2J8OegQIFBAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Images" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTUnm45O_6Cq-1VJ9pZry9x4136122odOjFfF7iAYEaZMM5TFelRCeqlfTeHc2cZojXEKPH5POPsSX_GiW925ueUsuuVvasBuAwJmzTUevIRTzGxIi27YgNF0aOj-QHECspO8vjczcFKjUOwZwsR1kGA1ZaVg&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQtKgLegQIGhAB
+              - generic [ref=e84]: Images
+          - listitem [ref=e85]:
+            - link "Short videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTUnm45O_6Cq-1VJ9pZry9x4136122odOjFfF7iAYEaZMM5TFelRCeqlfTeHc2cZojXEKPH5POPsSX_GiW925ueUsuuVvasBuAwJmzTUevIRTzGxIi27YgNF0aOj-QHECspO8vjczcFKjUOwZwsR1kGA1ZaVg&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQs6gLegQIGRAB
+              - generic [ref=e88]: Short videos
+          - listitem [ref=e89]:
+            - link "Videos" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTUnm45O_6Cq-1VJ9pZry9x4136122odOjFfF7iAYEaZMM5TFelRCeqlfTeHc2cZojXEKPH5POPsSX_GiW925ueUsuuVvasBuAwJmzTUevIRTzGxIi27YgNF0aOj-QHECspO8vjczcFKjUOwZwsR1kGA1ZaVg&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQtKgLegQIGBAB
+              - generic [ref=e92]: Videos
+          - listitem [ref=e93]:
+            - link "Forums" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTUnm45O_6Cq-1VJ9pZry9x4136122odOjFfF7iAYEaZMM5TFelRCeqlfTeHc2cZojXEKPH5POPsSX_GiW925ueUsuuVvasBuAwJmzTUevIRTzGxIi27YgNF0aOj-QHECspO8vjczcFKjUOwZwsR1kGA1ZaVg&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQs6gLegQIFxAB
+              - generic [ref=e96]: Forums
+          - listitem [ref=e97]:
+            - link "News" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclTUnm45O_6Cq-1VJ9pZry9x4136122odOjFfF7iAYEaZMM5TFelRCeqlfTeHc2cZojXEKPH5POPsSX_GiW925ueUsuuVvasBuAwJmzTUevIRTzGxIi27YgNF0aOj-QHECspO8vjczcFKjUOwZwsR1kGA1ZaVg&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ0pQJegQIFhAB
+              - generic [ref=e100]: News
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - heading "Web results" [level=2] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e135]:
+              - link "Are we overestimating how much users actually want “AI” ... Reddit · r/startups 90+ comments · 6 months ago" [ref=e137] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/startups/comments/1per12o/are_we_overestimating_how_much_users_actually/
+                - heading "Are we overestimating how much users actually want “AI” ..." [level=3] [ref=e138]
+                - generic [ref=e144]:
+                  - generic [ref=e146]: Reddit · r/startups
+                  - generic [ref=e148]: 90+ comments · 6 months ago
+              - button "About this result" [ref=e149] [cursor=pointer]:
+                - img [ref=e152]
+            - generic [ref=e155]: It feels like every product needs an AI badge now or it’s considered outdated. But as a user, a lot of these features feel bolted-on or ignored after ...
+            - generic [ref=e160]:
+              - link "99 answers" [ref=e161] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/startups/comments/1per12o/are_we_overestimating_how_much_users_actually/nseggfl/
+              - generic [ref=e162]: ·
+              - generic [ref=e163]: "Top answer:"
+              - generic [ref=e164]: Users want problems solved they don't care if it is AI or not 99% of the time. Even ...
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - link "Why do people act like UX Design is some type of sacred ... Reddit · r/UXDesign 200+ comments · 1 year ago" [ref=e173] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/UXDesign/comments/1jgia0d/why_do_people_act_like_ux_design_is_some_type_of/
+              - heading "Why do people act like UX Design is some type of sacred ..." [level=3] [ref=e174]
+              - generic [ref=e180]:
+                - generic [ref=e182]: Reddit · r/UXDesign
+                - generic [ref=e184]: 200+ comments · 1 year ago
+            - button "About this result" [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - text: ...
+              - emphasis [ref=e193]: user sentiment
+              - text: . It was a complex problem to solve because it was a ... But
+              - emphasis [ref=e194]: I hate
+              - text: the cocky ones.. who, instead of helping others, look ...
+            - link "Read more" [ref=e195] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/UXDesign/comments/1jgia0d/why_do_people_act_like_ux_design_is_some_type_of/#:~:text=user%20sentiment.%20It%20was%20a,solve%20because%20it%20was%20a&text=But%20I%20hate%20the%20cocky,worthless%20and%20don't%20belong%20there!
+          - generic [ref=e197]:
+            - text: "Missing: cons ‎| Show results with:"
+            - link "cons" [ref=e198] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+%22cons%22&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ5t4CegQIMRAB
+        - generic [ref=e202]:
+          - generic [ref=e205]:
+            - link "If you didn't own software before, you should now. Reddit · r/ValueInvesting 300+ comments · 4 months ago" [ref=e207] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ValueInvesting/comments/1r2fhb6/if_you_didnt_own_software_before_you_should_now/
+              - heading "If you didn't own software before, you should now." [level=3] [ref=e208]
+              - generic [ref=e214]:
+                - generic [ref=e216]: Reddit · r/ValueInvesting
+                - generic [ref=e218]: 300+ comments · 4 months ago
+            - button "About this result" [ref=e219] [cursor=pointer]:
+              - img [ref=e222]
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - text: "... that it is. Edit:"
+              - emphasis [ref=e227]: I
+              - text: am invested in NOW, just saying that
+              - emphasis [ref=e228]: user sentiment
+              - text: is also something to take into account when doing DD. 4 more replies.
+            - link "Read more" [ref=e229] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ValueInvesting/comments/1r2fhb6/if_you_didnt_own_software_before_you_should_now/#:~:text=If%20something%20is%20cheap%20and,more%20replies
+          - generic [ref=e231]:
+            - text: "Missing: cons ‎| Show results with:"
+            - link "cons" [ref=e232] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+%22cons%22&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ5t4CegQINBAB
+        - generic [ref=e236]:
+          - generic [ref=e239]:
+            - link "Open Letter to Anthropic - Last Ditch Attempt Before ... Reddit · r/Anthropic 210+ comments · 10 months ago" [ref=e241] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/Anthropic/comments/1m5h5td/open_letter_to_anthropic_last_ditch_attempt/
+              - heading "Open Letter to Anthropic - Last Ditch Attempt Before ..." [level=3] [ref=e242]
+              - generic [ref=e248]:
+                - generic [ref=e250]: Reddit · r/Anthropic
+                - generic [ref=e252]: 210+ comments · 10 months ago
+            - button "About this result" [ref=e253] [cursor=pointer]:
+              - img [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - emphasis [ref=e261]: I
+              - text: don't like using
+              - emphasis [ref=e262]: user sentiment
+              - text: though.
+              - emphasis [ref=e263]: User sentiment
+              - text: isn't always correct(lmarena is a glaring example of this). They need a set of ...
+            - link "Read more" [ref=e264] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/Anthropic/comments/1m5h5td/open_letter_to_anthropic_last_ditch_attempt/#:~:text=I%20don't%20like%20using%20user,relevant%20to%20what%20they%20do.
+          - generic [ref=e266]:
+            - text: "Missing: cons ‎| Show results with:"
+            - link "cons" [ref=e267] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+%22cons%22&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ5t4CegQIMxAB
+        - generic [ref=e271]:
+          - generic [ref=e274]:
+            - link "Analyzed 10000+ Reddit discussions about GPT-5's launch Reddit · r/ChatGPTPro 10+ comments · 10 months ago" [ref=e276] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ChatGPTPro/comments/1muey3x/analyzed_10000_reddit_discussions_about_gpt5s/
+              - heading "Analyzed 10000+ Reddit discussions about GPT-5's launch" [level=3] [ref=e277]
+              - generic [ref=e283]:
+                - generic [ref=e285]: Reddit · r/ChatGPTPro
+                - generic [ref=e287]: 10+ comments · 10 months ago
+            - button "About this result" [ref=e288] [cursor=pointer]:
+              - img [ref=e291]
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - text: A lot of genuine insights on
+              - emphasis [ref=e296]: user sentiment
+              - text: can be extracted from places like reddit / tiktok / IG etc. Hard part is capturing meaningful ...
+            - link "Read more" [ref=e297] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ChatGPTPro/comments/1muey3x/analyzed_10000_reddit_discussions_about_gpt5s/#:~:text=A%20lot%20of%20genuine%20insights,much%20of%20it%20is%20slop).
+          - generic [ref=e299]: "Missing: love ‎cons"
+        - generic [ref=e303]:
+          - generic [ref=e306]:
+            - link "I spent 6 months believing my AI might be conscious. ... Reddit · r/ArtificialSentience 820+ comments · 8 months ago" [ref=e308] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ArtificialSentience/comments/1nwj06l/i_spent_6_months_believing_my_ai_might_be/
+              - heading "I spent 6 months believing my AI might be conscious. ..." [level=3] [ref=e309]
+              - generic [ref=e315]:
+                - generic [ref=e317]: Reddit · r/ArtificialSentience
+                - generic [ref=e319]: 820+ comments · 8 months ago
+            - button "About this result" [ref=e320] [cursor=pointer]:
+              - img [ref=e323]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - text: Mirroring
+              - emphasis [ref=e328]: user sentiment
+              - text: comes from statistical correlation in training data (people praising or agreeing), not from an internal “reward ...
+            - link "Read more" [ref=e329] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ArtificialSentience/comments/1nwj06l/i_spent_6_months_believing_my_ai_might_be/#:~:text=Mirroring%20user%20sentiment%20comes%20from,an%20internal%20%E2%80%9Creward%20maximizer%E2%80%9D%20module.
+        - generic [ref=e333]:
+          - generic [ref=e336]:
+            - link "Been using Linear for 6 months vs Jira - here's my brutally ... Reddit · r/ProductManagement 110+ comments · 9 months ago" [ref=e338] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ProductManagement/comments/1neyq6j/been_using_linear_for_6_months_vs_jira_heres_my/
+              - heading "Been using Linear for 6 months vs Jira - here's my brutally ..." [level=3] [ref=e339]
+              - generic [ref=e345]:
+                - generic [ref=e347]: Reddit · r/ProductManagement
+                - generic [ref=e349]: 110+ comments · 9 months ago
+            - button "About this result" [ref=e350] [cursor=pointer]:
+              - img [ref=e353]
+          - generic [ref=e356]:
+            - generic [ref=e357]:
+              - text: That way you can actually tie the 'features shipped' to actual '
+              - emphasis [ref=e358]: user sentiment
+              - text: "', because at the EOD that's what the stakeholders care about."
+            - link "Read more" [ref=e359] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ProductManagement/comments/1neyq6j/been_using_linear_for_6_months_vs_jira_heres_my/#:~:text=That%20way%20you%20can%20actually,what%20the%20stakeholders%20care%20about.
+        - generic [ref=e363]:
+          - generic [ref=e366]:
+            - link "What's the most unexpectedly useful thing you've used AI for? Reddit · r/ArtificialInteligence 590+ comments · 1 year ago" [ref=e368] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ArtificialInteligence/comments/1k0ranq/whats_the_most_unexpectedly_useful_thing_youve/
+              - heading "What's the most unexpectedly useful thing you've used AI for?" [level=3] [ref=e369]
+              - generic [ref=e375]:
+                - generic [ref=e377]: Reddit · r/ArtificialInteligence
+                - generic [ref=e379]: 590+ comments · 1 year ago
+            - button "About this result" [ref=e380] [cursor=pointer]:
+              - img [ref=e383]
+          - generic [ref=e386]: I’ve been using many AI's for a while now for writing, even the occasional coding help. But am starting to wonder what are some less obvious ways people ...
+          - generic [ref=e391]:
+            - link "596 answers" [ref=e392] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/ArtificialInteligence/comments/1k0ranq/whats_the_most_unexpectedly_useful_thing_youve/mngdahk/
+            - generic [ref=e393]: ·
+            - generic [ref=e394]: "Top answer:"
+            - generic [ref=e395]: I build with AI daily as a software engineer but the most unexpected use case involved drafting ...
+        - generic [ref=e399]:
+          - generic [ref=e402]:
+            - link "r/competitiveintelligen Reddit · r/competitiveintelligen 60+ followers" [ref=e404] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/competitiveintelligen/
+              - heading "r/competitiveintelligen" [level=3] [ref=e405]
+              - generic [ref=e411]:
+                - generic [ref=e413]: Reddit · r/competitiveintelligen
+                - generic [ref=e415]: 60+ followers
+            - button "About this result" [ref=e416] [cursor=pointer]:
+              - img [ref=e419]
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - text: Discord conversations happen in real-time, revealing immediate
+              - emphasis [ref=e424]: user sentiment
+              - text: that doesn't make it to public reviews or social media. Hacker ...
+            - link "Read more" [ref=e425] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/competitiveintelligen/#:~:text=Discord%20conversations%20happen%20in%20real%2Dtime%2C,News%3A%20The%20Technical%20Truth%20Detector
+          - generic [ref=e427]:
+            - text: "Missing: cons ‎| Show results with:"
+            - link "cons" [ref=e428] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+%22cons%22&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ5t4CegQIQRAB
+        - generic [ref=e432]:
+          - generic [ref=e435]:
+            - link "Microsoft Realizes It's Epically Screwed Up Windows 11 as ... Reddit · r/pcmasterrace 350+ comments · 2 months ago" [ref=e437] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/pcmasterrace/comments/1s2q45g/microsoft_realizes_its_epically_screwed_up/
+              - heading "Microsoft Realizes It's Epically Screwed Up Windows 11 as ..." [level=3] [ref=e438]
+              - generic [ref=e444]:
+                - generic [ref=e446]: Reddit · r/pcmasterrace
+                - generic [ref=e448]: 350+ comments · 2 months ago
+            - button "About this result" [ref=e449] [cursor=pointer]:
+              - img [ref=e452]
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - text: So they actually care about regular
+              - emphasis [ref=e457]: user's sentiment
+              - text: "? Is the shift to linux high enough to move the needle? Did they hire an agency to gauge ..."
+            - link "Read more" [ref=e458] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/pcmasterrace/comments/1s2q45g/microsoft_realizes_its_epically_screwed_up/#:~:text=So%20they%20actually%20care%20about,to%20gauge%20social%20media%20discourse%3F
+          - generic [ref=e460]:
+            - text: "Missing: cons ‎| Show results with:"
+            - link "cons" [ref=e461] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+%22cons%22&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ5t4CegQISBAB
+      - generic [ref=e463]:
+        - generic [ref=e468]:
+          - heading "People also search for" [level=2] [ref=e470]
+          - generic [ref=e472]:
+            - link "User sentiment technology love hate pain points pros cons reddit" [ref=e477] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=User+sentiment+technology+love+hate+pain+points+pros+cons+reddit&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ1QJ6BAg8EAE
+              - generic [ref=e478]:
+                - generic [ref=e483]: User sentiment technology love hate pain points pros cons reddit
+                - img [ref=e487]
+            - link "User sentiment technology love hate pain points pros cons pdf" [ref=e493] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&q=User+sentiment+technology+love+hate+pain+points+pros+cons+pdf&sa=X&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ1QJ6BAg7EAE
+              - generic [ref=e494]:
+                - generic [ref=e499]: User sentiment technology love hate pain points pros cons pdf
+                - img [ref=e503]
+        - navigation [ref=e505]:
+          - heading "Page Navigation" [level=1] [ref=e506]
+          - text: "1"
+          - link "Page 2" [ref=e509] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&sca_esv=c6c16ab1eb0a4421&ei=DjQwas3HMd7ukPIPis6x0Q0&start=10&sa=N&sstk=AU9db-BU_YBP9vynLjGi1Amuo_o3znjhNG_11oWfCRBbsOYbvEMe7BihD3u4k1_EGP2ZN8g0s_etxlQkrB9ny09HA7oTXNQxVyyFqQ&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ8tMDegQINRAE
+            - text: "2"
+          - heading "Next" [level=2] [ref=e511]:
+            - link "Next" [ref=e512] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com+%22user+sentiment%22+technology+love+hate+pain+points+pros+cons&sca_esv=c6c16ab1eb0a4421&ei=DjQwas3HMd7ukPIPis6x0Q0&start=10&sa=N&sstk=AU9db-BU_YBP9vynLjGi1Amuo_o3znjhNG_11oWfCRBbsOYbvEMe7BihD3u4k1_EGP2ZN8g0s_etxlQkrB9ny09HA7oTXNQxVyyFqQ&ved=2ahUKEwjNhtyy4ImVAxVeN0QIHQpnLNoQ8NMDegQINRAG
+              - generic [ref=e514]: Next
+      - navigation
+    - contentinfo [ref=e515]:
+      - heading "Footer Links" [level=1] [ref=e516]
+      - generic [ref=e520]:
+        - generic [ref=e524]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e526] [cursor=pointer]:
+            - generic [ref=e527]: 92780, Tustin, CA
+            - generic [ref=e529]:
+              - text: "-"
+              - generic [ref=e530]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e532] [cursor=pointer]: Update location
+        - generic [ref=e535]:
+          - link "Help" [ref=e536] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e537] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e538] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e539] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

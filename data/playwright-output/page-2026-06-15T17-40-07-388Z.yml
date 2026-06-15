@@ -1,0 +1,485 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: Framer AI homepage Framer AI homepage
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DFramer%2BAI%2Bhomepage&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&aep=1&ntc=1&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ2J8OegQIDxAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Images" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Framer+AI+homepage&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQtKgLegQIFBAB
+              - generic [ref=e84]: Images
+          - listitem [ref=e85]:
+            - link "Videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Framer+AI+homepage&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQtKgLegQIFRAB
+              - generic [ref=e88]: Videos
+          - listitem [ref=e89]:
+            - link "Shopping" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Framer+AI+homepage&ved=1t:220175&ictx=111
+              - generic [ref=e92]: Shopping
+          - listitem [ref=e93]:
+            - link "Forums" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Framer+AI+homepage&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQs6gLegQIEhAB
+              - generic [ref=e96]: Forums
+          - listitem [ref=e97]:
+            - link "Short videos" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Framer+AI+homepage&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQs6gLegQIERAB
+              - generic [ref=e100]: Short videos
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - heading "Web results" [level=2] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e135]:
+              - 'link "Framer AI: Design websites faster with intelligent tools Framer https://www.framer.com › ai" [ref=e137] [cursor=pointer]':
+                - /url: https://www.framer.com/ai/
+                - 'heading "Framer AI: Design websites faster with intelligent tools" [level=3] [ref=e138]'
+                - generic [ref=e144]:
+                  - generic [ref=e146]: Framer
+                  - generic [ref=e148]: https://www.framer.com › ai
+              - button "About this result" [ref=e149] [cursor=pointer]:
+                - img [ref=e152]
+            - generic [ref=e156]:
+              - text: Build beautiful sites in seconds with
+              - emphasis [ref=e157]: Framer AI
+              - text: . Generate layouts, create interactive components, translate your site automatically, and extend Framer with ...
+        - generic [ref=e161]:
+          - generic [ref=e164]:
+            - 'link "Framer: Create a professional website, free. No code website ... Framer https://www.framer.com" [ref=e166] [cursor=pointer]':
+              - /url: https://www.framer.com/
+              - 'heading "Framer: Create a professional website, free. No code website ..." [level=3] [ref=e167]'
+              - generic [ref=e173]:
+                - generic [ref=e175]: Framer
+                - generic [ref=e177]: https://www.framer.com
+            - button "About this result" [ref=e178] [cursor=pointer]:
+              - img [ref=e181]
+          - generic [ref=e185]:
+            - text: Build a free
+            - emphasis [ref=e186]: website
+            - text: with
+            - emphasis [ref=e187]: Framer
+            - text: —enjoy full design freedom, powerful CMS, built-in SEO, and real-time collaboration. Create professional, fully custom sites ...
+        - generic [ref=e191]:
+          - generic [ref=e194]:
+            - 'link "Framer Gallery: The best AI website designs & inspiration Framer https://www.framer.com › gallery › categories › ai" [ref=e196] [cursor=pointer]':
+              - /url: https://www.framer.com/gallery/categories/ai
+              - 'heading "Framer Gallery: The best AI website designs & inspiration" [level=3] [ref=e197]'
+              - generic [ref=e203]:
+                - generic [ref=e205]: Framer
+                - generic [ref=e207]: https://www.framer.com › gallery › categories › ai
+            - button "About this result" [ref=e208] [cursor=pointer]:
+              - img [ref=e211]
+          - generic [ref=e214]:
+            - generic [ref=e215]:
+              - text: Discover the perfect blend of advanced AI technology and exceptional web design in these
+              - emphasis [ref=e216]: Framer-crafted sites
+              - text: ", where each product's story is narrated through ..."
+            - link "Read more" [ref=e217] [cursor=pointer]:
+              - /url: https://www.framer.com/gallery/categories/ai#:~:text=Discover%20the%20perfect%20blend%20of,narrated%20through%20futuristic%20digital%20experiences.
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - heading "Videos" [level=2] [ref=e224]
+            - button "About this result" [ref=e225] [cursor=pointer]:
+              - img [ref=e228]
+          - generic [ref=e231]:
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - 'link "Framer AI Tutorial: Create a Site in Minutes YouTube Pierluigi Giglio May 26, 2024" [ref=e240] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=LLPFQicKDPA
+                    - 'heading "Framer AI Tutorial: Create a Site in Minutes YouTube Pierluigi Giglio May 26, 2024" [level=3] [ref=e241]':
+                      - generic [ref=e244]: "Framer AI Tutorial: Create a Site in Minutes"
+                      - generic [ref=e246]:
+                        - generic [ref=e247]:
+                          - text: YouTube
+                          - generic [ref=e248]: · Pierluigi Giglio
+                        - generic [ref=e249]: May 26, 2024
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Pierluigi Giglio
+                      - button "About this result" [ref=e250] [cursor=pointer]:
+                        - img [ref=e253]
+                - 'button "Framer AI Tutorial: Create a Site in Minutes by Pierluigi Giglio on YouTube. Play on Google. 3:04" [ref=e255] [cursor=pointer]':
+                  - generic [ref=e256]:
+                    - img [ref=e259]
+                    - generic [ref=e262]:
+                      - generic [ref=e263]: 3:04
+                      - img [ref=e266]
+              - button "Generate a page using AI by clicking command + K (control + K on Windows) and writing a prompt for your desired site." [ref=e269] [cursor=pointer]:
+                - generic [ref=e273]: Generate a page using AI by clicking command + K (control + K on Windows) and writing a prompt for your desired site.
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - generic [ref=e281]:
+                  - link "I made a website in 15 minutes (Framer AI Features) YouTube FrameSpace Jun 6, 2025" [ref=e283] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=pecdg6T-F7k
+                    - heading "I made a website in 15 minutes (Framer AI Features) YouTube FrameSpace Jun 6, 2025" [level=3] [ref=e284]:
+                      - generic [ref=e287]: I made a website in 15 minutes (Framer AI Features)
+                      - generic [ref=e289]:
+                        - generic [ref=e290]:
+                          - text: YouTube
+                          - generic [ref=e291]: · FrameSpace
+                        - generic [ref=e292]: Jun 6, 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · FrameSpace
+                      - button "About this result" [ref=e293] [cursor=pointer]:
+                        - img [ref=e296]
+                - button "I made a website in 15 minutes (Framer AI Features) by FrameSpace on YouTube. Play on Google. 14:41" [ref=e298] [cursor=pointer]:
+                  - generic [ref=e299]:
+                    - img [ref=e305]
+                    - generic [ref=e308]:
+                      - generic [ref=e309]: 14:41
+                      - img [ref=e312]
+              - button "5 key moments in this video" [ref=e318] [cursor=pointer]:
+                - generic [ref=e327]:
+                  - generic [ref=e330]: 5 key moments in this video
+                  - img [ref=e332]
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - link "FRAMER AI FULL TUTORIAL FOR BEGINNERS | Website ... YouTube Phylux Express Apr 12, 2026" [ref=e342] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=2hYmtvhTdcc
+                  - heading "FRAMER AI FULL TUTORIAL FOR BEGINNERS | Website ... YouTube Phylux Express Apr 12, 2026" [level=3] [ref=e343]:
+                    - generic [ref=e346]: FRAMER AI FULL TUTORIAL FOR BEGINNERS | Website ...
+                    - generic [ref=e348]:
+                      - generic [ref=e349]:
+                        - text: YouTube
+                        - generic [ref=e350]: · Phylux Express
+                      - generic [ref=e351]: Apr 12, 2026
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Phylux Express
+                    - button "About this result" [ref=e352] [cursor=pointer]:
+                      - img [ref=e355]
+              - button "FRAMER AI FULL TUTORIAL FOR BEGINNERS | Website ... by Phylux Express on YouTube. Play on Google. 11:02" [ref=e357] [cursor=pointer]:
+                - generic [ref=e358]:
+                  - img [ref=e361]
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: 11:02
+                    - img [ref=e368]
+            - generic [ref=e375]:
+              - generic [ref=e376]:
+                - generic [ref=e377]:
+                  - link "Framer tutorial | How to build the best website with a touch of AI? YouTube Cybernews Jan 21, 2025" [ref=e379] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=TQhvuih_gBI
+                    - heading "Framer tutorial | How to build the best website with a touch of AI? YouTube Cybernews Jan 21, 2025" [level=3] [ref=e380]:
+                      - generic [ref=e383]: Framer tutorial | How to build the best website with a touch of AI?
+                      - generic [ref=e385]:
+                        - generic [ref=e386]:
+                          - text: YouTube
+                          - generic [ref=e387]: · Cybernews
+                        - generic [ref=e388]: Jan 21, 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Cybernews
+                      - button "About this result" [ref=e389] [cursor=pointer]:
+                        - img [ref=e392]
+                - button "Framer tutorial | How to build the best website with a touch of AI? by Cybernews on YouTube. Play on Google. 6:59" [ref=e394] [cursor=pointer]:
+                  - generic [ref=e395]:
+                    - img [ref=e401]
+                    - generic [ref=e404]:
+                      - generic [ref=e405]: 6:59
+                      - img [ref=e408]
+              - button "6 key moments in this video" [ref=e414] [cursor=pointer]:
+                - generic [ref=e423]:
+                  - generic [ref=e426]: 6 key moments in this video
+                  - img [ref=e428]
+          - link "View all videos" [ref=e432] [cursor=pointer]:
+            - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=7&q=Framer+AI+homepage&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8ccDKAJ6BAgaEAQ
+            - separator [ref=e433]
+            - generic [ref=e434]:
+              - generic [ref=e435]: View all
+              - img [ref=e437]
+        - generic [ref=e441]:
+          - heading "Web results" [level=2] [ref=e442]
+          - generic [ref=e443]:
+            - generic [ref=e446]:
+              - 'link "Framer: The web builder for stunning sites. framer-ai.com https://framer-ai.com" [ref=e448] [cursor=pointer]':
+                - /url: https://framer-ai.com/index.html
+                - 'heading "Framer: The web builder for stunning sites." [level=3] [ref=e449]'
+                - generic [ref=e451]:
+                  - img [ref=e456]
+                  - generic [ref=e458]:
+                    - generic [ref=e460]: framer-ai.com
+                    - generic [ref=e462]: https://framer-ai.com
+              - button "About this result" [ref=e463] [cursor=pointer]:
+                - img [ref=e466]
+            - generic [ref=e469]:
+              - generic [ref=e470]:
+                - emphasis [ref=e471]: AI
+                - text: Tools. Enhance your
+                - emphasis [ref=e472]: website
+                - text: with built-in
+                - emphasis [ref=e473]: AI
+                - text: tools for translation, text rewrite for polished content and
+                - emphasis [ref=e474]: AI
+                - text: style to precisely define your brand tone.
+              - link "Read more" [ref=e475] [cursor=pointer]:
+                - /url: https://framer-ai.com/index.html#:~:text=AI%20Tools,precisely%20define%20your%20brand%20tone.
+        - generic [ref=e479]:
+          - generic [ref=e482]:
+            - link "Fram.AI - AI Framer Website Template Fram.AI https://framai.framer.website" [ref=e484] [cursor=pointer]:
+              - /url: https://framai.framer.website/
+              - heading "Fram.AI - AI Framer Website Template" [level=3] [ref=e485]
+              - generic [ref=e491]:
+                - generic [ref=e493]: Fram.AI
+                - generic [ref=e495]: https://framai.framer.website
+            - button "About this result" [ref=e496] [cursor=pointer]:
+              - img [ref=e499]
+          - generic [ref=e503]:
+            - text: Welcome to Fram.
+            - emphasis [ref=e504]: AI
+            - text: – where
+            - emphasis [ref=e505]: AI
+            - text: meets design! Craft stunning visuals effortlessly with our user-friendly platform. Personalize, collaborate, and bring your ...
+        - generic [ref=e509]:
+          - generic [ref=e512]:
+            - link "AI - Framer Academy Framer https://www.framer.com › academy › topics › ai" [ref=e514] [cursor=pointer]:
+              - /url: https://www.framer.com/academy/topics/ai
+              - heading "AI - Framer Academy" [level=3] [ref=e515]
+              - generic [ref=e521]:
+                - generic [ref=e523]: Framer
+                - generic [ref=e525]: https://www.framer.com › academy › topics › ai
+            - button "About this result" [ref=e526] [cursor=pointer]:
+              - img [ref=e529]
+          - generic [ref=e532]:
+            - generic [ref=e533]: Jun 12, 2025 —
+            - generic [ref=e534]:
+              - emphasis [ref=e535]: Use AI in Framer
+              - text: to speed up your design flow or generate components that used to need a developer.
+        - generic [ref=e539]:
+          - generic [ref=e542]:
+            - link "How do I access the AI tools? - Framer Community framer.community https://www.framer.community › support › how-do-i-acc..." [ref=e544] [cursor=pointer]:
+              - /url: https://www.framer.community/c/support/how-do-i-access-the-ai-tools
+              - heading "How do I access the AI tools? - Framer Community" [level=3] [ref=e545]
+              - generic [ref=e547]:
+                - img [ref=e552]
+                - generic [ref=e554]:
+                  - generic [ref=e556]: framer.community
+                  - generic [ref=e558]: https://www.framer.community › support › how-do-i-acc...
+            - button "About this result" [ref=e559] [cursor=pointer]:
+              - img [ref=e562]
+          - generic [ref=e565]:
+            - generic [ref=e566]: Dec 25, 2024 —
+            - generic [ref=e567]:
+              - text: The discussion clarifies
+              - emphasis [ref=e568]: how to access Framer's AI tools
+              - text: ", highlighting that the original 'generate page' feature has been replaced by new tools called ..."
+            - link "Read more" [ref=e569] [cursor=pointer]:
+              - /url: https://www.framer.community/c/support/how-do-i-access-the-ai-tools#:~:text=The%20discussion%20clarifies%20how%20to,replaced%20by%20new%20tools%20called
+          - generic [ref=e572]:
+            - generic [ref=e573]:
+              - link "Did they remove the web generation by AI" [ref=e576] [cursor=pointer]:
+                - /url: https://www.framer.community/c/support/did-they-remove-the-web-generation-by-ai
+                - generic [ref=e577]:
+                  - text: Did they remove the web generation by
+                  - emphasis [ref=e578]: AI
+              - generic [ref=e580]: Jan 12, 2024
+            - generic [ref=e581]:
+              - link "AI Assistants on the website" [ref=e584] [cursor=pointer]:
+                - /url: https://www.framer.community/c/support/ai-assistants-on-the-website
+                - generic [ref=e585]:
+                  - emphasis [ref=e586]: AI
+                  - text: Assistants on the
+                  - emphasis [ref=e587]: website
+              - generic [ref=e589]: Feb 14, 2024
+            - link "More results from www.framer.community" [ref=e593] [cursor=pointer]:
+              - /url: /search?q=Framer+AI+homepage+site:www.framer.community&sca_esv=c6c16ab1eb0a4421&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQrQIoAnoECDcQAw
+        - generic [ref=e597]:
+          - generic [ref=e600]:
+            - link "Quickly build your site page structure with AI Framer https://www.framer.com › wireframer" [ref=e602] [cursor=pointer]:
+              - /url: https://www.framer.com/wireframer/
+              - heading "Quickly build your site page structure with AI" [level=3] [ref=e603]
+              - generic [ref=e609]:
+                - generic [ref=e611]: Framer
+                - generic [ref=e613]: https://www.framer.com › wireframer
+            - button "About this result" [ref=e614] [cursor=pointer]:
+              - img [ref=e617]
+          - generic [ref=e621]:
+            - emphasis [ref=e622]: Wireframer by Framer
+            - text: turns a single prompt into a fully structured, responsive page—complete with layout and navigation.
+        - generic [ref=e626]:
+          - generic [ref=e629]:
+            - link "Build Your first Framer Site from Start to Finish Framer https://www.framer.com › Academy" [ref=e631] [cursor=pointer]:
+              - /url: https://www.framer.com/academy/lessons/build-your-first-site
+              - heading "Build Your first Framer Site from Start to Finish" [level=3] [ref=e632]
+              - generic [ref=e638]:
+                - generic [ref=e640]: Framer
+                - generic [ref=e642]: https://www.framer.com › Academy
+            - button "About this result" [ref=e643] [cursor=pointer]:
+              - img [ref=e646]
+          - generic [ref=e649]:
+            - generic [ref=e650]:
+              - text: You can use
+              - emphasis [ref=e651]: Framer's AI site-building tools
+              - text: by starting a new project and selecting the AI workflow (often labeled “Start with AI” or similar). You then ...
+            - link "Read more" [ref=e652] [cursor=pointer]:
+              - /url: https://www.framer.com/academy/lessons/build-your-first-site#:~:text=You%20can%20use%20Framer's%20AI,AI%E2%80%9D%20or%20similar).%20You%20then
+      - generic [ref=e654]:
+        - generic [ref=e659]:
+          - heading "People also search for" [level=2] [ref=e661]
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - link "Framer ai homepage template" [ref=e668] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Framer+ai+homepage+template&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAgmEAE
+                - generic [ref=e669]:
+                  - generic [ref=e674]: Framer ai homepage template
+                  - img [ref=e678]
+              - link "Framer ai homepage free" [ref=e683] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Framer+ai+homepage+free&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAgvEAE
+                - generic [ref=e684]:
+                  - generic [ref=e689]: Framer ai homepage free
+                  - img [ref=e693]
+              - link "Best framer ai homepage" [ref=e698] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Best+framer+ai+homepage&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAgqEAE
+                - generic [ref=e699]:
+                  - generic [ref=e704]: Best framer ai homepage
+                  - img [ref=e708]
+              - link "Framer website" [ref=e713] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Framer+website&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAguEAE
+                - generic [ref=e714]:
+                  - generic [ref=e719]: Framer website
+                  - img [ref=e723]
+            - generic [ref=e725]:
+              - link "Framer website examples" [ref=e729] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Framer+website+examples&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAgrEAE
+                - generic [ref=e730]:
+                  - generic [ref=e735]: Framer website examples
+                  - img [ref=e739]
+              - link "Is Framer AI free" [ref=e744] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Is+Framer+AI+free&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAgpEAE
+                - generic [ref=e745]:
+                  - generic [ref=e750]: Is Framer AI free
+                  - img [ref=e754]
+              - link "Webflow AI" [ref=e759] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Webflow+AI&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAgoEAE
+                - generic [ref=e760]:
+                  - generic [ref=e765]: Webflow AI
+                  - img [ref=e769]
+              - link "Framer website builder" [ref=e774] [cursor=pointer]:
+                - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Framer+website+builder&sa=X&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ1QJ6BAgnEAE
+                - generic [ref=e775]:
+                  - generic [ref=e780]: Framer website builder
+                  - img [ref=e784]
+        - navigation [ref=e786]:
+          - heading "Page Navigation" [level=1] [ref=e787]
+          - text: "1"
+          - link "Page 2" [ref=e790] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=10&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAE
+            - text: "2"
+          - link "Page 3" [ref=e792] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=20&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAG
+            - text: "3"
+          - link "Page 4" [ref=e794] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=30&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAI
+            - text: "4"
+          - link "Page 5" [ref=e796] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=40&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAK
+            - text: "5"
+          - link "Page 6" [ref=e798] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=50&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAM
+            - text: "6"
+          - link "Page 7" [ref=e800] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=60&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAO
+            - text: "7"
+          - link "Page 8" [ref=e802] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=70&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAQ
+            - text: "8"
+          - link "Page 9" [ref=e804] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=80&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAS
+            - text: "9"
+          - link "Page 10" [ref=e806] [cursor=pointer]:
+            - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=90&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8tMDegQIJBAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e808]:
+            - link "Next" [ref=e809] [cursor=pointer]:
+              - /url: /search?q=Framer+AI+homepage&sca_esv=c6c16ab1eb0a4421&ei=9jgwaryhH93LkPIP7O_nmAU&start=10&sa=N&sstk=AU9db-BbikH8imtva5gYR7NbkgR_sTsqmghfnsJRaJCT4gmPJMLTx7Hh5KOg1Lft84wOLrxGkZcTRx43IVQ1WRsXcCqtiEK1lKRtMA&ved=2ahUKEwi89L2J5YmVAxXdJUQIHez3GVMQ8NMDegQIJBAW
+              - generic [ref=e811]: Next
+      - navigation
+    - contentinfo [ref=e812]:
+      - heading "Footer Links" [level=1] [ref=e813]
+      - generic [ref=e817]:
+        - generic [ref=e821]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e823] [cursor=pointer]:
+            - generic [ref=e824]: 92780, Tustin, CA
+            - generic [ref=e826]:
+              - text: "-"
+              - generic [ref=e827]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e829] [cursor=pointer]: Update location
+        - generic [ref=e832]:
+          - link "Help" [ref=e833] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e834] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e835] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e836] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,365 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: AI website builder - Reddit Search!
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - link "Home" [ref=e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e17]
+          - search [ref=e34]:
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - textbox "Clear search Ask" [ref=e43]:
+                - /placeholder: Find anything
+                - text: AI website builder
+              - button "Clear search" [ref=e45] [cursor=pointer]:
+                - img [ref=e48]
+                - generic [ref=e50]:
+                  - generic: Clear search
+              - separator [ref=e51]
+              - link "Ask" [ref=e55] [cursor=pointer]:
+                - /url: /answers/969bcfc5-34a7-476e-8445-eaca7d9827b3/?q=AI+website+builder&source=SERP_SEARCH_BAR_BUTTON&upstreamCID=6137ffd0-9154-41bf-9112-e1956369c72e&upstreamIID=0d936429-07b4-4384-895f-3015d1c28ff2&upstreamQ=AI+website+builder&upstreamQID=1c4a0b23-e9d4-4d20-b5ce-0b7af031dcca&upstreamQT=search_ask
+                - generic [ref=e56]:
+                  - img [ref=e58]
+                  - generic [ref=e60]: Ask
+          - generic [ref=e61]:
+            - link "Sign Up" [ref=e67] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e69]: Sign Up
+            - link "Log In" [ref=e73] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e75]: Log In
+            - button "Expand user menu" [ref=e80] [cursor=pointer]:
+              - img [ref=e83]
+              - generic [ref=e85]:
+                - generic: Expand user menu
+      - generic "AI website builder - Reddit Search!"
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e92]:
+            - generic [ref=e95]:
+              - tablist [ref=e96]:
+                - tab "Posts" [selected] [ref=e97]:
+                  - button "Posts" [ref=e98] [cursor=pointer]:
+                    - generic [ref=e102]: Posts
+                - tab "Comments" [ref=e103]:
+                  - link "Comments" [ref=e104] [cursor=pointer]:
+                    - /url: /r/webdev/search/?q=AI+website+builder&type=comments
+                    - generic [ref=e109]: Comments
+                - tab "Media" [ref=e110]:
+                  - link "Media" [ref=e111] [cursor=pointer]:
+                    - /url: /r/webdev/search/?q=AI+website+builder&type=media
+                    - generic [ref=e116]: Media
+              - button "forward" [ref=e118] [cursor=pointer]:
+                - img [ref=e121]
+                - generic [ref=e123]:
+                  - generic: forward
+              - button "back" [ref=e125] [cursor=pointer]:
+                - img [ref=e128]
+                - generic [ref=e130]:
+                  - generic: back
+            - generic:
+              - generic:
+                - tabpanel
+            - generic [ref=e131]:
+              - button "Relevance" [ref=e135] [cursor=pointer]:
+                - generic [ref=e138]: Relevance
+              - button "All time" [ref=e144] [cursor=pointer]:
+                - generic [ref=e147]: All time
+          - generic [ref=e151]:
+            - generic:
+              - generic:
+                - link "Skip to Sign up" [ref=e152] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "Skip to Right Sidebar" [ref=e153] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e154]:
+            - main [ref=e155]:
+              - generic [ref=e156]:
+                - paragraph [ref=e159]:
+                  - text: Show results from
+                  - link "all of Reddit" [ref=e161] [cursor=pointer]:
+                    - /url: /search/?q=AI+website+builder
+                  - img [ref=e163]
+                - generic [ref=e166]:
+                  - generic:
+                    - heading "What platform are you building your websites on these days?" [level=2]:
+                      - link "What platform are you building your websites on these days?" [ref=e167] [cursor=pointer]:
+                        - /url: /r/webdev/comments/1tj32ih/what_platform_are_you_building_your_websites_on/
+                        - generic [ref=e168]:
+                          - generic: What platform are you building your websites on these days?
+                  - generic [ref=e169]:
+                    - generic [ref=e172]:
+                      - link "r/webdev" [ref=e175] [cursor=pointer]:
+                        - /url: /r/webdev/
+                        - generic [ref=e179]: r/webdev
+                      - generic [ref=e180]: ·
+                      - time [ref=e182]: 26d ago
+                    - link "What platform are you building your websites on these days?" [ref=e183] [cursor=pointer]:
+                      - /url: /r/webdev/comments/1tj32ih/what_platform_are_you_building_your_websites_on/
+                    - generic [ref=e184]:
+                      - generic [ref=e185]:
+                        - generic [ref=e186]: "28"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e187]:
+                        - generic [ref=e188]: "83"
+                        - text: comments
+                - separator [ref=e189]
+                - generic [ref=e191]:
+                  - generic:
+                    - heading "Is it possible to create a fully functional website using AI? How to make a professional site easily?" [level=2]:
+                      - link "Is it possible to create a fully functional website using AI? How to make a professional site easily?" [ref=e192] [cursor=pointer]:
+                        - /url: /r/webdev/comments/1ovv3dq/is_it_possible_to_create_a_fully_functional/
+                        - generic [ref=e193]:
+                          - generic: Is it possible to create a fully functional website using AI? How to make a professional site easily?
+                  - generic [ref=e194]:
+                    - generic [ref=e197]:
+                      - link "r/webdev" [ref=e200] [cursor=pointer]:
+                        - /url: /r/webdev/
+                        - generic [ref=e204]: r/webdev
+                      - generic [ref=e205]: ·
+                      - time [ref=e207]: 7mo ago
+                    - link "Is it possible to create a fully functional website using AI? How to make a professional site easily?" [ref=e208] [cursor=pointer]:
+                      - /url: /r/webdev/comments/1ovv3dq/is_it_possible_to_create_a_fully_functional/
+                    - generic [ref=e209]:
+                      - generic [ref=e210]:
+                        - generic [ref=e211]: "11"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e212]:
+                        - generic [ref=e213]: "90"
+                        - text: comments
+                - separator [ref=e214]
+                - generic [ref=e216]:
+                  - generic:
+                    - heading "AI Built Websites vs Hiring a Designer/Developer" [level=2]:
+                      - link "AI Built Websites vs Hiring a Designer/Developer" [ref=e217] [cursor=pointer]:
+                        - /url: /r/webdev/comments/1ttttjn/ai_built_websites_vs_hiring_a_designerdeveloper/
+                        - generic [ref=e218]:
+                          - generic: AI Built Websites vs Hiring a Designer/Developer
+                  - generic [ref=e219]:
+                    - generic [ref=e222]:
+                      - link "r/webdev" [ref=e225] [cursor=pointer]:
+                        - /url: /r/webdev/
+                        - generic [ref=e229]: r/webdev
+                      - generic [ref=e230]: ·
+                      - time [ref=e232]: 14d ago
+                    - link "AI Built Websites vs Hiring a Designer/Developer" [ref=e233] [cursor=pointer]:
+                      - /url: /r/webdev/comments/1ttttjn/ai_built_websites_vs_hiring_a_designerdeveloper/
+                    - generic [ref=e234]:
+                      - generic [ref=e235]:
+                        - generic [ref=e236]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e237]:
+                        - generic [ref=e238]: "28"
+                        - text: comments
+                - separator [ref=e239]
+                - generic [ref=e241]:
+                  - generic:
+                    - heading "Should i build my portfolio website using ai?" [level=2]:
+                      - link "Should i build my portfolio website using ai?" [ref=e242] [cursor=pointer]:
+                        - /url: /r/webdev/comments/1tdkdfk/should_i_build_my_portfolio_website_using_ai/
+                        - generic [ref=e243]:
+                          - generic: Should i build my portfolio website using ai?
+                  - generic [ref=e244]:
+                    - generic [ref=e247]:
+                      - link "r/webdev" [ref=e250] [cursor=pointer]:
+                        - /url: /r/webdev/
+                        - generic [ref=e254]: r/webdev
+                      - generic [ref=e255]: ·
+                      - time [ref=e257]: 1mo ago
+                    - link "Should i build my portfolio website using ai?" [ref=e258] [cursor=pointer]:
+                      - /url: /r/webdev/comments/1tdkdfk/should_i_build_my_portfolio_website_using_ai/
+                    - generic [ref=e259]:
+                      - generic [ref=e260]:
+                        - generic [ref=e261]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e262]:
+                        - generic [ref=e263]: "34"
+                        - text: comments
+                - separator [ref=e264]
+                - generic [ref=e266]:
+                  - generic:
+                    - heading "To developers who may build websites using AI, what is your current actual workflow?" [level=2]:
+                      - link "To developers who may build websites using AI, what is your current actual workflow?" [ref=e267] [cursor=pointer]:
+                        - /url: /r/webdev/comments/1rplak3/to_developers_who_may_build_websites_using_ai/
+                        - generic [ref=e268]:
+                          - generic: To developers who may build websites using AI, what is your current actual workflow?
+                  - generic [ref=e269]:
+                    - generic [ref=e272]:
+                      - link "r/webdev" [ref=e275] [cursor=pointer]:
+                        - /url: /r/webdev/
+                        - generic [ref=e279]: r/webdev
+                      - generic [ref=e280]: ·
+                      - time [ref=e282]: 3mo ago
+                    - link "To developers who may build websites using AI, what is your current actual workflow?" [ref=e283] [cursor=pointer]:
+                      - /url: /r/webdev/comments/1rplak3/to_developers_who_may_build_websites_using_ai/
+                    - generic [ref=e284]:
+                      - generic [ref=e285]:
+                        - generic [ref=e286]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e287]:
+                        - generic [ref=e288]: "30"
+                        - text: comments
+                - separator [ref=e289]
+                - generic [ref=e291]:
+                  - generic:
+                    - heading "What tools ( including AI tools) do professionals use to create high-end looking websites ?" [level=2]:
+                      - link "What tools ( including AI tools) do professionals use to create high-end looking websites ?" [ref=e292] [cursor=pointer]:
+                        - /url: /r/webdev/comments/1trdg91/what_tools_including_ai_tools_do_professionals/
+                        - generic [ref=e293]:
+                          - generic: What tools ( including AI tools) do professionals use to create high-end looking websites ?
+                  - generic [ref=e294]:
+                    - generic [ref=e297]:
+                      - link "r/webdev" [ref=e300] [cursor=pointer]:
+                        - /url: /r/webdev/
+                        - generic [ref=e304]: r/webdev
+                      - generic [ref=e305]: ·
+                      - time [ref=e307]: 17d ago
+                    - link "What tools ( including AI tools) do professionals use to create high-end looking websites ?" [ref=e308] [cursor=pointer]:
+                      - /url: /r/webdev/comments/1trdg91/what_tools_including_ai_tools_do_professionals/
+                    - generic [ref=e309]:
+                      - generic [ref=e310]:
+                        - generic [ref=e311]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e312]:
+                        - generic [ref=e313]: "18"
+                        - text: comments
+                - separator [ref=e314]
+                - generic [ref=e316]:
+                  - generic:
+                    - heading "Whats the best (AI) website builder for non-coders with creative freedom and stong back-end support?" [level=2]:
+                      - link "Whats the best (AI) website builder for non-coders with creative freedom and stong back-end support?" [ref=e317] [cursor=pointer]:
+                        - /url: /r/webdev/comments/1sthy29/whats_the_best_ai_website_builder_for_noncoders/
+                        - generic [ref=e318]:
+                          - generic: Whats the best (AI) website builder for non-coders with creative freedom and stong back-end support?
+                  - generic [ref=e319]:
+                    - generic [ref=e322]:
+                      - link "r/webdev" [ref=e325] [cursor=pointer]:
+                        - /url: /r/webdev/
+                        - generic [ref=e329]: r/webdev
+                      - generic [ref=e330]: ·
+                      - time [ref=e332]: 2mo ago
+                    - link "Whats the best (AI) website builder for non-coders with creative freedom and stong back-end support?" [ref=e333] [cursor=pointer]:
+                      - /url: /r/webdev/comments/1sthy29/whats_the_best_ai_website_builder_for_noncoders/
+                    - generic [ref=e334]:
+                      - generic [ref=e335]:
+                        - generic [ref=e336]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e337]:
+                        - generic [ref=e338]: "23"
+                        - text: comments
+                - separator [ref=e339]
+            - generic [ref=e343]:
+              - generic [ref=e348]:
+                - heading "Community Info Section" [level=1] [ref=e349]
+                - generic [ref=e350]:
+                  - generic [ref=e351]: "webdev: reddit for web developers"
+                  - generic [ref=e352]: "A community dedicated to all things web development: both front-end and back-end. For more design-related questions, try /r/web_design."
+                  - generic [ref=e353]:
+                    - generic [ref=e355]:
+                      - img [ref=e356]
+                      - text: Created Jan 25, 2009
+                    - generic [ref=e359]:
+                      - img [ref=e360]
+                      - text: Public
+                - generic [ref=e362]:
+                  - generic [ref=e363]:
+                    - strong [ref=e365]:
+                      - generic: 558K
+                    - generic [ref=e366]: Weekly visitors
+                  - generic [ref=e367]:
+                    - strong [ref=e369]:
+                      - generic: 6.8K
+                    - generic [ref=e370]: Weekly contributions
+              - list [ref=e372]:
+                - listitem [ref=e373]:
+                  - link "Home" [ref=e375] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=e376]:
+                  - link "Popular" [ref=e378] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=e379]:
+                  - link "News" [ref=e381] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e382]:
+                  - link "Explore" [ref=e384] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=e385]:
+                  - link "Best of Reddit" [ref=e387] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=e388]:
+                  - link "Best of Reddit in Portuguese" [ref=e390] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=e391]:
+                  - link "Best of Reddit in German" [ref=e393] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=e394]:
+                  - link "Reddit Rules" [ref=e396] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=e397]:
+                  - link "Privacy Policy" [ref=e399] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=e400]:
+                  - link "User Agreement" [ref=e402] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=e403]:
+                  - link "Your Privacy Choices" [ref=e405] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=e406]:
+                  - link "Accessibility" [ref=e408] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=e409]:
+                  - link "Reddit, Inc. © 2026. All rights reserved." [ref=e410] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=e413]:
+          - img
+          - paragraph [ref=e414]: Join the most real place on the internet
+          - generic [ref=e416]:
+            - generic [ref=e419]:
+              - generic [ref=e423]:
+                - button "Continue with Google. Opens in new tab" [ref=e425] [cursor=pointer]:
+                  - generic [ref=e427]:
+                    - img [ref=e429]
+                    - generic [ref=e436]: Continue with Google
+                - iframe
+              - generic [ref=e438] [cursor=pointer]:
+                - generic [ref=e439]:
+                  - img [ref=e440]
+                  - generic [ref=e442]: Continue with Apple
+                - button "Sign in with Apple" [ref=e445]:
+                  - generic [ref=e446]:
+                    - img:
+                      - generic:
+                        - img:
+                          - generic:  Sign in with Apple
+                  - img [ref=e448]
+            - link "Continue with Phone Number" [ref=e451] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e454]:
+                - img [ref=e455]
+                - generic [ref=e458]: Continue with Phone Number
+            - link "Continue with Email" [ref=e460] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e463]:
+                - img [ref=e464]
+                - generic [ref=e466]: Continue with Email
+          - paragraph [ref=e467]:
+            - text: By continuing, you agree to our
+            - link "User Agreement" [ref=e468] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: and acknowledge that you understand the
+            - link "Privacy Policy" [ref=e469] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

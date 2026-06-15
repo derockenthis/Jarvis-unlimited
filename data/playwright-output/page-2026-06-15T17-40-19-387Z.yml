@@ -1,0 +1,556 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The Art of the Save" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQPQgK
+          - 'img "World Cup 2026: The Art of the Save" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: Wix ADI homepage Wix ADI homepage
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DWix%2BADI%2Bhomepage&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&aep=1&ntc=1&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ2J8OegQIEBAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Images" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Wix+ADI+homepage&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQtKgLegQIFxAB
+              - generic [ref=e84]: Images
+          - listitem [ref=e85]:
+            - link "Videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Wix+ADI+homepage&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQtKgLegQIFRAB
+              - generic [ref=e88]: Videos
+          - listitem [ref=e89]:
+            - link "Shopping" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Wix+ADI+homepage&ved=1t:220175&ictx=111
+              - generic [ref=e92]: Shopping
+          - listitem [ref=e93]:
+            - link "Forums" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Wix+ADI+homepage&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQs6gLegQIFhAB
+              - generic [ref=e96]: Forums
+          - listitem [ref=e97]:
+            - link "Short videos" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCH-vUIlZq9RzugLEcfjf51b4dfDKizXS4hTwRCZW2TydVcnv1RUVx0SX0axPgL6aBqzWLqM7Fgdp1vAJL9RWZPIc2PHUY9zbtbj_6P9oDRDl5qriFVIJfnTEOneZ1ow892J3CE1uHNREFxoOuMyUb1ThO7uA&q=Wix+ADI+homepage&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQs6gLegQIExAB
+              - generic [ref=e100]: Short videos
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - generic [ref=e122]:
+      - generic [ref=e141]:
+        - heading "Thinking" [level=2] [ref=e145]:
+          - generic [ref=e146]: Thinking
+        - progressbar "Generating" [ref=e147]
+      - main [ref=e149]:
+        - generic [ref=e153]:
+          - generic [ref=e156]:
+            - heading "Web results" [level=2] [ref=e157]
+            - generic [ref=e158]:
+              - generic [ref=e161]:
+                - link "AI Website Builder - Create A Website In Minutes Wix.com https://www.wix.com › ai-website-builder" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.wix.com/ai-website-builder
+                  - heading "AI Website Builder - Create A Website In Minutes" [level=3] [ref=e164]
+                  - generic [ref=e170]:
+                    - generic [ref=e172]: Wix.com
+                    - generic [ref=e174]: https://www.wix.com › ai-website-builder
+                - button "About this result" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - emphasis [ref=e183]: Wix ADI
+                  - text: was our first‑generation AI tool, but it is now deprecated and no longer available for new sites. As of November 10, 2024, ADI was retired, and all ...
+                - link "Read more" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.wix.com/ai-website-builder#:~:text=Now%20that's%20how%20you%20create
+          - generic [ref=e188]:
+            - generic [ref=e191]:
+              - link "The evolution from Wix ADI to Wix Harmony Wix.com https://www.wix.com › wix-artificial-design-intelligence" [ref=e193] [cursor=pointer]:
+                - /url: https://www.wix.com/blog/wix-artificial-design-intelligence
+                - heading "The evolution from Wix ADI to Wix Harmony" [level=3] [ref=e194]
+                - generic [ref=e200]:
+                  - generic [ref=e202]: Wix.com
+                  - generic [ref=e204]: https://www.wix.com › wix-artificial-design-intelligence
+              - button "About this result" [ref=e205] [cursor=pointer]:
+                - img [ref=e208]
+            - generic [ref=e211]:
+              - generic [ref=e212]: Jan 23, 2026 —
+              - generic [ref=e213]:
+                - emphasis [ref=e214]: Learn all about Wix ADI
+                - text: (artificial design intelligence), which marked the start of Wix's journey in AI website creation.
+          - generic [ref=e218]:
+            - generic [ref=e221]:
+              - 'link "Wix.com: Website Builder - Create a Free Website In Minutes Wix.com https://www.wix.com" [ref=e223] [cursor=pointer]':
+                - /url: https://www.wix.com/
+                - 'heading "Wix.com: Website Builder - Create a Free Website In Minutes" [level=3] [ref=e224]'
+                - generic [ref=e230]:
+                  - generic [ref=e232]: Wix.com
+                  - generic [ref=e234]: https://www.wix.com
+              - button "About this result" [ref=e235] [cursor=pointer]:
+                - img [ref=e238]
+            - generic [ref=e242]:
+              - text: Get everything you need to build a website your way.
+              - emphasis [ref=e243]: Wix's free, easy-to-use website builder
+              - text: offers 2000+ templates, built-in AI tools and a custom domain.
+          - generic [ref=e247]:
+            - generic [ref=e249]:
+              - heading "Videos" [level=2] [ref=e250]
+              - button "About this result" [ref=e251] [cursor=pointer]:
+                - img [ref=e254]
+            - generic [ref=e257]:
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]:
+                    - 'link "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI ... YouTube Tutorials by Manizha & Ryan Apr 24, 2023" [ref=e266] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=nmVzwqesynQ
+                      - 'heading "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI ... YouTube Tutorials by Manizha & Ryan Apr 24, 2023" [level=3] [ref=e267]':
+                        - generic [ref=e270]: "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI ..."
+                        - generic [ref=e272]:
+                          - generic [ref=e273]:
+                            - text: YouTube
+                            - generic [ref=e274]: · Tutorials by Manizha & Ryan
+                          - generic [ref=e275]: Apr 24, 2023
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Tutorials by Manizha & Ryan
+                        - button "About this result" [ref=e276] [cursor=pointer]:
+                          - img [ref=e279]
+                  - 'button "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI ... by Tutorials by Manizha & Ryan on YouTube. Play on Google. 8:45" [ref=e281] [cursor=pointer]':
+                    - generic [ref=e282]:
+                      - img [ref=e285]
+                      - generic [ref=e288]:
+                        - generic [ref=e289]: 8:45
+                        - img [ref=e292]
+                - generic [ref=e297]:
+                  - button "6 key moments in this video" [expanded] [ref=e298] [cursor=pointer]:
+                    - generic [ref=e301]:
+                      - generic [ref=e304]: 6 key moments in this video
+                      - img [ref=e306]
+                  - generic [ref=e310]:
+                    - list [ref=e312]:
+                      - generic [ref=e313]:
+                        - link "Difference between the Simple Editor and the Adi. 1 of 6, 42 seconds." [ref=e314] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=nmVzwqesynQ&t=42
+                          - generic [ref=e316]:
+                            - generic [ref=e317]:
+                              - text: From
+                              - generic [ref=e318]: 00:42
+                            - generic [ref=e319]: Difference between the Simple Editor and the Adi
+                        - link "Pick a Theme. 2 of 6, 3 minutes, 6 seconds." [ref=e320] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=nmVzwqesynQ&t=186
+                          - generic [ref=e322]:
+                            - generic [ref=e323]:
+                              - text: From
+                              - generic [ref=e324]: 03:06
+                            - generic [ref=e325]: Pick a Theme
+                        - link "Preparing Your Home Page Designs. 3 of 6, 3 minutes, 25 seconds." [ref=e326] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=nmVzwqesynQ&t=205
+                          - generic [ref=e328]:
+                            - generic [ref=e329]:
+                              - text: From
+                              - generic [ref=e330]: 03:25
+                            - generic [ref=e331]: Preparing Your Home Page Designs
+                        - link "Section Background. 4 of 6, 6 minutes, 5 seconds." [ref=e332] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=nmVzwqesynQ&t=365
+                          - generic [ref=e334]:
+                            - generic [ref=e335]:
+                              - text: From
+                              - generic [ref=e336]: 06:05
+                            - generic [ref=e337]: Section Background
+                        - link "Add a Section. 5 of 6, 6 minutes, 23 seconds." [ref=e338] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=nmVzwqesynQ&t=383
+                          - generic [ref=e340]:
+                            - generic [ref=e341]:
+                              - text: From
+                              - generic [ref=e342]: 06:23
+                            - generic [ref=e343]: Add a Section
+                        - link "Add a Button. 6 of 6, 6 minutes, 51 seconds." [ref=e344] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=nmVzwqesynQ&t=411
+                          - generic [ref=e346]:
+                            - generic [ref=e347]:
+                              - text: From
+                              - generic [ref=e348]: 06:51
+                            - generic [ref=e349]: Add a Button
+                    - button [ref=e350] [cursor=pointer]:
+                      - img [ref=e353]
+              - generic [ref=e361]:
+                - generic [ref=e362]:
+                  - generic [ref=e363]:
+                    - 'link "Stop Waiting: Build Your Free Wix AI-Powered Website Today! YouTube Teacher''s Tech Jan 6, 2025" [ref=e365] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=q35ui5tf5zE
+                      - 'heading "Stop Waiting: Build Your Free Wix AI-Powered Website Today! YouTube Teacher''s Tech Jan 6, 2025" [level=3] [ref=e366]':
+                        - generic [ref=e369]: "Stop Waiting: Build Your Free Wix AI-Powered Website Today!"
+                        - generic [ref=e371]:
+                          - generic [ref=e372]:
+                            - text: YouTube
+                            - generic [ref=e373]: · Teacher's Tech
+                          - generic [ref=e374]: Jan 6, 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Teacher's Tech
+                        - button "About this result" [ref=e375] [cursor=pointer]:
+                          - img [ref=e378]
+                  - 'button "Stop Waiting: Build Your Free Wix AI-Powered Website Today! by Teacher''s Tech on YouTube. Play on Google. 36:16" [ref=e380] [cursor=pointer]':
+                    - generic [ref=e381]:
+                      - img [ref=e387]
+                      - generic [ref=e390]:
+                        - generic [ref=e391]: 36:16
+                        - img [ref=e394]
+                - button "23 key moments in this video" [ref=e400] [cursor=pointer]:
+                  - generic [ref=e409]:
+                    - generic [ref=e412]: 23 key moments in this video
+                    - img [ref=e414]
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - generic [ref=e423]:
+                    - link "How To Use Wix Adi To Create A Free Website (Step By Step) YouTube The Social Guide May 2, 2022" [ref=e425] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=YXKldm9y-Do
+                      - heading "How To Use Wix Adi To Create A Free Website (Step By Step) YouTube The Social Guide May 2, 2022" [level=3] [ref=e426]:
+                        - generic [ref=e429]: How To Use Wix Adi To Create A Free Website (Step By Step)
+                        - generic [ref=e431]:
+                          - generic [ref=e432]:
+                            - text: YouTube
+                            - generic [ref=e433]: · The Social Guide
+                          - generic [ref=e434]: May 2, 2022
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · The Social Guide
+                        - button "About this result" [ref=e435] [cursor=pointer]:
+                          - img [ref=e438]
+                  - button "How To Use Wix Adi To Create A Free Website (Step By Step) by The Social Guide on YouTube. Play on Google. 8:13" [ref=e440] [cursor=pointer]:
+                    - generic [ref=e441]:
+                      - img [ref=e447]
+                      - generic [ref=e450]:
+                        - generic [ref=e451]: 8:13
+                        - img [ref=e454]
+                - button "6 key moments in this video" [ref=e460] [cursor=pointer]:
+                  - generic [ref=e469]:
+                    - generic [ref=e472]: 6 key moments in this video
+                    - img [ref=e474]
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - generic [ref=e483]:
+                    - link "Wix ADI Website Tutorial - How to Make a Website with Wix YouTube Julian Weber Feb 14, 2022" [ref=e485] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=1gsaLqe1zn8
+                      - heading "Wix ADI Website Tutorial - How to Make a Website with Wix YouTube Julian Weber Feb 14, 2022" [level=3] [ref=e486]:
+                        - generic [ref=e489]: Wix ADI Website Tutorial - How to Make a Website with Wix
+                        - generic [ref=e491]:
+                          - generic [ref=e492]:
+                            - text: YouTube
+                            - generic [ref=e493]: · Julian Weber
+                          - generic [ref=e494]: Feb 14, 2022
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Julian Weber
+                        - button "About this result" [ref=e495] [cursor=pointer]:
+                          - img [ref=e498]
+                  - button "Wix ADI Website Tutorial - How to Make a Website with Wix by Julian Weber on YouTube. Play on Google. 18:45" [ref=e500] [cursor=pointer]:
+                    - generic [ref=e501]:
+                      - img [ref=e507]
+                      - generic [ref=e510]:
+                        - generic [ref=e511]: 18:45
+                        - img [ref=e514]
+                - button "In this video we want to see how we can build a beautiful website with the website builder of wix and we will be using the artificial design intelligence tool." [ref=e517] [cursor=pointer]:
+                  - generic [ref=e521]: In this video we want to see how we can build a beautiful website with the website builder of wix and we will be using the artificial design intelligence tool.
+            - link "View all videos" [ref=e524] [cursor=pointer]:
+              - /url: /search?sca_esv=c6c16ab1eb0a4421&udm=7&q=Wix+ADI+homepage&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8ccDKAJ6BAhHEAQ
+              - separator [ref=e525]
+              - generic [ref=e526]:
+                - generic [ref=e527]: View all
+                - img [ref=e529]
+          - generic [ref=e535]:
+            - heading "People also ask" [level=2] [ref=e537]
+            - generic [ref=e538]:
+              - button "Why is Wix falling?" [ref=e544] [cursor=pointer]:
+                - generic [ref=e546]: Why is Wix falling?
+                - img [ref=e549]
+              - button "What is the ADI feature in Wix?" [ref=e558] [cursor=pointer]:
+                - generic [ref=e560]: What is the ADI feature in Wix?
+                - img [ref=e563]
+              - button "What are the disadvantages of using Wix Adi?" [ref=e572] [cursor=pointer]:
+                - generic [ref=e574]: What are the disadvantages of using Wix Adi?
+                - img [ref=e577]
+              - button "How do I add a homepage on Wix?" [ref=e586] [cursor=pointer]:
+                - generic [ref=e588]: How do I add a homepage on Wix?
+                - img [ref=e591]
+          - generic [ref=e596]:
+            - heading "Web results" [level=2] [ref=e597]
+            - generic [ref=e598]:
+              - generic [ref=e601]:
+                - link "How To Use Wix ADI like a pro! YouTube · Flipped Classroom Tutorials 307K+ followers" [ref=e603] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLwXXOxvDboeZsGZGTmRyIsZ88qkbBuki2
+                  - heading "How To Use Wix ADI like a pro!" [level=3] [ref=e604]
+                  - generic [ref=e610]:
+                    - generic [ref=e612]: YouTube · Flipped Classroom Tutorials
+                    - generic [ref=e614]: 307K+ followers
+                - button "About this result" [ref=e615] [cursor=pointer]:
+                  - img [ref=e618]
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - emphasis [ref=e623]: How To create a website with Wix ADI
+                  - text: . Flipped Classroom Tutorials · 6:10 ... How use a Header and Footer on the Wix ADI site. Flipped Classroom Tutorials.
+                - link "Read more" [ref=e624] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLwXXOxvDboeZsGZGTmRyIsZ88qkbBuki2#:~:text=How%20To%20create%20a%20website,6%3A10&text=How%20use%20a%20Header%20and,Flipped%20Classroom%20Tutorials
+          - generic [ref=e628]:
+            - generic [ref=e631]:
+              - link "Wix ADI - AI-Powered Website Creation B12 Website Builder https://www.b12.io › ai-website-builder-directory › wix..." [ref=e633] [cursor=pointer]:
+                - /url: https://www.b12.io/ai-website-builder-directory/wix-adi/
+                - heading "Wix ADI - AI-Powered Website Creation" [level=3] [ref=e634]
+                - generic [ref=e640]:
+                  - generic [ref=e642]: B12 Website Builder
+                  - generic [ref=e644]: https://www.b12.io › ai-website-builder-directory › wix...
+              - button "About this result" [ref=e645] [cursor=pointer]:
+                - img [ref=e648]
+            - generic [ref=e651]:
+              - generic [ref=e652]:
+                - emphasis [ref=e653]: Wix ADI
+                - text: offers numerous options for website customization. With this platform, users can customize elements such as layouts, text, images, galleries, color ...
+              - link "Read more" [ref=e654] [cursor=pointer]:
+                - /url: https://www.b12.io/ai-website-builder-directory/wix-adi/#:~:text=Wix%20ADI%20offers%20numerous%20options,the%20site%20menu%2C%20and%20animations.
+          - generic [ref=e658]:
+            - generic [ref=e661]:
+              - 'link "Wix ADI vs Wix Editor: What''s the Difference? Which One to ... WPShout https://wpshout.com › wix-adi-vs-wix-editor" [ref=e663] [cursor=pointer]':
+                - /url: https://wpshout.com/wix-adi-vs-wix-editor/
+                - 'heading "Wix ADI vs Wix Editor: What''s the Difference? Which One to ..." [level=3] [ref=e664]'
+                - generic [ref=e670]:
+                  - generic [ref=e672]: WPShout
+                  - generic [ref=e674]: https://wpshout.com › wix-adi-vs-wix-editor
+              - button "About this result" [ref=e675] [cursor=pointer]:
+                - img [ref=e678]
+            - generic [ref=e681]:
+              - generic [ref=e682]: Jul 8, 2025 —
+              - generic [ref=e683]:
+                - emphasis [ref=e684]: Wix ADI is a website builder powered by artificial intelligence
+                - text: ", whereas Wix Editor uses a more traditional method of offering pre-designed templates and a ..."
+              - link "Read more" [ref=e685] [cursor=pointer]:
+                - /url: https://wpshout.com/wix-adi-vs-wix-editor/#:~:text=Wix%20ADI%20is%20a%20website,templates%20and%20a%20drag%2Dand%2Ddrop%20builder.
+          - generic [ref=e689]:
+            - generic [ref=e692]:
+              - link "Build a website using Wix Artificial Design Intelligence Coursera https://www.coursera.org › projects › build-website-usi..." [ref=e694] [cursor=pointer]:
+                - /url: https://www.coursera.org/projects/build-website-using-wix-artificial-design-intelligence
+                - heading "Build a website using Wix Artificial Design Intelligence" [level=3] [ref=e695]
+                - generic [ref=e701]:
+                  - generic [ref=e703]: Coursera
+                  - generic [ref=e705]: https://www.coursera.org › projects › build-website-usi...
+              - button "About this result" [ref=e706] [cursor=pointer]:
+                - img [ref=e709]
+            - generic [ref=e712]:
+              - generic [ref=e713]:
+                - emphasis [ref=e714]: Design a stunning and unique website
+                - text: using Wix Artificial Design Intelligence using different combinations of layouts, themes, fonts & sections.
+              - link "Read more" [ref=e715] [cursor=pointer]:
+                - /url: https://www.coursera.org/projects/build-website-using-wix-artificial-design-intelligence#:~:text=Design%20a%20stunning%20and%20unique,layouts%2C%20themes%2C%20fonts%20%26%20sections
+          - generic [ref=e719]:
+            - generic [ref=e722]:
+              - link "ADI Sites No Longer Supported | Help Center Wix.com https://support.wix.com › ... › How to begin" [ref=e724] [cursor=pointer]:
+                - /url: https://support.wix.com/en/article/adi-sites-no-longer-supported
+                - heading "ADI Sites No Longer Supported | Help Center" [level=3] [ref=e725]
+                - generic [ref=e731]:
+                  - generic [ref=e733]: Wix.com
+                  - generic [ref=e735]: https://support.wix.com › ... › How to begin
+              - button "About this result" [ref=e736] [cursor=pointer]:
+                - img [ref=e739]
+            - generic [ref=e742]:
+              - generic [ref=e743]:
+                - text: The ADI builder is no longer supported and cannot be accessed to create websites.
+                - emphasis [ref=e744]: Wix ADI has been replaced by the Wix AI Website Builder
+                - text: ", which is now Wix's AI ..."
+              - link "Read more" [ref=e745] [cursor=pointer]:
+                - /url: https://support.wix.com/en/article/adi-sites-no-longer-supported#:~:text=The%20ADI%20builder%20is%20no,AI%2Dpowered%20solution%20for%20creating%20websites.
+          - generic [ref=e749]:
+            - heading "Images" [level=2] [ref=e753]
+            - generic [ref=e757]:
+              - generic [ref=e761] [cursor=pointer]:
+                - link "The evolution from Wix ADI to Wix Harmony Wix.com":
+                  - /url: https://www.wix.com/blog/wix-artificial-design-intelligence
+                - button "The evolution from Wix ADI to Wix Harmony" [ref=e763]:
+                  - img "The evolution from Wix ADI to Wix Harmony" [ref=e765]
+                - generic [ref=e767]:
+                  - generic [ref=e769]: The evolution from Wix ADI to Wix Harmony
+                  - generic [ref=e770]:
+                    - generic [ref=e777]: Wix.com
+                    - button "About this result" [ref=e780]:
+                      - img [ref=e783]
+              - generic [ref=e788] [cursor=pointer]:
+                - 'link "Wix ADI Review 2025: Is It Really That Powerful? Elegant Themes"':
+                  - /url: https://www.elegantthemes.com/blog/business/wix-adi-review
+                - 'button "Wix ADI Review 2025: Is It Really That Powerful?" [ref=e790]':
+                  - 'img "Wix ADI Review 2025: Is It Really That Powerful?" [ref=e792]'
+                - generic [ref=e794]:
+                  - generic [ref=e796]: "Wix ADI Review 2025: Is It Really That Powerful?"
+                  - generic [ref=e797]:
+                    - generic [ref=e804]: Elegant Themes
+                    - button "About this result" [ref=e807]:
+                      - img [ref=e810]
+              - generic [ref=e815] [cursor=pointer]:
+                - 'link "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI (For Beginners) YouTube"':
+                  - /url: https://www.youtube.com/watch?v=nmVzwqesynQ
+                - 'button "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI (For Beginners)" [ref=e817]':
+                  - 'img "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI (For Beginners)" [ref=e819]'
+                - generic [ref=e821]:
+                  - generic [ref=e823]: "Wix ADI Website Tutorial 2026: Build A Website With Wix ADI (For Beginners)"
+                  - generic [ref=e824]:
+                    - generic [ref=e831]: YouTube
+                    - button "About this result" [ref=e834]:
+                      - img [ref=e837]
+            - button "Show more images" [ref=e840] [cursor=pointer]:
+              - separator [ref=e841]
+              - generic [ref=e842]:
+                - generic [ref=e843]: Show more images
+                - img [ref=e845]
+        - generic [ref=e848]:
+          - generic [ref=e853]:
+            - heading "People also search for" [level=2] [ref=e855]
+            - generic [ref=e857]:
+              - generic [ref=e858]:
+                - link "Wix adi homepage sign in" [ref=e862] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Wix+adi+homepage+sign+in&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAg9EAE
+                  - generic [ref=e863]:
+                    - generic [ref=e868]: Wix adi homepage sign in
+                    - img [ref=e872]
+                - link "Wix adi homepage login" [ref=e877] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Wix+adi+homepage+login&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAhNEAE
+                  - generic [ref=e878]:
+                    - generic [ref=e883]: Wix adi homepage login
+                    - img [ref=e887]
+                - link "Wix adi homepage app" [ref=e892] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Wix+adi+homepage+app&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAhOEAE
+                  - generic [ref=e893]:
+                    - generic [ref=e898]: Wix adi homepage app
+                    - img [ref=e902]
+                - link "Wix adi homepage review" [ref=e907] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Wix+adi+homepage+review&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAhMEAE
+                  - generic [ref=e908]:
+                    - generic [ref=e913]: Wix adi homepage review
+                    - img [ref=e917]
+              - generic [ref=e919]:
+                - link "Free AI website builder" [ref=e923] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Free+AI+website+builder&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAhKEAE
+                  - generic [ref=e924]:
+                    - generic [ref=e929]: Free AI website builder
+                    - img [ref=e933]
+                - link "Wix AI website builder" [ref=e938] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Wix+AI+website+builder&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAhGEAE
+                  - generic [ref=e939]:
+                    - generic [ref=e944]: Wix AI website builder
+                    - img [ref=e948]
+                - link "Wix AI website builder free" [ref=e953] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Wix+AI+website+builder+free&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAhDEAE
+                  - generic [ref=e954]:
+                    - generic [ref=e959]: Wix AI website builder free
+                    - img [ref=e963]
+                - link "Create website free" [ref=e968] [cursor=pointer]:
+                  - /url: /search?sca_esv=c6c16ab1eb0a4421&q=Create+website+free&sa=X&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ1QJ6BAhCEAE
+                  - generic [ref=e969]:
+                    - generic [ref=e974]: Create website free
+                    - img [ref=e978]
+          - navigation [ref=e980]:
+            - heading "Page Navigation" [level=1] [ref=e981]
+            - text: "1"
+            - link "Page 2" [ref=e984] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=10&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAE
+              - text: "2"
+            - link "Page 3" [ref=e986] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=20&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAG
+              - text: "3"
+            - link "Page 4" [ref=e988] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=30&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAI
+              - text: "4"
+            - link "Page 5" [ref=e990] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=40&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAK
+              - text: "5"
+            - link "Page 6" [ref=e992] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=50&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAM
+              - text: "6"
+            - link "Page 7" [ref=e994] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=60&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAO
+              - text: "7"
+            - link "Page 8" [ref=e996] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=70&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAQ
+              - text: "8"
+            - link "Page 9" [ref=e998] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=80&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAS
+              - text: "9"
+            - link "Page 10" [ref=e1000] [cursor=pointer]:
+              - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=90&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8tMDegQIMxAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1002]:
+              - link "Next" [ref=e1003] [cursor=pointer]:
+                - /url: /search?q=Wix+ADI+homepage&sca_esv=c6c16ab1eb0a4421&ei=AjkwarWiIvbOkPIPoPHygAI&start=10&sa=N&sstk=AU9db-AVPkoKAC5pDGdA1f0Nnm5K25Q4ScXT2Adr4LBgiUaQKCez1aiH7tcsAeOWHULq94MuZkmMTg-tq3EMPwmqSBXcfumcpfZzqA&ved=2ahUKEwi1q52P5YmVAxV2J0QIHaC4HCAQ8NMDegQIMxAW
+                - generic [ref=e1005]: Next
+        - navigation
+    - contentinfo [ref=e1006]:
+      - heading "Footer Links" [level=1] [ref=e1007]
+      - generic [ref=e1011]:
+        - generic [ref=e1015]:
+          - button "92780, Tustin, CA - From your IP address" [ref=e1017] [cursor=pointer]:
+            - generic [ref=e1018]: 92780, Tustin, CA
+            - generic [ref=e1020]:
+              - text: "-"
+              - generic [ref=e1021]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e1023] [cursor=pointer]: Update location
+        - generic [ref=e1026]:
+          - link "Help" [ref=e1027] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e1028] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1029] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e1030] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

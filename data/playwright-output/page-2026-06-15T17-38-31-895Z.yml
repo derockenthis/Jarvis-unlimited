@@ -1,0 +1,175 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - generic [ref=e7]:
+        - generic: website builder - Reddit Search!
+      - banner [ref=e10]:
+        - navigation [ref=e11]:
+          - link "Home" [ref=e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+            - img [ref=e17]
+          - search [ref=e34]:
+            - generic [ref=e36]:
+              - img [ref=e39]
+              - textbox "Clear search Ask" [ref=e43]:
+                - /placeholder: Find anything
+                - text: website builder
+              - button "Clear search" [ref=e45] [cursor=pointer]:
+                - img [ref=e48]
+                - generic [ref=e50]:
+                  - generic: Clear search
+              - separator [ref=e51]
+              - link "Ask" [ref=e55] [cursor=pointer]:
+                - /url: /answers/e291be9e-3345-481e-aaf9-a8aa98313a5c/?q=website+builder&source=SERP_SEARCH_BAR_BUTTON&upstreamCID=40a89efb-f1fe-4561-aa1c-4aef1124d12b&upstreamIID=1556be3d-ffa3-4f64-bcc4-ac1f56a716de&upstreamQ=website+builder&upstreamQID=ad2d7200-e6e2-4660-90be-9fd58275628b&upstreamQT=search_ask
+                - generic [ref=e56]:
+                  - img [ref=e58]
+                  - generic [ref=e60]: Ask
+          - generic [ref=e61]:
+            - link "Sign Up" [ref=e67] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e69]: Sign Up
+            - link "Log In" [ref=e73] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e75]: Log In
+            - button "Expand user menu" [ref=e80] [cursor=pointer]:
+              - img [ref=e83]
+              - generic [ref=e85]:
+                - generic: Expand user menu
+      - generic "website builder - Reddit Search!"
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e92]:
+            - generic [ref=e95]:
+              - tablist [ref=e96]:
+                - tab "Posts" [selected] [ref=e97]:
+                  - button "Posts" [ref=e98] [cursor=pointer]:
+                    - generic [ref=e102]: Posts
+                - tab "Comments" [ref=e103]:
+                  - link "Comments" [ref=e104] [cursor=pointer]:
+                    - /url: /r/ArtificialIntelligence/search/?q=website+builder&type=comments
+                    - generic [ref=e109]: Comments
+                - tab "Media" [ref=e110]:
+                  - link "Media" [ref=e111] [cursor=pointer]:
+                    - /url: /r/ArtificialIntelligence/search/?q=website+builder&type=media
+                    - generic [ref=e116]: Media
+              - button "forward" [ref=e118] [cursor=pointer]:
+                - img [ref=e121]
+                - generic [ref=e123]:
+                  - generic: forward
+              - button "back" [ref=e125] [cursor=pointer]:
+                - img [ref=e128]
+                - generic [ref=e130]:
+                  - generic: back
+            - generic:
+              - generic:
+                - tabpanel
+            - generic [ref=e131]:
+              - button "Relevance" [ref=e135] [cursor=pointer]:
+                - generic [ref=e138]: Relevance
+              - button "All time" [ref=e144] [cursor=pointer]:
+                - generic [ref=e147]: All time
+          - generic [ref=e151]:
+            - generic:
+              - generic:
+                - link "Skip to Sign up" [ref=e152] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "Skip to Right Sidebar" [ref=e153] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e154]:
+            - main [ref=e155]:
+              - generic [ref=e156]:
+                - paragraph [ref=e159]:
+                  - text: Show results from
+                  - link "all of Reddit" [ref=e161] [cursor=pointer]:
+                    - /url: /search/?q=website+builder
+                  - img [ref=e163]
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Hm...we couldn’t find any results for website builder
+                  - generic [ref=e168]: Double-check your spelling or try different keywords
+                  - link "Adjust your search" [ref=e170] [cursor=pointer]:
+                    - /url: "#"
+                    - button "Adjust your search" [ref=e171]:
+                      - generic [ref=e173]: Adjust your search
+            - list [ref=e179]:
+              - listitem [ref=e180]:
+                - link "Home" [ref=e182] [cursor=pointer]:
+                  - /url: /?feed=home
+              - listitem [ref=e183]:
+                - link "Popular" [ref=e185] [cursor=pointer]:
+                  - /url: /r/popular/
+              - listitem [ref=e186]:
+                - link "News" [ref=e188] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e189]:
+                - link "Explore" [ref=e191] [cursor=pointer]:
+                  - /url: /explore/
+              - listitem [ref=e192]:
+                - link "Best of Reddit" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/global/
+              - listitem [ref=e195]:
+                - link "Best of Reddit in Portuguese" [ref=e197] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+              - listitem [ref=e198]:
+                - link "Best of Reddit in German" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.reddit.com/posts/2026/tl-de/
+              - listitem [ref=e201]:
+                - link "Reddit Rules" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/content-policy
+              - listitem [ref=e204]:
+                - link "Privacy Policy" [ref=e206] [cursor=pointer]:
+                  - /url: https://www.reddit.com/policies/privacy-policy
+              - listitem [ref=e207]:
+                - link "User Agreement" [ref=e209] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/user-agreement
+              - listitem [ref=e210]:
+                - link "Your Privacy Choices" [ref=e212] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/articles/43980704794004
+              - listitem [ref=e213]:
+                - link "Accessibility" [ref=e215] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+              - listitem [ref=e216]:
+                - link "Reddit, Inc. © 2026. All rights reserved." [ref=e217] [cursor=pointer]:
+                  - /url: https://redditinc.com
+        - generic [ref=e220]:
+          - img
+          - paragraph [ref=e221]: Join the most real place on the internet
+          - generic [ref=e223]:
+            - generic [ref=e226]:
+              - generic [ref=e230]:
+                - button "Continue with Google. Opens in new tab" [ref=e232] [cursor=pointer]:
+                  - generic [ref=e234]:
+                    - img [ref=e236]
+                    - generic [ref=e243]: Continue with Google
+                - iframe
+              - generic [ref=e245] [cursor=pointer]:
+                - generic [ref=e246]:
+                  - img [ref=e247]
+                  - generic [ref=e249]: Continue with Apple
+                - button "Sign in with Apple" [ref=e252]:
+                  - generic [ref=e253]:
+                    - img:
+                      - generic:
+                        - img:
+                          - generic:  Sign in with Apple
+                  - img [ref=e255]
+            - link "Continue with Phone Number" [ref=e258] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e261]:
+                - img [ref=e262]
+                - generic [ref=e265]: Continue with Phone Number
+            - link "Continue with Email" [ref=e267] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+              - generic [ref=e270]:
+                - img [ref=e271]
+                - generic [ref=e273]: Continue with Email
+          - paragraph [ref=e274]:
+            - text: By continuing, you agree to our
+            - link "User Agreement" [ref=e275] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: and acknowledge that you understand the
+            - link "Privacy Policy" [ref=e276] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .
